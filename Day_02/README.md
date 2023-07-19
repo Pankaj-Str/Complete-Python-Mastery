@@ -1,7 +1,10 @@
+### Topic 
+-------------
 #### 1. Python Comments 
 #### 2. Python Variables
 #### 3. Python Constants
 #### 4. Python Literals
+#### 5 Python Data Types
 
 # 1 Python Comments 
 
@@ -133,3 +136,105 @@ literals are the literal representations of values in the code. They are fixed v
    - Representing the truth values `True` and `False`.
 
 These are some of the most common types of literals in Python. Literals provide a convenient way to represent constant values directly in the code, making it more readable and expressive.
+
+-------------------
+# 5 Python Data Types
+
+Data types define the kind of values that can be stored and manipulated by variables. Python is a dynamically typed language, which means you don't need to declare the data type explicitly. The interpreter infers the type based on the value assigned to a variable. Here are some common data types in Python:
+
+1. Numeric Types:
+   - Integer (`int`): Whole numbers without a fractional part, such as `42` or `-10`.
+   - Floating-Point (`float`): Numbers with a decimal point or exponent notation, such as `3.14` or `-2.5`.
+   - Complex (`complex`): Numbers with both a real and imaginary part, such as `2+3j`.
+
+2. Text Type:
+   - String (`str`): Ordered sequences of characters, such as `'Hello'` or `"Python"`.
+
+3. Sequence Types:
+   - List (`list`): Ordered collections of items, which can be of different data types, enclosed within square brackets (`[...]`), such as `[1, 2, 3]` or `['apple', 'banana', 'cherry']`.
+   - Tuple (`tuple`): Similar to lists but immutable, enclosed within parentheses (`(...)`), such as `(1, 2, 3)` or `('apple', 'banana', 'cherry')`.
+
+4. Mapping Type:
+   - Dictionary (`dict`): Unordered collections of key-value pairs enclosed within curly braces (`{...}`), such as `{'name': 'John', 'age': 30}`.
+
+5. Set Types:
+   - Set (`set`): Unordered collections of unique elements enclosed within curly braces (`{...}`), such as `{1, 2, 3}`.
+
+6. Boolean Type:
+   - Boolean (`bool`): Represents truth values, either `True` or `False`.
+
+7. None Type:
+   - None (`None`): Represents the absence of a value.
+
+These are some of the built-in data types provided by Python. Additionally, Python allows you to define and work with custom data types using classes and objects. Understanding the data types is crucial for writing correct and efficient code, as it determines how the values are stored, manipulated, and interact with each other.
+
+
+---------------
+Here are some examples of using different data types in Python:
+
+1. Numeric Types:
+
+```python
+# Integer
+x = 42
+y = -10
+
+# Floating-Point
+pi = 3.14
+temperature = -2.5
+
+# Complex
+z = 2 + 3j
+```
+
+2. Text Type:
+
+```python
+message = 'Hello, World!'
+name = "Alice"
+```
+
+3. Sequence Types:
+
+```python
+# List
+numbers = [1, 2, 3, 4, 5]
+fruits = ['apple', 'banana', 'cherry']
+
+# Tuple
+coordinates = (10, 20)
+colors = ('red', 'green', 'blue')
+```
+
+4. Mapping Type:
+
+```python
+student = {
+    'name': 'John',
+    'age': 25,
+    'grade': 'A'
+}
+```
+
+5. Set Type:
+
+```python
+numbers = {1, 2, 3, 4, 5}
+unique_letters = set('hello')
+```
+
+6. Boolean Type:
+
+```python
+is_valid = True
+is_empty = False
+```
+
+7. None Type:
+
+```python
+result = None
+```
+
+These examples demonstrate the usage of different data types in Python. Remember that Python is dynamically typed, so you can assign values of different types to variables. The data type of a variable is determined by the value assigned to it.
+
