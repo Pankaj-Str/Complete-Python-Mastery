@@ -1,11 +1,3 @@
-### Topic 
--------------
-#### 1. Python Comments 
-#### 2. Python Variables
-#### 3. Python Constants
-#### 4. Python Literals
-#### 5 Python Data Types
-
 # 1 Python Comments 
 
 Comments are used to add explanatory notes or annotations within the code. They are ignored by the Python interpreter and have no impact on the execution of the program. Comments are useful for documenting code, providing context, and making it easier for other developers (including yourself) to understand the code.
