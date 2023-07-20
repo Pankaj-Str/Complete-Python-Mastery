@@ -230,3 +230,29 @@ result = None
 
 These examples demonstrate the usage of different data types in Python. Remember that Python is dynamically typed, so you can assign values of different types to variables. The data type of a variable is determined by the value assigned to it.
 
+-------------------
+
+Question 1 : Create a student marksheet program output like this 
+
+
+### Student MarkSheet
+----
+#### input Section 
+
+1. Enter Student Name : Ravi
+2. Enter Roll Number : RAVI009912
+3. Enter Class : MCA
+4. Enter JAVA Marks : 56
+5. Enter C++ Marks : 89
+6. Enter Python Marks : 12
+7. Enter Ruby Marks : 56
+8. Enter SQL Marks : 78
+
+   #### total = ?
+   #### Per % = ?
+
+
+
+
+
+
