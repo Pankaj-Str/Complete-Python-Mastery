@@ -251,6 +251,9 @@ Question 1 : Create a student marksheet program output like this
    #### total = ?
    #### Per % = ?
 
+Question 2. Write a  Program to Print an Integer (Entered by the User) <br> <br>
+Question 3. Write a  Program to Add Two Integers (Entered by the User) <br> <br>
+Question 4. Write a  Program to Multiply two Floating Point Numbers (Entered by the User) <br> <br>
 
 
 
