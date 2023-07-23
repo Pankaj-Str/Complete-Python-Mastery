@@ -7,6 +7,7 @@
    Example : 
    Enter Start Number : 1
    Enter End Number : 10
+   
    -----------------
    total sum of 1 to 10 = 55
    ----------------- 
@@ -23,7 +24,7 @@
     .
     .
     2 x 10 = 20
-    
+
     ```
 
 
