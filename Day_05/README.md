@@ -3,7 +3,7 @@
 1. Write a  Program to Check Whether a Number is Even or Odd.?
    
    ```
-    ` OutPut`
+    `OutPut`
 
     Enter Number to Find Even or odd = 3
     - Your Number 3 is Odd 
