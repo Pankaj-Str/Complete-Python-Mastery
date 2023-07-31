@@ -26,6 +26,27 @@
     2 x 10 = 20
 
     ```
+3. Write a  Program to Display count of Alphabets in to String 
+   
+   ```
+      Enter Word : p4n.in
 
+      total = count of Alphabets : 6
+
+   ```
+4. Write a  Program to Count Number of Digits in an Integer
+
+   ```
+      Enter Number : 4567
+      Count Number : total Digits : 4 
+
+   ```
+5. Write a  Program to Reverse a Number
+
+   ```
+      Enter Number : 4569
+      Reverse Number : 9654 
+
+   ```
 
    
