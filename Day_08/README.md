@@ -1,3 +1,8 @@
+Read Notes :
+
+https://www.p4n.in/python/python-functions/python-functions
+
+
 # Question 1 :
 1. Student Report Card System :
 ```
@@ -29,7 +34,5 @@ Grading System
 40 - 60 = Grade C
 30 - 40 = Grade D
 0  - 30 Grade F
-
-   
 
 ```
