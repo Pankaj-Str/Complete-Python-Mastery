@@ -11,7 +11,7 @@ Subject Marks / 100
 4. C++ = 33
 5. pyhton = 78
 
-```
+
 Student Name : joy
 Roll Number : 200AQ1
 Marks --
@@ -30,6 +30,6 @@ Grading System
 30 - 40 = Grade D
 0  - 30 Grade F
 
-```    
+   
 
 ```
