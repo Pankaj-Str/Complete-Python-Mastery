@@ -4,7 +4,7 @@ https://www.p4n.in/python/python-functions/python-functions
 
 
 # Question 1 :
-1. Student Report Card System :
+1. Student Report Card System ( using function ):
 ```
 Enter Student Name : Joy
 Enter Student Roll Number : 200AQ1
