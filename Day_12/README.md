@@ -143,16 +143,17 @@ Here, we have used the discard() method to remove 'Java' from the languages set.
 Built-in Functions with Set
 
 Built-in functions like all(), any(), enumerate(), len(), max(), min(), sorted(), sum() etc. are commonly used with sets to perform different tasks.
-```
-1. all() Returns True if all elements of the set are true (or if the set is empty).			
-2. any() Returns True if any element of the set is true. If the set is empty, returns False.			
-3. enumerate() Returns an enumerate object. It contains the index and value for all the items of the set as a pair.		
-4. len() Returns the length (the number of items) in the set.			
-5. max() Returns the largest item in the set.			
-6. min() Returns the smallest item in the set.			
-7. sorted() Returns a new sorted list from elements in the set(does not sort the set itself).
-8. sum() Returns the sum of all elements in the set.
-```
+|Python set Methods	     |       Description|
+|------------------------|-------------------|
+|all()  |Returns True if all elements of the set are true (or if the set is empty).	|		
+|any() |Returns True if any element of the set is true. If the set is empty, returns False.	|		
+|enumerate() |Returns an enumerate object. It contains the index and value for all the items of the set as a pair.		|
+|len() |Returns the length (the number of items) in the set.	|		
+|max() |Returns the largest item in the set.	|		
+|min() |Returns the smallest item in the set.	|		
+|sorted() |Returns a new sorted list from elements in the set(does not sort the set itself).|
+|sum() |Returns the sum of all elements in the set.|
+
 ## Iterate Over a Set in Python
 ```python
 fruits = {"Apple", "Peach", "Mango"}
@@ -184,32 +185,326 @@ Total Elements: 4
 ```
 Here, we have used the len() method to find the number of elements present in a Set.
 
-# Python Set Operations
+## Python Set Methods
 
-Python Set provides different built-in methods to perform mathematical set operations like union, intersection, subtraction, and symmetric difference.
-Union of Two Sets
+|Python set Methods	     |       Description|
+|------------------------|-------------------|
+|add()	                  |      Add elements to the set object.|
+|clear()	                  |      Removes all elements from the set.|
+|copy()	                  |      Copy the set object to another set object.|
+|difference()	         |       Returns the difference between two sets as a new set.|
+|difference_update()	      |      Updates the difference on the called set.|
+|symmetric_difference()	   |     Returns elements that are not present in each other.|
+|symmetric_difference_update()	|Updates the difference on the called set.|
+|remove()	   |                 Removes the specified element from the list. Returns error when the element is not present.|
+|discard()	 |                   Removes the specified element from the list. Does nothing when the element is not present.|
+|pop()	     |                   Returns an arbitrary element from the set.|
+|intersection()	|                Returns a new set that contains the elements that are common to both sets.|
+|union()	      |                  Returns a new set by combining elements from both sets.|
+|update()	 |                   Add a list or set to the set object.|
+|isdisjoint()	|                Returns True if the sets are disjoint, and False if they are not|
+|issubset()	  |                  Checks if a set is a subset of another set.|
+|issuperset()	 |                Checks if s set is a superset of another set.|
 
-The union of two sets A and B include all the elements of set A and B.
 
-![python-union](https://github.com/Pankaj-Str/Learn_Python/assets/36913690/943b45b3-f478-40d1-9eaa-55be61e3fb1c)
+## add() – Add an element to set
 
-We use the | operator or the union() method to perform the set union operation. For example,
+The set.add() method is used to add an element to the set object. It takes a single argument, which is the element that you want to add to the set. The set.add() method can only be used to add a single element to a set at a time. The syntax of the method is set.add(element).
+
+Here is an example of using the set.add() method to add an element to a set:
+
 ```python
-# first set
-A = {1, 3, 5}
+# Create set
+languages = {'Python', 'C++', 'Java'}
 
-# second set
-B = {0, 2, 4}
+# Add element to set
+languages.add('Go')
+print(languages)  
 
-# perform union operation using |
-print('Union using |:', A | B)
-
-# perform union operation using union()
-print('Union using union():', A.union(B)) 
-
+# Output: 
+# {'Python', 'C++', 'Java', 'Go'}
 ```
-Output
+## clear() – Remove elements from a set
+
+Use the set.clear() method to remove all the elements from the Python set. The set.clear() method is permanent and cannot be undone. This method does not take any arguments and does not return any value. When this method is called on a set, it simply removes all the elements from the set.
+
 ```python
-Union using |: {0, 1, 2, 3, 4, 5}
-Union using union(): {0, 1, 2, 3, 4, 5}
+# Remove all elements from set
+languages = {'Python', 'C++', 'Java'}
+languages.clear()
+print(languages)  
+
+# Output: 
+# set()
 ```
+
+## copy() – Create a copy of a set
+
+To create a copy of a set, you can use the set.copy() method. This Python set method does not take any arguments and returns a new set that is a copy of the original set.
+
+The set.copy() method is useful when you want to create a new set based on an existing set, but do not want to modify the original set.
+It is also useful as a way to create a backup of a set before making changes to it, as the copy is independent of the original set.
+
+```python
+# Create set
+original_set = {'Python', 'C++', 'Java'}
+
+# Create a copy of the set
+new_set = original_set.copy()
+print(new_set) 
+ 
+# Output: 
+# {'Python', 'C++', 'Java'}
+
+# Modify the original set
+original_set.add('Go')
+print(original_set)  
+
+# Output: 
+# {'Python', 'C++', 'Java', 'Go'}
+
+# Print the copy
+print(new_set)  
+
+# Output: 
+# {'Python', 'C++', 'Java'}
+```
+# union() – Union of Two Sets
+
+The set.union() method returns a new set that contains all the elements from both sets. It does not modify the original sets. The set.union() method returns a new set and does not modify the original sets.
+
+The set.union() method can take multiple sets as arguments, in which case it returns the union of all the sets. See the following example.
+```python
+
+# Find the union of three sets
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+set3 = {5, 6, 7}
+union = set1.union(set2, set3)
+print(union) 
+ 
+# Output: 
+# {1, 2, 3, 4, 5, 6, 7}
+```
+## intersection() – Get Intersection of Two Sets
+
+The set.intersection() method returns a new set that contains the elements that are common to both sets. It does not modify the original sets. The set.intersection() method returns a new set and does not modify the original sets. The syntax of the method is new_set = set.intersection(other_set).
+```python
+# Find the intersection of two sets
+set1 = {'Python', 'Java', 'C++'}
+set2 = {'Java', 'C++', 'Go'}
+intersection = set1.intersection(set2)
+print(intersection)
+  
+# Output: 
+# {'Java', 'C++'}
+```
+## update() – Add Multiple Elements to Set
+
+The set.update() method adds the elements of an iterable (such as a list or a set) to the set. It can also take multiple sets as arguments, in which case it adds all the elements of the sets to the set. It modifies the set in place and does not return a new set.
+
+```python
+# Add multiple elements to a set
+s = {1, 2, 3}
+s.update([4, 5, 6])
+print(s)  
+
+# Output: 
+# {1, 2, 3, 4, 5, 6}
+
+# Add multiple sets to a set
+s1 = {1, 2, 3}
+s2 = {3, 4, 5}
+s3 = {5, 6, 7}
+s1.update(s2, s3)
+print(s1)  
+
+# Output: 
+# {1, 2, 3, 4, 5, 6, 7}
+```
+## Set Differences Methods in Python
+
+There are several methods to find the difference between two sets in Python. These methods allow you to find the difference between two sets in different ways, depending on your specific needs and requirements.
+
+Here are 4 different ways of finding the difference between the two sets.
+
+# difference() method
+
+This method returns the difference between two sets as a new set. This method does not modify the original sets.
+```python
+
+# Create two sets
+set1 = {1, 2, 3}
+set2 = {2, 3, 4}
+
+# difference()
+difference = set1.difference(set2)
+print(difference)  
+
+# Output: 
+# {1}
+```
+# difference_update() method
+
+This method is used to update a set with the elements that are present in the set but not in the specified iterable. . It modifies the original set in place and does not return any value.
+
+```python
+# difference_update()
+set1.difference_update(set2)
+print(set1)  
+
+# Output: 
+# {1}
+```
+# symmetric_difference() method
+
+This method returns the symmetric difference of two sets as a new set. This method does not modify the original sets. The symmetric difference of two sets is the set of elements that are present in one set but not in the other.
+
+```python
+# symmetric_difference()
+symmetric_difference = set1.symmetric_difference(set2)
+print(symmetric_difference)  
+
+# Output: 
+# {1, 4}
+```
+# symmetric_difference_update() method
+
+This method is used to update a set with the symmetric difference of itself and another set. It modifies the original set in place and does not return any value.
+
+```python
+# symmetric_difference_update()
+set1.symmetric_difference_update(set2)
+print(set1)  
+
+# Output: 
+# {1, 4}
+```
+# Remove Element From a Set
+
+There are 3 different ways to remove elements from a list. Each of these Python set methods uses different approaches to remove the elements.
+
+# remove() method
+
+The remove() method removes the specified element from the Python set. If the element is not present in the set, it raises a KeyError exception.
+```python
+
+# Remove an element from a set
+s = {'Python', 'C++', 'Java'}
+s.remove('C++')
+print(s)  
+
+# Output: 
+# { 'Python', 'Java'}
+
+# Remove an element that is not present
+s.remove('Go')  
+
+# Output: 
+# KeyError: 'Go'
+```
+# discard() method
+
+This discard() method removes the specified element from the set. If the element is not present in the set, it does nothing.
+
+```python
+# Remove an element from a set
+s = {'Python', 'C++', 'Java'}
+s.discard('C++')
+print(s)  
+
+# Output: 
+# {'Python', 'Java'}
+
+# Remove element that is not present in the set
+s.discard('Go')  
+
+# No output or exception
+```
+# pop() method
+
+The pop() method returns an arbitrary element from the set. If the set is empty, it raises an KeyError exception.
+
+```python
+# Remove an element from a set
+s = {1, 2, 3}
+element = s.pop()
+print(element) 
+ 
+# Output: 
+# 1
+
+print(s)  
+# Output: {2, 3}
+```
+```python
+# Remove an element from an empty set
+s = set()
+element = s.pop()  
+
+# Output: 
+# KeyError: 'pop from an empty set'
+```
+# isdisjoint() – Check Two Sets are Disjoint
+
+The set.isdisjoint() method returns True if the sets are disjoint, and False if they are not. It does not modify the original sets. A set is disjoint if it has no elements in common with another set. The set.isdisjoint() method returns a Boolean value and does not modify the original sets.
+
+```python
+# Check if two sets are disjoint
+set1 = {1, 2, 3}
+set2 = {4, 5, 6}
+result = set1.isdisjoint(set2)
+print(result)  # Output: True
+
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+result = set1.isdisjoint(set2)
+print(result)  # Output: False
+```
+# issubset() – Check Set is Subset of Another
+
+The set.issubset() method returns True if the first set is a subset of the second set, and False if it is not. It does not modify the original sets. A set is a subset of another set if all the elements of the first set are also present in the second set.
+
+```python
+# Check if one set is a subset of another
+set1 = {1, 2, 3}
+set2 = {1, 2, 3, 4, 5}
+result = set1.issubset(set2)
+print(result)  
+
+# Output: 
+# True
+
+# Another example
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+result = set1.issubset(set2)
+print(result)
+  
+# Output: 
+# False
+```
+# issuperset() – Check Set is Superset of Another
+
+The set.issuperset() method returns True if the first set is a superset of the second set, and False if it is not. It does not modify the original sets. A set is a superset of another set if it contains all the elements of the other set.
+
+```python
+# Check if one set is a superset of another
+set1 = {1, 2, 3, 4, 5}
+set2 = {1, 2, 3}
+result = set1.issuperset(set2)
+print(result)  
+
+# Output: 
+True
+
+# Another example
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+result = set1.issuperset(set2)
+print(result) 
+ 
+# Output: 
+# False
+```
+
