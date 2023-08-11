@@ -234,3 +234,46 @@ if "grape" not in fruits:
 In the example above, the `in` operator checks if the element `"banana"` is present in the `fruits` list, and the `not in` operator checks if the element `"grape"` is not present in the list. Both conditions are evaluated as `True`, so the corresponding print statements will be executed.
 
 These operators are useful for quickly checking the existence of an element in a list without having to manually iterate through the list.
+
+# Question 
+----------
+1. Billing System (Basic)
+
+```python
+-- User input section
+Enter Product List Size : 4
+Enter Product 1 -
+Samosa
+Enter Product 2 -
+Kachori
+Enter Product 3 -
+Fafda
+Enter Product 4 -
+Jalebi
+
+Enter Samosa Price :
+300/-
+Enter Kachori Price :
+100/-
+Enter Fafda Price :
+100/-
+Enter Jalebi Price :
+200/-
+
+Do You Want to add GST [Y/N]
+[note : if user select `N` Print bill without GST]
+[Note User select yes `Y`]
+Enter GST % = 18
+-------Out put -------
+
+1. Samosa = 300/-
+2. Kachori = 100/-
+3. Fafda = 100/-
+4. Jalebi = 200/-
+-------------------
+Total = 700
+GST = 18%
+-------------------
+Final Total = 826/-
+-------------------
+```
