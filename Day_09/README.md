@@ -239,7 +239,7 @@ These operators are useful for quickly checking the existence of an element in a
 ----------
 1. Billing System (Basic)
 
-```python
+```yml
 -- User input section
 Enter Product List Size : 4
 Enter Product 1 -
