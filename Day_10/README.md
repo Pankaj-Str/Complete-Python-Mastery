@@ -84,16 +84,23 @@ The index must be an integer, so we cannot use float or other types. This will r
 Likewise, nested tuples are accessed using nested indexing, as shown in the example below.
 
 ```python
+# Access Python Tuple Elements
 # accessing tuple elements using indexing
-letters = ("p", "r", "o", "g", "r", "a", "m")
 
-print(letters[0])   # prints "p" 
-print(letters[5])   # prints "a"
-```
-In the above example,
-```python
-letters[0] - accesses the first element
-letters[5] - accesses the sixth element
+#       -10   -9   -8   -7   -6   -5   -4   -3   -2   -1
+data = ('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
+#        0.   1.   2.   3.   4.   5.   6.   7.   8.   9. 
+
+print(data[2]) # w
+# accessing tuple elements using negative indexing
+print(data[-2]) # i
+
+# accessing tuple elements using slicing
+print(data[2:5]) # output ('w', '.', 'p')
+print(data[-9:-3]) # output ('w', 'w', '.', 'p', '4', 'n')
+print(data[-5:]) # output ('4', 'n', '.', 'i', 'n')
+print(data[:5]) # output ('w', 'w', 'w', '.', 'p')
+print(data[:]) # output ('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
 ```
 ## 2. Negative Indexing
    
@@ -102,50 +109,36 @@ Python allows negative indexing for its sequences.
 The index of -1 refers to the last item, -2 to the second last item and so on. For example,
 ```python
 # accessing tuple elements using negative indexing
-letters = ('p', 'r', 'o', 'g', 'r', 'a', 'm')
+#       -10   -9   -8   -7   -6   -5   -4   -3   -2   -1
+data = ('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
 
-print(letters[-1])   # prints 'z' 
-print(letters[-3])   # prints 'm'
+print(letters[-1])   # prints 'n' 
+print(letters[-3])   # prints '.'
 ```
 
-In the above example,
-```python
-letters[-1] - accesses last element
-letters[-3] - accesses third last element
-```
 ## 3. Slicing
 
 We can access a range of items in a tuple by using the slicing operator colon :.
 ```python
 # accessing tuple elements using slicing
-my_tuple = ('p', 'r', 'o', 'g', 'r', 'a', 'm')
+data = ('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
 
-# elements 2nd to 4th index
-print(my_tuple[1:4])  #  prints ('r', 'o', 'g')
-
-# elements beginning to 2nd
-print(my_tuple[:-7]) # prints ('p', 'r')
-
-# elements 8th to end
-print(my_tuple[7:]) # prints ('i', 'z')
-
-# elements beginning to end
-print(my_tuple[:]) # Prints ('p', 'r', 'o', 'g', 'r', 'a', 'm')
+# accessing tuple elements using slicing
+print(data[2:5]) # output ('w', '.', 'p')
+print(data[-9:-3]) # output ('w', 'w', '.', 'p', '4', 'n')
+print(data[-5:]) # output ('4', 'n', '.', 'i', 'n')
+print(data[:5]) # output ('w', 'w', 'w', '.', 'p')
+print(data[:]) # output ('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
 ```
 Output
 ```python
-('r', 'o', 'g')
-('p', 'r')
-('i', 'z')
-('p', 'r', 'o', 'g', 'r', 'a', 'm')
+('w', '.', 'p')
+('w', 'w', '.', 'p', '4', 'n')
+('4', 'n', '.', 'i', 'n')
+('w', 'w', 'w', '.', 'p')
+('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
 ```
-Here,
-```python
-my_tuple[1:4] returns a tuple with elements from index 1 to index 3.
-my_tuple[:-7] returns a tuple with elements from beginning to index 2.
-my_tuple[7:] returns a tuple with elements from index 7 to the end.
-my_tuple[:] returns all tuple items.
-```
+
 Note: When we slice lists, the start index is inclusive but the end index is exclusive.
 Python Tuple Methods
 
@@ -153,16 +146,18 @@ In Python ,methods that add items or remove items are not available with tuple. 
 
 Some examples of Python tuple methods:
 ```python
-my_tuple = ('a', 'p', 'p', 'l', 'e',)
+# using index function into tuple index()
+data = ('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
 
-print(my_tuple.count('p'))  # prints 2
-print(my_tuple.index('l'))  # prints 3
+print(data.index('p')) # output 4
 ```
 
-Here,
+
 ```python
-my_tuple.count('p') - counts total number of 'p' in my_tuple
-my_tuple.index('l') - returns the first occurrence of 'l' in my_tuple
+# using count function into tuple count()
+data = ('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
+
+print(data.count('w')) # output 3
 ```
 Iterating through a Tuple in Python
 
