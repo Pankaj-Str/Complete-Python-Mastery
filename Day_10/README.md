@@ -92,15 +92,7 @@ data = ('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
 #        0.   1.   2.   3.   4.   5.   6.   7.   8.   9. 
 
 print(data[2]) # w
-# accessing tuple elements using negative indexing
-print(data[-2]) # i
 
-# accessing tuple elements using slicing
-print(data[2:5]) # output ('w', '.', 'p')
-print(data[-9:-3]) # output ('w', 'w', '.', 'p', '4', 'n')
-print(data[-5:]) # output ('4', 'n', '.', 'i', 'n')
-print(data[:5]) # output ('w', 'w', 'w', '.', 'p')
-print(data[:]) # output ('w', 'w', 'w', '.', 'p', '4', 'n', '.', 'i', 'n')
 ```
 ## 2. Negative Indexing
    
