@@ -85,7 +85,7 @@ Likewise, nested tuples are accessed using nested indexing, as shown in the exam
 
 ```python
 # accessing tuple elements using indexing
-letters = ("p", "r", "o", "g", "r", "a", "m", "i", "z")
+letters = ("p", "r", "o", "g", "r", "a", "m")
 
 print(letters[0])   # prints "p" 
 print(letters[5])   # prints "a"
@@ -102,7 +102,7 @@ Python allows negative indexing for its sequences.
 The index of -1 refers to the last item, -2 to the second last item and so on. For example,
 ```python
 # accessing tuple elements using negative indexing
-letters = ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+letters = ('p', 'r', 'o', 'g', 'r', 'a', 'm')
 
 print(letters[-1])   # prints 'z' 
 print(letters[-3])   # prints 'm'
@@ -118,7 +118,7 @@ letters[-3] - accesses third last element
 We can access a range of items in a tuple by using the slicing operator colon :.
 ```python
 # accessing tuple elements using slicing
-my_tuple = ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+my_tuple = ('p', 'r', 'o', 'g', 'r', 'a', 'm')
 
 # elements 2nd to 4th index
 print(my_tuple[1:4])  #  prints ('r', 'o', 'g')
@@ -130,14 +130,14 @@ print(my_tuple[:-7]) # prints ('p', 'r')
 print(my_tuple[7:]) # prints ('i', 'z')
 
 # elements beginning to end
-print(my_tuple[:]) # Prints ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+print(my_tuple[:]) # Prints ('p', 'r', 'o', 'g', 'r', 'a', 'm')
 ```
 Output
 ```python
 ('r', 'o', 'g')
 ('p', 'r')
 ('i', 'z')
-('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+('p', 'r', 'o', 'g', 'r', 'a', 'm')
 ```
 Here,
 ```python
