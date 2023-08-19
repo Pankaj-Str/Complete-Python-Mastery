@@ -258,4 +258,27 @@ Cathy is from UK
 ```
 Here, f'{name} is from {country}' is an f-string.
 
+Other Example : 
+
+```python
+# Python String Formatting
+
+
+# 1. format()
+
+name = "joy"
+age = 12
+height = 3.5
+
+print('My Name is {}, age {} and height {} '.format(name,age,height))
+print('My height is {2}, age {1} and name {0} '.format(name,age,height))
+
+print('My Name is {}, age {} and height {} '.format("Roy",56,6.5))
+
+# 2. f-Strings
+
+print(f"my name is {name} and age {age}")
+
+```
+
 This new formatting syntax is powerful and easy to use. From now on, we will use f-Strings to print strings and variables.
