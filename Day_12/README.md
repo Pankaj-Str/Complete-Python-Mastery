@@ -4,8 +4,6 @@ A set is a collection of unique data. That is, elements of a set cannot be dupli
 
 Suppose we want to store information about student IDs. Since student IDs cannot be duplicate, we can use a set.
 
-![python-set-elements](https://github.com/Pankaj-Str/Learn_Python/assets/36913690/f1781769-194d-4485-83ec-470c62f27a34)
-
 Create a Set in Python
 
 In Python, we create sets by placing all the elements inside curly braces {}, separated by comma.
