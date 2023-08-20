@@ -147,20 +147,25 @@ Iterate Through a Python String
 
 We can iterate through a string using a for loop. For example,
 ```python
-greet = 'Hello'
+# iterating through  string
+data = "www.p4n.in"
 
-# iterating through greet string
-for letter in greet:
-    print(letter)
+for i in data:
+    print(i)
 ```
 
 Output
 ```python
-H
-e
-l
-l
-o
+w
+w
+w
+.
+p
+4
+n
+.
+i
+n
 ```
 Python String Length
 
@@ -195,7 +200,46 @@ Besides those mentioned above, there are various string methods present in Pytho
 9. isnumeric() checks numeric characters
 10. index() returns index of substring			
 ```
-		
+#### Example : 
+
+```python
+
+website = 'www.codeswithpankaj.com'
+
+# 1. upper() converts the string to uppercase
+print(website.upper())
+
+# 2. lower() converts the string to lowercase
+print(website.lower())
+
+# 3. partition() returns a tuple
+print(website.partition('.'))
+
+# 4. replace() replaces substring inside
+print(website.replace('www.','@'))
+
+# 5. find() returns the index of first occurrence of substring
+print(website.find('j'))
+
+# 6. rstrip() removes trailing characters
+data = 'p4n.in   '
+print(data.rstrip(),'this is website -')
+
+# 7. split() splits string from left
+print(website.split('.'))
+
+# 8. startswith() checks if string starts with the specified string
+print(website.startswith('w'))
+
+# 9. isnumeric() checks numeric characters
+data = '90'
+print(data.isnumeric())
+print(website.isnumeric())
+
+# 10. index() returns index of substring
+print(website.index('p'))
+
+```		
 	
 Escape Sequences in Python
 
