@@ -66,6 +66,29 @@ print(student.keys())
 print(student.values())
 print(student.items())
 ```
+### Example : 
+
+```python
+data = {'name': 'joy', 'age': 6, 'height': 3.4}
+
+# keys(): Returns a list of all keys in the dictionary.
+print(data.keys())    # dict_keys(['name', 'age', 'height'])
+
+# values(): Returns a list of all values in the dictionary.
+print(data.values()) # dict_values(['joy', 6, 3.4])
+
+# items(): Returns a list of key-value pairs as tuples.
+print(data.items()) # dict_items([('name', 'joy'), ('age', 6), ('height', 3.4)])
+
+# get(key, default): Returns the value for a key if it exists, else returns a default value.
+print(data.get('age')) # 6
+
+# pop(key, default): Removes and returns the value associated with the key.
+print('before pop() ',data) # before pop()  {'name': 'joy', 'age': 6, 'height': 3.4}
+print(data.pop('age')) # 6
+print('After pop() ',data) # After pop()  {'name': 'joy', 'height': 3.4}
+
+```
 
 **6. Dictionary Comprehension:**
 Similar to list comprehensions, you can use dictionary comprehensions to create dictionaries in a concise manner.
