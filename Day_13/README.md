@@ -112,6 +112,9 @@ employees = {
         "age": 25
     }
 }
+
+print(employees['employee2']['name']) # output Bob
+
 ```
 
 **8. Dictionary Ordering (Python 3.7+):**
