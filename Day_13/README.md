@@ -201,3 +201,26 @@ for key, value in student.items():
 # grade: A
 ```
 
+### Example :
+
+```python
+Data = {
+        "Name": "Hanuman Road",
+        "Description": "null",
+        "BranchType": "Sub Post Office",
+        "DeliveryStatus": "Non-Delivery",
+        "Circle": "Maharashtra",
+        "District": "Mumbai",
+        "Division": "Mumbai  North",
+        "Region": "Mumbai",
+        "Block": "Mumbai",
+        "State": "Maharashtra",
+        "Country": "India",
+        "Pincode": "400057"
+      }
+
+for i in Data:
+    print(i , '= ', Data[i])
+
+```
+
