@@ -150,7 +150,7 @@ This is the first line.
 This is the second line.
 This is an appended line.
 ```
-
+---- 
 # **1. Python Directory:**
 
 In Python, a directory (also known as a folder) is a way to organize and store files. Python provides a module called `os` (Operating System Interface) that allows you to work with directories and perform various operations on them. Here are some common tasks related to directories using the `os` module:
