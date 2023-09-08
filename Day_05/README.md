@@ -1,46 +1,39 @@
 ## Question - 
 
 1. Write a  Program to Check Whether a Number is Even or Odd.?
-   ```
-
-    Enter Number to Find Even or odd = 3
+   
+   ```yaml
+   Enter Number to Find Even or odd = 3
     
-    - Your Number 3 is Odd 
-
+   -- Your Number 3 is Odd 
    ```
 2. Write a  Program to Check Whether an Alphabet is Vowel or Consonant ?
 
-   ```
-
-    Enter Alphabet : A
+   ```yaml
+   Enter Alphabet : A
     
-    - A is Vowel 
-
+   -- A is Vowel 
    ```
 3. Write a  Program to Find the Largest Among Three Numbers ?
     
-    ```
-
+    ```yaml
     Enter Number 1 : 100
     Enter Number 2 : 300
     Enter Number 3 : 400 
-
     -- Number 300 is Largest 
-
     ```
 
 4. Write a  Program to Check Leap Year ?
 
-    ```
-    Enter Year : 2023 
+    ```yaml
+   Enter Year : 2023 
 
-    2023 is not Leap Year 
-
-    ```
+   -- 2023 is not Leap Year 
+   ```
 
 5. Write a program to find Grade ?
    
-   ```
+   ```yaml
    Example : Grading System 
    80 - 100 = Grade A
    60 - 80 = Grade B
@@ -52,7 +45,7 @@
 
 6. Find Age ?
    
-   ```
+   ```yaml
    -- Date of birth Section 
 
    Enter Your Birth Year : 1992
@@ -73,17 +66,12 @@
    or 1579 weeks 5 days
    or 11,058 days
    or 265,392 hours
-   or 15,923,520 minutes
-   or 955,411,200 seconds
-
    
    ```
 
-
-
 7. Password Checker 
 Example : 
-```
+```yaml
    Set your password :
    p4n@in
    Enter your Password : 
@@ -117,5 +105,4 @@ Example :
    4. ) JVM
    
    Select Answer 2 ... con..
-   
-    
+```    
