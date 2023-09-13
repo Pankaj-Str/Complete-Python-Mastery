@@ -48,5 +48,4 @@
       Reverse Number : 9654 
 
    ```
-
-6.    
+   
