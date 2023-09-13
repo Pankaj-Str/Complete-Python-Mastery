@@ -1,7 +1,6 @@
 # Python program showing
 # abstract base class work
-from abc import ABC, abstractmethod
-
+from abc import ABC
 
 class Animal(ABC):
 
