@@ -36,3 +36,5 @@ animals = [dog, cat, cow]
 
 for animal in animals:
     print(animal_speak(animal))
+
+ 
