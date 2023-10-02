@@ -143,14 +143,28 @@ Built-in Functions with Set
 Built-in functions like all(), any(), enumerate(), len(), max(), min(), sorted(), sum() etc. are commonly used with sets to perform different tasks.
 |Python set Methods	     |       Description|
 |------------------------|-------------------|
-|all()  |Returns True if all elements of the set are true (or if the set is empty).	|		
-|any() |Returns True if any element of the set is true. If the set is empty, returns False.	|		
-|enumerate() |Returns an enumerate object. It contains the index and value for all the items of the set as a pair.		|
 |len() |Returns the length (the number of items) in the set.	|		
 |max() |Returns the largest item in the set.	|		
 |min() |Returns the smallest item in the set.	|		
 |sorted() |Returns a new sorted list from elements in the set(does not sort the set itself).|
 |sum() |Returns the sum of all elements in the set.|
+
+## Example :
+
+```python
+# len()	Returns the length (the number of items) in the set.
+data = {100,200,100,300,400,500,500}
+print(len(data))
+# max()	Returns the largest item in the set.
+print(max(data))
+# min()	Returns the smallest item in the set.
+print(min(data))
+# sorted()	Returns a new sorted list from elements in the set(does not sort the set itself).
+print(sorted(data))
+# sum()	Returns the sum of all elements in the set.
+print(sum(data))
+```
+
 
 ## Iterate Over a Set in Python
 ```python
