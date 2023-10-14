@@ -59,7 +59,6 @@
    Enter Your Current Day : 26 
 
    -- output
-
    
    30 years 3 months 10 days
    or 363 months 10 days
