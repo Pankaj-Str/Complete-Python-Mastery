@@ -143,9 +143,8 @@ x = "hello"  # Not descriptive
 
 Question 1 : Create a student marksheet program output like this 
 ```yaml
-Student MarkSheet
-input Section 
 
+-- input Section 
 1. Enter Student Name : Ravi
 2. Enter Roll Number : RAVI009912
 3. Enter Class : MCA
@@ -155,8 +154,17 @@ input Section
 7. Enter Ruby Marks : 56
 8. Enter SQL Marks : 78
 
+-- Output Section
+Student Name : Ravi
+Roll Number : RAVI009912
+Class : MCA
+Enter JAVA Marks : 56/100
+C++ Marks : 89/100
+Python Marks : 12/100
+Ruby Marks : 56/100
+SQL Marks : 78/100
    total = ?
-   Per % = ?
+   Per % = ?%
 ```
 Question 2. Write a  Program to Print an Integer (Entered by the User) <br> <br>
 Question 3. Write a  Program to Add Two Integers (Entered by the User) <br> <br>
