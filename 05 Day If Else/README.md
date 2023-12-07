@@ -1,3 +1,92 @@
+# Understanding the Power of `if-else` Statements in Python on Codes with Pankaj
+
+## Introduction
+
+In the world of programming, decision-making is a fundamental concept. Programs often need to perform different actions based on specific conditions. This is where conditional statements, such as `if-else` statements, come into play. In Python, the `if-else` statement is a powerful tool that allows developers to create dynamic and responsive code.
+
+## Anatomy of the `if-else` Statement
+
+The `if-else` statement in Python is a conditional statement that allows you to execute different blocks of code based on whether a certain condition is true or false. The basic syntax looks like this:
+
+```python
+if condition:
+    # Code to be executed if the condition is true
+else:
+    # Code to be executed if the condition is false
+```
+
+Let's break down the components:
+
+- `if condition:`: This is the main condition that the program evaluates. If it is true, the code block inside the `if` statement is executed. Otherwise, the code block inside the `else` statement is executed.
+
+- `else:`: This part is optional. If the condition specified in the `if` statement is false, the code inside the `else` block will be executed.
+
+## Simple Examples
+
+### Example 1: Checking if a Number is Even or Odd
+
+```python
+num = 7
+
+if num % 2 == 0:
+    print(f"{num} is even.")
+else:
+    print(f"{num} is odd.")
+```
+
+In this example, the program checks if the remainder of `num` divided by 2 is equal to 0. If it is, the number is even; otherwise, it's odd.
+
+### Example 2: Determining the Sign of a Number
+
+```python
+number = -5
+
+if number > 0:
+    print(f"{number} is positive.")
+elif number < 0:
+    print(f"{number} is negative.")
+else:
+    print(f"{number} is zero.")
+```
+
+Here, the program checks whether a number is positive, negative, or zero using a combination of `if`, `elif` (else if), and `else` statements.
+
+## Nested `if-else` Statements
+
+In Python, you can nest `if-else` statements inside one another. This allows for more complex decision-making logic.
+
+```python
+x = 10
+
+if x > 0:
+    if x % 2 == 0:
+        print(f"{x} is a positive even number.")
+    else:
+        print(f"{x} is a positive odd number.")
+else:
+    print(f"{x} is non-positive.")
+```
+
+In this example, the program first checks if `x` is positive. If it is, it further checks whether it's even or odd. If `x` is not positive, it prints that `x` is non-positive.
+
+## Ternary Conditional Expression
+
+Python also supports a concise version of the `if-else` statement known as the ternary conditional expression.
+
+```python
+result = "Even" if num % 2 == 0 else "Odd"
+print(result)
+```
+
+This is equivalent to the first example but in a more compact form.
+
+## Conclusion
+
+The `if-else` statement in Python is a versatile tool that enables developers to create dynamic and flexible programs. Whether it's handling simple conditions or complex decision trees, understanding how to use `if-else` statements is crucial for any Python programmer. As you delve deeper into programming, you'll find that mastering conditional statements is a key step toward writing efficient and responsive code.
+
+Visit [Codes with Pankaj](https://codeswithpankaj.com) for more insightful articles and tutorials on Python programming and other coding topics.
+
+
 ## Question - 
 
 1. Write a  Program to Check Whether a Number is Even or Odd.?
