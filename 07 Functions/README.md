@@ -1,5 +1,5 @@
 
-# A Deep Dive into Python Functions: Unraveling the Power of Modularity and Reusability on Codes with Pankaj
+# A Deep Dive into Python Functions 
 
 ## Introduction
 
