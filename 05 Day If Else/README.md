@@ -194,3 +194,34 @@ Example :
    
    Select Answer 2 ... con..
 ```    
+
+8. Student Report Card System
+```Yaml
+---- Input Section
+Enter your name : Joy
+Enter Your Roll Number : A1023
+
+Enter Your JAVA Marks : 50
+Enter Your C++ Marks : 20
+Enter Your go Marks : 25
+Enter Your Ruby Marks : 96
+Enter Your C# Marks : 70
+Enter Your Python Marks : 65
+
+---- Output Section
+JAVA = 50/100 
+C++ = 20/100 F
+go = 25/100 F
+Ruby = 96/100
+C# = 70/100
+Python = 65/100
+
+Total = 326/600
+per = 54% FAIL
+IF PASS
+Grading System 
+80 - 100 = Grade A
+60 - 80 = Grade B
+40 - 60 = Grade C
+30 - 40 = Grade D
+```
