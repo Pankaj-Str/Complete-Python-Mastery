@@ -149,6 +149,31 @@ Output:
 
 In this example, the outer loop iterates over the rows (from 1 to 5), and the inner loop iterates over the columns (from 1 to 10). The result is the multiplication table up to 5x10.
 
+---
+
+### Example of a nested for loop that prints a pattern of asterisks in a right-angled triangle:
+
+```python
+# Asterisk pattern example
+rows = 5
+
+for i in range(1, rows + 1):  # Outer loop for rows
+    for j in range(1, i + 1):  # Inner loop for columns
+        print('*', end=' ')
+    print()  # Move to the next line after each row
+```
+
+Output:
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+```
+
+In this example, the outer loop iterates over the rows (from 1 to 5), and the inner loop iterates over the columns for each row. The `print('* ', end=' ')` statement prints an asterisk with a space after it, and the inner loop prints the required number of asterisks for each row.
+
 ## Conclusion
 
 Loops are indispensable tools in Python programming, providing a way to execute repetitive tasks efficiently. Whether you need to iterate over a sequence or execute code while a condition is true, mastering `for` and `while` loops is essential for writing expressive and powerful Python code. Practice and experiment with loops to enhance your programming skills and solve a wide range of problems in a more automated and elegant way.
