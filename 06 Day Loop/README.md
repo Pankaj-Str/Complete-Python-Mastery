@@ -87,6 +87,68 @@ for num in numbers:
 
 Here, the loop continues to the next iteration without printing anything when the value of `num` is 3.
 
+-----
+# A nested for loop
+
+A nested for loop in Python is a loop inside another loop. This is useful when you need to iterate over elements in a nested data structure, like a list of lists or a 2D array. The syntax for a nested for loop looks like this:
+
+```python
+for outer_variable in outer_sequence:
+    # Outer loop code
+
+    for inner_variable in inner_sequence:
+        # Inner loop code
+```
+
+Here's a simple example of a nested for loop that iterates over a 2D list:
+
+```python
+# 2D list (matrix)
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Nested for loop to iterate over each element in the matrix
+for row in matrix:
+    for element in row:
+        print(element, end=' ')
+    print()  # Move to the next line after each row
+```
+
+Output:
+```
+1 2 3 
+4 5 6 
+7 8 9 
+```
+
+In this example, the outer loop iterates over each row of the matrix, and the inner loop iterates over each element in the current row.
+
+--- 
+Example of a nested for loop that prints a simple multiplication table:
+
+```python
+# Multiplication table example
+for i in range(1, 6):  # Outer loop for rows
+    for j in range(1, 11):  # Inner loop for columns
+        result = i * j
+        print(f'{i} * {j} = {result}', end='\t')
+    print()  # Move to the next line after each row
+```
+
+Output:
+```
+1 * 1 = 1	1 * 2 = 2	1 * 3 = 3	1 * 4 = 4	1 * 5 = 5	1 * 6 = 6	1 * 7 = 7	1 * 8 = 8	1 * 9 = 9	1 * 10 = 10	
+2 * 1 = 2	2 * 2 = 4	2 * 3 = 6	2 * 4 = 8	2 * 5 = 10	2 * 6 = 12	2 * 7 = 14	2 * 8 = 16	2 * 9 = 18	2 * 10 = 20	
+3 * 1 = 3	3 * 2 = 6	3 * 3 = 9	3 * 4 = 12	3 * 5 = 15	3 * 6 = 18	3 * 7 = 21	3 * 8 = 24	3 * 9 = 27	3 * 10 = 30	
+4 * 1 = 4	4 * 2 = 8	4 * 3 = 12	4 * 4 = 16	4 * 5 = 20	4 * 6 = 24	4 * 7 = 28	4 * 8 = 32	4 * 9 = 36	4 * 10 = 40	
+5 * 1 = 5	5 * 2 = 10	5 * 3 = 15	5 * 4 = 20	5 * 5 = 25	5 * 6 = 30	5 * 7 = 35	5 * 8 = 40	5 * 9 = 45	5 * 10 = 50	
+```
+
+In this example, the outer loop iterates over the rows (from 1 to 5), and the inner loop iterates over the columns (from 1 to 10). The result is the multiplication table up to 5x10.
+
 ## Conclusion
 
 Loops are indispensable tools in Python programming, providing a way to execute repetitive tasks efficiently. Whether you need to iterate over a sequence or execute code while a condition is true, mastering `for` and `while` loops is essential for writing expressive and powerful Python code. Practice and experiment with loops to enhance your programming skills and solve a wide range of problems in a more automated and elegant way.
