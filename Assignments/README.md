@@ -104,11 +104,14 @@ Final Total = 826/-
 ```
 ------
 ## Home Loan EMI Calculator
-```yaml
+
 -- Input Section 
-Loan Amount : = ₹ 74,51,512
-Tenure (Years) := 15
-Interest Rate (% P.A.) = 5.19%
+**Loan Amount : =**
+₹ 74,51,512
+**Tenure (Years) := **
+15
+**Interest Rate (% P.A.) = **
+5.19%
 
 -- output Section
 **Monthly Home Loan EMI**
