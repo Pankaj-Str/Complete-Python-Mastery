@@ -124,6 +124,5 @@ Interest Amount
 ₹32,88,408
 Total Amount Payable
 ₹1,07,39,920
-
 ```
 
