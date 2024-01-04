@@ -23,3 +23,5 @@ if found_product:
     print(f"Total Cost: {total_cost}/-\nProduct Name: {found_product['Name']}\nQuantity: {found_product['Quantity']}\nPrice: {found_product['Price']}/-")
 else:
     print("Product not found.")
+    
+    
