@@ -1,5 +1,5 @@
 
-# file
+# File
 
 **What is a File:**
 A file is a named location on a storage medium, such as a hard drive or SSD, that stores information, usually in the form of text or binary data.
