@@ -1,7 +1,7 @@
 import random
 
 def choose_random_word():
-    words = ["python", "programming", "challenge", "developer", "openai", "gpt", "simulation"]
+    words = ["python", "programming", "challenge", "developer", "cwp", "p4n", "simulation"]
     return random.choice(words)
 
 def shuffle_word(word):
