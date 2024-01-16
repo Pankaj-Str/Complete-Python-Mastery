@@ -1,20 +1,5 @@
 ## Primitive Types
 
-|Sr.No. |Topic|
-|----|---|
-|1|Variables|
-|2|Variable Names|
-|3|Strings|
-|4|Escape Sequences|
-|5|Formatted Strings|
-|6|String Methods|
-|7|Numbers|
-|8|Working with Numbers|
-|9|Type Conversion|
-|10|Quiz - Assignment|
-
--------------------
-
 # Python Variables
 
 In Python, variables are used to store data values. They provide a way to name and reference data, making it easier to work with information in your programs.

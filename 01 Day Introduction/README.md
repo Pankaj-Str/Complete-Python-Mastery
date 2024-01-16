@@ -1,21 +1,5 @@
 ## Introduction
 
-|Sr.No.|Topic Name | 
-|------|----|
-|1|Getting Started|
-|2|What is Python|
-|3|Installing Python|
-|4|Python Interpreter|
-|5|Your First Python Program|
-|6|Python Extension|
-|7|Linting Python Code|
-|8|Formatting Python Code|
-|9|Running Python Code|
-|10|Python Implementations|
-|11|How Python Code is Executed|
-|12|Quiz|
-
-
 # Getting Started with Python Programming
 
 Welcome to the beginner's guide to Python programming! This guide will provide you with a solid foundation to start your journey into the world of Python.
