@@ -160,3 +160,43 @@ QT : 20
 Single Price : 20/-
 
 ```
+
+
+
+### Assignment 26: MATLAB
+
+1. **Matrix Operations:**
+   - Create two matrices and perform basic matrix operations (addition, subtraction, multiplication) using MATLAB.
+   - Print the results.
+
+2. **Plotting:**
+   - Generate data points for a mathematical function (e.g., sine or cosine) and plot the function using MATLAB's plotting functions.
+
+### Assignment 27: SciPy
+
+1. **Linear Algebra Operations:**
+   - Use SciPy to solve a system of linear equations.
+   - Compute the eigenvalues and eigenvectors of a matrix.
+
+2. **Optimization:**
+   - Implement a simple optimization problem using SciPy's optimization functions.
+   - Print the optimized result.
+
+### Assignment 28: ndimage (part of SciPy)
+
+1. **Image Processing:**
+   - Load an image using SciPy's ndimage module.
+   - Apply various image processing operations, such as smoothing or filtering.
+
+2. **Image Analysis:**
+   - Use ndimage to perform basic image analysis tasks, such as finding contours or measuring object properties.
+
+### Instructions:
+
+- Provide a MATLAB environment for MATLAB-related assignments.
+- For Python assignments, ensure that the required libraries (SciPy and ndimage) are installed.
+- Encourage students to use meaningful variable names and provide comments explaining their code.
+- Emphasize the importance of understanding the specific functions and capabilities of each tool.
+- Encourage experimentation with different datasets or scenarios to ensure the correctness of the code.
+
+### Tutorial Name: [codeswithpankaj.com - MATLAB, SciPy, and ndimage Tutorial](https://www.codeswithpankaj.com/)
