@@ -1,8 +1,8 @@
 # salary 78000
 # tds 12%
 
-import Company as c
-
+from Company import emp as c 
+from Company import mathss as ms
 salary = 78000
 tds = 12
 
@@ -12,4 +12,4 @@ final_salary = c.tds(salary,tds)
 print("Monthly Pay salary : ",final_salary)
 
 
-c.min(39,8,90)
+ms.min(39,8,90)
