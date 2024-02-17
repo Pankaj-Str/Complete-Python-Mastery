@@ -67,7 +67,7 @@ Enter Kachori QT :
 Do you Want to add more [Y/N]
 Y
 Enter Product 3 -
-Fafda
+Jalebi
 Enter Jalebi Price :
 200/-
 Enter Jalebi QT :
@@ -89,16 +89,15 @@ if user select [ 1 ]
 
 -------Out put -------
 
-1. Samosa = 300/-
-2. Kachori = 100/-
-3. Fafda = 100/-
-4. Jalebi = 200/-
+1. Samosa = 900/-
+2. Kachori = 200/-
+3. Jalebi = 800/-
 -------------------
-Total = 700
+Total = 1900
 GST = 18%
 offer = 2%
 -------------------
-Final Total = 826/-
+Final Total = 2197.16/-
 -------------------
 
 ```
