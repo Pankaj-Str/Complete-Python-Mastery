@@ -1,52 +1,87 @@
 
 ### Assignment 3: If-Else Statements and Logical Operators
 
-1. **Positive/Negative Number Checker:**
-   - Write a program that takes a number as input.
-   - Use an `if-else` statement to check if the number is positive, negative, or zero.
-   - Print an appropriate message based on the condition.
+Certainly! Here's a detailed explanation for each task along with sample outputs:
 
-2. **Even/Odd Number Checker:**
-   - Write a program that takes an integer as input.
-   - Use an `if-else` statement to determine if the number is even or odd.
-   - Print the result.
+1. **Grade Classifier:**
+   **Task:** This program prompts the user to enter their exam score and then classifies their grade based on the score.
+   **Sample Output:**  
+   ```
+   Enter your exam score: 85
+   Your grade is B.
+   ```
+
+2. **Number Comparison:**
+   **Task:** This program prompts the user to enter two numbers and compares them to determine which one is greater or if they are equal.
+   **Sample Output:**  
+   ```
+   Enter the first number: 10
+   Enter the second number: 15
+   15 is greater than 10.
+   ```
 
 3. **Leap Year Checker:**
-   - Write a program that takes a year as input.
-   - Use an `if-else` statement to check if the year is a leap year.
-   - Print the result.
+   **Task:** This program prompts the user to enter a year and checks if it's a leap year or not.
+   **Sample Output:**  
+   ```
+   Enter a year: 2024
+   2024 is a leap year.
+   ```
 
-4. **Grade Calculator:**
-   - Write a program that takes a student's score as input.
-   - Use an `if-else` statement to assign a grade based on the score (e.g., A, B, C, D, F).
-   - Print both the score and the corresponding grade.
+4. **Number Sign Checker:**
+   **Task:** This program prompts the user to enter a number and determines whether it's positive, negative, or zero.
+   **Sample Output:**  
+   ```
+   Enter a number: -7
+   -7 is a negative number.
+   ```
 
-### Assignment 4: Logical Operators
+5. **Vowel Checker:**
+   **Task:** This program prompts the user to enter a character and checks if it's a vowel or a consonant.
+   **Sample Output:**  
+   ```
+   Enter a character: a
+   'a' is a vowel.
+   ```
 
-1. **Age Category Classifier:**
-   - Write a program that takes a person's age as input.
-   - Use logical operators (`and`, `or`, `not`) in an `if-else` statement to classify the age into categories like "Child," "Teenager," "Adult," or "Senior."
-   - Print the result.
+6. **Age Classifier:**
+   **Task:** This program prompts the user to enter their age and classifies them into different age groups.
+   **Sample Output:**  
+   ```
+   Enter your age: 17
+   You are a teenager.
+   ```
 
-2. **Password Strength Checker:**
-   - Write a program that takes a password as input.
-   - Use logical operators to check the strength of the password (e.g., length, inclusion of numbers, special characters).
-   - Print a message indicating the strength.
+7. **Odd or Even Checker:**
+   **Task:** This program prompts the user to enter a number and determines whether it's odd or even.
+   **Sample Output:**  
+   ```
+   Enter a number: 6
+   6 is an even number.
+   ```
 
-3. **Number Range Checker:**
-   - Write a program that takes a number as input.
-   - Use logical operators to check if the number falls within specific ranges (e.g., 0-10, 11-20, 21-30).
-   - Print the corresponding range.
+8. **Triangle Type Classifier:**
+   **Task:** This program prompts the user to enter three sides of a triangle and classifies the triangle based on its type.
+   **Sample Output:**  
+   ```
+   Enter the length of side 1: 5
+   Enter the length of side 2: 5
+   Enter the length of side 3: 5
+   This is an equilateral triangle.
+   ```
 
-4. **Voting Eligibility Checker:**
-   - Write a program that takes a person's age as input.
-   - Use logical operators to determine if the person is eligible to vote.
-   - Print a message indicating eligibility.
+9. **Temperature Adviser:**
+   **Task:** This program prompts the user to enter the current temperature and suggests appropriate clothing based on the temperature range.
+   **Sample Output:**  
+   ```
+   Enter the current temperature (in Celsius): 25
+   It's warm outside. You can wear a t-shirt.
+   ```
 
-### Instructions:
-
-- Encourage students to use meaningful variable names and provide comments explaining their code.
-- Emphasize the importance of proper indentation in Python.
-- Encourage experimentation with different values to verify the correctness of the code.
-- Provide feedback on code readability and efficiency.
-- Remind students to test their programs with various scenarios to ensure robustness.
+10. **Number Range Checker:**
+    **Task:** This program prompts the user to enter a number and checks if it falls within a specified range.
+    **Sample Output:**  
+    ```
+    Enter a number: 75
+    The number 75 falls within the range of 1 to 100.
+    ```
