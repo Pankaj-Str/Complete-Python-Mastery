@@ -1,8 +1,6 @@
 
 ### Assignment 3: If-Else Statements and Logical Operators
 
-Certainly! Here's a detailed explanation for each task along with sample outputs:
-
 1. **Grade Classifier:**
    **Task:** This program prompts the user to enter their exam score and then classifies their grade based on the score.
    **Sample Output:**  
