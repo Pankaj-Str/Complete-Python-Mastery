@@ -78,5 +78,5 @@ Python code execution involves three main steps:
 2. **Compilation**: The code is compiled into bytecode, a lower-level representation of your code that is executed by the Python Virtual Machine (PVM).
 3. **Execution**: The PVM interprets and executes the bytecode, performing the actions specified in your code.
 
-## Quiz
+
 
