@@ -5,6 +5,11 @@
    **Task:** This program prompts the user to enter their exam score and then classifies their grade based on the score.
    **Sample Output:**  
    ```
+   Grade 1 - 30 = fail
+   Grade 31 - 50 = C
+   Grade 51 - 79 = B
+   Grade 80 - 100 = A
+   
    Enter your exam score: 85
    Your grade is B.
    ```
