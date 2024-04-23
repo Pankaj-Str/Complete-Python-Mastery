@@ -1,18 +1,60 @@
 
 ### Assignment 5: For Loops
 
-1. **Sum of Numbers:**
-   - Write a program that calculates the sum of numbers from 1 to 10 using a `for` loop.
-   - Print the result.
+1. Write a  Program to Calculate the Sum of Natural Numbers ?
+   
+   ```
 
-2. **Multiplication Table:**
-   - Write a program that takes an integer as input and prints its multiplication table (up to 10) starting from 1 using a `for` loop.
+   Example : 
+   Enter Start Number : 1
+   Enter End Number : 10
+   
+   -----------------
+   total sum of 1 to 10 = 55
+   ----------------- 
 
-3. **List Iteration:**
+   ```
+2. Write a  Program to Generate Multiplication Table ?
+
+    ```
+
+    Enter print Table Number : 2
+    
+    2 x 1  = 2
+    2 x 2  = 4
+    .
+    .
+    2 x 10 = 20
+
+    ```
+3. Write a  Program to Display count of Alphabets in to String 
+   
+   ```
+      Enter Word : p4n.in
+
+      total = count of Alphabets : 6
+
+   ```
+4. Write a  Program to Count Number of Digits in an Integer
+
+   ```
+      Enter Number : 4567
+      Count Number : total Digits : 4 
+
+   ```
+5. Write a  Program to Reverse a Number
+
+   ```
+      Enter Number : 4569
+      Reverse Number : 9654 
+
+   ```
+   
+6. **List Iteration:**
    - Create a list of your favorite fruits.
    - Use a `for` loop to iterate through the list and print each fruit.
 
-4. **Counting Characters:**
+7. **Counting Characters:**
    - Write a program that takes a string as input.
    - Use a `for` loop to count and print the number of characters in the string.
 
