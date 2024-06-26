@@ -15,18 +15,18 @@ class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
     
-    @classmethod
-    def area(cls, radius):
-        return 3.14 * radius * radius
+   
+    def area(self): # Use self instead of cls
+        return 3.14 * self.radius * self.radius
 
 class Rectangle(Shape):
-    def __init__(self, length, width):
+    def __init__(self,length, width):
         self.length = length
         self.width = width
     
-    @classmethod
-    def area(cls, length, width):
-        return length * width
+    
+    def area(self): # Use self instead of cls
+        return self.length * self.width
 
 # Usage
 circle = Circle(5)
@@ -36,7 +36,7 @@ rectangle = Rectangle(4, 6)
 shapes = [circle, rectangle]
 
 for shape in shapes:
-    print(f"Area: {shape.area()}")
+  print(f"Area: {shape.area()}")
 ```
 
 In this example, we have a base class `Shape` with a method `area()`, which is overridden in the `Circle` and `Rectangle` subclasses as class methods. The `@classmethod` decorator is used to define these class methods.
