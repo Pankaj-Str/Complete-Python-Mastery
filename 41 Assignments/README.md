@@ -129,21 +129,21 @@ https://www.hdfc.com/home-loan-emi-calculator
 ## Billing Stock System : 
 ```Yaml
 --- input Section ---
-Enter SKU ( No Unique Number ) : 101
+Enter SKU ( Unique Number ) : 101
 Enter Product Name : Books
 Enter Product QT : 20
 Enter Single Book Price : 120/-
 
 Do you Want Add more [Y/N]
 Y
-Enter SKU ( No Unique Number ) : 102
+Enter SKU ( Unique Number ) : 102
 Enter Product Name : toy
 Enter Product QT : 5
 Enter Single Book Price : 560/-
 
 Do you Want Add more [Y/N]
 Y
-Enter SKU ( No Unique Number ) : 103
+Enter SKU ( Unique Number ) : 103
 Enter Product Name : Samosa
 Enter Product QT : 250
 Enter Single Book Price : 20/-
@@ -155,7 +155,7 @@ N
 Enter Product Item Form SKU No. 103
 Total Cost : 5000/-
 Product Name : Samosa
-QT : 20 
+QT : 250 
 Single Price : 20/-
 
 ```
