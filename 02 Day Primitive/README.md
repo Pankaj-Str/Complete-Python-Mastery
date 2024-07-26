@@ -1,161 +1,129 @@
-## Primitive Types
+### Introduction to Variables in Python
 
-# Python Variables
+Variables are fundamental to programming. They are used to store data values. In Python, variables are created by assigning a value to them. Python is dynamically typed, which means you don’t need to declare the type of the variable beforehand. The type is inferred from the value assigned.
 
-In Python, variables are used to store data values. They provide a way to name and reference data, making it easier to work with information in your programs.
+### Creating Variables
 
-## Variable Naming Rules
-
-- Variable names can contain letters, numbers, and underscores.
-- Variable names must start with a letter or an underscore.
-- Variable names are case-sensitive (`myVar` and `myvar` are different variables).
-- Avoid using Python reserved keywords (e.g., `if`, `while`, `for`) as variable names.
-
-## Variable Assignment
-
-In Python, you assign a value to a variable using the assignment operator `=`. Here's an example:
+To create a variable in Python, simply assign a value to a variable name using the `=` operator.
 
 ```python
+# Creating variables
+name = "John Doe"
 age = 25
-name = "Alice"
+height = 5.9
+is_student = True
 ```
 
-## Variable Data Types
+In the example above:
+- `name` is a string variable.
+- `age` is an integer variable.
+- `height` is a floating-point variable.
+- `is_student` is a boolean variable.
 
-Python is dynamically typed, which means you don't need to specify a variable's data type explicitly. The interpreter determines the data type based on the assigned value. Common data types include:
+### Variable Naming Rules
 
-- `int`: Integer numbers (e.g., `42`, `-10`).
-- `float`: Floating-point numbers (e.g., `3.14`, `-0.5`).
-- `str`: Strings (e.g., `"Hello, World!"`, `'Python'`).
-- `bool`: Boolean values (`True` or `False`).
-- `list`, `tuple`, `set`, `dict`: Data structures to store multiple values.
+1. **Names can include letters, numbers, and underscores (`_`).**
+2. **Names must start with a letter or an underscore.**
+3. **Names cannot start with a number.**
+4. **Names are case-sensitive.**
+5. **Avoid using Python reserved keywords as variable names (e.g., `if`, `else`, `for`).**
 
-## Variable Reassignment
+**Examples of valid variable names:**
+```python
+my_variable = 10
+variable_2 = 20
+_variable = 30
+```
 
-You can change the value of a variable by assigning a new value to it:
+**Examples of invalid variable names:**
+```python
+2variable = 10  # Starts with a number
+my-variable = 20  # Contains a hyphen
+```
+
+### Data Types
+
+In Python, the most common data types for variables include:
+
+1. **Integer (`int`)** - Represents whole numbers.
+   ```python
+   age = 30
+   ```
+
+2. **Floating-point (`float`)** - Represents decimal numbers.
+   ```python
+   height = 5.9
+   ```
+
+3. **String (`str`)** - Represents a sequence of characters.
+   ```python
+   name = "Alice"
+   ```
+
+4. **Boolean (`bool`)** - Represents `True` or `False`.
+   ```python
+   is_student = True
+   ```
+
+5. **List** - A collection of items.
+   ```python
+   numbers = [1, 2, 3, 4, 5]
+   ```
+
+6. **Dictionary** - A collection of key-value pairs.
+   ```python
+   person = {"name": "Bob", "age": 30}
+   ```
+
+### Type Checking
+
+You can check the type of a variable using the `type()` function.
 
 ```python
 x = 10
-x = 20  # Reassigning the value of x to 20
+print(type(x))  # Output: <class 'int'>
+
+y = 5.7
+print(type(y))  # Output: <class 'float'>
 ```
 
-## Variable Conventions
+### Variable Reassignment
 
-Following naming conventions improves code readability:
-
-- Use descriptive names (`name` instead of `n`, `counter` instead of `c`).
-- Use lowercase letters for variable names (`my_variable`).
-- For multi-word variable names, use underscores or camelCase (`user_name` or `userName`).
-
-## Variable Scope
-
-A variable's scope defines where it can be accessed. Variables can have local or global scope:
-
-- **Local**: Defined within a function and accessible only inside that function.
-- **Global**: Defined outside any function and accessible throughout the program.
+Variables in Python are dynamically typed, so you can change the type of a variable by reassigning it.
 
 ```python
-def my_function():
-    local_var = 10  # Local variable
-
-global_var = 20  # Global variable
+x = 10          # x is an integer
+x = "Hello"     # x is now a string
 ```
 
-## Constants
+### Multiple Variable Assignment
 
-Though Python doesn't have true constants, conventionally, variables in ALL_CAPS are treated as constants and shouldn't be changed after being assigned.
+You can assign multiple variables in a single line.
+
+```python
+x, y, z = 5, 10, 15
+```
+
+### Swapping Variables
+
+Python allows you to swap values between variables easily.
+
+```python
+a = 5
+b = 10
+a, b = b, a  # Now a is 10 and b is 5
+```
+
+### Constants
+
+In Python, constants are usually declared in uppercase and are not enforced by the language, but it's a convention to indicate that their values should not change.
 
 ```python
 PI = 3.14159
 ```
 
+### Conclusion
 
-# Python Variable Names
+Variables are a crucial part of Python programming. They allow you to store and manipulate data in your programs. Understanding how to create and use variables effectively will help you write more efficient and readable code.
 
-In Python, variable names play a crucial role in writing clear, readable, and maintainable code. Choosing meaningful and consistent variable names is essential for communicating the purpose and intent of your code to others.
-
-## Naming Rules and Conventions
-
-1. Variable names must start with a letter (a-z, A-Z) or an underscore (`_`).
-2. Subsequent characters can be letters, digits (0-9), or underscores.
-3. Variable names are case-sensitive (`myVar` and `myvar` are different).
-4. Avoid using Python reserved keywords (e.g., `if`, `while`, `for`) as variable names.
-5. Use descriptive names that convey the purpose of the variable (`counter` instead of `c`).
-6. Separate words in variable names using underscores (`user_name`) or use camelCase (`userName`).
-7. Follow a consistent naming style throughout your codebase.
-
-## Naming Styles
-
-1. **Snake Case**: Words are separated by underscores. Commonly used in Python.
-   - Example: `user_age`, `total_students`
-
-2. **Camel Case**: Words are concatenated without spaces, and each word's first letter (except the first one) is capitalized.
-   - Example: `userName`, `totalStudents`
-
-3. **Pascal Case**: Similar to camel case, but the first letter is also capitalized.
-   - Example: `UserName`, `TotalStudents`
-
-4. **UPPERCASE**: Used for constants or variables with a fixed value that should not be changed.
-   - Example: `PI`, `MAX_VALUE`
-
-## Choosing Meaningful Names
-
-- Use names that describe the purpose of the variable.
-- Avoid using vague names like `data`, `value`, or single letters like `x`, `i`.
-- Be consistent in your naming choices across your codebase.
-
-## Avoiding Ambiguous Names
-
-- Choose variable names that are not easily confused with existing functions or types.
-- Avoid using similar names with different casing (e.g., `user_name` vs. `userName`).
-
-## Examples
-
-```python
-# Good examples
-user_name = "Alice"
-total_students = 100
-is_valid = True
-
-# Avoid ambiguous or unclear names
-n = 5  # Not clear
-x = "hello"  # Not descriptive
-```
-
-
-
-
-
-Question 1 : Create a student marksheet program output like this 
-```yaml
-
--- input Section 
-1. Enter Student Name : Ravi
-2. Enter Roll Number : RAVI009912
-3. Enter Class : MCA
-4. Enter JAVA Marks : 56
-5. Enter C++ Marks : 89
-6. Enter Python Marks : 12
-7. Enter Ruby Marks : 56
-8. Enter SQL Marks : 78
-
--- Output Section
-Student Name : Ravi
-Roll Number : RAVI009912
-Class : MCA
-Enter JAVA Marks : 56/100
-C++ Marks : 89/100
-Python Marks : 12/100
-Ruby Marks : 56/100
-SQL Marks : 78/100
-   total = ?
-   Per % = ?%
-```
-Question 2. Write a  Program to Print an Integer (Entered by the User) <br> <br>
-Question 3. Write a  Program to Add Two Integers (Entered by the User) <br> <br>
-Question 4. Write a  Program to Multiply two Floating Point Numbers (Entered by the User) <br> <br>
-
-
-
-
-
+For more tutorials and coding tips, visit [codeswithpankaj.com](https://codeswithpankaj.com).
