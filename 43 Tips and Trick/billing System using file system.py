@@ -11,8 +11,10 @@ def read_products(file_path):
                 products[product_id] = {'name': product_name, 'price': price}
     except FileNotFoundError:
         print(f"Error: The file {file_path} was not found.")
+        return None
     except Exception as e:
         print(f"An error occurred while reading the file: {e}")
+        return None
     return products
 
 # Function to generate the bill and save it to a file
@@ -26,15 +28,18 @@ def generate_bill(purchases, products, bill_file):
             unit_price = products[product_id]['price']
             total_price = unit_price * quantity
             total_bill += total_price
-            bill_lines.append(f"Product ID: {product_id}, Product Name: {product_name}, Quantity: {quantity}, Unit Price: {unit_price}, Total: {total_price}")
+            bill_lines.append(f"Product ID: {product_id}, Product Name: {product_name}, Quantity: {quantity}, Unit Price: {unit_price:.2f}, Total: {total_price:.2f}")
         else:
             bill_lines.append(f"Product ID: {product_id} not found.")
     
     bill_lines.append("-----------------------------------")
-    bill_lines.append(f"Total Bill: {total_bill}")
+    bill_lines.append(f"Total Bill: {total_bill:.2f}")
     
-    with open(bill_file, 'w') as file:
-        file.write('\n'.join(bill_lines))
+    try:
+        with open(bill_file, 'w') as file:
+            file.write('\n'.join(bill_lines))
+    except Exception as e:
+        print(f"An error occurred while writing the bill: {e}")
     
     print('\n'.join(bill_lines))
 
@@ -43,25 +48,39 @@ def main():
     bill_file = 'bill.txt'
     products = read_products(products_file)
     
-    if not products:
+    if products is None:
         return
     
     purchases = {}
     
+    print("Enter the product details for billing. Type 'done' when you are finished.")
+    
     while True:
+        product_id = input("Enter product ID (or 'done' to finish): ").strip()
+        if product_id.lower() == 'done':
+            break
+        if product_id not in products:
+            print("Invalid product ID. Please try again.")
+            continue
         try:
-            product_id = input("Enter product ID (or 'done' to finish): ")
-            if product_id.lower() == 'done':
-                break
-            quantity = int(input("Enter quantity: "))
-            if product_id in purchases:
-                purchases[product_id] += quantity
-            else:
-                purchases[product_id] = quantity
+            quantity = int(input("Enter quantity: ").strip())
+            if quantity <= 0:
+                print("Quantity should be a positive integer. Please try again.")
+                continue
         except ValueError:
             print("Invalid input. Please enter a valid number for quantity.")
+            continue
+        
+        if product_id in purchases:
+            purchases[product_id] += quantity
+        else:
+            purchases[product_id] = quantity
     
-    generate_bill(purchases, products, bill_file)
+    if not purchases:
+        print("No purchases made.")
+    else:
+        generate_bill(purchases, products, bill_file)
+        print(f"The bill has been generated and saved to {bill_file}")
 
 if __name__ == "__main__":
     main()
