@@ -1,4 +1,5 @@
 
+---
 
 # **Python Inheritance Tutorial**
 
@@ -24,7 +25,7 @@
 5. [Method Overriding](#method-overriding)
    - [Concept of Method Overriding](#concept-of-method-overriding)
    - [Example of Method Overriding](#example-of-method-overriding)
-6. [Using `super()` Function](#using-super-function)
+6. [Using super() Function](#using-super-function)
 7. [Inheritance and Encapsulation](#inheritance-and-encapsulation)
 8. [Practical Examples of Inheritance](#practical-examples-of-inheritance)
    - [Example 1: Inheritance in a Bank System](#example-1-inheritance-in-a-bank-system)
@@ -295,7 +296,9 @@ Child class method (extended).
 
 ### **7. Inheritance and Encapsulation**
 
-Inheritance works seamlessly with encapsulation in Python. Encapsulation is the practice of hiding internal details of a class and restricting access to them.
+Inheritance works seamlessly with encapsulation in Python. Enc
+
+apsulation is the practice of hiding internal details of a class and restricting access to them.
 
 **Example:**
 ```python
@@ -307,9 +310,7 @@ class Parent:
         print("Parent class method.")
 
 class Child(Parent):
-    def
-
- display(self):
+    def display(self):
         print("Accessing:", self._protected_var)
 
 child = Child()
@@ -417,3 +418,4 @@ For more tutorials and resources, visit **Codes With Pankaj** at [www.codeswithp
 This comprehensive tutorial on Python inheritance covers everything from basic concepts to advanced topics like method overriding and the `super()` function. With practical examples and best practices, you'll be able to implement inheritance in your Python projects efficiently.
 
 ---
+
