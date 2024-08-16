@@ -1,4 +1,5 @@
-### **Python Inheritance Tutorial**
+
+# **Python Inheritance Tutorial**
 
 **Tutorial Name:** Codes With Pankaj  
 **Website:** [www.codeswithpankaj.com](http://www.codeswithpankaj.com)
@@ -7,28 +8,28 @@
 
 ### **Table of Contents**
 
-1. **Introduction to Python Inheritance**
-2. **Understanding the Basics of Inheritance**
-   - What is Inheritance?
-   - Benefits of Inheritance
-   - Terminology: Parent and Child Classes
-3. **Creating a Simple Inheritance Example**
-4. **Types of Inheritance in Python**
-   - Single Inheritance
-   - Multiple Inheritance
-   - Multilevel Inheritance
-   - Hierarchical Inheritance
-   - Hybrid Inheritance
-5. **Method Overriding**
-   - Concept of Method Overriding
-   - Example of Method Overriding
-6. **Using `super()` Function**
-7. **Inheritance and Encapsulation**
-8. **Practical Examples of Inheritance**
-   - Example 1: Inheritance in a Bank System
-   - Example 2: Inheritance in an Employee Management System
-9. **Best Practices for Using Inheritance**
-10. **Conclusion**
+1. [Introduction to Python Inheritance](#introduction-to-python-inheritance)
+2. [Understanding the Basics of Inheritance](#understanding-the-basics-of-inheritance)
+   - [What is Inheritance?](#what-is-inheritance)
+   - [Benefits of Inheritance](#benefits-of-inheritance)
+   - [Terminology: Parent and Child Classes](#terminology-parent-and-child-classes)
+3. [Creating a Simple Inheritance Example](#creating-a-simple-inheritance-example)
+4. [Types of Inheritance in Python](#types-of-inheritance-in-python)
+   - [Single Inheritance](#single-inheritance)
+   - [Multiple Inheritance](#multiple-inheritance)
+   - [Multilevel Inheritance](#multilevel-inheritance)
+   - [Hierarchical Inheritance](#hierarchical-inheritance)
+   - [Hybrid Inheritance](#hybrid-inheritance)
+5. [Method Overriding](#method-overriding)
+   - [Concept of Method Overriding](#concept-of-method-overriding)
+   - [Example of Method Overriding](#example-of-method-overriding)
+6. [Using `super()` Function](#using-super-function)
+7. [Inheritance and Encapsulation](#inheritance-and-encapsulation)
+8. [Practical Examples of Inheritance](#practical-examples-of-inheritance)
+   - [Example 1: Inheritance in a Bank System](#example-1-inheritance-in-a-bank-system)
+   - [Example 2: Inheritance in an Employee Management System](#example-2-inheritance-in-an-employee-management-system)
+9. [Best Practices for Using Inheritance](#best-practices-for-using-inheritance)
+10. [Conclusion](#conclusion)
 
 ---
 
@@ -37,6 +38,8 @@
 Inheritance is one of the fundamental concepts of Object-Oriented Programming (OOP) in Python. It allows you to create a new class (child class) that inherits attributes and methods from an existing class (parent class). This promotes code reusability and helps to maintain a clean and organized codebase.
 
 In this tutorial, we'll explore the concept of inheritance in detail, understand different types of inheritance, learn about method overriding, and see how the `super()` function is used in inheritance. We'll also look at practical examples and best practices for implementing inheritance in Python.
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -74,6 +77,8 @@ child_obj.parent_method()
 - **Parent Class (Superclass):** The class whose properties and methods are inherited by another class.
 - **Child Class (Subclass):** The class that inherits properties and methods from the parent class.
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ### **3. Creating a Simple Inheritance Example**
@@ -99,6 +104,8 @@ dog.bark()   # Defined in Dog class
 **Explanation:**
 - The `Dog` class inherits the `sound()` method from the `Animal` class.
 - Additionally, the `Dog` class defines its own method, `bark()`.
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -222,6 +229,8 @@ child.base_method()  # Inherited from Base class
 **Explanation:**
 - The `Child` class inherits from `Parent1` and `Parent2`, both of which inherit from the `Base` class.
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ### **5. Method Overriding**
@@ -246,6 +255,8 @@ child.method()  # Output: Child class method (overridden).
 
 **Explanation:**
 - The `Child` class overrides the `method()` from the `Parent` class, providing its own implementation.
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -277,6 +288,8 @@ Child class method (extended).
 **Explanation:**
 - The `super().method()` calls the method from the parent class, and the child class adds additional functionality.
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ### **7. Inheritance and Encapsulation**
@@ -293,7 +306,9 @@ class Parent:
         print("Parent class method.")
 
 class Child(Parent):
-    def display(self):
+    def display(self
+
+):
         print("Accessing:", self._protected_var)
 
 child = Child()
@@ -302,6 +317,8 @@ child.display()
 
 **Explanation:**
 - The `_protected_var` is a protected variable, but it can still be accessed in the child class.
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -339,9 +356,7 @@ account.add_interest(0.05)
 ```
 
 **Explanation:**
-- The `SavingsAccount` class inherits from `Bank
-
-Account` and adds a new method `add_interest()`.
+- The `SavingsAccount` class inherits from `BankAccount` and adds a new method `add_interest()`.
 
 #### **Example 2: Inheritance in an Employee Management System**
 
@@ -371,6 +386,8 @@ manager.show_details()
 **Explanation:**
 - The `Manager` class inherits from `Employee` and extends the `show_details()` method to include team size.
 
+[Back to Top](#table-of-contents)
+
 ---
 
 ### **9. Best Practices for Using Inheritance**
@@ -379,6 +396,8 @@ manager.show_details()
 - **Avoid Deep Inheritance Hierarchies:** Deep hierarchies can make code difficult to understand and maintain. Favor composition over inheritance when appropriate.
 - **Override Methods Carefully:** When overriding methods, ensure that the new implementation is consistent with the original method's purpose.
 - **Use `super()` to Extend Parent Methods:** When you need to extend the behavior of a parent method, use `super()` to avoid code duplication.
+
+[Back to Top](#table-of-contents)
 
 ---
 
@@ -389,5 +408,7 @@ Inheritance is a powerful feature in Python that allows you to reuse code, exten
 For more tutorials and resources, visit **Codes With Pankaj** at [www.codeswithpankaj.com](http://www.codeswithpankaj.com).
 
 **End of Tutorial**
+
+[Back to Top](#table-of-contents)
 
 ---
