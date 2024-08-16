@@ -1,4 +1,5 @@
 
+
 # **Python Inheritance Tutorial**
 
 **Tutorial Name:** Codes With Pankaj  
@@ -306,9 +307,9 @@ class Parent:
         print("Parent class method.")
 
 class Child(Parent):
-    def display(self
+    def
 
-):
+ display(self):
         print("Accessing:", self._protected_var)
 
 child = Child()
@@ -410,5 +411,9 @@ For more tutorials and resources, visit **Codes With Pankaj** at [www.codeswithp
 **End of Tutorial**
 
 [Back to Top](#table-of-contents)
+
+---
+
+This comprehensive tutorial on Python inheritance covers everything from basic concepts to advanced topics like method overriding and the `super()` function. With practical examples and best practices, you'll be able to implement inheritance in your Python projects efficiently.
 
 ---
