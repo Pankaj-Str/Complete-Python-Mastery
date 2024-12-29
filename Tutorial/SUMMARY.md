@@ -3,7 +3,7 @@
 * [Python Introduction](README.md)
 * [Python Installing](python-installing.md)
 * [Creating Your First Program in Python](creating-your-first-program-in-python.md)
-* [Python Syntax and Comments](python-syntax-and-comments.md)
+* [Data Types and Other Basic Elements in Python](data-types-and-other-basic-elements-in-python.md)
 * [Python Variables and Data Types](python-variables-and-data-types.md)
 * [Python Type Conversion](python-type-conversion.md)
 * [Python Operators](python-operators.md)
