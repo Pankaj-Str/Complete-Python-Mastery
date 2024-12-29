@@ -165,49 +165,6 @@ Data types define the kind of data a variable can hold. Python supports several 
         print("This is a keyword example")
     ```
 
-To view all keywords in Python:
-
-```python
-import keyword
-print(keyword.kwlist)
-```
-
-***
-
-#### **3. Variables**
-
-* Containers for storing data values.
-* Python is dynamically typed, so you don’t need to declare the type explicitly.
-
-**Variable Declaration**
-
-```python
-name = "Pankaj"
-age = 30
-is_active = True
-```
-
-**Multiple Assignments**
-
-```python
-x, y, z = 10, 20, 30
-```
-
-**Reassigning Variables**
-
-```python
-x = 100  # x now holds a new value
-```
-
-**Type Checking**
-
-Use the `type()` function to check the type of a variable.
-
-```python
-print(type(name))  # Output: <class 'str'>
-print(type(age))   # Output: <class 'int'>
-```
-
 ***
 
 ### List of Python Keywords
@@ -256,6 +213,42 @@ To obtain the most up-to-date list of Python keywords, you can use the `keyword`
 import keyword
 print(keyword.kwlist)
 ```
+
+#### **3. Variables**
+
+* Containers for storing data values.
+* Python is dynamically typed, so you don’t need to declare the type explicitly.
+
+**Variable Declaration**
+
+```python
+name = "Pankaj"
+age = 30
+is_active = True
+```
+
+**Multiple Assignments**
+
+```python
+x, y, z = 10, 20, 30
+```
+
+**Reassigning Variables**
+
+```python
+x = 100  # x now holds a new value
+```
+
+**Type Checking**
+
+Use the `type()` function to check the type of a variable.
+
+```python
+print(type(name))  # Output: <class 'str'>
+print(type(age))   # Output: <class 'int'>
+```
+
+***
 
 ### **Examples Summary**
 
