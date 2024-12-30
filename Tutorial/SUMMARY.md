@@ -17,6 +17,7 @@
 * [Python Tuple](python-tuple.md)
 * [Python Set](python-set.md)
 * [Python String](python-string.md)
+* [Arrays in Python](arrays-in-python.md)
 * [Python Files and Directories](python-files-and-directories.md)
 * [Python Reading Excel and CSV Files](python-reading-excel-and-csv-files.md)
 * [Python Image Reading](python-image-reading.md)
