@@ -1,31 +1,40 @@
-# Regular Expressions 
+# Regular Expressions in Python
 
 ## Introduction
 
-Welcome! In this tutorial, we will learn **Regular Expressions (RegEx)** and **Web Scraping** in Python. These are useful tools for searching text and extracting data from websites.
+Welcome! In this tutorial, we will learn **Regular Expressions (RegEx)** in Python. This is a useful tool for searching and working with text.
 
 ---
 
 ## 1. Understanding Regular Expressions (RegEx)
 
-###
+### What is Regular Expression?
 
-A **Regular Expression (RegEx)** is a pattern used to search for specific words, numbers, or symbols in text.
+A **Regular Expression (RegEx)** is a pattern used to search for specific words, numbers, or symbols in text. It helps in finding, replacing, and extracting information from large text data easily.
 
 ### How to Use RegEx in Python?
 
-Python has a built-in module called `re` that helps us use regular expressions.
+Python has a built-in module called `re` that helps us use regular expressions. To use it, we first need to import it:
+
+```python
+import re
+```
 
 ### Basic RegEx Patterns
 
 | Pattern | Meaning                      | Example                                  |
 | ------- | ---------------------------- | ---------------------------------------- |
 | `\d`    | Matches any digit (0-9)      | "My number is 1234" → `\d+` finds `1234` |
-| `\w`    | Matches any letter or number | "Hello\_123" → `\w+` finds `Hello_123`   |
+| `\w`    | Matches any letter or number | "Hello_123" → `\w+` finds `Hello_123`   |
 | `\s`    | Matches spaces               | "Hello World" → `\s` finds space         |
 | `.`     | Matches any character        | "a.b" → `.` finds `a` and `b`            |
-| `*`     | Matches 0 or more times      | "go\*" → matches "g", "go", "goo"        |
+| `*`     | Matches 0 or more times      | "go*" → matches "g", "go", "goo"        |
 | `+`     | Matches 1 or more times      | "go+" → matches "go", "goo", but not "g" |
+| `?`     | Matches 0 or 1 time          | "colou?r" → matches "color" and "colour" |
+| `^`     | Matches start of string      | "^Hello" → matches "Hello World" but not "World Hello" |
+| `$`     | Matches end of string        | "world$" → matches "Hello world" but not "world Hello" |
+| `[]`    | Matches any character inside brackets | `[aeiou]` → matches "a" in "apple" |
+| `()`    | Groups patterns              | `(ab)+` → matches "ababab" in "abababxyz" |
 
 ### Example: Finding Numbers in a Sentence
 
@@ -49,82 +58,25 @@ print("Emails found:", emails)
 # Output: ['test@example.com', 'info@mail.com']
 ```
 
----
-
-## 2. Web Scraping in Python
-
-### What is Web Scraping?
-
-Web scraping is a technique to extract information from websites.
-
-### Libraries for Web Scraping
-
-- **Requests**: Fetches web pages.
-- **BeautifulSoup**: Extracts data from HTML.
-
-### Install Required Libraries
-
-Run the following command to install them:
-
-```sh
-pip install requests beautifulsoup4
-```
-
-### Example: Extracting Headlines from a News Website
+### Example: Replacing Text Using RegEx
 
 ```python
-import requests
-from bs4 import BeautifulSoup
-
-# Get webpage content
-url = "https://news.ycombinator.com/"
-response = requests.get(url)
-soup = BeautifulSoup(response.text, 'html.parser')
-
-# Extract headlines
-headlines = soup.find_all("a", class_="storylink")
-
-for i, headline in enumerate(headlines[:5]):
-    print(f"{i+1}. {headline.text}")
-```
-
-### Example: Extracting All Links from a Webpage
-
-```python
-import requests
-from bs4 import BeautifulSoup
-
-url = "https://example.com"
-response = requests.get(url)
-soup = BeautifulSoup(response.text, 'html.parser')
-
-# Find all links
-links = soup.find_all('a')
-for link in links:
-    print(link.get('href'))
-```
-
----
-
-## 3. Combining RegEx and Web Scraping
-
-Now, let’s extract **email addresses** from a webpage using both **RegEx and BeautifulSoup**.
-
-```python
-import requests
-from bs4 import BeautifulSoup
 import re
 
-url = "https://example.com/contact"
-response = requests.get(url)
-soup = BeautifulSoup(response.text, "html.parser")
+text = "Hello 123, this is a test 456."
+new_text = re.sub(r'\d+', '###', text)
+print(new_text)  # Output: "Hello ###, this is a test ###."
+```
 
-# Extract text
-page_text = soup.get_text()
+### Example: Extracting Words from a Sentence
 
-# Find email addresses using RegEx
-emails = re.findall(r'[\w.-]+@[\w.-]+', page_text)
-print("Extracted Emails:", emails)
+```python
+import re
+
+text = "Python is an amazing programming language!"
+words = re.findall(r'\w+', text)
+print("Words found:", words)
+# Output: ['Python', 'is', 'an', 'amazing', 'programming', 'language']
 ```
 
 ---
@@ -132,8 +84,9 @@ print("Extracted Emails:", emails)
 ## Conclusion
 
 - **Regular Expressions (RegEx)** help search for patterns in text.
-- **BeautifulSoup** makes it easy to extract data from websites.
-- **Requests** fetches web pages for scraping.
+- Useful for finding words, numbers, emails, and more.
+- We can replace and extract specific parts of text using RegEx.
+- Python's `re` module makes working with RegEx easy.
 
-
+With these basics, you can now start using Regular Expressions in Python to manipulate text data efficiently! 🚀
 
