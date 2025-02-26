@@ -37,3 +37,4 @@
 * [Python Math](python-math.md)
 * [Python JSON](python-json.md)
 * [Python RegEx](python-regex.md)
+* [Pandas](pandas.md)
