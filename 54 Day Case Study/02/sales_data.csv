@@ -1,551 +1,501 @@
-Transaction_ID,Date,Store_ID,Store_Location,Customer_ID,Customer_Age,Customer_Gender,Product_Category,Quantity,Unit_Price,Total_Sales
-1001,2023-01-01,102,Chicago,230,54,Female,Home & Kitchen,4,186,744
-1002,2023-01-02,101,Los Angeles,250,20,Male,Electronics,2,85,170
-1003,2023-01-03,109,Chicago,266,57,Male,Beauty,2,20,40
-1004,2023-01-04,109,Los Angeles,231,51,Female,Electronics,2,270,540
-1005,2023-01-05,102,New York,272,42,Male,Clothing,5,93,465
-1006,2023-01-06,105,Los Angeles,287,59,Male,Beauty,1,41,41
-1007,2023-01-07,104,Los Angeles,248,35,Female,Clothing,5,424,2120
-1008,2023-01-08,108,Chicago,221,65,Male,Electronics,2,455,910
-1009,2023-01-09,105,New York,274,45,Female,Electronics,5,378,1890
-1010,2023-01-10,102,New York,253,57,Male,Sports,5,101,505
-1011,2023-01-11,107,Chicago,204,24,Male,Electronics,2,305,610
-1012,2023-01-12,103,Phoenix,206,32,Male,Electronics,5,194,970
-1013,2023-01-13,104,Houston,246,59,Male,Home & Kitchen,1,216,216
-1014,2023-01-14,104,Chicago,213,57,Female,Electronics,5,103,515
-1015,2023-01-15,101,Chicago,202,47,Male,Sports,4,458,1832
-1016,2023-01-16,105,New York,230,42,Male,Sports,2,326,652
-1017,2023-01-17,107,Phoenix,294,63,Female,Clothing,4,299,1196
-1018,2023-01-18,106,Los Angeles,201,68,Female,Electronics,1,225,225
-1019,2023-01-19,108,Houston,280,28,Male,Sports,4,406,1624
-1020,2023-01-20,105,New York,275,62,Female,Beauty,1,299,299
-1021,2023-01-21,105,Chicago,273,53,Female,Clothing,4,207,828
-1022,2023-01-22,107,New York,246,34,Female,Electronics,3,417,1251
-1023,2023-01-23,108,Phoenix,240,42,Male,Beauty,2,444,888
-1024,2023-01-24,105,Chicago,238,36,Female,Beauty,3,268,804
-1025,2023-01-25,107,Chicago,227,27,Female,Electronics,2,204,408
-1026,2023-01-26,103,Phoenix,239,51,Female,Clothing,3,47,141
-1027,2023-01-27,107,Los Angeles,288,66,Male,Clothing,4,91,364
-1028,2023-01-28,105,New York,289,61,Female,Home & Kitchen,4,301,1204
-1029,2023-01-29,107,Los Angeles,260,67,Male,Beauty,2,424,848
-1030,2023-01-30,109,Chicago,237,20,Female,Clothing,2,488,976
-1031,2023-01-31,105,Chicago,258,58,Female,Beauty,2,294,588
-1032,2023-02-01,107,Chicago,229,67,Female,Clothing,3,429,1287
-1033,2023-02-02,106,Chicago,241,63,Male,Clothing,2,370,740
-1034,2023-02-03,104,Houston,263,42,Male,Clothing,5,216,1080
-1035,2023-02-04,105,Houston,284,55,Male,Sports,3,44,132
-1036,2023-02-05,104,Los Angeles,252,48,Female,Sports,5,219,1095
-1037,2023-02-06,107,Chicago,295,47,Male,Sports,2,122,244
-1038,2023-02-07,102,New York,299,28,Female,Clothing,4,219,876
-1039,2023-02-08,108,Houston,238,25,Male,Sports,1,190,190
-1040,2023-02-09,109,Houston,214,53,Male,Clothing,4,245,980
-1041,2023-02-10,103,Houston,238,29,Male,Electronics,5,320,1600
-1042,2023-02-11,101,New York,270,46,Male,Clothing,1,90,90
-1043,2023-02-12,103,Los Angeles,276,21,Male,Home & Kitchen,5,189,945
-1044,2023-02-13,105,Chicago,264,30,Female,Beauty,5,118,590
-1045,2023-02-14,107,Los Angeles,272,47,Male,Electronics,5,414,2070
-1046,2023-02-15,109,Chicago,266,27,Male,Sports,5,405,2025
-1047,2023-02-16,101,New York,207,29,Female,Beauty,1,32,32
-1048,2023-02-17,107,Chicago,239,30,Female,Sports,4,414,1656
-1049,2023-02-18,104,Chicago,251,68,Female,Home & Kitchen,2,365,730
-1050,2023-02-19,108,Los Angeles,256,62,Female,Sports,3,20,60
-1051,2023-02-20,105,Chicago,257,44,Male,Electronics,2,207,414
-1052,2023-02-21,101,Houston,294,54,Female,Clothing,3,384,1152
-1053,2023-02-22,105,Houston,282,23,Male,Beauty,4,178,712
-1054,2023-02-23,102,Chicago,276,53,Female,Electronics,3,60,180
-1055,2023-02-24,103,Los Angeles,203,44,Male,Home & Kitchen,5,388,1940
-1056,2023-02-25,102,Chicago,269,40,Male,Electronics,1,356,356
-1057,2023-02-26,107,Phoenix,266,41,Female,Electronics,3,122,366
-1058,2023-02-27,107,New York,235,41,Female,Sports,5,270,1350
-1059,2023-02-28,109,Phoenix,269,45,Male,Sports,3,380,1140
-1060,2023-03-01,102,New York,237,20,Male,Electronics,3,397,1191
-1061,2023-03-02,103,Chicago,250,32,Female,Sports,2,465,930
-1062,2023-03-03,108,Chicago,216,36,Male,Sports,5,345,1725
-1063,2023-03-04,109,Houston,256,60,Female,Clothing,2,427,854
-1064,2023-03-05,103,Chicago,281,27,Female,Sports,5,107,535
-1065,2023-03-06,106,Phoenix,296,55,Male,Home & Kitchen,1,58,58
-1066,2023-03-07,103,New York,204,47,Male,Electronics,1,242,242
-1067,2023-03-08,107,Phoenix,242,41,Male,Electronics,4,337,1348
-1068,2023-03-09,106,Phoenix,246,41,Male,Beauty,2,262,524
-1069,2023-03-10,106,Chicago,243,31,Female,Sports,4,176,704
-1070,2023-03-11,108,Los Angeles,283,24,Female,Electronics,3,313,939
-1071,2023-03-12,103,New York,227,26,Female,Electronics,4,252,1008
-1072,2023-03-13,109,Los Angeles,269,46,Male,Electronics,4,285,1140
-1073,2023-03-14,101,Chicago,285,41,Female,Electronics,1,292,292
-1074,2023-03-15,103,Houston,212,53,Male,Clothing,2,212,424
-1075,2023-03-16,108,New York,215,60,Female,Clothing,4,44,176
-1076,2023-03-17,101,New York,275,41,Male,Clothing,4,494,1976
-1077,2023-03-18,103,Phoenix,263,58,Female,Clothing,3,439,1317
-1078,2023-03-19,103,New York,245,24,Male,Home & Kitchen,1,44,44
-1079,2023-03-20,105,Houston,264,60,Female,Home & Kitchen,3,250,750
-1080,2023-03-21,101,Chicago,217,24,Female,Sports,5,126,630
-1081,2023-03-22,105,Houston,245,34,Female,Beauty,3,278,834
-1082,2023-03-23,106,New York,292,26,Female,Home & Kitchen,3,56,168
-1083,2023-03-24,106,Los Angeles,208,55,Male,Sports,3,297,891
-1084,2023-03-25,106,New York,278,50,Male,Clothing,2,442,884
-1085,2023-03-26,105,Chicago,229,48,Male,Electronics,1,338,338
-1086,2023-03-27,102,Houston,288,37,Male,Sports,4,482,1928
-1087,2023-03-28,101,Chicago,294,58,Male,Home & Kitchen,1,281,281
-1088,2023-03-29,109,Chicago,211,40,Male,Beauty,3,396,1188
-1089,2023-03-30,105,New York,232,44,Male,Sports,1,132,132
-1090,2023-03-31,102,Phoenix,251,32,Male,Electronics,4,383,1532
-1091,2023-04-01,108,Chicago,297,55,Female,Clothing,1,253,253
-1092,2023-04-02,104,Los Angeles,217,50,Female,Clothing,2,380,760
-1093,2023-04-03,103,Houston,227,50,Male,Clothing,2,168,336
-1094,2023-04-04,102,Phoenix,290,54,Female,Electronics,2,181,362
-1095,2023-04-05,103,Phoenix,283,59,Female,Electronics,1,491,491
-1096,2023-04-06,105,Houston,277,21,Male,Sports,5,389,1945
-1097,2023-04-07,107,Phoenix,280,31,Female,Beauty,4,374,1496
-1098,2023-04-08,104,Phoenix,214,22,Male,Electronics,3,286,858
-1099,2023-04-09,103,Chicago,208,64,Male,Beauty,2,115,230
-1100,2023-04-10,102,Phoenix,242,37,Female,Sports,4,316,1264
-1101,2023-04-11,106,New York,293,53,Female,Clothing,3,58,174
-1102,2023-04-12,109,New York,244,45,Male,Home & Kitchen,4,469,1876
-1103,2023-04-13,104,Phoenix,292,48,Male,Clothing,3,381,1143
-1104,2023-04-14,105,Los Angeles,291,28,Female,Sports,5,269,1345
-1105,2023-04-15,109,Phoenix,243,38,Female,Electronics,2,477,954
-1106,2023-04-16,109,Houston,211,20,Female,Beauty,4,146,584
-1107,2023-04-17,108,Chicago,231,69,Male,Clothing,5,272,1360
-1108,2023-04-18,103,New York,296,24,Male,Home & Kitchen,3,118,354
-1109,2023-04-19,103,Phoenix,267,34,Male,Home & Kitchen,2,378,756
-1110,2023-04-20,103,Los Angeles,217,64,Male,Beauty,1,467,467
-1111,2023-04-21,101,Los Angeles,218,25,Male,Electronics,2,235,470
-1112,2023-04-22,109,Phoenix,280,19,Male,Beauty,5,315,1575
-1113,2023-04-23,102,Phoenix,258,21,Male,Clothing,5,475,2375
-1114,2023-04-24,105,New York,260,23,Female,Home & Kitchen,5,193,965
-1115,2023-04-25,108,Los Angeles,222,34,Female,Sports,3,26,78
-1116,2023-04-26,105,Chicago,209,47,Male,Home & Kitchen,4,455,1820
-1117,2023-04-27,105,Houston,259,51,Female,Electronics,1,177,177
-1118,2023-04-28,107,Phoenix,268,65,Male,Home & Kitchen,2,119,238
-1119,2023-04-29,104,New York,237,32,Female,Electronics,3,234,702
-1120,2023-04-30,105,Phoenix,245,46,Male,Electronics,4,313,1252
-1121,2023-05-01,105,Phoenix,258,29,Female,Home & Kitchen,4,139,556
-1122,2023-05-02,102,New York,285,37,Female,Electronics,3,345,1035
-1123,2023-05-03,109,Chicago,220,67,Female,Electronics,5,119,595
-1124,2023-05-04,108,New York,260,57,Female,Beauty,1,329,329
-1125,2023-05-05,105,Los Angeles,209,26,Male,Sports,4,242,968
-1126,2023-05-06,102,Los Angeles,256,37,Female,Clothing,4,146,584
-1127,2023-05-07,102,Chicago,214,64,Male,Electronics,4,354,1416
-1128,2023-05-08,105,Chicago,299,50,Female,Beauty,5,10,50
-1129,2023-05-09,103,New York,278,21,Male,Beauty,2,151,302
-1130,2023-05-10,108,Los Angeles,227,35,Female,Home & Kitchen,3,261,783
-1131,2023-05-11,106,Houston,221,44,Female,Home & Kitchen,5,353,1765
-1132,2023-05-12,108,Los Angeles,279,42,Male,Sports,1,153,153
-1133,2023-05-13,106,Phoenix,289,38,Female,Sports,2,191,382
-1134,2023-05-14,107,Los Angeles,292,50,Female,Home & Kitchen,1,387,387
-1135,2023-05-15,105,Phoenix,230,33,Male,Electronics,5,239,1195
-1136,2023-05-16,104,Chicago,276,23,Male,Beauty,2,318,636
-1137,2023-05-17,106,Phoenix,289,44,Male,Sports,2,401,802
-1138,2023-05-18,107,Chicago,262,26,Female,Sports,2,365,730
-1139,2023-05-19,104,Phoenix,269,28,Female,Clothing,5,56,280
-1140,2023-05-20,107,Houston,210,62,Male,Clothing,4,117,468
-1141,2023-05-21,105,Chicago,260,54,Female,Home & Kitchen,5,15,75
-1142,2023-05-22,109,New York,289,22,Female,Sports,1,12,12
-1143,2023-05-23,101,Houston,208,54,Female,Sports,5,101,505
-1144,2023-05-24,108,Los Angeles,203,41,Male,Clothing,2,318,636
-1145,2023-05-25,102,New York,292,47,Male,Beauty,4,286,1144
-1146,2023-05-26,108,Phoenix,298,54,Male,Electronics,1,221,221
-1147,2023-05-27,103,New York,275,44,Male,Beauty,3,489,1467
-1148,2023-05-28,106,Los Angeles,272,54,Male,Clothing,1,142,142
-1149,2023-05-29,108,New York,279,49,Female,Electronics,2,272,544
-1150,2023-05-30,104,New York,230,30,Female,Clothing,5,367,1835
-1151,2023-05-31,105,Los Angeles,290,41,Male,Sports,2,82,164
-1152,2023-06-01,107,Chicago,260,40,Female,Beauty,2,150,300
-1153,2023-06-02,103,Los Angeles,223,25,Female,Electronics,4,194,776
-1154,2023-06-03,109,Los Angeles,245,51,Male,Clothing,3,328,984
-1155,2023-06-04,107,Houston,238,34,Male,Home & Kitchen,5,484,2420
-1156,2023-06-05,107,Houston,233,30,Female,Home & Kitchen,5,69,345
-1157,2023-06-06,103,Chicago,230,40,Female,Clothing,1,480,480
-1158,2023-06-07,107,New York,226,32,Male,Sports,4,66,264
-1159,2023-06-08,105,New York,261,50,Female,Home & Kitchen,3,158,474
-1160,2023-06-09,103,Chicago,282,55,Male,Home & Kitchen,5,480,2400
-1161,2023-06-10,108,New York,258,33,Male,Sports,4,384,1536
-1162,2023-06-11,105,Los Angeles,237,47,Male,Electronics,3,232,696
-1163,2023-06-12,105,Los Angeles,292,68,Male,Clothing,1,406,406
-1164,2023-06-13,101,Houston,267,46,Female,Home & Kitchen,2,199,398
-1165,2023-06-14,109,Houston,214,68,Female,Sports,5,367,1835
-1166,2023-06-15,103,Phoenix,260,41,Female,Beauty,4,186,744
-1167,2023-06-16,106,Houston,277,22,Female,Electronics,3,309,927
-1168,2023-06-17,102,Los Angeles,240,25,Female,Clothing,1,423,423
-1169,2023-06-18,109,Chicago,231,40,Female,Electronics,3,23,69
-1170,2023-06-19,102,Chicago,274,40,Male,Electronics,1,322,322
-1171,2023-06-20,103,Houston,216,33,Female,Beauty,3,204,612
-1172,2023-06-21,108,Chicago,219,20,Male,Clothing,2,311,622
-1173,2023-06-22,101,Phoenix,219,62,Female,Home & Kitchen,1,60,60
-1174,2023-06-23,107,Chicago,275,18,Female,Home & Kitchen,2,86,172
-1175,2023-06-24,108,Phoenix,292,58,Male,Clothing,4,356,1424
-1176,2023-06-25,105,Los Angeles,250,49,Female,Beauty,1,299,299
-1177,2023-06-26,102,Chicago,262,61,Female,Beauty,3,212,636
-1178,2023-06-27,104,Los Angeles,278,48,Male,Beauty,1,178,178
-1179,2023-06-28,104,Los Angeles,257,39,Male,Beauty,3,191,573
-1180,2023-06-29,108,Phoenix,271,50,Female,Sports,2,404,808
-1181,2023-06-30,101,Phoenix,202,55,Female,Home & Kitchen,3,138,414
-1182,2023-07-01,109,Chicago,264,49,Male,Beauty,5,318,1590
-1183,2023-07-02,103,Houston,284,54,Female,Home & Kitchen,3,97,291
-1184,2023-07-03,101,Houston,238,28,Female,Sports,4,129,516
-1185,2023-07-04,108,Chicago,233,57,Female,Clothing,3,315,945
-1186,2023-07-05,103,Houston,235,44,Male,Home & Kitchen,3,372,1116
-1187,2023-07-06,103,Phoenix,288,32,Female,Home & Kitchen,2,479,958
-1188,2023-07-07,109,Chicago,230,43,Male,Beauty,4,223,892
-1189,2023-07-08,105,Los Angeles,241,18,Male,Home & Kitchen,3,228,684
-1190,2023-07-09,107,Los Angeles,204,39,Female,Home & Kitchen,1,140,140
-1191,2023-07-10,101,New York,250,57,Male,Beauty,5,372,1860
-1192,2023-07-11,102,New York,208,36,Female,Home & Kitchen,1,15,15
-1193,2023-07-12,109,Chicago,231,43,Female,Clothing,2,56,112
-1194,2023-07-13,106,Houston,234,57,Male,Beauty,2,162,324
-1195,2023-07-14,101,Phoenix,211,23,Female,Sports,1,146,146
-1196,2023-07-15,104,Chicago,263,51,Female,Beauty,4,78,312
-1197,2023-07-16,102,New York,206,28,Male,Clothing,2,21,42
-1198,2023-07-17,106,Houston,233,40,Female,Sports,3,19,57
-1199,2023-07-18,109,Houston,233,69,Male,Sports,3,456,1368
-1200,2023-07-19,107,New York,293,38,Male,Sports,2,301,602
-1201,2023-07-20,102,New York,288,58,Female,Electronics,4,461,1844
-1202,2023-07-21,101,Chicago,253,30,Male,Electronics,1,314,314
-1203,2023-07-22,105,Phoenix,272,30,Male,Electronics,2,364,728
-1204,2023-07-23,103,New York,279,29,Male,Electronics,1,376,376
-1205,2023-07-24,104,Houston,204,24,Male,Clothing,4,236,944
-1206,2023-07-25,101,Phoenix,295,45,Female,Sports,1,375,375
-1207,2023-07-26,108,Los Angeles,275,24,Male,Sports,4,95,380
-1208,2023-07-27,104,Phoenix,205,46,Male,Clothing,2,166,332
-1209,2023-07-28,103,Chicago,290,30,Male,Sports,5,74,370
-1210,2023-07-29,105,Los Angeles,253,28,Female,Home & Kitchen,3,238,714
-1211,2023-07-30,104,Chicago,287,20,Male,Clothing,2,126,252
-1212,2023-07-31,103,New York,291,20,Male,Electronics,2,126,252
-1213,2023-08-01,106,Los Angeles,225,63,Male,Clothing,3,421,1263
-1214,2023-08-02,105,New York,296,44,Female,Home & Kitchen,1,43,43
-1215,2023-08-03,106,Houston,299,52,Male,Electronics,4,402,1608
-1216,2023-08-04,102,Los Angeles,293,59,Female,Beauty,4,492,1968
-1217,2023-08-05,108,Los Angeles,256,20,Female,Clothing,3,93,279
-1218,2023-08-06,109,New York,268,68,Male,Electronics,1,184,184
-1219,2023-08-07,106,Los Angeles,271,60,Male,Clothing,2,315,630
-1220,2023-08-08,103,Houston,270,47,Female,Beauty,3,47,141
-1221,2023-08-09,102,Phoenix,295,45,Female,Sports,2,159,318
-1222,2023-08-10,107,Phoenix,286,29,Female,Beauty,3,177,531
-1223,2023-08-11,109,Phoenix,234,48,Male,Clothing,4,74,296
-1224,2023-08-12,109,Los Angeles,227,57,Male,Home & Kitchen,1,87,87
-1225,2023-08-13,108,Houston,284,36,Male,Sports,5,499,2495
-1226,2023-08-14,109,Phoenix,299,36,Male,Electronics,1,140,140
-1227,2023-08-15,109,Houston,209,54,Female,Beauty,4,489,1956
-1228,2023-08-16,105,Chicago,286,46,Female,Home & Kitchen,1,108,108
-1229,2023-08-17,109,Phoenix,212,21,Female,Home & Kitchen,4,65,260
-1230,2023-08-18,108,Los Angeles,229,60,Female,Home & Kitchen,1,292,292
-1231,2023-08-19,104,Houston,253,61,Male,Electronics,3,302,906
-1232,2023-08-20,107,Phoenix,218,31,Male,Home & Kitchen,5,263,1315
-1233,2023-08-21,103,Houston,225,42,Female,Clothing,3,170,510
-1234,2023-08-22,104,Houston,249,46,Male,Beauty,3,411,1233
-1235,2023-08-23,102,Chicago,261,18,Female,Sports,3,76,228
-1236,2023-08-24,104,Phoenix,279,52,Male,Beauty,2,244,488
-1237,2023-08-25,108,Phoenix,296,20,Male,Clothing,1,328,328
-1238,2023-08-26,105,Los Angeles,274,29,Female,Sports,3,412,1236
-1239,2023-08-27,105,Los Angeles,264,60,Female,Home & Kitchen,2,89,178
-1240,2023-08-28,106,Chicago,246,49,Female,Electronics,2,191,382
-1241,2023-08-29,106,Chicago,260,31,Male,Electronics,2,116,232
-1242,2023-08-30,103,Houston,224,20,Male,Clothing,2,203,406
-1243,2023-08-31,102,Phoenix,216,55,Male,Home & Kitchen,4,357,1428
-1244,2023-09-01,107,New York,239,52,Female,Home & Kitchen,1,368,368
-1245,2023-09-02,104,New York,272,25,Female,Beauty,3,234,702
-1246,2023-09-03,105,Los Angeles,239,19,Male,Beauty,1,331,331
-1247,2023-09-04,103,New York,258,57,Male,Electronics,3,64,192
-1248,2023-09-05,108,New York,295,57,Female,Clothing,5,187,935
-1249,2023-09-06,101,Chicago,294,54,Female,Sports,3,34,102
-1250,2023-09-07,103,Houston,211,61,Female,Clothing,3,94,282
-1251,2023-09-08,103,New York,215,37,Male,Sports,1,95,95
-1252,2023-09-09,102,Houston,260,37,Female,Clothing,3,191,573
-1253,2023-09-10,102,Houston,280,69,Female,Sports,1,325,325
-1254,2023-09-11,104,Houston,282,43,Female,Clothing,4,39,156
-1255,2023-09-12,108,New York,221,27,Male,Beauty,4,103,412
-1256,2023-09-13,102,Los Angeles,225,39,Female,Electronics,2,271,542
-1257,2023-09-14,107,Los Angeles,287,41,Female,Home & Kitchen,2,242,484
-1258,2023-09-15,107,Chicago,292,29,Male,Beauty,3,159,477
-1259,2023-09-16,105,Chicago,278,35,Male,Beauty,4,466,1864
-1260,2023-09-17,102,Chicago,240,30,Female,Home & Kitchen,5,466,2330
-1261,2023-09-18,105,Houston,245,68,Male,Sports,4,369,1476
-1262,2023-09-19,107,Houston,211,54,Female,Electronics,1,339,339
-1263,2023-09-20,106,Los Angeles,229,43,Male,Clothing,1,473,473
-1264,2023-09-21,108,Houston,238,69,Male,Sports,1,320,320
-1265,2023-09-22,103,Los Angeles,225,51,Male,Home & Kitchen,1,120,120
-1266,2023-09-23,105,Los Angeles,202,31,Female,Home & Kitchen,5,292,1460
-1267,2023-09-24,106,New York,263,46,Male,Beauty,1,389,389
-1268,2023-09-25,103,Chicago,268,41,Female,Sports,5,51,255
-1269,2023-09-26,104,Houston,229,37,Female,Home & Kitchen,4,397,1588
-1270,2023-09-27,103,New York,204,23,Female,Electronics,3,307,921
-1271,2023-09-28,106,Chicago,279,30,Female,Clothing,5,240,1200
-1272,2023-09-29,105,Houston,211,27,Male,Electronics,2,283,566
-1273,2023-09-30,101,Chicago,270,46,Female,Electronics,1,162,162
-1274,2023-10-01,109,Los Angeles,242,54,Female,Home & Kitchen,4,468,1872
-1275,2023-10-02,102,Chicago,207,62,Female,Home & Kitchen,2,41,82
-1276,2023-10-03,106,Chicago,278,53,Male,Beauty,2,443,886
-1277,2023-10-04,104,Chicago,290,18,Female,Home & Kitchen,4,130,520
-1278,2023-10-05,104,New York,268,66,Male,Sports,3,382,1146
-1279,2023-10-06,102,Phoenix,265,20,Male,Electronics,4,198,792
-1280,2023-10-07,109,Los Angeles,253,60,Female,Sports,5,172,860
-1281,2023-10-08,105,Los Angeles,221,69,Female,Sports,5,112,560
-1282,2023-10-09,105,New York,201,31,Female,Electronics,4,207,828
-1283,2023-10-10,103,Los Angeles,246,29,Male,Beauty,5,495,2475
-1284,2023-10-11,107,New York,217,28,Male,Electronics,3,450,1350
-1285,2023-10-12,109,Phoenix,223,36,Female,Home & Kitchen,1,228,228
-1286,2023-10-13,109,Chicago,262,63,Male,Sports,3,489,1467
-1287,2023-10-14,109,Los Angeles,277,55,Female,Sports,2,380,760
-1288,2023-10-15,101,Chicago,243,37,Female,Home & Kitchen,3,441,1323
-1289,2023-10-16,108,Houston,214,45,Male,Sports,4,221,884
-1290,2023-10-17,101,New York,297,59,Male,Home & Kitchen,1,81,81
-1291,2023-10-18,108,Chicago,285,69,Male,Home & Kitchen,2,196,392
-1292,2023-10-19,101,New York,252,34,Female,Electronics,5,351,1755
-1293,2023-10-20,101,Phoenix,225,27,Male,Home & Kitchen,3,193,579
-1294,2023-10-21,101,Los Angeles,249,27,Male,Home & Kitchen,1,473,473
-1295,2023-10-22,105,Chicago,270,58,Male,Home & Kitchen,1,28,28
-1296,2023-10-23,102,New York,246,65,Male,Beauty,3,217,651
-1297,2023-10-24,106,Houston,209,54,Male,Sports,3,103,309
-1298,2023-10-25,108,Houston,255,58,Male,Beauty,2,443,886
-1299,2023-10-26,106,Houston,210,58,Male,Clothing,3,368,1104
-1300,2023-10-27,102,Los Angeles,259,57,Female,Electronics,4,409,1636
-1301,2023-10-28,107,Houston,205,63,Female,Electronics,1,199,199
-1302,2023-10-29,105,Chicago,262,28,Male,Clothing,2,469,938
-1303,2023-10-30,109,Houston,290,34,Male,Home & Kitchen,3,463,1389
-1304,2023-10-31,102,New York,238,18,Male,Sports,3,51,153
-1305,2023-11-01,101,Chicago,217,32,Female,Electronics,1,207,207
-1306,2023-11-02,103,New York,278,37,Male,Home & Kitchen,3,359,1077
-1307,2023-11-03,101,Houston,293,38,Female,Clothing,2,325,650
-1308,2023-11-04,103,Houston,265,34,Female,Sports,1,175,175
-1309,2023-11-05,108,Los Angeles,269,22,Female,Clothing,2,181,362
-1310,2023-11-06,105,Phoenix,204,55,Male,Home & Kitchen,1,58,58
-1311,2023-11-07,105,Chicago,253,29,Female,Clothing,1,222,222
-1312,2023-11-08,104,Chicago,253,19,Male,Sports,1,50,50
-1313,2023-11-09,109,New York,261,38,Male,Clothing,2,211,422
-1314,2023-11-10,108,Los Angeles,227,28,Male,Electronics,3,393,1179
-1315,2023-11-11,108,Houston,223,29,Male,Clothing,5,486,2430
-1316,2023-11-12,108,Phoenix,289,46,Male,Beauty,3,315,945
-1317,2023-11-13,101,Phoenix,261,29,Female,Home & Kitchen,4,207,828
-1318,2023-11-14,107,Houston,207,46,Female,Home & Kitchen,1,345,345
-1319,2023-11-15,108,New York,228,55,Male,Electronics,1,342,342
-1320,2023-11-16,104,Chicago,271,20,Male,Sports,4,143,572
-1321,2023-11-17,101,Houston,233,68,Female,Home & Kitchen,1,345,345
-1322,2023-11-18,101,Chicago,292,51,Female,Sports,1,141,141
-1323,2023-11-19,103,Chicago,241,66,Male,Sports,3,111,333
-1324,2023-11-20,102,Houston,235,54,Female,Sports,2,274,548
-1325,2023-11-21,105,Phoenix,229,66,Female,Beauty,5,234,1170
-1326,2023-11-22,105,Houston,256,68,Female,Clothing,4,53,212
-1327,2023-11-23,102,New York,209,60,Female,Sports,3,466,1398
-1328,2023-11-24,105,Los Angeles,263,40,Male,Beauty,4,134,536
-1329,2023-11-25,107,Houston,229,31,Female,Clothing,1,158,158
-1330,2023-11-26,105,Phoenix,225,30,Male,Home & Kitchen,5,36,180
-1331,2023-11-27,102,New York,270,35,Male,Beauty,1,496,496
-1332,2023-11-28,104,Houston,237,38,Female,Clothing,1,201,201
-1333,2023-11-29,105,Los Angeles,218,61,Male,Beauty,5,145,725
-1334,2023-11-30,103,New York,291,27,Female,Home & Kitchen,2,255,510
-1335,2023-12-01,104,New York,294,46,Male,Clothing,3,85,255
-1336,2023-12-02,105,Phoenix,274,45,Male,Home & Kitchen,1,105,105
-1337,2023-12-03,105,Los Angeles,274,52,Female,Beauty,3,48,144
-1338,2023-12-04,103,Los Angeles,225,64,Male,Clothing,4,148,592
-1339,2023-12-05,105,Chicago,274,47,Male,Sports,5,474,2370
-1340,2023-12-06,108,Los Angeles,201,58,Female,Home & Kitchen,4,336,1344
-1341,2023-12-07,107,Los Angeles,298,20,Male,Electronics,2,460,920
-1342,2023-12-08,104,New York,285,48,Female,Electronics,2,420,840
-1343,2023-12-09,103,Houston,233,66,Female,Beauty,2,73,146
-1344,2023-12-10,108,Houston,230,21,Male,Home & Kitchen,3,301,903
-1345,2023-12-11,105,Chicago,294,55,Male,Home & Kitchen,2,267,534
-1346,2023-12-12,106,Phoenix,298,66,Male,Electronics,5,12,60
-1347,2023-12-13,109,Phoenix,242,24,Male,Sports,4,205,820
-1348,2023-12-14,103,Los Angeles,278,44,Male,Home & Kitchen,1,423,423
-1349,2023-12-15,101,Chicago,225,36,Female,Beauty,5,348,1740
-1350,2023-12-16,105,Houston,284,51,Male,Home & Kitchen,3,197,591
-1351,2023-12-17,104,New York,233,59,Male,Electronics,2,267,534
-1352,2023-12-18,103,Houston,276,46,Female,Home & Kitchen,1,466,466
-1353,2023-12-19,109,Los Angeles,218,61,Female,Home & Kitchen,3,119,357
-1354,2023-12-20,107,New York,289,36,Male,Beauty,2,234,468
-1355,2023-12-21,101,Houston,299,28,Female,Clothing,1,86,86
-1356,2023-12-22,103,Houston,208,46,Female,Home & Kitchen,2,466,932
-1357,2023-12-23,104,Phoenix,210,38,Male,Home & Kitchen,5,155,775
-1358,2023-12-24,109,Houston,295,34,Male,Electronics,5,379,1895
-1359,2023-12-25,105,Los Angeles,295,54,Male,Clothing,4,182,728
-1360,2023-12-26,107,Chicago,281,41,Male,Electronics,3,257,771
-1361,2023-12-27,104,Chicago,252,19,Female,Beauty,1,348,348
-1362,2023-12-28,107,Chicago,261,39,Female,Home & Kitchen,4,477,1908
-1363,2023-12-29,106,Los Angeles,249,19,Male,Clothing,3,184,552
-1364,2023-12-30,108,Los Angeles,202,45,Female,Electronics,1,96,96
-1365,2023-12-31,107,Chicago,203,20,Male,Home & Kitchen,2,83,166
-1366,2024-01-01,102,Phoenix,275,47,Male,Beauty,3,365,1095
-1367,2024-01-02,108,Los Angeles,225,27,Female,Home & Kitchen,5,81,405
-1368,2024-01-03,103,Houston,254,50,Female,Home & Kitchen,2,204,408
-1369,2024-01-04,102,Houston,227,61,Male,Sports,4,447,1788
-1370,2024-01-05,102,Los Angeles,216,24,Male,Sports,1,461,461
-1371,2024-01-06,108,Houston,286,55,Male,Beauty,4,126,504
-1372,2024-01-07,101,Los Angeles,218,42,Female,Home & Kitchen,5,183,915
-1373,2024-01-08,103,Phoenix,201,64,Male,Electronics,3,39,117
-1374,2024-01-09,108,Houston,252,41,Male,Clothing,1,267,267
-1375,2024-01-10,104,Phoenix,270,25,Female,Beauty,2,261,522
-1376,2024-01-11,102,Chicago,212,35,Female,Home & Kitchen,2,21,42
-1377,2024-01-12,101,Chicago,243,48,Male,Home & Kitchen,2,310,620
-1378,2024-01-13,105,Chicago,204,21,Male,Sports,5,115,575
-1379,2024-01-14,107,Phoenix,263,69,Female,Clothing,1,245,245
-1380,2024-01-15,106,Phoenix,234,24,Female,Home & Kitchen,4,323,1292
-1381,2024-01-16,105,New York,222,61,Male,Electronics,2,263,526
-1382,2024-01-17,106,Los Angeles,260,39,Male,Beauty,5,470,2350
-1383,2024-01-18,106,Houston,222,43,Female,Clothing,5,209,1045
-1384,2024-01-19,101,Phoenix,209,29,Male,Beauty,4,124,496
-1385,2024-01-20,107,Houston,265,49,Male,Beauty,2,226,452
-1386,2024-01-21,106,New York,292,43,Female,Sports,2,156,312
-1387,2024-01-22,107,Phoenix,284,26,Female,Clothing,1,22,22
-1388,2024-01-23,106,Houston,286,53,Male,Beauty,4,12,48
-1389,2024-01-24,105,Chicago,254,68,Male,Electronics,4,211,844
-1390,2024-01-25,107,Los Angeles,219,34,Male,Sports,3,373,1119
-1391,2024-01-26,102,Houston,292,19,Male,Sports,4,341,1364
-1392,2024-01-27,105,New York,267,20,Female,Clothing,5,296,1480
-1393,2024-01-28,101,Phoenix,212,28,Female,Clothing,5,267,1335
-1394,2024-01-29,101,New York,216,62,Male,Sports,2,399,798
-1395,2024-01-30,109,Los Angeles,214,27,Male,Sports,5,407,2035
-1396,2024-01-31,109,Chicago,228,45,Female,Home & Kitchen,2,87,174
-1397,2024-02-01,107,Phoenix,299,59,Female,Sports,2,89,178
-1398,2024-02-02,106,Chicago,246,27,Female,Clothing,3,280,840
-1399,2024-02-03,106,New York,246,68,Female,Home & Kitchen,5,137,685
-1400,2024-02-04,109,New York,259,48,Male,Clothing,5,118,590
-1401,2024-02-05,101,Los Angeles,256,23,Male,Clothing,2,150,300
-1402,2024-02-06,102,Houston,294,41,Male,Clothing,4,147,588
-1403,2024-02-07,104,Phoenix,208,46,Male,Clothing,3,236,708
-1404,2024-02-08,101,Houston,292,21,Male,Clothing,1,49,49
-1405,2024-02-09,108,Houston,218,52,Male,Sports,5,114,570
-1406,2024-02-10,101,Houston,242,39,Male,Clothing,3,329,987
-1407,2024-02-11,102,Los Angeles,260,53,Male,Electronics,4,51,204
-1408,2024-02-12,106,Chicago,219,25,Female,Electronics,1,139,139
-1409,2024-02-13,105,Houston,241,23,Male,Clothing,2,443,886
-1410,2024-02-14,107,Phoenix,211,46,Female,Electronics,1,73,73
-1411,2024-02-15,101,Chicago,293,44,Male,Clothing,1,285,285
-1412,2024-02-16,108,Los Angeles,290,45,Female,Beauty,1,137,137
-1413,2024-02-17,101,Phoenix,295,36,Male,Beauty,2,91,182
-1414,2024-02-18,104,Los Angeles,238,32,Male,Electronics,5,194,970
-1415,2024-02-19,101,Houston,233,29,Male,Sports,4,19,76
-1416,2024-02-20,101,Houston,293,63,Male,Sports,4,25,100
-1417,2024-02-21,101,Houston,247,56,Female,Sports,2,351,702
-1418,2024-02-22,109,Los Angeles,215,44,Male,Electronics,5,241,1205
-1419,2024-02-23,105,Chicago,208,19,Female,Beauty,1,214,214
-1420,2024-02-24,109,Chicago,297,68,Female,Clothing,5,26,130
-1421,2024-02-25,105,Chicago,214,40,Male,Clothing,1,167,167
-1422,2024-02-26,108,Chicago,236,20,Male,Clothing,1,243,243
-1423,2024-02-27,104,Phoenix,216,20,Male,Electronics,2,442,884
-1424,2024-02-28,109,New York,283,68,Male,Beauty,5,470,2350
-1425,2024-02-29,108,Houston,241,34,Male,Clothing,1,121,121
-1426,2024-03-01,105,Los Angeles,287,34,Female,Sports,5,411,2055
-1427,2024-03-02,103,Phoenix,201,20,Male,Beauty,1,404,404
-1428,2024-03-03,108,Houston,264,18,Male,Home & Kitchen,1,28,28
-1429,2024-03-04,109,Phoenix,222,45,Male,Home & Kitchen,5,88,440
-1430,2024-03-05,105,Houston,230,66,Male,Home & Kitchen,1,378,378
-1431,2024-03-06,103,Los Angeles,264,62,Female,Home & Kitchen,2,246,492
-1432,2024-03-07,108,Houston,211,39,Male,Home & Kitchen,2,104,208
-1433,2024-03-08,103,Los Angeles,228,43,Female,Clothing,3,33,99
-1434,2024-03-09,109,Houston,244,21,Male,Clothing,1,130,130
-1435,2024-03-10,106,Houston,295,21,Female,Clothing,4,275,1100
-1436,2024-03-11,107,Los Angeles,296,18,Female,Beauty,5,429,2145
-1437,2024-03-12,109,New York,249,69,Female,Home & Kitchen,5,285,1425
-1438,2024-03-13,109,Los Angeles,296,60,Female,Home & Kitchen,3,116,348
-1439,2024-03-14,107,Chicago,251,31,Female,Electronics,2,55,110
-1440,2024-03-15,107,Chicago,288,66,Male,Sports,2,254,508
-1441,2024-03-16,101,Houston,233,23,Male,Sports,1,348,348
-1442,2024-03-17,105,Phoenix,261,49,Male,Sports,4,368,1472
-1443,2024-03-18,101,Chicago,213,32,Female,Home & Kitchen,5,144,720
-1444,2024-03-19,108,Chicago,273,69,Male,Beauty,5,296,1480
-1445,2024-03-20,108,Phoenix,267,56,Male,Beauty,2,101,202
-1446,2024-03-21,102,Chicago,224,38,Female,Electronics,2,454,908
-1447,2024-03-22,103,Chicago,267,50,Female,Beauty,3,494,1482
-1448,2024-03-23,108,New York,286,62,Male,Home & Kitchen,4,484,1936
-1449,2024-03-24,108,Chicago,237,26,Female,Beauty,4,466,1864
-1450,2024-03-25,107,Chicago,256,35,Male,Electronics,5,212,1060
-1451,2024-03-26,103,Chicago,230,23,Female,Home & Kitchen,1,181,181
-1452,2024-03-27,101,Los Angeles,229,36,Female,Clothing,3,342,1026
-1453,2024-03-28,107,Phoenix,232,61,Female,Home & Kitchen,3,15,45
-1454,2024-03-29,104,Phoenix,232,37,Male,Clothing,4,441,1764
-1455,2024-03-30,101,Phoenix,294,44,Male,Electronics,1,443,443
-1456,2024-03-31,105,Houston,237,45,Male,Home & Kitchen,2,224,448
-1457,2024-04-01,104,Los Angeles,241,36,Male,Electronics,5,290,1450
-1458,2024-04-02,103,Phoenix,297,60,Female,Beauty,5,307,1535
-1459,2024-04-03,105,Phoenix,230,48,Female,Sports,5,141,705
-1460,2024-04-04,104,Houston,286,49,Male,Beauty,4,36,144
-1461,2024-04-05,103,New York,219,65,Male,Beauty,4,55,220
-1462,2024-04-06,104,Chicago,224,34,Female,Beauty,4,404,1616
-1463,2024-04-07,108,Phoenix,213,61,Female,Sports,1,359,359
-1464,2024-04-08,102,New York,210,39,Male,Sports,4,73,292
-1465,2024-04-09,101,Los Angeles,225,28,Male,Clothing,5,499,2495
-1466,2024-04-10,104,Phoenix,223,39,Male,Home & Kitchen,4,26,104
-1467,2024-04-11,102,Los Angeles,277,51,Female,Clothing,2,56,112
-1468,2024-04-12,107,Los Angeles,208,34,Female,Beauty,3,11,33
-1469,2024-04-13,105,Chicago,223,56,Female,Beauty,4,285,1140
-1470,2024-04-14,108,Phoenix,243,48,Female,Beauty,5,444,2220
-1471,2024-04-15,109,New York,261,62,Female,Beauty,5,98,490
-1472,2024-04-16,104,Phoenix,255,56,Male,Clothing,4,459,1836
-1473,2024-04-17,105,Houston,291,47,Female,Beauty,3,472,1416
-1474,2024-04-18,101,Phoenix,262,55,Male,Clothing,3,141,423
-1475,2024-04-19,105,Phoenix,256,36,Female,Sports,1,364,364
-1476,2024-04-20,104,New York,236,61,Female,Clothing,1,129,129
-1477,2024-04-21,106,New York,271,24,Male,Home & Kitchen,5,84,420
-1478,2024-04-22,108,Chicago,271,49,Male,Sports,4,464,1856
-1479,2024-04-23,103,Chicago,236,29,Female,Beauty,3,413,1239
-1480,2024-04-24,103,Los Angeles,234,32,Female,Clothing,1,344,344
-1481,2024-04-25,101,Los Angeles,210,49,Male,Beauty,4,17,68
-1482,2024-04-26,105,Chicago,292,49,Female,Home & Kitchen,5,101,505
-1483,2024-04-27,101,Los Angeles,223,60,Female,Home & Kitchen,1,213,213
-1484,2024-04-28,107,Houston,219,68,Male,Sports,4,172,688
-1485,2024-04-29,108,Chicago,296,58,Male,Sports,4,269,1076
-1486,2024-04-30,104,Chicago,221,25,Male,Beauty,3,142,426
-1487,2024-05-01,106,New York,285,53,Male,Home & Kitchen,4,232,928
-1488,2024-05-02,103,Houston,280,52,Female,Beauty,3,210,630
-1489,2024-05-03,101,Houston,233,65,Female,Electronics,1,490,490
-1490,2024-05-04,102,Chicago,236,32,Female,Clothing,5,90,450
-1491,2024-05-05,109,Los Angeles,210,33,Female,Sports,5,225,1125
-1492,2024-05-06,108,Los Angeles,205,63,Female,Beauty,3,387,1161
-1493,2024-05-07,106,Phoenix,258,61,Female,Sports,3,88,264
-1494,2024-05-08,108,Los Angeles,220,62,Female,Beauty,5,155,775
-1495,2024-05-09,103,Los Angeles,287,53,Male,Electronics,4,281,1124
-1496,2024-05-10,101,Houston,225,46,Female,Beauty,2,468,936
-1497,2024-05-11,105,New York,295,56,Male,Electronics,4,348,1392
-1498,2024-05-12,105,Phoenix,240,28,Male,Beauty,5,473,2365
-1499,2024-05-13,109,Los Angeles,249,33,Male,Electronics,5,108,540
-1500,2024-05-14,109,Chicago,203,53,Male,Beauty,1,484,484
-1501,2024-05-15,107,New York,240,25,Male,Sports,1,208,208
-1502,2024-05-16,103,Houston,285,69,Male,Home & Kitchen,2,193,386
-1503,2024-05-17,104,Houston,296,50,Male,Clothing,3,49,147
-1504,2024-05-18,102,New York,215,31,Male,Home & Kitchen,4,256,1024
-1505,2024-05-19,104,Phoenix,263,67,Female,Electronics,1,201,201
-1506,2024-05-20,108,Houston,270,69,Female,Electronics,5,202,1010
-1507,2024-05-21,108,Los Angeles,292,46,Female,Electronics,4,131,524
-1508,2024-05-22,106,Houston,206,42,Female,Electronics,2,114,228
-1509,2024-05-23,101,Los Angeles,277,30,Female,Beauty,4,251,1004
-1510,2024-05-24,107,Phoenix,209,29,Female,Electronics,1,217,217
-1511,2024-05-25,105,Phoenix,271,25,Female,Clothing,1,216,216
-1512,2024-05-26,101,New York,236,42,Female,Electronics,4,196,784
-1513,2024-05-27,107,Chicago,293,68,Female,Clothing,3,337,1011
-1514,2024-05-28,101,Chicago,271,67,Female,Sports,4,90,360
-1515,2024-05-29,108,Chicago,283,34,Male,Clothing,3,463,1389
-1516,2024-05-30,101,Houston,215,67,Male,Home & Kitchen,5,329,1645
-1517,2024-05-31,109,Houston,267,58,Male,Beauty,3,453,1359
-1518,2024-06-01,103,Chicago,295,57,Male,Sports,5,344,1720
-1519,2024-06-02,106,Chicago,265,24,Female,Home & Kitchen,2,296,592
-1520,2024-06-03,104,Chicago,216,22,Male,Clothing,4,118,472
-1521,2024-06-04,103,Chicago,273,61,Male,Beauty,1,98,98
-1522,2024-06-05,103,Los Angeles,246,22,Female,Home & Kitchen,4,294,1176
-1523,2024-06-06,101,Los Angeles,248,53,Male,Home & Kitchen,1,111,111
-1524,2024-06-07,101,Houston,288,34,Male,Beauty,3,13,39
-1525,2024-06-08,105,Los Angeles,201,20,Female,Sports,3,134,402
-1526,2024-06-09,109,Houston,248,33,Female,Electronics,2,234,468
-1527,2024-06-10,102,Chicago,216,21,Male,Electronics,5,184,920
-1528,2024-06-11,108,New York,288,53,Male,Electronics,4,423,1692
-1529,2024-06-12,104,Los Angeles,298,41,Male,Beauty,2,462,924
-1530,2024-06-13,106,Houston,260,44,Male,Beauty,4,289,1156
-1531,2024-06-14,109,Houston,262,52,Male,Beauty,2,47,94
-1532,2024-06-15,108,Houston,273,43,Female,Sports,3,144,432
-1533,2024-06-16,102,New York,202,65,Female,Clothing,5,62,310
-1534,2024-06-17,106,Phoenix,263,56,Male,Beauty,1,395,395
-1535,2024-06-18,107,Houston,224,31,Male,Sports,2,429,858
-1536,2024-06-19,103,Chicago,246,27,Female,Home & Kitchen,4,60,240
-1537,2024-06-20,104,Phoenix,214,30,Male,Electronics,4,144,576
-1538,2024-06-21,108,Los Angeles,238,31,Male,Beauty,4,489,1956
-1539,2024-06-22,108,Houston,244,64,Male,Clothing,4,334,1336
-1540,2024-06-23,104,New York,249,20,Male,Clothing,4,32,128
-1541,2024-06-24,103,Los Angeles,209,43,Female,Beauty,3,37,111
-1542,2024-06-25,108,Phoenix,205,38,Female,Clothing,1,216,216
-1543,2024-06-26,105,Phoenix,241,54,Female,Home & Kitchen,1,31,31
-1544,2024-06-27,103,New York,258,54,Female,Sports,4,377,1508
-1545,2024-06-28,102,Chicago,223,53,Female,Clothing,1,430,430
-1546,2024-06-29,108,Los Angeles,278,37,Female,Home & Kitchen,4,151,604
-1547,2024-06-30,108,Phoenix,272,22,Female,Home & Kitchen,4,214,856
-1548,2024-07-01,108,Phoenix,265,21,Female,Sports,5,289,1445
-1549,2024-07-02,107,Los Angeles,233,42,Male,Beauty,2,434,868
-1550,2024-07-03,107,Chicago,276,46,Male,Beauty,1,154,154
+Date,Store,City,Revenue,Product Category,Quantity,Employees,Transactions,Payment Method,Discount,Customer_Age,Customer_Gender
+2023-04-13,Store_2,Phoenix,321,Toys,2,28,17,Online Payment,13.82,27,Non-binary
+2024-03-11,Store_10,Houston,1513,Groceries,8,6,36,Online Payment,21.6,56,Non-binary
+2023-12-15,Store_2,Los Angeles,1821,Furniture,9,26,19,Debit Card,49.02,45,Non-binary
+2023-09-28,Store_10,Los Angeles,1312,Clothing,7,7,64,Credit Card,3.38,66,Female
+2023-04-17,Store_1,Chicago,426,Clothing,3,16,91,Online Payment,25.94,53,Male
+2023-03-13,Store_8,Chicago,315,Groceries,9,20,98,Online Payment,8.97,30,Male
+2023-07-08,Store_1,Phoenix,975,Toys,3,25,11,Cash,48.53,49,Male
+2023-01-21,Store_9,Phoenix,970,Electronics,5,28,54,Online Payment,5.67,53,Non-binary
+2023-04-13,Store_6,New York,1432,Groceries,9,5,45,Online Payment,20.18,54,Non-binary
+2023-05-02,Store_7,New York,389,Groceries,3,25,47,Online Payment,36.89,43,Female
+2024-04-11,Store_10,Phoenix,438,Furniture,7,7,12,Online Payment,35.23,39,Male
+2023-08-03,Store_7,Phoenix,626,Clothing,1,24,21,Cash,21.14,21,Non-binary
+2023-11-27,Store_10,Houston,1762,Groceries,4,6,11,Debit Card,17.33,48,Male
+2024-04-03,Store_3,Chicago,52,Groceries,4,13,92,Debit Card,19.88,35,Female
+2023-03-29,Store_2,New York,1502,Toys,7,23,5,Credit Card,13.21,55,Female
+2024-01-08,Store_9,Chicago,1215,Toys,8,19,81,Online Payment,10.27,41,Female
+2023-04-10,Store_8,Chicago,425,Electronics,1,22,56,Cash,24.15,40,Male
+2023-12-26,Store_10,Phoenix,1743,Furniture,5,15,20,Credit Card,13.43,39,Non-binary
+2023-06-01,Store_7,Houston,373,Electronics,7,29,41,Credit Card,14.37,19,Non-binary
+2023-05-11,Store_9,Los Angeles,195,Toys,4,27,46,Debit Card,32.84,48,Female
+2023-05-30,Store_4,Houston,342,Clothing,4,20,12,Cash,48.43,28,Non-binary
+2023-11-05,Store_4,Houston,1738,Toys,4,26,70,Cash,30.18,45,Female
+2023-09-15,Store_1,Chicago,481,Furniture,6,21,17,Cash,3.85,63,Male
+2023-12-10,Store_8,Houston,754,Toys,7,9,19,Debit Card,3.78,49,Female
+2024-05-06,Store_3,New York,998,Furniture,2,16,26,Debit Card,47.57,22,Male
+2024-02-18,Store_7,Chicago,634,Furniture,5,15,48,Debit Card,14.86,55,Female
+2023-10-21,Store_2,New York,448,Furniture,4,19,52,Debit Card,4.6,27,Non-binary
+2024-01-21,Store_2,Los Angeles,866,Furniture,3,7,96,Debit Card,29.95,57,Non-binary
+2023-07-11,Store_7,Chicago,1962,Furniture,7,5,70,Online Payment,31.18,63,Female
+2024-03-19,Store_6,Los Angeles,1417,Clothing,6,24,55,Online Payment,32.43,41,Non-binary
+2023-10-04,Store_3,Chicago,1013,Electronics,7,20,75,Cash,13.37,52,Non-binary
+2023-06-10,Store_9,Phoenix,1213,Groceries,5,6,33,Credit Card,0.76,61,Non-binary
+2024-04-04,Store_10,Houston,236,Electronics,6,6,62,Cash,48.25,65,Male
+2023-11-10,Store_6,Phoenix,1878,Furniture,5,7,88,Credit Card,12.54,40,Non-binary
+2023-01-22,Store_10,Los Angeles,110,Clothing,7,12,23,Debit Card,33.8,34,Male
+2023-09-10,Store_10,Houston,988,Toys,2,28,15,Credit Card,35.33,18,Female
+2023-08-24,Store_6,Chicago,1453,Clothing,5,19,27,Cash,30.5,48,Non-binary
+2023-12-11,Store_1,Houston,759,Furniture,6,11,75,Cash,15.65,48,Non-binary
+2023-02-18,Store_4,New York,856,Clothing,6,10,64,Credit Card,13.55,59,Non-binary
+2024-04-19,Store_10,Houston,1513,Clothing,5,13,81,Online Payment,29.88,59,Female
+2023-02-28,Store_6,New York,1392,Furniture,7,24,51,Debit Card,43.3,51,Male
+2023-06-19,Store_6,Houston,1375,Clothing,8,5,53,Debit Card,47.34,26,Male
+2024-04-20,Store_5,New York,1417,Groceries,7,12,78,Cash,5.3,39,Non-binary
+2023-07-07,Store_1,Los Angeles,60,Groceries,5,27,91,Online Payment,7.74,30,Female
+2024-04-08,Store_8,Phoenix,1135,Clothing,1,27,82,Credit Card,47.24,42,Female
+2023-09-28,Store_5,Chicago,1918,Toys,5,7,92,Debit Card,36.83,65,Female
+2023-07-09,Store_5,Houston,275,Furniture,2,8,51,Online Payment,44.15,35,Female
+2024-03-21,Store_7,Phoenix,1226,Groceries,5,29,47,Debit Card,10.13,68,Female
+2023-06-24,Store_4,Chicago,1784,Toys,5,19,4,Online Payment,29.38,29,Male
+2024-03-21,Store_6,Chicago,613,Clothing,2,10,7,Online Payment,35.06,57,Male
+2023-02-20,Store_4,New York,821,Toys,5,19,35,Cash,34.01,34,Male
+2023-12-30,Store_3,Los Angeles,1644,Electronics,4,25,48,Debit Card,20.41,32,Non-binary
+2023-02-24,Store_7,Los Angeles,1657,Groceries,1,7,73,Credit Card,0.77,59,Female
+2023-09-01,Store_8,Phoenix,1733,Clothing,3,29,72,Cash,29.15,32,Non-binary
+2023-11-16,Store_4,Los Angeles,1934,Furniture,1,25,45,Cash,12.66,32,Female
+2023-05-11,Store_2,Houston,1648,Clothing,5,25,81,Credit Card,22.51,56,Male
+2024-04-29,Store_10,Los Angeles,1383,Furniture,4,18,81,Cash,47.88,30,Non-binary
+2023-11-03,Store_3,Phoenix,934,Clothing,7,24,97,Online Payment,19.95,34,Male
+2023-05-15,Store_1,Los Angeles,1316,Toys,5,18,96,Online Payment,41.99,49,Female
+2023-01-21,Store_8,Houston,1566,Toys,4,8,72,Debit Card,9.43,26,Female
+2023-11-25,Store_3,New York,1439,Toys,2,16,19,Debit Card,33.62,57,Female
+2023-06-16,Store_10,Phoenix,1403,Electronics,4,21,63,Credit Card,48.85,37,Male
+2023-10-01,Store_7,New York,1180,Furniture,2,11,38,Debit Card,5.09,43,Female
+2024-01-23,Store_10,New York,275,Toys,8,13,67,Online Payment,0.42,44,Male
+2023-03-30,Store_5,New York,874,Electronics,3,7,59,Credit Card,21.68,38,Non-binary
+2023-11-12,Store_10,Chicago,267,Furniture,9,17,69,Credit Card,4.63,35,Female
+2023-01-14,Store_5,Chicago,986,Clothing,4,19,13,Debit Card,37.42,30,Female
+2023-08-30,Store_7,New York,802,Electronics,6,22,47,Online Payment,45.73,33,Female
+2023-09-22,Store_9,Phoenix,555,Groceries,5,23,61,Credit Card,21.7,26,Non-binary
+2023-12-12,Store_5,Houston,308,Electronics,1,5,31,Online Payment,12.94,29,Female
+2023-02-22,Store_1,Houston,1961,Electronics,9,10,80,Online Payment,21.72,61,Male
+2024-01-21,Store_10,Los Angeles,1847,Furniture,1,27,96,Online Payment,36.17,55,Male
+2023-12-06,Store_10,Phoenix,1590,Clothing,8,6,22,Debit Card,0.45,36,Female
+2023-04-02,Store_1,Chicago,1846,Groceries,9,28,93,Cash,29.47,24,Female
+2024-01-02,Store_2,New York,103,Toys,9,18,86,Cash,30.66,52,Non-binary
+2024-03-19,Store_6,Los Angeles,1120,Toys,1,10,43,Credit Card,31.88,65,Non-binary
+2024-03-30,Store_9,Houston,776,Electronics,2,18,67,Online Payment,12.1,35,Non-binary
+2024-03-03,Store_8,Chicago,738,Furniture,1,8,54,Debit Card,35.7,33,Female
+2023-09-21,Store_5,Chicago,1594,Furniture,2,25,10,Online Payment,4.57,56,Non-binary
+2024-03-06,Store_1,New York,1172,Toys,8,12,42,Online Payment,9.96,21,Non-binary
+2023-02-04,Store_7,Houston,1093,Groceries,5,7,64,Debit Card,43.87,42,Male
+2023-07-25,Store_5,Phoenix,1963,Clothing,7,23,21,Cash,36.94,49,Non-binary
+2023-03-22,Store_6,Chicago,1826,Groceries,2,18,80,Online Payment,0.69,57,Male
+2024-02-24,Store_7,New York,1646,Clothing,8,24,76,Online Payment,12.42,30,Male
+2023-02-19,Store_3,Phoenix,1964,Toys,6,21,66,Cash,10.72,62,Non-binary
+2023-12-26,Store_10,Houston,1563,Clothing,8,29,41,Debit Card,13.54,34,Male
+2024-01-23,Store_3,Chicago,468,Furniture,1,12,24,Credit Card,12.38,66,Female
+2023-01-02,Store_5,Phoenix,739,Electronics,1,28,35,Cash,3.13,54,Female
+2024-01-25,Store_6,Phoenix,899,Electronics,7,18,56,Credit Card,22.95,23,Non-binary
+2023-02-23,Store_9,Phoenix,111,Toys,8,10,30,Credit Card,36.64,36,Female
+2023-04-16,Store_5,Chicago,1218,Furniture,3,27,57,Cash,30.34,30,Male
+2023-09-17,Store_1,Chicago,265,Groceries,5,26,94,Online Payment,33.64,43,Female
+2023-11-06,Store_4,Los Angeles,52,Furniture,1,20,47,Credit Card,4.06,31,Non-binary
+2024-04-21,Store_5,Houston,209,Electronics,7,29,35,Credit Card,47.57,48,Non-binary
+2023-07-10,Store_10,New York,1812,Electronics,5,23,19,Debit Card,41.92,21,Male
+2024-02-06,Store_10,Phoenix,830,Furniture,8,18,8,Online Payment,40.25,56,Non-binary
+2023-08-06,Store_5,Los Angeles,1193,Furniture,8,23,26,Credit Card,41.15,25,Female
+2023-02-13,Store_7,New York,942,Electronics,9,7,71,Debit Card,46.64,42,Non-binary
+2023-06-11,Store_4,Los Angeles,1162,Groceries,7,14,30,Online Payment,27.21,30,Male
+2023-07-21,Store_1,Chicago,378,Toys,1,23,7,Cash,10.01,49,Non-binary
+2024-03-21,Store_5,Phoenix,629,Toys,3,13,67,Cash,30.84,55,Female
+2024-04-28,Store_7,New York,1983,Furniture,8,24,65,Debit Card,37.14,55,Male
+2023-09-27,Store_10,New York,1430,Toys,3,17,36,Cash,36.9,45,Female
+2023-12-17,Store_10,New York,1683,Electronics,8,11,25,Credit Card,26.07,47,Male
+2023-10-31,Store_6,New York,1340,Electronics,1,18,37,Online Payment,3.42,20,Non-binary
+2023-09-28,Store_5,New York,1690,Furniture,5,13,1,Credit Card,18.56,45,Male
+2024-03-31,Store_4,Los Angeles,1001,Furniture,4,27,15,Credit Card,46.04,20,Male
+2024-04-06,Store_2,Phoenix,1396,Furniture,5,29,37,Cash,29.22,62,Non-binary
+2023-08-03,Store_4,Chicago,684,Groceries,8,23,13,Credit Card,26.92,51,Female
+2023-09-09,Store_10,Chicago,1037,Toys,4,19,8,Cash,13.44,33,Non-binary
+2023-07-09,Store_10,Chicago,1614,Furniture,4,24,5,Online Payment,18.42,39,Male
+2023-10-23,Store_3,Chicago,1722,Clothing,3,18,60,Online Payment,44.77,49,Non-binary
+2023-08-01,Store_10,Los Angeles,1268,Clothing,7,28,73,Credit Card,33.32,55,Male
+2023-07-27,Store_1,Houston,970,Electronics,3,10,1,Debit Card,39.37,25,Non-binary
+2023-08-25,Store_8,Phoenix,787,Toys,3,25,36,Cash,22.72,25,Non-binary
+2023-12-04,Store_5,New York,1405,Furniture,5,8,35,Cash,31.51,23,Female
+2024-01-02,Store_4,Houston,219,Clothing,5,12,66,Credit Card,12.42,31,Male
+2023-02-22,Store_8,Chicago,570,Toys,6,21,63,Cash,35.27,49,Female
+2023-10-07,Store_7,Houston,1536,Electronics,8,13,23,Cash,21.38,52,Male
+2024-02-14,Store_2,Phoenix,89,Groceries,6,5,9,Debit Card,22.13,27,Non-binary
+2023-08-05,Store_1,New York,1610,Toys,1,28,34,Debit Card,32.47,20,Male
+2023-09-09,Store_4,New York,1334,Toys,8,24,46,Credit Card,46.81,29,Female
+2023-07-07,Store_8,Phoenix,1468,Groceries,8,29,78,Debit Card,3.2,66,Female
+2024-01-15,Store_2,Phoenix,1004,Toys,9,18,4,Credit Card,41.24,48,Female
+2024-05-07,Store_3,Chicago,1299,Electronics,9,15,30,Online Payment,14.62,46,Male
+2023-02-10,Store_1,New York,1033,Electronics,2,25,95,Credit Card,22.2,22,Female
+2023-06-06,Store_1,Houston,1197,Groceries,2,7,75,Online Payment,1.1,69,Female
+2023-01-15,Store_3,Los Angeles,1024,Furniture,3,13,99,Credit Card,15.05,42,Female
+2023-10-28,Store_5,Los Angeles,87,Clothing,1,18,72,Cash,25.13,58,Non-binary
+2023-03-06,Store_3,Phoenix,377,Furniture,4,13,3,Debit Card,2.81,48,Non-binary
+2023-12-11,Store_1,Chicago,1324,Toys,4,8,14,Online Payment,24.55,38,Male
+2023-11-23,Store_1,Los Angeles,1974,Clothing,9,8,60,Credit Card,46.36,37,Male
+2023-01-09,Store_8,New York,1249,Groceries,9,12,77,Debit Card,5.27,56,Female
+2023-12-10,Store_10,Phoenix,1675,Groceries,9,6,45,Credit Card,38.22,39,Non-binary
+2023-05-09,Store_2,Houston,963,Clothing,7,13,96,Debit Card,20.48,21,Female
+2024-05-06,Store_3,Phoenix,503,Electronics,2,18,34,Debit Card,32.76,30,Female
+2023-05-16,Store_2,Houston,86,Clothing,5,26,45,Credit Card,13.01,62,Non-binary
+2024-04-16,Store_3,Phoenix,1389,Toys,4,13,61,Online Payment,7.97,59,Non-binary
+2023-03-04,Store_7,Phoenix,1761,Electronics,8,28,83,Online Payment,8.02,67,Non-binary
+2023-05-19,Store_1,Phoenix,1022,Groceries,2,27,16,Cash,3.52,66,Male
+2024-05-13,Store_10,Houston,845,Clothing,6,20,66,Debit Card,9.28,37,Male
+2023-03-22,Store_8,Houston,1022,Furniture,5,21,40,Cash,33.21,69,Female
+2024-01-27,Store_10,Phoenix,642,Furniture,2,20,17,Cash,44.08,30,Male
+2023-06-12,Store_10,Los Angeles,1187,Toys,1,16,34,Credit Card,40.71,34,Non-binary
+2024-02-23,Store_10,Chicago,1113,Furniture,8,7,16,Credit Card,34.26,53,Non-binary
+2023-10-16,Store_2,Chicago,1374,Clothing,2,15,60,Credit Card,5.52,50,Male
+2024-01-14,Store_3,Chicago,273,Clothing,7,18,66,Debit Card,14.46,18,Female
+2023-09-18,Store_9,Houston,367,Furniture,9,22,66,Credit Card,15.49,32,Female
+2024-05-04,Store_7,Houston,398,Clothing,9,25,90,Credit Card,12.5,30,Male
+2023-08-19,Store_4,Los Angeles,164,Toys,8,25,13,Debit Card,25.75,34,Female
+2023-02-10,Store_10,Chicago,747,Electronics,9,9,56,Debit Card,26.78,41,Female
+2023-01-28,Store_5,Chicago,1396,Toys,2,20,31,Online Payment,17.84,25,Female
+2023-05-15,Store_2,Phoenix,1641,Toys,6,24,34,Credit Card,17.69,67,Non-binary
+2023-07-20,Store_8,Houston,1113,Clothing,4,9,39,Credit Card,41.43,44,Non-binary
+2023-11-24,Store_4,Chicago,1939,Electronics,4,7,67,Credit Card,39.46,62,Male
+2023-09-25,Store_9,Los Angeles,89,Clothing,5,16,8,Online Payment,15.39,40,Non-binary
+2024-02-22,Store_5,Los Angeles,1932,Groceries,3,5,87,Credit Card,45.69,63,Female
+2023-02-02,Store_9,Chicago,1822,Clothing,1,25,78,Online Payment,47.64,25,Non-binary
+2023-02-17,Store_4,Houston,1362,Clothing,8,13,55,Cash,16.34,25,Male
+2024-02-11,Store_10,Los Angeles,1335,Clothing,5,13,27,Online Payment,17.72,43,Non-binary
+2023-03-03,Store_5,Phoenix,265,Electronics,3,8,93,Cash,25.28,64,Female
+2023-08-04,Store_9,Los Angeles,1220,Clothing,7,7,53,Credit Card,47.06,30,Female
+2023-10-20,Store_8,New York,385,Electronics,7,21,39,Cash,43.82,56,Male
+2023-04-09,Store_3,New York,1241,Furniture,1,6,65,Online Payment,5.13,54,Non-binary
+2023-06-21,Store_1,Houston,141,Groceries,9,28,17,Debit Card,19.64,66,Non-binary
+2023-12-26,Store_3,Chicago,402,Electronics,2,5,30,Cash,27.67,45,Non-binary
+2023-08-02,Store_4,Houston,620,Furniture,5,12,53,Cash,25.16,42,Female
+2024-04-19,Store_2,Houston,1644,Electronics,5,17,13,Credit Card,9.69,33,Male
+2023-02-04,Store_1,Houston,865,Electronics,8,27,21,Online Payment,42.94,19,Non-binary
+2024-03-24,Store_7,Houston,1754,Groceries,8,19,19,Cash,33.85,35,Female
+2023-08-15,Store_8,Phoenix,830,Toys,7,12,53,Cash,41.9,34,Female
+2023-04-11,Store_7,Phoenix,412,Toys,7,16,19,Cash,42.94,47,Female
+2024-03-06,Store_5,Los Angeles,606,Electronics,6,26,57,Cash,37.42,56,Non-binary
+2024-04-06,Store_1,New York,1418,Clothing,6,16,25,Debit Card,21.96,30,Non-binary
+2023-05-11,Store_7,Houston,1766,Furniture,9,18,86,Online Payment,30.53,49,Non-binary
+2023-09-14,Store_7,Los Angeles,1243,Clothing,6,19,31,Credit Card,8.02,67,Non-binary
+2023-01-05,Store_9,New York,405,Clothing,2,19,81,Credit Card,33.68,46,Non-binary
+2023-08-06,Store_3,Chicago,240,Electronics,2,13,55,Debit Card,8.96,63,Non-binary
+2023-09-12,Store_9,Phoenix,1740,Electronics,5,23,23,Online Payment,34.7,47,Non-binary
+2024-02-02,Store_1,New York,471,Electronics,4,24,32,Cash,11.48,35,Non-binary
+2023-12-25,Store_1,Chicago,749,Electronics,2,26,62,Debit Card,5.88,30,Non-binary
+2023-10-10,Store_4,New York,56,Toys,3,12,74,Online Payment,8.26,60,Female
+2024-01-28,Store_9,Phoenix,182,Electronics,7,25,10,Cash,0.1,38,Non-binary
+2023-07-26,Store_6,Phoenix,1820,Toys,8,23,72,Debit Card,35.94,47,Male
+2023-01-15,Store_3,Los Angeles,606,Toys,6,10,54,Online Payment,36.62,38,Female
+2023-12-12,Store_1,Houston,875,Electronics,5,24,52,Credit Card,25.75,65,Non-binary
+2023-02-11,Store_4,New York,810,Groceries,1,29,20,Credit Card,8.07,34,Male
+2024-01-15,Store_9,New York,1104,Furniture,8,23,32,Online Payment,4.18,57,Non-binary
+2024-04-05,Store_3,Chicago,584,Clothing,3,8,14,Credit Card,0.96,36,Male
+2023-06-28,Store_9,Phoenix,475,Toys,6,27,50,Online Payment,8.29,69,Male
+2023-03-04,Store_7,New York,1467,Furniture,3,11,28,Cash,44.54,32,Male
+2023-12-18,Store_4,Phoenix,721,Groceries,7,8,53,Online Payment,12.08,26,Male
+2023-08-19,Store_3,New York,412,Clothing,7,26,24,Cash,17.71,69,Female
+2023-08-29,Store_10,Los Angeles,1510,Clothing,9,16,79,Debit Card,5.27,27,Female
+2023-02-21,Store_5,Houston,1743,Toys,5,17,22,Online Payment,11.12,61,Male
+2023-04-06,Store_5,New York,1624,Electronics,8,7,30,Debit Card,25.96,48,Non-binary
+2024-01-23,Store_3,Phoenix,131,Groceries,8,26,63,Credit Card,30.39,40,Male
+2023-08-10,Store_9,Los Angeles,405,Toys,1,16,4,Cash,12.27,69,Female
+2024-04-29,Store_4,New York,1331,Groceries,5,6,77,Online Payment,2.89,47,Non-binary
+2024-02-11,Store_5,Chicago,1791,Electronics,3,28,59,Debit Card,19.55,50,Female
+2023-08-19,Store_4,Houston,638,Electronics,1,6,87,Cash,11.71,69,Female
+2023-08-25,Store_5,New York,1597,Toys,4,27,8,Cash,10.98,26,Non-binary
+2023-05-23,Store_7,Los Angeles,344,Electronics,8,13,82,Credit Card,47.99,64,Male
+2023-06-20,Store_9,Chicago,1297,Furniture,3,5,12,Credit Card,30.82,18,Male
+2023-01-29,Store_7,Los Angeles,1598,Clothing,2,12,31,Cash,27.84,61,Male
+2023-02-05,Store_5,Los Angeles,1119,Toys,9,27,78,Cash,20.79,52,Male
+2023-01-13,Store_10,Chicago,1740,Groceries,5,10,34,Online Payment,21.45,28,Non-binary
+2023-06-09,Store_10,Los Angeles,1186,Furniture,7,10,82,Cash,27.05,51,Non-binary
+2023-11-23,Store_7,Chicago,1306,Toys,2,26,98,Online Payment,34.82,33,Non-binary
+2023-07-06,Store_10,New York,66,Electronics,9,29,75,Cash,35.11,26,Female
+2023-08-31,Store_5,Chicago,409,Electronics,9,22,76,Credit Card,8.58,49,Non-binary
+2023-03-27,Store_3,Chicago,1296,Electronics,4,21,49,Online Payment,25.01,32,Male
+2023-10-11,Store_7,Houston,915,Electronics,4,16,79,Debit Card,20.6,29,Female
+2023-03-07,Store_2,Chicago,749,Groceries,6,10,57,Credit Card,43.53,50,Male
+2023-06-19,Store_9,Chicago,497,Furniture,6,12,95,Online Payment,31.57,62,Male
+2023-02-14,Store_10,New York,905,Clothing,1,23,93,Online Payment,26.63,31,Non-binary
+2023-03-03,Store_10,Houston,414,Groceries,9,14,26,Debit Card,5.77,25,Non-binary
+2024-03-16,Store_1,Phoenix,724,Groceries,2,5,18,Online Payment,30.28,25,Male
+2023-05-14,Store_6,New York,1057,Clothing,5,29,96,Cash,5.86,44,Male
+2023-10-11,Store_7,New York,1399,Clothing,9,17,86,Debit Card,16.86,29,Female
+2023-01-28,Store_8,Phoenix,516,Electronics,4,21,38,Credit Card,7.14,18,Non-binary
+2023-04-18,Store_10,Chicago,463,Groceries,3,7,81,Credit Card,34.6,60,Female
+2023-02-13,Store_9,Los Angeles,1528,Toys,7,12,87,Cash,10.31,57,Female
+2023-12-06,Store_2,Houston,635,Clothing,6,18,88,Credit Card,19.59,59,Female
+2023-10-13,Store_10,Los Angeles,1306,Clothing,8,7,50,Online Payment,44.78,68,Male
+2024-03-21,Store_2,Phoenix,1297,Furniture,3,20,8,Online Payment,10.22,28,Female
+2023-11-27,Store_5,New York,1043,Toys,5,17,41,Cash,25.39,56,Female
+2023-05-08,Store_5,New York,1904,Toys,4,24,6,Credit Card,20.96,60,Male
+2023-12-14,Store_6,Houston,1485,Clothing,4,28,69,Credit Card,0.91,48,Non-binary
+2024-04-17,Store_3,New York,621,Electronics,4,21,44,Cash,39.64,34,Non-binary
+2023-08-19,Store_8,New York,384,Furniture,8,17,64,Debit Card,3.45,50,Female
+2023-07-09,Store_1,Houston,1295,Toys,6,10,29,Credit Card,23.71,49,Male
+2023-08-13,Store_6,Houston,86,Clothing,3,21,28,Debit Card,28.03,46,Non-binary
+2024-01-20,Store_4,Phoenix,1038,Toys,5,18,11,Credit Card,31.42,38,Female
+2024-01-12,Store_1,New York,327,Furniture,6,21,65,Credit Card,34.43,38,Female
+2023-10-10,Store_7,New York,1269,Furniture,5,12,19,Credit Card,12.66,57,Male
+2024-03-21,Store_9,Phoenix,965,Groceries,6,15,9,Credit Card,0.5,40,Female
+2023-05-01,Store_4,Chicago,1937,Clothing,8,24,27,Online Payment,36.17,23,Non-binary
+2023-04-26,Store_4,Chicago,533,Furniture,7,5,34,Debit Card,26.78,39,Male
+2024-04-05,Store_6,Chicago,1315,Groceries,5,11,44,Debit Card,41.81,67,Non-binary
+2023-08-21,Store_3,Phoenix,1397,Groceries,6,25,68,Credit Card,41.07,55,Non-binary
+2023-09-16,Store_6,New York,780,Toys,4,25,82,Credit Card,42.17,54,Non-binary
+2023-12-25,Store_7,Phoenix,241,Toys,9,21,15,Debit Card,24.25,62,Female
+2023-07-17,Store_10,Phoenix,1090,Groceries,4,14,51,Online Payment,16.68,68,Female
+2024-03-31,Store_10,Chicago,573,Toys,1,15,13,Cash,39.58,25,Non-binary
+2024-02-15,Store_3,Los Angeles,967,Furniture,7,26,83,Cash,22.56,58,Non-binary
+2023-05-17,Store_7,New York,450,Electronics,7,13,49,Debit Card,9.17,66,Male
+2023-11-14,Store_3,Chicago,1979,Furniture,4,13,70,Credit Card,42.75,52,Male
+2023-06-14,Store_2,Los Angeles,935,Groceries,3,28,56,Credit Card,44.13,68,Female
+2023-08-13,Store_10,Los Angeles,754,Groceries,8,9,76,Online Payment,23.32,28,Female
+2023-11-03,Store_4,Houston,71,Furniture,5,21,51,Cash,3.78,41,Male
+2023-08-22,Store_8,New York,523,Toys,7,13,37,Online Payment,19.39,66,Non-binary
+2023-06-21,Store_9,Los Angeles,1193,Toys,4,21,17,Cash,40.18,38,Female
+2023-06-01,Store_7,Chicago,259,Groceries,4,28,58,Debit Card,45.09,68,Non-binary
+2024-04-07,Store_1,Houston,355,Clothing,8,25,87,Cash,10.17,19,Male
+2023-11-11,Store_3,New York,1343,Toys,8,23,90,Online Payment,3.35,57,Female
+2024-01-09,Store_9,Phoenix,753,Furniture,2,11,29,Online Payment,43.87,36,Female
+2023-06-09,Store_1,Chicago,736,Toys,2,27,33,Online Payment,19.47,56,Male
+2023-04-06,Store_9,Los Angeles,334,Furniture,3,13,60,Debit Card,27.09,45,Female
+2024-04-16,Store_8,Los Angeles,765,Groceries,3,11,91,Cash,48.4,34,Male
+2023-08-21,Store_1,Chicago,1749,Toys,1,17,89,Cash,3.33,23,Female
+2023-06-29,Store_6,Los Angeles,812,Furniture,3,15,55,Online Payment,32.42,36,Male
+2023-04-23,Store_5,Houston,1300,Groceries,6,18,10,Cash,3.71,55,Female
+2023-11-14,Store_6,New York,997,Clothing,8,23,47,Credit Card,18.77,45,Non-binary
+2024-05-11,Store_10,Houston,430,Furniture,6,15,23,Credit Card,40.19,19,Non-binary
+2024-03-17,Store_5,Los Angeles,509,Clothing,5,17,85,Credit Card,21.67,55,Non-binary
+2023-02-21,Store_6,Phoenix,1080,Clothing,4,18,21,Cash,49.86,54,Female
+2023-09-25,Store_5,New York,78,Electronics,3,17,13,Debit Card,27.95,68,Female
+2023-10-22,Store_5,New York,956,Toys,4,5,33,Debit Card,16.06,69,Non-binary
+2024-01-21,Store_4,Chicago,1106,Furniture,7,12,24,Debit Card,11.01,21,Non-binary
+2024-01-22,Store_3,Chicago,1719,Clothing,1,16,11,Debit Card,17.53,39,Male
+2023-04-23,Store_3,Phoenix,928,Electronics,7,23,17,Credit Card,18.63,43,Male
+2023-04-11,Store_4,New York,128,Groceries,1,16,68,Credit Card,3.44,66,Male
+2023-04-23,Store_9,Phoenix,996,Furniture,2,12,47,Online Payment,18.48,60,Non-binary
+2024-03-15,Store_2,Chicago,508,Clothing,4,12,25,Cash,23.21,53,Non-binary
+2023-03-22,Store_9,Chicago,619,Toys,1,25,94,Cash,36.14,30,Non-binary
+2023-07-06,Store_1,New York,1611,Electronics,9,17,73,Debit Card,32.84,69,Male
+2023-04-23,Store_1,Houston,1555,Clothing,6,16,21,Credit Card,35.44,49,Female
+2023-01-02,Store_5,Los Angeles,1503,Toys,1,20,84,Debit Card,0.42,34,Non-binary
+2023-05-10,Store_6,Chicago,787,Clothing,1,5,83,Online Payment,10.88,58,Female
+2023-08-08,Store_6,Chicago,1358,Furniture,6,17,83,Cash,33.08,53,Female
+2023-02-23,Store_3,Houston,565,Furniture,4,11,12,Cash,24.2,63,Female
+2023-12-09,Store_7,Houston,1172,Furniture,4,9,37,Debit Card,0.27,36,Male
+2024-04-29,Store_9,Phoenix,446,Electronics,6,12,42,Online Payment,40.22,52,Female
+2023-08-12,Store_10,Phoenix,1562,Furniture,7,29,17,Cash,38.64,63,Non-binary
+2023-08-13,Store_8,Los Angeles,88,Toys,9,18,48,Online Payment,27.42,57,Male
+2024-01-20,Store_6,Los Angeles,1344,Clothing,5,27,28,Online Payment,3.32,45,Non-binary
+2024-02-07,Store_8,New York,936,Groceries,9,17,41,Debit Card,38.33,18,Non-binary
+2023-05-06,Store_5,Phoenix,846,Toys,4,19,99,Credit Card,29.19,59,Male
+2023-05-10,Store_8,Chicago,206,Toys,2,27,47,Debit Card,39.1,35,Non-binary
+2023-02-22,Store_10,Phoenix,1148,Furniture,3,21,18,Credit Card,37.59,65,Non-binary
+2023-06-21,Store_4,Chicago,933,Electronics,1,19,78,Online Payment,40.15,57,Male
+2023-08-06,Store_10,Houston,1873,Clothing,6,24,99,Credit Card,25.9,50,Non-binary
+2023-06-09,Store_8,Phoenix,1203,Electronics,6,22,71,Online Payment,7.02,29,Female
+2023-07-17,Store_10,Houston,1760,Clothing,1,22,13,Cash,33.56,25,Non-binary
+2024-02-20,Store_2,Los Angeles,1023,Clothing,3,6,82,Cash,31.02,41,Female
+2023-09-04,Store_5,Los Angeles,1157,Electronics,5,8,13,Cash,37.11,33,Non-binary
+2023-11-20,Store_9,New York,1095,Toys,3,5,31,Debit Card,8.49,67,Male
+2024-03-14,Store_4,Phoenix,1532,Clothing,3,8,2,Debit Card,9.75,21,Male
+2023-07-22,Store_6,Houston,1612,Electronics,3,22,16,Online Payment,44.52,55,Non-binary
+2023-07-03,Store_1,Chicago,1780,Clothing,5,9,9,Cash,37.5,61,Male
+2023-05-03,Store_9,Los Angeles,898,Groceries,5,23,73,Debit Card,45.41,44,Non-binary
+2024-02-05,Store_1,Los Angeles,1455,Toys,4,19,38,Cash,37.94,26,Male
+2023-09-12,Store_5,Chicago,797,Furniture,1,12,75,Debit Card,29.86,64,Female
+2023-10-21,Store_4,Houston,1513,Clothing,5,24,54,Credit Card,32.71,33,Non-binary
+2023-10-07,Store_3,Houston,1677,Groceries,5,21,56,Credit Card,44.46,29,Female
+2023-11-21,Store_6,Phoenix,1038,Furniture,4,5,86,Cash,28.94,48,Female
+2024-01-07,Store_2,Phoenix,70,Furniture,6,16,97,Online Payment,31.62,41,Non-binary
+2023-04-08,Store_3,New York,352,Clothing,4,23,87,Debit Card,7.82,31,Female
+2023-07-17,Store_5,Los Angeles,918,Electronics,7,19,45,Debit Card,23.7,62,Non-binary
+2024-04-14,Store_9,Phoenix,133,Clothing,7,13,34,Credit Card,35.82,42,Female
+2024-01-30,Store_2,Houston,1847,Groceries,2,11,9,Credit Card,13.55,51,Non-binary
+2023-08-28,Store_10,Chicago,1732,Furniture,3,6,88,Online Payment,10.11,20,Non-binary
+2023-05-24,Store_8,Houston,1526,Clothing,1,13,8,Online Payment,15.69,41,Male
+2023-04-07,Store_2,Los Angeles,1460,Electronics,8,14,7,Online Payment,12.08,59,Non-binary
+2023-07-20,Store_5,Houston,1580,Clothing,9,6,36,Cash,10.75,26,Non-binary
+2023-05-04,Store_7,New York,1330,Toys,4,23,18,Credit Card,21.24,43,Female
+2023-07-06,Store_8,Los Angeles,619,Electronics,6,15,3,Cash,45.39,37,Non-binary
+2023-11-22,Store_1,Chicago,1965,Groceries,9,17,28,Credit Card,25.35,57,Male
+2024-04-08,Store_6,New York,983,Furniture,6,14,70,Credit Card,9.4,27,Female
+2023-12-15,Store_1,Los Angeles,1600,Clothing,9,18,44,Debit Card,3.85,36,Female
+2023-09-16,Store_2,Chicago,1235,Electronics,4,22,21,Credit Card,34.81,20,Male
+2023-05-28,Store_1,New York,1236,Toys,8,23,28,Credit Card,19.14,41,Female
+2023-09-09,Store_5,New York,1905,Electronics,9,26,54,Cash,41.09,22,Female
+2024-03-18,Store_10,Los Angeles,1058,Toys,4,13,54,Credit Card,32.98,20,Female
+2024-02-24,Store_9,Phoenix,842,Groceries,5,29,65,Cash,39.81,44,Female
+2024-02-07,Store_6,New York,841,Furniture,8,11,21,Online Payment,13.6,33,Male
+2023-12-12,Store_1,New York,1597,Groceries,6,7,99,Credit Card,34.62,66,Male
+2024-03-26,Store_1,Chicago,1859,Clothing,7,24,13,Credit Card,13.2,32,Female
+2023-05-27,Store_2,Houston,1344,Electronics,3,10,57,Cash,46.95,52,Female
+2023-05-28,Store_9,Los Angeles,541,Toys,7,25,49,Online Payment,31.82,29,Male
+2023-12-18,Store_3,Los Angeles,257,Toys,8,6,54,Debit Card,16.23,58,Male
+2023-07-18,Store_1,Phoenix,1612,Electronics,6,10,10,Online Payment,13.48,61,Male
+2023-11-04,Store_5,Phoenix,1657,Electronics,9,7,53,Cash,9.55,43,Female
+2024-05-03,Store_7,Los Angeles,1133,Clothing,6,20,44,Online Payment,34.73,64,Female
+2024-02-21,Store_6,Phoenix,479,Groceries,9,12,47,Cash,10.94,51,Non-binary
+2024-02-28,Store_1,Chicago,1034,Toys,4,6,53,Cash,29.77,40,Male
+2023-05-08,Store_5,Los Angeles,1730,Clothing,8,21,74,Debit Card,13.23,48,Female
+2023-02-08,Store_5,Phoenix,1678,Groceries,4,13,46,Credit Card,33.1,67,Male
+2023-12-04,Store_6,Los Angeles,1382,Clothing,2,16,13,Cash,40.75,37,Female
+2023-12-26,Store_3,Houston,569,Toys,9,7,37,Cash,38.9,29,Male
+2023-05-09,Store_5,New York,640,Electronics,5,15,24,Debit Card,38.04,40,Female
+2023-09-24,Store_7,Los Angeles,1100,Electronics,4,5,2,Cash,9.39,21,Non-binary
+2024-04-20,Store_5,New York,1759,Groceries,2,27,86,Credit Card,4.42,40,Non-binary
+2024-03-16,Store_5,Phoenix,1635,Furniture,1,17,81,Debit Card,34.95,65,Male
+2024-04-17,Store_5,New York,248,Groceries,7,19,14,Credit Card,18.42,65,Female
+2024-03-09,Store_10,Los Angeles,436,Furniture,6,9,10,Credit Card,21.62,18,Female
+2023-05-31,Store_10,Houston,398,Clothing,2,25,35,Debit Card,1.56,42,Male
+2024-02-19,Store_3,Phoenix,1009,Clothing,8,21,25,Cash,12.98,19,Female
+2024-04-22,Store_1,Los Angeles,742,Toys,4,29,3,Credit Card,1.68,47,Male
+2023-10-25,Store_5,Phoenix,1609,Furniture,8,27,17,Credit Card,43.96,20,Female
+2023-04-09,Store_9,Chicago,1901,Toys,7,28,12,Credit Card,12.17,38,Male
+2023-09-20,Store_1,New York,427,Electronics,5,29,54,Credit Card,27.87,42,Female
+2023-09-09,Store_3,Chicago,948,Furniture,8,10,24,Debit Card,1.95,37,Male
+2023-05-24,Store_4,Los Angeles,965,Groceries,9,25,29,Debit Card,33.34,66,Female
+2023-12-12,Store_1,Houston,1631,Electronics,5,26,43,Online Payment,16.15,69,Non-binary
+2023-04-22,Store_1,Phoenix,576,Electronics,5,15,25,Online Payment,44.9,39,Female
+2024-05-14,Store_8,New York,1226,Groceries,2,22,60,Credit Card,44.41,38,Male
+2023-03-01,Store_2,Phoenix,783,Electronics,5,8,90,Cash,16.26,50,Non-binary
+2024-01-04,Store_8,Los Angeles,255,Furniture,3,7,65,Credit Card,45.05,69,Female
+2023-01-02,Store_7,Phoenix,504,Toys,7,17,84,Cash,49.81,55,Non-binary
+2024-01-20,Store_10,New York,1346,Electronics,5,27,28,Credit Card,41.27,32,Female
+2023-10-31,Store_10,Los Angeles,1967,Furniture,8,13,16,Online Payment,42.24,63,Non-binary
+2023-09-11,Store_2,Phoenix,1309,Clothing,1,25,47,Online Payment,12.45,69,Male
+2023-05-20,Store_6,Houston,1925,Furniture,3,10,81,Cash,28.84,32,Female
+2024-03-28,Store_6,Los Angeles,1813,Toys,3,16,92,Credit Card,3.36,63,Female
+2023-02-06,Store_3,Los Angeles,570,Furniture,9,6,58,Cash,4.75,42,Male
+2023-06-09,Store_2,Houston,1751,Groceries,5,7,76,Online Payment,49.94,38,Non-binary
+2023-01-09,Store_1,Chicago,1066,Toys,9,7,27,Credit Card,16.33,41,Male
+2023-08-21,Store_6,New York,1005,Clothing,9,16,53,Credit Card,37.41,22,Male
+2023-04-09,Store_5,Chicago,1904,Groceries,1,19,42,Cash,40.33,23,Non-binary
+2023-05-27,Store_9,Phoenix,775,Furniture,2,13,59,Debit Card,42.9,66,Male
+2023-10-31,Store_1,Houston,1063,Toys,5,27,47,Cash,49.88,60,Female
+2023-07-27,Store_7,Chicago,550,Clothing,4,12,94,Online Payment,12.07,65,Female
+2023-05-11,Store_5,Los Angeles,166,Groceries,9,15,34,Online Payment,2.02,61,Female
+2024-02-08,Store_5,Phoenix,435,Clothing,7,20,37,Online Payment,20.56,64,Male
+2023-06-01,Store_2,Phoenix,1417,Furniture,6,29,6,Online Payment,6.5,40,Female
+2023-02-23,Store_3,Chicago,633,Clothing,7,26,7,Online Payment,1.12,21,Female
+2023-04-30,Store_7,Chicago,444,Electronics,1,8,96,Debit Card,18.02,44,Female
+2023-06-10,Store_6,Houston,1137,Groceries,1,5,96,Credit Card,39.19,35,Female
+2024-02-12,Store_2,New York,1790,Clothing,8,28,25,Cash,28.31,38,Female
+2023-04-26,Store_6,Chicago,770,Furniture,2,11,33,Cash,15.64,45,Female
+2023-03-16,Store_2,Chicago,121,Furniture,9,6,55,Online Payment,32.72,52,Male
+2023-04-23,Store_2,Los Angeles,1862,Clothing,7,28,58,Cash,11.6,39,Female
+2024-03-31,Store_2,Phoenix,323,Furniture,6,9,7,Online Payment,0.72,57,Female
+2024-02-24,Store_3,New York,1393,Toys,1,11,57,Debit Card,38.22,40,Non-binary
+2024-02-26,Store_2,Los Angeles,387,Toys,1,8,12,Debit Card,31.19,20,Male
+2023-04-14,Store_4,Houston,1439,Toys,2,9,16,Credit Card,38.12,57,Male
+2023-12-06,Store_9,Houston,1568,Electronics,6,28,80,Debit Card,1.95,67,Male
+2023-09-11,Store_6,Chicago,656,Clothing,6,5,43,Debit Card,41.86,27,Male
+2023-08-15,Store_1,Chicago,215,Electronics,2,5,77,Credit Card,30.98,42,Female
+2023-04-22,Store_8,Houston,1617,Furniture,1,19,7,Cash,28.17,69,Female
+2024-04-17,Store_7,Chicago,60,Electronics,5,24,51,Online Payment,31.23,66,Non-binary
+2023-04-09,Store_10,New York,1374,Furniture,5,23,73,Online Payment,43.22,25,Non-binary
+2023-06-02,Store_3,Chicago,778,Furniture,2,14,32,Cash,29.35,28,Male
+2023-12-15,Store_1,Phoenix,850,Groceries,6,22,75,Credit Card,29.05,22,Non-binary
+2024-02-06,Store_5,Chicago,151,Toys,9,7,8,Cash,49.53,62,Non-binary
+2024-01-19,Store_4,Los Angeles,1498,Furniture,2,15,97,Debit Card,37.84,54,Male
+2024-01-01,Store_10,New York,1465,Groceries,2,19,87,Credit Card,22.11,62,Male
+2023-12-04,Store_8,Los Angeles,828,Toys,3,15,89,Credit Card,35.37,55,Non-binary
+2023-07-13,Store_1,Los Angeles,263,Furniture,7,21,72,Credit Card,19.46,46,Female
+2023-11-06,Store_10,Phoenix,1764,Furniture,6,21,45,Online Payment,11.44,22,Non-binary
+2023-06-12,Store_1,New York,1161,Electronics,8,10,86,Cash,29.84,26,Non-binary
+2023-07-27,Store_4,New York,1626,Electronics,8,9,59,Credit Card,46.41,65,Female
+2024-03-20,Store_8,New York,450,Toys,6,12,4,Credit Card,46.46,19,Female
+2023-06-18,Store_5,New York,637,Furniture,3,6,67,Credit Card,17.1,18,Male
+2024-04-28,Store_2,New York,938,Clothing,3,20,29,Cash,26.38,57,Male
+2023-06-10,Store_6,Phoenix,1119,Electronics,1,24,29,Online Payment,10.58,68,Non-binary
+2023-03-09,Store_5,Chicago,1745,Toys,7,28,98,Debit Card,49.78,47,Female
+2023-10-16,Store_2,Los Angeles,1536,Furniture,5,16,98,Online Payment,49.06,28,Male
+2024-02-02,Store_3,New York,641,Furniture,4,10,28,Credit Card,32.48,45,Non-binary
+2023-10-04,Store_9,Chicago,1383,Clothing,4,5,77,Online Payment,40.22,61,Female
+2023-10-31,Store_7,Chicago,1159,Toys,4,8,79,Online Payment,35.76,29,Non-binary
+2024-02-08,Store_7,Los Angeles,141,Furniture,6,21,87,Debit Card,29.66,56,Male
+2024-01-19,Store_6,Phoenix,1733,Electronics,8,17,44,Cash,2.67,43,Male
+2024-01-27,Store_8,Houston,722,Clothing,8,22,90,Cash,22.74,30,Female
+2023-05-15,Store_4,Houston,763,Toys,5,9,4,Online Payment,33.74,25,Non-binary
+2023-07-14,Store_8,Chicago,985,Clothing,6,28,90,Online Payment,33.88,45,Female
+2024-02-05,Store_4,Los Angeles,291,Electronics,4,28,9,Cash,18.66,47,Male
+2023-05-08,Store_8,Houston,1938,Toys,9,7,5,Cash,47.08,26,Male
+2023-02-02,Store_9,Chicago,51,Clothing,8,15,56,Debit Card,8.37,56,Non-binary
+2023-06-25,Store_3,Phoenix,274,Groceries,1,17,96,Credit Card,25.02,48,Non-binary
+2024-04-04,Store_3,Houston,850,Electronics,2,8,84,Online Payment,34.54,38,Non-binary
+2024-03-18,Store_2,Chicago,1818,Electronics,9,18,50,Cash,34.86,64,Female
+2024-01-06,Store_10,Chicago,1999,Electronics,8,26,75,Online Payment,32.43,51,Non-binary
+2024-04-14,Store_3,New York,638,Groceries,3,15,15,Online Payment,13.76,48,Non-binary
+2024-01-10,Store_3,Phoenix,165,Groceries,8,14,32,Cash,7.81,69,Male
+2023-01-22,Store_5,New York,1739,Furniture,1,23,28,Debit Card,31.8,42,Male
+2023-08-26,Store_5,Los Angeles,967,Clothing,4,22,22,Online Payment,29.97,29,Non-binary
+2023-06-07,Store_2,New York,1176,Furniture,3,10,17,Debit Card,8.97,18,Non-binary
+2023-02-07,Store_10,New York,243,Clothing,6,19,59,Cash,35.26,39,Male
+2023-08-18,Store_6,Houston,1239,Groceries,7,25,90,Credit Card,22.76,57,Non-binary
+2023-12-31,Store_5,Chicago,920,Groceries,4,14,71,Credit Card,33.39,54,Female
+2023-02-20,Store_6,Phoenix,139,Furniture,7,9,57,Online Payment,41.87,64,Female
+2024-03-13,Store_1,New York,1759,Toys,9,9,26,Cash,8.49,18,Female
+2023-09-21,Store_5,Phoenix,171,Furniture,2,14,25,Debit Card,0.96,18,Non-binary
+2023-10-10,Store_9,New York,192,Clothing,3,9,10,Online Payment,38.96,59,Male
+2023-01-27,Store_10,Los Angeles,1043,Furniture,5,7,45,Cash,30.48,59,Non-binary
+2023-08-14,Store_2,New York,155,Electronics,3,27,83,Cash,34.98,38,Non-binary
+2023-10-04,Store_1,Houston,936,Clothing,8,10,11,Debit Card,41.91,32,Male
+2023-10-13,Store_10,Chicago,477,Clothing,8,8,77,Online Payment,40.14,34,Male
+2023-04-07,Store_9,Los Angeles,1378,Toys,8,22,53,Cash,48.05,39,Male
+2023-10-11,Store_10,New York,1945,Groceries,9,13,72,Cash,26.8,55,Female
+2024-01-02,Store_9,Phoenix,366,Clothing,4,21,68,Cash,24.42,52,Non-binary
+2024-03-23,Store_9,Los Angeles,684,Groceries,5,17,95,Debit Card,20.09,62,Male
+2024-04-25,Store_6,Los Angeles,1975,Furniture,5,19,28,Online Payment,7.68,33,Non-binary
+2024-03-28,Store_8,New York,58,Electronics,8,24,75,Online Payment,28.63,25,Female
+2023-11-13,Store_1,Los Angeles,823,Toys,7,21,65,Online Payment,13.85,64,Female
+2023-10-31,Store_10,Phoenix,1146,Groceries,9,17,49,Online Payment,46.07,34,Male
+2023-05-27,Store_4,Los Angeles,1432,Clothing,8,20,47,Credit Card,29.16,34,Male
+2023-01-04,Store_1,Phoenix,272,Groceries,2,26,52,Credit Card,29.64,43,Non-binary
+2023-02-04,Store_8,New York,1489,Clothing,4,8,88,Online Payment,17.75,30,Male
+2023-07-11,Store_1,Chicago,602,Groceries,6,9,54,Debit Card,2.6,34,Non-binary
+2023-02-18,Store_3,Los Angeles,1443,Clothing,2,9,60,Credit Card,1.59,55,Male
+2023-01-17,Store_4,Chicago,765,Furniture,7,13,57,Cash,21.17,34,Non-binary
+2023-06-21,Store_8,Phoenix,1337,Clothing,3,21,47,Credit Card,4.23,65,Non-binary
+2023-08-08,Store_6,Los Angeles,1913,Clothing,3,17,31,Cash,30.34,31,Non-binary
+2023-06-07,Store_10,Houston,1763,Electronics,2,6,46,Online Payment,44.05,62,Non-binary
+2024-04-21,Store_7,Chicago,1933,Clothing,8,17,26,Credit Card,44.15,23,Female
+2023-02-15,Store_8,Los Angeles,1391,Electronics,6,26,5,Debit Card,32.95,52,Non-binary
+2024-01-08,Store_2,Chicago,1157,Toys,1,25,84,Credit Card,10.56,63,Male
+2023-01-06,Store_10,Los Angeles,1391,Electronics,1,27,52,Credit Card,43.15,31,Female
+2023-04-09,Store_8,New York,160,Furniture,7,23,75,Credit Card,44.3,64,Female
+2024-01-15,Store_3,Chicago,300,Electronics,8,7,54,Online Payment,9.83,25,Non-binary
+2023-08-21,Store_7,Houston,432,Toys,5,14,33,Debit Card,36.87,32,Female
+2023-02-06,Store_3,Houston,56,Furniture,5,6,50,Credit Card,14.33,44,Non-binary
+2023-10-07,Store_7,Phoenix,508,Groceries,4,17,38,Debit Card,40.13,30,Male
+2023-12-15,Store_2,Los Angeles,1157,Groceries,6,23,27,Online Payment,49.86,66,Non-binary
+2024-05-11,Store_10,Chicago,257,Electronics,6,21,98,Cash,1.5,48,Female
+2023-10-29,Store_6,Phoenix,949,Electronics,3,25,15,Credit Card,44.87,52,Male
+2023-06-30,Store_3,Chicago,1463,Toys,9,18,96,Debit Card,31.13,23,Non-binary
+2023-04-05,Store_3,Los Angeles,1387,Toys,7,16,61,Debit Card,48.67,22,Male
+2023-04-09,Store_9,Houston,71,Clothing,1,25,21,Online Payment,23.25,39,Male
+2023-07-07,Store_7,New York,459,Toys,7,16,46,Credit Card,42.37,66,Female
+2024-04-25,Store_5,Houston,944,Clothing,5,15,69,Cash,3.12,40,Male
+2023-04-26,Store_10,Phoenix,564,Furniture,5,11,6,Debit Card,16.76,42,Female
+2023-07-10,Store_7,New York,1200,Electronics,2,8,38,Credit Card,3.35,51,Male
+2023-09-10,Store_9,Phoenix,858,Furniture,4,23,62,Cash,48.77,43,Non-binary
+2024-04-13,Store_1,Los Angeles,1773,Toys,6,5,86,Debit Card,40.85,64,Male
+2024-02-20,Store_7,New York,923,Furniture,7,28,62,Debit Card,42.63,22,Non-binary
+2024-04-15,Store_6,Phoenix,63,Furniture,5,7,82,Cash,46.9,43,Non-binary
+2023-06-10,Store_10,Los Angeles,1020,Furniture,9,17,78,Cash,4.26,37,Male
+2023-09-13,Store_9,Houston,1027,Toys,3,19,74,Online Payment,19.28,23,Non-binary
+2023-11-19,Store_1,Los Angeles,1063,Furniture,1,6,46,Credit Card,3.55,23,Male
+2023-05-08,Store_4,Chicago,1085,Clothing,4,15,13,Credit Card,10.54,67,Male
+2023-01-18,Store_9,Los Angeles,136,Toys,9,8,95,Online Payment,11.47,35,Non-binary
+2023-10-08,Store_4,Los Angeles,1597,Furniture,4,23,94,Debit Card,23.46,21,Non-binary
+2024-05-04,Store_10,Chicago,958,Toys,2,21,3,Cash,13.43,34,Female
+2023-08-11,Store_3,Phoenix,1610,Groceries,5,7,94,Cash,5.05,31,Non-binary
+2023-02-23,Store_9,Phoenix,1374,Clothing,3,22,6,Cash,8.37,31,Female
+2023-02-27,Store_2,Los Angeles,1316,Furniture,9,12,93,Debit Card,7.36,30,Non-binary
+2023-11-19,Store_4,Chicago,171,Groceries,4,26,8,Cash,48.65,24,Male
+2023-12-26,Store_6,Chicago,1220,Groceries,6,29,44,Cash,37.96,61,Non-binary
+2023-06-23,Store_2,Houston,1640,Toys,2,28,33,Online Payment,48.39,32,Male
+2023-10-07,Store_8,Phoenix,799,Groceries,6,23,81,Debit Card,21.99,36,Male
+2023-04-24,Store_8,New York,1429,Clothing,3,9,75,Credit Card,13.92,60,Male
+2023-10-15,Store_1,Phoenix,734,Clothing,9,11,77,Online Payment,39.91,64,Female
+2024-03-06,Store_3,Phoenix,1977,Electronics,2,25,50,Online Payment,16.31,61,Non-binary
+2023-12-08,Store_10,Houston,1806,Clothing,9,12,11,Credit Card,14.97,52,Male
+2023-05-31,Store_9,New York,1704,Groceries,5,9,95,Online Payment,11.63,34,Male
