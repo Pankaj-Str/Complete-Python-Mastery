@@ -37,3 +37,6 @@
 * [Python Math](python-math.md)
 * [Python JSON](python-json.md)
 * [Python RegEx](python-regex.md)
+* [Pandas](pandas.md)
+* [Comprehensive Guide with Real Datasets Pandas](comprehensive-guide-with-real-datasets-pandas.md)
+* [Product Sales Dataset Case Study](product-sales-dataset-case-study.md)
