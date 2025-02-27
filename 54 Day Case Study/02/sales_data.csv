@@ -1,0 +1,551 @@
+Transaction_ID,Date,Store_ID,Store_Location,Customer_ID,Customer_Age,Customer_Gender,Product_Category,Quantity,Unit_Price,Total_Sales
+1001,2023-01-01,102,Chicago,230,54,Female,Home & Kitchen,4,186,744
+1002,2023-01-02,101,Los Angeles,250,20,Male,Electronics,2,85,170
+1003,2023-01-03,109,Chicago,266,57,Male,Beauty,2,20,40
+1004,2023-01-04,109,Los Angeles,231,51,Female,Electronics,2,270,540
+1005,2023-01-05,102,New York,272,42,Male,Clothing,5,93,465
+1006,2023-01-06,105,Los Angeles,287,59,Male,Beauty,1,41,41
+1007,2023-01-07,104,Los Angeles,248,35,Female,Clothing,5,424,2120
+1008,2023-01-08,108,Chicago,221,65,Male,Electronics,2,455,910
+1009,2023-01-09,105,New York,274,45,Female,Electronics,5,378,1890
+1010,2023-01-10,102,New York,253,57,Male,Sports,5,101,505
+1011,2023-01-11,107,Chicago,204,24,Male,Electronics,2,305,610
+1012,2023-01-12,103,Phoenix,206,32,Male,Electronics,5,194,970
+1013,2023-01-13,104,Houston,246,59,Male,Home & Kitchen,1,216,216
+1014,2023-01-14,104,Chicago,213,57,Female,Electronics,5,103,515
+1015,2023-01-15,101,Chicago,202,47,Male,Sports,4,458,1832
+1016,2023-01-16,105,New York,230,42,Male,Sports,2,326,652
+1017,2023-01-17,107,Phoenix,294,63,Female,Clothing,4,299,1196
+1018,2023-01-18,106,Los Angeles,201,68,Female,Electronics,1,225,225
+1019,2023-01-19,108,Houston,280,28,Male,Sports,4,406,1624
+1020,2023-01-20,105,New York,275,62,Female,Beauty,1,299,299
+1021,2023-01-21,105,Chicago,273,53,Female,Clothing,4,207,828
+1022,2023-01-22,107,New York,246,34,Female,Electronics,3,417,1251
+1023,2023-01-23,108,Phoenix,240,42,Male,Beauty,2,444,888
+1024,2023-01-24,105,Chicago,238,36,Female,Beauty,3,268,804
+1025,2023-01-25,107,Chicago,227,27,Female,Electronics,2,204,408
+1026,2023-01-26,103,Phoenix,239,51,Female,Clothing,3,47,141
+1027,2023-01-27,107,Los Angeles,288,66,Male,Clothing,4,91,364
+1028,2023-01-28,105,New York,289,61,Female,Home & Kitchen,4,301,1204
+1029,2023-01-29,107,Los Angeles,260,67,Male,Beauty,2,424,848
+1030,2023-01-30,109,Chicago,237,20,Female,Clothing,2,488,976
+1031,2023-01-31,105,Chicago,258,58,Female,Beauty,2,294,588
+1032,2023-02-01,107,Chicago,229,67,Female,Clothing,3,429,1287
+1033,2023-02-02,106,Chicago,241,63,Male,Clothing,2,370,740
+1034,2023-02-03,104,Houston,263,42,Male,Clothing,5,216,1080
+1035,2023-02-04,105,Houston,284,55,Male,Sports,3,44,132
+1036,2023-02-05,104,Los Angeles,252,48,Female,Sports,5,219,1095
+1037,2023-02-06,107,Chicago,295,47,Male,Sports,2,122,244
+1038,2023-02-07,102,New York,299,28,Female,Clothing,4,219,876
+1039,2023-02-08,108,Houston,238,25,Male,Sports,1,190,190
+1040,2023-02-09,109,Houston,214,53,Male,Clothing,4,245,980
+1041,2023-02-10,103,Houston,238,29,Male,Electronics,5,320,1600
+1042,2023-02-11,101,New York,270,46,Male,Clothing,1,90,90
+1043,2023-02-12,103,Los Angeles,276,21,Male,Home & Kitchen,5,189,945
+1044,2023-02-13,105,Chicago,264,30,Female,Beauty,5,118,590
+1045,2023-02-14,107,Los Angeles,272,47,Male,Electronics,5,414,2070
+1046,2023-02-15,109,Chicago,266,27,Male,Sports,5,405,2025
+1047,2023-02-16,101,New York,207,29,Female,Beauty,1,32,32
+1048,2023-02-17,107,Chicago,239,30,Female,Sports,4,414,1656
+1049,2023-02-18,104,Chicago,251,68,Female,Home & Kitchen,2,365,730
+1050,2023-02-19,108,Los Angeles,256,62,Female,Sports,3,20,60
+1051,2023-02-20,105,Chicago,257,44,Male,Electronics,2,207,414
+1052,2023-02-21,101,Houston,294,54,Female,Clothing,3,384,1152
+1053,2023-02-22,105,Houston,282,23,Male,Beauty,4,178,712
+1054,2023-02-23,102,Chicago,276,53,Female,Electronics,3,60,180
+1055,2023-02-24,103,Los Angeles,203,44,Male,Home & Kitchen,5,388,1940
+1056,2023-02-25,102,Chicago,269,40,Male,Electronics,1,356,356
+1057,2023-02-26,107,Phoenix,266,41,Female,Electronics,3,122,366
+1058,2023-02-27,107,New York,235,41,Female,Sports,5,270,1350
+1059,2023-02-28,109,Phoenix,269,45,Male,Sports,3,380,1140
+1060,2023-03-01,102,New York,237,20,Male,Electronics,3,397,1191
+1061,2023-03-02,103,Chicago,250,32,Female,Sports,2,465,930
+1062,2023-03-03,108,Chicago,216,36,Male,Sports,5,345,1725
+1063,2023-03-04,109,Houston,256,60,Female,Clothing,2,427,854
+1064,2023-03-05,103,Chicago,281,27,Female,Sports,5,107,535
+1065,2023-03-06,106,Phoenix,296,55,Male,Home & Kitchen,1,58,58
+1066,2023-03-07,103,New York,204,47,Male,Electronics,1,242,242
+1067,2023-03-08,107,Phoenix,242,41,Male,Electronics,4,337,1348
+1068,2023-03-09,106,Phoenix,246,41,Male,Beauty,2,262,524
+1069,2023-03-10,106,Chicago,243,31,Female,Sports,4,176,704
+1070,2023-03-11,108,Los Angeles,283,24,Female,Electronics,3,313,939
+1071,2023-03-12,103,New York,227,26,Female,Electronics,4,252,1008
+1072,2023-03-13,109,Los Angeles,269,46,Male,Electronics,4,285,1140
+1073,2023-03-14,101,Chicago,285,41,Female,Electronics,1,292,292
+1074,2023-03-15,103,Houston,212,53,Male,Clothing,2,212,424
+1075,2023-03-16,108,New York,215,60,Female,Clothing,4,44,176
+1076,2023-03-17,101,New York,275,41,Male,Clothing,4,494,1976
+1077,2023-03-18,103,Phoenix,263,58,Female,Clothing,3,439,1317
+1078,2023-03-19,103,New York,245,24,Male,Home & Kitchen,1,44,44
+1079,2023-03-20,105,Houston,264,60,Female,Home & Kitchen,3,250,750
+1080,2023-03-21,101,Chicago,217,24,Female,Sports,5,126,630
+1081,2023-03-22,105,Houston,245,34,Female,Beauty,3,278,834
+1082,2023-03-23,106,New York,292,26,Female,Home & Kitchen,3,56,168
+1083,2023-03-24,106,Los Angeles,208,55,Male,Sports,3,297,891
+1084,2023-03-25,106,New York,278,50,Male,Clothing,2,442,884
+1085,2023-03-26,105,Chicago,229,48,Male,Electronics,1,338,338
+1086,2023-03-27,102,Houston,288,37,Male,Sports,4,482,1928
+1087,2023-03-28,101,Chicago,294,58,Male,Home & Kitchen,1,281,281
+1088,2023-03-29,109,Chicago,211,40,Male,Beauty,3,396,1188
+1089,2023-03-30,105,New York,232,44,Male,Sports,1,132,132
+1090,2023-03-31,102,Phoenix,251,32,Male,Electronics,4,383,1532
+1091,2023-04-01,108,Chicago,297,55,Female,Clothing,1,253,253
+1092,2023-04-02,104,Los Angeles,217,50,Female,Clothing,2,380,760
+1093,2023-04-03,103,Houston,227,50,Male,Clothing,2,168,336
+1094,2023-04-04,102,Phoenix,290,54,Female,Electronics,2,181,362
+1095,2023-04-05,103,Phoenix,283,59,Female,Electronics,1,491,491
+1096,2023-04-06,105,Houston,277,21,Male,Sports,5,389,1945
+1097,2023-04-07,107,Phoenix,280,31,Female,Beauty,4,374,1496
+1098,2023-04-08,104,Phoenix,214,22,Male,Electronics,3,286,858
+1099,2023-04-09,103,Chicago,208,64,Male,Beauty,2,115,230
+1100,2023-04-10,102,Phoenix,242,37,Female,Sports,4,316,1264
+1101,2023-04-11,106,New York,293,53,Female,Clothing,3,58,174
+1102,2023-04-12,109,New York,244,45,Male,Home & Kitchen,4,469,1876
+1103,2023-04-13,104,Phoenix,292,48,Male,Clothing,3,381,1143
+1104,2023-04-14,105,Los Angeles,291,28,Female,Sports,5,269,1345
+1105,2023-04-15,109,Phoenix,243,38,Female,Electronics,2,477,954
+1106,2023-04-16,109,Houston,211,20,Female,Beauty,4,146,584
+1107,2023-04-17,108,Chicago,231,69,Male,Clothing,5,272,1360
+1108,2023-04-18,103,New York,296,24,Male,Home & Kitchen,3,118,354
+1109,2023-04-19,103,Phoenix,267,34,Male,Home & Kitchen,2,378,756
+1110,2023-04-20,103,Los Angeles,217,64,Male,Beauty,1,467,467
+1111,2023-04-21,101,Los Angeles,218,25,Male,Electronics,2,235,470
+1112,2023-04-22,109,Phoenix,280,19,Male,Beauty,5,315,1575
+1113,2023-04-23,102,Phoenix,258,21,Male,Clothing,5,475,2375
+1114,2023-04-24,105,New York,260,23,Female,Home & Kitchen,5,193,965
+1115,2023-04-25,108,Los Angeles,222,34,Female,Sports,3,26,78
+1116,2023-04-26,105,Chicago,209,47,Male,Home & Kitchen,4,455,1820
+1117,2023-04-27,105,Houston,259,51,Female,Electronics,1,177,177
+1118,2023-04-28,107,Phoenix,268,65,Male,Home & Kitchen,2,119,238
+1119,2023-04-29,104,New York,237,32,Female,Electronics,3,234,702
+1120,2023-04-30,105,Phoenix,245,46,Male,Electronics,4,313,1252
+1121,2023-05-01,105,Phoenix,258,29,Female,Home & Kitchen,4,139,556
+1122,2023-05-02,102,New York,285,37,Female,Electronics,3,345,1035
+1123,2023-05-03,109,Chicago,220,67,Female,Electronics,5,119,595
+1124,2023-05-04,108,New York,260,57,Female,Beauty,1,329,329
+1125,2023-05-05,105,Los Angeles,209,26,Male,Sports,4,242,968
+1126,2023-05-06,102,Los Angeles,256,37,Female,Clothing,4,146,584
+1127,2023-05-07,102,Chicago,214,64,Male,Electronics,4,354,1416
+1128,2023-05-08,105,Chicago,299,50,Female,Beauty,5,10,50
+1129,2023-05-09,103,New York,278,21,Male,Beauty,2,151,302
+1130,2023-05-10,108,Los Angeles,227,35,Female,Home & Kitchen,3,261,783
+1131,2023-05-11,106,Houston,221,44,Female,Home & Kitchen,5,353,1765
+1132,2023-05-12,108,Los Angeles,279,42,Male,Sports,1,153,153
+1133,2023-05-13,106,Phoenix,289,38,Female,Sports,2,191,382
+1134,2023-05-14,107,Los Angeles,292,50,Female,Home & Kitchen,1,387,387
+1135,2023-05-15,105,Phoenix,230,33,Male,Electronics,5,239,1195
+1136,2023-05-16,104,Chicago,276,23,Male,Beauty,2,318,636
+1137,2023-05-17,106,Phoenix,289,44,Male,Sports,2,401,802
+1138,2023-05-18,107,Chicago,262,26,Female,Sports,2,365,730
+1139,2023-05-19,104,Phoenix,269,28,Female,Clothing,5,56,280
+1140,2023-05-20,107,Houston,210,62,Male,Clothing,4,117,468
+1141,2023-05-21,105,Chicago,260,54,Female,Home & Kitchen,5,15,75
+1142,2023-05-22,109,New York,289,22,Female,Sports,1,12,12
+1143,2023-05-23,101,Houston,208,54,Female,Sports,5,101,505
+1144,2023-05-24,108,Los Angeles,203,41,Male,Clothing,2,318,636
+1145,2023-05-25,102,New York,292,47,Male,Beauty,4,286,1144
+1146,2023-05-26,108,Phoenix,298,54,Male,Electronics,1,221,221
+1147,2023-05-27,103,New York,275,44,Male,Beauty,3,489,1467
+1148,2023-05-28,106,Los Angeles,272,54,Male,Clothing,1,142,142
+1149,2023-05-29,108,New York,279,49,Female,Electronics,2,272,544
+1150,2023-05-30,104,New York,230,30,Female,Clothing,5,367,1835
+1151,2023-05-31,105,Los Angeles,290,41,Male,Sports,2,82,164
+1152,2023-06-01,107,Chicago,260,40,Female,Beauty,2,150,300
+1153,2023-06-02,103,Los Angeles,223,25,Female,Electronics,4,194,776
+1154,2023-06-03,109,Los Angeles,245,51,Male,Clothing,3,328,984
+1155,2023-06-04,107,Houston,238,34,Male,Home & Kitchen,5,484,2420
+1156,2023-06-05,107,Houston,233,30,Female,Home & Kitchen,5,69,345
+1157,2023-06-06,103,Chicago,230,40,Female,Clothing,1,480,480
+1158,2023-06-07,107,New York,226,32,Male,Sports,4,66,264
+1159,2023-06-08,105,New York,261,50,Female,Home & Kitchen,3,158,474
+1160,2023-06-09,103,Chicago,282,55,Male,Home & Kitchen,5,480,2400
+1161,2023-06-10,108,New York,258,33,Male,Sports,4,384,1536
+1162,2023-06-11,105,Los Angeles,237,47,Male,Electronics,3,232,696
+1163,2023-06-12,105,Los Angeles,292,68,Male,Clothing,1,406,406
+1164,2023-06-13,101,Houston,267,46,Female,Home & Kitchen,2,199,398
+1165,2023-06-14,109,Houston,214,68,Female,Sports,5,367,1835
+1166,2023-06-15,103,Phoenix,260,41,Female,Beauty,4,186,744
+1167,2023-06-16,106,Houston,277,22,Female,Electronics,3,309,927
+1168,2023-06-17,102,Los Angeles,240,25,Female,Clothing,1,423,423
+1169,2023-06-18,109,Chicago,231,40,Female,Electronics,3,23,69
+1170,2023-06-19,102,Chicago,274,40,Male,Electronics,1,322,322
+1171,2023-06-20,103,Houston,216,33,Female,Beauty,3,204,612
+1172,2023-06-21,108,Chicago,219,20,Male,Clothing,2,311,622
+1173,2023-06-22,101,Phoenix,219,62,Female,Home & Kitchen,1,60,60
+1174,2023-06-23,107,Chicago,275,18,Female,Home & Kitchen,2,86,172
+1175,2023-06-24,108,Phoenix,292,58,Male,Clothing,4,356,1424
+1176,2023-06-25,105,Los Angeles,250,49,Female,Beauty,1,299,299
+1177,2023-06-26,102,Chicago,262,61,Female,Beauty,3,212,636
+1178,2023-06-27,104,Los Angeles,278,48,Male,Beauty,1,178,178
+1179,2023-06-28,104,Los Angeles,257,39,Male,Beauty,3,191,573
+1180,2023-06-29,108,Phoenix,271,50,Female,Sports,2,404,808
+1181,2023-06-30,101,Phoenix,202,55,Female,Home & Kitchen,3,138,414
+1182,2023-07-01,109,Chicago,264,49,Male,Beauty,5,318,1590
+1183,2023-07-02,103,Houston,284,54,Female,Home & Kitchen,3,97,291
+1184,2023-07-03,101,Houston,238,28,Female,Sports,4,129,516
+1185,2023-07-04,108,Chicago,233,57,Female,Clothing,3,315,945
+1186,2023-07-05,103,Houston,235,44,Male,Home & Kitchen,3,372,1116
+1187,2023-07-06,103,Phoenix,288,32,Female,Home & Kitchen,2,479,958
+1188,2023-07-07,109,Chicago,230,43,Male,Beauty,4,223,892
+1189,2023-07-08,105,Los Angeles,241,18,Male,Home & Kitchen,3,228,684
+1190,2023-07-09,107,Los Angeles,204,39,Female,Home & Kitchen,1,140,140
+1191,2023-07-10,101,New York,250,57,Male,Beauty,5,372,1860
+1192,2023-07-11,102,New York,208,36,Female,Home & Kitchen,1,15,15
+1193,2023-07-12,109,Chicago,231,43,Female,Clothing,2,56,112
+1194,2023-07-13,106,Houston,234,57,Male,Beauty,2,162,324
+1195,2023-07-14,101,Phoenix,211,23,Female,Sports,1,146,146
+1196,2023-07-15,104,Chicago,263,51,Female,Beauty,4,78,312
+1197,2023-07-16,102,New York,206,28,Male,Clothing,2,21,42
+1198,2023-07-17,106,Houston,233,40,Female,Sports,3,19,57
+1199,2023-07-18,109,Houston,233,69,Male,Sports,3,456,1368
+1200,2023-07-19,107,New York,293,38,Male,Sports,2,301,602
+1201,2023-07-20,102,New York,288,58,Female,Electronics,4,461,1844
+1202,2023-07-21,101,Chicago,253,30,Male,Electronics,1,314,314
+1203,2023-07-22,105,Phoenix,272,30,Male,Electronics,2,364,728
+1204,2023-07-23,103,New York,279,29,Male,Electronics,1,376,376
+1205,2023-07-24,104,Houston,204,24,Male,Clothing,4,236,944
+1206,2023-07-25,101,Phoenix,295,45,Female,Sports,1,375,375
+1207,2023-07-26,108,Los Angeles,275,24,Male,Sports,4,95,380
+1208,2023-07-27,104,Phoenix,205,46,Male,Clothing,2,166,332
+1209,2023-07-28,103,Chicago,290,30,Male,Sports,5,74,370
+1210,2023-07-29,105,Los Angeles,253,28,Female,Home & Kitchen,3,238,714
+1211,2023-07-30,104,Chicago,287,20,Male,Clothing,2,126,252
+1212,2023-07-31,103,New York,291,20,Male,Electronics,2,126,252
+1213,2023-08-01,106,Los Angeles,225,63,Male,Clothing,3,421,1263
+1214,2023-08-02,105,New York,296,44,Female,Home & Kitchen,1,43,43
+1215,2023-08-03,106,Houston,299,52,Male,Electronics,4,402,1608
+1216,2023-08-04,102,Los Angeles,293,59,Female,Beauty,4,492,1968
+1217,2023-08-05,108,Los Angeles,256,20,Female,Clothing,3,93,279
+1218,2023-08-06,109,New York,268,68,Male,Electronics,1,184,184
+1219,2023-08-07,106,Los Angeles,271,60,Male,Clothing,2,315,630
+1220,2023-08-08,103,Houston,270,47,Female,Beauty,3,47,141
+1221,2023-08-09,102,Phoenix,295,45,Female,Sports,2,159,318
+1222,2023-08-10,107,Phoenix,286,29,Female,Beauty,3,177,531
+1223,2023-08-11,109,Phoenix,234,48,Male,Clothing,4,74,296
+1224,2023-08-12,109,Los Angeles,227,57,Male,Home & Kitchen,1,87,87
+1225,2023-08-13,108,Houston,284,36,Male,Sports,5,499,2495
+1226,2023-08-14,109,Phoenix,299,36,Male,Electronics,1,140,140
+1227,2023-08-15,109,Houston,209,54,Female,Beauty,4,489,1956
+1228,2023-08-16,105,Chicago,286,46,Female,Home & Kitchen,1,108,108
+1229,2023-08-17,109,Phoenix,212,21,Female,Home & Kitchen,4,65,260
+1230,2023-08-18,108,Los Angeles,229,60,Female,Home & Kitchen,1,292,292
+1231,2023-08-19,104,Houston,253,61,Male,Electronics,3,302,906
+1232,2023-08-20,107,Phoenix,218,31,Male,Home & Kitchen,5,263,1315
+1233,2023-08-21,103,Houston,225,42,Female,Clothing,3,170,510
+1234,2023-08-22,104,Houston,249,46,Male,Beauty,3,411,1233
+1235,2023-08-23,102,Chicago,261,18,Female,Sports,3,76,228
+1236,2023-08-24,104,Phoenix,279,52,Male,Beauty,2,244,488
+1237,2023-08-25,108,Phoenix,296,20,Male,Clothing,1,328,328
+1238,2023-08-26,105,Los Angeles,274,29,Female,Sports,3,412,1236
+1239,2023-08-27,105,Los Angeles,264,60,Female,Home & Kitchen,2,89,178
+1240,2023-08-28,106,Chicago,246,49,Female,Electronics,2,191,382
+1241,2023-08-29,106,Chicago,260,31,Male,Electronics,2,116,232
+1242,2023-08-30,103,Houston,224,20,Male,Clothing,2,203,406
+1243,2023-08-31,102,Phoenix,216,55,Male,Home & Kitchen,4,357,1428
+1244,2023-09-01,107,New York,239,52,Female,Home & Kitchen,1,368,368
+1245,2023-09-02,104,New York,272,25,Female,Beauty,3,234,702
+1246,2023-09-03,105,Los Angeles,239,19,Male,Beauty,1,331,331
+1247,2023-09-04,103,New York,258,57,Male,Electronics,3,64,192
+1248,2023-09-05,108,New York,295,57,Female,Clothing,5,187,935
+1249,2023-09-06,101,Chicago,294,54,Female,Sports,3,34,102
+1250,2023-09-07,103,Houston,211,61,Female,Clothing,3,94,282
+1251,2023-09-08,103,New York,215,37,Male,Sports,1,95,95
+1252,2023-09-09,102,Houston,260,37,Female,Clothing,3,191,573
+1253,2023-09-10,102,Houston,280,69,Female,Sports,1,325,325
+1254,2023-09-11,104,Houston,282,43,Female,Clothing,4,39,156
+1255,2023-09-12,108,New York,221,27,Male,Beauty,4,103,412
+1256,2023-09-13,102,Los Angeles,225,39,Female,Electronics,2,271,542
+1257,2023-09-14,107,Los Angeles,287,41,Female,Home & Kitchen,2,242,484
+1258,2023-09-15,107,Chicago,292,29,Male,Beauty,3,159,477
+1259,2023-09-16,105,Chicago,278,35,Male,Beauty,4,466,1864
+1260,2023-09-17,102,Chicago,240,30,Female,Home & Kitchen,5,466,2330
+1261,2023-09-18,105,Houston,245,68,Male,Sports,4,369,1476
+1262,2023-09-19,107,Houston,211,54,Female,Electronics,1,339,339
+1263,2023-09-20,106,Los Angeles,229,43,Male,Clothing,1,473,473
+1264,2023-09-21,108,Houston,238,69,Male,Sports,1,320,320
+1265,2023-09-22,103,Los Angeles,225,51,Male,Home & Kitchen,1,120,120
+1266,2023-09-23,105,Los Angeles,202,31,Female,Home & Kitchen,5,292,1460
+1267,2023-09-24,106,New York,263,46,Male,Beauty,1,389,389
+1268,2023-09-25,103,Chicago,268,41,Female,Sports,5,51,255
+1269,2023-09-26,104,Houston,229,37,Female,Home & Kitchen,4,397,1588
+1270,2023-09-27,103,New York,204,23,Female,Electronics,3,307,921
+1271,2023-09-28,106,Chicago,279,30,Female,Clothing,5,240,1200
+1272,2023-09-29,105,Houston,211,27,Male,Electronics,2,283,566
+1273,2023-09-30,101,Chicago,270,46,Female,Electronics,1,162,162
+1274,2023-10-01,109,Los Angeles,242,54,Female,Home & Kitchen,4,468,1872
+1275,2023-10-02,102,Chicago,207,62,Female,Home & Kitchen,2,41,82
+1276,2023-10-03,106,Chicago,278,53,Male,Beauty,2,443,886
+1277,2023-10-04,104,Chicago,290,18,Female,Home & Kitchen,4,130,520
+1278,2023-10-05,104,New York,268,66,Male,Sports,3,382,1146
+1279,2023-10-06,102,Phoenix,265,20,Male,Electronics,4,198,792
+1280,2023-10-07,109,Los Angeles,253,60,Female,Sports,5,172,860
+1281,2023-10-08,105,Los Angeles,221,69,Female,Sports,5,112,560
+1282,2023-10-09,105,New York,201,31,Female,Electronics,4,207,828
+1283,2023-10-10,103,Los Angeles,246,29,Male,Beauty,5,495,2475
+1284,2023-10-11,107,New York,217,28,Male,Electronics,3,450,1350
+1285,2023-10-12,109,Phoenix,223,36,Female,Home & Kitchen,1,228,228
+1286,2023-10-13,109,Chicago,262,63,Male,Sports,3,489,1467
+1287,2023-10-14,109,Los Angeles,277,55,Female,Sports,2,380,760
+1288,2023-10-15,101,Chicago,243,37,Female,Home & Kitchen,3,441,1323
+1289,2023-10-16,108,Houston,214,45,Male,Sports,4,221,884
+1290,2023-10-17,101,New York,297,59,Male,Home & Kitchen,1,81,81
+1291,2023-10-18,108,Chicago,285,69,Male,Home & Kitchen,2,196,392
+1292,2023-10-19,101,New York,252,34,Female,Electronics,5,351,1755
+1293,2023-10-20,101,Phoenix,225,27,Male,Home & Kitchen,3,193,579
+1294,2023-10-21,101,Los Angeles,249,27,Male,Home & Kitchen,1,473,473
+1295,2023-10-22,105,Chicago,270,58,Male,Home & Kitchen,1,28,28
+1296,2023-10-23,102,New York,246,65,Male,Beauty,3,217,651
+1297,2023-10-24,106,Houston,209,54,Male,Sports,3,103,309
+1298,2023-10-25,108,Houston,255,58,Male,Beauty,2,443,886
+1299,2023-10-26,106,Houston,210,58,Male,Clothing,3,368,1104
+1300,2023-10-27,102,Los Angeles,259,57,Female,Electronics,4,409,1636
+1301,2023-10-28,107,Houston,205,63,Female,Electronics,1,199,199
+1302,2023-10-29,105,Chicago,262,28,Male,Clothing,2,469,938
+1303,2023-10-30,109,Houston,290,34,Male,Home & Kitchen,3,463,1389
+1304,2023-10-31,102,New York,238,18,Male,Sports,3,51,153
+1305,2023-11-01,101,Chicago,217,32,Female,Electronics,1,207,207
+1306,2023-11-02,103,New York,278,37,Male,Home & Kitchen,3,359,1077
+1307,2023-11-03,101,Houston,293,38,Female,Clothing,2,325,650
+1308,2023-11-04,103,Houston,265,34,Female,Sports,1,175,175
+1309,2023-11-05,108,Los Angeles,269,22,Female,Clothing,2,181,362
+1310,2023-11-06,105,Phoenix,204,55,Male,Home & Kitchen,1,58,58
+1311,2023-11-07,105,Chicago,253,29,Female,Clothing,1,222,222
+1312,2023-11-08,104,Chicago,253,19,Male,Sports,1,50,50
+1313,2023-11-09,109,New York,261,38,Male,Clothing,2,211,422
+1314,2023-11-10,108,Los Angeles,227,28,Male,Electronics,3,393,1179
+1315,2023-11-11,108,Houston,223,29,Male,Clothing,5,486,2430
+1316,2023-11-12,108,Phoenix,289,46,Male,Beauty,3,315,945
+1317,2023-11-13,101,Phoenix,261,29,Female,Home & Kitchen,4,207,828
+1318,2023-11-14,107,Houston,207,46,Female,Home & Kitchen,1,345,345
+1319,2023-11-15,108,New York,228,55,Male,Electronics,1,342,342
+1320,2023-11-16,104,Chicago,271,20,Male,Sports,4,143,572
+1321,2023-11-17,101,Houston,233,68,Female,Home & Kitchen,1,345,345
+1322,2023-11-18,101,Chicago,292,51,Female,Sports,1,141,141
+1323,2023-11-19,103,Chicago,241,66,Male,Sports,3,111,333
+1324,2023-11-20,102,Houston,235,54,Female,Sports,2,274,548
+1325,2023-11-21,105,Phoenix,229,66,Female,Beauty,5,234,1170
+1326,2023-11-22,105,Houston,256,68,Female,Clothing,4,53,212
+1327,2023-11-23,102,New York,209,60,Female,Sports,3,466,1398
+1328,2023-11-24,105,Los Angeles,263,40,Male,Beauty,4,134,536
+1329,2023-11-25,107,Houston,229,31,Female,Clothing,1,158,158
+1330,2023-11-26,105,Phoenix,225,30,Male,Home & Kitchen,5,36,180
+1331,2023-11-27,102,New York,270,35,Male,Beauty,1,496,496
+1332,2023-11-28,104,Houston,237,38,Female,Clothing,1,201,201
+1333,2023-11-29,105,Los Angeles,218,61,Male,Beauty,5,145,725
+1334,2023-11-30,103,New York,291,27,Female,Home & Kitchen,2,255,510
+1335,2023-12-01,104,New York,294,46,Male,Clothing,3,85,255
+1336,2023-12-02,105,Phoenix,274,45,Male,Home & Kitchen,1,105,105
+1337,2023-12-03,105,Los Angeles,274,52,Female,Beauty,3,48,144
+1338,2023-12-04,103,Los Angeles,225,64,Male,Clothing,4,148,592
+1339,2023-12-05,105,Chicago,274,47,Male,Sports,5,474,2370
+1340,2023-12-06,108,Los Angeles,201,58,Female,Home & Kitchen,4,336,1344
+1341,2023-12-07,107,Los Angeles,298,20,Male,Electronics,2,460,920
+1342,2023-12-08,104,New York,285,48,Female,Electronics,2,420,840
+1343,2023-12-09,103,Houston,233,66,Female,Beauty,2,73,146
+1344,2023-12-10,108,Houston,230,21,Male,Home & Kitchen,3,301,903
+1345,2023-12-11,105,Chicago,294,55,Male,Home & Kitchen,2,267,534
+1346,2023-12-12,106,Phoenix,298,66,Male,Electronics,5,12,60
+1347,2023-12-13,109,Phoenix,242,24,Male,Sports,4,205,820
+1348,2023-12-14,103,Los Angeles,278,44,Male,Home & Kitchen,1,423,423
+1349,2023-12-15,101,Chicago,225,36,Female,Beauty,5,348,1740
+1350,2023-12-16,105,Houston,284,51,Male,Home & Kitchen,3,197,591
+1351,2023-12-17,104,New York,233,59,Male,Electronics,2,267,534
+1352,2023-12-18,103,Houston,276,46,Female,Home & Kitchen,1,466,466
+1353,2023-12-19,109,Los Angeles,218,61,Female,Home & Kitchen,3,119,357
+1354,2023-12-20,107,New York,289,36,Male,Beauty,2,234,468
+1355,2023-12-21,101,Houston,299,28,Female,Clothing,1,86,86
+1356,2023-12-22,103,Houston,208,46,Female,Home & Kitchen,2,466,932
+1357,2023-12-23,104,Phoenix,210,38,Male,Home & Kitchen,5,155,775
+1358,2023-12-24,109,Houston,295,34,Male,Electronics,5,379,1895
+1359,2023-12-25,105,Los Angeles,295,54,Male,Clothing,4,182,728
+1360,2023-12-26,107,Chicago,281,41,Male,Electronics,3,257,771
+1361,2023-12-27,104,Chicago,252,19,Female,Beauty,1,348,348
+1362,2023-12-28,107,Chicago,261,39,Female,Home & Kitchen,4,477,1908
+1363,2023-12-29,106,Los Angeles,249,19,Male,Clothing,3,184,552
+1364,2023-12-30,108,Los Angeles,202,45,Female,Electronics,1,96,96
+1365,2023-12-31,107,Chicago,203,20,Male,Home & Kitchen,2,83,166
+1366,2024-01-01,102,Phoenix,275,47,Male,Beauty,3,365,1095
+1367,2024-01-02,108,Los Angeles,225,27,Female,Home & Kitchen,5,81,405
+1368,2024-01-03,103,Houston,254,50,Female,Home & Kitchen,2,204,408
+1369,2024-01-04,102,Houston,227,61,Male,Sports,4,447,1788
+1370,2024-01-05,102,Los Angeles,216,24,Male,Sports,1,461,461
+1371,2024-01-06,108,Houston,286,55,Male,Beauty,4,126,504
+1372,2024-01-07,101,Los Angeles,218,42,Female,Home & Kitchen,5,183,915
+1373,2024-01-08,103,Phoenix,201,64,Male,Electronics,3,39,117
+1374,2024-01-09,108,Houston,252,41,Male,Clothing,1,267,267
+1375,2024-01-10,104,Phoenix,270,25,Female,Beauty,2,261,522
+1376,2024-01-11,102,Chicago,212,35,Female,Home & Kitchen,2,21,42
+1377,2024-01-12,101,Chicago,243,48,Male,Home & Kitchen,2,310,620
+1378,2024-01-13,105,Chicago,204,21,Male,Sports,5,115,575
+1379,2024-01-14,107,Phoenix,263,69,Female,Clothing,1,245,245
+1380,2024-01-15,106,Phoenix,234,24,Female,Home & Kitchen,4,323,1292
+1381,2024-01-16,105,New York,222,61,Male,Electronics,2,263,526
+1382,2024-01-17,106,Los Angeles,260,39,Male,Beauty,5,470,2350
+1383,2024-01-18,106,Houston,222,43,Female,Clothing,5,209,1045
+1384,2024-01-19,101,Phoenix,209,29,Male,Beauty,4,124,496
+1385,2024-01-20,107,Houston,265,49,Male,Beauty,2,226,452
+1386,2024-01-21,106,New York,292,43,Female,Sports,2,156,312
+1387,2024-01-22,107,Phoenix,284,26,Female,Clothing,1,22,22
+1388,2024-01-23,106,Houston,286,53,Male,Beauty,4,12,48
+1389,2024-01-24,105,Chicago,254,68,Male,Electronics,4,211,844
+1390,2024-01-25,107,Los Angeles,219,34,Male,Sports,3,373,1119
+1391,2024-01-26,102,Houston,292,19,Male,Sports,4,341,1364
+1392,2024-01-27,105,New York,267,20,Female,Clothing,5,296,1480
+1393,2024-01-28,101,Phoenix,212,28,Female,Clothing,5,267,1335
+1394,2024-01-29,101,New York,216,62,Male,Sports,2,399,798
+1395,2024-01-30,109,Los Angeles,214,27,Male,Sports,5,407,2035
+1396,2024-01-31,109,Chicago,228,45,Female,Home & Kitchen,2,87,174
+1397,2024-02-01,107,Phoenix,299,59,Female,Sports,2,89,178
+1398,2024-02-02,106,Chicago,246,27,Female,Clothing,3,280,840
+1399,2024-02-03,106,New York,246,68,Female,Home & Kitchen,5,137,685
+1400,2024-02-04,109,New York,259,48,Male,Clothing,5,118,590
+1401,2024-02-05,101,Los Angeles,256,23,Male,Clothing,2,150,300
+1402,2024-02-06,102,Houston,294,41,Male,Clothing,4,147,588
+1403,2024-02-07,104,Phoenix,208,46,Male,Clothing,3,236,708
+1404,2024-02-08,101,Houston,292,21,Male,Clothing,1,49,49
+1405,2024-02-09,108,Houston,218,52,Male,Sports,5,114,570
+1406,2024-02-10,101,Houston,242,39,Male,Clothing,3,329,987
+1407,2024-02-11,102,Los Angeles,260,53,Male,Electronics,4,51,204
+1408,2024-02-12,106,Chicago,219,25,Female,Electronics,1,139,139
+1409,2024-02-13,105,Houston,241,23,Male,Clothing,2,443,886
+1410,2024-02-14,107,Phoenix,211,46,Female,Electronics,1,73,73
+1411,2024-02-15,101,Chicago,293,44,Male,Clothing,1,285,285
+1412,2024-02-16,108,Los Angeles,290,45,Female,Beauty,1,137,137
+1413,2024-02-17,101,Phoenix,295,36,Male,Beauty,2,91,182
+1414,2024-02-18,104,Los Angeles,238,32,Male,Electronics,5,194,970
+1415,2024-02-19,101,Houston,233,29,Male,Sports,4,19,76
+1416,2024-02-20,101,Houston,293,63,Male,Sports,4,25,100
+1417,2024-02-21,101,Houston,247,56,Female,Sports,2,351,702
+1418,2024-02-22,109,Los Angeles,215,44,Male,Electronics,5,241,1205
+1419,2024-02-23,105,Chicago,208,19,Female,Beauty,1,214,214
+1420,2024-02-24,109,Chicago,297,68,Female,Clothing,5,26,130
+1421,2024-02-25,105,Chicago,214,40,Male,Clothing,1,167,167
+1422,2024-02-26,108,Chicago,236,20,Male,Clothing,1,243,243
+1423,2024-02-27,104,Phoenix,216,20,Male,Electronics,2,442,884
+1424,2024-02-28,109,New York,283,68,Male,Beauty,5,470,2350
+1425,2024-02-29,108,Houston,241,34,Male,Clothing,1,121,121
+1426,2024-03-01,105,Los Angeles,287,34,Female,Sports,5,411,2055
+1427,2024-03-02,103,Phoenix,201,20,Male,Beauty,1,404,404
+1428,2024-03-03,108,Houston,264,18,Male,Home & Kitchen,1,28,28
+1429,2024-03-04,109,Phoenix,222,45,Male,Home & Kitchen,5,88,440
+1430,2024-03-05,105,Houston,230,66,Male,Home & Kitchen,1,378,378
+1431,2024-03-06,103,Los Angeles,264,62,Female,Home & Kitchen,2,246,492
+1432,2024-03-07,108,Houston,211,39,Male,Home & Kitchen,2,104,208
+1433,2024-03-08,103,Los Angeles,228,43,Female,Clothing,3,33,99
+1434,2024-03-09,109,Houston,244,21,Male,Clothing,1,130,130
+1435,2024-03-10,106,Houston,295,21,Female,Clothing,4,275,1100
+1436,2024-03-11,107,Los Angeles,296,18,Female,Beauty,5,429,2145
+1437,2024-03-12,109,New York,249,69,Female,Home & Kitchen,5,285,1425
+1438,2024-03-13,109,Los Angeles,296,60,Female,Home & Kitchen,3,116,348
+1439,2024-03-14,107,Chicago,251,31,Female,Electronics,2,55,110
+1440,2024-03-15,107,Chicago,288,66,Male,Sports,2,254,508
+1441,2024-03-16,101,Houston,233,23,Male,Sports,1,348,348
+1442,2024-03-17,105,Phoenix,261,49,Male,Sports,4,368,1472
+1443,2024-03-18,101,Chicago,213,32,Female,Home & Kitchen,5,144,720
+1444,2024-03-19,108,Chicago,273,69,Male,Beauty,5,296,1480
+1445,2024-03-20,108,Phoenix,267,56,Male,Beauty,2,101,202
+1446,2024-03-21,102,Chicago,224,38,Female,Electronics,2,454,908
+1447,2024-03-22,103,Chicago,267,50,Female,Beauty,3,494,1482
+1448,2024-03-23,108,New York,286,62,Male,Home & Kitchen,4,484,1936
+1449,2024-03-24,108,Chicago,237,26,Female,Beauty,4,466,1864
+1450,2024-03-25,107,Chicago,256,35,Male,Electronics,5,212,1060
+1451,2024-03-26,103,Chicago,230,23,Female,Home & Kitchen,1,181,181
+1452,2024-03-27,101,Los Angeles,229,36,Female,Clothing,3,342,1026
+1453,2024-03-28,107,Phoenix,232,61,Female,Home & Kitchen,3,15,45
+1454,2024-03-29,104,Phoenix,232,37,Male,Clothing,4,441,1764
+1455,2024-03-30,101,Phoenix,294,44,Male,Electronics,1,443,443
+1456,2024-03-31,105,Houston,237,45,Male,Home & Kitchen,2,224,448
+1457,2024-04-01,104,Los Angeles,241,36,Male,Electronics,5,290,1450
+1458,2024-04-02,103,Phoenix,297,60,Female,Beauty,5,307,1535
+1459,2024-04-03,105,Phoenix,230,48,Female,Sports,5,141,705
+1460,2024-04-04,104,Houston,286,49,Male,Beauty,4,36,144
+1461,2024-04-05,103,New York,219,65,Male,Beauty,4,55,220
+1462,2024-04-06,104,Chicago,224,34,Female,Beauty,4,404,1616
+1463,2024-04-07,108,Phoenix,213,61,Female,Sports,1,359,359
+1464,2024-04-08,102,New York,210,39,Male,Sports,4,73,292
+1465,2024-04-09,101,Los Angeles,225,28,Male,Clothing,5,499,2495
+1466,2024-04-10,104,Phoenix,223,39,Male,Home & Kitchen,4,26,104
+1467,2024-04-11,102,Los Angeles,277,51,Female,Clothing,2,56,112
+1468,2024-04-12,107,Los Angeles,208,34,Female,Beauty,3,11,33
+1469,2024-04-13,105,Chicago,223,56,Female,Beauty,4,285,1140
+1470,2024-04-14,108,Phoenix,243,48,Female,Beauty,5,444,2220
+1471,2024-04-15,109,New York,261,62,Female,Beauty,5,98,490
+1472,2024-04-16,104,Phoenix,255,56,Male,Clothing,4,459,1836
+1473,2024-04-17,105,Houston,291,47,Female,Beauty,3,472,1416
+1474,2024-04-18,101,Phoenix,262,55,Male,Clothing,3,141,423
+1475,2024-04-19,105,Phoenix,256,36,Female,Sports,1,364,364
+1476,2024-04-20,104,New York,236,61,Female,Clothing,1,129,129
+1477,2024-04-21,106,New York,271,24,Male,Home & Kitchen,5,84,420
+1478,2024-04-22,108,Chicago,271,49,Male,Sports,4,464,1856
+1479,2024-04-23,103,Chicago,236,29,Female,Beauty,3,413,1239
+1480,2024-04-24,103,Los Angeles,234,32,Female,Clothing,1,344,344
+1481,2024-04-25,101,Los Angeles,210,49,Male,Beauty,4,17,68
+1482,2024-04-26,105,Chicago,292,49,Female,Home & Kitchen,5,101,505
+1483,2024-04-27,101,Los Angeles,223,60,Female,Home & Kitchen,1,213,213
+1484,2024-04-28,107,Houston,219,68,Male,Sports,4,172,688
+1485,2024-04-29,108,Chicago,296,58,Male,Sports,4,269,1076
+1486,2024-04-30,104,Chicago,221,25,Male,Beauty,3,142,426
+1487,2024-05-01,106,New York,285,53,Male,Home & Kitchen,4,232,928
+1488,2024-05-02,103,Houston,280,52,Female,Beauty,3,210,630
+1489,2024-05-03,101,Houston,233,65,Female,Electronics,1,490,490
+1490,2024-05-04,102,Chicago,236,32,Female,Clothing,5,90,450
+1491,2024-05-05,109,Los Angeles,210,33,Female,Sports,5,225,1125
+1492,2024-05-06,108,Los Angeles,205,63,Female,Beauty,3,387,1161
+1493,2024-05-07,106,Phoenix,258,61,Female,Sports,3,88,264
+1494,2024-05-08,108,Los Angeles,220,62,Female,Beauty,5,155,775
+1495,2024-05-09,103,Los Angeles,287,53,Male,Electronics,4,281,1124
+1496,2024-05-10,101,Houston,225,46,Female,Beauty,2,468,936
+1497,2024-05-11,105,New York,295,56,Male,Electronics,4,348,1392
+1498,2024-05-12,105,Phoenix,240,28,Male,Beauty,5,473,2365
+1499,2024-05-13,109,Los Angeles,249,33,Male,Electronics,5,108,540
+1500,2024-05-14,109,Chicago,203,53,Male,Beauty,1,484,484
+1501,2024-05-15,107,New York,240,25,Male,Sports,1,208,208
+1502,2024-05-16,103,Houston,285,69,Male,Home & Kitchen,2,193,386
+1503,2024-05-17,104,Houston,296,50,Male,Clothing,3,49,147
+1504,2024-05-18,102,New York,215,31,Male,Home & Kitchen,4,256,1024
+1505,2024-05-19,104,Phoenix,263,67,Female,Electronics,1,201,201
+1506,2024-05-20,108,Houston,270,69,Female,Electronics,5,202,1010
+1507,2024-05-21,108,Los Angeles,292,46,Female,Electronics,4,131,524
+1508,2024-05-22,106,Houston,206,42,Female,Electronics,2,114,228
+1509,2024-05-23,101,Los Angeles,277,30,Female,Beauty,4,251,1004
+1510,2024-05-24,107,Phoenix,209,29,Female,Electronics,1,217,217
+1511,2024-05-25,105,Phoenix,271,25,Female,Clothing,1,216,216
+1512,2024-05-26,101,New York,236,42,Female,Electronics,4,196,784
+1513,2024-05-27,107,Chicago,293,68,Female,Clothing,3,337,1011
+1514,2024-05-28,101,Chicago,271,67,Female,Sports,4,90,360
+1515,2024-05-29,108,Chicago,283,34,Male,Clothing,3,463,1389
+1516,2024-05-30,101,Houston,215,67,Male,Home & Kitchen,5,329,1645
+1517,2024-05-31,109,Houston,267,58,Male,Beauty,3,453,1359
+1518,2024-06-01,103,Chicago,295,57,Male,Sports,5,344,1720
+1519,2024-06-02,106,Chicago,265,24,Female,Home & Kitchen,2,296,592
+1520,2024-06-03,104,Chicago,216,22,Male,Clothing,4,118,472
+1521,2024-06-04,103,Chicago,273,61,Male,Beauty,1,98,98
+1522,2024-06-05,103,Los Angeles,246,22,Female,Home & Kitchen,4,294,1176
+1523,2024-06-06,101,Los Angeles,248,53,Male,Home & Kitchen,1,111,111
+1524,2024-06-07,101,Houston,288,34,Male,Beauty,3,13,39
+1525,2024-06-08,105,Los Angeles,201,20,Female,Sports,3,134,402
+1526,2024-06-09,109,Houston,248,33,Female,Electronics,2,234,468
+1527,2024-06-10,102,Chicago,216,21,Male,Electronics,5,184,920
+1528,2024-06-11,108,New York,288,53,Male,Electronics,4,423,1692
+1529,2024-06-12,104,Los Angeles,298,41,Male,Beauty,2,462,924
+1530,2024-06-13,106,Houston,260,44,Male,Beauty,4,289,1156
+1531,2024-06-14,109,Houston,262,52,Male,Beauty,2,47,94
+1532,2024-06-15,108,Houston,273,43,Female,Sports,3,144,432
+1533,2024-06-16,102,New York,202,65,Female,Clothing,5,62,310
+1534,2024-06-17,106,Phoenix,263,56,Male,Beauty,1,395,395
+1535,2024-06-18,107,Houston,224,31,Male,Sports,2,429,858
+1536,2024-06-19,103,Chicago,246,27,Female,Home & Kitchen,4,60,240
+1537,2024-06-20,104,Phoenix,214,30,Male,Electronics,4,144,576
+1538,2024-06-21,108,Los Angeles,238,31,Male,Beauty,4,489,1956
+1539,2024-06-22,108,Houston,244,64,Male,Clothing,4,334,1336
+1540,2024-06-23,104,New York,249,20,Male,Clothing,4,32,128
+1541,2024-06-24,103,Los Angeles,209,43,Female,Beauty,3,37,111
+1542,2024-06-25,108,Phoenix,205,38,Female,Clothing,1,216,216
+1543,2024-06-26,105,Phoenix,241,54,Female,Home & Kitchen,1,31,31
+1544,2024-06-27,103,New York,258,54,Female,Sports,4,377,1508
+1545,2024-06-28,102,Chicago,223,53,Female,Clothing,1,430,430
+1546,2024-06-29,108,Los Angeles,278,37,Female,Home & Kitchen,4,151,604
+1547,2024-06-30,108,Phoenix,272,22,Female,Home & Kitchen,4,214,856
+1548,2024-07-01,108,Phoenix,265,21,Female,Sports,5,289,1445
+1549,2024-07-02,107,Los Angeles,233,42,Male,Beauty,2,434,868
+1550,2024-07-03,107,Chicago,276,46,Male,Beauty,1,154,154
