@@ -1,0 +1,6 @@
+employee_id,name,age,gender,department,designation,salary,full_time,email,date_of_joining
+E001,Alice Johnson,30,Female,Human Resources,HR Manager,75000,True,alice.johnson@example.com,2018-05-21
+E002,Bob Smith,28,Male,Engineering,Software Engineer,90000,True,bob.smith@example.com,2020-08-15
+E003,Catherine Lee,35,Female,Finance,Accountant,68000,False,catherine.lee@example.com,2017-03-10
+E004,David Brown,40,Male,Engineering,Team Lead,105000,True,david.brown@example.com,2015-11-30
+E005,Eva Green,26,Female,Marketing,Content Specialist,62000,True,eva.green@example.com,2021-02-05
