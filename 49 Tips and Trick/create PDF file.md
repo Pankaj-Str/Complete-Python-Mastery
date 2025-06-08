@@ -1,4 +1,4 @@
-# how you can create a PDF file using the `reportlab` library:
+# How you can create a PDF file using the `reportlab` library:
 
 ### Code Example
 ```python
