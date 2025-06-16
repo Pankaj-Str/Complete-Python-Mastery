@@ -6,328 +6,362 @@
 
 
 
-NumPy (Numerical Python) is a powerful library for numerical computations in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently. This tutorial is designed for beginners, covering the basics of NumPy step-by-step with clear explanations and practical examples.
+# NumPy Tutorial for Beginners
 
-Table of Contents
-	1	Introduction to NumPy
-	2	Installing NumPy
-	3	Importing NumPy
-	4	Creating NumPy Arrays
-	◦	From Lists
-	◦	Built-in Functions
-	◦	Array Attributes
-	5	Array Indexing and Slicing
-	6	Array Operations
-	◦	Arithmetic Operations
-	◦	Broadcasting
-	◦	Universal Functions (ufuncs)
-	7	Reshaping and Manipulating Arrays
-	◦	Reshape
-	◦	Flatten
-	◦	Transpose
-	◦	Concatenate and Split
-	8	Aggregations and Statistics
-	9	Random Numbers in NumPy
-	10	Saving and Loading Arrays
-	11	Practical Example: Analyzing Student Scores
-	12	Common Pitfalls and Tips
-	13	Conclusion
+NumPy (Numerical Python) is a Python library that makes it easy to work with arrays and perform mathematical operations. It’s fast, efficient, and widely used in data science, machine learning, and scientific computing. This tutorial is designed for beginners, explaining each concept with simple examples.
 
-1. Introduction to NumPy
-NumPy is the foundation for scientific computing in Python. It’s faster than Python lists for numerical operations because it uses optimized C code under the hood. Key features include:
-	•	N-dimensional arrays: Efficient storage and manipulation of data.
-	•	Mathematical functions: Trigonometric, statistical, and linear algebra operations.
-	•	Broadcasting: Perform operations on arrays of different shapes.
-	•	Integration: Works seamlessly with libraries like Pandas, Matplotlib, and SciPy.
-Why use NumPy?
-	•	Speed: NumPy arrays are faster than Python lists for numerical tasks.
-	•	Memory efficiency: Arrays use less memory than lists.
-	•	Convenience: Built-in functions simplify complex operations.
-Example: Adding two lists vs. NumPy arrays.
-# Python lists
-list1 = [1, 2, 3]
-list2 = [4, 5, 6]
-result = [list1[i] + list2[i] for i in range(len(list1))]
-print(result)  # Output: [5, 7, 9]
+## Prerequisites
+- Basic understanding of Python (lists, loops, functions).
+- Python and NumPy installed. To install NumPy, run:
+  ```bash
+  pip install numpy
+  ```
 
-# NumPy arrays
+## Step 1: Importing NumPy
+To use NumPy, you need to import it. The common convention is to import it as `np` for brevity.
+
+**Example**:
+```python
 import numpy as np
-arr1 = np.array([1, 2, 3])
-arr2 = np.array([4, 5, 6])
-result = arr1 + arr2
-print(result)  # Output: [5 7 9]
-NumPy is more concise and efficient!
+```
 
-2. Installing NumPy
-To use NumPy, you need to install it. Most Python environments (e.g., Jupyter, VS Code) support this via pip.
-Steps:
-	1	Open your terminal or command prompt.
-	2	Run the following command: pip install numpy
-	3	
-	4	Verify installation: import numpy as np
-	5	print(np.__version__)  # Prints NumPy version, e.g., 2.1.1
-	6	
-If you’re using Anaconda, NumPy is pre-installed. If not, you can install it via:
-conda install numpy
+**Explanation**: 
+- The `import numpy as np` statement loads the NumPy library and gives it the alias `np`, so you can write `np` instead of `numpy` in your code.
 
-3. Importing NumPy
-To use NumPy, import it into your Python script. The convention is to use the alias np for brevity.
-import numpy as np
-Now you can access all NumPy functions using np.function_name().
+## Step 2: Creating NumPy Arrays
+NumPy’s core feature is the `ndarray` (n-dimensional array), which is like a Python list but optimized for numerical operations.
 
-4. Creating NumPy Arrays
-NumPy’s core object is the ndarray (n-dimensional array). Arrays can be created in several ways.
-4.1 From Python Lists
-Convert a Python list to a NumPy array using np.array().
-# 1D array
-arr_1d = np.array([1, 2, 3, 4])
-print(arr_1d)  # Output: [1 2 3 4]
+### 2.1 Creating an Array from a List
+You can convert a Python list to a NumPy array using `np.array()`.
 
-# 2D array (matrix)
-arr_2d = np.array([[1, 2], [3, 4], [5, 6]])
-print(arr_2d)
-# Output:
-# [[1 2]
-#  [3 4]
-#  [5 6]]
-4.2 Built-in Functions
-NumPy provides functions to create arrays with specific values or shapes.
-	•	Zeros: Creates an array filled with zeros. zeros_arr = np.zeros((2, 3))  # 2x3 array
-	•	print(zeros_arr)
-	•	# Output:
-	•	# [[0. 0. 0.]
-	•	#  [0. 0. 0.]]
-	•	
-	•	Ones: Creates an array filled with ones. ones_arr = np.ones((3, 2))  # 3x2 array
-	•	print(ones_arr)
-	•	# Output:
-	•	# [[1. 1.]
-	•	#  [1. 1.]
-	•	#  [1. 1.]]
-	•	
-	•	Full: Creates an array filled with a specified value. full_arr = np.full((2, 2), 7)  # 2x2 array filled with 7
-	•	print(full_arr)
-	•	# Output:
-	•	# [[7 7]
-	•	#  [7 7]]
-	•	
-	•	Arange: Creates a 1D array with evenly spaced values. range_arr = np.arange(0, 10, 2)  # Start=0, stop=10, step=2
-	•	print(range_arr)  # Output: [0 2 4 6 8]
-	•	
-	•	Linspace: Creates an array with evenly spaced numbers over an interval. linspace_arr = np.linspace(0, 1, 5)  # 5 numbers from 0 to 1
-	•	print(linspace_arr)  # Output: [0.   0.25 0.5  0.75 1.  ]
-	•	
-4.3 Array Attributes
-Arrays have properties that describe their structure:
-	•	Shape: Dimensions of the array.
-	•	Size: Total number of elements.
-	•	Dtype: Data type of elements.
-arr = np.array([[1, 2, 3], [4, 5, 6]])
-print("Shape:", arr.shape)  # Output: (2, 3)
-print("Size:", arr.size)  # Output: 6
-print("Data type:", arr.dtype)  # Output: int64
+**Example**:
+```python
+# Create a 1D array
+my_list = [1, 2, 3, 4, 5]
+array_1d = np.array(my_list)
+print("1D Array:", array_1d)
+```
 
-5. Array Indexing and Slicing
-Access elements or subsets of arrays using indices and slices, similar to Python lists.
-5.1 Indexing
-	•	1D array: arr = np.array([10, 20, 30, 40])
-	•	print(arr[0])  # Output: 10
-	•	print(arr[-1])  # Output: 40
-	•	
-	•	2D array: arr_2d = np.array([[1, 2, 3], [4, 5, 6]])
-	•	print(arr_2d[0, 1])  # Output: 2 (row 0, column 1)
-	•	
-5.2 Slicing
-Extract a portion of the array using start:stop:step.
-# 1D slicing
-arr = np.array([10, 20, 30, 40, 50])
-print(arr[1:4])  # Output: [20 30 40]
+**Output**:
+```
+1D Array: [1 2 3 4 5]
+```
 
-# 2D slicing
-arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-print(arr_2d[0:2, 1:3])  # Rows 0-1, columns 1-2
-# Output:
-# [[2 3]
-#  [5 6]]
-5.3 Boolean Indexing
-Filter elements based on conditions.
-arr = np.array([10, 20, 30, 40, 50])
-print(arr[arr > 25])  # Output: [30 40 50]
+**Explanation**:
+- `np.array(my_list)` converts the list `[1, 2, 3, 4, 5]` into a NumPy array.
+- The output looks similar to a list but is a NumPy array, which supports advanced operations.
 
-6. Array Operations
-NumPy supports element-wise operations and advanced mathematical functions.
-6.1 Arithmetic Operations
-Perform operations like addition, subtraction, multiplication, etc., element-wise.
-arr1 = np.array([1, 2, 3])
-arr2 = np.array([4, 5, 6])
+### 2.2 Creating a 2D Array (Matrix)
+A 2D array is like a table with rows and columns.
 
-print(arr1 + arr2)  # Output: [5 7 9]
-print(arr1 * arr2)  # Output: [ 4 10 18]
-print(arr1 ** 2)    # Output: [1 4 9]
-6.2 Broadcasting
-NumPy automatically expands smaller arrays to match the shape of larger ones during operations.
-arr = np.array([[1, 2, 3], [4, 5, 6]])
+**Example**:
+```python
+# Create a 2D array
+my_2d_list = [[1, 2, 3], [4, 5, 6]]
+array_2d = np.array(my_2d_list)
+print("2D Array:\n", array_2d)
+```
+
+**Output**:
+```
+2D Array:
+ [[1 2 3]
+  [4 5 6]]
+```
+
+**Explanation**:
+- The 2D array is created from a nested list (a list of lists).
+- The `\n` in the print statement adds a newline for better formatting.
+
+### 2.3 Creating Arrays with NumPy Functions
+NumPy provides functions to create arrays without manually specifying values.
+
+**Example**:
+```python
+# Array of zeros
+zeros = np.zeros((2, 3))  # 2 rows, 3 columns
+print("Zeros Array:\n", zeros)
+
+# Array of ones
+ones = np.ones((3, 2))  # 3 rows, 2 columns
+print("Ones Array:\n", ones)
+
+# Array with a range of numbers
+range_array = np.arange(0, 10, 2)  # Start at 0, end before 10, step by 2
+print("Range Array:", range_array)
+
+# Array with evenly spaced numbers
+linspace_array = np.linspace(0, 1, 5)  # 5 numbers from 0 to 1
+print("Linspace Array:", linspace_array)
+```
+
+**Output**:
+```
+Zeros Array:
+ [[0. 0. 0.]
+  [0. 0. 0.]]
+Ones Array:
+ [[1. 1.]
+  [1. 1.]
+  [1. 1.]]
+Range Array: [0 2 4 6 8]
+Linspace Array: [0.   0.25 0.5  0.75 1.  ]
+```
+
+**Explanation**:
+- `np.zeros((rows, cols))`: Creates an array filled with zeros.
+- `np.ones((rows, cols))`: Creates an array filled with ones.
+- `np.arange(start, stop, step)`: Creates a 1D array with numbers from `start` to `stop-1`, incrementing by `step`.
+- `np.linspace(start, stop, num)`: Creates an array with `num` evenly spaced numbers from `start` to `stop`.
+
+## Step 3: Array Attributes
+NumPy arrays have attributes that provide information about their structure.
+
+**Example**:
+```python
+array = np.array([[1, 2, 3], [4, 5, 6]])
+print("Array:\n", array)
+print("Shape:", array.shape)  # Number of rows and columns
+print("Size:", array.size)    # Total number of elements
+print("Data type:", array.dtype)  # Type of elements
+print("Dimension:", array.ndim)   # Number of dimensions
+```
+
+**Output**:
+```
+Array:
+ [[1 2 3]
+  [4 5 6]]
+Shape: (2, 3)
+Size: 6
+Data type: int64
+Dimension: 2
+```
+
+**Explanation**:
+- `shape`: Returns a tuple `(rows, columns)` for a 2D array.
+- `size`: Total number of elements (rows × columns).
+- `dtype`: Data type of elements (e.g., `int64` for integers, `float64` for floats).
+- `ndim`: Number of dimensions (1 for 1D, 2 for 2D, etc.).
+
+## Step 4: Array Indexing and Slicing
+You can access and modify array elements using indexing and slicing, similar to Python lists.
+
+### 4.1 Indexing
+**Example**:
+```python
+array = np.array([10, 20, 30, 40])
+print("First element:", array[0])  # Access first element
+print("Last element:", array[-1])  # Access last element
+
+# 2D array indexing
+array_2d = np.array([[1, 2, 3], [4, 5, 6]])
+print("Element at row 1, column 2:", array_2d[1, 2])  # 6
+```
+
+**Output**:
+```
+First element: 10
+Last element: 40
+Element at row 1, column 2: 6
+```
+
+**Explanation**:
+- For 1D arrays, use `array[index]`.
+- For 2D arrays, use `array[row, column]`.
+
+### 4.2 Slicing
+**Example**:
+```python
+array = np.array([10, 20, 30, 40, 50])
+print("Slice [1:4]:", array[1:4])  # Elements from index 1 to 3
+
+# 2D array slicing
+array_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("First two rows, first two columns:\n", array_2d[0:2, 0:2])
+```
+
+**Output**:
+```
+Slice [1:4]: [20 30 40]
+First two rows, first two columns:
+ [[1 2]
+  [4 5]]
+```
+
+**Explanation**:
+- Slicing syntax is `[start:end:step]`. The `end` index is excluded.
+- For 2D arrays, slice rows and columns separately: `array[row_start:row_end, col_start:col_end]`.
+
+## Step 5: Array Operations
+NumPy arrays support element-wise operations, making calculations simple and fast.
+
+### 5.1 Basic Arithmetic
+**Example**:
+```python
+array1 = np.array([1, 2, 3])
+array2 = np.array([4, 5, 6])
+
+# Addition
+print("Addition:", array1 + array2)
+
+# Multiplication
+print("Multiplication:", array1 * array2)
+
+# Scalar operations
+print("Multiply by 2:", array1 * 2)
+```
+
+**Output**:
+```
+Addition: [5 7 9]
+Multiplication: [ 4 10 18]
+Multiply by 2: [2 4 6]
+```
+
+**Explanation**:
+- Operations like `+`, `-`, `*`, `/` are applied element-wise.
+- Scalar operations (e.g., multiply by 2) apply to every element.
+
+### 5.2 Mathematical Functions
+NumPy provides functions like `sin`, `cos`, `sqrt`, etc.
+
+**Example**:
+```python
+array = np.array([1, 4, 9])
+print("Square root:", np.sqrt(array))
+print("Sine:", np.sin(array))
+```
+
+**Output**:
+```
+Square root: [1. 2. 3.]
+Sine: [0.84147098 -0.7568025   0.41211849]
+```
+
+**Explanation**:
+ facie: `np.sqrt()` and `np.sin()` apply mathematical operations to each element.
+
+## Step 6: Reshaping Arrays
+You can change the shape of an array without changing its data using `reshape()`.
+
+**Example**:
+```python
+array = np.array([1, 2, 3, 4, 5, 6])
+reshaped = array.reshape(2, 3)  # Reshape to 2 rows, 3 columns
+print("Reshaped Array:\n", reshaped)
+```
+
+**Output**:
+```
+Reshaped Array:
+ [[1 2 3]
+  [4 5 6]]
+```
+
+**Explanation**:
+- `reshape(rows, cols)` changes the array’s shape, but the total number of elements must remain the same (e.g., 6 elements can become 2×3).
+- The original array remains unchanged unless reassigned.
+
+## Step 7: Array Aggregation
+NumPy provides functions to compute statistics like sum, mean, max, etc.
+
+**Example**:
+```python
+array = np.array([[1, 2, 3], [4, 5, 6]])
+print("Sum:", np.sum(array))
+print("Mean:", np.mean(array))
+print("Max:", np.max(array))
+```
+
+**Output**:
+```
+Sum: 21
+Mean: 3.5
+Max: 6
+```
+
+**Explanation**:
+- `np.sum()`: Adds all elements.
+- `np.mean()`: Computes the average.
+- `np.max()`: Finds the largest value.
+
+## Step 8: Broadcasting
+Broadcasting allows NumPy to perform operations on arrays of different shapes by automatically expanding smaller arrays.
+
+**Example**:
+```python
+array = np.array([[1, 2, 3], [4, 5, 6]])
 scalar = 2
-print(arr + scalar)  # Adds 2 to each element
-# Output:
-# [[3 4 5]
-#  [6 7 8]]
+result = array + scalar
+print("Broadcasted Addition:\n", result)
+```
 
-# Broadcasting with another array
-arr2 = np.array([10, 20, 30])
-print(arr + arr2)  # Adds arr2 to each row of arr
-# Output:
-# [[11 22 33]
-#  [14 25 36]]
-6.3 Universal Functions (ufuncs)
-NumPy provides functions like sin, cos, exp, etc., that operate element-wise.
-arr = np.array([0, np.pi/2, np.pi])
-print(np.sin(arr))  # Output: [0.000000e+00 1.000000e+00 1.224647e-16]
-print(np.exp(arr))  # Output: [ 1.          4.81047738 23.14069263]
+**Output**:
+```
+Broadcasted Addition:
+ [[3 4 5]
+  [6 7 8]]
+```
 
-7. Reshaping and Manipulating Arrays
-Modify the structure or content of arrays without changing their data.
-7.1 Reshape
-Change the shape of an array.
-arr = np.array([1, 2, 3, 4, 5, 6])
-print(arr.reshape(2, 3))  # Reshape to 2x3
-# Output:
-# [[1 2 3]
-#  [4 5 6]]
+**Explanation**:
+- The scalar `2` is “broadcasted” to match the array’s shape, adding 2 to each element.
+- Broadcasting saves memory and simplifies code.
 
-# Reshape to 3x2
-print(arr.reshape(3, 2)))
-# Output:
-# [[1 2]
-#  [3  [4]
-#  [5 6]]
-7.2 Flatten
-Convert a multi-dimensional array to 1D.
-arr = np.array([[1, 2], [3, 4]])
-print(arr.flatten())  # Output: [1 2 3 4]
-7.3 Transpose
-Swap axes of an array (rows become columns).
-arr = np.array([[1, 2,], [3, 4,], [5, 6(arr))))
-print(arr.T)  # Output:
-# [[1 4]:
-#  [2 5]
-#  [3 6]]
-7.4 Concatenate and Split
-	•	Concatenate: Combine arrays. arr1 = np.array([1, 2])
-	•	arr2 = np.array([3, 4])
-	•	print(np.concatenate((arr1, arr2)))  # Output: [1 2 3 4]
-	•	
-	•	# Concatenate 2D arrays along axis=0 (rows)
-	•	arr1_2d = np.array([[1, 2], [3, 4]])
-	•	arr2_2d = np.array([[5, 6], [7, 8]])
-	•	print(np.concatenate((arr1_2d, arr2_2d)))
-	•	# Output:
-	•	# [[1 2]
-	•	#  [3 4]
-	•	#  [5 6]
-	•	#  [7 8]]
-	•	
-	•	Split: Divide an array into subarrays-subarrays. arr = np.array([1, 2, 3, 4, 5, 6])
-	•	print(np.split(arr, 3))  # Split into 3 parts
-	•	# Output: [array([1, 2]), array([3, 4]), array([5, 6])]
-	•	
+## Step 9: Random Number Generation
+NumPy’s `random` module generates random numbers for simulations, testing, etc.
 
-8. Aggregations and Statistics
-Compute summary statistics like mean, max, sum, etc.
-arr = np.array([[1, 2, 3], [4, 5, 6]])
-print(np.sum(arr))  # Sum of all elements: 21
-print(np.mean(arr)))  # Mean: 3.3.5
-print(np.max(arr))  # Max: 6
-print(np.min(arr))  # Min: 1
-print(np.std(arr))  # Standard deviation: ~1.7078
+**Example**:
+```python
+# Random integers between 1 and 10
+random_array = np.random.randint(1, 11, size=(2, 3))
+print("Random Array:\n", random_array)
 
-# Axis-wise operations
-print(np.sum(arr, axis=0))  # Sum along columns: [5 7 9]
-print(np.sum(arr, axis=1))  # Sum along rows: [  : [6 15]
+# Random floats between 0 and 1
+random_floats = np.random.random((2, 2))
+print("Random Floats:\n", random_floats)
+```
 
-9. Random Numbers in NumPy
-NumPy’s random module generates random numbers for simulations or testing.
-# Random numbers between 0 and 1
-print(np.random.rand(3))  # 1D array: e.g., [0.123 0.456 0.789]
+**Output** (will vary):
+```
+Random Array:
+ [[7 3 9]
+  [2 6 4]]
+Random Floats:
+ [[0.12345678 0.98765432]
+  [0.45678901 0.67890123]]
+```
 
-# Random integers
-print(np.random.randint(1, 10, size=(2, 3)))  # 2x3 array of integers 1-9
-# Example output:
-# [[3 7 2]
-#  [8 1 5]]
+**Explanation**:
+- `np.random.randint(low, high, size)`: Generates random integers.
+- `np.random.random(size)`: Generates random floats between 0 and 1.
+- The `size` parameter specifies the array shape.
 
-# Set seed for reproducibility
-np.random.seed(42)
-print(np.random.rand(3))  # Always: [0.374 0.950 71 0.731]
+## Step 10: Saving and Loading Arrays
+You can save NumPy arrays to files and load them later.
 
-10. Saving and Loading Arrays
-Save arrays to files and load them later.
-# Save array to .npy file
-arr = np.array([1, 2, 3])
-np.save("array.npy", arr)
+**Example**:
+```python
+array = np.array([[1, 2, 3], [4, 5, 6]])
+np.save('my_array.npy', array)  # Save array to file
+loaded_array = np.load('my_array.npy')  # Load array from file
+print("Loaded Array:\n", loaded_array)
+```
 
-# Load array
-loaded_arr = np.load("array.npy")
-print(loaded_arr)  # Output: [1 2 3]
+**Output**:
+```
+Loaded Array:
+ [[1 2 3]
+  [4 5 6]]
+```
 
-# Save as text file
-np.savetxt("array.txt", arr)
-# Load from text file
-loaded_txt = np.loadtxt("array.txt")
-print(loaded_txt)  # Output: [1. 2. 3.]
+**Explanation**:
+- `np.save(file_name, array)`: Saves the array to a `.npy` file.
+- `np.load(file_name)`: Loads the array from the file.
+- Useful for storing large datasets.
 
-11. Practical Example: Analyzing Student Scores
-Let’s use NumPy to analyze student exam scores for various subjects.
-Problem: We have scores for 4 students in 3 subjects (Math, Science, English):
-	•	Calculate average score per student.
-	•	Find students who scored above-average in Math.
-	•	Compute the average score per subject.
-# Create 2D array of scores (rows: students, columns: Math, Science, Math)
-scores = np.array([[85, 90, 78], [92, 88, 95], [76, 85, 80], [88, 92, 90]])
+## Conclusion
+This tutorial covered the basics of NumPy: creating arrays, indexing, slicing, operations, reshaping, aggregation, broadcasting, random numbers, and file handling. Practice these examples and experiment with your own arrays to get comfortable with NumPy. It’s a powerful tool for numerical computing, and mastering it will open doors to data science and machine learning.
 
-# Average score per student (row-wise mean)
-avg_student_scores = np.mean(scores, axis=1)
-print("Average score per student:", avg_student_scores)
-# Output: [84.33 91.66 3 80.3 3 90.]
 
-# Students above average in Math (column 0)
-math_scores = scores[0]
-math_avg = np.mean(math_scores[0])
-above_avg_math = scores[math_scores > np.math_avg[0]]
-print("Students with above-average Math scores:\n", above_avg_math)
-# Output:
-# [[92 88 95]
-#  [88 92 90]]
-
-# Average score per subject (column-wise mean)
-avg_subject_scores = np.mean(scores, axis=1)
-print("Average score per subject (Math, English):", avg_subject_scores)
-# Output: [85.25 88.75  English)]
-
-12. Common Pitfalls and Tips
-	•	Pitfall: Modifying a slice directly affects the original array (views vs. copies). arr = np.array([1, 2, 3])
-	•	slice_arr = arr[0:3]
-	•	slice_arr[0] = 99
-	•	print(arr)  # Output: [99 2 3] (original array changed!)
-	•	
-	•	# Use .copy() to avoid this
-	•	slice_copy = arr.copy()[0:3]
-	•	slice_copy[0] = 100
-	•	print(arr)  # Output: [99 2 3]) (unchanged)
-	•	
-	•	Tip: Check array shapes before operations to avoid broadcasting errors.
-	•	Tip: Use np.isnan() or np.isinf() to handle missing or infinite values.
-	•	Tip: Explore NumPy’s documentation (numpy.org) for advanced functions.
-
-13. Conclusion
-NumPy is an essential library for numerical computing in Python. You’ve learned how to:
-	•	Create and manipulate arrays.
-	•	Perform arithmetic and statistical operations.
-	•	Use indexing, slicing, and reshaping.
-	•	Generate random numbers and save/load arrays.
-	•	Apply NumPy to real-world problems.
-Next Steps:
-	•	Experiment with larger datasets (e.g., CSV files with np.genfromtxt).
-	•	Combine NumPy with Matplotlib for data visualization or Pandas for data analysis.
-	•	Try NumPy challenges on platforms like HackerRank or LeetCode.
 
