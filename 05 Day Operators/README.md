@@ -70,6 +70,14 @@ Logical operators let you combine conditions to make decisions. They’re like s
 | `or`     | True if at least one thing is True | `True or False` → `True` |
 | `not`    | Flips True to False (or vice versa) | `not True` → `False` |
 
+-------------------
+
+<img width="441" height="733" alt="image" src="https://github.com/user-attachments/assets/73197645-24a5-48f6-a15e-901035adc807" />
+
+
+--------------------
+
+
 **Example Code:**
 ```python
 age = 15
