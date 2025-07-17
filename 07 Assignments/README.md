@@ -62,29 +62,3 @@
    Enter a number: 6
    6 is an even number.
    ```
-
-8. **Triangle Type Classifier:**
-   **Task:** This program prompts the user to enter three sides of a triangle and classifies the triangle based on its type.
-   **Sample Output:**  
-   ```
-   Enter the length of side 1: 5
-   Enter the length of side 2: 5
-   Enter the length of side 3: 5
-   This is an equilateral triangle.
-   ```
-
-9. **Temperature Adviser:**
-   **Task:** This program prompts the user to enter the current temperature and suggests appropriate clothing based on the temperature range.
-   **Sample Output:**  
-   ```
-   Enter the current temperature (in Celsius): 25
-   It's warm outside. You can wear a t-shirt.
-   ```
-
-10. **Number Range Checker:**
-    **Task:** This program prompts the user to enter a number and checks if it falls within a specified range.
-    **Sample Output:**  
-    ```
-    Enter a number: 75
-    The number 75 falls within the range of 1 to 100.
-    ```
