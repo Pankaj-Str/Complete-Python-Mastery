@@ -1,92 +1,152 @@
 # Regular Expressions in Python
 
-## Introduction
+Regular Expressions (regex) in Python are powerful tools for pattern matching and text manipulation. They allow you to search, match, and manipulate strings based on specific patterns. This tutorial will guide you through the basics of regex in Python using the `re` module, with examples to help you understand each step.
 
-Welcome! In this tutorial, we will learn **Regular Expressions (RegEx)** in Python. This is a useful tool for searching and working with text.
+## Step 1: Understanding Regular Expressions
+A regular expression is a sequence of characters that defines a search pattern. For example, you can use regex to:
+- Find all email addresses in a text.
+- Validate phone numbers.
+- Extract specific words or patterns from strings.
 
----
+In Python, the `re` module provides functions to work with regex.
 
-## 1. Understanding Regular Expressions (RegEx)
-
-### What is Regular Expression?
-
-A **Regular Expression (RegEx)** is a pattern used to search for specific words, numbers, or symbols in text. It helps in finding, replacing, and extracting information from large text data easily.
-
-### How to Use RegEx in Python?
-
-Python has a built-in module called `re` that helps us use regular expressions. To use it, we first need to import it:
+## Step 2: Importing the `re` Module
+To use regex in Python, you need to import the `re` module.
 
 ```python
 import re
 ```
 
-### Basic RegEx Patterns
+## Step 3: Basic Regex Patterns
+Regex patterns use special characters to define rules. Here are some common ones:
+- `.` : Matches any single character (except newline).
+- `^` : Matches the start of a string.
+- `$` : Matches the end of a string.
+- `*` : Matches 0 or more repetitions of the previous character.
+- `+` : Matches 1 or more repetitions of the previous character.
+- `?` : Matches 0 or 1 repetition of the previous character.
+- `\d` : Matches any digit (0–9).
+- `\w` : Matches any alphanumeric character (a–z, A–Z, 0–9, _).
+- `\s` : Matches any whitespace character (space, tab, newline).
+- `[abc]` : Matches any single character in the set (e.g., a, b, or c).
+- `[^abc]` : Matches any single character not in the set.
 
-| Pattern | Meaning                      | Example                                  |
-| ------- | ---------------------------- | ---------------------------------------- |
-| `\d`    | Matches any digit (0-9)      | "My number is 1234" → `\d+` finds `1234` |
-| `\w`    | Matches any letter or number | "Hello_123" → `\w+` finds `Hello_123`   |
-| `\s`    | Matches spaces               | "Hello World" → `\s` finds space         |
-| `.`     | Matches any character        | "a.b" → `.` finds `a` and `b`            |
-| `*`     | Matches 0 or more times      | "go*" → matches "g", "go", "goo"        |
-| `+`     | Matches 1 or more times      | "go+" → matches "go", "goo", but not "g" |
-| `?`     | Matches 0 or 1 time          | "colou?r" → matches "color" and "colour" |
-| `^`     | Matches start of string      | "^Hello" → matches "Hello World" but not "World Hello" |
-| `$`     | Matches end of string        | "world$" → matches "Hello world" but not "world Hello" |
-| `[]`    | Matches any character inside brackets | `[aeiou]` → matches "a" in "apple" |
-| `()`    | Groups patterns              | `(ab)+` → matches "ababab" in "abababxyz" |
+## Step 4: Common `re` Module Functions
+The `re` module provides several functions to work with regex:
+- `re.search(pattern, string)`: Searches for the first occurrence of the pattern in the string.
+- `re.match(pattern, string)`: Checks if the string starts with the pattern.
+- `re.findall(pattern, string)`: Returns a list of all non-overlapping matches.
+- `re.sub(pattern, replacement, string)`: Replaces matches with a new string.
 
-### Example: Finding Numbers in a Sentence
+## Step 5: Writing Your First Regex
+Let’s find a word in a string using `re.search()`.
 
 ```python
 import re
 
-text = "The price is 150 dollars."
-match = re.search(r'\d+', text)
+text = "Hello, my name is Alice."
+pattern = r"Alice"
+
+match = re.search(pattern, text)
 if match:
-    print("Number found:", match.group())  # Output: 150
+    print("Found:", match.group())  # Output: Found: Alice
+else:
+    print("Not found")
 ```
 
-### Example: Finding Emails in a Text
+Explanation:
+- `r"Alice"`: The `r` denotes a raw string, which prevents Python from interpreting backslashes.
+- `re.search()`: Looks for "Alice" in the text.
+- `match.group()`: Returns the matched string.
+
+## Step 6: Matching Digits
+Let’s find all numbers in a string using `\d`.
 
 ```python
 import re
 
-text = "Contact me at test@example.com and info@mail.com"
-emails = re.findall(r'[\w.-]+@[\w.-]+', text)
-print("Emails found:", emails)
-# Output: ['test@example.com', 'info@mail.com']
+text = "My phone number is 123-456-7890."
+pattern = r"\d+"
+
+numbers = re.findall(pattern, text)
+print(numbers)  # Output: ['123', '456', '7890']
 ```
 
-### Example: Replacing Text Using RegEx
+Explanation:
+- `\d+`: Matches one or more digits.
+- `re.findall()`: Returns a list of all matches.
+
+## Step 7: Validating an Email Address
+Let’s create a regex pattern to validate an email address.
 
 ```python
 import re
 
-text = "Hello 123, this is a test 456."
-new_text = re.sub(r'\d+', '###', text)
-print(new_text)  # Output: "Hello ###, this is a test ###."
+email = "example@domain.com"
+pattern = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+
+if re.match(pattern, email):
+    print("Valid email")
+else:
+    print("Invalid email")
 ```
 
-### Example: Extracting Words from a Sentence
+Explanation:
+- `^`: Ensures the string starts with the pattern.
+- `[a-zA-Z0-9._%+-]+`: Matches one or more letters, digits, or specific symbols for the username.
+- `@`: Matches the @ symbol.
+- `[a-zA-Z0-9.-]+`: Matches the domain name.
+- `\.`: Matches a literal dot.
+- `[a-zA-Z]{2,}`: Matches the top-level domain (e.g., com, org).
+- `$`: Ensures the string ends with the pattern.
+
+## Step 8: Replacing Text with `re.sub()`
+Let’s replace all digits in a string with a placeholder.
 
 ```python
 import re
 
-text = "Python is an amazing programming language!"
-words = re.findall(r'\w+', text)
-print("Words found:", words)
-# Output: ['Python', 'is', 'an', 'amazing', 'programming', 'language']
+text = "My number is 123-456-7890."
+pattern = r"\d+"
+result = re.sub(pattern, "XXX", text)
+print(result)  # Output: My number is XXX-XXX-XXX.
 ```
 
----
+Explanation:
+- `re.sub()`: Replaces all matches of `\d+` with "XXX".
 
-## Conclusion
+## Step 9: Using Groups
+Groups allow you to capture parts of a match using parentheses `()`.
 
-- **Regular Expressions (RegEx)** help search for patterns in text.
-- Useful for finding words, numbers, emails, and more.
-- We can replace and extract specific parts of text using RegEx.
-- Python's `re` module makes working with RegEx easy.
+```python
+import re
 
-With these basics, you can now start using Regular Expressions in Python to manipulate text data efficiently! 🚀
+text = "Contact: alice@example.com"
+pattern = r"(\w+)@([\w.]+)"
+
+match = re.search(pattern, text)
+if match:
+    username = match.group(1)  # First group
+    domain = match.group(2)    # Second group
+    print(f"Username: {username}, Domain: {domain}")
+    # Output: Username: alice, Domain: example.com
+```
+
+Explanation:
+- `(\w+)`: Captures one or more alphanumeric characters (username).
+- `@`: Matches the @ symbol.
+- `([\w.]+)`: Captures the domain name.
+
+## Step 10: Tips for Beginners
+- **Test your regex**: Use online tools like regex101.com to experiment with patterns.
+- **Start simple**: Break complex patterns into smaller parts.
+- **Use raw strings**: Always use `r"pattern"` to avoid issues with backslashes.
+- **Practice**: Try matching patterns like phone numbers, URLs, or dates.
+
+## Next Steps
+- Explore more advanced regex patterns like lookaheads and lookbehinds.
+- Practice with real-world examples, such as parsing logs or cleaning data.
+- Check the official Python `re` module documentation for more functions and options.
+
+
 
