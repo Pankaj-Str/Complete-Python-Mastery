@@ -1,4 +1,4 @@
-# step-by-step case study example using Pandas to analyze a dataset of sales transactions.
+# Step-by-step case study example using Pandas to analyze a dataset of sales transactions.
 
 ```python
 import pandas as pd
