@@ -1,9 +1,5 @@
 # Beginner-Friendly Seaborn Tutorial
 
-**Date:** June 27, 2025  
-**Duration:** 1 Hour  
-**Objective:** Learn the basics of Seaborn, a Python tool for making beautiful charts, and create different types of plots with simple examples.
-
 ---
 
 ## What is Seaborn?
