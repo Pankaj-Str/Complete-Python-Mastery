@@ -326,3 +326,20 @@ print(f"my name is {name} and age {age}")
 ```
 
 This new formatting syntax is powerful and easy to use. From now on, we will use f-Strings to print strings and variables.
+
+-----
+#### Count Characters 
+```python
+s = "programming"
+freq = {}
+
+for char in s:
+    if char in freq:
+        freq[char] += 1
+    else:
+        freq[char] = 1
+
+for char in freq:
+    if freq[char] > 1:
+        print(char, "=", freq[char])
+```
