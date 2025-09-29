@@ -1,0 +1,1201 @@
+Transaction_ID,Customer_ID,Transaction_Date,Transaction_Type,Merchant,Category,Amount,Payment_Mode,Transaction_Status,Location
+1,103,2025-01-01,ATM,BestBuy,Dining,360.1,Credit Card,Pending,San Francisco
+2,271,2025-01-01,Online,eBay,Travel,357.02,Credit Card,Declined,Chicago
+3,107,2025-01-01,ATM,Amazon,Entertainment,829.41,Credit Card,Pending,Chicago
+4,72,2025-01-01,POS,Amazon,Groceries,790.35,Credit Card,Pending,Los Angeles
+5,189,2025-01-01,ATM,Amazon,Clothing,311.26,Credit Card,Declined,San Francisco
+6,21,2025-01-01,ATM,Walmart,Dining,914.22,Credit Card,Declined,Los Angeles
+7,103,2025-01-01,Online,Costco,Groceries,953.05,Debit Card,Pending,San Francisco
+8,122,2025-01-01,POS,eBay,Groceries,330.11,Debit Card,Declined,Miami
+9,215,2025-01-01,ATM,Costco,Groceries,357.65,Credit Card,Approved,Los Angeles
+10,88,2025-01-01,POS,Walmart,Groceries,508.11,Debit Card,Declined,Los Angeles
+11,100,2025-01-01,ATM,Walmart,Travel,941.42,Debit Card,Declined,Los Angeles
+12,152,2025-01-01,ATM,Expedia,Entertainment,876.94,Credit Card,Approved,Seattle
+13,131,2025-01-01,POS,BestBuy,Health,107.06,Credit Card,Declined,Houston
+14,150,2025-01-01,ATM,BestBuy,Travel,395.77,Debit Card,Declined,Los Angeles
+15,258,2025-01-01,POS,Target,Travel,555.6,Credit Card,Pending,New York
+16,294,2025-01-01,ATM,Walmart,Dining,505.62,Debit Card,Declined,New York
+17,192,2025-01-01,Online,eBay,Dining,197.89,Credit Card,Declined,San Francisco
+18,277,2025-01-01,POS,Expedia,Entertainment,859.52,Debit Card,Approved,Miami
+19,161,2025-01-01,ATM,Expedia,Health,678.56,Debit Card,Pending,Houston
+20,22,2025-01-01,ATM,Costco,Dining,838.72,Debit Card,Pending,Seattle
+21,253,2025-01-01,Online,BestBuy,Entertainment,859.47,Debit Card,Pending,San Francisco
+22,236,2025-01-01,POS,Walmart,Entertainment,749.61,Credit Card,Declined,New York
+23,49,2025-01-01,ATM,Target,Electronics,442.01,Credit Card,Pending,Houston
+24,59,2025-01-01,Online,Walmart,Health,612.49,Debit Card,Approved,Houston
+25,170,2025-01-02,ATM,Costco,Dining,164.56,Debit Card,Pending,Miami
+26,188,2025-01-02,POS,Amazon,Health,675.28,Credit Card,Approved,Houston
+27,271,2025-01-02,ATM,Walmart,Travel,183.36,Credit Card,Pending,Los Angeles
+28,190,2025-01-02,ATM,Costco,Travel,695.48,Debit Card,Pending,Houston
+29,175,2025-01-02,ATM,Amazon,Health,233.45,Debit Card,Approved,Miami
+30,51,2025-01-02,ATM,Amazon,Electronics,121.96,Debit Card,Pending,San Francisco
+31,55,2025-01-02,Online,Target,Electronics,169.46,Debit Card,Pending,Miami
+32,244,2025-01-02,Online,eBay,Health,6.98,Debit Card,Pending,Seattle
+33,131,2025-01-02,POS,BestBuy,Dining,720.15,Credit Card,Declined,Miami
+34,135,2025-01-02,Online,Walmart,Clothing,733.74,Debit Card,Approved,New York
+35,21,2025-01-02,Online,Amazon,Electronics,517.36,Credit Card,Pending,Los Angeles
+36,167,2025-01-02,POS,Walmart,Groceries,165.56,Credit Card,Approved,New York
+37,274,2025-01-02,Online,eBay,Travel,88.14,Credit Card,Approved,San Francisco
+38,89,2025-01-02,Online,BestBuy,Health,24.03,Debit Card,Approved,Chicago
+39,14,2025-01-02,POS,eBay,Groceries,169.92,Credit Card,Pending,San Francisco
+40,242,2025-01-02,POS,BestBuy,Health,891.4,Credit Card,Pending,Los Angeles
+41,265,2025-01-02,POS,Expedia,Entertainment,245.33,Credit Card,Approved,Houston
+42,53,2025-01-02,ATM,BestBuy,Travel,357.5,Credit Card,Declined,Miami
+43,92,2025-01-02,ATM,Target,Travel,109.82,Debit Card,Approved,Chicago
+44,264,2025-01-02,POS,eBay,Electronics,226.25,Debit Card,Declined,Los Angeles
+45,35,2025-01-02,POS,Amazon,Electronics,521.63,Credit Card,Approved,New York
+46,206,2025-01-02,POS,Expedia,Groceries,609.71,Credit Card,Approved,Miami
+47,81,2025-01-02,ATM,Target,Entertainment,249.13,Debit Card,Approved,San Francisco
+48,50,2025-01-02,ATM,Walmart,Health,62.44,Debit Card,Pending,New York
+49,2,2025-01-03,Online,eBay,Entertainment,394.08,Debit Card,Declined,Los Angeles
+50,54,2025-01-03,Online,Costco,Travel,238.03,Credit Card,Declined,Los Angeles
+51,106,2025-01-03,POS,Costco,Groceries,223.46,Debit Card,Approved,San Francisco
+52,260,2025-01-03,ATM,Amazon,Clothing,960.06,Credit Card,Pending,Chicago
+53,191,2025-01-03,ATM,BestBuy,Groceries,618.22,Credit Card,Pending,San Francisco
+54,218,2025-01-03,ATM,Amazon,Dining,559.09,Debit Card,Declined,Houston
+55,44,2025-01-03,POS,Costco,Groceries,418.7,Credit Card,Pending,New York
+56,162,2025-01-03,Online,Walmart,Entertainment,431.8,Debit Card,Declined,Chicago
+57,202,2025-01-03,POS,Expedia,Dining,543.2,Credit Card,Declined,Miami
+58,270,2025-01-03,Online,Expedia,Dining,697.95,Debit Card,Declined,Seattle
+59,271,2025-01-03,Online,eBay,Dining,703.64,Credit Card,Pending,Houston
+60,215,2025-01-03,POS,Expedia,Clothing,175.84,Credit Card,Declined,Chicago
+61,252,2025-01-03,Online,eBay,Groceries,502.61,Debit Card,Declined,Seattle
+62,190,2025-01-03,Online,eBay,Entertainment,414.9,Debit Card,Approved,Seattle
+63,296,2025-01-03,ATM,eBay,Groceries,871.17,Debit Card,Declined,New York
+64,213,2025-01-03,Online,Costco,Clothing,633.26,Debit Card,Declined,Los Angeles
+65,208,2025-01-03,POS,Costco,Travel,534.84,Credit Card,Approved,Miami
+66,237,2025-01-03,POS,BestBuy,Electronics,119.82,Debit Card,Approved,San Francisco
+67,53,2025-01-03,Online,Target,Entertainment,607.61,Debit Card,Pending,New York
+68,280,2025-01-03,ATM,eBay,Entertainment,121.62,Credit Card,Declined,Houston
+69,217,2025-01-03,ATM,eBay,Groceries,340.52,Debit Card,Pending,Seattle
+70,252,2025-01-03,Online,Target,Electronics,147.13,Debit Card,Pending,Houston
+71,188,2025-01-03,Online,Amazon,Health,693.61,Credit Card,Approved,Seattle
+72,41,2025-01-03,POS,eBay,Health,210.22,Debit Card,Pending,Los Angeles
+73,157,2025-01-04,Online,BestBuy,Clothing,394.9,Debit Card,Declined,Los Angeles
+74,15,2025-01-04,ATM,Expedia,Health,896.2,Debit Card,Approved,Miami
+75,65,2025-01-04,Online,Expedia,Entertainment,208.29,Debit Card,Declined,San Francisco
+76,9,2025-01-04,POS,Walmart,Health,510.27,Debit Card,Declined,Miami
+77,129,2025-01-04,POS,Walmart,Travel,422.18,Debit Card,Approved,Los Angeles
+78,136,2025-01-04,POS,Expedia,Travel,23.03,Credit Card,Declined,Los Angeles
+79,63,2025-01-04,POS,Expedia,Travel,793.79,Debit Card,Approved,Houston
+80,139,2025-01-04,POS,Costco,Health,73.7,Credit Card,Declined,Los Angeles
+81,81,2025-01-04,Online,BestBuy,Clothing,476.88,Credit Card,Approved,Chicago
+82,163,2025-01-04,Online,Target,Dining,562.87,Credit Card,Pending,Seattle
+83,289,2025-01-04,Online,Walmart,Dining,630.28,Credit Card,Declined,New York
+84,261,2025-01-04,Online,Costco,Electronics,690.19,Debit Card,Approved,Los Angeles
+85,231,2025-01-04,POS,Costco,Dining,257.01,Debit Card,Declined,Miami
+86,41,2025-01-04,ATM,Target,Dining,14.93,Debit Card,Declined,San Francisco
+87,28,2025-01-04,Online,Costco,Travel,724.83,Credit Card,Declined,Seattle
+88,135,2025-01-04,ATM,BestBuy,Travel,537.98,Debit Card,Approved,Seattle
+89,201,2025-01-04,Online,Expedia,Health,836.94,Debit Card,Pending,San Francisco
+90,268,2025-01-04,Online,eBay,Electronics,822.28,Debit Card,Pending,San Francisco
+91,33,2025-01-04,ATM,Target,Groceries,844.11,Credit Card,Pending,Seattle
+92,48,2025-01-04,POS,Expedia,Entertainment,487.67,Credit Card,Approved,Chicago
+93,62,2025-01-04,Online,Expedia,Electronics,336.96,Debit Card,Pending,Miami
+94,216,2025-01-04,Online,Amazon,Electronics,792.6,Credit Card,Approved,Chicago
+95,293,2025-01-04,Online,Target,Clothing,454.04,Credit Card,Declined,Los Angeles
+96,99,2025-01-04,ATM,Costco,Health,187.52,Debit Card,Declined,New York
+97,172,2025-01-05,POS,eBay,Clothing,855.7,Credit Card,Pending,San Francisco
+98,214,2025-01-05,ATM,Target,Electronics,883.15,Credit Card,Approved,Miami
+99,35,2025-01-05,ATM,Costco,Electronics,468.98,Debit Card,Declined,San Francisco
+100,227,2025-01-05,POS,Expedia,Electronics,80.32,Credit Card,Approved,Chicago
+101,101,2025-01-05,ATM,eBay,Dining,390.89,Credit Card,Approved,Houston
+102,131,2025-01-05,POS,Costco,Entertainment,804.52,Credit Card,Declined,Los Angeles
+103,257,2025-01-05,Online,BestBuy,Entertainment,902.27,Credit Card,Approved,New York
+104,5,2025-01-05,POS,Costco,Clothing,207.46,Credit Card,Declined,Los Angeles
+105,218,2025-01-05,Online,Amazon,Electronics,71.64,Credit Card,Declined,Houston
+106,255,2025-01-05,ATM,Expedia,Entertainment,877.96,Credit Card,Declined,New York
+107,283,2025-01-05,ATM,Costco,Travel,392.46,Credit Card,Approved,Houston
+108,207,2025-01-05,Online,Walmart,Entertainment,544.05,Debit Card,Declined,Los Angeles
+109,15,2025-01-05,ATM,Walmart,Health,968.23,Debit Card,Approved,Chicago
+110,42,2025-01-05,POS,Amazon,Health,71.23,Debit Card,Declined,Seattle
+111,179,2025-01-05,Online,BestBuy,Entertainment,650.08,Debit Card,Declined,Los Angeles
+112,63,2025-01-05,ATM,Expedia,Travel,78.73,Credit Card,Pending,Los Angeles
+113,231,2025-01-05,Online,Target,Health,378.59,Debit Card,Pending,Los Angeles
+114,241,2025-01-05,POS,Amazon,Dining,804.8,Debit Card,Pending,Miami
+115,52,2025-01-05,POS,BestBuy,Entertainment,436.3,Credit Card,Approved,Houston
+116,96,2025-01-05,ATM,Target,Dining,997.2,Credit Card,Approved,Houston
+117,222,2025-01-05,POS,Walmart,Entertainment,561.26,Credit Card,Declined,San Francisco
+118,231,2025-01-05,Online,Walmart,Groceries,324.56,Credit Card,Declined,Houston
+119,237,2025-01-05,POS,Target,Groceries,224.01,Credit Card,Declined,San Francisco
+120,143,2025-01-05,Online,Amazon,Groceries,353.77,Debit Card,Declined,Miami
+121,171,2025-01-06,Online,Walmart,Health,375.67,Credit Card,Approved,Chicago
+122,29,2025-01-06,POS,Expedia,Dining,73.37,Debit Card,Declined,San Francisco
+123,36,2025-01-06,ATM,eBay,Dining,372.73,Debit Card,Declined,Los Angeles
+124,13,2025-01-06,POS,Costco,Dining,466.92,Credit Card,Pending,Chicago
+125,160,2025-01-06,Online,Target,Travel,724.12,Debit Card,Declined,Seattle
+126,187,2025-01-06,Online,Target,Dining,658.45,Debit Card,Declined,Miami
+127,243,2025-01-06,POS,Walmart,Travel,710.22,Credit Card,Declined,Houston
+128,86,2025-01-06,ATM,Amazon,Groceries,13.32,Debit Card,Approved,San Francisco
+129,284,2025-01-06,ATM,Expedia,Groceries,221.58,Debit Card,Pending,Los Angeles
+130,66,2025-01-06,Online,Amazon,Health,663.38,Debit Card,Declined,New York
+131,170,2025-01-06,Online,BestBuy,Entertainment,486.57,Credit Card,Declined,Seattle
+132,45,2025-01-06,ATM,BestBuy,Groceries,10.29,Credit Card,Pending,New York
+133,62,2025-01-06,POS,eBay,Entertainment,805.47,Credit Card,Declined,Chicago
+134,134,2025-01-06,Online,Walmart,Entertainment,773.95,Debit Card,Approved,Houston
+135,284,2025-01-06,Online,Walmart,Health,550.68,Credit Card,Declined,New York
+136,28,2025-01-06,ATM,Walmart,Electronics,71.13,Debit Card,Approved,Chicago
+137,108,2025-01-06,POS,eBay,Electronics,767.68,Credit Card,Approved,Miami
+138,44,2025-01-06,ATM,BestBuy,Clothing,585.8,Debit Card,Declined,Chicago
+139,286,2025-01-06,POS,Amazon,Health,783.05,Credit Card,Pending,Seattle
+140,128,2025-01-06,POS,eBay,Clothing,752.99,Credit Card,Approved,Chicago
+141,231,2025-01-06,POS,eBay,Clothing,803.99,Debit Card,Pending,Seattle
+142,190,2025-01-06,Online,Amazon,Electronics,520.42,Credit Card,Declined,Chicago
+143,225,2025-01-06,ATM,Walmart,Health,144.62,Debit Card,Approved,Los Angeles
+144,283,2025-01-06,ATM,Expedia,Electronics,672.8,Credit Card,Declined,Chicago
+145,121,2025-01-07,POS,Amazon,Clothing,622.37,Credit Card,Pending,San Francisco
+146,116,2025-01-07,Online,BestBuy,Health,743.54,Debit Card,Declined,Chicago
+147,233,2025-01-07,Online,Target,Clothing,174.03,Debit Card,Declined,Los Angeles
+148,259,2025-01-07,ATM,Target,Dining,199.0,Debit Card,Approved,Los Angeles
+149,198,2025-01-07,Online,Costco,Entertainment,890.96,Credit Card,Declined,Miami
+150,137,2025-01-07,Online,Costco,Health,751.23,Debit Card,Declined,Seattle
+151,165,2025-01-07,POS,eBay,Health,908.69,Credit Card,Declined,Houston
+152,225,2025-01-07,Online,Target,Entertainment,759.92,Debit Card,Approved,New York
+153,234,2025-01-07,POS,Expedia,Clothing,599.17,Debit Card,Pending,New York
+154,172,2025-01-07,ATM,Walmart,Dining,655.86,Debit Card,Pending,Chicago
+155,152,2025-01-07,Online,BestBuy,Travel,889.68,Debit Card,Declined,Miami
+156,160,2025-01-07,ATM,Costco,Entertainment,580.91,Debit Card,Approved,Chicago
+157,96,2025-01-07,ATM,Expedia,Electronics,634.23,Debit Card,Declined,New York
+158,233,2025-01-07,Online,BestBuy,Clothing,160.69,Credit Card,Pending,Seattle
+159,180,2025-01-07,Online,BestBuy,Entertainment,476.55,Debit Card,Approved,Seattle
+160,113,2025-01-07,ATM,Walmart,Entertainment,717.82,Credit Card,Pending,Seattle
+161,52,2025-01-07,Online,eBay,Health,274.59,Debit Card,Pending,Los Angeles
+162,268,2025-01-07,POS,Target,Electronics,206.24,Debit Card,Approved,Houston
+163,295,2025-01-07,POS,Walmart,Electronics,317.26,Debit Card,Approved,Miami
+164,113,2025-01-07,Online,Expedia,Electronics,245.29,Credit Card,Declined,Los Angeles
+165,101,2025-01-07,ATM,eBay,Entertainment,218.84,Credit Card,Declined,Houston
+166,113,2025-01-07,Online,Expedia,Travel,427.73,Debit Card,Pending,Miami
+167,81,2025-01-07,Online,eBay,Groceries,908.3,Credit Card,Approved,Miami
+168,187,2025-01-07,ATM,Costco,Clothing,509.52,Debit Card,Approved,New York
+169,113,2025-01-08,ATM,Expedia,Groceries,191.98,Debit Card,Declined,Los Angeles
+170,2,2025-01-08,POS,Walmart,Entertainment,81.59,Credit Card,Pending,Miami
+171,130,2025-01-08,ATM,eBay,Groceries,697.68,Credit Card,Pending,San Francisco
+172,220,2025-01-08,POS,eBay,Entertainment,385.88,Credit Card,Declined,Seattle
+173,54,2025-01-08,ATM,BestBuy,Groceries,822.72,Credit Card,Approved,Miami
+174,224,2025-01-08,Online,BestBuy,Electronics,661.21,Debit Card,Declined,Houston
+175,225,2025-01-08,POS,Amazon,Dining,797.26,Credit Card,Declined,New York
+176,126,2025-01-08,POS,Expedia,Electronics,275.59,Credit Card,Declined,Chicago
+177,130,2025-01-08,POS,BestBuy,Electronics,693.9,Debit Card,Declined,Seattle
+178,53,2025-01-08,Online,Amazon,Health,267.74,Credit Card,Approved,New York
+179,172,2025-01-08,Online,Costco,Health,939.37,Credit Card,Declined,Chicago
+180,218,2025-01-08,Online,Costco,Groceries,638.19,Credit Card,Approved,Los Angeles
+181,160,2025-01-08,Online,BestBuy,Entertainment,327.89,Credit Card,Declined,Los Angeles
+182,198,2025-01-08,Online,Expedia,Electronics,273.16,Debit Card,Pending,Miami
+183,247,2025-01-08,POS,eBay,Groceries,194.97,Debit Card,Approved,San Francisco
+184,203,2025-01-08,Online,Target,Health,696.17,Credit Card,Pending,Los Angeles
+185,184,2025-01-08,POS,Expedia,Dining,222.62,Credit Card,Declined,Miami
+186,123,2025-01-08,Online,Walmart,Clothing,597.33,Debit Card,Declined,Seattle
+187,255,2025-01-08,ATM,Costco,Groceries,268.31,Credit Card,Declined,New York
+188,294,2025-01-08,POS,BestBuy,Dining,663.66,Credit Card,Approved,Los Angeles
+189,280,2025-01-08,ATM,BestBuy,Clothing,815.87,Credit Card,Pending,New York
+190,98,2025-01-08,POS,eBay,Travel,779.14,Credit Card,Approved,New York
+191,198,2025-01-08,ATM,Walmart,Groceries,762.05,Credit Card,Approved,San Francisco
+192,240,2025-01-08,Online,eBay,Groceries,191.78,Credit Card,Declined,Los Angeles
+193,144,2025-01-09,Online,Walmart,Travel,92.94,Credit Card,Pending,New York
+194,97,2025-01-09,Online,Target,Travel,700.45,Credit Card,Declined,San Francisco
+195,201,2025-01-09,POS,Costco,Groceries,371.51,Credit Card,Approved,San Francisco
+196,124,2025-01-09,ATM,BestBuy,Travel,435.18,Debit Card,Declined,Los Angeles
+197,187,2025-01-09,Online,BestBuy,Electronics,35.99,Debit Card,Pending,San Francisco
+198,259,2025-01-09,ATM,Target,Clothing,263.28,Debit Card,Declined,Los Angeles
+199,148,2025-01-09,ATM,Amazon,Clothing,38.51,Credit Card,Pending,Los Angeles
+200,252,2025-01-09,Online,Costco,Clothing,879.79,Credit Card,Pending,Chicago
+201,147,2025-01-09,Online,eBay,Electronics,247.18,Debit Card,Declined,New York
+202,148,2025-01-09,ATM,Target,Entertainment,559.55,Credit Card,Approved,Houston
+203,199,2025-01-09,Online,eBay,Travel,43.78,Debit Card,Declined,Los Angeles
+204,128,2025-01-09,Online,Expedia,Dining,668.51,Credit Card,Approved,New York
+205,39,2025-01-09,Online,BestBuy,Travel,326.41,Debit Card,Approved,Seattle
+206,129,2025-01-09,POS,eBay,Groceries,898.43,Debit Card,Declined,San Francisco
+207,267,2025-01-09,ATM,Walmart,Health,888.68,Debit Card,Approved,Miami
+208,151,2025-01-09,ATM,eBay,Clothing,328.66,Credit Card,Approved,Los Angeles
+209,298,2025-01-09,POS,Expedia,Travel,901.46,Debit Card,Declined,San Francisco
+210,99,2025-01-09,ATM,Costco,Dining,996.18,Credit Card,Declined,San Francisco
+211,263,2025-01-09,Online,BestBuy,Groceries,826.29,Credit Card,Declined,San Francisco
+212,252,2025-01-09,ATM,Target,Electronics,845.65,Credit Card,Approved,San Francisco
+213,144,2025-01-09,Online,Expedia,Entertainment,252.76,Credit Card,Pending,San Francisco
+214,112,2025-01-09,POS,BestBuy,Electronics,578.82,Credit Card,Approved,Los Angeles
+215,60,2025-01-09,Online,eBay,Dining,71.92,Credit Card,Pending,Seattle
+216,2,2025-01-09,ATM,Costco,Groceries,99.44,Credit Card,Declined,Houston
+217,254,2025-01-10,ATM,Amazon,Clothing,998.9,Debit Card,Pending,Chicago
+218,140,2025-01-10,ATM,Costco,Travel,330.01,Debit Card,Declined,San Francisco
+219,37,2025-01-10,POS,Amazon,Groceries,749.44,Debit Card,Declined,San Francisco
+220,160,2025-01-10,POS,Walmart,Entertainment,807.63,Credit Card,Pending,Chicago
+221,9,2025-01-10,ATM,Costco,Electronics,858.73,Credit Card,Declined,Seattle
+222,233,2025-01-10,Online,BestBuy,Entertainment,997.64,Credit Card,Pending,Seattle
+223,99,2025-01-10,POS,Amazon,Entertainment,245.29,Credit Card,Declined,Los Angeles
+224,147,2025-01-10,ATM,Target,Dining,45.15,Debit Card,Approved,New York
+225,208,2025-01-10,ATM,BestBuy,Dining,414.14,Credit Card,Approved,Miami
+226,131,2025-01-10,POS,Target,Travel,134.43,Debit Card,Declined,Miami
+227,152,2025-01-10,POS,Costco,Dining,27.31,Credit Card,Declined,New York
+228,54,2025-01-10,POS,Target,Dining,363.62,Debit Card,Pending,Los Angeles
+229,120,2025-01-10,Online,Amazon,Groceries,784.82,Credit Card,Approved,Miami
+230,161,2025-01-10,Online,BestBuy,Clothing,568.35,Debit Card,Pending,Seattle
+231,116,2025-01-10,ATM,eBay,Travel,316.21,Credit Card,Declined,Chicago
+232,75,2025-01-10,POS,Expedia,Groceries,656.07,Debit Card,Declined,New York
+233,113,2025-01-10,Online,Amazon,Clothing,235.86,Credit Card,Pending,Seattle
+234,104,2025-01-10,POS,Amazon,Entertainment,19.31,Debit Card,Declined,Houston
+235,254,2025-01-10,ATM,eBay,Groceries,765.53,Debit Card,Approved,Los Angeles
+236,227,2025-01-10,Online,BestBuy,Health,625.62,Credit Card,Pending,New York
+237,112,2025-01-10,Online,BestBuy,Groceries,763.49,Debit Card,Approved,Miami
+238,99,2025-01-10,Online,Costco,Dining,43.74,Credit Card,Approved,Los Angeles
+239,153,2025-01-10,ATM,Target,Clothing,837.93,Credit Card,Approved,Chicago
+240,194,2025-01-10,POS,Costco,Travel,621.43,Credit Card,Pending,Los Angeles
+241,163,2025-01-11,Online,eBay,Travel,565.58,Debit Card,Declined,Los Angeles
+242,208,2025-01-11,ATM,Costco,Clothing,626.49,Debit Card,Approved,Chicago
+243,169,2025-01-11,POS,eBay,Dining,865.11,Credit Card,Approved,San Francisco
+244,161,2025-01-11,ATM,BestBuy,Electronics,589.0,Credit Card,Approved,Chicago
+245,68,2025-01-11,POS,Target,Groceries,583.05,Debit Card,Declined,Seattle
+246,289,2025-01-11,ATM,Costco,Dining,990.73,Debit Card,Declined,Los Angeles
+247,277,2025-01-11,POS,Amazon,Health,757.95,Debit Card,Pending,Chicago
+248,135,2025-01-11,Online,Walmart,Entertainment,445.08,Credit Card,Declined,San Francisco
+249,195,2025-01-11,POS,Expedia,Clothing,708.86,Credit Card,Pending,Seattle
+250,128,2025-01-11,ATM,Amazon,Groceries,392.28,Credit Card,Pending,New York
+251,33,2025-01-11,ATM,BestBuy,Travel,232.73,Credit Card,Pending,Chicago
+252,176,2025-01-11,POS,Expedia,Entertainment,598.87,Credit Card,Pending,Chicago
+253,22,2025-01-11,Online,Walmart,Electronics,928.54,Debit Card,Pending,Los Angeles
+254,238,2025-01-11,Online,Walmart,Health,929.49,Credit Card,Approved,Seattle
+255,158,2025-01-11,POS,Target,Travel,345.2,Debit Card,Declined,New York
+256,38,2025-01-11,POS,Expedia,Clothing,530.04,Debit Card,Approved,Houston
+257,230,2025-01-11,ATM,Target,Groceries,215.58,Credit Card,Pending,Houston
+258,51,2025-01-11,Online,Amazon,Clothing,995.65,Debit Card,Declined,Miami
+259,264,2025-01-11,POS,eBay,Entertainment,981.21,Credit Card,Approved,Chicago
+260,283,2025-01-11,Online,eBay,Groceries,651.26,Debit Card,Approved,Chicago
+261,27,2025-01-11,POS,eBay,Dining,805.39,Credit Card,Pending,New York
+262,226,2025-01-11,POS,Expedia,Electronics,716.52,Credit Card,Approved,San Francisco
+263,277,2025-01-11,Online,eBay,Dining,595.19,Debit Card,Approved,Houston
+264,286,2025-01-11,POS,Amazon,Dining,58.08,Credit Card,Approved,Miami
+265,97,2025-01-12,POS,Target,Clothing,457.49,Debit Card,Approved,New York
+266,284,2025-01-12,ATM,Expedia,Entertainment,676.41,Credit Card,Approved,Chicago
+267,147,2025-01-12,POS,Target,Electronics,679.14,Credit Card,Pending,Houston
+268,4,2025-01-12,POS,Expedia,Groceries,376.26,Credit Card,Pending,Seattle
+269,35,2025-01-12,POS,Target,Groceries,941.98,Debit Card,Approved,Miami
+270,192,2025-01-12,ATM,Walmart,Health,171.52,Debit Card,Pending,Los Angeles
+271,49,2025-01-12,Online,Target,Travel,502.86,Credit Card,Pending,Houston
+272,17,2025-01-12,ATM,eBay,Health,692.43,Debit Card,Declined,Miami
+273,172,2025-01-12,ATM,Walmart,Health,698.65,Credit Card,Approved,New York
+274,220,2025-01-12,Online,Target,Groceries,650.4,Debit Card,Pending,Los Angeles
+275,158,2025-01-12,ATM,Expedia,Clothing,278.91,Debit Card,Pending,Miami
+276,46,2025-01-12,Online,Expedia,Dining,160.43,Credit Card,Approved,Miami
+277,6,2025-01-12,ATM,Expedia,Entertainment,637.76,Credit Card,Declined,Chicago
+278,99,2025-01-12,Online,BestBuy,Dining,601.31,Credit Card,Approved,San Francisco
+279,233,2025-01-12,POS,Amazon,Dining,183.46,Credit Card,Declined,Houston
+280,37,2025-01-12,ATM,Expedia,Electronics,706.61,Credit Card,Approved,Chicago
+281,280,2025-01-12,ATM,Walmart,Groceries,457.9,Debit Card,Approved,Seattle
+282,181,2025-01-12,ATM,Expedia,Entertainment,669.42,Debit Card,Approved,Los Angeles
+283,95,2025-01-12,ATM,BestBuy,Clothing,838.18,Credit Card,Approved,San Francisco
+284,99,2025-01-12,POS,eBay,Electronics,173.88,Credit Card,Declined,Miami
+285,188,2025-01-12,ATM,Walmart,Travel,24.05,Credit Card,Declined,Chicago
+286,116,2025-01-12,POS,BestBuy,Clothing,780.21,Debit Card,Pending,San Francisco
+287,191,2025-01-12,POS,eBay,Health,611.65,Credit Card,Approved,Seattle
+288,253,2025-01-12,POS,Costco,Clothing,701.14,Credit Card,Declined,Houston
+289,161,2025-01-13,POS,Costco,Clothing,838.96,Debit Card,Declined,Seattle
+290,256,2025-01-13,Online,Walmart,Dining,803.8,Debit Card,Declined,Los Angeles
+291,128,2025-01-13,Online,Target,Clothing,961.12,Debit Card,Approved,New York
+292,18,2025-01-13,ATM,Amazon,Health,538.26,Debit Card,Pending,Chicago
+293,281,2025-01-13,Online,Amazon,Health,491.05,Credit Card,Declined,Los Angeles
+294,223,2025-01-13,Online,BestBuy,Groceries,404.88,Debit Card,Approved,New York
+295,54,2025-01-13,ATM,eBay,Clothing,157.92,Debit Card,Declined,Chicago
+296,58,2025-01-13,ATM,Amazon,Dining,574.74,Credit Card,Declined,Los Angeles
+297,174,2025-01-13,ATM,eBay,Clothing,280.63,Credit Card,Pending,Seattle
+298,280,2025-01-13,Online,eBay,Travel,921.7,Credit Card,Declined,Los Angeles
+299,114,2025-01-13,Online,BestBuy,Travel,585.27,Debit Card,Declined,San Francisco
+300,288,2025-01-13,ATM,BestBuy,Dining,594.88,Credit Card,Approved,Seattle
+301,151,2025-01-13,POS,BestBuy,Groceries,358.15,Debit Card,Approved,Chicago
+302,127,2025-01-13,ATM,Amazon,Groceries,56.73,Debit Card,Pending,Los Angeles
+303,155,2025-01-13,POS,Costco,Health,36.59,Debit Card,Approved,Miami
+304,273,2025-01-13,POS,BestBuy,Health,426.22,Credit Card,Approved,Chicago
+305,104,2025-01-13,ATM,Amazon,Electronics,89.14,Debit Card,Pending,Los Angeles
+306,299,2025-01-13,ATM,BestBuy,Dining,608.81,Credit Card,Declined,San Francisco
+307,246,2025-01-13,ATM,Expedia,Clothing,881.57,Credit Card,Pending,New York
+308,176,2025-01-13,Online,eBay,Entertainment,883.5,Credit Card,Approved,New York
+309,39,2025-01-13,POS,BestBuy,Dining,660.75,Debit Card,Pending,Miami
+310,170,2025-01-13,Online,Walmart,Electronics,215.18,Debit Card,Declined,Chicago
+311,247,2025-01-13,Online,eBay,Health,863.68,Debit Card,Pending,San Francisco
+312,26,2025-01-13,ATM,eBay,Dining,886.66,Credit Card,Approved,Los Angeles
+313,13,2025-01-14,Online,BestBuy,Dining,200.67,Debit Card,Approved,Los Angeles
+314,36,2025-01-14,ATM,Costco,Health,738.74,Debit Card,Pending,New York
+315,173,2025-01-14,POS,Target,Electronics,290.09,Debit Card,Declined,San Francisco
+316,20,2025-01-14,ATM,Costco,Health,803.63,Debit Card,Pending,Seattle
+317,264,2025-01-14,Online,BestBuy,Groceries,997.25,Debit Card,Declined,Miami
+318,142,2025-01-14,Online,eBay,Clothing,34.88,Credit Card,Declined,New York
+319,143,2025-01-14,ATM,Walmart,Health,897.88,Credit Card,Pending,New York
+320,92,2025-01-14,ATM,eBay,Electronics,624.52,Credit Card,Declined,Miami
+321,288,2025-01-14,Online,Costco,Travel,973.52,Credit Card,Approved,Chicago
+322,215,2025-01-14,POS,Walmart,Groceries,467.68,Debit Card,Pending,Los Angeles
+323,51,2025-01-14,POS,Amazon,Travel,848.15,Credit Card,Declined,Chicago
+324,153,2025-01-14,ATM,Expedia,Entertainment,67.08,Debit Card,Approved,San Francisco
+325,186,2025-01-14,POS,eBay,Health,338.6,Credit Card,Pending,Seattle
+326,63,2025-01-14,Online,BestBuy,Groceries,71.68,Credit Card,Approved,Houston
+327,190,2025-01-14,ATM,Amazon,Clothing,975.47,Credit Card,Approved,Houston
+328,125,2025-01-14,Online,Expedia,Health,817.89,Debit Card,Approved,Houston
+329,150,2025-01-14,Online,BestBuy,Clothing,853.28,Debit Card,Declined,Miami
+330,58,2025-01-14,POS,Target,Dining,938.28,Credit Card,Pending,New York
+331,180,2025-01-14,ATM,BestBuy,Travel,89.68,Debit Card,Pending,Seattle
+332,170,2025-01-14,ATM,Walmart,Groceries,388.67,Credit Card,Declined,Chicago
+333,271,2025-01-14,POS,Walmart,Clothing,75.68,Credit Card,Pending,Los Angeles
+334,54,2025-01-14,Online,Target,Electronics,214.74,Credit Card,Approved,Houston
+335,101,2025-01-14,Online,Amazon,Clothing,233.22,Debit Card,Pending,Chicago
+336,264,2025-01-14,Online,Expedia,Electronics,471.76,Credit Card,Declined,Houston
+337,53,2025-01-15,Online,BestBuy,Health,272.22,Credit Card,Approved,Seattle
+338,60,2025-01-15,ATM,Walmart,Groceries,105.47,Credit Card,Declined,Houston
+339,108,2025-01-15,ATM,Amazon,Clothing,171.65,Debit Card,Approved,Los Angeles
+340,5,2025-01-15,POS,Target,Entertainment,151.54,Credit Card,Approved,San Francisco
+341,103,2025-01-15,POS,Costco,Clothing,973.21,Debit Card,Pending,San Francisco
+342,196,2025-01-15,ATM,eBay,Entertainment,760.5,Credit Card,Approved,Seattle
+343,262,2025-01-15,ATM,Costco,Groceries,967.92,Debit Card,Declined,San Francisco
+344,47,2025-01-15,Online,Costco,Clothing,442.54,Credit Card,Pending,Miami
+345,144,2025-01-15,Online,Walmart,Electronics,281.98,Credit Card,Declined,New York
+346,269,2025-01-15,POS,Target,Clothing,799.3,Debit Card,Approved,Miami
+347,124,2025-01-15,ATM,BestBuy,Travel,329.62,Debit Card,Declined,Chicago
+348,106,2025-01-15,POS,Costco,Health,302.89,Credit Card,Declined,Miami
+349,158,2025-01-15,ATM,Costco,Dining,236.34,Debit Card,Approved,Chicago
+350,147,2025-01-15,Online,Expedia,Electronics,134.03,Credit Card,Pending,Chicago
+351,145,2025-01-15,POS,Walmart,Travel,260.18,Credit Card,Declined,New York
+352,120,2025-01-15,POS,Walmart,Entertainment,358.54,Credit Card,Approved,Los Angeles
+353,275,2025-01-15,ATM,BestBuy,Health,675.62,Debit Card,Pending,Seattle
+354,92,2025-01-15,Online,eBay,Groceries,67.25,Credit Card,Pending,New York
+355,58,2025-01-15,POS,Amazon,Electronics,214.45,Debit Card,Pending,Seattle
+356,229,2025-01-15,Online,Expedia,Dining,809.98,Credit Card,Declined,San Francisco
+357,117,2025-01-15,POS,Walmart,Health,151.19,Debit Card,Declined,San Francisco
+358,279,2025-01-15,Online,Expedia,Entertainment,345.93,Debit Card,Declined,Miami
+359,127,2025-01-15,ATM,Walmart,Dining,865.34,Credit Card,Pending,Chicago
+360,129,2025-01-15,POS,Expedia,Groceries,159.15,Debit Card,Declined,Houston
+361,58,2025-01-16,POS,Target,Groceries,87.32,Credit Card,Approved,Houston
+362,122,2025-01-16,Online,Costco,Entertainment,487.12,Credit Card,Declined,Seattle
+363,1,2025-01-16,Online,Walmart,Electronics,305.91,Credit Card,Declined,Chicago
+364,239,2025-01-16,POS,Expedia,Entertainment,565.59,Credit Card,Pending,Seattle
+365,290,2025-01-16,ATM,Amazon,Clothing,804.79,Credit Card,Declined,New York
+366,96,2025-01-16,Online,Target,Groceries,141.46,Debit Card,Approved,Los Angeles
+367,126,2025-01-16,Online,Target,Health,582.8,Credit Card,Pending,New York
+368,118,2025-01-16,Online,Amazon,Clothing,507.98,Debit Card,Approved,Chicago
+369,48,2025-01-16,POS,Expedia,Travel,148.36,Debit Card,Pending,Chicago
+370,89,2025-01-16,POS,BestBuy,Dining,625.88,Credit Card,Pending,Los Angeles
+371,237,2025-01-16,POS,Amazon,Clothing,277.27,Debit Card,Declined,Seattle
+372,272,2025-01-16,POS,Expedia,Dining,490.4,Credit Card,Approved,Miami
+373,189,2025-01-16,ATM,Amazon,Entertainment,86.86,Debit Card,Pending,Miami
+374,192,2025-01-16,ATM,Amazon,Clothing,462.29,Debit Card,Declined,Los Angeles
+375,69,2025-01-16,POS,Walmart,Entertainment,309.93,Debit Card,Pending,Miami
+376,278,2025-01-16,ATM,Expedia,Travel,823.27,Credit Card,Pending,Houston
+377,247,2025-01-16,Online,BestBuy,Groceries,61.69,Debit Card,Pending,Miami
+378,76,2025-01-16,Online,Costco,Travel,421.51,Credit Card,Pending,Miami
+379,154,2025-01-16,Online,Walmart,Groceries,461.14,Debit Card,Pending,Miami
+380,144,2025-01-16,POS,Amazon,Entertainment,726.38,Debit Card,Pending,Houston
+381,86,2025-01-16,Online,Costco,Groceries,576.42,Debit Card,Declined,Seattle
+382,185,2025-01-16,ATM,eBay,Dining,668.88,Debit Card,Pending,Miami
+383,285,2025-01-16,POS,Costco,Health,778.16,Credit Card,Approved,San Francisco
+384,220,2025-01-16,ATM,Amazon,Travel,862.89,Credit Card,Declined,Houston
+385,69,2025-01-17,Online,Amazon,Clothing,317.31,Debit Card,Approved,Los Angeles
+386,47,2025-01-17,Online,Expedia,Travel,540.33,Debit Card,Pending,New York
+387,94,2025-01-17,Online,Expedia,Dining,840.91,Credit Card,Approved,Los Angeles
+388,238,2025-01-17,POS,Walmart,Groceries,989.5,Credit Card,Pending,New York
+389,204,2025-01-17,ATM,BestBuy,Dining,890.07,Credit Card,Pending,Los Angeles
+390,218,2025-01-17,POS,Walmart,Electronics,374.61,Credit Card,Declined,San Francisco
+391,39,2025-01-17,POS,Target,Electronics,199.19,Debit Card,Declined,New York
+392,100,2025-01-17,Online,Amazon,Clothing,491.95,Debit Card,Pending,New York
+393,289,2025-01-17,POS,Costco,Dining,742.93,Credit Card,Declined,Chicago
+394,254,2025-01-17,POS,eBay,Entertainment,495.11,Credit Card,Approved,New York
+395,222,2025-01-17,Online,Amazon,Clothing,485.76,Credit Card,Declined,New York
+396,23,2025-01-17,POS,Amazon,Entertainment,839.04,Credit Card,Declined,Chicago
+397,250,2025-01-17,Online,Walmart,Clothing,364.6,Credit Card,Approved,Miami
+398,10,2025-01-17,Online,eBay,Electronics,860.5,Credit Card,Declined,Miami
+399,246,2025-01-17,Online,eBay,Clothing,409.77,Debit Card,Pending,Chicago
+400,100,2025-01-17,Online,eBay,Electronics,331.59,Debit Card,Approved,Houston
+401,290,2025-01-17,POS,Walmart,Groceries,456.72,Debit Card,Pending,New York
+402,180,2025-01-17,Online,Amazon,Entertainment,763.63,Credit Card,Approved,New York
+403,223,2025-01-17,Online,Walmart,Dining,130.37,Credit Card,Pending,Chicago
+404,250,2025-01-17,POS,Expedia,Clothing,200.44,Credit Card,Pending,Chicago
+405,147,2025-01-17,POS,Expedia,Electronics,951.69,Debit Card,Declined,Houston
+406,96,2025-01-17,ATM,Walmart,Travel,179.61,Credit Card,Pending,San Francisco
+407,257,2025-01-17,POS,eBay,Entertainment,569.89,Credit Card,Declined,Miami
+408,4,2025-01-17,POS,Amazon,Clothing,581.42,Debit Card,Approved,Los Angeles
+409,16,2025-01-18,ATM,Walmart,Health,492.18,Credit Card,Pending,San Francisco
+410,280,2025-01-18,POS,Walmart,Groceries,646.52,Debit Card,Pending,Seattle
+411,247,2025-01-18,POS,Walmart,Groceries,233.68,Debit Card,Approved,Miami
+412,258,2025-01-18,POS,Target,Travel,554.9,Credit Card,Approved,New York
+413,160,2025-01-18,POS,Expedia,Electronics,375.31,Debit Card,Pending,Seattle
+414,152,2025-01-18,ATM,Costco,Clothing,663.36,Credit Card,Approved,San Francisco
+415,178,2025-01-18,POS,eBay,Entertainment,145.52,Debit Card,Declined,Chicago
+416,163,2025-01-18,POS,BestBuy,Electronics,573.02,Credit Card,Approved,Houston
+417,33,2025-01-18,ATM,Costco,Groceries,189.34,Debit Card,Approved,Miami
+418,179,2025-01-18,Online,eBay,Electronics,282.25,Credit Card,Pending,Houston
+419,101,2025-01-18,ATM,BestBuy,Groceries,222.62,Debit Card,Declined,Seattle
+420,268,2025-01-18,Online,Target,Electronics,186.92,Debit Card,Approved,Miami
+421,65,2025-01-18,ATM,Walmart,Travel,826.58,Debit Card,Declined,San Francisco
+422,168,2025-01-18,ATM,Target,Dining,289.28,Credit Card,Declined,New York
+423,43,2025-01-18,POS,Target,Travel,927.49,Credit Card,Declined,Los Angeles
+424,44,2025-01-18,Online,Costco,Travel,970.08,Debit Card,Pending,Houston
+425,285,2025-01-18,POS,Amazon,Dining,573.4,Credit Card,Approved,Houston
+426,12,2025-01-18,Online,Costco,Dining,147.29,Debit Card,Pending,Los Angeles
+427,95,2025-01-18,ATM,Expedia,Clothing,377.68,Credit Card,Approved,Houston
+428,253,2025-01-18,ATM,BestBuy,Entertainment,798.74,Debit Card,Approved,Houston
+429,242,2025-01-18,Online,Walmart,Entertainment,370.55,Credit Card,Pending,Miami
+430,35,2025-01-18,POS,Costco,Clothing,91.58,Debit Card,Declined,Miami
+431,215,2025-01-18,POS,BestBuy,Travel,559.0,Debit Card,Declined,Los Angeles
+432,90,2025-01-18,POS,eBay,Travel,845.9,Debit Card,Approved,Seattle
+433,264,2025-01-19,POS,BestBuy,Groceries,796.95,Debit Card,Pending,New York
+434,93,2025-01-19,ATM,eBay,Groceries,179.25,Credit Card,Declined,San Francisco
+435,90,2025-01-19,ATM,Costco,Entertainment,674.4,Debit Card,Declined,San Francisco
+436,115,2025-01-19,ATM,Expedia,Clothing,224.4,Credit Card,Approved,Seattle
+437,105,2025-01-19,ATM,Costco,Health,222.12,Credit Card,Approved,Houston
+438,196,2025-01-19,ATM,eBay,Health,874.7,Debit Card,Pending,New York
+439,114,2025-01-19,POS,BestBuy,Clothing,253.42,Credit Card,Approved,Los Angeles
+440,75,2025-01-19,POS,BestBuy,Groceries,266.93,Credit Card,Declined,Seattle
+441,217,2025-01-19,POS,eBay,Entertainment,5.65,Credit Card,Declined,Los Angeles
+442,277,2025-01-19,POS,Target,Entertainment,871.32,Debit Card,Declined,Miami
+443,249,2025-01-19,ATM,Expedia,Groceries,793.63,Credit Card,Declined,Houston
+444,164,2025-01-19,ATM,Amazon,Health,629.19,Credit Card,Pending,Chicago
+445,192,2025-01-19,ATM,Walmart,Electronics,751.51,Debit Card,Pending,Los Angeles
+446,227,2025-01-19,Online,BestBuy,Electronics,156.29,Debit Card,Approved,Seattle
+447,177,2025-01-19,POS,Walmart,Groceries,461.03,Credit Card,Approved,Houston
+448,99,2025-01-19,POS,Amazon,Electronics,354.46,Debit Card,Approved,New York
+449,36,2025-01-19,ATM,Costco,Dining,98.31,Credit Card,Pending,Seattle
+450,96,2025-01-19,POS,Walmart,Clothing,488.7,Credit Card,Declined,Miami
+451,152,2025-01-19,POS,Amazon,Clothing,921.14,Credit Card,Approved,San Francisco
+452,151,2025-01-19,ATM,eBay,Groceries,44.86,Debit Card,Declined,New York
+453,190,2025-01-19,Online,Target,Travel,295.0,Credit Card,Approved,Los Angeles
+454,224,2025-01-19,Online,BestBuy,Health,211.5,Debit Card,Approved,Los Angeles
+455,37,2025-01-19,Online,Amazon,Groceries,241.96,Debit Card,Approved,New York
+456,268,2025-01-19,ATM,Walmart,Electronics,908.89,Credit Card,Approved,Los Angeles
+457,183,2025-01-20,POS,BestBuy,Health,470.73,Debit Card,Approved,Seattle
+458,13,2025-01-20,ATM,Target,Travel,468.97,Debit Card,Declined,Houston
+459,279,2025-01-20,ATM,eBay,Electronics,761.77,Debit Card,Approved,Los Angeles
+460,217,2025-01-20,POS,Costco,Entertainment,158.72,Debit Card,Declined,Miami
+461,286,2025-01-20,Online,BestBuy,Dining,489.83,Debit Card,Pending,Houston
+462,273,2025-01-20,Online,Costco,Electronics,432.84,Credit Card,Approved,Seattle
+463,62,2025-01-20,ATM,Amazon,Dining,598.93,Debit Card,Declined,Chicago
+464,84,2025-01-20,Online,Target,Health,999.56,Credit Card,Pending,Los Angeles
+465,217,2025-01-20,ATM,Walmart,Dining,770.6,Credit Card,Pending,Los Angeles
+466,187,2025-01-20,ATM,Target,Health,400.88,Credit Card,Pending,Miami
+467,19,2025-01-20,POS,Target,Health,828.42,Credit Card,Declined,Seattle
+468,177,2025-01-20,POS,Expedia,Health,174.85,Credit Card,Approved,Miami
+469,100,2025-01-20,POS,Target,Health,35.31,Credit Card,Approved,San Francisco
+470,233,2025-01-20,ATM,Target,Health,208.43,Debit Card,Declined,Seattle
+471,76,2025-01-20,POS,BestBuy,Electronics,343.71,Debit Card,Approved,New York
+472,265,2025-01-20,Online,Walmart,Health,513.03,Debit Card,Declined,New York
+473,284,2025-01-20,Online,BestBuy,Electronics,617.05,Credit Card,Approved,New York
+474,206,2025-01-20,ATM,BestBuy,Health,911.05,Debit Card,Pending,Miami
+475,223,2025-01-20,ATM,Amazon,Dining,512.3,Debit Card,Approved,New York
+476,52,2025-01-20,POS,BestBuy,Entertainment,503.77,Debit Card,Declined,Seattle
+477,144,2025-01-20,ATM,Expedia,Health,54.99,Credit Card,Declined,New York
+478,69,2025-01-20,ATM,Expedia,Travel,39.74,Debit Card,Pending,Chicago
+479,99,2025-01-20,Online,Costco,Health,553.4,Credit Card,Declined,New York
+480,25,2025-01-20,Online,Amazon,Health,440.99,Debit Card,Approved,Los Angeles
+481,53,2025-01-21,POS,Costco,Dining,839.98,Credit Card,Approved,San Francisco
+482,151,2025-01-21,ATM,Costco,Clothing,164.88,Credit Card,Pending,Miami
+483,144,2025-01-21,ATM,eBay,Dining,29.85,Credit Card,Declined,Houston
+484,57,2025-01-21,Online,Walmart,Travel,451.79,Debit Card,Pending,San Francisco
+485,39,2025-01-21,ATM,Walmart,Clothing,241.29,Debit Card,Approved,Chicago
+486,109,2025-01-21,Online,BestBuy,Groceries,54.37,Credit Card,Pending,Miami
+487,181,2025-01-21,POS,BestBuy,Groceries,725.98,Debit Card,Declined,Seattle
+488,42,2025-01-21,Online,eBay,Travel,116.04,Credit Card,Pending,Miami
+489,186,2025-01-21,ATM,BestBuy,Dining,610.28,Credit Card,Declined,Los Angeles
+490,223,2025-01-21,POS,Walmart,Electronics,284.64,Debit Card,Declined,Seattle
+491,122,2025-01-21,Online,Costco,Travel,177.63,Debit Card,Approved,San Francisco
+492,133,2025-01-21,Online,Target,Entertainment,382.85,Debit Card,Approved,San Francisco
+493,163,2025-01-21,POS,Expedia,Clothing,802.44,Credit Card,Approved,New York
+494,215,2025-01-21,POS,Target,Clothing,395.13,Credit Card,Declined,Seattle
+495,221,2025-01-21,Online,Target,Health,752.02,Debit Card,Pending,Los Angeles
+496,235,2025-01-21,ATM,Walmart,Groceries,129.86,Credit Card,Declined,New York
+497,146,2025-01-21,Online,Target,Clothing,773.91,Debit Card,Approved,New York
+498,239,2025-01-21,POS,eBay,Travel,240.75,Credit Card,Approved,Miami
+499,76,2025-01-21,Online,Amazon,Clothing,679.01,Debit Card,Pending,San Francisco
+500,9,2025-01-21,POS,BestBuy,Travel,567.95,Debit Card,Approved,New York
+501,74,2025-01-21,POS,Amazon,Electronics,929.5,Credit Card,Approved,Chicago
+502,253,2025-01-21,ATM,Costco,Health,390.39,Debit Card,Approved,Chicago
+503,230,2025-01-21,POS,Expedia,Groceries,70.83,Debit Card,Pending,San Francisco
+504,7,2025-01-21,POS,BestBuy,Clothing,24.06,Credit Card,Declined,Chicago
+505,174,2025-01-22,ATM,Target,Travel,827.72,Debit Card,Approved,Miami
+506,141,2025-01-22,POS,Expedia,Dining,527.11,Credit Card,Pending,Los Angeles
+507,168,2025-01-22,ATM,BestBuy,Groceries,776.37,Debit Card,Approved,Houston
+508,170,2025-01-22,ATM,eBay,Electronics,238.25,Credit Card,Pending,New York
+509,283,2025-01-22,POS,eBay,Travel,348.36,Debit Card,Approved,Houston
+510,122,2025-01-22,POS,eBay,Entertainment,34.95,Debit Card,Pending,Los Angeles
+511,194,2025-01-22,Online,eBay,Entertainment,961.68,Debit Card,Approved,Los Angeles
+512,5,2025-01-22,ATM,Target,Health,669.53,Debit Card,Declined,Miami
+513,29,2025-01-22,Online,Amazon,Health,933.54,Credit Card,Approved,Chicago
+514,165,2025-01-22,POS,BestBuy,Electronics,269.17,Credit Card,Pending,Chicago
+515,136,2025-01-22,Online,Target,Electronics,613.41,Credit Card,Approved,Los Angeles
+516,145,2025-01-22,ATM,eBay,Health,680.11,Credit Card,Declined,Miami
+517,217,2025-01-22,Online,Costco,Clothing,320.96,Credit Card,Approved,Miami
+518,132,2025-01-22,ATM,Amazon,Clothing,848.87,Credit Card,Pending,San Francisco
+519,292,2025-01-22,POS,Costco,Travel,947.43,Credit Card,Pending,Seattle
+520,70,2025-01-22,POS,Expedia,Dining,885.43,Debit Card,Declined,New York
+521,252,2025-01-22,ATM,Costco,Travel,740.37,Debit Card,Pending,Seattle
+522,275,2025-01-22,POS,Expedia,Dining,281.08,Debit Card,Approved,Chicago
+523,182,2025-01-22,POS,Expedia,Electronics,285.21,Debit Card,Approved,Los Angeles
+524,167,2025-01-22,POS,eBay,Groceries,963.54,Credit Card,Approved,San Francisco
+525,91,2025-01-22,POS,Expedia,Travel,15.23,Credit Card,Pending,Houston
+526,202,2025-01-22,ATM,Walmart,Travel,717.47,Credit Card,Approved,Chicago
+527,19,2025-01-22,Online,BestBuy,Dining,707.71,Debit Card,Approved,New York
+528,39,2025-01-22,Online,BestBuy,Electronics,624.58,Credit Card,Approved,Miami
+529,126,2025-01-23,POS,eBay,Electronics,990.16,Debit Card,Declined,Los Angeles
+530,173,2025-01-23,Online,Walmart,Entertainment,315.32,Credit Card,Pending,Chicago
+531,141,2025-01-23,Online,Costco,Dining,343.27,Credit Card,Pending,Houston
+532,242,2025-01-23,POS,Target,Electronics,83.54,Credit Card,Pending,New York
+533,220,2025-01-23,POS,Costco,Health,445.58,Credit Card,Declined,New York
+534,126,2025-01-23,Online,Target,Clothing,264.74,Debit Card,Pending,San Francisco
+535,58,2025-01-23,ATM,Expedia,Entertainment,346.67,Debit Card,Declined,Chicago
+536,148,2025-01-23,POS,Amazon,Health,835.4,Credit Card,Declined,Houston
+537,1,2025-01-23,ATM,Target,Groceries,935.81,Debit Card,Pending,New York
+538,190,2025-01-23,Online,Amazon,Travel,189.8,Credit Card,Approved,Los Angeles
+539,191,2025-01-23,POS,BestBuy,Entertainment,375.65,Credit Card,Approved,New York
+540,117,2025-01-23,ATM,Amazon,Groceries,928.99,Credit Card,Pending,Houston
+541,134,2025-01-23,POS,BestBuy,Travel,66.5,Credit Card,Pending,Miami
+542,58,2025-01-23,Online,Walmart,Clothing,96.9,Debit Card,Declined,Miami
+543,44,2025-01-23,ATM,Walmart,Electronics,166.98,Credit Card,Pending,San Francisco
+544,173,2025-01-23,Online,eBay,Health,597.24,Credit Card,Declined,Chicago
+545,160,2025-01-23,Online,eBay,Dining,154.72,Debit Card,Pending,Houston
+546,173,2025-01-23,POS,Expedia,Health,968.24,Credit Card,Approved,San Francisco
+547,149,2025-01-23,ATM,Target,Clothing,449.48,Debit Card,Approved,Seattle
+548,80,2025-01-23,Online,Expedia,Groceries,504.01,Credit Card,Pending,New York
+549,213,2025-01-23,Online,BestBuy,Dining,250.43,Credit Card,Declined,Seattle
+550,203,2025-01-23,ATM,Expedia,Electronics,473.61,Credit Card,Approved,New York
+551,252,2025-01-23,Online,Amazon,Clothing,663.6,Credit Card,Declined,Miami
+552,229,2025-01-23,Online,BestBuy,Dining,752.42,Credit Card,Pending,San Francisco
+553,164,2025-01-24,ATM,eBay,Clothing,755.1,Credit Card,Pending,Miami
+554,227,2025-01-24,ATM,Walmart,Clothing,580.0,Debit Card,Approved,Los Angeles
+555,147,2025-01-24,ATM,eBay,Electronics,904.84,Credit Card,Pending,Seattle
+556,20,2025-01-24,ATM,Target,Entertainment,818.32,Debit Card,Approved,Seattle
+557,47,2025-01-24,POS,BestBuy,Travel,758.26,Debit Card,Declined,Miami
+558,233,2025-01-24,ATM,BestBuy,Dining,60.33,Credit Card,Approved,Los Angeles
+559,14,2025-01-24,POS,Amazon,Electronics,11.84,Debit Card,Approved,New York
+560,143,2025-01-24,POS,Target,Clothing,216.39,Credit Card,Declined,San Francisco
+561,1,2025-01-24,POS,Walmart,Electronics,665.21,Debit Card,Approved,Los Angeles
+562,54,2025-01-24,Online,Costco,Entertainment,414.14,Credit Card,Approved,San Francisco
+563,259,2025-01-24,POS,BestBuy,Travel,405.39,Debit Card,Pending,Seattle
+564,144,2025-01-24,POS,BestBuy,Health,885.16,Debit Card,Declined,San Francisco
+565,12,2025-01-24,Online,Amazon,Dining,896.09,Credit Card,Approved,Seattle
+566,224,2025-01-24,Online,Expedia,Travel,909.63,Debit Card,Declined,Los Angeles
+567,272,2025-01-24,Online,Walmart,Groceries,317.31,Credit Card,Declined,Seattle
+568,156,2025-01-24,ATM,eBay,Dining,692.6,Credit Card,Approved,Chicago
+569,8,2025-01-24,Online,Target,Travel,275.28,Credit Card,Pending,Seattle
+570,122,2025-01-24,Online,BestBuy,Clothing,194.66,Credit Card,Declined,Miami
+571,164,2025-01-24,POS,BestBuy,Dining,188.71,Credit Card,Approved,Los Angeles
+572,90,2025-01-24,Online,eBay,Dining,345.4,Debit Card,Declined,New York
+573,136,2025-01-24,ATM,Walmart,Electronics,432.81,Debit Card,Pending,San Francisco
+574,186,2025-01-24,Online,Expedia,Clothing,831.79,Debit Card,Pending,Houston
+575,178,2025-01-24,ATM,BestBuy,Groceries,124.29,Credit Card,Pending,Los Angeles
+576,28,2025-01-24,Online,Walmart,Health,736.25,Debit Card,Approved,Miami
+577,220,2025-01-25,Online,eBay,Entertainment,533.8,Debit Card,Approved,Seattle
+578,41,2025-01-25,Online,Amazon,Travel,291.51,Debit Card,Pending,San Francisco
+579,228,2025-01-25,Online,Expedia,Electronics,495.36,Debit Card,Approved,Chicago
+580,192,2025-01-25,ATM,Target,Travel,303.44,Debit Card,Pending,New York
+581,145,2025-01-25,ATM,BestBuy,Groceries,598.1,Credit Card,Approved,Chicago
+582,201,2025-01-25,POS,Walmart,Groceries,436.67,Credit Card,Pending,Houston
+583,212,2025-01-25,ATM,Amazon,Dining,168.58,Debit Card,Declined,Los Angeles
+584,220,2025-01-25,Online,Target,Entertainment,121.0,Credit Card,Pending,San Francisco
+585,240,2025-01-25,POS,Costco,Groceries,548.96,Credit Card,Pending,Los Angeles
+586,46,2025-01-25,POS,Walmart,Travel,902.9,Debit Card,Approved,Miami
+587,35,2025-01-25,POS,Walmart,Clothing,347.24,Debit Card,Approved,Los Angeles
+588,253,2025-01-25,Online,Target,Clothing,734.34,Credit Card,Approved,New York
+589,82,2025-01-25,ATM,Amazon,Dining,660.37,Debit Card,Approved,Houston
+590,256,2025-01-25,Online,Costco,Health,931.9,Credit Card,Approved,Chicago
+591,197,2025-01-25,POS,eBay,Travel,821.88,Credit Card,Approved,Houston
+592,10,2025-01-25,Online,Amazon,Travel,568.77,Debit Card,Declined,San Francisco
+593,286,2025-01-25,Online,Expedia,Groceries,658.75,Credit Card,Pending,Los Angeles
+594,242,2025-01-25,ATM,BestBuy,Entertainment,898.89,Credit Card,Pending,San Francisco
+595,251,2025-01-25,ATM,Target,Travel,402.52,Credit Card,Pending,Chicago
+596,5,2025-01-25,POS,eBay,Electronics,330.16,Debit Card,Declined,San Francisco
+597,119,2025-01-25,Online,Costco,Health,15.76,Debit Card,Pending,Miami
+598,289,2025-01-25,Online,Target,Groceries,827.42,Debit Card,Declined,Houston
+599,65,2025-01-25,ATM,Target,Electronics,801.98,Debit Card,Declined,Chicago
+600,146,2025-01-25,Online,Amazon,Dining,108.93,Credit Card,Declined,Chicago
+601,224,2025-01-26,Online,BestBuy,Clothing,578.97,Debit Card,Pending,Seattle
+602,239,2025-01-26,Online,Expedia,Dining,466.66,Debit Card,Declined,Chicago
+603,177,2025-01-26,ATM,Walmart,Clothing,123.12,Debit Card,Pending,Seattle
+604,267,2025-01-26,POS,Walmart,Dining,980.67,Debit Card,Pending,New York
+605,282,2025-01-26,POS,Target,Travel,218.62,Credit Card,Approved,Seattle
+606,63,2025-01-26,Online,BestBuy,Electronics,71.9,Credit Card,Approved,Houston
+607,217,2025-01-26,POS,Costco,Clothing,596.87,Credit Card,Declined,San Francisco
+608,283,2025-01-26,ATM,Costco,Groceries,740.17,Debit Card,Declined,Seattle
+609,177,2025-01-26,ATM,eBay,Electronics,37.28,Debit Card,Pending,Chicago
+610,98,2025-01-26,POS,Amazon,Groceries,660.42,Credit Card,Declined,Houston
+611,105,2025-01-26,POS,BestBuy,Electronics,534.63,Debit Card,Declined,Seattle
+612,99,2025-01-26,Online,BestBuy,Electronics,107.75,Debit Card,Pending,Seattle
+613,6,2025-01-26,POS,Amazon,Dining,176.66,Credit Card,Declined,Chicago
+614,197,2025-01-26,Online,Costco,Clothing,570.13,Credit Card,Declined,Miami
+615,133,2025-01-26,Online,Costco,Clothing,299.88,Debit Card,Pending,Miami
+616,259,2025-01-26,ATM,Costco,Entertainment,938.62,Debit Card,Pending,Seattle
+617,23,2025-01-26,ATM,Target,Electronics,819.65,Debit Card,Approved,Miami
+618,53,2025-01-26,ATM,BestBuy,Travel,983.65,Credit Card,Pending,Los Angeles
+619,165,2025-01-26,ATM,Walmart,Travel,263.37,Credit Card,Approved,Chicago
+620,202,2025-01-26,POS,Amazon,Groceries,969.88,Credit Card,Declined,Los Angeles
+621,83,2025-01-26,ATM,Costco,Groceries,434.08,Credit Card,Pending,Houston
+622,145,2025-01-26,POS,eBay,Dining,350.78,Debit Card,Pending,Los Angeles
+623,85,2025-01-26,ATM,Costco,Electronics,55.1,Credit Card,Pending,Houston
+624,78,2025-01-26,POS,Costco,Groceries,57.5,Credit Card,Declined,Seattle
+625,1,2025-01-27,Online,Expedia,Groceries,693.55,Debit Card,Approved,Houston
+626,51,2025-01-27,POS,Target,Health,460.64,Debit Card,Declined,Houston
+627,173,2025-01-27,POS,Amazon,Electronics,230.39,Debit Card,Declined,San Francisco
+628,205,2025-01-27,ATM,Expedia,Dining,615.9,Credit Card,Pending,Los Angeles
+629,260,2025-01-27,POS,Expedia,Groceries,256.59,Debit Card,Approved,San Francisco
+630,288,2025-01-27,Online,eBay,Dining,579.74,Debit Card,Declined,Seattle
+631,34,2025-01-27,Online,BestBuy,Clothing,362.41,Credit Card,Pending,Chicago
+632,95,2025-01-27,ATM,eBay,Dining,824.43,Credit Card,Declined,Los Angeles
+633,72,2025-01-27,Online,BestBuy,Travel,821.59,Debit Card,Declined,Chicago
+634,39,2025-01-27,POS,BestBuy,Travel,479.96,Credit Card,Pending,Chicago
+635,154,2025-01-27,Online,Amazon,Dining,354.07,Debit Card,Pending,Houston
+636,250,2025-01-27,ATM,Costco,Travel,365.75,Debit Card,Approved,Los Angeles
+637,162,2025-01-27,POS,Amazon,Clothing,806.69,Credit Card,Declined,Chicago
+638,118,2025-01-27,ATM,Target,Electronics,331.54,Debit Card,Pending,Miami
+639,259,2025-01-27,POS,BestBuy,Travel,213.01,Credit Card,Pending,Chicago
+640,268,2025-01-27,Online,Expedia,Travel,89.26,Credit Card,Approved,Miami
+641,54,2025-01-27,ATM,Costco,Dining,469.36,Credit Card,Approved,Los Angeles
+642,236,2025-01-27,ATM,Walmart,Clothing,484.72,Debit Card,Pending,Seattle
+643,222,2025-01-27,POS,Target,Entertainment,841.7,Credit Card,Approved,San Francisco
+644,251,2025-01-27,ATM,Amazon,Entertainment,225.13,Credit Card,Pending,Los Angeles
+645,112,2025-01-27,POS,eBay,Entertainment,384.09,Debit Card,Declined,San Francisco
+646,255,2025-01-27,POS,Target,Entertainment,809.36,Debit Card,Approved,San Francisco
+647,207,2025-01-27,POS,Target,Electronics,824.51,Debit Card,Declined,Los Angeles
+648,229,2025-01-27,POS,Costco,Dining,387.69,Debit Card,Declined,Chicago
+649,66,2025-01-28,Online,Target,Dining,461.83,Credit Card,Declined,New York
+650,75,2025-01-28,POS,Target,Health,306.77,Credit Card,Pending,Chicago
+651,103,2025-01-28,ATM,Walmart,Clothing,932.89,Credit Card,Declined,Chicago
+652,192,2025-01-28,Online,eBay,Entertainment,123.05,Debit Card,Declined,Seattle
+653,252,2025-01-28,ATM,eBay,Electronics,934.08,Debit Card,Declined,Houston
+654,226,2025-01-28,Online,eBay,Clothing,685.45,Credit Card,Pending,Houston
+655,294,2025-01-28,POS,BestBuy,Entertainment,533.91,Debit Card,Declined,Chicago
+656,98,2025-01-28,Online,Expedia,Electronics,37.5,Debit Card,Declined,Miami
+657,286,2025-01-28,Online,eBay,Clothing,478.22,Credit Card,Approved,Seattle
+658,249,2025-01-28,ATM,Target,Dining,410.71,Credit Card,Pending,San Francisco
+659,166,2025-01-28,ATM,Target,Dining,165.41,Debit Card,Declined,Houston
+660,30,2025-01-28,POS,eBay,Groceries,658.13,Debit Card,Approved,Chicago
+661,247,2025-01-28,Online,Costco,Travel,971.3,Debit Card,Pending,Seattle
+662,106,2025-01-28,Online,eBay,Entertainment,564.38,Credit Card,Pending,New York
+663,51,2025-01-28,Online,Target,Health,716.18,Credit Card,Pending,Miami
+664,81,2025-01-28,POS,BestBuy,Clothing,73.11,Credit Card,Pending,Los Angeles
+665,133,2025-01-28,POS,Amazon,Health,420.58,Credit Card,Pending,Chicago
+666,285,2025-01-28,POS,Amazon,Groceries,120.78,Credit Card,Pending,Seattle
+667,138,2025-01-28,POS,eBay,Travel,614.73,Debit Card,Declined,Chicago
+668,184,2025-01-28,POS,Walmart,Clothing,938.79,Debit Card,Declined,San Francisco
+669,273,2025-01-28,ATM,eBay,Electronics,663.47,Debit Card,Declined,Miami
+670,69,2025-01-28,Online,Costco,Entertainment,81.42,Credit Card,Declined,Houston
+671,34,2025-01-28,Online,eBay,Travel,357.89,Credit Card,Approved,Houston
+672,262,2025-01-28,Online,Amazon,Dining,552.91,Credit Card,Declined,Houston
+673,53,2025-01-29,Online,Target,Groceries,406.19,Debit Card,Pending,Los Angeles
+674,205,2025-01-29,Online,eBay,Travel,834.48,Credit Card,Declined,Seattle
+675,126,2025-01-29,Online,Target,Entertainment,815.6,Credit Card,Declined,Miami
+676,235,2025-01-29,Online,Target,Travel,613.77,Debit Card,Pending,Miami
+677,43,2025-01-29,Online,Walmart,Entertainment,376.59,Credit Card,Declined,Houston
+678,240,2025-01-29,ATM,Target,Dining,259.06,Debit Card,Declined,Houston
+679,111,2025-01-29,Online,Amazon,Clothing,110.34,Credit Card,Declined,San Francisco
+680,249,2025-01-29,ATM,BestBuy,Electronics,358.12,Credit Card,Approved,New York
+681,151,2025-01-29,POS,BestBuy,Dining,416.11,Debit Card,Declined,New York
+682,183,2025-01-29,Online,Expedia,Electronics,677.44,Debit Card,Pending,Chicago
+683,95,2025-01-29,POS,Costco,Clothing,659.87,Debit Card,Pending,Chicago
+684,8,2025-01-29,POS,eBay,Travel,74.76,Debit Card,Declined,Miami
+685,184,2025-01-29,POS,Costco,Electronics,398.28,Debit Card,Declined,Miami
+686,281,2025-01-29,ATM,Amazon,Groceries,185.87,Debit Card,Declined,Los Angeles
+687,195,2025-01-29,POS,Target,Groceries,161.03,Credit Card,Pending,Los Angeles
+688,195,2025-01-29,POS,BestBuy,Entertainment,828.17,Credit Card,Pending,New York
+689,155,2025-01-29,POS,Costco,Dining,46.71,Debit Card,Approved,Chicago
+690,93,2025-01-29,Online,Amazon,Clothing,422.09,Credit Card,Approved,New York
+691,160,2025-01-29,Online,BestBuy,Entertainment,172.36,Debit Card,Approved,New York
+692,61,2025-01-29,ATM,Target,Dining,879.93,Credit Card,Pending,Chicago
+693,122,2025-01-29,ATM,Costco,Dining,559.26,Debit Card,Approved,Seattle
+694,51,2025-01-29,Online,BestBuy,Entertainment,235.22,Credit Card,Declined,Los Angeles
+695,277,2025-01-29,ATM,eBay,Health,504.92,Credit Card,Declined,San Francisco
+696,5,2025-01-29,Online,eBay,Dining,732.83,Credit Card,Pending,San Francisco
+697,92,2025-01-30,POS,Expedia,Health,958.33,Credit Card,Approved,San Francisco
+698,170,2025-01-30,POS,Expedia,Groceries,224.34,Credit Card,Declined,Chicago
+699,22,2025-01-30,ATM,BestBuy,Groceries,886.75,Debit Card,Pending,Houston
+700,1,2025-01-30,Online,Amazon,Dining,934.63,Debit Card,Approved,Houston
+701,133,2025-01-30,Online,eBay,Groceries,916.84,Debit Card,Declined,Houston
+702,233,2025-01-30,ATM,Amazon,Clothing,637.24,Credit Card,Approved,Miami
+703,12,2025-01-30,Online,Amazon,Health,631.67,Debit Card,Pending,Los Angeles
+704,46,2025-01-30,POS,BestBuy,Health,406.19,Credit Card,Approved,Los Angeles
+705,34,2025-01-30,ATM,Amazon,Dining,753.64,Credit Card,Pending,Seattle
+706,78,2025-01-30,ATM,eBay,Groceries,533.64,Credit Card,Approved,Seattle
+707,218,2025-01-30,Online,Target,Electronics,679.05,Debit Card,Declined,Miami
+708,73,2025-01-30,ATM,Expedia,Entertainment,431.32,Credit Card,Pending,New York
+709,282,2025-01-30,Online,Target,Entertainment,732.84,Debit Card,Pending,Seattle
+710,249,2025-01-30,Online,Amazon,Health,825.35,Debit Card,Pending,San Francisco
+711,47,2025-01-30,Online,Target,Dining,150.7,Credit Card,Approved,Houston
+712,121,2025-01-30,Online,eBay,Dining,833.77,Credit Card,Approved,San Francisco
+713,214,2025-01-30,Online,eBay,Clothing,542.6,Debit Card,Declined,Houston
+714,239,2025-01-30,ATM,Amazon,Travel,845.44,Debit Card,Pending,San Francisco
+715,56,2025-01-30,POS,BestBuy,Travel,434.15,Debit Card,Pending,New York
+716,107,2025-01-30,POS,Target,Health,382.15,Debit Card,Approved,San Francisco
+717,48,2025-01-30,ATM,BestBuy,Entertainment,915.49,Debit Card,Approved,San Francisco
+718,61,2025-01-30,ATM,BestBuy,Clothing,254.91,Debit Card,Declined,Chicago
+719,26,2025-01-30,POS,Walmart,Clothing,844.99,Credit Card,Declined,San Francisco
+720,292,2025-01-30,POS,Amazon,Clothing,486.6,Debit Card,Approved,Chicago
+721,257,2025-01-31,POS,Expedia,Health,516.52,Debit Card,Pending,Los Angeles
+722,8,2025-01-31,POS,eBay,Travel,311.93,Debit Card,Declined,Miami
+723,113,2025-01-31,POS,eBay,Entertainment,575.18,Debit Card,Approved,San Francisco
+724,253,2025-01-31,Online,Amazon,Clothing,328.59,Credit Card,Approved,Los Angeles
+725,180,2025-01-31,ATM,Costco,Entertainment,44.07,Credit Card,Pending,Seattle
+726,207,2025-01-31,Online,Costco,Groceries,275.64,Debit Card,Approved,Seattle
+727,127,2025-01-31,POS,Costco,Dining,11.35,Debit Card,Approved,Chicago
+728,56,2025-01-31,POS,Expedia,Dining,978.46,Debit Card,Declined,San Francisco
+729,214,2025-01-31,POS,eBay,Entertainment,965.92,Credit Card,Approved,San Francisco
+730,14,2025-01-31,Online,Amazon,Electronics,398.18,Credit Card,Approved,New York
+731,28,2025-01-31,Online,eBay,Electronics,729.73,Credit Card,Declined,Los Angeles
+732,78,2025-01-31,POS,BestBuy,Health,349.08,Credit Card,Pending,Houston
+733,216,2025-01-31,Online,Target,Health,672.74,Credit Card,Pending,Houston
+734,154,2025-01-31,Online,Target,Dining,806.4,Credit Card,Declined,New York
+735,14,2025-01-31,POS,eBay,Groceries,947.02,Debit Card,Declined,Chicago
+736,187,2025-01-31,Online,Walmart,Travel,403.21,Credit Card,Pending,Houston
+737,7,2025-01-31,ATM,Expedia,Travel,784.38,Credit Card,Pending,Houston
+738,3,2025-01-31,ATM,Costco,Health,269.6,Debit Card,Pending,Seattle
+739,111,2025-01-31,ATM,Expedia,Groceries,990.38,Credit Card,Pending,Seattle
+740,238,2025-01-31,ATM,Expedia,Health,30.64,Debit Card,Pending,Miami
+741,239,2025-01-31,POS,BestBuy,Travel,605.51,Credit Card,Declined,Los Angeles
+742,274,2025-01-31,POS,Expedia,Entertainment,661.21,Debit Card,Approved,Chicago
+743,294,2025-01-31,POS,Target,Health,689.61,Debit Card,Pending,San Francisco
+744,227,2025-01-31,ATM,BestBuy,Clothing,124.79,Debit Card,Pending,Los Angeles
+745,15,2025-02-01,ATM,Amazon,Entertainment,938.84,Debit Card,Approved,Chicago
+746,192,2025-02-01,Online,Expedia,Health,185.28,Debit Card,Approved,Houston
+747,119,2025-02-01,Online,Expedia,Dining,624.64,Credit Card,Approved,Miami
+748,28,2025-02-01,ATM,Amazon,Health,226.56,Credit Card,Approved,Los Angeles
+749,202,2025-02-01,ATM,Expedia,Dining,310.68,Debit Card,Approved,Houston
+750,39,2025-02-01,ATM,Amazon,Groceries,548.73,Debit Card,Approved,Chicago
+751,273,2025-02-01,ATM,BestBuy,Travel,420.11,Debit Card,Declined,Los Angeles
+752,231,2025-02-01,Online,Target,Entertainment,164.42,Credit Card,Approved,San Francisco
+753,86,2025-02-01,ATM,Amazon,Entertainment,175.08,Debit Card,Approved,Los Angeles
+754,126,2025-02-01,Online,Walmart,Electronics,421.05,Debit Card,Declined,Houston
+755,300,2025-02-01,ATM,Amazon,Electronics,758.5,Debit Card,Approved,Los Angeles
+756,25,2025-02-01,ATM,Expedia,Travel,898.47,Debit Card,Pending,San Francisco
+757,145,2025-02-01,ATM,Costco,Electronics,88.71,Credit Card,Pending,Miami
+758,13,2025-02-01,Online,Costco,Entertainment,396.14,Debit Card,Approved,Miami
+759,212,2025-02-01,Online,BestBuy,Health,104.74,Debit Card,Declined,Houston
+760,25,2025-02-01,POS,eBay,Groceries,21.51,Credit Card,Pending,Chicago
+761,68,2025-02-01,ATM,BestBuy,Groceries,663.41,Debit Card,Declined,Houston
+762,67,2025-02-01,POS,eBay,Travel,604.44,Debit Card,Pending,Miami
+763,233,2025-02-01,POS,Costco,Electronics,167.2,Credit Card,Approved,New York
+764,109,2025-02-01,Online,Costco,Health,237.64,Credit Card,Declined,New York
+765,146,2025-02-01,Online,Amazon,Groceries,28.59,Credit Card,Declined,Los Angeles
+766,111,2025-02-01,POS,Target,Groceries,835.77,Debit Card,Declined,San Francisco
+767,228,2025-02-01,ATM,Walmart,Clothing,974.82,Debit Card,Pending,Seattle
+768,111,2025-02-01,Online,BestBuy,Clothing,139.78,Credit Card,Pending,Seattle
+769,34,2025-02-02,ATM,Expedia,Entertainment,235.32,Credit Card,Pending,Seattle
+770,111,2025-02-02,ATM,eBay,Groceries,869.07,Credit Card,Approved,Los Angeles
+771,264,2025-02-02,POS,Expedia,Travel,926.83,Debit Card,Pending,New York
+772,236,2025-02-02,POS,Target,Dining,422.53,Debit Card,Approved,Miami
+773,83,2025-02-02,POS,eBay,Dining,55.37,Credit Card,Declined,Los Angeles
+774,42,2025-02-02,POS,BestBuy,Health,44.19,Debit Card,Declined,Seattle
+775,101,2025-02-02,Online,Amazon,Groceries,576.08,Credit Card,Approved,Seattle
+776,6,2025-02-02,Online,Expedia,Groceries,395.93,Debit Card,Pending,Houston
+777,180,2025-02-02,POS,Target,Entertainment,33.51,Debit Card,Approved,Seattle
+778,282,2025-02-02,Online,BestBuy,Groceries,585.34,Debit Card,Declined,San Francisco
+779,226,2025-02-02,POS,Costco,Travel,16.25,Debit Card,Declined,Seattle
+780,229,2025-02-02,ATM,Costco,Clothing,788.44,Credit Card,Approved,Houston
+781,289,2025-02-02,ATM,BestBuy,Groceries,309.9,Debit Card,Pending,Seattle
+782,150,2025-02-02,ATM,BestBuy,Groceries,45.06,Debit Card,Pending,San Francisco
+783,277,2025-02-02,POS,BestBuy,Entertainment,590.41,Credit Card,Approved,Miami
+784,198,2025-02-02,ATM,eBay,Electronics,400.7,Debit Card,Approved,Los Angeles
+785,70,2025-02-02,Online,BestBuy,Entertainment,973.93,Credit Card,Pending,San Francisco
+786,112,2025-02-02,ATM,Expedia,Entertainment,546.48,Credit Card,Declined,Houston
+787,4,2025-02-02,ATM,Target,Travel,278.86,Debit Card,Approved,Los Angeles
+788,95,2025-02-02,ATM,eBay,Health,710.89,Debit Card,Pending,Los Angeles
+789,152,2025-02-02,Online,BestBuy,Groceries,275.13,Credit Card,Pending,Houston
+790,137,2025-02-02,POS,Walmart,Entertainment,904.72,Credit Card,Declined,New York
+791,247,2025-02-02,Online,Walmart,Entertainment,377.85,Credit Card,Declined,Seattle
+792,243,2025-02-02,POS,Target,Electronics,552.12,Debit Card,Declined,San Francisco
+793,31,2025-02-03,POS,Costco,Entertainment,55.32,Credit Card,Declined,Houston
+794,40,2025-02-03,ATM,Amazon,Dining,428.99,Credit Card,Declined,Miami
+795,229,2025-02-03,POS,Amazon,Health,833.2,Credit Card,Approved,Chicago
+796,36,2025-02-03,Online,Costco,Groceries,806.62,Debit Card,Pending,Houston
+797,223,2025-02-03,Online,eBay,Groceries,228.2,Credit Card,Approved,Seattle
+798,6,2025-02-03,POS,eBay,Electronics,229.95,Debit Card,Approved,Seattle
+799,220,2025-02-03,ATM,eBay,Travel,818.22,Debit Card,Approved,Los Angeles
+800,75,2025-02-03,ATM,Amazon,Groceries,930.75,Credit Card,Approved,Los Angeles
+801,4,2025-02-03,Online,Walmart,Dining,99.88,Debit Card,Approved,Houston
+802,134,2025-02-03,ATM,Amazon,Groceries,452.81,Credit Card,Declined,Chicago
+803,118,2025-02-03,POS,Expedia,Dining,340.77,Debit Card,Declined,Houston
+804,94,2025-02-03,POS,BestBuy,Health,871.34,Debit Card,Pending,Chicago
+805,62,2025-02-03,Online,eBay,Health,88.11,Credit Card,Approved,Chicago
+806,194,2025-02-03,POS,Walmart,Clothing,215.07,Credit Card,Pending,Seattle
+807,203,2025-02-03,Online,Target,Clothing,753.71,Credit Card,Declined,Seattle
+808,26,2025-02-03,POS,Target,Dining,56.04,Debit Card,Declined,Seattle
+809,173,2025-02-03,Online,BestBuy,Travel,495.07,Debit Card,Declined,Miami
+810,300,2025-02-03,ATM,Walmart,Groceries,444.9,Credit Card,Approved,Seattle
+811,133,2025-02-03,POS,Amazon,Entertainment,337.73,Credit Card,Approved,San Francisco
+812,118,2025-02-03,POS,Amazon,Groceries,397.6,Debit Card,Declined,Los Angeles
+813,275,2025-02-03,Online,Expedia,Clothing,532.29,Debit Card,Pending,Los Angeles
+814,212,2025-02-03,Online,Expedia,Entertainment,165.56,Debit Card,Pending,Chicago
+815,225,2025-02-03,POS,Amazon,Dining,574.14,Credit Card,Declined,Los Angeles
+816,20,2025-02-03,Online,Target,Entertainment,806.41,Debit Card,Pending,New York
+817,113,2025-02-04,POS,eBay,Groceries,761.36,Credit Card,Declined,Chicago
+818,140,2025-02-04,ATM,Target,Groceries,158.13,Debit Card,Pending,Los Angeles
+819,47,2025-02-04,Online,Expedia,Travel,153.5,Debit Card,Declined,New York
+820,1,2025-02-04,POS,BestBuy,Electronics,271.83,Credit Card,Pending,Miami
+821,90,2025-02-04,ATM,Amazon,Entertainment,364.27,Credit Card,Approved,Los Angeles
+822,142,2025-02-04,ATM,Expedia,Clothing,411.41,Credit Card,Declined,New York
+823,38,2025-02-04,POS,Expedia,Clothing,681.3,Debit Card,Declined,Houston
+824,293,2025-02-04,Online,eBay,Electronics,61.4,Debit Card,Pending,San Francisco
+825,139,2025-02-04,POS,Amazon,Groceries,39.5,Debit Card,Declined,Houston
+826,259,2025-02-04,ATM,eBay,Travel,394.95,Credit Card,Declined,New York
+827,161,2025-02-04,POS,Amazon,Travel,698.68,Debit Card,Declined,Chicago
+828,178,2025-02-04,Online,eBay,Clothing,197.47,Credit Card,Approved,Seattle
+829,10,2025-02-04,ATM,Target,Travel,643.3,Credit Card,Approved,Seattle
+830,261,2025-02-04,POS,BestBuy,Health,263.53,Credit Card,Pending,Seattle
+831,138,2025-02-04,Online,BestBuy,Electronics,886.66,Debit Card,Approved,Chicago
+832,172,2025-02-04,ATM,Amazon,Groceries,896.21,Debit Card,Pending,Los Angeles
+833,13,2025-02-04,Online,Walmart,Health,300.8,Credit Card,Approved,Seattle
+834,168,2025-02-04,ATM,Costco,Electronics,233.84,Debit Card,Pending,Houston
+835,130,2025-02-04,POS,Expedia,Dining,414.25,Credit Card,Approved,Chicago
+836,84,2025-02-04,Online,Expedia,Entertainment,244.33,Credit Card,Approved,Chicago
+837,101,2025-02-04,ATM,Amazon,Clothing,674.02,Debit Card,Pending,Seattle
+838,273,2025-02-04,Online,eBay,Travel,826.93,Credit Card,Declined,Houston
+839,265,2025-02-04,Online,Walmart,Dining,674.73,Credit Card,Declined,Miami
+840,38,2025-02-04,POS,Target,Travel,825.23,Debit Card,Approved,Chicago
+841,94,2025-02-05,Online,eBay,Health,400.01,Credit Card,Pending,Seattle
+842,95,2025-02-05,ATM,eBay,Groceries,160.54,Credit Card,Declined,San Francisco
+843,69,2025-02-05,ATM,Amazon,Groceries,739.26,Credit Card,Pending,New York
+844,236,2025-02-05,ATM,Amazon,Groceries,363.67,Credit Card,Declined,Los Angeles
+845,137,2025-02-05,ATM,Expedia,Travel,672.91,Credit Card,Pending,Chicago
+846,76,2025-02-05,POS,Amazon,Dining,274.29,Credit Card,Approved,San Francisco
+847,35,2025-02-05,Online,Amazon,Groceries,85.82,Credit Card,Pending,San Francisco
+848,1,2025-02-05,POS,Amazon,Dining,992.62,Debit Card,Declined,Chicago
+849,296,2025-02-05,Online,Expedia,Travel,160.42,Debit Card,Approved,Miami
+850,60,2025-02-05,Online,Target,Health,988.48,Credit Card,Pending,New York
+851,267,2025-02-05,Online,Target,Dining,977.39,Credit Card,Declined,Los Angeles
+852,229,2025-02-05,POS,Costco,Health,794.85,Debit Card,Approved,Chicago
+853,270,2025-02-05,Online,Costco,Travel,661.13,Debit Card,Pending,Los Angeles
+854,286,2025-02-05,POS,Amazon,Travel,579.92,Debit Card,Declined,Houston
+855,291,2025-02-05,ATM,Costco,Clothing,866.77,Debit Card,Pending,San Francisco
+856,213,2025-02-05,ATM,Expedia,Travel,292.99,Debit Card,Pending,San Francisco
+857,165,2025-02-05,Online,Target,Travel,470.34,Credit Card,Approved,Chicago
+858,5,2025-02-05,POS,eBay,Electronics,621.29,Debit Card,Approved,Chicago
+859,78,2025-02-05,ATM,Target,Groceries,414.13,Debit Card,Declined,Houston
+860,62,2025-02-05,POS,Target,Clothing,430.35,Debit Card,Approved,Miami
+861,132,2025-02-05,POS,Expedia,Entertainment,333.63,Credit Card,Declined,Chicago
+862,89,2025-02-05,Online,Costco,Clothing,566.41,Credit Card,Pending,San Francisco
+863,237,2025-02-05,ATM,eBay,Clothing,851.32,Credit Card,Pending,Los Angeles
+864,42,2025-02-05,Online,Expedia,Entertainment,205.52,Credit Card,Declined,New York
+865,89,2025-02-06,Online,Amazon,Electronics,934.76,Credit Card,Pending,Seattle
+866,296,2025-02-06,ATM,BestBuy,Health,690.64,Credit Card,Approved,Los Angeles
+867,295,2025-02-06,ATM,Target,Travel,824.16,Debit Card,Pending,Miami
+868,104,2025-02-06,POS,BestBuy,Groceries,558.41,Credit Card,Approved,New York
+869,14,2025-02-06,ATM,Expedia,Dining,780.62,Credit Card,Declined,Los Angeles
+870,288,2025-02-06,POS,Expedia,Entertainment,21.12,Debit Card,Declined,Los Angeles
+871,179,2025-02-06,POS,Expedia,Health,819.29,Credit Card,Pending,Houston
+872,125,2025-02-06,POS,BestBuy,Entertainment,44.94,Debit Card,Pending,Seattle
+873,23,2025-02-06,ATM,Expedia,Travel,890.46,Debit Card,Approved,Miami
+874,63,2025-02-06,Online,Amazon,Electronics,992.0,Credit Card,Approved,San Francisco
+875,143,2025-02-06,POS,Expedia,Entertainment,297.6,Debit Card,Pending,Houston
+876,153,2025-02-06,Online,Walmart,Travel,214.27,Debit Card,Pending,New York
+877,145,2025-02-06,Online,Costco,Travel,766.54,Debit Card,Declined,Seattle
+878,225,2025-02-06,ATM,BestBuy,Electronics,256.76,Debit Card,Declined,San Francisco
+879,104,2025-02-06,Online,Walmart,Clothing,866.23,Credit Card,Declined,Houston
+880,104,2025-02-06,Online,Expedia,Clothing,107.33,Debit Card,Pending,Seattle
+881,39,2025-02-06,ATM,Amazon,Groceries,130.33,Credit Card,Pending,Miami
+882,198,2025-02-06,POS,Target,Groceries,979.26,Debit Card,Pending,Chicago
+883,134,2025-02-06,Online,eBay,Clothing,675.47,Debit Card,Declined,Chicago
+884,67,2025-02-06,ATM,Costco,Health,847.65,Debit Card,Pending,New York
+885,179,2025-02-06,Online,eBay,Dining,327.71,Credit Card,Approved,Chicago
+886,42,2025-02-06,Online,Expedia,Travel,678.1,Credit Card,Pending,Houston
+887,15,2025-02-06,POS,Costco,Dining,596.27,Credit Card,Pending,New York
+888,111,2025-02-06,Online,Costco,Travel,605.13,Debit Card,Pending,San Francisco
+889,157,2025-02-07,ATM,Amazon,Clothing,684.12,Debit Card,Pending,Miami
+890,289,2025-02-07,Online,Costco,Groceries,577.48,Debit Card,Pending,New York
+891,231,2025-02-07,POS,BestBuy,Health,431.92,Debit Card,Approved,San Francisco
+892,157,2025-02-07,POS,Walmart,Groceries,279.54,Credit Card,Approved,New York
+893,38,2025-02-07,ATM,Walmart,Dining,769.74,Debit Card,Pending,Los Angeles
+894,97,2025-02-07,POS,Walmart,Groceries,230.14,Credit Card,Declined,Los Angeles
+895,289,2025-02-07,Online,BestBuy,Clothing,693.89,Debit Card,Pending,New York
+896,254,2025-02-07,POS,eBay,Health,237.17,Credit Card,Pending,Seattle
+897,196,2025-02-07,ATM,Amazon,Dining,627.2,Credit Card,Pending,Chicago
+898,86,2025-02-07,POS,Costco,Health,748.34,Debit Card,Declined,Los Angeles
+899,10,2025-02-07,POS,BestBuy,Travel,222.62,Debit Card,Declined,Seattle
+900,5,2025-02-07,POS,Walmart,Groceries,64.64,Credit Card,Declined,Seattle
+901,123,2025-02-07,ATM,Expedia,Health,135.32,Debit Card,Approved,Miami
+902,118,2025-02-07,POS,Target,Electronics,607.97,Debit Card,Declined,San Francisco
+903,294,2025-02-07,POS,Costco,Groceries,850.2,Credit Card,Approved,Houston
+904,159,2025-02-07,Online,BestBuy,Travel,49.77,Credit Card,Approved,Los Angeles
+905,228,2025-02-07,ATM,BestBuy,Health,735.48,Credit Card,Declined,New York
+906,216,2025-02-07,POS,Amazon,Dining,344.61,Credit Card,Declined,Chicago
+907,184,2025-02-07,ATM,Amazon,Travel,481.14,Debit Card,Declined,Houston
+908,15,2025-02-07,POS,BestBuy,Electronics,929.22,Credit Card,Approved,San Francisco
+909,157,2025-02-07,POS,Walmart,Health,335.31,Credit Card,Pending,Seattle
+910,136,2025-02-07,POS,Target,Entertainment,468.01,Credit Card,Declined,San Francisco
+911,261,2025-02-07,Online,Costco,Entertainment,18.61,Debit Card,Declined,Los Angeles
+912,157,2025-02-07,Online,Amazon,Clothing,86.19,Credit Card,Declined,San Francisco
+913,47,2025-02-08,Online,Costco,Groceries,262.3,Debit Card,Approved,San Francisco
+914,173,2025-02-08,ATM,Walmart,Dining,32.71,Credit Card,Approved,Chicago
+915,130,2025-02-08,ATM,Costco,Clothing,633.22,Credit Card,Pending,Seattle
+916,95,2025-02-08,Online,Expedia,Health,429.27,Debit Card,Declined,Chicago
+917,115,2025-02-08,ATM,Amazon,Entertainment,550.4,Credit Card,Approved,Chicago
+918,243,2025-02-08,POS,Walmart,Entertainment,178.77,Credit Card,Pending,New York
+919,292,2025-02-08,POS,Walmart,Entertainment,299.45,Debit Card,Declined,San Francisco
+920,282,2025-02-08,POS,Target,Health,665.51,Credit Card,Approved,San Francisco
+921,299,2025-02-08,Online,Target,Entertainment,965.48,Credit Card,Declined,San Francisco
+922,283,2025-02-08,ATM,Expedia,Travel,55.16,Credit Card,Declined,Miami
+923,69,2025-02-08,Online,Walmart,Health,890.93,Credit Card,Approved,Chicago
+924,148,2025-02-08,ATM,eBay,Dining,579.0,Debit Card,Approved,Houston
+925,11,2025-02-08,POS,Walmart,Clothing,566.1,Credit Card,Approved,Los Angeles
+926,254,2025-02-08,Online,Target,Dining,502.78,Debit Card,Declined,Seattle
+927,38,2025-02-08,ATM,eBay,Electronics,74.05,Credit Card,Declined,Houston
+928,134,2025-02-08,ATM,Amazon,Entertainment,94.43,Debit Card,Pending,Seattle
+929,200,2025-02-08,POS,Amazon,Electronics,602.91,Credit Card,Declined,New York
+930,23,2025-02-08,Online,Costco,Groceries,344.25,Debit Card,Approved,New York
+931,218,2025-02-08,Online,BestBuy,Groceries,917.68,Credit Card,Declined,Seattle
+932,141,2025-02-08,Online,Target,Electronics,409.56,Debit Card,Pending,San Francisco
+933,104,2025-02-08,POS,BestBuy,Health,147.57,Debit Card,Pending,Houston
+934,210,2025-02-08,Online,eBay,Dining,716.15,Credit Card,Approved,San Francisco
+935,111,2025-02-08,POS,Target,Electronics,296.89,Debit Card,Approved,Miami
+936,104,2025-02-08,POS,Expedia,Groceries,527.84,Credit Card,Pending,New York
+937,171,2025-02-09,POS,Walmart,Electronics,699.34,Credit Card,Pending,New York
+938,133,2025-02-09,ATM,Expedia,Health,900.76,Credit Card,Pending,Houston
+939,293,2025-02-09,Online,eBay,Electronics,793.23,Credit Card,Approved,New York
+940,127,2025-02-09,Online,Target,Dining,677.98,Credit Card,Pending,Miami
+941,106,2025-02-09,POS,eBay,Clothing,681.24,Debit Card,Pending,Miami
+942,92,2025-02-09,POS,Walmart,Health,946.2,Credit Card,Approved,Miami
+943,287,2025-02-09,Online,Amazon,Groceries,299.34,Credit Card,Declined,Los Angeles
+944,51,2025-02-09,POS,Amazon,Dining,6.11,Credit Card,Declined,Miami
+945,29,2025-02-09,Online,eBay,Electronics,275.59,Credit Card,Pending,Miami
+946,296,2025-02-09,ATM,BestBuy,Electronics,221.8,Credit Card,Declined,Los Angeles
+947,297,2025-02-09,POS,Target,Clothing,663.53,Credit Card,Declined,San Francisco
+948,214,2025-02-09,Online,Target,Groceries,635.54,Debit Card,Declined,Chicago
+949,267,2025-02-09,POS,Amazon,Groceries,595.49,Debit Card,Declined,New York
+950,257,2025-02-09,Online,Costco,Travel,21.16,Credit Card,Pending,Miami
+951,101,2025-02-09,Online,Expedia,Groceries,730.13,Debit Card,Declined,New York
+952,110,2025-02-09,POS,Costco,Clothing,326.91,Credit Card,Declined,Houston
+953,182,2025-02-09,ATM,Walmart,Entertainment,666.73,Credit Card,Approved,New York
+954,1,2025-02-09,Online,Expedia,Travel,558.8,Credit Card,Pending,Seattle
+955,55,2025-02-09,Online,Expedia,Travel,346.02,Credit Card,Approved,San Francisco
+956,149,2025-02-09,Online,eBay,Electronics,138.9,Credit Card,Approved,Los Angeles
+957,137,2025-02-09,ATM,Amazon,Electronics,98.95,Debit Card,Pending,New York
+958,202,2025-02-09,ATM,Costco,Groceries,832.36,Debit Card,Declined,New York
+959,117,2025-02-09,POS,Costco,Travel,918.81,Debit Card,Approved,New York
+960,154,2025-02-09,ATM,Amazon,Electronics,651.54,Debit Card,Pending,Chicago
+961,291,2025-02-10,POS,Costco,Clothing,107.92,Credit Card,Declined,Chicago
+962,63,2025-02-10,POS,Amazon,Electronics,405.02,Debit Card,Pending,Houston
+963,244,2025-02-10,ATM,eBay,Health,730.29,Credit Card,Approved,Los Angeles
+964,25,2025-02-10,POS,BestBuy,Health,780.92,Debit Card,Declined,New York
+965,90,2025-02-10,ATM,Expedia,Electronics,122.63,Debit Card,Declined,New York
+966,75,2025-02-10,POS,eBay,Travel,5.03,Debit Card,Pending,New York
+967,294,2025-02-10,ATM,Target,Entertainment,713.58,Debit Card,Declined,New York
+968,210,2025-02-10,ATM,Walmart,Entertainment,359.81,Credit Card,Approved,Chicago
+969,17,2025-02-10,POS,BestBuy,Travel,258.21,Debit Card,Approved,San Francisco
+970,128,2025-02-10,Online,Target,Dining,17.83,Debit Card,Approved,San Francisco
+971,251,2025-02-10,POS,Expedia,Entertainment,542.6,Credit Card,Pending,Houston
+972,179,2025-02-10,ATM,Costco,Health,851.89,Credit Card,Declined,Seattle
+973,182,2025-02-10,Online,Amazon,Clothing,957.84,Debit Card,Declined,Miami
+974,152,2025-02-10,POS,Expedia,Travel,567.92,Credit Card,Declined,Los Angeles
+975,25,2025-02-10,POS,eBay,Groceries,516.89,Credit Card,Approved,San Francisco
+976,180,2025-02-10,POS,Walmart,Health,89.63,Credit Card,Declined,Seattle
+977,198,2025-02-10,Online,eBay,Clothing,551.13,Debit Card,Approved,New York
+978,161,2025-02-10,ATM,BestBuy,Clothing,383.08,Credit Card,Declined,San Francisco
+979,177,2025-02-10,POS,BestBuy,Travel,609.1,Debit Card,Approved,Houston
+980,285,2025-02-10,POS,Walmart,Clothing,391.78,Debit Card,Declined,Miami
+981,63,2025-02-10,POS,Target,Travel,244.1,Debit Card,Pending,San Francisco
+982,150,2025-02-10,POS,Target,Entertainment,99.49,Debit Card,Pending,Houston
+983,154,2025-02-10,POS,BestBuy,Electronics,318.34,Credit Card,Approved,Chicago
+984,156,2025-02-10,ATM,BestBuy,Health,101.16,Debit Card,Approved,Miami
+985,49,2025-02-11,ATM,Costco,Dining,181.01,Credit Card,Declined,Houston
+986,84,2025-02-11,POS,Amazon,Electronics,987.4,Debit Card,Declined,Seattle
+987,177,2025-02-11,Online,Costco,Health,446.88,Credit Card,Pending,San Francisco
+988,148,2025-02-11,ATM,Costco,Travel,534.21,Debit Card,Declined,Chicago
+989,118,2025-02-11,Online,Target,Health,874.25,Credit Card,Approved,Seattle
+990,63,2025-02-11,ATM,Walmart,Entertainment,995.59,Debit Card,Approved,Houston
+991,189,2025-02-11,POS,Target,Travel,584.8,Debit Card,Approved,Houston
+992,49,2025-02-11,ATM,Amazon,Electronics,813.41,Credit Card,Approved,Seattle
+993,257,2025-02-11,POS,eBay,Groceries,330.31,Debit Card,Approved,San Francisco
+994,224,2025-02-11,ATM,BestBuy,Groceries,309.22,Debit Card,Pending,Miami
+995,141,2025-02-11,POS,BestBuy,Health,405.69,Debit Card,Pending,Chicago
+996,215,2025-02-11,POS,Amazon,Groceries,674.14,Credit Card,Approved,New York
+997,211,2025-02-11,POS,Costco,Travel,683.78,Debit Card,Declined,Los Angeles
+998,32,2025-02-11,POS,Walmart,Clothing,318.66,Debit Card,Approved,Miami
+999,158,2025-02-11,Online,BestBuy,Travel,137.54,Credit Card,Pending,Chicago
+1000,285,2025-02-11,POS,Expedia,Clothing,634.23,Credit Card,Approved,Seattle
+1001,286,2025-02-11,Online,Costco,Electronics,132.68,Credit Card,Pending,Houston
+1002,144,2025-02-11,Online,BestBuy,Dining,580.6,Credit Card,Pending,Seattle
+1003,19,2025-02-11,POS,Expedia,Clothing,694.96,Credit Card,Approved,Chicago
+1004,18,2025-02-11,Online,Amazon,Groceries,702.11,Debit Card,Approved,Seattle
+1005,257,2025-02-11,ATM,Amazon,Travel,754.7,Debit Card,Declined,Seattle
+1006,78,2025-02-11,POS,Costco,Electronics,873.5,Debit Card,Pending,Los Angeles
+1007,175,2025-02-11,Online,BestBuy,Groceries,502.46,Credit Card,Declined,San Francisco
+1008,194,2025-02-11,POS,Target,Electronics,731.6,Debit Card,Approved,Los Angeles
+1009,113,2025-02-12,POS,Expedia,Dining,621.08,Credit Card,Pending,New York
+1010,114,2025-02-12,POS,Walmart,Entertainment,190.71,Credit Card,Declined,New York
+1011,222,2025-02-12,Online,BestBuy,Travel,30.56,Debit Card,Declined,Los Angeles
+1012,166,2025-02-12,ATM,Walmart,Health,288.12,Credit Card,Declined,Miami
+1013,132,2025-02-12,ATM,BestBuy,Travel,445.82,Credit Card,Approved,Miami
+1014,264,2025-02-12,Online,Target,Dining,619.02,Debit Card,Approved,Seattle
+1015,55,2025-02-12,POS,Target,Travel,850.71,Credit Card,Approved,Seattle
+1016,131,2025-02-12,Online,Costco,Health,200.26,Credit Card,Pending,Houston
+1017,288,2025-02-12,Online,Costco,Clothing,129.92,Debit Card,Approved,New York
+1018,266,2025-02-12,Online,Target,Electronics,963.66,Credit Card,Pending,Houston
+1019,162,2025-02-12,POS,eBay,Health,112.5,Credit Card,Declined,New York
+1020,87,2025-02-12,Online,Target,Groceries,481.1,Debit Card,Declined,Los Angeles
+1021,55,2025-02-12,POS,Amazon,Dining,587.64,Debit Card,Approved,Miami
+1022,288,2025-02-12,Online,Amazon,Clothing,543.67,Debit Card,Declined,Seattle
+1023,178,2025-02-12,ATM,eBay,Groceries,90.6,Debit Card,Approved,Miami
+1024,8,2025-02-12,Online,Expedia,Groceries,61.74,Credit Card,Pending,Los Angeles
+1025,247,2025-02-12,Online,Walmart,Dining,109.96,Credit Card,Declined,Houston
+1026,255,2025-02-12,ATM,BestBuy,Clothing,587.66,Debit Card,Approved,Houston
+1027,54,2025-02-12,POS,BestBuy,Entertainment,546.62,Credit Card,Declined,Chicago
+1028,249,2025-02-12,POS,eBay,Groceries,237.57,Credit Card,Declined,Seattle
+1029,239,2025-02-12,Online,Amazon,Groceries,639.59,Debit Card,Approved,Seattle
+1030,229,2025-02-12,ATM,Costco,Clothing,820.97,Debit Card,Declined,Seattle
+1031,67,2025-02-12,POS,BestBuy,Travel,46.37,Credit Card,Declined,New York
+1032,51,2025-02-12,Online,Amazon,Groceries,500.64,Debit Card,Declined,Houston
+1033,97,2025-02-13,ATM,Expedia,Electronics,690.86,Debit Card,Declined,Los Angeles
+1034,92,2025-02-13,POS,Walmart,Clothing,256.05,Debit Card,Pending,Houston
+1035,264,2025-02-13,POS,Expedia,Groceries,311.23,Credit Card,Declined,Miami
+1036,291,2025-02-13,ATM,eBay,Dining,615.57,Debit Card,Declined,New York
+1037,96,2025-02-13,ATM,Target,Health,898.45,Credit Card,Approved,Seattle
+1038,88,2025-02-13,ATM,Target,Electronics,810.87,Credit Card,Pending,San Francisco
+1039,78,2025-02-13,ATM,Target,Health,585.21,Credit Card,Approved,Chicago
+1040,288,2025-02-13,Online,Expedia,Health,731.57,Debit Card,Approved,New York
+1041,120,2025-02-13,ATM,BestBuy,Groceries,368.0,Debit Card,Approved,Miami
+1042,165,2025-02-13,POS,Walmart,Electronics,642.76,Debit Card,Pending,Seattle
+1043,182,2025-02-13,POS,Target,Electronics,468.85,Debit Card,Approved,Miami
+1044,223,2025-02-13,Online,eBay,Travel,193.99,Debit Card,Approved,Miami
+1045,7,2025-02-13,POS,eBay,Health,703.23,Credit Card,Approved,Seattle
+1046,263,2025-02-13,POS,Target,Electronics,558.68,Credit Card,Declined,Miami
+1047,161,2025-02-13,ATM,Target,Travel,361.83,Credit Card,Approved,Los Angeles
+1048,151,2025-02-13,POS,Walmart,Clothing,911.78,Debit Card,Pending,Chicago
+1049,85,2025-02-13,Online,Target,Travel,25.83,Credit Card,Pending,San Francisco
+1050,147,2025-02-13,ATM,Walmart,Dining,319.19,Credit Card,Declined,Miami
+1051,112,2025-02-13,ATM,eBay,Entertainment,61.6,Debit Card,Pending,Miami
+1052,36,2025-02-13,Online,Target,Groceries,767.69,Debit Card,Pending,Houston
+1053,285,2025-02-13,ATM,Expedia,Clothing,703.6,Credit Card,Declined,Chicago
+1054,188,2025-02-13,ATM,Costco,Entertainment,334.7,Credit Card,Approved,New York
+1055,82,2025-02-13,Online,Expedia,Entertainment,677.28,Debit Card,Declined,Chicago
+1056,2,2025-02-13,ATM,eBay,Clothing,398.96,Debit Card,Approved,Chicago
+1057,197,2025-02-14,Online,Walmart,Dining,757.47,Debit Card,Approved,Seattle
+1058,11,2025-02-14,Online,Expedia,Travel,456.91,Debit Card,Pending,Seattle
+1059,234,2025-02-14,POS,Walmart,Groceries,415.22,Credit Card,Declined,Seattle
+1060,195,2025-02-14,POS,Expedia,Travel,935.06,Credit Card,Pending,San Francisco
+1061,119,2025-02-14,ATM,Expedia,Electronics,254.62,Debit Card,Pending,Chicago
+1062,20,2025-02-14,ATM,Walmart,Travel,124.85,Credit Card,Approved,San Francisco
+1063,261,2025-02-14,Online,BestBuy,Clothing,586.62,Credit Card,Pending,Miami
+1064,293,2025-02-14,ATM,Expedia,Groceries,969.48,Debit Card,Declined,Seattle
+1065,256,2025-02-14,Online,Target,Travel,380.95,Credit Card,Pending,Miami
+1066,222,2025-02-14,Online,Costco,Groceries,66.73,Credit Card,Pending,Seattle
+1067,226,2025-02-14,ATM,eBay,Groceries,342.61,Credit Card,Approved,Los Angeles
+1068,53,2025-02-14,Online,BestBuy,Electronics,508.4,Debit Card,Declined,San Francisco
+1069,280,2025-02-14,POS,Walmart,Electronics,166.11,Debit Card,Pending,San Francisco
+1070,81,2025-02-14,ATM,BestBuy,Clothing,659.81,Credit Card,Approved,New York
+1071,202,2025-02-14,POS,Amazon,Dining,997.76,Debit Card,Pending,Houston
+1072,158,2025-02-14,ATM,Amazon,Entertainment,454.48,Debit Card,Declined,Chicago
+1073,120,2025-02-14,Online,Expedia,Groceries,357.95,Debit Card,Pending,New York
+1074,59,2025-02-14,ATM,Expedia,Dining,403.7,Credit Card,Pending,San Francisco
+1075,215,2025-02-14,POS,Target,Entertainment,119.57,Credit Card,Approved,New York
+1076,128,2025-02-14,Online,Costco,Entertainment,883.86,Debit Card,Pending,Los Angeles
+1077,224,2025-02-14,ATM,eBay,Clothing,417.75,Credit Card,Approved,Houston
+1078,209,2025-02-14,ATM,BestBuy,Entertainment,390.34,Credit Card,Declined,San Francisco
+1079,115,2025-02-14,ATM,Amazon,Entertainment,661.39,Credit Card,Pending,San Francisco
+1080,209,2025-02-14,POS,Expedia,Groceries,444.82,Credit Card,Declined,Chicago
+1081,14,2025-02-15,POS,eBay,Groceries,649.99,Credit Card,Declined,Seattle
+1082,9,2025-02-15,ATM,BestBuy,Health,66.14,Debit Card,Pending,Houston
+1083,40,2025-02-15,Online,Expedia,Dining,814.65,Credit Card,Approved,Los Angeles
+1084,237,2025-02-15,Online,Expedia,Travel,940.8,Credit Card,Declined,Miami
+1085,281,2025-02-15,POS,Amazon,Electronics,650.52,Credit Card,Declined,New York
+1086,201,2025-02-15,Online,Amazon,Travel,954.79,Debit Card,Pending,Chicago
+1087,246,2025-02-15,POS,Expedia,Dining,155.68,Debit Card,Pending,San Francisco
+1088,278,2025-02-15,ATM,Walmart,Electronics,480.03,Debit Card,Pending,Miami
+1089,235,2025-02-15,POS,Expedia,Travel,603.8,Credit Card,Pending,Los Angeles
+1090,4,2025-02-15,POS,eBay,Health,583.83,Debit Card,Pending,Houston
+1091,154,2025-02-15,ATM,Expedia,Electronics,404.45,Debit Card,Pending,New York
+1092,29,2025-02-15,Online,Target,Groceries,341.39,Debit Card,Approved,Chicago
+1093,109,2025-02-15,POS,Costco,Travel,131.19,Debit Card,Declined,San Francisco
+1094,98,2025-02-15,POS,Target,Electronics,394.78,Credit Card,Approved,San Francisco
+1095,215,2025-02-15,ATM,Target,Health,166.85,Debit Card,Approved,Miami
+1096,293,2025-02-15,Online,Walmart,Entertainment,735.69,Debit Card,Pending,Miami
+1097,75,2025-02-15,POS,Walmart,Electronics,212.79,Credit Card,Declined,New York
+1098,146,2025-02-15,ATM,Expedia,Electronics,63.27,Credit Card,Approved,Houston
+1099,128,2025-02-15,POS,Target,Health,554.6,Debit Card,Pending,Los Angeles
+1100,42,2025-02-15,ATM,Walmart,Entertainment,597.25,Credit Card,Pending,Seattle
+1101,41,2025-02-15,Online,Amazon,Travel,872.55,Debit Card,Declined,Houston
+1102,34,2025-02-15,Online,Expedia,Clothing,579.1,Credit Card,Approved,Houston
+1103,17,2025-02-15,Online,eBay,Travel,348.75,Credit Card,Approved,Houston
+1104,165,2025-02-15,Online,Costco,Entertainment,804.0,Debit Card,Approved,Seattle
+1105,153,2025-02-16,POS,BestBuy,Dining,542.58,Credit Card,Pending,New York
+1106,76,2025-02-16,POS,Expedia,Health,83.88,Debit Card,Declined,Seattle
+1107,87,2025-02-16,Online,BestBuy,Travel,568.02,Credit Card,Declined,New York
+1108,117,2025-02-16,Online,Target,Electronics,908.48,Debit Card,Approved,Seattle
+1109,27,2025-02-16,Online,Costco,Health,399.33,Credit Card,Pending,Los Angeles
+1110,287,2025-02-16,POS,BestBuy,Groceries,299.84,Credit Card,Approved,Houston
+1111,134,2025-02-16,Online,Target,Entertainment,147.75,Credit Card,Declined,New York
+1112,219,2025-02-16,Online,Amazon,Travel,155.69,Credit Card,Pending,Seattle
+1113,168,2025-02-16,Online,BestBuy,Health,435.61,Credit Card,Approved,Los Angeles
+1114,98,2025-02-16,ATM,Costco,Travel,597.7,Debit Card,Approved,Seattle
+1115,268,2025-02-16,Online,Expedia,Health,85.21,Credit Card,Pending,San Francisco
+1116,237,2025-02-16,ATM,Target,Electronics,939.87,Debit Card,Declined,Los Angeles
+1117,173,2025-02-16,ATM,Expedia,Groceries,756.36,Debit Card,Pending,Houston
+1118,190,2025-02-16,Online,Costco,Groceries,588.69,Debit Card,Approved,Chicago
+1119,122,2025-02-16,ATM,Walmart,Dining,829.3,Credit Card,Approved,Houston
+1120,46,2025-02-16,Online,Target,Health,84.79,Debit Card,Approved,Chicago
+1121,64,2025-02-16,POS,BestBuy,Travel,479.45,Credit Card,Approved,Los Angeles
+1122,130,2025-02-16,POS,Target,Groceries,631.94,Debit Card,Declined,San Francisco
+1123,193,2025-02-16,POS,Expedia,Entertainment,829.51,Debit Card,Declined,San Francisco
+1124,181,2025-02-16,POS,Amazon,Groceries,784.55,Debit Card,Approved,New York
+1125,292,2025-02-16,ATM,Target,Clothing,280.68,Debit Card,Declined,San Francisco
+1126,282,2025-02-16,Online,BestBuy,Clothing,941.18,Debit Card,Declined,Miami
+1127,29,2025-02-16,Online,Walmart,Groceries,128.72,Credit Card,Declined,Los Angeles
+1128,149,2025-02-16,Online,eBay,Health,875.76,Debit Card,Approved,New York
+1129,267,2025-02-17,POS,Amazon,Dining,971.09,Debit Card,Pending,San Francisco
+1130,296,2025-02-17,POS,Walmart,Groceries,181.27,Credit Card,Pending,Los Angeles
+1131,11,2025-02-17,Online,Target,Electronics,723.46,Credit Card,Pending,Houston
+1132,164,2025-02-17,POS,Expedia,Travel,45.08,Credit Card,Approved,San Francisco
+1133,113,2025-02-17,Online,Costco,Dining,408.4,Debit Card,Declined,Seattle
+1134,187,2025-02-17,Online,Expedia,Electronics,518.7,Debit Card,Declined,Chicago
+1135,295,2025-02-17,Online,BestBuy,Dining,582.74,Debit Card,Approved,Los Angeles
+1136,232,2025-02-17,Online,Expedia,Electronics,936.26,Debit Card,Approved,New York
+1137,227,2025-02-17,Online,Amazon,Travel,673.89,Debit Card,Pending,Houston
+1138,98,2025-02-17,Online,Expedia,Travel,483.87,Debit Card,Pending,Miami
+1139,55,2025-02-17,Online,BestBuy,Clothing,810.63,Credit Card,Approved,Houston
+1140,111,2025-02-17,POS,eBay,Health,950.78,Credit Card,Pending,San Francisco
+1141,152,2025-02-17,Online,Target,Electronics,26.96,Debit Card,Declined,Chicago
+1142,246,2025-02-17,Online,Costco,Clothing,982.61,Debit Card,Approved,Houston
+1143,69,2025-02-17,POS,Target,Electronics,90.7,Debit Card,Approved,Miami
+1144,289,2025-02-17,POS,Expedia,Clothing,815.31,Debit Card,Declined,Seattle
+1145,250,2025-02-17,POS,Walmart,Travel,283.93,Debit Card,Declined,New York
+1146,36,2025-02-17,Online,Target,Dining,136.52,Credit Card,Declined,Los Angeles
+1147,239,2025-02-17,ATM,eBay,Entertainment,442.66,Credit Card,Pending,Chicago
+1148,148,2025-02-17,ATM,Expedia,Clothing,645.74,Debit Card,Approved,Miami
+1149,227,2025-02-17,POS,Costco,Electronics,384.05,Credit Card,Pending,San Francisco
+1150,244,2025-02-17,ATM,BestBuy,Electronics,59.29,Debit Card,Declined,San Francisco
+1151,201,2025-02-17,POS,eBay,Entertainment,601.46,Debit Card,Pending,San Francisco
+1152,154,2025-02-17,Online,Expedia,Health,902.89,Debit Card,Declined,Chicago
+1153,73,2025-02-18,ATM,eBay,Travel,386.3,Credit Card,Pending,Houston
+1154,201,2025-02-18,Online,Target,Electronics,220.25,Credit Card,Pending,Chicago
+1155,296,2025-02-18,ATM,Costco,Groceries,445.36,Debit Card,Declined,San Francisco
+1156,17,2025-02-18,Online,BestBuy,Dining,53.12,Credit Card,Pending,Seattle
+1157,129,2025-02-18,ATM,Expedia,Clothing,821.39,Credit Card,Approved,Miami
+1158,217,2025-02-18,Online,Amazon,Health,827.21,Debit Card,Pending,Los Angeles
+1159,61,2025-02-18,Online,BestBuy,Entertainment,590.06,Credit Card,Pending,Los Angeles
+1160,104,2025-02-18,ATM,Amazon,Dining,356.34,Credit Card,Approved,Chicago
+1161,42,2025-02-18,Online,eBay,Travel,800.78,Debit Card,Declined,San Francisco
+1162,25,2025-02-18,Online,Walmart,Health,556.91,Debit Card,Approved,New York
+1163,39,2025-02-18,Online,BestBuy,Clothing,826.8,Credit Card,Pending,Seattle
+1164,291,2025-02-18,ATM,eBay,Clothing,633.3,Debit Card,Declined,Chicago
+1165,131,2025-02-18,ATM,Amazon,Entertainment,785.48,Credit Card,Pending,San Francisco
+1166,229,2025-02-18,Online,Target,Groceries,600.57,Debit Card,Pending,Houston
+1167,108,2025-02-18,Online,Target,Entertainment,417.07,Debit Card,Approved,Los Angeles
+1168,172,2025-02-18,ATM,Walmart,Travel,958.16,Debit Card,Approved,Los Angeles
+1169,102,2025-02-18,ATM,BestBuy,Health,543.41,Debit Card,Declined,Seattle
+1170,12,2025-02-18,Online,BestBuy,Health,607.06,Credit Card,Declined,Los Angeles
+1171,275,2025-02-18,Online,BestBuy,Electronics,224.39,Debit Card,Declined,New York
+1172,101,2025-02-18,Online,eBay,Groceries,627.52,Debit Card,Pending,San Francisco
+1173,44,2025-02-18,POS,Costco,Groceries,573.75,Debit Card,Approved,San Francisco
+1174,17,2025-02-18,ATM,Costco,Health,188.91,Credit Card,Approved,Seattle
+1175,57,2025-02-18,POS,Walmart,Health,64.29,Credit Card,Approved,San Francisco
+1176,12,2025-02-18,ATM,BestBuy,Dining,606.34,Debit Card,Declined,Seattle
+1177,80,2025-02-19,ATM,eBay,Dining,764.87,Debit Card,Approved,San Francisco
+1178,216,2025-02-19,ATM,Target,Dining,525.78,Debit Card,Approved,New York
+1179,264,2025-02-19,ATM,Amazon,Groceries,230.64,Debit Card,Approved,Miami
+1180,149,2025-02-19,ATM,eBay,Electronics,668.19,Debit Card,Declined,Chicago
+1181,81,2025-02-19,ATM,Costco,Clothing,84.71,Debit Card,Approved,Chicago
+1182,215,2025-02-19,ATM,Costco,Dining,444.62,Credit Card,Declined,San Francisco
+1183,198,2025-02-19,POS,Target,Electronics,167.55,Debit Card,Approved,Houston
+1184,200,2025-02-19,Online,Target,Entertainment,188.54,Debit Card,Approved,Los Angeles
+1185,25,2025-02-19,Online,Amazon,Travel,206.28,Debit Card,Approved,New York
+1186,89,2025-02-19,POS,Target,Dining,389.77,Debit Card,Declined,Houston
+1187,268,2025-02-19,POS,Walmart,Entertainment,55.89,Debit Card,Declined,Houston
+1188,143,2025-02-19,POS,Amazon,Clothing,400.8,Debit Card,Approved,San Francisco
+1189,59,2025-02-19,POS,Target,Travel,514.15,Credit Card,Pending,New York
+1190,26,2025-02-19,ATM,Expedia,Travel,485.88,Credit Card,Declined,Chicago
+1191,47,2025-02-19,Online,eBay,Clothing,385.87,Credit Card,Declined,Los Angeles
+1192,288,2025-02-19,ATM,Target,Dining,839.95,Credit Card,Approved,Chicago
+1193,266,2025-02-19,Online,Walmart,Groceries,149.6,Credit Card,Pending,Houston
+1194,16,2025-02-19,Online,BestBuy,Clothing,508.17,Credit Card,Approved,Los Angeles
+1195,199,2025-02-19,POS,Target,Clothing,66.73,Debit Card,Declined,Miami
+1196,282,2025-02-19,ATM,Costco,Clothing,75.8,Debit Card,Declined,Houston
+1197,86,2025-02-19,POS,Costco,Travel,576.0,Debit Card,Approved,Chicago
+1198,250,2025-02-19,ATM,Costco,Electronics,568.19,Debit Card,Approved,Chicago
+1199,270,2025-02-19,Online,BestBuy,Entertainment,878.64,Debit Card,Pending,San Francisco
+1200,117,2025-02-19,POS,Costco,Groceries,560.08,Debit Card,Pending,Chicago
