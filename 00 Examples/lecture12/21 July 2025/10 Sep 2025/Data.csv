@@ -1,9 +1,0 @@
-order_id,customer,product,qyantity,price,date
-1,neha,laptop,1,1000,2025-01-04
-2,rahul,phone,2,5000,2025-01-06
-3,nishant,tablet,4,45000,2025-02-11
-4,joy,phone,3,7000,2025-02-24
-5,isha,tablet,2,6000,2025-01-05
-6,tina,phone,1,5000,2025-01-23
-7,sunil,laptop,1,7000,2025-01-30
-8,kiran,phone,2,7000,2025-01-28
