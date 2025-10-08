@@ -1,0 +1,41 @@
+﻿#,Employee Name,Salary,City,Department Name,State,Mobile Number,Job ID
+1,Alice Johnson,60000,New York,HR,NY,9175551234,HR101
+2,Bob Smith,75000,Los Angeles,IT,CA,2135554567,IT202
+3,Carol Taylor,82000,Chicago,Finance,IL,3125557890,FN303
+4,David Brown,71000,Houston,Marketing,TX,8325552345,MK404
+5,Emily Davis,92000,Phoenix,IT,AZ,6025553456,IT205
+6,Frank Wilson,67000,Philadelphia,HR,PA,2155556789,HR102
+7,Grace Martinez,85000,San Antonio,Finance,TX,2105557890,FN306
+8,Henry Lee,73000,San Diego,IT,CA,6195558901,IT208
+9,Irene Walker,68000,Dallas,Marketing,TX,9725559012,MK405
+10,Jack Hall,91000,San Jose,IT,CA,4085550123,IT209
+11,Karen Allen,64000,Austin,HR,TX,7375551234,HR103
+12,Leo Young,80000,Jacksonville,Finance,FL,9045552345,FN307
+13,Maria King,76000,Fort Worth,IT,TX,8175553456,IT210
+14,Nathan Wright,87000,Columbus,Marketing,OH,6145554567,MK406
+15,,95000,Charlotte,IT,NC,7045555678,IT211
+16,Paul Green,66000,Indianapolis,HR,IN,3175556789,HR104
+17,Queen Adams,,Seattle,Finance,WA,2065557890,FN308
+18,Ray Nelson,78000,Denver,IT,CO,3035558901,IT212
+19,Sarah Carter,72000,Washington,Marketing,DC,2025559012,MK407
+20,Tom Mitchell,94000,Boston,IT,,,IT213
+21,Uma Turner,66000,El Paso,,TX,9155551234,HR105
+22,Victor Collins,87000,Detroit,Finance,MI,3135552345,FN309
+23,Wendy Stewart,,Nashville,,TN,6155553456,IT214
+24,Xavier Morris,81000,Memphis,Marketing,TN,9015554567,MK408
+25,,96000,Portland,IT,OR,5035555678,IT215
+26,Zack Perez,68000,Oklahoma City,HR,OK,4055556789,HR106
+27,Amy Richardson,85000,Las Vegas,Finance,NV,7025557890,FN310
+28,Brian Cox,73000,Louisville,IT,KY,5025558901,
+29,Clara Ward,71000,Milwaukee,Marketing,WI,4145559012,MK409
+30,Derek Bailey,93000,Albuquerque,IT,NM,5055550123,IT217
+31,Eva Jenkins,66000,Tucson,HR,,5205551234,HR107
+32,,,,Finance,CA,5595552345,FN311
+33,Gina Howard,76000,Sacramento,IT,CA,9165553456,IT218
+34,Hugo Ramirez,79000,Kansas City,Marketing,MO,8165554567,MK410
+35,Isla Bryant,97000,Mesa,IT,AZ,4805555678,IT219
+36,Jason Simmons,68000,Atlanta,HR,GA,4045556789,HR108
+37,Katie Foster,86000,Omaha,,NE,4025557890,FN312
+38,Liam Barnes,75000,Raleigh,IT,NC,9195558901,IT220
+39,Monica Black,70000,Miami,Marketing,FL,3055559012,MK411
+40,Noah Henderson,92000,Tulsa,IT,OK,9185550123,IT221

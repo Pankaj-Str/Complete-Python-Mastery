@@ -1,2 +1,0 @@
-#Sampling Technique-Random Sampling,Stratified Sampling
-#Hypothesis Testing
