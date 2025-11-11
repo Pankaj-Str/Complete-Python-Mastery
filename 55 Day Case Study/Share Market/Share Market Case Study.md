@@ -119,14 +119,6 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
-# Plot Volume
-plt.figure(figsize=(12, 6))
-plt.bar(data['Date'], data['Volume'], color='green')
-plt.title('AAPL Trading Volume (2024-2025)')
-plt.xlabel('Date')
-plt.ylabel('Volume')
-plt.grid(True)
-plt.show()
 ```
 
 **Explanation**:
