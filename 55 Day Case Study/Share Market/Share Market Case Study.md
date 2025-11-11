@@ -1,6 +1,6 @@
 # Share Market Case Study Using Pandas, Matplotlib, and Seaborn
 
-This tutorial walks you through a simple case study on analyzing share market data for beginners. We'll use Apple Inc. (AAPL) stock as an example, fetching historical daily data from January 1, 2024, to November 11, 2025 (based on current date). The goal is to explore the data, visualize price trends and volume, and perform basic analysis like calculating moving averages and correlations.
+We'll use Apple Inc. (AAPL) stock as an example, fetching historical daily data from January 1, 2024, to November 11, 2025 (based on current date). The goal is to explore the data, visualize price trends and volume, and perform basic analysis like calculating moving averages and correlations.
 
 We'll cover:
 - Fetching stock data.
@@ -204,4 +204,4 @@ Next steps:
 - Handle errors (e.g., invalid tickers) with try-except blocks.
 - For real-time data, consider APIs like Polygon.io (requires free API key).
 
-If you run into issues or want to expand (e.g., predictive modeling with scikit-learn), let me know!
+
