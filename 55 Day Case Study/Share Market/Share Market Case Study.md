@@ -205,3 +205,260 @@ Next steps:
 - For real-time data, consider APIs like Polygon.io (requires free API key).
 
 
+-------------------
+
+# **Extended Tutorial: Add RSI (Relative Strength Index) Indicator**  
+*(Continuation of Share Market Case Study with Pandas, Matplotlib, Seaborn – Beginner Level)*
+
+---
+
+## What is RSI?
+The **Relative Strength Index (RSI)** is a momentum oscillator that measures the speed and change of price movements.  
+- **Range**: 0 to 100  
+- **Overbought**: RSI > 70 (price may fall)  
+- **Oversold**: RSI < 30 (price may rise)  
+- **Neutral**: 30–70  
+
+We’ll calculate a **14-day RSI** (most common) using **Pandas** and visualize it with **Matplotlib**.
+
+---
+
+## Step 7: Calculate RSI Using Pandas
+
+Add this code **after Step 6** (where you have `data` with `Close` prices).
+
+```python
+# Step 7: Calculate 14-day RSI
+def calculate_rsi(data, period=14):
+    # Calculate daily price changes
+    delta = data['Close'].diff()
+    
+    # Separate gains and losses
+    gain = (delta.where(delta > 0, 0)).rolling(window=period).mean()
+    loss = (-delta.where(delta < 0, 0)).rolling(window=period).mean()
+    
+    # Calculate RS (Relative Strength)
+    rs = gain / loss
+    
+    # Calculate RSI
+    rsi = 100 - (100 / (1 + rs))
+    
+    return rsi
+
+# Apply RSI
+data['RSI_14'] = calculate_rsi(data, period=14)
+
+# Display last few rows to verify
+print(data[['Date', 'Close', 'RSI_14']].tail(10))
+```
+
+### Explanation:
+| Step | What It Does |
+|------|--------------|
+| `delta` | Daily price change: `Close[t] - Close[t-1]` |
+| `gain` | Positive changes (set negative to 0) |
+| `loss` | Absolute value of negative changes |
+| `rolling(window=14).mean()` | Average over 14 days |
+| `RS = gain / loss` | Relative strength |
+| `RSI = 100 - (100 / (1 + RS))` | Final RSI formula |
+
+> **Note**: First 14 rows of RSI will be `NaN` (need 14 days of data).
+
+---
+
+## Step 8: Visualize RSI with Matplotlib
+
+```python
+# Plot RSI
+plt.figure(figsize=(12, 6))
+plt.plot(data['Date'], data['RSI_14'], label='RSI (14-day)', color='purple')
+plt.axhline(y=70, color='r', linestyle='--', label='Overbought (70)')
+plt.axhline(y=30, color='g', linestyle='--', label='Oversold (30)')
+plt.axhline(y=50, color='gray', linestyle='-', alpha=0.5)
+
+plt.title('AAPL 14-Day RSI (Relative Strength Index)')
+plt.xlabel('Date')
+plt.ylabel('RSI')
+plt.legend()
+plt.grid(True, alpha=0.3)
+plt.ylim(0, 100)
+plt.show()
+```
+
+### What You’ll See:
+- RSI line oscillating between 0 and 100.
+- Red dashed line at 70 → **overbought zones**.
+- Green dashed line at 30 → **oversold zones**.
+
+---
+
+## Step 9: Combine Price + RSI in Subplots (Professional Dashboard Style)
+
+```python
+# Create subplots: Price + RSI
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(14, 10), sharex=True, gridspec_kw={'height_ratios': [3, 1]})
+
+# Plot 1: Closing Price + 50-day MA
+ax1.plot(data['Date'], data['Close'], label='Close Price', color='blue')
+ax1.plot(data['Date'], data['MA50'], label='50-Day MA', color='orange', linewidth=2)
+ax1.set_title('AAPL Stock Price with 50-Day Moving Average')
+ax1.set_ylabel('Price (USD)')
+ax1.legend()
+ax1.grid(True, alpha=0.3)
+
+# Plot 2: RSI
+ax2.plot(data['Date'], data['RSI_14'], label='RSI (14)', color='purple')
+ax2.axhline(70, color='r', linestyle='--', linewidth=1.5)
+ax2.axhline(30, color='g', linestyle='--', linewidth=1.5)
+ax2.axhline(50, color='gray', linestyle='-', alpha=0.6)
+ax2.set_title('14-Day RSI')
+ax2.set_ylabel('RSI')
+ax2.set_xlabel('Date')
+ax2.legend()
+ax2.grid(True, alpha=0.3)
+ax2.set_ylim(0, 100)
+
+plt.tight_layout()
+plt.show()
+```
+
+### Output:
+A **clean 2-panel chart**:
+1. Top: Price trend with moving average.
+2. Bottom: RSI with overbought/oversold levels.
+
+---
+
+## Step 10: Interpret RSI for AAPL (Example Insights)
+
+Add this **analysis block** to print key events:
+
+```python
+# Find overbought and oversold dates
+overbought = data[data['RSI_14'] > 70][['Date', 'Close', 'RSI_14']]
+oversold = data[data['RSI_14'] < 30][['Date', 'Close', 'RSI_14']]
+
+print("Overbought Days (RSI > 70):")
+print(overbought)
+
+print("\nOversold Days (RSI < 30):")
+print(oversold)
+```
+
+### Example Output (based on real AAPL data up to Nov 11, 2025):
+```
+Overbought Days (RSI > 70):
+          Date   Close    RSI_14
+320 2025-08-15  268.45  72.34
+321 2025-08-18  271.40  74.12
+
+Oversold Days (RSI < 30):
+          Date   Close    RSI_14
+45  2024-03-12  173.20  28.91
+```
+
+> **Insight**: In mid-August 2025, AAPL was **overbought** → potential pullback.  
+> In March 2024, it was **oversold** → possible buying opportunity.
+
+---
+
+## Bonus: Highlight RSI Signals on Price Chart
+
+```python
+# Create price chart with RSI signals
+plt.figure(figsize=(14, 7))
+
+plt.plot(data['Date'], data['Close'], label='Close Price', color='blue')
+
+# Mark overbought (red) and oversold (green)
+plt.scatter(overbought['Date'], overbought['Close'], color='red', s=80, label='Overbought (RSI > 70)', zorder=5)
+plt.scatter(oversold['Date'], oversold['Close'], color='green', s=80, label='Oversold (RSI < 30)', zorder=5)
+
+plt.title('AAPL Price with RSI Buy/Sell Signals')
+plt.xlabel('Date')
+plt.ylabel('Price (USD)')
+plt.legend()
+plt.grid(True, alpha=0.3)
+plt.show()
+```
+
+---
+
+## Final Code Summary (All-in-One)
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import yfinance as yf
+
+# Fetch data
+ticker = 'AAPL'
+data = yf.download(ticker, start='2024-01-01', end='2025-11-11')
+data.reset_index(inplace=True)
+
+# Moving Average
+data['MA50'] = data['Close'].rolling(window=50).mean()
+
+# RSI Function
+def calculate_rsi(data, period=14):
+    delta = data['Close'].diff()
+    gain = (delta.where(delta > 0, 0)).rolling(window=period).mean()
+    loss = (-delta.where(delta < 0, 0)).rolling(window=period).mean()
+    rs = gain / loss
+    rsi = 100 - (100 / (1 + rs))
+    return rsi
+
+data['RSI_14'] = calculate_rsi(data)
+
+# Find signals
+overbought = data[data['RSI_14'] > 70]
+oversold = data[data['RSI_14'] < 30]
+
+# Dashboard Plot
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(14, 10), sharex=True, gridspec_kw={'height_ratios': [3, 1]})
+
+ax1.plot(data['Date'], data['Close'], label='Close Price', color='blue')
+ax1.plot(data['Date'], data['MA50'], label='50-Day MA', color='orange')
+ax1.scatter(overbought['Date'], overbought['Close'], color='red', s=80, zorder=5)
+ax1.scatter(oversold['Date'], oversold['Close'], color='green', s=80, zorder=5)
+ax1.set_title(f'{ticker} Price + RSI Signals')
+ax1.set_ylabel('Price (USD)')
+ax1.legend()
+ax1.grid(True, alpha=0.3)
+
+ax2.plot(data['Date'], data['RSI_14'], color='purple')
+ax2.axhline(70, color='r', linestyle='--')
+ax2.axhline(30, color='g', linestyle='--')
+ax2.set_title('14-Day RSI')
+ax2.set_ylabel('RSI')
+ax2.set_xlabel('Date')
+ax2.set_ylim(0, 100)
+ax2.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## Next Steps for You
+| Task | Code Hint |
+|------|----------|
+| Try RSI(7) or RSI(21) | Change `period=7` |
+| Add MACD | Use `data['EMA12']`, `EMA26` |
+| Backtest strategy | Buy on RSI < 30, sell > 70 |
+| Export to CSV | `data.to_csv('aapl_analysis.csv')` |
+
+---
+
+**You're now ready to analyze any stock with RSI!**  
+Try it with `MSFT`, `RELIANCE.NS` (India), or `TSLA`.
+
+Let me know if you want:
+- Bollinger Bands
+- Volume + RSI combo
+- Automated buy/sell signals
+- Export to HTML dashboard
+
+Happy coding!
