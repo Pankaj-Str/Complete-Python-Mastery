@@ -70,7 +70,7 @@ user_input = pd.DataFrame({
 
 st.subheader("User Input Features")
 st.write(user_input)
-
+ 
 # display model performance
 st.subheader("Model Performance")
 accuracy = model.score(X_test, y_test)
@@ -84,3 +84,4 @@ proba_df = pd.DataFrame({
     'Probability': prediction
 }).sort_values(by='Probability', ascending=False)
 st.write(proba_df.set_index('Species'))
+
