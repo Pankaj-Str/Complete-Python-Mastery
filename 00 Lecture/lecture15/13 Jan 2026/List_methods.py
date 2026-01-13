@@ -36,7 +36,18 @@ print(data)
 #clear()
 data.clear()
 #index()
+print(data.index(23))
 #count()
+print(data.count(55))
+
 #sort()
+data.sort()
+print(data)
 #reverse()
+data.reverse()
+print(data)
 #copy()
+d1 = data.copy()
+print(d1)
+
+
