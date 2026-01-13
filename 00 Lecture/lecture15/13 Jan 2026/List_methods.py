@@ -51,3 +51,19 @@ d1 = data.copy()
 print(d1)
 
 
+
+
+# how to take user input into list
+
+product = []
+
+size = int(input('Enter List size - '))
+
+
+for i in range(size):
+    i = input("Enter Product Name - ")
+    product.append(i)
+
+print(product)    
+
+
