@@ -1,11 +1,11 @@
-Student_name = ?
-Java_marks = ?
-c_marks = ?
-science = ?
-maths = ?
-english = ?
-total = ?
-per = ?
+Student_name = input("Enter Student Name - ")
+Java_marks = int(input('Enter Java Marks - '))
+#c_marks = ?
+#science = ?
+#maths = ?
+#english = ?
+#total = java_marks + science + maths + english
+#per = 
 
 
 #Per range  | grade
