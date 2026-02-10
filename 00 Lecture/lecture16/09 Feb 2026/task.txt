@@ -1,0 +1,19 @@
+Set Your Password - cwpc@123
+Enter your name - Rahul
+Enter your password to start exam - cwpc@12
+wrong password try more 1/2 time - cwpc@34
+wrong password try more 1/1 time - cwpc@34
+note : wrong password byee...
+- note: if user select right password -
+start exam 
+Q 1 - what is python 
+1 - P (option 1)
+2 - Q (option 2)
+3 - R (option 3)
+4 - T (option 4)
+
+answer - select 1 
+(if answer is right - ask to next question)
+(if answer is wrong - do not ask to next question)
+
+
