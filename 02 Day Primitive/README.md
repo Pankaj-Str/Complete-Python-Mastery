@@ -1,129 +1,73 @@
-### Introduction to Variables in Python
+## What are Python Keywords?
 
-Variables are fundamental to programming. They are used to store data values. In Python, variables are created by assigning a value to them. Python is dynamically typed, which means you don’t need to declare the type of the variable beforehand. The type is inferred from the value assigned.
+**Python Keywords** are **reserved words** that have a **special meaning in the Python programming language**.
 
-### Creating Variables
+These words are already defined by Python, so **we cannot use them as variable names, function names, or identifiers**.
 
-To create a variable in Python, simply assign a value to a variable name using the `=` operator.
+In simple words:
 
-```python
-# Creating variables
-name = "John Doe"
-age = 25
-height = 5.9
-is_student = True
-```
+**Keywords = Words that Python already understands and uses internally.**
 
-In the example above:
-- `name` is a string variable.
-- `age` is an integer variable.
-- `height` is a floating-point variable.
-- `is_student` is a boolean variable.
+---
 
-### Variable Naming Rules
+## Important Points About Python Keywords
 
-1. **Names can include letters, numbers, and underscores (`_`).**
-2. **Names must start with a letter or an underscore.**
-3. **Names cannot start with a number.**
-4. **Names are case-sensitive.**
-5. **Avoid using Python reserved keywords as variable names (e.g., `if`, `else`, `for`).**
+1. Keywords have **special meaning in Python**.
+2. **They cannot be used as variable names**.
+3. They are **case-sensitive**.
+4. They are part of Python's **syntax**.
 
-**Examples of valid variable names:**
-```python
-my_variable = 10
-variable_2 = 20
-_variable = 30
-```
-
-**Examples of invalid variable names:**
-```python
-2variable = 10  # Starts with a number
-my-variable = 20  # Contains a hyphen
-```
-
-### Data Types
-
-In Python, the most common data types for variables include:
-
-1. **Integer (`int`)** - Represents whole numbers.
-   ```python
-   age = 30
-   ```
-
-2. **Floating-point (`float`)** - Represents decimal numbers.
-   ```python
-   height = 5.9
-   ```
-
-3. **String (`str`)** - Represents a sequence of characters.
-   ```python
-   name = "Alice"
-   ```
-
-4. **Boolean (`bool`)** - Represents `True` or `False`.
-   ```python
-   is_student = True
-   ```
-
-5. **List** - A collection of items.
-   ```python
-   numbers = [1, 2, 3, 4, 5]
-   ```
-
-6. **Dictionary** - A collection of key-value pairs.
-   ```python
-   person = {"name": "Bob", "age": 30}
-   ```
-
-### Type Checking
-
-You can check the type of a variable using the `type()` function.
+Example (Wrong Code):
 
 ```python
-x = 10
-print(type(x))  # Output: <class 'int'>
-
-y = 5.7
-print(type(y))  # Output: <class 'float'>
+if = 10
 ```
 
-### Variable Reassignment
+This will give an **error** because `if` is a keyword.
 
-Variables in Python are dynamically typed, so you can change the type of a variable by reassigning it.
+---
 
-```python
-x = 10          # x is an integer
-x = "Hello"     # x is now a string
-```
+# List of Python Keywords
 
-### Multiple Variable Assignment
+In modern Python (Python 3), there are **35 keywords**.
 
-You can assign multiple variables in a single line.
+| Keyword  | Use                                    |
+| -------- | -------------------------------------- |
+| False    | Boolean false value                    |
+| None     | Represents no value                    |
+| True     | Boolean true value                     |
+| and      | Logical AND operator                   |
+| as       | Used in exception handling and imports |
+| assert   | Debugging condition                    |
+| async    | Used for asynchronous programming      |
+| await    | Wait for async result                  |
+| break    | Exit a loop                            |
+| class    | Define a class                         |
+| continue | Skip current loop iteration            |
+| def      | Define a function                      |
+| del      | Delete an object                       |
+| elif     | Else-if condition                      |
+| else     | Alternative condition                  |
+| except   | Handle exceptions                      |
+| finally  | Final block in exception handling      |
+| for      | Loop                                   |
+| from     | Import specific module items           |
+| global   | Declare global variable                |
+| if       | Conditional statement                  |
+| import   | Import modules                         |
+| in       | Check membership                       |
+| is       | Compare object identity                |
+| lambda   | Anonymous function                     |
+| nonlocal | Access outer function variable         |
+| not      | Logical NOT                            |
+| or       | Logical OR                             |
+| pass     | Empty statement                        |
+| raise    | Raise an exception                     |
+| return   | Return value from function             |
+| try      | Exception handling                     |
+| while    | Loop                                   |
+| with     | Resource management                    |
+| yield    | Used in generators                     |
 
-```python
-x, y, z = 5, 10, 15
-```
+---
 
-### Swapping Variables
-
-Python allows you to swap values between variables easily.
-
-```python
-a = 5
-b = 10
-a, b = b, a  # Now a is 10 and b is 5
-```
-
-### Constants
-
-In Python, constants are usually declared in uppercase and are not enforced by the language, but it's a convention to indicate that their values should not change.
-
-```python
-PI = 3.14159
-```
-
-### Conclusion
-
-Variables are a crucial part of Python programming. They allow you to store and manipulate data in your programs. Understanding how to create and use variables effectively will help you write more efficient and readable code.
-
-For more tutorials and coding tips, visit [codeswithpankaj.com](https://codeswithpankaj.com).
