@@ -1,0 +1,31 @@
+-- input section 
+Enter Your Name = Joy
+Enter Your Age = 23
+Enter Java Marks = 45
+Enter go Marks = 60
+Enter python Marks = 78
+Enter ruby Marks = 30
+Enter c Marks = 90
+
+-- output 
+-----Output------
+Name = Joy
+Age = 23
+java = 23/100
+go = 60/100
+python = 78/100
+ruby = 30/100 F
+c = 90/100
+
+Total = 281
+Persentage exam score = 56.2%
+Your grade is B.
+result Fail
+
+-- Grade 1 - 30 = fail
+-- Grade 31 - 50 = C
+-- Grade 51 - 79 = B
+-- Grade 80 - 100 = A
+
+
+
