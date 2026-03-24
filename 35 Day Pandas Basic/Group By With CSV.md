@@ -1,4 +1,4 @@
-**Pandas GroupBy (Step by Step with External CSV Example)
+#  Pandas GroupBy External CSV Example
 
 
 ### 1. What is GroupBy? (Super Simple)
