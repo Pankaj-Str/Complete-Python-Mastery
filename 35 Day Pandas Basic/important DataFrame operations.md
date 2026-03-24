@@ -1,4 +1,4 @@
-# most important DataFrame operations
+# Most important DataFrame operations
 
 I have divided them into categories with:
 - What it does (use)
