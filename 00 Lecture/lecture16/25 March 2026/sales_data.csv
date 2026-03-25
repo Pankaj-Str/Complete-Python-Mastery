@@ -1,0 +1,11 @@
+Order_ID,Date,Product,Category,Sales,Quantity,City
+101,2024-01-05,Laptop,Electronics,75000,1,Mumbai
+102,2024-01-10,Mouse,Accessories,1200,5,Delhi
+103,2024-01-15,Keyboard,Accessories,2500,3,Bangalore
+104,2024-02-01,Laptop,Electronics,80000,1,Mumbai
+105,2024-02-05,Phone,Electronics,45000,2,Delhi
+106,2024-02-10,Tablet,Electronics,30000,3,Bangalore
+107,2024-03-01,Mouse,Accessories,1500,4,Mumbai
+108,2024-03-05,Keyboard,Accessories,2800,2,Delhi
+109,2024-03-10,Phone,Electronics,42000,1,Bangalore
+110,2024-01-20,Laptop,Electronics,72000,2,Mumbai
