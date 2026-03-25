@@ -1,4 +1,4 @@
-## Importing a CSV File Using the `read_csv()` Function in Pandas: A Comprehensive Guide
+## Importing a CSV File Using the `read_csv()` Function in Pandas
 
 Welcome to Codes with Pankaj! In this tutorial, we'll walk you through the process of importing a CSV file using the powerful `read_csv()` function in the pandas library.
 
