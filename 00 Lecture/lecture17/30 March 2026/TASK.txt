@@ -19,4 +19,4 @@ Input Section
 - TDS % : 10
 - TDS amount : ( salary - leave amount = 44356-tds%)  | TDS = 4435
 - bonus : 1200
-- Final Salary : 41121
+- Final Salary : 41121 ( ( TDS amount + leave Amount ) - ( monthly salary + bonus)
