@@ -1,0 +1,22 @@
+Input Section 
+- Enter  Your Name : Payal
+- Monthly Salary : 
+- Day in Month : 31
+- Month Name : March
+- leave : 8
+- Paid Leave : 2
+- bonus : 1200
+- tax(tds) : 10%
+
+-- Out Put :
+- Name : Payal
+- Monthly Salary : 55000
+- CTC ( yealry Salary ) : 660000
+- Month name - March
+- leave : 8
+- leave amount : 10644.16 (day salary * (leave - paid leave))
+- day salary : 1774.19 (salary / day in month)
+- TDS % : 10
+- TDS amount : ( salary - leave amount = 44356-tds%)  | TDS = 4435
+- bonus : 1200
+- Final Salary : 41121
