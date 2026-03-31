@@ -74,8 +74,8 @@ plt.show()
 
 ```python
 plt.figure()
-plt.bar(stock.index, stock['Volume'])
-plt.title("Trading Volume")
+plt.bar(stock.index, stock['Volume']['RELIANCE.NS'])
+plt.title("Daily Trading Volume")
 plt.xlabel("Date")
 plt.ylabel("Volume")
 plt.show()
@@ -99,6 +99,13 @@ pip install mplfinance
 ```python
 import mplfinance as mpf
 
+# Step 1: Flatten columns
+stock.columns = stock.columns.droplevel(1)
+
+# Step 2: Convert to float
+stock = stock.astype(float)
+
+# Step 3: Plot
 mpf.plot(stock, type='candle', volume=True, title="Reliance Candlestick Chart")
 ```
 
