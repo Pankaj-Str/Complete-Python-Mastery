@@ -1,0 +1,801 @@
+BHK,Locality,Area_sqft,Price_Lakhs,Status,Age
+2,Versova,1231,1176,Ready to Move,1-5 Years
+4,Bandra West,834,1482,Ready to Move,5-10 Years
+3,Andheri West,624,1121,Under Construction,5-10 Years
+2,Santacruz West,989,1757,Ready to Move,5-10 Years
+2,Versova,840,596,Ready to Move,5-10 Years
+2,Bandra West,1094,1054,Ready to Move,5-10 Years
+1,Andheri West,600,1182,Under Construction,0-1 Year
+3,Bandra East,1297,1109,Ready to Move,0-1 Year
+3,Juhu,877,1488,Ready to Move,10+ Years
+3,Khar West,1448,1533,Ready to Move,1-5 Years
+1,Bandra East,1003,1520,Ready to Move,0-1 Year
+4,Andheri West,1091,894,Ready to Move,0-1 Year
+3,Bandra East,1039,1447,Ready to Move,0-1 Year
+2,Juhu,859,1642,Under Construction,10+ Years
+2,Versova,1965,1111,Under Construction,5-10 Years
+2,Andheri West,926,1199,Ready to Move,10+ Years
+2,Bandra East,1458,922,Under Construction,1-5 Years
+2,Khar West,717,1104,Under Construction,1-5 Years
+2,Khar West,1230,1230,Ready to Move,1-5 Years
+2,Bandra West,1267,966,Under Construction,1-5 Years
+3,Bandra East,1091,1244,Under Construction,0-1 Year
+1,Santacruz West,900,930,Under Construction,0-1 Year
+2,Bandra East,1007,1426,Under Construction,10+ Years
+2,Versova,958,1164,Under Construction,5-10 Years
+2,Andheri West,1940,2027,Under Construction,1-5 Years
+3,Andheri West,1092,1155,Under Construction,10+ Years
+2,Versova,1283,1093,Under Construction,0-1 Year
+2,Bandra East,1723,1247,Ready to Move,0-1 Year
+2,Versova,793,803,Ready to Move,5-10 Years
+1,Juhu,1113,825,Under Construction,5-10 Years
+3,Versova,1005,1030,Under Construction,5-10 Years
+2,Khar West,1069,887,Ready to Move,10+ Years
+1,Versova,1037,1070,Under Construction,0-1 Year
+4,Andheri West,843,759,Under Construction,0-1 Year
+4,Khar West,1168,1186,Ready to Move,5-10 Years
+3,Andheri West,728,793,Ready to Move,1-5 Years
+2,Bandra West,1446,1330,Ready to Move,5-10 Years
+1,Santacruz West,1318,1058,Under Construction,10+ Years
+3,Andheri West,927,1363,Under Construction,5-10 Years
+2,Khar West,944,1025,Ready to Move,5-10 Years
+1,Bandra West,1196,1342,Ready to Move,10+ Years
+2,Andheri West,820,1702,Under Construction,5-10 Years
+1,Juhu,1734,1528,Ready to Move,0-1 Year
+4,Versova,1225,1209,Under Construction,1-5 Years
+2,Santacruz West,1237,885,Under Construction,5-10 Years
+3,Andheri West,1338,1170,Ready to Move,10+ Years
+2,Bandra West,897,919,Ready to Move,1-5 Years
+2,Juhu,1481,1477,Under Construction,10+ Years
+2,Bandra East,1140,1094,Ready to Move,1-5 Years
+2,Bandra West,1432,1032,Ready to Move,1-5 Years
+4,Versova,1030,1176,Ready to Move,5-10 Years
+3,Bandra West,1561,1815,Ready to Move,0-1 Year
+4,Juhu,1240,1354,Under Construction,5-10 Years
+3,Bandra West,1863,1452,Under Construction,10+ Years
+2,Juhu,970,848,Under Construction,10+ Years
+4,Andheri West,1171,888,Under Construction,1-5 Years
+1,Juhu,738,1257,Ready to Move,1-5 Years
+2,Juhu,914,1124,Ready to Move,0-1 Year
+1,Santacruz West,1316,1272,Under Construction,5-10 Years
+2,Juhu,1495,1836,Under Construction,10+ Years
+2,Juhu,2137,1921,Ready to Move,1-5 Years
+2,Bandra East,1066,884,Under Construction,0-1 Year
+3,Andheri West,773,1039,Under Construction,10+ Years
+2,Versova,1363,982,Ready to Move,1-5 Years
+2,Santacruz West,705,693,Under Construction,10+ Years
+2,Bandra East,1297,1223,Ready to Move,0-1 Year
+1,Khar West,924,865,Ready to Move,0-1 Year
+3,Andheri West,1174,809,Under Construction,10+ Years
+1,Andheri West,1481,873,Ready to Move,5-10 Years
+4,Khar West,1061,1308,Under Construction,10+ Years
+3,Versova,1426,1685,Ready to Move,1-5 Years
+2,Juhu,1405,1234,Under Construction,5-10 Years
+1,Bandra East,600,913,Under Construction,1-5 Years
+3,Bandra West,784,1155,Under Construction,10+ Years
+3,Santacruz West,600,1273,Ready to Move,5-10 Years
+3,Bandra West,1800,1933,Ready to Move,1-5 Years
+3,Khar West,1063,1644,Under Construction,10+ Years
+1,Andheri West,1723,869,Ready to Move,10+ Years
+2,Versova,600,907,Under Construction,5-10 Years
+1,Andheri West,899,1101,Under Construction,10+ Years
+3,Santacruz West,1380,1348,Ready to Move,0-1 Year
+3,Andheri West,1162,1332,Under Construction,1-5 Years
+2,Andheri West,1286,1140,Ready to Move,1-5 Years
+1,Santacruz West,661,585,Under Construction,10+ Years
+2,Bandra East,1581,892,Ready to Move,10+ Years
+2,Bandra East,1371,977,Under Construction,0-1 Year
+3,Santacruz West,1240,1935,Under Construction,5-10 Years
+3,Versova,860,898,Ready to Move,10+ Years
+3,Khar West,1213,1025,Under Construction,10+ Years
+2,Andheri West,997,1213,Under Construction,10+ Years
+1,Versova,600,1009,Ready to Move,10+ Years
+3,Andheri West,1082,1482,Under Construction,1-5 Years
+3,Khar West,1045,1439,Ready to Move,10+ Years
+2,Bandra East,1471,1434,Under Construction,1-5 Years
+3,Versova,600,1445,Ready to Move,10+ Years
+2,Juhu,1182,1073,Under Construction,5-10 Years
+2,Juhu,695,823,Under Construction,0-1 Year
+2,Juhu,1211,987,Under Construction,5-10 Years
+1,Bandra East,1230,947,Ready to Move,10+ Years
+1,Bandra East,1069,1358,Ready to Move,10+ Years
+1,Khar West,1382,1429,Ready to Move,10+ Years
+3,Andheri West,663,1091,Ready to Move,5-10 Years
+2,Khar West,1487,1054,Under Construction,10+ Years
+2,Khar West,852,955,Under Construction,5-10 Years
+4,Bandra East,600,660,Ready to Move,1-5 Years
+2,Juhu,1004,1538,Ready to Move,0-1 Year
+2,Bandra West,600,1493,Ready to Move,0-1 Year
+3,Andheri West,1188,1383,Under Construction,5-10 Years
+2,Bandra East,1009,736,Ready to Move,1-5 Years
+1,Juhu,1531,1756,Ready to Move,5-10 Years
+2,Versova,1327,1069,Under Construction,1-5 Years
+2,Bandra West,612,713,Under Construction,10+ Years
+4,Bandra West,806,1021,Ready to Move,1-5 Years
+3,Bandra East,1282,1081,Under Construction,1-5 Years
+3,Santacruz West,1396,1261,Ready to Move,1-5 Years
+3,Andheri West,1527,1254,Under Construction,0-1 Year
+3,Bandra West,1525,1150,Ready to Move,1-5 Years
+2,Bandra East,1068,1376,Ready to Move,10+ Years
+3,Bandra East,1226,1137,Ready to Move,10+ Years
+2,Juhu,1554,1231,Ready to Move,10+ Years
+3,Versova,993,1397,Under Construction,1-5 Years
+3,Santacruz West,1232,850,Under Construction,5-10 Years
+2,Andheri West,985,654,Under Construction,5-10 Years
+1,Khar West,907,1448,Under Construction,10+ Years
+2,Versova,1116,1585,Ready to Move,0-1 Year
+2,Versova,859,823,Ready to Move,5-10 Years
+3,Juhu,1054,1298,Under Construction,1-5 Years
+3,Bandra West,737,862,Under Construction,5-10 Years
+1,Bandra West,1033,1144,Under Construction,10+ Years
+2,Juhu,1256,1178,Under Construction,0-1 Year
+2,Bandra East,893,938,Under Construction,5-10 Years
+2,Bandra West,1103,1365,Ready to Move,5-10 Years
+1,Santacruz West,1148,681,Ready to Move,10+ Years
+2,Andheri West,1258,1011,Ready to Move,0-1 Year
+4,Versova,1053,841,Under Construction,0-1 Year
+2,Versova,1480,1102,Under Construction,10+ Years
+2,Santacruz West,600,823,Under Construction,1-5 Years
+3,Bandra West,2128,1805,Under Construction,5-10 Years
+2,Versova,795,995,Ready to Move,1-5 Years
+4,Khar West,1241,1719,Ready to Move,5-10 Years
+4,Andheri West,771,728,Under Construction,5-10 Years
+2,Andheri West,1325,790,Ready to Move,1-5 Years
+2,Versova,1196,1236,Ready to Move,10+ Years
+2,Juhu,872,808,Under Construction,10+ Years
+2,Versova,1475,1251,Under Construction,5-10 Years
+1,Juhu,1042,815,Under Construction,10+ Years
+3,Versova,1291,1646,Under Construction,5-10 Years
+2,Khar West,778,1191,Under Construction,10+ Years
+1,Bandra East,1089,903,Under Construction,5-10 Years
+2,Andheri West,1801,1673,Ready to Move,10+ Years
+4,Versova,1437,1046,Ready to Move,0-1 Year
+2,Khar West,1207,1047,Under Construction,1-5 Years
+1,Juhu,942,756,Ready to Move,0-1 Year
+2,Juhu,1123,1016,Under Construction,1-5 Years
+4,Andheri West,1169,1254,Under Construction,1-5 Years
+2,Santacruz West,1257,1250,Under Construction,5-10 Years
+3,Versova,723,1248,Under Construction,1-5 Years
+3,Bandra West,1333,1073,Ready to Move,0-1 Year
+2,Juhu,718,1048,Under Construction,0-1 Year
+3,Bandra East,1670,1047,Ready to Move,10+ Years
+2,Bandra East,829,883,Under Construction,0-1 Year
+3,Juhu,1203,2024,Under Construction,10+ Years
+3,Santacruz West,1451,1351,Under Construction,1-5 Years
+2,Santacruz West,1011,1265,Ready to Move,0-1 Year
+1,Khar West,1219,1765,Under Construction,1-5 Years
+3,Bandra East,1602,1645,Under Construction,0-1 Year
+2,Khar West,1297,1202,Under Construction,0-1 Year
+2,Bandra East,1224,749,Ready to Move,10+ Years
+1,Versova,600,761,Ready to Move,1-5 Years
+2,Versova,773,760,Ready to Move,0-1 Year
+3,Bandra West,1466,1126,Under Construction,5-10 Years
+1,Versova,1299,1116,Ready to Move,1-5 Years
+2,Bandra West,1352,1424,Under Construction,1-5 Years
+2,Versova,1322,1633,Ready to Move,1-5 Years
+3,Andheri West,1551,1208,Ready to Move,10+ Years
+2,Versova,1008,1091,Under Construction,5-10 Years
+3,Khar West,1142,1159,Ready to Move,1-5 Years
+2,Juhu,739,1349,Under Construction,0-1 Year
+4,Khar West,652,1195,Under Construction,0-1 Year
+1,Juhu,600,641,Ready to Move,10+ Years
+2,Santacruz West,790,922,Under Construction,0-1 Year
+1,Khar West,1643,1496,Under Construction,1-5 Years
+4,Santacruz West,600,1081,Ready to Move,0-1 Year
+3,Bandra West,993,1579,Ready to Move,1-5 Years
+2,Bandra West,647,718,Under Construction,0-1 Year
+3,Andheri West,889,809,Ready to Move,5-10 Years
+3,Versova,1159,1332,Under Construction,10+ Years
+2,Khar West,854,947,Under Construction,10+ Years
+2,Santacruz West,1481,1269,Ready to Move,5-10 Years
+2,Juhu,1636,1114,Ready to Move,5-10 Years
+1,Bandra West,600,1730,Ready to Move,10+ Years
+3,Versova,860,958,Ready to Move,5-10 Years
+4,Bandra West,1120,1752,Under Construction,1-5 Years
+3,Juhu,1494,1392,Under Construction,0-1 Year
+2,Versova,941,1102,Ready to Move,10+ Years
+2,Versova,1093,1464,Ready to Move,5-10 Years
+3,Santacruz West,695,1294,Under Construction,1-5 Years
+3,Santacruz West,600,872,Under Construction,10+ Years
+3,Khar West,1605,1494,Under Construction,5-10 Years
+3,Khar West,600,1410,Under Construction,10+ Years
+3,Bandra East,1915,2109,Ready to Move,5-10 Years
+1,Bandra East,1353,1124,Under Construction,10+ Years
+2,Andheri West,1337,1691,Under Construction,1-5 Years
+3,Bandra West,1301,1342,Ready to Move,1-5 Years
+3,Khar West,1011,1560,Under Construction,0-1 Year
+1,Santacruz West,1237,1332,Under Construction,10+ Years
+1,Juhu,1033,1028,Ready to Move,0-1 Year
+3,Santacruz West,1293,997,Ready to Move,10+ Years
+1,Bandra West,1088,1485,Ready to Move,5-10 Years
+2,Bandra East,767,767,Under Construction,5-10 Years
+2,Santacruz West,795,677,Under Construction,0-1 Year
+3,Andheri West,755,800,Ready to Move,10+ Years
+3,Bandra West,1439,1315,Ready to Move,0-1 Year
+2,Bandra East,883,1202,Under Construction,1-5 Years
+3,Juhu,600,1274,Ready to Move,0-1 Year
+2,Bandra East,1238,1305,Ready to Move,0-1 Year
+2,Versova,1630,1379,Ready to Move,5-10 Years
+3,Andheri West,1370,1071,Under Construction,0-1 Year
+3,Bandra West,888,1440,Under Construction,10+ Years
+3,Juhu,600,1461,Under Construction,5-10 Years
+3,Andheri West,1053,1274,Under Construction,0-1 Year
+2,Bandra East,1044,1152,Under Construction,1-5 Years
+1,Andheri West,760,619,Under Construction,0-1 Year
+2,Bandra West,1292,1385,Ready to Move,0-1 Year
+2,Khar West,1746,1278,Under Construction,0-1 Year
+2,Andheri West,1177,1073,Under Construction,5-10 Years
+4,Versova,1156,882,Ready to Move,10+ Years
+2,Andheri West,771,568,Under Construction,1-5 Years
+3,Bandra East,1589,1271,Under Construction,0-1 Year
+3,Bandra East,1073,965,Ready to Move,10+ Years
+3,Juhu,897,1277,Ready to Move,10+ Years
+2,Bandra East,1122,1020,Ready to Move,5-10 Years
+2,Santacruz West,1265,1124,Under Construction,1-5 Years
+2,Bandra West,1148,1439,Ready to Move,5-10 Years
+2,Bandra West,1522,1288,Under Construction,10+ Years
+3,Khar West,1234,1321,Under Construction,10+ Years
+2,Khar West,1000,1617,Under Construction,10+ Years
+1,Bandra West,1240,1226,Under Construction,5-10 Years
+3,Versova,1274,1148,Ready to Move,1-5 Years
+2,Khar West,646,1091,Ready to Move,0-1 Year
+4,Juhu,1502,1524,Under Construction,5-10 Years
+4,Bandra East,994,968,Ready to Move,10+ Years
+4,Bandra West,1003,1091,Under Construction,5-10 Years
+2,Khar West,1362,1140,Under Construction,10+ Years
+1,Bandra West,1361,1518,Under Construction,0-1 Year
+4,Santacruz West,854,934,Ready to Move,0-1 Year
+2,Andheri West,1381,1118,Under Construction,1-5 Years
+4,Bandra East,903,1327,Under Construction,10+ Years
+4,Bandra West,1736,1586,Ready to Move,1-5 Years
+3,Andheri West,810,1191,Ready to Move,1-5 Years
+2,Khar West,1183,933,Ready to Move,0-1 Year
+2,Andheri West,826,902,Ready to Move,5-10 Years
+3,Bandra East,1877,1462,Under Construction,5-10 Years
+2,Bandra West,666,1082,Ready to Move,1-5 Years
+2,Santacruz West,1283,773,Under Construction,0-1 Year
+2,Versova,842,1282,Ready to Move,10+ Years
+4,Khar West,976,1120,Ready to Move,5-10 Years
+3,Bandra West,1258,1486,Ready to Move,1-5 Years
+2,Bandra East,1528,1223,Ready to Move,5-10 Years
+1,Khar West,1668,1678,Ready to Move,5-10 Years
+3,Juhu,600,1742,Ready to Move,10+ Years
+4,Andheri West,1193,897,Under Construction,0-1 Year
+1,Versova,1610,992,Ready to Move,10+ Years
+2,Bandra East,600,902,Ready to Move,0-1 Year
+3,Juhu,1210,1064,Ready to Move,5-10 Years
+3,Bandra West,1099,1548,Ready to Move,1-5 Years
+3,Santacruz West,1245,1424,Under Construction,10+ Years
+3,Khar West,829,1377,Ready to Move,0-1 Year
+2,Andheri West,600,916,Ready to Move,5-10 Years
+2,Khar West,600,1433,Ready to Move,0-1 Year
+3,Versova,1441,942,Ready to Move,0-1 Year
+3,Bandra West,1486,1502,Under Construction,0-1 Year
+3,Khar West,1205,1165,Ready to Move,5-10 Years
+4,Andheri West,913,1384,Under Construction,1-5 Years
+2,Bandra West,600,700,Ready to Move,1-5 Years
+2,Khar West,1297,1320,Under Construction,1-5 Years
+3,Santacruz West,714,1068,Under Construction,0-1 Year
+3,Bandra East,851,764,Ready to Move,5-10 Years
+3,Bandra West,894,1071,Ready to Move,0-1 Year
+3,Bandra East,1030,1106,Under Construction,1-5 Years
+3,Bandra West,834,1490,Under Construction,1-5 Years
+2,Santacruz West,1111,764,Ready to Move,5-10 Years
+2,Bandra East,882,721,Under Construction,0-1 Year
+1,Juhu,1345,1583,Under Construction,10+ Years
+2,Andheri West,1460,1117,Under Construction,10+ Years
+1,Juhu,1137,966,Ready to Move,1-5 Years
+2,Khar West,1261,1518,Under Construction,5-10 Years
+2,Santacruz West,1841,1209,Under Construction,0-1 Year
+2,Juhu,689,1372,Under Construction,0-1 Year
+2,Bandra West,668,891,Ready to Move,1-5 Years
+1,Khar West,1343,1222,Ready to Move,1-5 Years
+1,Khar West,1781,1706,Under Construction,0-1 Year
+3,Juhu,1008,1229,Ready to Move,0-1 Year
+2,Juhu,1704,1702,Under Construction,1-5 Years
+1,Santacruz West,1133,964,Ready to Move,0-1 Year
+2,Andheri West,861,1508,Ready to Move,10+ Years
+3,Juhu,753,1630,Under Construction,1-5 Years
+2,Versova,1320,788,Ready to Move,0-1 Year
+3,Juhu,779,1347,Ready to Move,1-5 Years
+1,Bandra East,1128,752,Ready to Move,5-10 Years
+1,Bandra West,1654,1444,Under Construction,1-5 Years
+2,Versova,992,1025,Ready to Move,1-5 Years
+2,Versova,1559,937,Ready to Move,5-10 Years
+3,Bandra East,674,1255,Under Construction,10+ Years
+3,Bandra East,913,1111,Ready to Move,0-1 Year
+4,Khar West,607,1132,Ready to Move,5-10 Years
+2,Andheri West,1125,937,Ready to Move,1-5 Years
+2,Bandra West,1373,1398,Ready to Move,0-1 Year
+3,Santacruz West,1126,1254,Ready to Move,5-10 Years
+2,Versova,1529,1186,Under Construction,0-1 Year
+2,Santacruz West,837,594,Under Construction,0-1 Year
+1,Juhu,1178,1205,Ready to Move,5-10 Years
+1,Juhu,915,746,Ready to Move,0-1 Year
+4,Santacruz West,1226,1201,Ready to Move,10+ Years
+3,Juhu,1276,1050,Under Construction,5-10 Years
+3,Andheri West,1303,861,Under Construction,10+ Years
+2,Bandra East,725,1245,Ready to Move,1-5 Years
+2,Juhu,788,1035,Ready to Move,0-1 Year
+2,Khar West,853,1039,Under Construction,1-5 Years
+2,Juhu,1016,1351,Ready to Move,1-5 Years
+2,Bandra West,1130,1158,Under Construction,0-1 Year
+3,Andheri West,1347,1817,Under Construction,5-10 Years
+3,Bandra West,803,1134,Ready to Move,0-1 Year
+2,Bandra West,600,1152,Under Construction,1-5 Years
+4,Khar West,1854,1982,Ready to Move,1-5 Years
+3,Andheri West,703,1419,Ready to Move,5-10 Years
+2,Andheri West,1392,958,Ready to Move,0-1 Year
+3,Andheri West,1110,1016,Ready to Move,1-5 Years
+2,Andheri West,1187,1440,Ready to Move,10+ Years
+2,Andheri West,1099,1275,Ready to Move,1-5 Years
+2,Khar West,965,1497,Under Construction,1-5 Years
+3,Juhu,1262,1044,Under Construction,5-10 Years
+1,Bandra West,946,1541,Under Construction,10+ Years
+1,Andheri West,1508,919,Under Construction,1-5 Years
+1,Versova,1298,1102,Ready to Move,1-5 Years
+1,Juhu,1309,1211,Under Construction,10+ Years
+3,Juhu,922,1012,Under Construction,0-1 Year
+3,Bandra West,1017,946,Under Construction,0-1 Year
+2,Khar West,684,733,Ready to Move,1-5 Years
+1,Santacruz West,976,953,Under Construction,1-5 Years
+2,Santacruz West,737,554,Ready to Move,0-1 Year
+2,Juhu,1559,1115,Under Construction,5-10 Years
+2,Bandra East,1117,994,Ready to Move,10+ Years
+2,Bandra East,1159,723,Ready to Move,10+ Years
+2,Bandra West,1021,1436,Under Construction,5-10 Years
+3,Santacruz West,1169,807,Ready to Move,5-10 Years
+3,Juhu,1962,1652,Ready to Move,5-10 Years
+1,Khar West,994,1131,Under Construction,5-10 Years
+2,Santacruz West,872,1108,Under Construction,5-10 Years
+3,Juhu,1285,1392,Under Construction,5-10 Years
+2,Juhu,600,1615,Ready to Move,10+ Years
+3,Andheri West,1122,1198,Ready to Move,5-10 Years
+3,Khar West,969,1572,Ready to Move,0-1 Year
+2,Andheri West,752,707,Under Construction,5-10 Years
+1,Bandra West,1277,1273,Ready to Move,5-10 Years
+3,Andheri West,1118,1570,Ready to Move,10+ Years
+1,Versova,600,703,Ready to Move,10+ Years
+2,Andheri West,873,1012,Ready to Move,5-10 Years
+4,Versova,600,1284,Ready to Move,10+ Years
+2,Santacruz West,1202,882,Ready to Move,1-5 Years
+2,Bandra East,1199,739,Ready to Move,10+ Years
+3,Juhu,822,1289,Under Construction,10+ Years
+2,Versova,1289,1401,Under Construction,10+ Years
+2,Khar West,651,720,Under Construction,10+ Years
+4,Andheri West,761,1261,Ready to Move,0-1 Year
+2,Versova,1246,1297,Ready to Move,0-1 Year
+4,Khar West,858,963,Under Construction,0-1 Year
+4,Bandra East,1078,938,Ready to Move,5-10 Years
+2,Bandra East,902,859,Under Construction,5-10 Years
+1,Andheri West,956,861,Ready to Move,1-5 Years
+1,Bandra West,971,909,Ready to Move,0-1 Year
+1,Andheri West,852,646,Under Construction,5-10 Years
+1,Santacruz West,1205,1480,Under Construction,10+ Years
+3,Versova,880,1011,Under Construction,10+ Years
+1,Juhu,1105,977,Under Construction,0-1 Year
+2,Bandra West,844,1135,Under Construction,1-5 Years
+3,Andheri West,600,1080,Ready to Move,1-5 Years
+1,Khar West,1419,1311,Ready to Move,10+ Years
+3,Bandra West,1274,1341,Ready to Move,1-5 Years
+2,Versova,1901,1187,Under Construction,0-1 Year
+1,Bandra West,734,837,Under Construction,10+ Years
+3,Versova,1026,932,Under Construction,5-10 Years
+3,Andheri West,1055,1206,Under Construction,5-10 Years
+3,Versova,1446,989,Under Construction,1-5 Years
+3,Bandra West,922,1368,Under Construction,10+ Years
+3,Khar West,690,1561,Ready to Move,10+ Years
+2,Bandra East,1522,1309,Ready to Move,5-10 Years
+2,Bandra West,989,1101,Ready to Move,10+ Years
+3,Versova,1407,902,Ready to Move,10+ Years
+3,Bandra East,1366,1677,Ready to Move,10+ Years
+4,Versova,1089,877,Under Construction,1-5 Years
+2,Khar West,1038,1462,Under Construction,10+ Years
+2,Versova,962,1172,Under Construction,0-1 Year
+3,Andheri West,1094,1060,Under Construction,1-5 Years
+2,Juhu,1402,1296,Under Construction,10+ Years
+4,Bandra West,821,948,Under Construction,10+ Years
+3,Juhu,1138,1437,Ready to Move,0-1 Year
+2,Versova,708,1066,Under Construction,1-5 Years
+3,Khar West,752,885,Under Construction,5-10 Years
+3,Bandra West,1089,1281,Under Construction,5-10 Years
+1,Versova,600,780,Under Construction,1-5 Years
+4,Bandra East,1821,1661,Ready to Move,10+ Years
+2,Santacruz West,682,883,Ready to Move,10+ Years
+3,Versova,1085,774,Under Construction,5-10 Years
+2,Juhu,1508,1264,Ready to Move,5-10 Years
+3,Bandra West,797,1270,Ready to Move,5-10 Years
+2,Juhu,600,1285,Under Construction,0-1 Year
+1,Bandra West,944,934,Under Construction,5-10 Years
+4,Versova,793,1699,Under Construction,0-1 Year
+1,Andheri West,600,420,Under Construction,1-5 Years
+2,Bandra East,1199,931,Under Construction,10+ Years
+4,Versova,1172,1214,Ready to Move,5-10 Years
+4,Juhu,1499,1512,Under Construction,10+ Years
+2,Santacruz West,707,547,Under Construction,10+ Years
+3,Santacruz West,600,1055,Under Construction,5-10 Years
+2,Khar West,957,1295,Ready to Move,5-10 Years
+2,Bandra West,1069,1250,Under Construction,1-5 Years
+2,Juhu,1422,1470,Under Construction,0-1 Year
+3,Khar West,1593,1408,Under Construction,0-1 Year
+3,Juhu,1525,1150,Ready to Move,10+ Years
+3,Bandra West,1196,1167,Under Construction,5-10 Years
+3,Versova,1379,1284,Under Construction,1-5 Years
+1,Versova,875,925,Under Construction,1-5 Years
+2,Santacruz West,1158,1084,Ready to Move,1-5 Years
+1,Versova,683,956,Under Construction,1-5 Years
+2,Versova,1121,895,Under Construction,1-5 Years
+2,Andheri West,1131,1069,Under Construction,0-1 Year
+3,Santacruz West,1702,1530,Ready to Move,0-1 Year
+2,Khar West,1019,1193,Under Construction,0-1 Year
+1,Bandra East,1131,633,Under Construction,5-10 Years
+1,Andheri West,1182,732,Under Construction,10+ Years
+3,Khar West,940,1498,Ready to Move,1-5 Years
+3,Bandra West,819,1606,Ready to Move,5-10 Years
+1,Andheri West,1554,1480,Under Construction,1-5 Years
+1,Khar West,756,1097,Ready to Move,0-1 Year
+3,Bandra West,635,807,Ready to Move,5-10 Years
+1,Santacruz West,1338,1063,Ready to Move,0-1 Year
+3,Bandra East,1505,1729,Under Construction,1-5 Years
+3,Bandra West,942,1439,Under Construction,1-5 Years
+1,Versova,947,849,Ready to Move,10+ Years
+1,Juhu,1198,1385,Ready to Move,1-5 Years
+4,Bandra West,852,960,Ready to Move,0-1 Year
+2,Bandra West,826,945,Under Construction,1-5 Years
+2,Bandra East,1407,868,Under Construction,10+ Years
+3,Juhu,1312,1545,Ready to Move,10+ Years
+4,Versova,1558,1592,Ready to Move,0-1 Year
+4,Khar West,661,1190,Ready to Move,5-10 Years
+3,Khar West,924,1014,Ready to Move,1-5 Years
+2,Bandra West,1198,1283,Under Construction,10+ Years
+1,Juhu,776,903,Ready to Move,1-5 Years
+3,Juhu,1324,1196,Under Construction,1-5 Years
+2,Versova,1528,1315,Ready to Move,5-10 Years
+2,Bandra East,895,755,Ready to Move,10+ Years
+4,Santacruz West,1113,865,Ready to Move,1-5 Years
+1,Khar West,1609,1023,Ready to Move,10+ Years
+2,Bandra East,1729,951,Ready to Move,0-1 Year
+1,Andheri West,1361,1143,Under Construction,0-1 Year
+2,Khar West,1307,1374,Ready to Move,1-5 Years
+1,Bandra East,801,878,Ready to Move,10+ Years
+1,Khar West,1225,1384,Ready to Move,1-5 Years
+1,Santacruz West,1294,1380,Under Construction,10+ Years
+3,Andheri West,1026,934,Under Construction,10+ Years
+3,Santacruz West,891,1159,Under Construction,5-10 Years
+2,Versova,651,520,Under Construction,5-10 Years
+4,Andheri West,600,1396,Ready to Move,5-10 Years
+2,Bandra West,600,701,Ready to Move,1-5 Years
+2,Bandra East,1302,931,Ready to Move,5-10 Years
+3,Andheri West,1151,982,Under Construction,5-10 Years
+2,Versova,930,632,Ready to Move,0-1 Year
+4,Versova,983,1172,Ready to Move,10+ Years
+1,Santacruz West,1173,1058,Under Construction,10+ Years
+4,Khar West,1042,1332,Under Construction,5-10 Years
+1,Andheri West,630,432,Under Construction,10+ Years
+3,Bandra East,1419,1812,Ready to Move,0-1 Year
+2,Andheri West,1206,1245,Ready to Move,0-1 Year
+4,Juhu,1193,2184,Under Construction,5-10 Years
+1,Khar West,1393,1061,Ready to Move,0-1 Year
+2,Bandra East,815,1204,Under Construction,10+ Years
+4,Bandra East,1524,1597,Under Construction,1-5 Years
+2,Bandra West,1050,1148,Ready to Move,10+ Years
+3,Santacruz West,1411,1649,Under Construction,1-5 Years
+3,Bandra West,1357,1318,Under Construction,5-10 Years
+2,Bandra East,736,802,Under Construction,1-5 Years
+3,Khar West,1276,1050,Ready to Move,0-1 Year
+2,Andheri West,1214,1209,Under Construction,10+ Years
+4,Andheri West,1110,864,Under Construction,1-5 Years
+1,Khar West,1066,1001,Under Construction,10+ Years
+2,Bandra East,1069,749,Under Construction,5-10 Years
+4,Versova,1384,1220,Under Construction,5-10 Years
+3,Andheri West,1302,1334,Under Construction,0-1 Year
+2,Versova,1110,1057,Under Construction,5-10 Years
+3,Andheri West,600,1128,Ready to Move,1-5 Years
+2,Andheri West,1273,1473,Ready to Move,5-10 Years
+2,Santacruz West,1353,1047,Under Construction,0-1 Year
+2,Santacruz West,1905,1238,Ready to Move,10+ Years
+2,Juhu,1476,1668,Ready to Move,10+ Years
+2,Bandra West,600,1340,Under Construction,5-10 Years
+1,Khar West,1127,1387,Ready to Move,1-5 Years
+4,Khar West,1733,1396,Under Construction,0-1 Year
+4,Khar West,1318,1615,Under Construction,1-5 Years
+3,Juhu,1215,1406,Under Construction,0-1 Year
+2,Santacruz West,1415,1470,Under Construction,5-10 Years
+2,Bandra East,882,801,Under Construction,0-1 Year
+3,Versova,1267,846,Ready to Move,0-1 Year
+3,Versova,1012,1287,Under Construction,5-10 Years
+2,Bandra East,1093,697,Ready to Move,1-5 Years
+4,Juhu,1389,1320,Under Construction,5-10 Years
+3,Bandra East,775,713,Under Construction,0-1 Year
+4,Khar West,1550,1301,Under Construction,5-10 Years
+3,Bandra West,952,1060,Ready to Move,0-1 Year
+3,Andheri West,1191,1506,Under Construction,5-10 Years
+2,Versova,609,1082,Under Construction,10+ Years
+4,Santacruz West,1351,1239,Under Construction,10+ Years
+3,Santacruz West,1606,1649,Under Construction,5-10 Years
+1,Juhu,919,799,Ready to Move,1-5 Years
+1,Santacruz West,711,478,Under Construction,0-1 Year
+2,Khar West,1197,1529,Ready to Move,10+ Years
+3,Versova,1609,1495,Under Construction,1-5 Years
+4,Bandra East,600,881,Ready to Move,0-1 Year
+2,Khar West,712,776,Ready to Move,10+ Years
+2,Juhu,941,1594,Under Construction,10+ Years
+2,Khar West,812,784,Under Construction,5-10 Years
+4,Bandra East,813,927,Ready to Move,0-1 Year
+3,Bandra West,600,1194,Under Construction,1-5 Years
+3,Juhu,1306,1916,Under Construction,1-5 Years
+2,Bandra West,1218,1404,Under Construction,1-5 Years
+2,Andheri West,600,984,Ready to Move,0-1 Year
+2,Bandra West,1610,1294,Under Construction,1-5 Years
+1,Andheri West,1688,1364,Under Construction,1-5 Years
+3,Andheri West,837,1053,Under Construction,1-5 Years
+3,Bandra West,1508,1143,Ready to Move,5-10 Years
+4,Juhu,899,1551,Under Construction,5-10 Years
+4,Bandra East,1163,1506,Ready to Move,0-1 Year
+2,Khar West,807,1356,Under Construction,0-1 Year
+3,Khar West,1874,1648,Ready to Move,1-5 Years
+4,Bandra East,996,900,Under Construction,5-10 Years
+3,Versova,1144,797,Under Construction,10+ Years
+2,Versova,859,996,Ready to Move,10+ Years
+2,Andheri West,1751,1612,Ready to Move,1-5 Years
+1,Andheri West,1760,1512,Ready to Move,1-5 Years
+4,Juhu,1670,1866,Under Construction,5-10 Years
+3,Santacruz West,1434,1242,Under Construction,5-10 Years
+2,Bandra West,881,1466,Under Construction,5-10 Years
+3,Andheri West,1389,1503,Under Construction,0-1 Year
+3,Khar West,1097,1209,Ready to Move,0-1 Year
+2,Juhu,1559,1622,Under Construction,1-5 Years
+1,Bandra West,1490,1175,Under Construction,0-1 Year
+3,Juhu,872,1389,Under Construction,5-10 Years
+2,Bandra West,1431,1032,Under Construction,5-10 Years
+3,Bandra West,1338,1082,Under Construction,0-1 Year
+2,Bandra East,600,1146,Under Construction,10+ Years
+3,Andheri West,1380,1504,Under Construction,1-5 Years
+2,Juhu,948,1366,Ready to Move,10+ Years
+2,Juhu,789,1149,Under Construction,1-5 Years
+3,Bandra East,804,661,Under Construction,10+ Years
+2,Khar West,1052,1209,Under Construction,0-1 Year
+1,Khar West,1268,1364,Under Construction,1-5 Years
+1,Versova,622,628,Ready to Move,1-5 Years
+3,Andheri West,1166,956,Ready to Move,1-5 Years
+3,Andheri West,1301,1614,Ready to Move,5-10 Years
+3,Santacruz West,1751,1373,Ready to Move,5-10 Years
+2,Bandra East,723,1026,Ready to Move,10+ Years
+1,Khar West,977,1336,Ready to Move,0-1 Year
+1,Bandra West,1191,925,Under Construction,5-10 Years
+2,Juhu,1501,1464,Ready to Move,1-5 Years
+2,Andheri West,993,1376,Ready to Move,5-10 Years
+2,Juhu,1519,1926,Under Construction,0-1 Year
+2,Juhu,600,1061,Ready to Move,5-10 Years
+4,Santacruz West,661,967,Under Construction,1-5 Years
+2,Khar West,1222,1373,Under Construction,10+ Years
+2,Andheri West,606,920,Ready to Move,1-5 Years
+3,Juhu,688,1553,Under Construction,0-1 Year
+2,Andheri West,915,697,Ready to Move,10+ Years
+3,Bandra West,1370,1359,Ready to Move,5-10 Years
+3,Santacruz West,600,617,Under Construction,5-10 Years
+4,Bandra West,1159,1149,Under Construction,5-10 Years
+1,Andheri West,1461,1219,Ready to Move,10+ Years
+4,Versova,1031,1408,Under Construction,1-5 Years
+2,Andheri West,970,816,Under Construction,10+ Years
+2,Khar West,1240,1522,Ready to Move,10+ Years
+2,Juhu,1032,1533,Ready to Move,0-1 Year
+4,Juhu,1586,2145,Under Construction,10+ Years
+2,Bandra West,711,1113,Ready to Move,5-10 Years
+2,Santacruz West,1081,862,Ready to Move,1-5 Years
+3,Versova,1171,877,Ready to Move,1-5 Years
+2,Bandra East,967,687,Ready to Move,1-5 Years
+1,Juhu,600,1319,Ready to Move,5-10 Years
+1,Khar West,1043,797,Ready to Move,5-10 Years
+1,Bandra West,1415,1636,Ready to Move,5-10 Years
+2,Bandra West,1372,1114,Under Construction,5-10 Years
+1,Bandra East,1224,827,Ready to Move,5-10 Years
+3,Khar West,715,1133,Under Construction,10+ Years
+2,Santacruz West,1238,907,Under Construction,5-10 Years
+2,Khar West,899,1429,Under Construction,5-10 Years
+3,Santacruz West,1223,1686,Ready to Move,5-10 Years
+2,Khar West,1142,1081,Ready to Move,5-10 Years
+3,Khar West,758,1071,Under Construction,1-5 Years
+2,Andheri West,787,878,Ready to Move,5-10 Years
+2,Bandra West,1224,1450,Under Construction,10+ Years
+1,Khar West,1022,1095,Ready to Move,10+ Years
+2,Bandra East,805,1320,Ready to Move,10+ Years
+2,Khar West,777,1441,Under Construction,0-1 Year
+2,Juhu,993,875,Under Construction,1-5 Years
+1,Bandra West,1648,1534,Under Construction,5-10 Years
+1,Juhu,915,1521,Ready to Move,0-1 Year
+2,Bandra West,1095,1109,Under Construction,5-10 Years
+2,Juhu,1135,1181,Ready to Move,0-1 Year
+2,Khar West,704,943,Ready to Move,0-1 Year
+2,Khar West,600,908,Ready to Move,10+ Years
+3,Andheri West,740,636,Under Construction,10+ Years
+1,Bandra East,1186,654,Under Construction,0-1 Year
+3,Juhu,1130,1363,Under Construction,10+ Years
+3,Santacruz West,1345,1651,Ready to Move,0-1 Year
+1,Andheri West,1133,811,Ready to Move,1-5 Years
+3,Juhu,1061,1134,Under Construction,10+ Years
+4,Juhu,888,1801,Ready to Move,10+ Years
+1,Andheri West,1409,782,Ready to Move,10+ Years
+2,Khar West,778,771,Under Construction,1-5 Years
+3,Juhu,711,942,Under Construction,0-1 Year
+3,Khar West,1298,1223,Under Construction,5-10 Years
+2,Andheri West,633,513,Ready to Move,10+ Years
+2,Khar West,1945,1552,Ready to Move,0-1 Year
+2,Bandra West,1127,1525,Ready to Move,1-5 Years
+2,Santacruz West,1221,748,Ready to Move,5-10 Years
+3,Versova,817,1040,Ready to Move,10+ Years
+2,Juhu,989,1315,Under Construction,1-5 Years
+2,Bandra East,950,966,Ready to Move,1-5 Years
+3,Santacruz West,910,1105,Ready to Move,5-10 Years
+1,Versova,1321,1113,Ready to Move,0-1 Year
+2,Khar West,942,958,Under Construction,10+ Years
+3,Juhu,1456,1891,Under Construction,10+ Years
+3,Khar West,2032,2051,Under Construction,0-1 Year
+2,Bandra West,996,1541,Ready to Move,0-1 Year
+2,Andheri West,1153,1354,Under Construction,0-1 Year
+1,Juhu,1232,872,Under Construction,5-10 Years
+2,Versova,1734,1562,Under Construction,5-10 Years
+2,Versova,1071,1221,Ready to Move,10+ Years
+2,Bandra West,809,783,Under Construction,5-10 Years
+2,Bandra West,656,1011,Ready to Move,1-5 Years
+2,Juhu,1079,1318,Ready to Move,10+ Years
+1,Khar West,943,1573,Under Construction,5-10 Years
+2,Bandra East,1803,1533,Ready to Move,0-1 Year
+2,Versova,1719,1054,Under Construction,1-5 Years
+2,Versova,737,1378,Ready to Move,0-1 Year
+1,Bandra West,851,1082,Under Construction,10+ Years
+3,Santacruz West,1125,1068,Under Construction,0-1 Year
+2,Bandra West,1589,1353,Under Construction,5-10 Years
+3,Bandra East,1119,787,Ready to Move,5-10 Years
+3,Khar West,873,1208,Under Construction,10+ Years
+2,Khar West,1079,1380,Ready to Move,0-1 Year
+1,Santacruz West,880,774,Under Construction,10+ Years
+2,Versova,1310,1251,Ready to Move,0-1 Year
+2,Bandra West,851,907,Ready to Move,1-5 Years
+3,Khar West,921,1218,Under Construction,5-10 Years
+2,Bandra East,1506,1300,Under Construction,10+ Years
+1,Juhu,831,1115,Under Construction,1-5 Years
+2,Andheri West,600,500,Under Construction,1-5 Years
+2,Andheri West,1133,940,Under Construction,10+ Years
+3,Andheri West,973,1548,Ready to Move,10+ Years
+2,Versova,1278,983,Under Construction,1-5 Years
+2,Bandra West,1211,1298,Under Construction,0-1 Year
+4,Santacruz West,1088,1180,Ready to Move,1-5 Years
+3,Khar West,1078,1760,Under Construction,10+ Years
+2,Juhu,842,1507,Under Construction,1-5 Years
+1,Bandra East,1129,1207,Ready to Move,0-1 Year
+2,Juhu,1408,1100,Under Construction,5-10 Years
+2,Bandra East,759,1013,Under Construction,5-10 Years
+2,Versova,1098,1208,Under Construction,1-5 Years
+2,Bandra West,1463,1199,Ready to Move,0-1 Year
+2,Andheri West,1276,876,Under Construction,5-10 Years
+2,Bandra West,1558,1910,Ready to Move,1-5 Years
+3,Versova,901,965,Under Construction,1-5 Years
+1,Santacruz West,600,1222,Ready to Move,0-1 Year
+2,Santacruz West,1170,1357,Under Construction,10+ Years
+2,Versova,1226,1214,Ready to Move,1-5 Years
+4,Bandra East,1578,1527,Ready to Move,10+ Years
+1,Khar West,1515,986,Ready to Move,10+ Years
+2,Khar West,1287,1381,Ready to Move,5-10 Years
+4,Bandra East,1367,1712,Ready to Move,10+ Years
+3,Santacruz West,1032,1292,Ready to Move,0-1 Year
+3,Santacruz West,673,1002,Under Construction,5-10 Years
+2,Santacruz West,1141,1545,Under Construction,5-10 Years
+2,Bandra West,1443,1335,Ready to Move,5-10 Years
+3,Santacruz West,1329,1047,Ready to Move,1-5 Years
+4,Juhu,1391,1569,Ready to Move,1-5 Years
+2,Andheri West,950,1204,Ready to Move,10+ Years
+2,Santacruz West,1007,662,Under Construction,5-10 Years
+2,Bandra East,1269,1196,Ready to Move,5-10 Years
+3,Andheri West,908,1279,Under Construction,0-1 Year
+2,Bandra West,919,1101,Under Construction,10+ Years
+2,Bandra East,1204,1400,Ready to Move,0-1 Year
+2,Andheri West,1366,1335,Ready to Move,10+ Years
+2,Bandra East,1030,1621,Under Construction,10+ Years
+2,Bandra West,692,875,Under Construction,1-5 Years
+1,Juhu,842,1298,Ready to Move,1-5 Years
+3,Bandra West,1171,1073,Ready to Move,0-1 Year
+2,Bandra West,1167,926,Ready to Move,10+ Years
+2,Bandra East,1184,733,Under Construction,5-10 Years
+2,Versova,1282,1272,Under Construction,1-5 Years
+2,Khar West,1102,1301,Ready to Move,5-10 Years
+2,Santacruz West,1192,951,Under Construction,0-1 Year
+1,Santacruz West,1084,613,Under Construction,1-5 Years
+2,Juhu,1502,1216,Ready to Move,1-5 Years
+1,Juhu,1601,1371,Ready to Move,10+ Years
+1,Santacruz West,683,1025,Under Construction,0-1 Year
+4,Khar West,1010,1369,Under Construction,10+ Years
+2,Santacruz West,1111,1124,Ready to Move,1-5 Years
+3,Versova,1006,986,Ready to Move,0-1 Year
+2,Khar West,1727,1989,Ready to Move,1-5 Years
+3,Juhu,1178,1075,Ready to Move,0-1 Year
+3,Andheri West,818,821,Ready to Move,1-5 Years
+2,Bandra East,1308,995,Under Construction,5-10 Years
+2,Versova,1194,1238,Under Construction,5-10 Years
+2,Versova,1206,801,Under Construction,10+ Years
+2,Juhu,1732,1540,Under Construction,5-10 Years
+4,Juhu,1222,1504,Ready to Move,1-5 Years
+3,Bandra West,993,1092,Ready to Move,1-5 Years
+4,Versova,600,1102,Ready to Move,5-10 Years
+1,Bandra West,1042,863,Under Construction,10+ Years
+3,Bandra West,1557,1199,Under Construction,5-10 Years
+4,Bandra East,1068,1224,Under Construction,0-1 Year
+2,Bandra West,600,700,Ready to Move,0-1 Year
+1,Khar West,925,750,Under Construction,0-1 Year
+3,Santacruz West,1447,1417,Ready to Move,5-10 Years
+2,Andheri West,1291,1419,Ready to Move,5-10 Years
+3,Juhu,806,1081,Ready to Move,5-10 Years
+1,Khar West,902,902,Ready to Move,0-1 Year
+3,Andheri West,956,1353,Ready to Move,10+ Years
+2,Versova,868,636,Ready to Move,1-5 Years
+2,Versova,600,500,Under Construction,5-10 Years
+2,Versova,1367,1354,Ready to Move,10+ Years
+3,Khar West,1539,1507,Ready to Move,1-5 Years
+3,Khar West,600,1428,Under Construction,1-5 Years
+2,Juhu,1535,1074,Ready to Move,1-5 Years
+2,Santacruz West,1063,685,Under Construction,10+ Years
+3,Bandra West,1528,1505,Under Construction,10+ Years
+2,Versova,1113,1171,Under Construction,0-1 Year
+3,Bandra East,1147,1385,Ready to Move,10+ Years
+2,Santacruz West,1230,1150,Ready to Move,10+ Years
+2,Bandra East,823,985,Under Construction,10+ Years
+2,Juhu,1518,1307,Ready to Move,1-5 Years
+2,Juhu,707,1537,Ready to Move,5-10 Years
+3,Juhu,959,964,Under Construction,0-1 Year
+2,Andheri West,1283,1223,Under Construction,5-10 Years
+2,Bandra East,921,701,Ready to Move,5-10 Years
+3,Santacruz West,1372,1387,Under Construction,10+ Years
+2,Santacruz West,1581,951,Under Construction,0-1 Year
+2,Khar West,1454,1599,Under Construction,5-10 Years
+4,Khar West,600,1241,Ready to Move,5-10 Years
+3,Versova,1144,1635,Ready to Move,0-1 Year
+1,Khar West,1460,1235,Ready to Move,10+ Years
+4,Juhu,639,1343,Under Construction,5-10 Years
+3,Santacruz West,1353,1012,Ready to Move,1-5 Years
+2,Bandra East,1333,1062,Under Construction,5-10 Years
+1,Juhu,675,1029,Ready to Move,1-5 Years
+3,Andheri West,1391,896,Ready to Move,10+ Years
+3,Khar West,1195,1018,Under Construction,5-10 Years
+2,Juhu,1327,1507,Ready to Move,0-1 Year
+3,Juhu,761,1153,Under Construction,0-1 Year
+3,Andheri West,1152,983,Ready to Move,5-10 Years
+2,Bandra West,600,843,Ready to Move,10+ Years
+2,Santacruz West,600,654,Under Construction,10+ Years
+2,Bandra East,1149,1100,Under Construction,0-1 Year
+3,Versova,1485,1408,Under Construction,5-10 Years
+1,Bandra West,1188,855,Ready to Move,10+ Years
+2,Khar West,1077,1635,Ready to Move,0-1 Year
+3,Juhu,1034,1678,Ready to Move,1-5 Years
+3,Andheri West,770,648,Under Construction,5-10 Years
+2,Andheri West,1022,1322,Under Construction,1-5 Years
+3,Santacruz West,1247,1483,Under Construction,1-5 Years
+1,Bandra West,947,1108,Ready to Move,10+ Years
+3,Versova,1362,884,Ready to Move,10+ Years
+1,Santacruz West,1168,1281,Under Construction,10+ Years
+2,Juhu,1210,1226,Ready to Move,5-10 Years
+3,Santacruz West,1411,1407,Under Construction,1-5 Years
+1,Bandra East,915,1517,Ready to Move,5-10 Years
+2,Andheri West,1330,1212,Ready to Move,10+ Years
+3,Andheri West,964,818,Under Construction,1-5 Years
+3,Khar West,1218,1282,Ready to Move,5-10 Years
+3,Khar West,873,1017,Ready to Move,5-10 Years
+3,Versova,781,1123,Under Construction,0-1 Year
+2,Juhu,1132,1036,Under Construction,5-10 Years
+2,Bandra East,600,717,Ready to Move,10+ Years
+2,Bandra West,996,858,Under Construction,5-10 Years
+2,Santacruz West,600,813,Ready to Move,1-5 Years
+4,Versova,1372,1367,Under Construction,5-10 Years
+2,Juhu,1467,1046,Ready to Move,0-1 Year
+2,Khar West,797,1200,Ready to Move,1-5 Years
+2,Santacruz West,1249,1096,Under Construction,1-5 Years
+4,Khar West,1414,1320,Ready to Move,0-1 Year
+2,Santacruz West,1415,1744,Ready to Move,10+ Years
+2,Bandra West,1175,1548,Under Construction,1-5 Years
+2,Juhu,1357,1045,Under Construction,10+ Years
+3,Santacruz West,872,1272,Ready to Move,1-5 Years
+1,Bandra East,1129,1329,Under Construction,1-5 Years
+3,Versova,936,1100,Under Construction,10+ Years
+4,Andheri West,843,1208,Ready to Move,1-5 Years
+2,Bandra East,1112,1148,Ready to Move,10+ Years
+3,Bandra East,1221,828,Under Construction,0-1 Year
+4,Versova,1507,1319,Under Construction,10+ Years
