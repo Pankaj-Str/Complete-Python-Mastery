@@ -119,7 +119,7 @@ avg_price = df.groupby('Locality')['Price_Lakhs'].mean().reset_index()
 avg_price = avg_price.sort_values('Price_Lakhs', ascending=False)
 
 plt.figure(figsize=(12, 8))
-ax = sns.barplot(data=avg_price, x='Price_Lakhs', y='Locality', palette="viridis")
+ax = sns.barplot(data=avg_price, x='Price_Lakhs', y='Locality', palette="viridis",hue='Price_Lakhs', dodge=False)
 
 plt.title('Average House Price by Locality in Mumbai West', fontsize=15)
 plt.xlabel('Average Price (₹ Lakhs)')
@@ -132,6 +132,83 @@ for i, v in enumerate(avg_price['Price_Lakhs']):
 plt.tight_layout()
 plt.show()
 ```
+----
+
+### The Code Part You Want Explained:
+
+```python
+# Add exact values on bars
+for i, v in enumerate(avg_price['Price_Lakhs']):
+    ax.text(v + 15, i, f'₹{v:.0f} L', va='center', fontsize=11, fontweight='bold')
+```
+
+---
+
+### 🎯 **What does this code do?**
+
+It **adds the exact price value** (like ₹1315 L) **on each bar** of the horizontal bar chart.  
+This makes the chart much more readable and professional — viewers don’t have to guess the value by looking at the x-axis.
+
+---
+
+### Step-by-step Breakdown (Easy for Students)
+
+Let’s understand line by line:
+
+#### 1. `for i, v in enumerate(avg_price['Price_Lakhs']):`
+
+- `avg_price['Price_Lakhs']` → This is a column with 7 values (average price of each locality).
+- `enumerate()` → It gives you **two things** at the same time:
+  - `i` = **index** (position) → 0, 1, 2, 3, 4, 5, 6  
+    (0 = Juhu, 1 = Khar West, etc.)
+  - `v` = **actual value** → e.g., 1315, 1270, 1224, etc.
+
+**Example**:  
+If `avg_price['Price_Lakhs']` = [1315, 1270, 1224, ...]  
+Then the loop runs like this:
+- First time: `i=0`, `v=1315`
+- Second time: `i=1`, `v=1270`
+- And so on...
+
+---
+
+#### 2. `ax.text(v + 15, i, f'₹{v:.0f} L', ...)`
+
+This is the most important line. It **places text** on the chart.
+
+- `ax.text(x, y, "text to show")` → tells Matplotlib **where** to put the text and **what** to write.
+
+**Parameters explained**:
+
+| Parameter       | Meaning                                                                 | Why we use it |
+|-----------------|-------------------------------------------------------------------------|---------------|
+| `v + 15`        | x-coordinate (horizontal position)                                      | Puts the text **a little to the right** of the end of the bar (so it doesn’t overlap) |
+| `i`             | y-coordinate (vertical position)                                        | Since it’s a **horizontal** bar chart, each bar is at position 0, 1, 2... |
+| `f'₹{v:.0f} L'` | The actual text to display                                              | Shows ₹1315 L (with rupee symbol) |
+| `va='center'`   | Vertical alignment                                                      | Centers the text vertically with the bar |
+| `fontsize=11`   | Size of the text                                                        | Makes it easy to read |
+| `fontweight='bold'` | Makes the text **bold**                                             | Looks more professional |
+
+---
+
+### Simple Analogy
+
+Imagine you have 7 bars standing horizontally like this:
+
+```
+Juhu          ████████████████████   ← bar ends here
+Khar West     █████████████████      ← bar ends here
+...
+```
+
+This loop goes to each bar and writes the number **just after** the bar ends.
+
+Without this code → Students have to look at the x-axis to guess the value.  
+With this code → The exact number (₹1315 L) appears clearly on the chart.
+
+---
+
+
 
 **What the chart shows**:  
 - Juhu is the most expensive  
@@ -182,7 +259,7 @@ plt.show()
 ```python
 plt.figure(figsize=(10, 6))
 sns.boxplot(x='BHK', y='Price_Lakhs', data=df, 
-            palette="Set2", width=0.65, fliersize=7, linewidth=2.2)
+            palette="Set2", width=0.65, fliersize=7, linewidth=2.2,hue='BHK')
 
 plt.title('Enhanced Box Plot: Price Spread & Outliers by BHK', fontsize=15)
 plt.xlabel('Number of Bedrooms (BHK)')
@@ -207,11 +284,11 @@ plt.show()
 ```python
 plt.figure(figsize=(11, 7))
 ax = sns.boxplot(x='BHK', y='Price_Lakhs', data=df, 
-                 palette="Set2", width=0.6, linewidth=2)
+                 palette="Set2", width=0.6, linewidth=2,hue='BHK')
 
 # Add every single house as a dot
 sns.stripplot(x='BHK', y='Price_Lakhs', data=df, 
-              palette='dark:black', alpha=0.35, jitter=True, size=3.5, ax=ax)
+              palette='dark:black', alpha=0.35, jitter=True, size=3.5, ax=ax,hue='BHK')
 
 plt.title('Combined Plot: Boxplot (Summary) + Stripplot (Raw Data Points) by BHK\nMumbai West Housing', fontsize=15, pad=20)
 plt.xlabel('Number of Bedrooms (BHK)')
