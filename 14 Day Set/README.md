@@ -213,24 +213,27 @@ print(A.intersection(B))
 ---
 ### Union 
 
-<img width="2816" height="1536" alt="Gemini_Generated_Image_tdx47ztdx47ztdx4" src="https://github.com/user-attachments/assets/68150e14-bbaf-4234-937e-0237522abdcb" />
+<img width="2816" height="1536" alt="Gemini_Generated_Image_en29leen29leen29" src="https://github.com/user-attachments/assets/b9272d22-a8f3-40e8-acf8-fa00993b7379" />
+
 
 ---
 ### Intersection
 
-<img width="2816" height="1536" alt="Gemini_Generated_Image_u4mp1ju4mp1ju4mp" src="https://github.com/user-attachments/assets/e6392df1-9c41-473a-9114-0979c416e9a8" />
+<img width="2816" height="1536" alt="Gemini_Generated_Image_s9lrn5s9lrn5s9lr" src="https://github.com/user-attachments/assets/79765a9f-e3b0-40dc-8dea-3886ac286769" />
 
 ---
 
 ### Difference
 
-<img width="2816" height="1536" alt="Gemini_Generated_Image_tzgjfftzgjfftzgj" src="https://github.com/user-attachments/assets/63198460-3efd-45a8-9c70-bedf652fa6df" />
+<img width="2816" height="1536" alt="Gemini_Generated_Image_3nkawq3nkawq3nka" src="https://github.com/user-attachments/assets/52cd9359-74d2-4019-8b60-ff300af3c463" />
+
 
 ---
 
 ### Symmetric difference
 
-<img width="2816" height="1536" alt="Gemini_Generated_Image_1b9gw81b9gw81b9g" src="https://github.com/user-attachments/assets/d5b0e9fb-2f62-4dc4-8d29-8585b34114d9" />
+<img width="2816" height="1536" alt="Gemini_Generated_Image_y2wubdy2wubdy2wu" src="https://github.com/user-attachments/assets/c5fd4caf-63c7-4079-a3d4-259ab3abfea2" />
+
 
 ---
 
