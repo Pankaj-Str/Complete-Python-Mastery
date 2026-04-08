@@ -210,6 +210,28 @@ You can also use the full method names:
 print(A.union(B))
 print(A.intersection(B))
 ```
+---
+### Union 
+
+<img width="2816" height="1536" alt="Gemini_Generated_Image_tdx47ztdx47ztdx4" src="https://github.com/user-attachments/assets/68150e14-bbaf-4234-937e-0237522abdcb" />
+
+---
+### Intersection
+
+<img width="2816" height="1536" alt="Gemini_Generated_Image_u4mp1ju4mp1ju4mp" src="https://github.com/user-attachments/assets/e6392df1-9c41-473a-9114-0979c416e9a8" />
+
+---
+
+### Difference
+
+<img width="2816" height="1536" alt="Gemini_Generated_Image_tzgjfftzgjfftzgj" src="https://github.com/user-attachments/assets/63198460-3efd-45a8-9c70-bedf652fa6df" />
+
+---
+
+### Symmetric difference
+
+<img width="2816" height="1536" alt="Gemini_Generated_Image_tzgjfftzgjfftzgj" src="https://github.com/user-attachments/assets/e6a7db4a-ee14-41fb-b7d2-6aa85e260869" />
+
 
 ---
 
