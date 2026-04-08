@@ -225,7 +225,8 @@ print(A.intersection(B))
 
 ### Difference
 
-<img width="2816" height="1536" alt="Gemini_Generated_Image_tzgjfftzgjfftzgj" src="https://github.com/user-attachments/assets/63198460-3efd-45a8-9c70-bedf652fa6df" />
+<img width="2816" height="1536" alt="Gemini_Generated_Image_3nkawq3nkawq3nka" src="https://github.com/user-attachments/assets/52cd9359-74d2-4019-8b60-ff300af3c463" />
+
 
 ---
 
