@@ -230,8 +230,7 @@ print(A.intersection(B))
 
 ### Symmetric difference
 
-<img width="2816" height="1536" alt="Gemini_Generated_Image_tzgjfftzgjfftzgj" src="https://github.com/user-attachments/assets/e6a7db4a-ee14-41fb-b7d2-6aa85e260869" />
-
+<img width="2816" height="1536" alt="Gemini_Generated_Image_1b9gw81b9gw81b9g" src="https://github.com/user-attachments/assets/d5b0e9fb-2f62-4dc4-8d29-8585b34114d9" />
 
 ---
 
