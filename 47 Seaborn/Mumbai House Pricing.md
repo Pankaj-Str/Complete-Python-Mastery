@@ -1,6 +1,5 @@
-**Visualizing Mumbai West House Pricing Data with Seaborn – Beginner Step-by-Step Guide**
+# Visualizing Mumbai West House Pricing Data with Seaborn
 
-Hey there! If you're just starting with data visualization in Python and want to explore real estate prices in Mumbai's western suburbs (like Andheri West, Bandra West, Juhu, etc.), Seaborn is perfect. It's a powerful, beginner-friendly library built on Matplotlib that creates beautiful statistical charts with just a few lines of code.
 
 We'll use a **synthetic dataset** that mimics real Mumbai West house pricing data (inspired by popular Kaggle datasets like "Mumbai House Prices"). This includes realistic columns: BHK (bedrooms), Locality (western suburbs), Area (sqft), Price (in Lakhs INR), Status, and Age of property.
 
@@ -25,7 +24,7 @@ sns.set_style("whitegrid")      # Clean background
 sns.set_palette("viridis")      # Nice color scheme
 plt.rcParams['figure.figsize'] = (10, 6)  # Default chart size
 
-print("✅ Seaborn ready!")
+print("Seaborn ready!")
 ```
 
 ### Step 2: Load or Create the Mumbai West House Pricing Data
