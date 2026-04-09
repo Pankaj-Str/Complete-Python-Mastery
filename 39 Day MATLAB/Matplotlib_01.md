@@ -1,84 +1,46 @@
-# Matplotlib Tutorial for Beginners
+# Matplotlib
 
 
+Matplotlib is the most popular Python library for creating **static, animated, and interactive visualizations**. It is highly customizable and works great with NumPy, pandas, and seaborn.
 
----
-
-### Step 1: Installation (Do this once)
-
-Open your terminal (or Anaconda Prompt) and type:
-
+## 1. Installation & Setup
 ```bash
-pip install matplotlib
+pip install matplotlib numpy
 ```
 
-(If you’re using Jupyter Notebook or Google Colab, it’s usually already installed.)
-
----
-
-### Step 2: Import the Library
-
-Every Matplotlib program starts with this:
-
-```python
-import matplotlib.pyplot as plt
-import numpy as np          # We use this to create sample data
-```
-
-`plt` is the shortcut we’ll use for everything.
-
----
-
-### Step 3: Your First Plot – Simple Line Plot
-
+**Basic import (always start with this):**
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
-
-# Create some data
-x = np.linspace(0, 10, 100)   # 100 numbers from 0 to 10
-y = np.sin(x)                 # sin wave
-
-plt.plot(x, y)                # Draw the line
-plt.show()                    # Show the plot (in Jupyter it appears automatically)
 ```
 
-**What just happened?**  
-`plt.plot(x, y)` connects the points with a line.
+**Show a plot in Jupyter/Colab:**
+```python
+plt.show()
+```
 
-Here’s what it looks like (with nice labels added):
-
-
+**Save a plot as image:**
+```python
+plt.savefig('my_plot.png', dpi=300, bbox_inches='tight')
+```
 
 ---
 
-### Step 4: Make It Look Professional (Titles, Labels, Grid)
-
-Add these lines **before** `plt.show()`:
+## 2. Your First Plot – Line Plot (with customization)
 
 ```python
-plt.title('Simple Line Plot')      # Big title at the top
-plt.xlabel('X Axis')               # Label for bottom
-plt.ylabel('Y Axis (sin(x))')      # Label for left side
-plt.legend(['sin(x)'])             # Shows what the line is
-plt.grid(True)                     # Nice grid lines
-```
+x = np.linspace(0, 10, 100)
+y1 = np.sin(x)
+y2 = np.cos(x)
 
-**Pro tip:** Always add titles and labels — your future self will thank you!
-
----
-
-### Step 5: Scatter Plot (Dots instead of lines)
-
-```python
-x = np.random.rand(50)   # 50 random numbers between 0 and 1
-y = np.random.rand(50)
-
-plt.scatter(x, y, color='red', s=50, alpha=0.7)  # s = size, alpha = transparency
-plt.title('Scatter Plot')
-plt.xlabel('X Values')
-plt.ylabel('Y Values')
-plt.grid(True)
+fig, ax = plt.subplots(figsize=(8, 5))
+ax.plot(x, y1, 'b-', linewidth=2, label='sin(x)')
+ax.plot(x, y2, 'r--', linewidth=2, label='cos(x)')
+ax.set_title('Line Plot Example: sin(x) and cos(x)')
+ax.set_xlabel('X-axis')
+ax.set_ylabel('Y-axis')
+ax.grid(True, linestyle='--', alpha=0.7)
+ax.legend()
 plt.show()
 ```
 
@@ -86,19 +48,63 @@ plt.show()
 
 
 
+**Key takeaways:**
+- `plt.subplots()` → creates figure + axes (recommended way)
+- `ax.plot()` → line plot
+- `linewidth`, `linestyle` (`-`, `--`, `-.`, `:`), `color` (`'b'`, `'r'`, hex codes)
+- `set_title()`, `set_xlabel()`, `set_ylabel()`
+- `legend()`, `grid()`
+
 ---
 
-### Step 6: Bar Chart
+## 3. Scatter Plot
 
 ```python
-categories = ['Apples', 'Bananas', 'Oranges', 'Grapes']
-values = [25, 40, 30, 20]
+np.random.seed(42)
+x = np.random.rand(100)
+y = 2 * x + np.random.randn(100) * 0.3
 
-plt.bar(categories, values, color=['blue', 'orange', 'green', 'red'])
-plt.title('Bar Chart')
+plt.figure(figsize=(8, 5))
+plt.scatter(x, y, c=np.random.rand(100), s=100*np.random.rand(100),
+            alpha=0.6, cmap='viridis')
+plt.title('Scatter Plot Example')
+plt.xlabel('X values')
+plt.ylabel('Y values')
+plt.colorbar(label='Color intensity')
+plt.grid(True, alpha=0.3)
+plt.show()
+```
+
+**Result:**
+
+
+
+**Pro tips:**
+- `c=` for color mapping
+- `s=` for marker size
+- `cmap=` (viridis, plasma, coolwarm, etc.)
+- `alpha=` for transparency
+
+---
+
+## 4. Bar Plot (with value labels)
+
+```python
+categories = ['Category A', 'Category B', 'Category C', 'Category D', 'Category E']
+values = [23, 45, 12, 67, 34]
+
+plt.figure(figsize=(8, 5))
+bars = plt.bar(categories, values, color=['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd'])
+plt.title('Bar Plot Example')
 plt.xlabel('Categories')
 plt.ylabel('Values')
-plt.grid(axis='y')      # Grid only on Y axis
+plt.grid(axis='y', linestyle='--', alpha=0.5)
+
+# Add value labels on top of bars
+for bar in bars:
+    height = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2., height + 1,
+             f'{height}', ha='center', va='bottom')
 plt.show()
 ```
 
@@ -108,16 +114,43 @@ plt.show()
 
 ---
 
-### Step 7: Histogram (Shows distribution)
+## 5. Histogram
 
 ```python
-data = np.random.randn(1000)   # 1000 random numbers (normal distribution)
+data = np.random.normal(0, 1, 1000)
 
-plt.hist(data, bins=30, color='green', edgecolor='black', alpha=0.7)
-plt.title('Histogram')
+plt.figure(figsize=(8, 5))
+plt.hist(data, bins=30, color='#2ca02c', alpha=0.7, edgecolor='black')
+plt.title('Histogram Example')
 plt.xlabel('Value')
 plt.ylabel('Frequency')
-plt.grid(True)
+plt.grid(True, alpha=0.3)
+plt.show()
+```
+
+**Result:**
+
+
+
+**Useful options:**
+- `bins=30` or `bins='auto'`
+- `density=True` (for probability density)
+
+---
+
+## 6. Pie Chart
+
+```python
+labels = ['Python', 'JavaScript', 'Java', 'C++', 'Others']
+sizes = [45, 25, 15, 10, 5]
+explode = (0.1, 0, 0, 0, 0)   # explode first slice
+
+plt.figure(figsize=(8, 5))
+plt.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
+        shadow=True, startangle=90,
+        colors=['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd'])
+plt.title('Pie Chart Example: Programming Language Popularity')
+plt.axis('equal')
 plt.show()
 ```
 
@@ -127,15 +160,25 @@ plt.show()
 
 ---
 
-### Step 8: Pie Chart
+## 7. Subplots (Multiple plots in one figure)
 
 ```python
-sizes = [35, 25, 20, 20]
-labels = ['Python', 'Java', 'C++', 'JavaScript']
+fig, axs = plt.subplots(2, 2, figsize=(12, 10))
 
-plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
-plt.title('Pie Chart')
-plt.axis('equal')      # Makes it a perfect circle
+axs[0,0].plot(x, np.sin(x))
+axs[0,0].set_title('Line Plot')
+
+axs[0,1].scatter(x[:50], y[:50])
+axs[0,1].set_title('Scatter Plot')
+
+axs[1,0].bar(['A','B','C','D'], [23,45,12,67])
+axs[1,0].set_title('Bar Plot')
+
+axs[1,1].hist(np.random.randn(1000), bins=20, color='orange', alpha=0.7)
+axs[1,1].set_title('Histogram')
+
+plt.suptitle('Subplots Example: Combining Multiple Plots')
+plt.tight_layout()
 plt.show()
 ```
 
@@ -143,69 +186,40 @@ plt.show()
 
 
 
----
-
-### Step 9: Subplots (Multiple Charts in One Figure)
-
-This is super useful!
-
-```python
-fig, axs = plt.subplots(2, 2, figsize=(12, 10))  # 2 rows × 2 columns
-
-# Top-left
-axs[0, 0].plot(np.linspace(0,10,100), np.sin(np.linspace(0,10,100)))
-axs[0, 0].set_title('Line Plot')
-
-# Top-right
-axs[0, 1].scatter(np.random.rand(50), np.random.rand(50), color='red')
-axs[0, 1].set_title('Scatter Plot')
-
-# Bottom-left
-axs[1, 0].bar(['A', 'B', 'C'], [10, 20, 15])
-axs[1, 0].set_title('Bar Plot')
-
-# Bottom-right
-axs[1, 1].hist(np.random.randn(500), bins=20, color='purple', alpha=0.7)
-axs[1, 1].set_title('Histogram')
-
-plt.suptitle('Subplots Example (2×2)')
-plt.tight_layout()   # Prevents overlapping
-plt.show()
-```
-
-**Result:**
-
-
+**Pro tip:** Use `fig, axs = plt.subplots(nrows, ncols)` and `plt.tight_layout()` or `plt.suptitle()`.
 
 ---
 
-### Step 10: How to Save Your Plots
+## 8. Quick Customization Cheat Sheet
 
-Just add this line **before** `plt.show()`:
+| Task                        | Code Example                                      |
+|-----------------------------|---------------------------------------------------|
+| Figure size                 | `plt.figure(figsize=(10,6))`                     |
+| Title                       | `plt.title('My Title', fontsize=16)`             |
+| Labels                      | `plt.xlabel('X')`, `plt.ylabel('Y')`             |
+| Legend                      | `plt.legend(['Line1', 'Line2'])`                  |
+| Grid                        | `plt.grid(True, linestyle='--')`                  |
+| Colors                      | `'r'`, `'blue'`, `'#FF5733'`, or colormap        |
+| Line styles                 | `'-'`, `'--'`, `'-.'`, `':'`                     |
+| Marker styles               | `'o'`, `'s'`, `'^'`, `'*'`                        |
+| Rotate x-ticks              | `plt.xticks(rotation=45)`                         |
+| Global style                | `plt.style.use('seaborn-v0_8-darkgrid')`         |
+| Save high-res               | `plt.savefig('plot.png', dpi=300, bbox_inches='tight')` |
 
-```python
-plt.savefig('my_awesome_plot.png', dpi=300)   # dpi = high quality
-```
-
-You can also save as PDF, JPG, SVG, etc.
+**Popular styles:** `default`, `seaborn-v0_8`, `ggplot`, `fivethirtyeight`, `dark_background`
 
 ---
 
-### Bonus Tips for Beginners
+## 9. Bonus Tips for Beginners
 
-1. **Colors & Styles**  
-   Try `color='blue'`, `'red'`, `'#FF5733'` (hex code), or use `plt.style.use('seaborn-v0_8')` for instant beauty.
-
-2. **Jupyter Notebook Magic**  
-   Add `%matplotlib inline` at the top so plots appear inside the notebook.
-
-3. **Common Mistakes**  
-   - Forgetting `plt.show()` in normal Python scripts  
-   - Forgetting to import `numpy` when creating data
-
-4. **Next Level (after this tutorial)**  
-   - `plt.subplots()` with more control  
-   - Using Matplotlib with Pandas (`df.plot()`)  
-   - 3D plots (`from mpl_toolkits.mplot3d import Axes3D`)
+1. Always use **object-oriented style** (`fig, ax = plt.subplots()`) instead of `plt.plot()` for complex plots.
+2. `plt.tight_layout()` or `fig.tight_layout()` fixes overlapping labels.
+3. For pandas DataFrame: `df.plot(kind='line')` works directly!
+4. Combine with seaborn for beautiful default styles:
+   ```python
+   import seaborn as sns
+   sns.set_style("whitegrid")
+   ```
+5. Need 3D? `from mpl_toolkits.mplot3d import Axes3D`
 
 ---
