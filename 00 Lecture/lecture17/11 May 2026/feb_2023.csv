@@ -1,0 +1,673 @@
+,Transaction_ID,Customer_ID,Transaction_Date,Transaction_Type,Merchant,Category,Amount,Payment_Mode,Transaction_Status,Location,Year,Month,Day
+744,100744,3301,2023-02-01,ATM,Uber,Entertainment,346.93,Debit Card,Approved,Lake Lisa,2023,2,1
+745,100745,1321,2023-02-01,POS,Amazon,Dining,3810.02,PayPal,Approved,West Christian,2023,2,1
+746,100746,2831,2023-02-01,POS,Walmart,Dining,4566.57,Credit Card,Approved,North Marioland,2023,2,1
+747,100747,4686,2023-02-01,ATM,Target,Dining,2449.49,Credit Card,Approved,Port Charles,2023,2,1
+748,100748,1829,2023-02-01,Mobile Payment,Uber,Groceries,3429.37,Credit Card,Approved,New Michellemouth,2023,2,1
+749,100749,4559,2023-02-01,ATM,Walmart,Clothing,4075.31,UPI,Approved,South Christopher,2023,2,1
+750,100750,1232,2023-02-01,POS,Target,Entertainment,111.1,UPI,Approved,New Rachelton,2023,2,1
+751,100751,3541,2023-02-01,Online,Netflix,Groceries,4962.5,Debit Card,Declined,West Samanthahaven,2023,2,1
+752,100752,2722,2023-02-01,Online,Apple Store,Groceries,3100.8,Credit Card,Approved,Morganton,2023,2,1
+753,100753,2489,2023-02-01,ATM,Uber,Clothing,2688.88,PayPal,Approved,Davidshire,2023,2,1
+754,100754,1605,2023-02-01,Online,Amazon,Groceries,2821.06,Debit Card,Approved,East Shaunfort,2023,2,1
+755,100755,1241,2023-02-01,Online,Walmart,Dining,1038.98,UPI,Approved,Dianahaven,2023,2,1
+756,100756,2884,2023-02-01,POS,Apple Store,Groceries,992.06,PayPal,Approved,West Richardmouth,2023,2,1
+757,100757,1472,2023-02-01,ATM,Amazon,Travel,2314.09,PayPal,Approved,Hancockbury,2023,2,1
+758,100758,2952,2023-02-01,Online,Walmart,Travel,2529.46,PayPal,Approved,Port Ronaldville,2023,2,1
+759,100759,3214,2023-02-01,ATM,Target,Groceries,2717.68,UPI,Approved,East Lauren,2023,2,1
+760,100760,1257,2023-02-01,ATM,Walmart,Travel,2882.7,UPI,Approved,West Kristinmouth,2023,2,1
+761,100761,3104,2023-02-01,Online,Uber,Dining,1482.91,UPI,Approved,New Cynthiaton,2023,2,1
+762,100762,2630,2023-02-01,Online,Target,Clothing,833.71,UPI,Approved,Johnview,2023,2,1
+763,100763,3561,2023-02-01,POS,Amazon,Clothing,1471.5,UPI,Approved,Jenkinsmouth,2023,2,1
+764,100764,3194,2023-02-01,Online,Uber,Travel,4303.62,Credit Card,Approved,East Judy,2023,2,1
+765,100765,1032,2023-02-01,ATM,Uber,Clothing,3024.25,UPI,Approved,Brownberg,2023,2,1
+766,100766,1802,2023-02-01,Online,Walmart,Clothing,1073.99,Credit Card,Approved,Natashachester,2023,2,1
+767,100767,2884,2023-02-01,Online,Amazon,Clothing,2549.76,Credit Card,Approved,Alexandrabury,2023,2,1
+768,100768,4799,2023-02-02,POS,Target,Groceries,2239.27,Debit Card,Approved,Erinview,2023,2,2
+769,100769,3986,2023-02-02,ATM,Uber,Dining,77.44,Debit Card,Approved,Michaelbury,2023,2,2
+770,100770,2087,2023-02-02,ATM,Target,Travel,4952.35,UPI,Approved,Baldwinmouth,2023,2,2
+771,100771,2996,2023-02-02,Online,Uber,Travel,1610.17,PayPal,Approved,Lake Ronaldville,2023,2,2
+772,100772,3160,2023-02-02,ATM,Netflix,Clothing,3937.91,Debit Card,Approved,Justinmouth,2023,2,2
+773,100773,2534,2023-02-02,ATM,Walmart,Clothing,4409.34,UPI,Approved,Thomasfort,2023,2,2
+774,100774,3749,2023-02-02,Online,Netflix,Groceries,289.83,Credit Card,Declined,Houseland,2023,2,2
+775,100775,3777,2023-02-02,Online,Netflix,Clothing,1150.29,PayPal,Pending,New Jonathanberg,2023,2,2
+776,100776,1387,2023-02-02,Online,Uber,Travel,537.6,Debit Card,Pending,North Tylerfort,2023,2,2
+777,100777,4775,2023-02-02,Online,Target,Dining,4404.02,PayPal,Pending,West Amanda,2023,2,2
+778,100778,3398,2023-02-02,Mobile Payment,Uber,Electronics,2075.87,UPI,Approved,Port Stevenburgh,2023,2,2
+779,100779,3725,2023-02-02,ATM,Amazon,Electronics,3494.71,UPI,Approved,Heatherton,2023,2,2
+780,100780,2174,2023-02-02,Online,Amazon,Entertainment,4468.64,UPI,Approved,South Gabrielchester,2023,2,2
+781,100781,2663,2023-02-02,Mobile Payment,BestBuy,Travel,1658.31,Credit Card,Approved,Danielmouth,2023,2,2
+782,100782,3982,2023-02-02,Online,Netflix,Dining,4871.94,Debit Card,Approved,North Monica,2023,2,2
+783,100783,1299,2023-02-02,Online,Amazon,Dining,859.44,PayPal,Approved,New Gregorymouth,2023,2,2
+784,100784,1271,2023-02-02,ATM,BestBuy,Clothing,4840.04,UPI,Approved,West Nancyburgh,2023,2,2
+785,100785,2318,2023-02-02,Online,BestBuy,Clothing,4195.2,PayPal,Approved,Matthewton,2023,2,2
+786,100786,3461,2023-02-02,Online,Target,Clothing,1242.01,Debit Card,Approved,Lake Cameronport,2023,2,2
+787,100787,2014,2023-02-02,Mobile Payment,Walmart,Groceries,1769.44,Debit Card,Approved,Tinatown,2023,2,2
+788,100788,4427,2023-02-02,Mobile Payment,Uber,Entertainment,3488.56,UPI,Approved,Lake Markstad,2023,2,2
+789,100789,4514,2023-02-02,Online,Apple Store,Groceries,1442.66,Credit Card,Approved,Lake Kimberlymouth,2023,2,2
+790,100790,3809,2023-02-02,ATM,Uber,Clothing,4006.43,Debit Card,Approved,Hayesville,2023,2,2
+791,100791,3348,2023-02-02,POS,Amazon,Groceries,3887.91,Credit Card,Approved,Michaelmouth,2023,2,2
+792,100792,1512,2023-02-03,Online,Uber,Clothing,3625.1,UPI,Approved,Pittmanmouth,2023,2,3
+793,100793,4905,2023-02-03,Mobile Payment,Target,Electronics,2472.38,Debit Card,Approved,East Jonathanville,2023,2,3
+794,100794,1691,2023-02-03,Online,Walmart,Clothing,443.72,UPI,Declined,Ellisonbury,2023,2,3
+795,100795,1899,2023-02-03,ATM,Netflix,Groceries,3387.09,Credit Card,Declined,East Brittany,2023,2,3
+796,100796,2620,2023-02-03,Mobile Payment,BestBuy,Groceries,3250.26,Debit Card,Declined,Port Richardmouth,2023,2,3
+797,100797,4566,2023-02-03,POS,Netflix,Dining,4887.31,Credit Card,Approved,Cardenasfurt,2023,2,3
+798,100798,2639,2023-02-03,Online,Uber,Electronics,3326.46,Credit Card,Approved,South Holly,2023,2,3
+799,100799,2390,2023-02-03,ATM,BestBuy,Clothing,4363.07,Credit Card,Approved,Kaylamouth,2023,2,3
+800,100800,4778,2023-02-03,Online,Uber,Dining,3672.74,Debit Card,Approved,Spencerfort,2023,2,3
+801,100801,3998,2023-02-03,Online,Apple Store,Electronics,1942.08,UPI,Declined,Deanport,2023,2,3
+802,100802,4526,2023-02-03,Mobile Payment,Walmart,Groceries,3475.74,Debit Card,Declined,Randallberg,2023,2,3
+803,100803,3638,2023-02-03,POS,Target,Electronics,741.71,UPI,Approved,Markborough,2023,2,3
+804,100804,2237,2023-02-03,Mobile Payment,Walmart,Groceries,1405.72,Debit Card,Declined,Deanside,2023,2,3
+805,100805,1782,2023-02-03,Online,Netflix,Entertainment,3890.91,PayPal,Approved,Knappfort,2023,2,3
+806,100806,1715,2023-02-03,Online,Netflix,Groceries,161.28,PayPal,Approved,Lake Marcuschester,2023,2,3
+807,100807,3010,2023-02-03,Mobile Payment,Target,Electronics,315.42,Credit Card,Approved,Kristinport,2023,2,3
+808,100808,3295,2023-02-03,POS,Apple Store,Dining,654.79,Debit Card,Approved,Daltonchester,2023,2,3
+809,100809,2040,2023-02-03,ATM,Target,Entertainment,3632.66,Credit Card,Declined,Sandersbury,2023,2,3
+810,100810,1518,2023-02-03,POS,Amazon,Clothing,1450.06,PayPal,Approved,East Jenniferchester,2023,2,3
+811,100811,1582,2023-02-03,Online,Amazon,Travel,274.9,UPI,Approved,Kathrynside,2023,2,3
+812,100812,2918,2023-02-03,ATM,Walmart,Dining,306.63,PayPal,Approved,Prattside,2023,2,3
+813,100813,3791,2023-02-03,Online,Walmart,Electronics,1647.85,Debit Card,Approved,West Christinebury,2023,2,3
+814,100814,3031,2023-02-03,Online,BestBuy,Groceries,3659.91,PayPal,Declined,West Parkerport,2023,2,3
+815,100815,2662,2023-02-03,POS,Uber,Travel,108.83,PayPal,Approved,Thomasburgh,2023,2,3
+816,100816,1791,2023-02-04,Mobile Payment,Uber,Entertainment,1448.18,Debit Card,Approved,Johnnyport,2023,2,4
+817,100817,1842,2023-02-04,ATM,Netflix,Groceries,1158.71,PayPal,Approved,Warrenland,2023,2,4
+818,100818,1109,2023-02-04,ATM,Walmart,Groceries,4152.36,Debit Card,Approved,Port Brandy,2023,2,4
+819,100819,3743,2023-02-04,POS,Uber,Clothing,2731.52,PayPal,Approved,North Brandiside,2023,2,4
+820,100820,4591,2023-02-04,Mobile Payment,BestBuy,Clothing,781.86,PayPal,Approved,South Josephbury,2023,2,4
+821,100821,3565,2023-02-04,Mobile Payment,Apple Store,Electronics,1067.43,Credit Card,Approved,Gardnerville,2023,2,4
+822,100822,3252,2023-02-04,Mobile Payment,Target,Groceries,4154.99,UPI,Approved,Cherylhaven,2023,2,4
+823,100823,3563,2023-02-04,Online,Walmart,Electronics,1258.73,Credit Card,Approved,West Stevenport,2023,2,4
+824,100824,1200,2023-02-04,POS,Target,Groceries,417.98,PayPal,Approved,East Anthonytown,2023,2,4
+825,100825,4332,2023-02-04,Online,Uber,Entertainment,1466.63,PayPal,Approved,Mcdanielstad,2023,2,4
+826,100826,3333,2023-02-04,ATM,Target,Clothing,698.05,UPI,Approved,Victorfort,2023,2,4
+827,100827,1174,2023-02-04,Online,Apple Store,Travel,2687.32,Debit Card,Approved,Port Jenniferland,2023,2,4
+828,100828,4869,2023-02-04,Online,Apple Store,Dining,2363.7,PayPal,Approved,Port Cameronchester,2023,2,4
+829,100829,3437,2023-02-04,Mobile Payment,BestBuy,Entertainment,118.15,PayPal,Pending,South Mary,2023,2,4
+830,100830,2982,2023-02-04,Mobile Payment,Uber,Groceries,93.21,PayPal,Approved,South Donnachester,2023,2,4
+831,100831,3520,2023-02-04,Online,Amazon,Travel,3955.09,PayPal,Approved,Port Tiffanyburgh,2023,2,4
+832,100832,2057,2023-02-04,POS,Netflix,Groceries,1754.19,PayPal,Approved,New Cathyberg,2023,2,4
+833,100833,4694,2023-02-04,Online,Apple Store,Clothing,1198.79,PayPal,Approved,Faulknermouth,2023,2,4
+834,100834,4647,2023-02-04,Mobile Payment,BestBuy,Dining,2860.57,UPI,Declined,South Andrewfort,2023,2,4
+835,100835,2768,2023-02-04,Mobile Payment,BestBuy,Electronics,3015.27,PayPal,Approved,West Douglas,2023,2,4
+836,100836,4845,2023-02-04,Online,Netflix,Groceries,4199.65,UPI,Declined,Mccannbury,2023,2,4
+837,100837,3228,2023-02-04,Online,Walmart,Groceries,3628.89,Debit Card,Approved,East Gregorybury,2023,2,4
+838,100838,1130,2023-02-04,Mobile Payment,Target,Travel,2822.54,PayPal,Approved,East Chad,2023,2,4
+839,100839,4633,2023-02-04,ATM,Walmart,Electronics,2635.44,Debit Card,Approved,East Angela,2023,2,4
+840,100840,4865,2023-02-05,ATM,Apple Store,Electronics,3456.15,Debit Card,Approved,Carrollport,2023,2,5
+841,100841,3727,2023-02-05,ATM,Netflix,Entertainment,4870.18,UPI,Approved,Amandafort,2023,2,5
+842,100842,4012,2023-02-05,ATM,Uber,Travel,537.92,PayPal,Declined,Katelynfurt,2023,2,5
+843,100843,2826,2023-02-05,Mobile Payment,Netflix,Groceries,924.73,PayPal,Approved,North Robert,2023,2,5
+844,100844,1017,2023-02-05,Mobile Payment,BestBuy,Groceries,4797.64,UPI,Approved,Lake Danielberg,2023,2,5
+845,100845,2958,2023-02-05,ATM,Uber,Dining,784.81,Debit Card,Approved,Clarkberg,2023,2,5
+846,100846,3835,2023-02-05,ATM,Amazon,Groceries,3383.48,UPI,Declined,East Amanda,2023,2,5
+847,100847,1433,2023-02-05,POS,Amazon,Dining,2339.31,Debit Card,Approved,Leachchester,2023,2,5
+848,100848,4998,2023-02-05,Online,Walmart,Groceries,87.5,Credit Card,Approved,Lake Dylanmouth,2023,2,5
+849,100849,2007,2023-02-05,POS,Target,Groceries,4974.83,Credit Card,Approved,Lake Rebeccatown,2023,2,5
+850,100850,3757,2023-02-05,Online,Apple Store,Entertainment,2705.95,Credit Card,Approved,South Nancyview,2023,2,5
+851,100851,1245,2023-02-05,Online,Netflix,Entertainment,4040.92,PayPal,Approved,Andersonbury,2023,2,5
+852,100852,3586,2023-02-05,POS,Apple Store,Travel,769.79,Debit Card,Approved,Port Shannonchester,2023,2,5
+853,100853,1309,2023-02-05,ATM,Walmart,Clothing,1786.04,UPI,Approved,North Jose,2023,2,5
+854,100854,4264,2023-02-05,Mobile Payment,Netflix,Dining,2441.08,Credit Card,Approved,West Steven,2023,2,5
+855,100855,1756,2023-02-05,Online,Walmart,Electronics,90.27,PayPal,Pending,Michaelburgh,2023,2,5
+856,100856,3787,2023-02-05,Mobile Payment,BestBuy,Travel,4559.84,UPI,Approved,Cherryberg,2023,2,5
+857,100857,1106,2023-02-05,Mobile Payment,Walmart,Entertainment,302.02,UPI,Approved,Benjaminland,2023,2,5
+858,100858,4598,2023-02-05,POS,Target,Entertainment,4203.87,Debit Card,Approved,Port Hunterchester,2023,2,5
+859,100859,4549,2023-02-05,Online,Apple Store,Clothing,2591.09,UPI,Approved,East Meganborough,2023,2,5
+860,100860,4681,2023-02-05,ATM,Uber,Entertainment,301.92,UPI,Approved,East Kimmouth,2023,2,5
+861,100861,2328,2023-02-05,Online,Amazon,Travel,3561.93,PayPal,Approved,Dominicview,2023,2,5
+862,100862,1503,2023-02-05,Mobile Payment,Target,Travel,2648.48,UPI,Approved,Bullockfurt,2023,2,5
+863,100863,4608,2023-02-05,ATM,Amazon,Entertainment,509.32,PayPal,Approved,Rodriguezshire,2023,2,5
+864,100864,1247,2023-02-06,Mobile Payment,Apple Store,Dining,4580.56,UPI,Approved,Lisaberg,2023,2,6
+865,100865,4889,2023-02-06,POS,Uber,Clothing,754.81,Credit Card,Approved,North Jamie,2023,2,6
+866,100866,3062,2023-02-06,Mobile Payment,Target,Groceries,2466.11,Credit Card,Approved,East Jacqueline,2023,2,6
+867,100867,3634,2023-02-06,Online,BestBuy,Travel,2261.28,UPI,Approved,East Kimberlybury,2023,2,6
+868,100868,1820,2023-02-06,ATM,Walmart,Entertainment,301.98,UPI,Pending,Sweeneyside,2023,2,6
+869,100869,3226,2023-02-06,ATM,BestBuy,Travel,3750.73,PayPal,Approved,Bryantown,2023,2,6
+870,100870,3544,2023-02-06,Mobile Payment,Walmart,Travel,3800.91,PayPal,Approved,Lake Kimberly,2023,2,6
+871,100871,3668,2023-02-06,POS,Amazon,Groceries,4696.34,UPI,Approved,North Kristen,2023,2,6
+872,100872,3602,2023-02-06,Mobile Payment,Apple Store,Clothing,4786.5,PayPal,Approved,New Katrina,2023,2,6
+873,100873,2245,2023-02-06,Mobile Payment,Amazon,Electronics,1533.18,Debit Card,Pending,Sanchezville,2023,2,6
+874,100874,3274,2023-02-06,Online,Netflix,Travel,1309.17,Debit Card,Approved,East Brettborough,2023,2,6
+875,100875,3462,2023-02-06,Online,Target,Travel,10.21,PayPal,Approved,Powellfort,2023,2,6
+876,100876,1654,2023-02-06,POS,BestBuy,Groceries,973.2,PayPal,Approved,Port Andrewburgh,2023,2,6
+877,100877,3341,2023-02-06,POS,Netflix,Groceries,1498.66,Credit Card,Approved,Lisamouth,2023,2,6
+878,100878,1306,2023-02-06,Online,Apple Store,Electronics,123.19,UPI,Approved,Timchester,2023,2,6
+879,100879,1478,2023-02-06,ATM,Netflix,Dining,1949.94,UPI,Approved,East Katherine,2023,2,6
+880,100880,1008,2023-02-06,Mobile Payment,Uber,Travel,244.9,PayPal,Approved,Eatonbury,2023,2,6
+881,100881,2576,2023-02-06,POS,Netflix,Travel,2949.55,Credit Card,Approved,Odonnellstad,2023,2,6
+882,100882,1328,2023-02-06,Online,Walmart,Electronics,2975.24,Debit Card,Approved,North Jamesborough,2023,2,6
+883,100883,1138,2023-02-06,ATM,Amazon,Electronics,2330.22,Debit Card,Approved,West Robert,2023,2,6
+884,100884,1592,2023-02-06,Mobile Payment,Target,Clothing,1220.05,Credit Card,Approved,East William,2023,2,6
+885,100885,2273,2023-02-06,ATM,BestBuy,Entertainment,620.95,Debit Card,Approved,Lindaside,2023,2,6
+886,100886,3711,2023-02-06,ATM,Amazon,Dining,4015.62,PayPal,Approved,Wadeberg,2023,2,6
+887,100887,3720,2023-02-06,POS,Netflix,Travel,179.6,Credit Card,Approved,South Nicoleborough,2023,2,6
+888,100888,2773,2023-02-07,Mobile Payment,Netflix,Electronics,3602.79,UPI,Approved,New Hector,2023,2,7
+889,100889,3813,2023-02-07,ATM,Netflix,Groceries,3560.81,UPI,Approved,Fredericktown,2023,2,7
+890,100890,4131,2023-02-07,POS,Walmart,Electronics,4137.82,UPI,Approved,Herreraside,2023,2,7
+891,100891,1366,2023-02-07,ATM,BestBuy,Electronics,3296.58,PayPal,Approved,Barajasport,2023,2,7
+892,100892,1124,2023-02-07,Online,Amazon,Groceries,2990.15,Debit Card,Declined,Christopherfurt,2023,2,7
+893,100893,3864,2023-02-07,ATM,Uber,Groceries,626.54,UPI,Approved,Port Margaret,2023,2,7
+894,100894,3677,2023-02-07,Online,Walmart,Clothing,974.58,Credit Card,Approved,New Sylvialand,2023,2,7
+895,100895,3951,2023-02-07,Online,BestBuy,Entertainment,4369.43,UPI,Approved,West John,2023,2,7
+896,100896,3546,2023-02-07,POS,Walmart,Clothing,1791.83,PayPal,Declined,Lake Cindystad,2023,2,7
+897,100897,4755,2023-02-07,ATM,Netflix,Clothing,2414.52,Debit Card,Pending,New Michaelview,2023,2,7
+898,100898,2081,2023-02-07,POS,Walmart,Dining,2635.17,PayPal,Approved,Grahamside,2023,2,7
+899,100899,3558,2023-02-07,ATM,BestBuy,Electronics,3635.27,Credit Card,Approved,New Stephanie,2023,2,7
+900,100900,1939,2023-02-07,Mobile Payment,Apple Store,Entertainment,1397.25,Credit Card,Declined,New Jordan,2023,2,7
+901,100901,4210,2023-02-07,POS,Apple Store,Dining,2460.74,Credit Card,Approved,Kelseyton,2023,2,7
+902,100902,2360,2023-02-07,Mobile Payment,Netflix,Groceries,2658.09,Debit Card,Approved,East Jason,2023,2,7
+903,100903,1701,2023-02-07,ATM,BestBuy,Clothing,2129.51,PayPal,Declined,South Stacey,2023,2,7
+904,100904,3704,2023-02-07,Online,Target,Groceries,382.2,Debit Card,Approved,Edwardburgh,2023,2,7
+905,100905,3919,2023-02-07,POS,Uber,Electronics,1959.88,PayPal,Approved,South Heather,2023,2,7
+906,100906,4642,2023-02-07,Mobile Payment,Netflix,Travel,698.45,PayPal,Approved,North Janiceville,2023,2,7
+907,100907,2709,2023-02-07,Mobile Payment,Amazon,Dining,2061.93,PayPal,Approved,Port Jacquelineview,2023,2,7
+908,100908,1982,2023-02-07,ATM,Apple Store,Dining,4461.46,Debit Card,Approved,Stephenstad,2023,2,7
+909,100909,1863,2023-02-07,ATM,Uber,Groceries,1940.92,Debit Card,Approved,Edwardtown,2023,2,7
+910,100910,3007,2023-02-07,Mobile Payment,Netflix,Dining,3623.41,Credit Card,Pending,Lindaberg,2023,2,7
+911,100911,1173,2023-02-07,Mobile Payment,Netflix,Entertainment,2126.75,Debit Card,Approved,Lake Stacyview,2023,2,7
+912,100912,3896,2023-02-08,ATM,Apple Store,Electronics,1697.57,PayPal,Approved,Masonview,2023,2,8
+913,100913,1505,2023-02-08,POS,Amazon,Clothing,2607.61,PayPal,Declined,New Kathy,2023,2,8
+914,100914,2437,2023-02-08,Online,Target,Electronics,1113.79,PayPal,Approved,Port Davidport,2023,2,8
+915,100915,1410,2023-02-08,Online,Amazon,Clothing,68.17,PayPal,Approved,Contrerasfurt,2023,2,8
+916,100916,3331,2023-02-08,Mobile Payment,Uber,Groceries,737.53,PayPal,Approved,South Allen,2023,2,8
+917,100917,2076,2023-02-08,POS,Uber,Travel,3616.51,Credit Card,Approved,West Catherine,2023,2,8
+918,100918,2573,2023-02-08,Online,Target,Dining,2577.56,Credit Card,Approved,South Teresa,2023,2,8
+919,100919,1823,2023-02-08,POS,BestBuy,Groceries,508.46,PayPal,Approved,Suzanneberg,2023,2,8
+920,100920,3262,2023-02-08,ATM,Netflix,Dining,3144.53,PayPal,Approved,Kristopherberg,2023,2,8
+921,100921,4294,2023-02-08,Online,Amazon,Groceries,3468.45,Debit Card,Approved,New Timothyport,2023,2,8
+922,100922,3593,2023-02-08,Online,Walmart,Travel,4761.09,Credit Card,Approved,Leeside,2023,2,8
+923,100923,1650,2023-02-08,POS,Apple Store,Travel,3029.36,Credit Card,Approved,Fredfurt,2023,2,8
+924,100924,2614,2023-02-08,Mobile Payment,Netflix,Dining,4286.84,Credit Card,Approved,Jonestown,2023,2,8
+925,100925,4077,2023-02-08,ATM,Walmart,Clothing,2563.24,UPI,Approved,Cooperberg,2023,2,8
+926,100926,1003,2023-02-08,Online,Target,Electronics,2776.66,PayPal,Approved,Lake Peterbury,2023,2,8
+927,100927,3449,2023-02-08,Online,Amazon,Dining,3809.41,PayPal,Approved,Kristinport,2023,2,8
+928,100928,3481,2023-02-08,POS,Target,Dining,1506.43,Debit Card,Declined,North Sarahmouth,2023,2,8
+929,100929,3105,2023-02-08,Mobile Payment,Apple Store,Groceries,2041.78,Credit Card,Approved,Barnesside,2023,2,8
+930,100930,1756,2023-02-08,Mobile Payment,BestBuy,Entertainment,4290.94,Credit Card,Approved,East Joanne,2023,2,8
+931,100931,4057,2023-02-08,POS,Apple Store,Entertainment,4331.27,UPI,Approved,South Kimberly,2023,2,8
+932,100932,2936,2023-02-08,POS,Amazon,Groceries,3744.1,Credit Card,Approved,Carlytown,2023,2,8
+933,100933,3397,2023-02-08,ATM,Netflix,Clothing,716.92,Credit Card,Declined,West Paul,2023,2,8
+934,100934,4531,2023-02-08,ATM,Amazon,Groceries,2703.85,Debit Card,Approved,East Brian,2023,2,8
+935,100935,2198,2023-02-08,POS,Walmart,Clothing,1444.35,Debit Card,Declined,Port Leslie,2023,2,8
+936,100936,3675,2023-02-09,POS,Apple Store,Groceries,4472.3,PayPal,Pending,Port Jamesburgh,2023,2,9
+937,100937,2680,2023-02-09,ATM,Target,Electronics,2018.82,PayPal,Approved,Phillipstown,2023,2,9
+938,100938,2696,2023-02-09,Mobile Payment,Uber,Groceries,4713.6,Credit Card,Pending,Edwardschester,2023,2,9
+939,100939,1045,2023-02-09,ATM,Walmart,Dining,3865.66,PayPal,Approved,Port Kristymouth,2023,2,9
+940,100940,1047,2023-02-09,Mobile Payment,Uber,Entertainment,1297.73,UPI,Approved,New Morgan,2023,2,9
+941,100941,2357,2023-02-09,ATM,Apple Store,Groceries,3235.77,UPI,Approved,South Brandon,2023,2,9
+942,100942,4447,2023-02-09,ATM,Amazon,Travel,3712.86,PayPal,Approved,Martinborough,2023,2,9
+943,100943,2074,2023-02-09,POS,Uber,Electronics,1439.04,Credit Card,Approved,New Josestad,2023,2,9
+944,100944,1202,2023-02-09,POS,Walmart,Groceries,4161.7,Debit Card,Approved,Evansview,2023,2,9
+945,100945,1123,2023-02-09,POS,Apple Store,Clothing,4310.42,Debit Card,Approved,Shepherdtown,2023,2,9
+946,100946,3400,2023-02-09,Online,Amazon,Travel,3217.0,Credit Card,Approved,South Sarahmouth,2023,2,9
+947,100947,1463,2023-02-09,POS,Target,Electronics,3385.06,PayPal,Approved,Lake Holly,2023,2,9
+948,100948,1138,2023-02-09,ATM,BestBuy,Dining,4444.19,Debit Card,Approved,West Rogerhaven,2023,2,9
+949,100949,3334,2023-02-09,POS,Netflix,Clothing,1858.24,Credit Card,Approved,Longmouth,2023,2,9
+950,100950,1058,2023-02-09,POS,Apple Store,Travel,3949.02,Debit Card,Declined,Markport,2023,2,9
+951,100951,3208,2023-02-09,Mobile Payment,Apple Store,Electronics,2457.51,UPI,Approved,Whitemouth,2023,2,9
+952,100952,1868,2023-02-09,ATM,Apple Store,Dining,2238.83,Debit Card,Approved,East Michaelmouth,2023,2,9
+953,100953,3605,2023-02-09,ATM,Apple Store,Electronics,3927.39,Debit Card,Approved,Christopherburgh,2023,2,9
+954,100954,2349,2023-02-09,POS,Walmart,Clothing,137.82,Debit Card,Approved,Port Christopherton,2023,2,9
+955,100955,4137,2023-02-09,Mobile Payment,Netflix,Dining,4229.28,UPI,Approved,Kimberlyfurt,2023,2,9
+956,100956,3330,2023-02-09,POS,Uber,Entertainment,2430.69,Credit Card,Approved,Zacharyburgh,2023,2,9
+957,100957,1333,2023-02-09,ATM,Apple Store,Electronics,580.81,UPI,Approved,New Brookemouth,2023,2,9
+958,100958,2081,2023-02-09,Mobile Payment,Apple Store,Travel,4052.69,Debit Card,Approved,West Charles,2023,2,9
+959,100959,3073,2023-02-09,POS,Walmart,Dining,200.1,PayPal,Approved,South Josephshire,2023,2,9
+960,100960,3866,2023-02-10,Mobile Payment,BestBuy,Electronics,91.78,Debit Card,Approved,Salinasstad,2023,2,10
+961,100961,4908,2023-02-10,ATM,Target,Electronics,1518.94,Debit Card,Approved,Chadport,2023,2,10
+962,100962,4753,2023-02-10,Online,Uber,Dining,3309.68,PayPal,Approved,South Williebury,2023,2,10
+963,100963,3011,2023-02-10,Online,Apple Store,Dining,1004.41,UPI,Approved,Cortezville,2023,2,10
+964,100964,4001,2023-02-10,Online,Walmart,Dining,3142.79,Debit Card,Approved,East Daniel,2023,2,10
+965,100965,4062,2023-02-10,Online,Amazon,Clothing,593.33,UPI,Approved,Chanshire,2023,2,10
+966,100966,1796,2023-02-10,Online,Netflix,Electronics,1508.05,Debit Card,Approved,Keithtown,2023,2,10
+967,100967,1346,2023-02-10,Online,Target,Groceries,4806.38,Debit Card,Approved,Peterton,2023,2,10
+968,100968,3016,2023-02-10,ATM,Target,Clothing,1711.51,Credit Card,Approved,Tonyfort,2023,2,10
+969,100969,3891,2023-02-10,POS,Amazon,Groceries,786.15,PayPal,Approved,West Richard,2023,2,10
+970,100970,2717,2023-02-10,Mobile Payment,Amazon,Groceries,261.45,PayPal,Approved,Newtonstad,2023,2,10
+971,100971,4538,2023-02-10,POS,Walmart,Electronics,2844.54,UPI,Approved,Guerreromouth,2023,2,10
+972,100972,1238,2023-02-10,POS,Netflix,Travel,1868.69,Debit Card,Approved,Mcleanville,2023,2,10
+973,100973,1236,2023-02-10,Mobile Payment,Uber,Entertainment,2906.54,UPI,Approved,Lake Jeffreyfurt,2023,2,10
+974,100974,4241,2023-02-10,Online,Amazon,Dining,570.88,Credit Card,Approved,South Robinville,2023,2,10
+975,100975,1323,2023-02-10,Online,Netflix,Electronics,4395.02,PayPal,Approved,North Jennifer,2023,2,10
+976,100976,4420,2023-02-10,ATM,Target,Dining,4776.52,PayPal,Approved,Burnsmouth,2023,2,10
+977,100977,1929,2023-02-10,Mobile Payment,Apple Store,Clothing,1901.86,Credit Card,Approved,Francofurt,2023,2,10
+978,100978,2329,2023-02-10,ATM,Target,Travel,3871.43,UPI,Pending,Jonathanland,2023,2,10
+979,100979,4298,2023-02-10,Mobile Payment,Amazon,Electronics,291.79,UPI,Approved,Phillipport,2023,2,10
+980,100980,4208,2023-02-10,ATM,Walmart,Travel,4011.6,Debit Card,Approved,Port Paulstad,2023,2,10
+981,100981,1115,2023-02-10,ATM,Target,Dining,1633.62,Debit Card,Declined,Heatherview,2023,2,10
+982,100982,3703,2023-02-10,ATM,Target,Travel,4389.6,Credit Card,Approved,New Edwardchester,2023,2,10
+983,100983,4412,2023-02-10,Mobile Payment,Apple Store,Dining,1657.15,PayPal,Approved,Danielleside,2023,2,10
+984,100984,3554,2023-02-11,POS,Uber,Groceries,1144.86,PayPal,Approved,Port Brittney,2023,2,11
+985,100985,1120,2023-02-11,POS,Netflix,Dining,1418.2,Debit Card,Approved,Cassandrachester,2023,2,11
+986,100986,3352,2023-02-11,Online,Target,Clothing,3457.97,UPI,Approved,Dunlapmouth,2023,2,11
+987,100987,4378,2023-02-11,Mobile Payment,Walmart,Travel,1186.4,PayPal,Approved,East Kyle,2023,2,11
+988,100988,1160,2023-02-11,Online,Amazon,Travel,1305.29,UPI,Approved,South Alisonhaven,2023,2,11
+989,100989,3045,2023-02-11,POS,Netflix,Groceries,573.86,PayPal,Approved,North Meredithhaven,2023,2,11
+990,100990,3354,2023-02-11,Online,Netflix,Travel,194.37,PayPal,Approved,Lake Shelbyton,2023,2,11
+991,100991,3882,2023-02-11,Mobile Payment,Walmart,Entertainment,3817.0,Debit Card,Approved,Hollandville,2023,2,11
+992,100992,4291,2023-02-11,Mobile Payment,Walmart,Clothing,4485.59,Debit Card,Approved,New Ericbury,2023,2,11
+993,100993,3066,2023-02-11,ATM,Target,Travel,179.02,UPI,Approved,Brandonfurt,2023,2,11
+994,100994,2433,2023-02-11,Online,Amazon,Entertainment,3154.55,Credit Card,Approved,South Frederickbury,2023,2,11
+995,100995,3893,2023-02-11,Online,Amazon,Clothing,696.27,Debit Card,Approved,New Dustin,2023,2,11
+996,100996,4102,2023-02-11,ATM,Target,Groceries,3263.83,UPI,Approved,Nathanbury,2023,2,11
+997,100997,3224,2023-02-11,Mobile Payment,Walmart,Dining,4761.25,Credit Card,Approved,Pattersonchester,2023,2,11
+998,100998,2715,2023-02-11,POS,Amazon,Travel,3616.52,PayPal,Declined,North Jennifer,2023,2,11
+999,100999,4248,2023-02-11,Online,Netflix,Clothing,3044.92,Credit Card,Approved,East Mercedestown,2023,2,11
+1000,101000,3080,2023-02-11,ATM,Target,Dining,3102.44,PayPal,Approved,Sophiabury,2023,2,11
+1001,101001,4676,2023-02-11,Mobile Payment,Target,Entertainment,3798.63,Credit Card,Approved,Danieltown,2023,2,11
+1002,101002,1611,2023-02-11,Mobile Payment,Target,Clothing,4631.66,PayPal,Approved,East Joseph,2023,2,11
+1003,101003,1922,2023-02-11,Mobile Payment,Netflix,Groceries,3175.25,PayPal,Approved,Port Markborough,2023,2,11
+1004,101004,3276,2023-02-11,Online,BestBuy,Dining,3135.54,Debit Card,Approved,Kochborough,2023,2,11
+1005,101005,2284,2023-02-11,Online,BestBuy,Clothing,1713.5,UPI,Approved,Kerriborough,2023,2,11
+1006,101006,3268,2023-02-11,Online,Apple Store,Dining,1910.84,Credit Card,Declined,Danielmouth,2023,2,11
+1007,101007,3392,2023-02-11,ATM,Target,Travel,3503.1,UPI,Approved,Cookchester,2023,2,11
+1008,101008,4091,2023-02-12,Online,BestBuy,Entertainment,785.24,Credit Card,Declined,Meganfort,2023,2,12
+1009,101009,1287,2023-02-12,Online,Walmart,Groceries,2613.79,PayPal,Approved,Maureenmouth,2023,2,12
+1010,101010,1882,2023-02-12,ATM,Amazon,Groceries,2429.21,Debit Card,Approved,Lake Eric,2023,2,12
+1011,101011,2690,2023-02-12,Online,BestBuy,Clothing,3402.76,UPI,Approved,Port Trevor,2023,2,12
+1012,101012,3174,2023-02-12,Mobile Payment,Netflix,Electronics,837.1,UPI,Approved,Bryanville,2023,2,12
+1013,101013,4683,2023-02-12,POS,Walmart,Travel,575.42,UPI,Approved,Lisaville,2023,2,12
+1014,101014,4533,2023-02-12,ATM,BestBuy,Clothing,196.25,UPI,Approved,Patriciaview,2023,2,12
+1015,101015,3120,2023-02-12,POS,Target,Entertainment,831.54,UPI,Approved,Castillotown,2023,2,12
+1016,101016,4436,2023-02-12,Online,Amazon,Dining,1643.89,PayPal,Approved,Dodsonfurt,2023,2,12
+1017,101017,2493,2023-02-12,POS,Netflix,Entertainment,1341.21,Debit Card,Approved,Lake Susantown,2023,2,12
+1018,101018,2691,2023-02-12,ATM,Walmart,Groceries,942.81,PayPal,Approved,Flowersland,2023,2,12
+1019,101019,3442,2023-02-12,POS,Walmart,Electronics,239.35,Credit Card,Declined,Smithburgh,2023,2,12
+1020,101020,2241,2023-02-12,Online,Apple Store,Travel,2485.6,PayPal,Approved,Port Anthonymouth,2023,2,12
+1021,101021,2116,2023-02-12,POS,Uber,Electronics,3229.44,Debit Card,Approved,Edwardston,2023,2,12
+1022,101022,4275,2023-02-12,ATM,Walmart,Dining,4248.47,Debit Card,Approved,Moontown,2023,2,12
+1023,101023,3580,2023-02-12,Mobile Payment,Netflix,Clothing,2657.57,PayPal,Approved,Markside,2023,2,12
+1024,101024,1573,2023-02-12,Online,Uber,Entertainment,165.13,Debit Card,Approved,North Williamshire,2023,2,12
+1025,101025,4542,2023-02-12,Online,Target,Clothing,4831.38,Debit Card,Declined,Rodriguezborough,2023,2,12
+1026,101026,2184,2023-02-12,Online,BestBuy,Travel,2575.97,UPI,Approved,West Josephshire,2023,2,12
+1027,101027,4510,2023-02-12,Online,Walmart,Clothing,4081.54,PayPal,Approved,North Heather,2023,2,12
+1028,101028,4734,2023-02-12,ATM,Apple Store,Clothing,3022.29,UPI,Approved,Evansview,2023,2,12
+1029,101029,2653,2023-02-12,Online,Walmart,Entertainment,2243.53,Credit Card,Approved,North Ricky,2023,2,12
+1030,101030,3234,2023-02-12,Mobile Payment,BestBuy,Entertainment,1017.95,PayPal,Approved,Vickiton,2023,2,12
+1031,101031,4945,2023-02-12,ATM,Target,Dining,1093.54,PayPal,Approved,North Jonathan,2023,2,12
+1032,101032,2292,2023-02-13,ATM,Netflix,Electronics,4719.03,Credit Card,Approved,Brittanyhaven,2023,2,13
+1033,101033,2596,2023-02-13,POS,Apple Store,Entertainment,4227.4,PayPal,Approved,Lorrainechester,2023,2,13
+1034,101034,3839,2023-02-13,ATM,Amazon,Groceries,4890.85,UPI,Approved,Jonathanberg,2023,2,13
+1035,101035,1186,2023-02-13,Mobile Payment,Uber,Electronics,2347.03,Credit Card,Approved,East Robertview,2023,2,13
+1036,101036,4087,2023-02-13,Online,Walmart,Electronics,3369.21,PayPal,Approved,Port Tyler,2023,2,13
+1037,101037,4238,2023-02-13,Mobile Payment,Amazon,Dining,4839.38,UPI,Approved,West Michaelhaven,2023,2,13
+1038,101038,3998,2023-02-13,Mobile Payment,Netflix,Travel,147.63,UPI,Approved,Port Christopherland,2023,2,13
+1039,101039,4540,2023-02-13,Online,Target,Dining,1446.52,PayPal,Approved,Ericbury,2023,2,13
+1040,101040,2246,2023-02-13,POS,Amazon,Electronics,4944.29,Credit Card,Approved,Fieldsport,2023,2,13
+1041,101041,2009,2023-02-13,Online,Apple Store,Clothing,1840.91,PayPal,Approved,Gomezfurt,2023,2,13
+1042,101042,3719,2023-02-13,Mobile Payment,Uber,Entertainment,4225.45,Debit Card,Approved,Jameshaven,2023,2,13
+1043,101043,2768,2023-02-13,Mobile Payment,Uber,Travel,372.61,Debit Card,Pending,Ramirezmouth,2023,2,13
+1044,101044,1526,2023-02-13,POS,Amazon,Groceries,89.98,PayPal,Approved,South Megan,2023,2,13
+1045,101045,3103,2023-02-13,ATM,Netflix,Clothing,1385.74,PayPal,Approved,New Brianbury,2023,2,13
+1046,101046,1124,2023-02-13,Mobile Payment,Walmart,Groceries,411.0,Debit Card,Pending,South Matthewfurt,2023,2,13
+1047,101047,4238,2023-02-13,POS,Amazon,Electronics,4339.77,PayPal,Approved,South Rebecca,2023,2,13
+1048,101048,4205,2023-02-13,POS,Apple Store,Groceries,1555.61,Credit Card,Approved,Williamberg,2023,2,13
+1049,101049,4778,2023-02-13,ATM,Walmart,Dining,446.97,UPI,Approved,Lake Cheyennehaven,2023,2,13
+1050,101050,1907,2023-02-13,ATM,Apple Store,Travel,657.13,UPI,Approved,West Kimberly,2023,2,13
+1051,101051,4114,2023-02-13,Mobile Payment,Uber,Electronics,2351.27,Debit Card,Approved,East Michelleville,2023,2,13
+1052,101052,2342,2023-02-13,POS,Target,Clothing,841.87,Credit Card,Approved,Lake Lisaport,2023,2,13
+1053,101053,4267,2023-02-13,POS,BestBuy,Clothing,3005.04,PayPal,Pending,Stevenmouth,2023,2,13
+1054,101054,1806,2023-02-13,ATM,Target,Groceries,3444.64,Credit Card,Pending,Port Ariel,2023,2,13
+1055,101055,1835,2023-02-13,Mobile Payment,Amazon,Electronics,4638.14,PayPal,Approved,Krystalberg,2023,2,13
+1056,101056,2932,2023-02-14,Online,Amazon,Entertainment,4650.91,Credit Card,Approved,New Shelbyshire,2023,2,14
+1057,101057,2009,2023-02-14,POS,Target,Dining,3411.3,Debit Card,Approved,East Davidville,2023,2,14
+1058,101058,4313,2023-02-14,Online,Walmart,Dining,4132.13,Credit Card,Approved,Smithland,2023,2,14
+1059,101059,1026,2023-02-14,POS,BestBuy,Entertainment,2448.31,Debit Card,Approved,Lake Rebecca,2023,2,14
+1060,101060,2311,2023-02-14,ATM,Walmart,Electronics,793.31,Debit Card,Approved,Longview,2023,2,14
+1061,101061,3299,2023-02-14,POS,Uber,Groceries,1345.87,Debit Card,Approved,Port Danabury,2023,2,14
+1062,101062,1411,2023-02-14,ATM,Walmart,Entertainment,1337.15,Debit Card,Approved,Port Robert,2023,2,14
+1063,101063,4800,2023-02-14,Mobile Payment,Apple Store,Clothing,1926.55,PayPal,Approved,Brendaland,2023,2,14
+1064,101064,4577,2023-02-14,POS,BestBuy,Clothing,152.64,UPI,Approved,Andrewberg,2023,2,14
+1065,101065,1646,2023-02-14,Online,Amazon,Travel,1867.52,Credit Card,Approved,North Brittany,2023,2,14
+1066,101066,3122,2023-02-14,ATM,Netflix,Dining,1418.94,Debit Card,Declined,South Anthony,2023,2,14
+1067,101067,4055,2023-02-14,Online,Apple Store,Groceries,1761.03,UPI,Approved,Johnsonmouth,2023,2,14
+1068,101068,4463,2023-02-14,Mobile Payment,BestBuy,Clothing,1371.15,Credit Card,Approved,North Tonyaland,2023,2,14
+1069,101069,4686,2023-02-14,ATM,BestBuy,Travel,2268.96,Debit Card,Declined,Hernandezport,2023,2,14
+1070,101070,1788,2023-02-14,ATM,Netflix,Groceries,506.73,Credit Card,Approved,North Holly,2023,2,14
+1071,101071,3536,2023-02-14,POS,BestBuy,Electronics,4141.61,Credit Card,Approved,Zacharymouth,2023,2,14
+1072,101072,2168,2023-02-14,Online,Target,Clothing,2322.05,PayPal,Approved,South Kariville,2023,2,14
+1073,101073,4596,2023-02-14,POS,Amazon,Groceries,3140.04,PayPal,Approved,Lawrenceside,2023,2,14
+1074,101074,3840,2023-02-14,ATM,Target,Groceries,442.56,Debit Card,Approved,New Kellyfurt,2023,2,14
+1075,101075,2868,2023-02-14,Mobile Payment,Amazon,Travel,165.3,Debit Card,Approved,Spencemouth,2023,2,14
+1076,101076,4978,2023-02-14,POS,BestBuy,Travel,4141.36,Credit Card,Approved,Williamfort,2023,2,14
+1077,101077,3473,2023-02-14,POS,Netflix,Dining,1275.91,UPI,Approved,Port Richard,2023,2,14
+1078,101078,1138,2023-02-14,Mobile Payment,Uber,Clothing,4935.76,Credit Card,Approved,Lake Patrickborough,2023,2,14
+1079,101079,3976,2023-02-14,POS,BestBuy,Entertainment,3552.59,UPI,Approved,Yuview,2023,2,14
+1080,101080,3403,2023-02-15,POS,Netflix,Travel,2153.63,UPI,Approved,Port Eric,2023,2,15
+1081,101081,2452,2023-02-15,Online,BestBuy,Dining,1797.93,Debit Card,Approved,North Carlos,2023,2,15
+1082,101082,3125,2023-02-15,POS,Uber,Dining,2697.73,PayPal,Declined,Salasborough,2023,2,15
+1083,101083,1737,2023-02-15,ATM,Netflix,Clothing,4610.12,Debit Card,Pending,North Deborah,2023,2,15
+1084,101084,2156,2023-02-15,Online,Apple Store,Dining,451.46,Debit Card,Approved,New Matthewmouth,2023,2,15
+1085,101085,3635,2023-02-15,POS,Amazon,Groceries,4636.31,Debit Card,Approved,North Virginiafurt,2023,2,15
+1086,101086,4328,2023-02-15,Online,Target,Clothing,1996.15,Debit Card,Approved,Alexanderville,2023,2,15
+1087,101087,1185,2023-02-15,Mobile Payment,Walmart,Entertainment,4548.7,UPI,Approved,Port Desireefort,2023,2,15
+1088,101088,4963,2023-02-15,POS,Amazon,Entertainment,3535.05,UPI,Approved,Fergusonton,2023,2,15
+1089,101089,3485,2023-02-15,Mobile Payment,Apple Store,Travel,770.91,Credit Card,Approved,Hudsonmouth,2023,2,15
+1090,101090,3187,2023-02-15,Mobile Payment,Netflix,Clothing,2970.89,Credit Card,Approved,North Katherine,2023,2,15
+1091,101091,3835,2023-02-15,ATM,Amazon,Dining,4722.99,Debit Card,Pending,Lake Madelineborough,2023,2,15
+1092,101092,1050,2023-02-15,POS,Uber,Dining,3569.54,Debit Card,Approved,West Christinafurt,2023,2,15
+1093,101093,1038,2023-02-15,Mobile Payment,Netflix,Dining,2435.86,UPI,Approved,South Shawn,2023,2,15
+1094,101094,4723,2023-02-15,Mobile Payment,BestBuy,Dining,1340.09,PayPal,Approved,North Sara,2023,2,15
+1095,101095,3155,2023-02-15,POS,Netflix,Travel,440.39,Debit Card,Approved,West Meagan,2023,2,15
+1096,101096,1827,2023-02-15,POS,Amazon,Entertainment,1640.04,Debit Card,Approved,Vasquezstad,2023,2,15
+1097,101097,1122,2023-02-15,Mobile Payment,Walmart,Electronics,3048.05,Credit Card,Approved,East Lauraport,2023,2,15
+1098,101098,1017,2023-02-15,ATM,Amazon,Dining,2892.91,UPI,Approved,North Cameron,2023,2,15
+1099,101099,4142,2023-02-15,ATM,Target,Dining,3317.98,PayPal,Approved,Jenniferstad,2023,2,15
+1100,101100,3121,2023-02-15,Online,BestBuy,Entertainment,4090.01,Credit Card,Declined,West Josefort,2023,2,15
+1101,101101,1499,2023-02-15,Mobile Payment,Apple Store,Groceries,1324.21,Debit Card,Pending,Kimberlytown,2023,2,15
+1102,101102,2019,2023-02-15,Online,Target,Entertainment,854.48,UPI,Declined,West Karenfurt,2023,2,15
+1103,101103,1597,2023-02-15,Online,Netflix,Entertainment,153.99,PayPal,Approved,West Donna,2023,2,15
+1104,101104,2933,2023-02-16,ATM,Target,Entertainment,1960.32,Debit Card,Declined,Theresaborough,2023,2,16
+1105,101105,3450,2023-02-16,POS,Target,Dining,2165.58,UPI,Approved,Lake Thomas,2023,2,16
+1106,101106,2902,2023-02-16,Online,Apple Store,Dining,1962.78,PayPal,Declined,Meyerfort,2023,2,16
+1107,101107,3469,2023-02-16,Mobile Payment,Target,Clothing,148.13,UPI,Approved,Hollandburgh,2023,2,16
+1108,101108,2812,2023-02-16,ATM,Netflix,Dining,4542.94,Credit Card,Approved,Nathanfurt,2023,2,16
+1109,101109,1998,2023-02-16,POS,Amazon,Groceries,2055.0,PayPal,Approved,South Glenda,2023,2,16
+1110,101110,2785,2023-02-16,ATM,Netflix,Electronics,2174.12,Debit Card,Approved,South Adrienne,2023,2,16
+1111,101111,3059,2023-02-16,POS,Uber,Dining,3862.06,UPI,Approved,East Frances,2023,2,16
+1112,101112,1888,2023-02-16,ATM,Amazon,Groceries,4829.81,UPI,Approved,New Michaelstad,2023,2,16
+1113,101113,3265,2023-02-16,ATM,Netflix,Groceries,1966.56,Credit Card,Approved,East Deanna,2023,2,16
+1114,101114,4265,2023-02-16,Online,Uber,Groceries,4636.05,UPI,Approved,Leechester,2023,2,16
+1115,101115,4724,2023-02-16,Mobile Payment,Amazon,Travel,1551.6,UPI,Approved,Port Richardfurt,2023,2,16
+1116,101116,1735,2023-02-16,Mobile Payment,Uber,Electronics,429.49,UPI,Approved,West Annastad,2023,2,16
+1117,101117,4799,2023-02-16,ATM,Netflix,Electronics,3281.45,PayPal,Approved,East Bryanton,2023,2,16
+1118,101118,3722,2023-02-16,POS,Walmart,Travel,1799.75,Credit Card,Approved,New Shannon,2023,2,16
+1119,101119,1355,2023-02-16,ATM,Target,Clothing,1394.72,Debit Card,Approved,South Richardbury,2023,2,16
+1120,101120,4927,2023-02-16,ATM,Target,Electronics,4105.23,Debit Card,Pending,West Nicoleton,2023,2,16
+1121,101121,1846,2023-02-16,Mobile Payment,BestBuy,Electronics,4983.33,Credit Card,Pending,Hansentown,2023,2,16
+1122,101122,1352,2023-02-16,ATM,BestBuy,Clothing,3089.85,UPI,Pending,Kennedystad,2023,2,16
+1123,101123,1645,2023-02-16,Online,Netflix,Entertainment,4690.14,Credit Card,Approved,Port Joshua,2023,2,16
+1124,101124,4833,2023-02-16,ATM,Walmart,Dining,3211.05,UPI,Approved,Williamsmouth,2023,2,16
+1125,101125,3512,2023-02-16,Online,BestBuy,Travel,2630.35,PayPal,Approved,Evanstown,2023,2,16
+1126,101126,1981,2023-02-16,Online,BestBuy,Clothing,4670.58,UPI,Approved,Paulbury,2023,2,16
+1127,101127,3165,2023-02-16,ATM,BestBuy,Groceries,652.83,Credit Card,Approved,Joshuaburgh,2023,2,16
+1128,101128,1948,2023-02-17,Online,Walmart,Electronics,1951.77,Credit Card,Approved,North Heatherland,2023,2,17
+1129,101129,3992,2023-02-17,Online,Apple Store,Entertainment,4082.73,Debit Card,Approved,Wagnermouth,2023,2,17
+1130,101130,2831,2023-02-17,Mobile Payment,Uber,Clothing,2904.61,PayPal,Approved,Randybury,2023,2,17
+1131,101131,3081,2023-02-17,Mobile Payment,BestBuy,Entertainment,1672.01,Debit Card,Approved,East Nathanland,2023,2,17
+1132,101132,4417,2023-02-17,POS,Walmart,Groceries,3094.21,PayPal,Pending,Marqueztown,2023,2,17
+1133,101133,2708,2023-02-17,ATM,Walmart,Groceries,669.25,Debit Card,Pending,Christineburgh,2023,2,17
+1134,101134,1918,2023-02-17,Mobile Payment,Apple Store,Clothing,2752.97,UPI,Approved,South Antoniofurt,2023,2,17
+1135,101135,4426,2023-02-17,ATM,BestBuy,Groceries,3671.37,UPI,Approved,New James,2023,2,17
+1136,101136,4872,2023-02-17,ATM,Walmart,Groceries,2444.61,PayPal,Approved,Lechester,2023,2,17
+1137,101137,3710,2023-02-17,ATM,Netflix,Electronics,3477.9,UPI,Approved,West Thomasstad,2023,2,17
+1138,101138,2920,2023-02-17,ATM,BestBuy,Clothing,4728.53,UPI,Approved,Michellemouth,2023,2,17
+1139,101139,1611,2023-02-17,Mobile Payment,BestBuy,Entertainment,468.17,Debit Card,Approved,Robertshire,2023,2,17
+1140,101140,1871,2023-02-17,Online,Amazon,Travel,560.87,UPI,Approved,Andreafort,2023,2,17
+1141,101141,4263,2023-02-17,Online,Netflix,Clothing,2858.68,UPI,Approved,Haleytown,2023,2,17
+1142,101142,3454,2023-02-17,ATM,Uber,Clothing,4547.5,Debit Card,Approved,New Jeremymouth,2023,2,17
+1143,101143,4557,2023-02-17,Online,Apple Store,Travel,3338.65,Credit Card,Approved,Lake Belindafort,2023,2,17
+1144,101144,3415,2023-02-17,ATM,Amazon,Clothing,2082.42,Credit Card,Approved,Rebeccaland,2023,2,17
+1145,101145,4206,2023-02-17,POS,Apple Store,Electronics,3968.6,Credit Card,Approved,South Daniel,2023,2,17
+1146,101146,2966,2023-02-17,POS,Target,Entertainment,4959.19,UPI,Approved,South William,2023,2,17
+1147,101147,1145,2023-02-17,ATM,Target,Entertainment,1663.75,UPI,Approved,Kristenview,2023,2,17
+1148,101148,1821,2023-02-17,Mobile Payment,Uber,Entertainment,562.96,Credit Card,Approved,East Matthew,2023,2,17
+1149,101149,3976,2023-02-17,Online,Target,Entertainment,3599.45,UPI,Pending,Lake Jillton,2023,2,17
+1150,101150,4429,2023-02-17,POS,BestBuy,Entertainment,3186.5,PayPal,Approved,South Fernandochester,2023,2,17
+1151,101151,1962,2023-02-17,POS,Uber,Entertainment,1229.52,PayPal,Approved,North Alison,2023,2,17
+1152,101152,2174,2023-02-18,ATM,BestBuy,Groceries,922.0,PayPal,Approved,East Richard,2023,2,18
+1153,101153,3261,2023-02-18,ATM,Apple Store,Dining,4872.35,PayPal,Approved,West Natalie,2023,2,18
+1154,101154,2743,2023-02-18,ATM,Uber,Electronics,2569.63,PayPal,Approved,Burnsbury,2023,2,18
+1155,101155,3350,2023-02-18,Mobile Payment,Apple Store,Groceries,419.41,UPI,Approved,Smithfurt,2023,2,18
+1156,101156,3425,2023-02-18,Mobile Payment,Netflix,Electronics,3260.8,PayPal,Approved,North Jenny,2023,2,18
+1157,101157,1383,2023-02-18,ATM,Target,Entertainment,1768.73,Debit Card,Pending,New Sarahtown,2023,2,18
+1158,101158,1335,2023-02-18,ATM,Apple Store,Groceries,6.55,PayPal,Approved,Gardnerberg,2023,2,18
+1159,101159,2245,2023-02-18,Online,Walmart,Electronics,4077.29,UPI,Approved,West Brandon,2023,2,18
+1160,101160,2762,2023-02-18,ATM,Walmart,Entertainment,2185.64,Credit Card,Approved,Lake Danielstad,2023,2,18
+1161,101161,4860,2023-02-18,POS,BestBuy,Entertainment,3221.46,UPI,Approved,Jessicamouth,2023,2,18
+1162,101162,1594,2023-02-18,Online,BestBuy,Dining,1058.65,PayPal,Approved,Amberfurt,2023,2,18
+1163,101163,1541,2023-02-18,Mobile Payment,Uber,Dining,4269.93,UPI,Declined,Sandratown,2023,2,18
+1164,101164,2650,2023-02-18,Online,Uber,Dining,2927.93,UPI,Declined,Port Rebecca,2023,2,18
+1165,101165,1193,2023-02-18,Mobile Payment,BestBuy,Travel,2408.22,PayPal,Approved,South Norman,2023,2,18
+1166,101166,2961,2023-02-18,Online,BestBuy,Dining,3346.32,PayPal,Approved,Kleinhaven,2023,2,18
+1167,101167,2905,2023-02-18,ATM,Target,Travel,3934.39,PayPal,Approved,Jamesfurt,2023,2,18
+1168,101168,1841,2023-02-18,Mobile Payment,Walmart,Electronics,255.69,Credit Card,Approved,Wendyburgh,2023,2,18
+1169,101169,1065,2023-02-18,Online,Uber,Clothing,907.07,Credit Card,Approved,Boydton,2023,2,18
+1170,101170,1816,2023-02-18,POS,Netflix,Electronics,1895.33,UPI,Approved,Beckyview,2023,2,18
+1171,101171,3826,2023-02-18,POS,Amazon,Clothing,4276.94,UPI,Approved,Isabelstad,2023,2,18
+1172,101172,3172,2023-02-18,POS,Amazon,Groceries,2421.6,Credit Card,Approved,New Jessicaton,2023,2,18
+1173,101173,3945,2023-02-18,Mobile Payment,Amazon,Groceries,909.36,UPI,Approved,North Arthur,2023,2,18
+1174,101174,1399,2023-02-18,POS,Amazon,Electronics,1686.09,Credit Card,Pending,North Matthew,2023,2,18
+1175,101175,1233,2023-02-18,POS,Netflix,Clothing,4184.83,Debit Card,Approved,North Amanda,2023,2,18
+1176,101176,4104,2023-02-19,Online,Walmart,Clothing,674.21,Credit Card,Approved,Port Brittanymouth,2023,2,19
+1177,101177,2817,2023-02-19,ATM,Target,Clothing,4758.52,Credit Card,Approved,Robertburgh,2023,2,19
+1178,101178,1793,2023-02-19,POS,Apple Store,Entertainment,2786.65,UPI,Pending,Leahbury,2023,2,19
+1179,101179,3700,2023-02-19,Mobile Payment,Uber,Electronics,2811.76,PayPal,Approved,West Megan,2023,2,19
+1180,101180,1562,2023-02-19,Online,Amazon,Travel,1256.33,UPI,Approved,Kingburgh,2023,2,19
+1181,101181,2375,2023-02-19,Mobile Payment,Uber,Groceries,3580.23,Credit Card,Approved,North Angelaborough,2023,2,19
+1182,101182,2479,2023-02-19,Mobile Payment,Target,Travel,893.08,PayPal,Approved,Kennethville,2023,2,19
+1183,101183,4745,2023-02-19,Online,Apple Store,Electronics,3094.7,Debit Card,Pending,Garciamouth,2023,2,19
+1184,101184,1164,2023-02-19,ATM,Uber,Electronics,698.61,Credit Card,Approved,Courtneyview,2023,2,19
+1185,101185,1151,2023-02-19,ATM,Apple Store,Travel,3504.33,PayPal,Approved,Bowenberg,2023,2,19
+1186,101186,3719,2023-02-19,Online,Walmart,Entertainment,1114.42,Credit Card,Approved,Annachester,2023,2,19
+1187,101187,4423,2023-02-19,Mobile Payment,Target,Clothing,245.19,UPI,Approved,Timothyland,2023,2,19
+1188,101188,1961,2023-02-19,Online,Target,Clothing,744.1,PayPal,Approved,East Marvinberg,2023,2,19
+1189,101189,2781,2023-02-19,Online,Uber,Electronics,3911.0,Credit Card,Approved,Grayfurt,2023,2,19
+1190,101190,4122,2023-02-19,ATM,Target,Entertainment,3817.45,UPI,Approved,Chrisbury,2023,2,19
+1191,101191,4856,2023-02-19,Online,Netflix,Entertainment,4077.04,Credit Card,Approved,Anthonytown,2023,2,19
+1192,101192,1223,2023-02-19,POS,Netflix,Clothing,748.05,Credit Card,Approved,Lake Carla,2023,2,19
+1193,101193,4311,2023-02-19,Online,Amazon,Groceries,616.32,PayPal,Approved,Everettland,2023,2,19
+1194,101194,4653,2023-02-19,ATM,Target,Entertainment,3760.97,Debit Card,Approved,East Michaelburgh,2023,2,19
+1195,101195,3836,2023-02-19,Online,Amazon,Dining,682.73,Debit Card,Approved,Brandonmouth,2023,2,19
+1196,101196,2308,2023-02-19,Mobile Payment,Netflix,Groceries,4056.49,Credit Card,Approved,Rhondaborough,2023,2,19
+1197,101197,4528,2023-02-19,Online,BestBuy,Clothing,2554.95,Debit Card,Approved,New Jeffreyburgh,2023,2,19
+1198,101198,2431,2023-02-19,Online,BestBuy,Electronics,2143.99,PayPal,Approved,Port Amymouth,2023,2,19
+1199,101199,3477,2023-02-19,Mobile Payment,Amazon,Entertainment,582.34,Debit Card,Approved,Olsonview,2023,2,19
+1200,101200,3759,2023-02-20,Online,Target,Travel,2812.46,Credit Card,Approved,Christinemouth,2023,2,20
+1201,101201,2405,2023-02-20,ATM,Amazon,Groceries,2405.7,Credit Card,Approved,Roberthaven,2023,2,20
+1202,101202,4861,2023-02-20,Online,Uber,Groceries,886.25,Credit Card,Approved,South Donna,2023,2,20
+1203,101203,1806,2023-02-20,Mobile Payment,BestBuy,Dining,4209.6,Credit Card,Approved,Rebeccafort,2023,2,20
+1204,101204,2045,2023-02-20,POS,Uber,Travel,3922.28,Credit Card,Approved,New Daniel,2023,2,20
+1205,101205,1272,2023-02-20,Online,Uber,Electronics,4092.24,Credit Card,Approved,Lake Kellyborough,2023,2,20
+1206,101206,3689,2023-02-20,POS,BestBuy,Dining,2886.24,Debit Card,Approved,Miguelbury,2023,2,20
+1207,101207,3074,2023-02-20,ATM,Target,Dining,4224.33,Debit Card,Approved,Lorihaven,2023,2,20
+1208,101208,1539,2023-02-20,Mobile Payment,Walmart,Groceries,3028.55,Credit Card,Approved,New Kelly,2023,2,20
+1209,101209,1325,2023-02-20,POS,Apple Store,Entertainment,23.68,Debit Card,Approved,East Isaacstad,2023,2,20
+1210,101210,1785,2023-02-20,Mobile Payment,Apple Store,Clothing,560.89,Credit Card,Approved,Robinsonbury,2023,2,20
+1211,101211,4497,2023-02-20,Online,BestBuy,Entertainment,576.49,Debit Card,Approved,Danielfurt,2023,2,20
+1212,101212,2416,2023-02-20,Mobile Payment,Amazon,Electronics,2769.88,Credit Card,Approved,Derekport,2023,2,20
+1213,101213,2510,2023-02-20,POS,BestBuy,Travel,4442.47,UPI,Approved,East Thomasfort,2023,2,20
+1214,101214,1832,2023-02-20,Mobile Payment,Netflix,Travel,4938.21,UPI,Approved,Reyeschester,2023,2,20
+1215,101215,3015,2023-02-20,POS,Walmart,Electronics,3630.32,Debit Card,Approved,Lake Michael,2023,2,20
+1216,101216,4865,2023-02-20,Online,Uber,Groceries,3366.16,Debit Card,Approved,West Laura,2023,2,20
+1217,101217,3439,2023-02-20,Online,Target,Travel,469.17,UPI,Approved,Port Kayla,2023,2,20
+1218,101218,4947,2023-02-20,Mobile Payment,Netflix,Travel,2278.55,Debit Card,Approved,North Michaelland,2023,2,20
+1219,101219,2142,2023-02-20,Mobile Payment,Target,Dining,344.6,UPI,Approved,West Emily,2023,2,20
+1220,101220,2358,2023-02-20,POS,Netflix,Entertainment,2843.3,Debit Card,Declined,Langfurt,2023,2,20
+1221,101221,3704,2023-02-20,ATM,Netflix,Travel,489.14,PayPal,Approved,South Luis,2023,2,20
+1222,101222,2449,2023-02-20,POS,BestBuy,Groceries,3897.41,PayPal,Approved,Eatonfort,2023,2,20
+1223,101223,4343,2023-02-20,Mobile Payment,Target,Entertainment,1742.97,UPI,Approved,Bowenfurt,2023,2,20
+1224,101224,4811,2023-02-21,Online,Walmart,Entertainment,4711.74,Credit Card,Approved,Janicemouth,2023,2,21
+1225,101225,2900,2023-02-21,ATM,Target,Clothing,3351.47,Credit Card,Approved,West Soniaport,2023,2,21
+1226,101226,3700,2023-02-21,Online,Walmart,Travel,4538.26,UPI,Approved,West Tony,2023,2,21
+1227,101227,4071,2023-02-21,POS,Uber,Entertainment,299.28,PayPal,Approved,Ryanton,2023,2,21
+1228,101228,1012,2023-02-21,ATM,Apple Store,Dining,3306.04,PayPal,Approved,Bishopfurt,2023,2,21
+1229,101229,4199,2023-02-21,Online,Walmart,Entertainment,4316.9,PayPal,Approved,Mayermouth,2023,2,21
+1230,101230,2687,2023-02-21,POS,BestBuy,Travel,261.23,PayPal,Approved,Port Andrea,2023,2,21
+1231,101231,4133,2023-02-21,ATM,BestBuy,Electronics,3175.85,Credit Card,Approved,Lake Andreside,2023,2,21
+1232,101232,4072,2023-02-21,Mobile Payment,Netflix,Entertainment,4783.83,Credit Card,Approved,Millerburgh,2023,2,21
+1233,101233,2756,2023-02-21,Mobile Payment,Walmart,Groceries,4194.47,UPI,Approved,Amberchester,2023,2,21
+1234,101234,3227,2023-02-21,Mobile Payment,Amazon,Clothing,3592.43,PayPal,Approved,Thomasburgh,2023,2,21
+1235,101235,3897,2023-02-21,Online,BestBuy,Clothing,708.14,Debit Card,Approved,Smithstad,2023,2,21
+1236,101236,2269,2023-02-21,POS,Walmart,Entertainment,2702.99,UPI,Declined,Port Ryanberg,2023,2,21
+1237,101237,4814,2023-02-21,ATM,Target,Groceries,3680.27,PayPal,Approved,Daniellehaven,2023,2,21
+1238,101238,3892,2023-02-21,POS,Amazon,Groceries,1059.73,PayPal,Approved,Vasquezfurt,2023,2,21
+1239,101239,2646,2023-02-21,ATM,Target,Dining,1634.47,PayPal,Approved,East Troy,2023,2,21
+1240,101240,4739,2023-02-21,Online,Uber,Dining,3035.93,Debit Card,Approved,New Ericstad,2023,2,21
+1241,101241,3143,2023-02-21,Mobile Payment,Amazon,Electronics,1615.68,PayPal,Approved,Johnsonfurt,2023,2,21
+1242,101242,1422,2023-02-21,POS,Apple Store,Groceries,2531.4,Debit Card,Approved,North Whitneymouth,2023,2,21
+1243,101243,2078,2023-02-21,Online,Netflix,Dining,3956.75,PayPal,Approved,East Nicolebury,2023,2,21
+1244,101244,3467,2023-02-21,Online,Walmart,Groceries,3175.74,Debit Card,Approved,South James,2023,2,21
+1245,101245,4172,2023-02-21,Mobile Payment,Apple Store,Groceries,4198.7,Debit Card,Approved,South Elizabeth,2023,2,21
+1246,101246,3043,2023-02-21,Online,Amazon,Groceries,1297.57,Debit Card,Approved,Lake Johnathanborough,2023,2,21
+1247,101247,1443,2023-02-21,Online,Apple Store,Electronics,562.95,PayPal,Approved,Nathanshire,2023,2,21
+1248,101248,3855,2023-02-22,POS,Walmart,Clothing,3063.3,UPI,Approved,New Margaretfurt,2023,2,22
+1249,101249,1266,2023-02-22,ATM,Netflix,Clothing,2692.61,Credit Card,Approved,Blanchardfort,2023,2,22
+1250,101250,4969,2023-02-22,POS,Target,Entertainment,2403.64,PayPal,Approved,Davidport,2023,2,22
+1251,101251,1283,2023-02-22,Mobile Payment,BestBuy,Clothing,4359.54,PayPal,Approved,Conradview,2023,2,22
+1252,101252,1666,2023-02-22,POS,Walmart,Dining,4911.93,Credit Card,Approved,North Joshua,2023,2,22
+1253,101253,2217,2023-02-22,Mobile Payment,Walmart,Entertainment,1321.97,PayPal,Approved,Mariatown,2023,2,22
+1254,101254,2887,2023-02-22,POS,Uber,Electronics,1816.47,PayPal,Approved,Bakerstad,2023,2,22
+1255,101255,3753,2023-02-22,Online,Target,Travel,3333.49,PayPal,Approved,Lake Danielle,2023,2,22
+1256,101256,1925,2023-02-22,Mobile Payment,Amazon,Entertainment,1185.94,UPI,Approved,Juarezside,2023,2,22
+1257,101257,4154,2023-02-22,Mobile Payment,Walmart,Groceries,1118.68,Debit Card,Approved,Ramirezport,2023,2,22
+1258,101258,2232,2023-02-22,POS,Target,Entertainment,3996.12,Credit Card,Approved,Port Lori,2023,2,22
+1259,101259,1593,2023-02-22,Online,Netflix,Electronics,3906.65,PayPal,Approved,West Elizabeth,2023,2,22
+1260,101260,2149,2023-02-22,Mobile Payment,Netflix,Travel,4115.61,Debit Card,Approved,Bartlettshire,2023,2,22
+1261,101261,1359,2023-02-22,ATM,BestBuy,Dining,3508.17,UPI,Approved,Port Victoriashire,2023,2,22
+1262,101262,3449,2023-02-22,POS,Walmart,Clothing,3169.56,PayPal,Approved,Williamsshire,2023,2,22
+1263,101263,4140,2023-02-22,Online,Netflix,Groceries,739.82,UPI,Declined,East Shelly,2023,2,22
+1264,101264,2124,2023-02-22,Mobile Payment,Apple Store,Travel,634.98,PayPal,Approved,Antonioside,2023,2,22
+1265,101265,3911,2023-02-22,Online,BestBuy,Dining,2620.33,PayPal,Approved,West Patriciabury,2023,2,22
+1266,101266,2234,2023-02-22,POS,Netflix,Groceries,3397.64,Debit Card,Declined,East Margaret,2023,2,22
+1267,101267,2456,2023-02-22,ATM,Uber,Electronics,1183.87,UPI,Approved,West Elizabethfurt,2023,2,22
+1268,101268,3177,2023-02-22,Mobile Payment,Netflix,Dining,4228.98,PayPal,Approved,North Eric,2023,2,22
+1269,101269,2099,2023-02-22,ATM,Uber,Entertainment,2609.99,PayPal,Approved,Jeromeville,2023,2,22
+1270,101270,2816,2023-02-22,Online,BestBuy,Clothing,816.25,Debit Card,Approved,Port Dannymouth,2023,2,22
+1271,101271,1877,2023-02-22,Mobile Payment,Netflix,Dining,3330.07,UPI,Approved,Sweeneymouth,2023,2,22
+1272,101272,4872,2023-02-23,POS,Amazon,Travel,4126.44,Debit Card,Approved,Knightmouth,2023,2,23
+1273,101273,4744,2023-02-23,Online,Walmart,Clothing,664.0,PayPal,Approved,North Jackville,2023,2,23
+1274,101274,4655,2023-02-23,Mobile Payment,Amazon,Groceries,3729.32,Credit Card,Approved,Meganmouth,2023,2,23
+1275,101275,4202,2023-02-23,Mobile Payment,Walmart,Electronics,880.1,Credit Card,Approved,Phillipschester,2023,2,23
+1276,101276,4256,2023-02-23,Online,BestBuy,Entertainment,3765.88,Credit Card,Approved,Lake Shannon,2023,2,23
+1277,101277,3809,2023-02-23,POS,Uber,Clothing,1858.83,Credit Card,Approved,Copelandville,2023,2,23
+1278,101278,2310,2023-02-23,POS,Target,Groceries,3499.86,UPI,Approved,Lake Gilbert,2023,2,23
+1279,101279,3175,2023-02-23,Mobile Payment,BestBuy,Groceries,824.04,PayPal,Approved,Travisview,2023,2,23
+1280,101280,4360,2023-02-23,ATM,BestBuy,Electronics,26.76,UPI,Approved,West Dawn,2023,2,23
+1281,101281,3539,2023-02-23,POS,Apple Store,Groceries,4301.39,UPI,Approved,Kimchester,2023,2,23
+1282,101282,3878,2023-02-23,Online,Apple Store,Entertainment,4903.52,UPI,Approved,Shawville,2023,2,23
+1283,101283,2241,2023-02-23,Online,Netflix,Dining,2309.28,Credit Card,Approved,West Trevor,2023,2,23
+1284,101284,4302,2023-02-23,Online,Walmart,Entertainment,3624.69,PayPal,Approved,Port Michele,2023,2,23
+1285,101285,4225,2023-02-23,ATM,Netflix,Travel,2044.95,Credit Card,Approved,Lake Michael,2023,2,23
+1286,101286,4690,2023-02-23,Mobile Payment,Uber,Travel,8.13,Debit Card,Pending,New Dawnstad,2023,2,23
+1287,101287,2865,2023-02-23,POS,Apple Store,Dining,2376.13,Credit Card,Approved,New Hunterville,2023,2,23
+1288,101288,1758,2023-02-23,Mobile Payment,Uber,Travel,3746.99,PayPal,Approved,Joshuabury,2023,2,23
+1289,101289,4429,2023-02-23,ATM,Netflix,Entertainment,682.4,Debit Card,Approved,New Brookefort,2023,2,23
+1290,101290,3903,2023-02-23,POS,Netflix,Electronics,1786.21,Credit Card,Pending,Thomasshire,2023,2,23
+1291,101291,1522,2023-02-23,POS,Netflix,Electronics,4367.9,PayPal,Approved,Juliaberg,2023,2,23
+1292,101292,1552,2023-02-23,Online,Netflix,Electronics,1165.44,PayPal,Approved,North Ian,2023,2,23
+1293,101293,3919,2023-02-23,Mobile Payment,Netflix,Groceries,1967.14,Debit Card,Declined,North Randyland,2023,2,23
+1294,101294,1551,2023-02-23,ATM,Uber,Clothing,3908.39,UPI,Approved,Elizabethstad,2023,2,23
+1295,101295,3523,2023-02-23,Mobile Payment,Amazon,Entertainment,892.68,PayPal,Approved,Brewerview,2023,2,23
+1296,101296,4996,2023-02-24,POS,Netflix,Entertainment,446.28,Debit Card,Approved,Christopherland,2023,2,24
+1297,101297,2448,2023-02-24,POS,Netflix,Dining,3676.7,Credit Card,Approved,North Daleville,2023,2,24
+1298,101298,2548,2023-02-24,POS,Amazon,Electronics,1802.38,Debit Card,Approved,Dillonland,2023,2,24
+1299,101299,4746,2023-02-24,Online,Apple Store,Entertainment,2291.43,UPI,Approved,Dylanstad,2023,2,24
+1300,101300,2442,2023-02-24,ATM,BestBuy,Entertainment,2385.46,Debit Card,Approved,Port Lisa,2023,2,24
+1301,101301,4772,2023-02-24,ATM,Apple Store,Electronics,254.52,Debit Card,Approved,Millershire,2023,2,24
+1302,101302,3932,2023-02-24,ATM,Apple Store,Dining,1449.39,UPI,Approved,Markland,2023,2,24
+1303,101303,2932,2023-02-24,ATM,Walmart,Clothing,3403.47,Credit Card,Approved,West Amy,2023,2,24
+1304,101304,2816,2023-02-24,ATM,Walmart,Entertainment,2522.82,Debit Card,Approved,Nathantown,2023,2,24
+1305,101305,2193,2023-02-24,ATM,BestBuy,Clothing,4228.03,Credit Card,Approved,South Ashleystad,2023,2,24
+1306,101306,3975,2023-02-24,Mobile Payment,Apple Store,Electronics,3340.4,PayPal,Approved,Port Denisefort,2023,2,24
+1307,101307,4715,2023-02-24,Mobile Payment,Walmart,Electronics,3955.42,UPI,Approved,Danielhaven,2023,2,24
+1308,101308,1290,2023-02-24,Mobile Payment,Netflix,Travel,2438.54,UPI,Approved,Millerland,2023,2,24
+1309,101309,2996,2023-02-24,ATM,Amazon,Electronics,2935.27,Credit Card,Approved,Danielmouth,2023,2,24
+1310,101310,4826,2023-02-24,Online,Amazon,Electronics,1967.27,Debit Card,Approved,Katelynside,2023,2,24
+1311,101311,4964,2023-02-24,Online,BestBuy,Entertainment,494.94,Debit Card,Approved,Hollystad,2023,2,24
+1312,101312,1647,2023-02-24,ATM,Apple Store,Travel,3532.01,UPI,Declined,Sandraland,2023,2,24
+1313,101313,1551,2023-02-24,Mobile Payment,Amazon,Clothing,4619.35,Credit Card,Approved,Lake Kathleenhaven,2023,2,24
+1314,101314,1323,2023-02-24,ATM,Apple Store,Travel,2713.05,PayPal,Approved,North Christian,2023,2,24
+1315,101315,3985,2023-02-24,Online,Uber,Clothing,1531.07,Credit Card,Approved,South Rodneyville,2023,2,24
+1316,101316,2016,2023-02-24,POS,Target,Entertainment,4989.07,PayPal,Approved,New Randall,2023,2,24
+1317,101317,2796,2023-02-24,Online,Walmart,Travel,4111.85,Credit Card,Approved,Burtonport,2023,2,24
+1318,101318,1832,2023-02-24,ATM,Amazon,Groceries,3936.28,Credit Card,Approved,Dicksonshire,2023,2,24
+1319,101319,4201,2023-02-24,Mobile Payment,Target,Entertainment,2739.2,UPI,Declined,Port Heatherchester,2023,2,24
+1320,101320,1876,2023-02-25,ATM,Apple Store,Travel,737.0,Debit Card,Approved,Danielmouth,2023,2,25
+1321,101321,4567,2023-02-25,ATM,Uber,Entertainment,2606.75,PayPal,Approved,Jamesport,2023,2,25
+1322,101322,1967,2023-02-25,ATM,BestBuy,Travel,4072.32,PayPal,Approved,Christopherland,2023,2,25
+1323,101323,1916,2023-02-25,ATM,Uber,Entertainment,2901.54,Debit Card,Approved,Lake Kevin,2023,2,25
+1324,101324,2128,2023-02-25,ATM,Netflix,Travel,2550.98,Debit Card,Approved,South Patriciastad,2023,2,25
+1325,101325,1760,2023-02-25,Mobile Payment,Amazon,Groceries,2751.3,Credit Card,Approved,South Tamaraland,2023,2,25
+1326,101326,2731,2023-02-25,Online,Walmart,Dining,1142.61,UPI,Approved,New Heather,2023,2,25
+1327,101327,2056,2023-02-25,POS,BestBuy,Dining,548.82,UPI,Approved,Beverlyfort,2023,2,25
+1328,101328,2141,2023-02-25,ATM,Uber,Electronics,1830.8,Credit Card,Approved,East Bonnietown,2023,2,25
+1329,101329,2115,2023-02-25,Online,BestBuy,Dining,1252.65,UPI,Approved,Yolandabury,2023,2,25
+1330,101330,1050,2023-02-25,Mobile Payment,Walmart,Clothing,2828.9,UPI,Approved,Cooleybury,2023,2,25
+1331,101331,3952,2023-02-25,POS,Apple Store,Clothing,2203.21,Debit Card,Approved,Mcmillanland,2023,2,25
+1332,101332,2531,2023-02-25,Mobile Payment,BestBuy,Groceries,2614.23,Credit Card,Approved,New Daniel,2023,2,25
+1333,101333,2170,2023-02-25,ATM,Netflix,Clothing,1594.65,PayPal,Approved,Wesleyborough,2023,2,25
+1334,101334,1629,2023-02-25,POS,BestBuy,Electronics,4412.91,PayPal,Approved,East Megan,2023,2,25
+1335,101335,2490,2023-02-25,Mobile Payment,Uber,Electronics,1186.19,Debit Card,Approved,Port Lisa,2023,2,25
+1336,101336,2896,2023-02-25,Online,Apple Store,Travel,4104.27,Debit Card,Approved,Fosterview,2023,2,25
+1337,101337,1284,2023-02-25,ATM,BestBuy,Electronics,2434.94,PayPal,Approved,Henrybury,2023,2,25
+1338,101338,1644,2023-02-25,Mobile Payment,Target,Electronics,1972.98,UPI,Approved,Johnsonview,2023,2,25
+1339,101339,2632,2023-02-25,ATM,Walmart,Electronics,3156.53,PayPal,Approved,New Jason,2023,2,25
+1340,101340,4682,2023-02-25,Mobile Payment,Netflix,Groceries,1655.38,UPI,Pending,Hutchinsonside,2023,2,25
+1341,101341,4520,2023-02-25,ATM,Netflix,Travel,670.13,Credit Card,Approved,Evelynland,2023,2,25
+1342,101342,2649,2023-02-25,Online,Apple Store,Travel,2797.21,Credit Card,Approved,South Kellyland,2023,2,25
+1343,101343,4148,2023-02-25,Mobile Payment,Amazon,Clothing,2670.9,Credit Card,Approved,New Andremouth,2023,2,25
+1344,101344,2826,2023-02-26,Mobile Payment,BestBuy,Electronics,4568.0,PayPal,Declined,Smithhaven,2023,2,26
+1345,101345,4056,2023-02-26,Online,Amazon,Electronics,2600.61,UPI,Approved,Lake Tammy,2023,2,26
+1346,101346,3009,2023-02-26,POS,Netflix,Electronics,352.5,Debit Card,Approved,East Dawnborough,2023,2,26
+1347,101347,3994,2023-02-26,Online,Netflix,Entertainment,4149.33,PayPal,Declined,East Jeffreybury,2023,2,26
+1348,101348,4225,2023-02-26,POS,Target,Travel,4689.43,Debit Card,Approved,Lake Jody,2023,2,26
+1349,101349,2242,2023-02-26,POS,Apple Store,Clothing,2916.47,PayPal,Approved,Conradmouth,2023,2,26
+1350,101350,2904,2023-02-26,POS,Walmart,Clothing,1395.05,PayPal,Approved,South Michael,2023,2,26
+1351,101351,2302,2023-02-26,Mobile Payment,Uber,Travel,1026.1,PayPal,Approved,Knightfurt,2023,2,26
+1352,101352,4196,2023-02-26,Mobile Payment,Netflix,Dining,3149.85,Debit Card,Approved,East Jamieshire,2023,2,26
+1353,101353,1941,2023-02-26,POS,Walmart,Electronics,519.17,UPI,Approved,North Christopherbury,2023,2,26
+1354,101354,2267,2023-02-26,Mobile Payment,Walmart,Entertainment,4250.43,Credit Card,Pending,New Melanieberg,2023,2,26
+1355,101355,2857,2023-02-26,Online,Uber,Electronics,1368.59,UPI,Approved,South Timothy,2023,2,26
+1356,101356,3401,2023-02-26,POS,BestBuy,Entertainment,1530.54,Credit Card,Approved,Atkinsport,2023,2,26
+1357,101357,1245,2023-02-26,Mobile Payment,Amazon,Clothing,2561.57,Debit Card,Approved,Claytonberg,2023,2,26
+1358,101358,2240,2023-02-26,POS,Amazon,Travel,605.94,Credit Card,Declined,Peterberg,2023,2,26
+1359,101359,3983,2023-02-26,Mobile Payment,Netflix,Travel,3858.66,Credit Card,Approved,Lake Ashley,2023,2,26
+1360,101360,1685,2023-02-26,Mobile Payment,Uber,Clothing,679.05,Credit Card,Approved,East John,2023,2,26
+1361,101361,1194,2023-02-26,ATM,Target,Entertainment,3799.63,PayPal,Approved,South Lauren,2023,2,26
+1362,101362,2891,2023-02-26,ATM,Uber,Clothing,4694.78,Credit Card,Declined,Timothymouth,2023,2,26
+1363,101363,1290,2023-02-26,Mobile Payment,BestBuy,Groceries,4552.12,Debit Card,Pending,Lake Robertofurt,2023,2,26
+1364,101364,1181,2023-02-26,POS,Uber,Groceries,3410.76,UPI,Approved,North Lisa,2023,2,26
+1365,101365,1242,2023-02-26,Online,Walmart,Electronics,774.12,PayPal,Approved,Lewisside,2023,2,26
+1366,101366,1616,2023-02-26,POS,Amazon,Entertainment,268.99,UPI,Approved,New Stanley,2023,2,26
+1367,101367,2960,2023-02-26,Online,BestBuy,Clothing,2844.59,Debit Card,Pending,Mayhaven,2023,2,26
+1368,101368,3274,2023-02-27,ATM,Target,Travel,2591.5,Credit Card,Approved,Port Melissaborough,2023,2,27
+1369,101369,1949,2023-02-27,Mobile Payment,Walmart,Travel,2053.67,Debit Card,Approved,West Christopher,2023,2,27
+1370,101370,3770,2023-02-27,POS,Netflix,Groceries,566.07,Debit Card,Approved,North Taylorport,2023,2,27
+1371,101371,1877,2023-02-27,POS,Netflix,Dining,795.54,UPI,Approved,Lake Angelicaborough,2023,2,27
+1372,101372,1632,2023-02-27,POS,BestBuy,Entertainment,413.64,PayPal,Approved,Brianburgh,2023,2,27
+1373,101373,2579,2023-02-27,POS,Walmart,Entertainment,2245.89,PayPal,Approved,Meganfurt,2023,2,27
+1374,101374,3899,2023-02-27,Mobile Payment,Amazon,Groceries,313.1,UPI,Approved,Taylorburgh,2023,2,27
+1375,101375,3564,2023-02-27,ATM,Amazon,Electronics,2489.24,PayPal,Approved,East Kimberlyhaven,2023,2,27
+1376,101376,2393,2023-02-27,Mobile Payment,Netflix,Entertainment,1024.68,PayPal,Approved,Lake Thomas,2023,2,27
+1377,101377,4581,2023-02-27,Online,Netflix,Travel,2689.78,Credit Card,Declined,Ryanhaven,2023,2,27
+1378,101378,4947,2023-02-27,ATM,Walmart,Dining,115.36,PayPal,Approved,Rhodesbury,2023,2,27
+1379,101379,2031,2023-02-27,Mobile Payment,Apple Store,Dining,2105.5,Credit Card,Approved,Cooperport,2023,2,27
+1380,101380,4171,2023-02-27,ATM,Walmart,Travel,3228.73,UPI,Approved,West Kathleenchester,2023,2,27
+1381,101381,2121,2023-02-27,Online,Netflix,Electronics,3516.45,PayPal,Approved,Hartport,2023,2,27
+1382,101382,3216,2023-02-27,Online,BestBuy,Groceries,423.51,UPI,Approved,Nortonville,2023,2,27
+1383,101383,4334,2023-02-27,Online,Walmart,Dining,3806.97,Credit Card,Declined,Michaelhaven,2023,2,27
+1384,101384,4323,2023-02-27,ATM,Uber,Electronics,4607.49,UPI,Approved,New Eric,2023,2,27
+1385,101385,1582,2023-02-27,ATM,Walmart,Dining,978.36,UPI,Approved,South Patrick,2023,2,27
+1386,101386,2346,2023-02-27,Online,Target,Electronics,2102.98,UPI,Approved,Edwardton,2023,2,27
+1387,101387,1797,2023-02-27,Online,Amazon,Entertainment,298.34,Debit Card,Approved,Lake Wyatttown,2023,2,27
+1388,101388,2090,2023-02-27,Mobile Payment,Walmart,Dining,3240.83,UPI,Approved,Deannaberg,2023,2,27
+1389,101389,2486,2023-02-27,ATM,Netflix,Entertainment,4769.72,Debit Card,Approved,Camerontown,2023,2,27
+1390,101390,1296,2023-02-27,Online,Apple Store,Dining,3544.42,Credit Card,Approved,Martinezmouth,2023,2,27
+1391,101391,4264,2023-02-27,Online,Apple Store,Dining,3134.18,Credit Card,Approved,Jamesland,2023,2,27
+1392,101392,2448,2023-02-28,Online,Target,Clothing,1866.68,Debit Card,Declined,Meyersville,2023,2,28
+1393,101393,1845,2023-02-28,ATM,Uber,Dining,1882.46,PayPal,Approved,North Zachary,2023,2,28
+1394,101394,2677,2023-02-28,Mobile Payment,Netflix,Electronics,3455.8,UPI,Approved,Markburgh,2023,2,28
+1395,101395,2444,2023-02-28,Online,Target,Groceries,245.77,PayPal,Declined,West Alexisfort,2023,2,28
+1396,101396,2383,2023-02-28,ATM,Uber,Electronics,3703.14,Credit Card,Approved,Martinfort,2023,2,28
+1397,101397,2124,2023-02-28,Online,Target,Travel,3943.22,Debit Card,Approved,Payneburgh,2023,2,28
+1398,101398,1626,2023-02-28,Mobile Payment,Apple Store,Groceries,2385.96,UPI,Approved,Lake Chelseaville,2023,2,28
+1399,101399,2904,2023-02-28,Mobile Payment,Amazon,Groceries,781.12,UPI,Approved,West Tracytown,2023,2,28
+1400,101400,1642,2023-02-28,Mobile Payment,Target,Electronics,2016.17,Debit Card,Approved,New Helen,2023,2,28
+1401,101401,1545,2023-02-28,POS,Netflix,Entertainment,3415.32,PayPal,Approved,Bryanbury,2023,2,28
+1402,101402,4266,2023-02-28,ATM,Amazon,Travel,3544.58,Debit Card,Approved,South Greggstad,2023,2,28
+1403,101403,1043,2023-02-28,Online,BestBuy,Travel,4273.37,Debit Card,Approved,Spencefort,2023,2,28
+1404,101404,3393,2023-02-28,ATM,Amazon,Travel,1234.55,PayPal,Approved,Ramirezville,2023,2,28
+1405,101405,1627,2023-02-28,ATM,Uber,Travel,4475.53,UPI,Approved,Port Emilyton,2023,2,28
+1406,101406,2835,2023-02-28,Online,Uber,Electronics,833.0,PayPal,Approved,South Jessica,2023,2,28
+1407,101407,3969,2023-02-28,POS,Walmart,Dining,4900.88,PayPal,Approved,Shellyton,2023,2,28
+1408,101408,1339,2023-02-28,ATM,Uber,Entertainment,1023.71,UPI,Approved,Jenniferfort,2023,2,28
+1409,101409,2812,2023-02-28,POS,Amazon,Travel,3137.31,Debit Card,Approved,New Charleston,2023,2,28
+1410,101410,2828,2023-02-28,ATM,Apple Store,Clothing,3232.25,UPI,Approved,Richardsmouth,2023,2,28
+1411,101411,1531,2023-02-28,Mobile Payment,Amazon,Entertainment,3005.7,PayPal,Approved,Port Gregoryborough,2023,2,28
+1412,101412,2530,2023-02-28,Mobile Payment,Target,Entertainment,1167.0,UPI,Approved,Sarastad,2023,2,28
+1413,101413,3419,2023-02-28,ATM,Netflix,Travel,1482.67,PayPal,Approved,New Sarah,2023,2,28
+1414,101414,2280,2023-02-28,Mobile Payment,Walmart,Travel,4281.41,Debit Card,Approved,Lake Perry,2023,2,28
+1415,101415,4304,2023-02-28,Online,Target,Travel,4214.51,PayPal,Approved,East Kevin,2023,2,28
