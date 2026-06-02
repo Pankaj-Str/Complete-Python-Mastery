@@ -121,6 +121,9 @@ Number: 4
 Number: 5
 ```
 
+<img width="1536" height="1024" alt="ChatGPT Image Jun 2, 2026, 11_14_57 AM" src="https://github.com/user-attachments/assets/2aba3c7b-4643-49a4-9890-d909a22ee35b" />
+
+
 ### Step 4: Looping Through Lists
 You can loop through any list, not just numbers.
 
@@ -140,6 +143,10 @@ I love orange!
 ```
 
 **Tip**: The loop variable (`fruit`) takes each item in the list one by one.
+
+---
+
+<img width="1536" height="1024" alt="ChatGPT Image Jun 2, 2026, 11_17_23 AM" src="https://github.com/user-attachments/assets/ecc95cac-85b4-4856-8d8f-7639b379f498" />
 
 ---
 
