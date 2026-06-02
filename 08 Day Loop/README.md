@@ -46,6 +46,11 @@ We’ll break down each loop with examples you can try yourself.
 
 ---
 
+<img width="1536" height="1024" alt="ChatGPT Image Jun 2, 2026, 11_15_12 AM" src="https://github.com/user-attachments/assets/a7277d48-f297-4350-bd79-c0cccce42f30" />
+
+
+---
+
 ## The `for` Loop
 ### Step 1: Understanding the `for` Loop
 The `for` loop is perfect for repeating tasks a specific number of times or iterating over items in a sequence (like a list or string).
