@@ -115,7 +115,7 @@ if p_value < alpha:
     print("Result: Reject H0 → Average marks are significantly different from 75")
 else:
     print("Result: Fail to reject H0 → No significant difference from 75")
-
+```
 ---
 ---
 ### 1. What is Hypothesis Testing?
