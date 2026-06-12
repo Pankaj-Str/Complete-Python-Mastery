@@ -1,110 +1,104 @@
-
-# Hypothesis Testing –  
+# Hypothesis Testing for Beginners - Step by Step Tutorial
 **By Codes with Pankaj**  
+*Simple Explanation with Real-life Examples + Python Code*
 
 ---
 
-### 1. Hypothesis Testing Kya Hai? (Definition)
+### 1. What is Hypothesis Testing?
 
-**Hypothesis Testing** ek statistical method hai jisme hum sample data se population ke baare mein decision lete hain.
+**Hypothesis Testing** is a statistical method used to make decisions or draw conclusions about a population based on sample data.
 
-**Simple Analogy**: Court mein case chal raha hai.  
-- **Null Hypothesis (H₀)** = Accused innocent hai (default assumption)  
-- **Alternative Hypothesis (H₁)** = Accused guilty hai  
+Think of it like a **court trial**:
+- You have a **claim** (hypothesis).
+- You collect **evidence** (data).
+- You decide whether to **reject** the claim or **not reject** it.
 
-Hum evidence (data) collect karte hain aur decide karte hain ki H₀ ko reject karna hai ya nahi.
+**Real-life Example**:  
+A medicine company claims their new drug reduces headache pain in less than 30 minutes on average.  
+You test this claim using data from patients.
 
 ---
 
 ### 2. Null Hypothesis (H₀) vs Alternative Hypothesis (H₁)
 
-| Hypothesis       | Matlab                                      | Example (Medicine)                     |
-|------------------|---------------------------------------------|----------------------------------------|
-| **H₀ (Null)**    | Koi farak nahi / status quo                 | Drug se headache 30 min mein hi theek hota hai |
-| **H₁ (Alternative)** | Farak hai / jo hum prove karna chahte hain | Drug se headache 30 min se kam time mein theek hota hai |
+- **Null Hypothesis (H₀)**: The "status quo" or "no effect" assumption. It is what we try to disprove.  
+  Usually contains **=**, **≥**, or **≤**.
 
-**Important Rules**:
-- H₀ mein hamesha **=**, **≥**, ya **≤** hota hai
-- Hum H₀ ko reject kar sakte hain, lekin kabhi fully prove nahi kar sakte
+- **Alternative Hypothesis (H₁)**: What we actually believe or want to prove.  
+  Contains **≠**, **>**, or **<**.
 
----
+**Example**:
+- H₀: Average time to reduce headache = 30 minutes (no improvement)
+- H₁: Average time to reduce headache < 30 minutes (drug is better)
 
-### 3. Significance Level (α) – Risk Kitna Lenge?
-
-**α** = Maximum risk jo hum Type I error ka le sakte hain.  
-Sabse common value: **0.05** (5%)
-
-- Agar **p-value < α** → H₀ reject kar do (significant result)
-- Agar **p-value ≥ α** → H₀ reject mat karo
-
-**Analogy**: α = 5% matlab aap 100 baar mein se sirf 5 baar galti karne ko taiyar ho jab aap H₀ reject karte ho.
+**Key Point**: We never "prove" H₁. We only say **"Reject H₀"** or **"Fail to reject H₀"**.
 
 ---
 
+### 3. Significance Level (α) - The Risk Threshold
 
+**α (alpha)** is the probability of making a **Type I error** (explained below).  
+Common values: **0.05 (5%)** or **0.01 (1%)**.
 
+- If p-value < α → **Reject H₀** (statistically significant result)
+- If p-value ≥ α → **Fail to reject H₀**
 
-### 4. Test Statistic aur P-value Kaise Interpret Karein?
-
-- **Test Statistic** (jaise t-score, z-score): Data kitna H₀ se door hai, yeh batata hai.
-- **P-value**: Agar H₀ sach ho toh itna extreme result milne ki probability.
-
-**Simple Rule**:
-- Chhota p-value (< 0.05) → Strong evidence against H₀
-- Bada p-value → Data H₀ ke saath consistent hai
-
-**Galatfahmi**: P-value yeh nahi batata ki H₀ kitna sach hai. Yeh sirf “assuming H₀ is true” wali probability hai.
+**Simple Analogy**: α = 5% means you are willing to be wrong 5 times out of 100 when you reject H₀.
 
 ---
 
-### 5. Type I Error aur Type II Error
+### 4. Type I and Type II Errors
 
+| Error Type     | Meaning                                      | Real-life Example (Court)          | Probability |
+|----------------|----------------------------------------------|------------------------------------|-------------|
+| **Type I**     | Reject H₀ when H₀ is actually True         | Sending innocent person to jail   | α           |
+| **Type II**    | Fail to reject H₀ when H₀ is actually False| Letting guilty person go free     | β (beta)    |
 
+**Power of Test** = 1 - β (probability of correctly rejecting false H₀)
 
+**Mnemonic**:  
+- Type I = **False Positive** (you said there *is* an effect, but there isn't)  
+- Type II = **False Negative** (you said there *isn't* an effect, but there is)
 
+---
 
+### 5. Test Statistic and P-value
 
+- **Test Statistic**: A number calculated from sample data (e.g., t-score, z-score, chi-square).
+- **P-value**: Probability of getting a test statistic **as extreme as** (or more extreme than) the one observed, **assuming H₀ is true**.
 
-
-
-
-| Error Type     | Kya Hota Hai?                              | Probability | Court Analogy                     |
-|----------------|--------------------------------------------|-------------|-----------------------------------|
-| **Type I**     | H₀ sach tha lekin humne reject kar diya   | = α         | Innocent ko jail bhej diya       |
-| **Type II**    | H₀ galat tha lekin humne reject nahi kiya | = β         | Guilty ko chhod diya              |
-
-**Power of Test** = 1 – β (jitna bada power, utna kam Type II error)
+**Rule of Thumb**:
+- Very **small p-value** (e.g., < 0.05) → Strong evidence against H₀.
+- Large p-value → Data is consistent with H₀.
 
 ---
 
 ### 6. Statistical Significance vs Practical Significance
 
-**Statistical Significance**: Result chance se nahi mila (p-value chhota hai).  
-**Practical Significance**: Result real life mein kitna meaningful hai (effect size dekho).
+- **Statistical Significance**: Result is unlikely due to chance (based on p-value).
+- **Practical Significance**: Result is **meaningful in real life** (effect size matters).
 
-**Real Example**:
-- Naya teaching method se fail rate 20% se 19.8% ho gaya.
-- Bahut bade sample mein p-value < 0.01 → Statistically significant.
-- Lekin sirf 0.2% improvement? → **Practically insignificant**.
+**Classic Example**:
+- A new teaching method reduces exam failure rate from 20% to 19.8%.  
+  With huge sample, p-value < 0.01 → **Statistically significant**.  
+  But saving only 0.2% students? → **Not practically significant**.
 
-**Hamesha effect size (Cohen’s d, difference in means, etc.) bhi check karo.**
-
-
-
+**Always check effect size** (Cohen's d, correlation, etc.) along with p-value.
 
 ---
 
-## Python Code Example: One Sample T-Test
+## Python Example: One Sample T-Test
 
-**Problem**: School claim karta hai ki students ka average marks **75** hai.  
-Sample of 30 students ka mean **72** aaya. Kya claim galat hai?
+**Problem**:  
+A school claims average marks of students in a new batch is **75**.  
+You take a sample of 30 students and get mean = 72. Is the claim true?
 
 ```python
 import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
 
-# Sample data
+# Sample data (marks of 30 students)
 np.random.seed(42)
 sample_marks = np.random.normal(loc=72, scale=8, size=30)
 
@@ -112,6 +106,7 @@ sample_marks = np.random.normal(loc=72, scale=8, size=30)
 # H0: mu = 75
 # H1: mu != 75
 
+# Perform One Sample T-test
 t_stat, p_value = stats.ttest_1samp(sample_marks, popmean=75)
 
 print("Test Statistic (t):", round(t_stat, 4))
@@ -119,20 +114,9 @@ print("P-value:", round(p_value, 4))
 
 alpha = 0.05
 if p_value < alpha:
-    print("✅ Reject H0 → Average marks 75 se significantly different hain")
+    print("Result: Reject H0 → Average marks are significantly different from 75")
 else:
-    print("❌ Fail to reject H0")
-```
-
-**Output (approx)**:  
-`P-value: 0.0421` → Reject H₀ at 5% level.
-
----
-
-
-**Happy Learning!**  
-**Pankaj Chouhan**  
-*Codes with Pankaj* 🚀
+    print("Result: Fail to reject H0 → No significant difference from 75")
 
 ---
 
