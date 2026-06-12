@@ -1,7 +1,5 @@
 # Hypothesis Testing
 **By Codes with Pankaj**  
-*Simple Explanation with Real-life Examples + Python Code*
-
 ---
 
 ### 1. What is Hypothesis Testing?
@@ -119,7 +117,7 @@ else:
     print("Result: Fail to reject H0 → No significant difference from 75")
 
 ---
-
+---
 ### 1. What is Hypothesis Testing?
 
 **Hypothesis Testing** is a statistical method that helps us make decisions about a large group (population) using a small set of data (sample).
