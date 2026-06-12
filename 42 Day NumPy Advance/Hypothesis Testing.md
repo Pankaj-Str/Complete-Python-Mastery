@@ -1,4 +1,4 @@
-# Hypothesis Testing for Beginners - Step by Step Tutorial
+# Hypothesis Testing
 **By Codes with Pankaj**  
 *Simple Explanation with Real-life Examples + Python Code*
 
