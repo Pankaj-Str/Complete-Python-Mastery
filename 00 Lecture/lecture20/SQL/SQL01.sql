@@ -138,3 +138,113 @@ from customers right join orders on customers.customerid = orders.customerid;
 select * from customer_data;
 
 
+-- 14 Aug 2026
+use cwpc_db;
+
+select count(*) from employees;
+select * from employees;
+
+select department , count(department) from employees group by department;
+
+select department , avg(salary) from employees group by department;
+
+-- windows function 
+select emp_name , department , salary, 
+avg(salary) over( partition by department) as agv_sal_dept
+from employees;
+
+select emp_name , count(emp_name) from employees group by emp_name;
+
+
+# row_number()
+
+select emp_name,department , salary , 
+row_number() over( order by salary desc) as row_num
+from employees;
+
+# rank()
+select emp_name , salary , 
+rank() over( order by salary desc) as salary_rank
+from employees;
+
+# dense_rank()
+
+select emp_name , salary , 
+dense_rank() over( order by salary desc) as salary_rank
+from employees;
+
+
+-- ranking within each department
+
+select emp_name, department , salary , 
+rank() over( partition by department order by salary desc) as dept_rank from employees;
+
+-- find the highest-paid employee in each department
+with rank_employee as (
+select emp_name, department , salary , 
+rank() over( partition by department order by salary desc) as dept_rank from employees
+)
+select * from rank_employee where dept_rank = 1;
+
+-- total salary every department
+-- sum()
+-- avg()
+-- count()
+-- min()
+-- max()
+select emp_name, department , salary , 
+sum(salary) over( partition by department) as dept_salary_total from employees;
+
+-- department salary percentage
+select emp_name, department , salary , 
+sum(salary) over( partition by department) as dept_salary_total, 
+round(
+salary * 100.0 / sum(salary) over( partition by department),2) as salary_per
+from employees;
+
+-- lag()
+select hire_date, salary , 
+lag(salary) over(order by hire_date) as salary_01
+from employees;
+
+select * from employees;
+
+CREATE TABLE sales (
+    sale_id INT PRIMARY KEY,
+    sale_date DATE,
+    salesperson VARCHAR(50),
+    amount INT
+);
+
+INSERT INTO sales
+(sale_id, sale_date, salesperson, amount)
+VALUES
+(1, '2026-01-01', 'Rahul', 1000),
+(2, '2026-01-03', 'Amit', 1500),
+(3, '2026-01-05', 'Priya', 2000),
+(4, '2026-01-07', 'Rahul', 1200),
+(5, '2026-01-10', 'Amit', 1800);
+
+SELECT
+    sale_date,
+    amount,
+    SUM(amount) OVER (
+        ORDER BY sale_date
+    ) AS running_total
+FROM sales;
+
+SELECT
+    sale_date,
+    amount,
+    LAG(amount) OVER (
+        ORDER BY sale_date
+    ) AS previous_amount,
+
+    amount - LAG(amount) OVER (
+        ORDER BY sale_date
+    ) AS difference
+
+FROM sales;
+
+
+ 
