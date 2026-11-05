@@ -1,0 +1,1201 @@
+,Transaction_ID,Customer_ID,Transaction_Date,Transaction_Type,Merchant,Category,Amount,Payment_Mode,Transaction_Status,Location,Age,Gender,Account_Status
+0,1,103,2025-01-01,ATM,BestBuy,Dining,360.1,Credit Card,Pending,San Francisco,25,Female,Inactive
+1,2,271,2025-01-01,Online,eBay,Travel,357.02,Credit Card,Declined,Chicago,24,Female,Suspended
+2,3,107,2025-01-01,ATM,Amazon,Entertainment,829.41,Credit Card,Pending,Chicago,58,Male,Suspended
+3,4,72,2025-01-01,POS,Amazon,Groceries,790.35,Credit Card,Pending,Los Angeles,41,Other,Suspended
+4,5,189,2025-01-01,ATM,Amazon,Clothing,311.26,Credit Card,Declined,San Francisco,20,Other,Inactive
+5,6,21,2025-01-01,ATM,Walmart,Dining,914.22,Credit Card,Declined,Los Angeles,20,Male,Suspended
+6,7,103,2025-01-01,Online,Costco,Groceries,953.05,Debit Card,Pending,San Francisco,25,Female,Inactive
+7,8,122,2025-01-01,POS,eBay,Groceries,330.11,Debit Card,Declined,Miami,21,Female,Active
+8,9,215,2025-01-01,ATM,Costco,Groceries,357.65,Credit Card,Approved,Los Angeles,52,Female,Inactive
+9,10,88,2025-01-01,POS,Walmart,Groceries,508.11,Debit Card,Declined,Los Angeles,56,Male,Inactive
+10,11,100,2025-01-01,ATM,Walmart,Travel,941.42,Debit Card,Declined,Los Angeles,36,Male,Inactive
+11,12,152,2025-01-01,ATM,Expedia,Entertainment,876.94,Credit Card,Approved,Seattle,34,Other,Inactive
+12,13,131,2025-01-01,POS,BestBuy,Health,107.06,Credit Card,Declined,Houston,50,Male,Suspended
+13,14,150,2025-01-01,ATM,BestBuy,Travel,395.77,Debit Card,Declined,Los Angeles,48,Other,Active
+14,15,258,2025-01-01,POS,Target,Travel,555.6,Credit Card,Pending,New York,23,Male,Inactive
+15,16,294,2025-01-01,ATM,Walmart,Dining,505.62,Debit Card,Declined,New York,32,Male,Active
+16,17,192,2025-01-01,Online,eBay,Dining,197.89,Credit Card,Declined,San Francisco,50,Male,Active
+17,18,277,2025-01-01,POS,Expedia,Entertainment,859.52,Debit Card,Approved,Miami,30,Female,Suspended
+18,19,161,2025-01-01,ATM,Expedia,Health,678.56,Debit Card,Pending,Houston,19,Other,Active
+19,20,22,2025-01-01,ATM,Costco,Dining,838.72,Debit Card,Pending,Seattle,35,Other,Inactive
+20,21,253,2025-01-01,Online,BestBuy,Entertainment,859.47,Debit Card,Pending,San Francisco,25,Female,Active
+21,22,236,2025-01-01,POS,Walmart,Entertainment,749.61,Credit Card,Declined,New York,41,Other,Active
+22,23,49,2025-01-01,ATM,Target,Electronics,442.01,Credit Card,Pending,Houston,42,Other,Suspended
+23,24,59,2025-01-01,Online,Walmart,Health,612.49,Debit Card,Approved,Houston,28,Female,Inactive
+24,25,170,2025-01-02,ATM,Costco,Dining,164.56,Debit Card,Pending,Miami,54,Male,Suspended
+25,26,188,2025-01-02,POS,Amazon,Health,675.28,Credit Card,Approved,Houston,41,Female,Inactive
+26,27,271,2025-01-02,ATM,Walmart,Travel,183.36,Credit Card,Pending,Los Angeles,24,Female,Suspended
+27,28,190,2025-01-02,ATM,Costco,Travel,695.48,Debit Card,Pending,Houston,42,Female,Inactive
+28,29,175,2025-01-02,ATM,Amazon,Health,233.45,Debit Card,Approved,Miami,50,Male,Suspended
+29,30,51,2025-01-02,ATM,Amazon,Electronics,121.96,Debit Card,Pending,San Francisco,59,Other,Inactive
+30,31,55,2025-01-02,Online,Target,Electronics,169.46,Debit Card,Pending,Miami,24,Male,Active
+31,32,244,2025-01-02,Online,eBay,Health,6.98,Debit Card,Pending,Seattle,18,Other,Active
+32,33,131,2025-01-02,POS,BestBuy,Dining,720.15,Credit Card,Declined,Miami,50,Male,Suspended
+33,34,135,2025-01-02,Online,Walmart,Clothing,733.74,Debit Card,Approved,New York,35,Other,Active
+34,35,21,2025-01-02,Online,Amazon,Electronics,517.36,Credit Card,Pending,Los Angeles,20,Male,Suspended
+35,36,167,2025-01-02,POS,Walmart,Groceries,165.56,Credit Card,Approved,New York,69,Female,Inactive
+36,37,274,2025-01-02,Online,eBay,Travel,88.14,Credit Card,Approved,San Francisco,69,Female,Active
+37,38,89,2025-01-02,Online,BestBuy,Health,24.03,Debit Card,Approved,Chicago,21,Male,Active
+38,39,14,2025-01-02,POS,eBay,Groceries,169.92,Credit Card,Pending,San Francisco,34,Female,Suspended
+39,40,242,2025-01-02,POS,BestBuy,Health,891.4,Credit Card,Pending,Los Angeles,54,Male,Suspended
+40,41,265,2025-01-02,POS,Expedia,Entertainment,245.33,Credit Card,Approved,Houston,55,Other,Suspended
+41,42,53,2025-01-02,ATM,BestBuy,Travel,357.5,Credit Card,Declined,Miami,46,Male,Inactive
+42,43,92,2025-01-02,ATM,Target,Travel,109.82,Debit Card,Approved,Chicago,19,Male,Suspended
+43,44,264,2025-01-02,POS,eBay,Electronics,226.25,Debit Card,Declined,Los Angeles,29,Female,Active
+44,45,35,2025-01-02,POS,Amazon,Electronics,521.63,Credit Card,Approved,New York,66,Female,Suspended
+45,46,206,2025-01-02,POS,Expedia,Groceries,609.71,Credit Card,Approved,Miami,30,Female,Inactive
+46,47,81,2025-01-02,ATM,Target,Entertainment,249.13,Debit Card,Approved,San Francisco,30,Other,Active
+47,48,50,2025-01-02,ATM,Walmart,Health,62.44,Debit Card,Pending,New York,24,Other,Active
+48,49,2,2025-01-03,Online,eBay,Entertainment,394.08,Debit Card,Declined,Los Angeles,53,Female,Suspended
+49,50,54,2025-01-03,Online,Costco,Travel,238.03,Credit Card,Declined,Los Angeles,47,Male,Inactive
+50,51,106,2025-01-03,POS,Costco,Groceries,223.46,Debit Card,Approved,San Francisco,19,Male,Active
+51,52,260,2025-01-03,ATM,Amazon,Clothing,960.06,Credit Card,Pending,Chicago,59,Male,Suspended
+52,53,191,2025-01-03,ATM,BestBuy,Groceries,618.22,Credit Card,Pending,San Francisco,36,Female,Inactive
+53,54,218,2025-01-03,ATM,Amazon,Dining,559.09,Debit Card,Declined,Houston,29,Male,Suspended
+54,55,44,2025-01-03,POS,Costco,Groceries,418.7,Credit Card,Pending,New York,53,Female,Active
+55,56,162,2025-01-03,Online,Walmart,Entertainment,431.8,Debit Card,Declined,Chicago,39,Male,Inactive
+56,57,202,2025-01-03,POS,Expedia,Dining,543.2,Credit Card,Declined,Miami,30,Male,Inactive
+57,58,270,2025-01-03,Online,Expedia,Dining,697.95,Debit Card,Declined,Seattle,56,Female,Inactive
+58,59,271,2025-01-03,Online,eBay,Dining,703.64,Credit Card,Pending,Houston,24,Female,Suspended
+59,60,215,2025-01-03,POS,Expedia,Clothing,175.84,Credit Card,Declined,Chicago,52,Female,Inactive
+60,61,252,2025-01-03,Online,eBay,Groceries,502.61,Debit Card,Declined,Seattle,43,Male,Suspended
+61,62,190,2025-01-03,Online,eBay,Entertainment,414.9,Debit Card,Approved,Seattle,42,Female,Inactive
+62,63,296,2025-01-03,ATM,eBay,Groceries,871.17,Debit Card,Declined,New York,69,Female,Suspended
+63,64,213,2025-01-03,Online,Costco,Clothing,633.26,Debit Card,Declined,Los Angeles,66,Other,Active
+64,65,208,2025-01-03,POS,Costco,Travel,534.84,Credit Card,Approved,Miami,31,Male,Inactive
+65,66,237,2025-01-03,POS,BestBuy,Electronics,119.82,Debit Card,Approved,San Francisco,29,Other,Suspended
+66,67,53,2025-01-03,Online,Target,Entertainment,607.61,Debit Card,Pending,New York,46,Male,Inactive
+67,68,280,2025-01-03,ATM,eBay,Entertainment,121.62,Credit Card,Declined,Houston,41,Male,Active
+68,69,217,2025-01-03,ATM,eBay,Groceries,340.52,Debit Card,Pending,Seattle,31,Male,Active
+69,70,252,2025-01-03,Online,Target,Electronics,147.13,Debit Card,Pending,Houston,43,Male,Suspended
+70,71,188,2025-01-03,Online,Amazon,Health,693.61,Credit Card,Approved,Seattle,41,Female,Inactive
+71,72,41,2025-01-03,POS,eBay,Health,210.22,Debit Card,Pending,Los Angeles,63,Male,Active
+72,73,157,2025-01-04,Online,BestBuy,Clothing,394.9,Debit Card,Declined,Los Angeles,43,Female,Inactive
+73,74,15,2025-01-04,ATM,Expedia,Health,896.2,Debit Card,Approved,Miami,57,Female,Active
+74,75,65,2025-01-04,Online,Expedia,Entertainment,208.29,Debit Card,Declined,San Francisco,45,Female,Suspended
+75,76,9,2025-01-04,POS,Walmart,Health,510.27,Debit Card,Declined,Miami,58,Female,Inactive
+76,77,129,2025-01-04,POS,Walmart,Travel,422.18,Debit Card,Approved,Los Angeles,26,Male,Suspended
+77,78,136,2025-01-04,POS,Expedia,Travel,23.03,Credit Card,Declined,Los Angeles,27,Female,Inactive
+78,79,63,2025-01-04,POS,Expedia,Travel,793.79,Debit Card,Approved,Houston,21,Female,Inactive
+79,80,139,2025-01-04,POS,Costco,Health,73.7,Credit Card,Declined,Los Angeles,50,Other,Inactive
+80,81,81,2025-01-04,Online,BestBuy,Clothing,476.88,Credit Card,Approved,Chicago,30,Other,Active
+81,82,163,2025-01-04,Online,Target,Dining,562.87,Credit Card,Pending,Seattle,22,Other,Suspended
+82,83,289,2025-01-04,Online,Walmart,Dining,630.28,Credit Card,Declined,New York,60,Other,Inactive
+83,84,261,2025-01-04,Online,Costco,Electronics,690.19,Debit Card,Approved,Los Angeles,18,Female,Suspended
+84,85,231,2025-01-04,POS,Costco,Dining,257.01,Debit Card,Declined,Miami,27,Female,Active
+85,86,41,2025-01-04,ATM,Target,Dining,14.93,Debit Card,Declined,San Francisco,63,Male,Active
+86,87,28,2025-01-04,Online,Costco,Travel,724.83,Credit Card,Declined,Seattle,25,Other,Active
+87,88,135,2025-01-04,ATM,BestBuy,Travel,537.98,Debit Card,Approved,Seattle,35,Other,Active
+88,89,201,2025-01-04,Online,Expedia,Health,836.94,Debit Card,Pending,San Francisco,44,Other,Suspended
+89,90,268,2025-01-04,Online,eBay,Electronics,822.28,Debit Card,Pending,San Francisco,59,Female,Inactive
+90,91,33,2025-01-04,ATM,Target,Groceries,844.11,Credit Card,Pending,Seattle,60,Female,Active
+91,92,48,2025-01-04,POS,Expedia,Entertainment,487.67,Credit Card,Approved,Chicago,41,Male,Inactive
+92,93,62,2025-01-04,Online,Expedia,Electronics,336.96,Debit Card,Pending,Miami,52,Other,Inactive
+93,94,216,2025-01-04,Online,Amazon,Electronics,792.6,Credit Card,Approved,Chicago,65,Female,Active
+94,95,293,2025-01-04,Online,Target,Clothing,454.04,Credit Card,Declined,Los Angeles,28,Female,Active
+95,96,99,2025-01-04,ATM,Costco,Health,187.52,Debit Card,Declined,New York,61,Other,Active
+96,97,172,2025-01-05,POS,eBay,Clothing,855.7,Credit Card,Pending,San Francisco,43,Male,Active
+97,98,214,2025-01-05,ATM,Target,Electronics,883.15,Credit Card,Approved,Miami,47,Male,Active
+98,99,35,2025-01-05,ATM,Costco,Electronics,468.98,Debit Card,Declined,San Francisco,66,Female,Suspended
+99,100,227,2025-01-05,POS,Expedia,Electronics,80.32,Credit Card,Approved,Chicago,40,Male,Active
+100,101,101,2025-01-05,ATM,eBay,Dining,390.89,Credit Card,Approved,Houston,24,Female,Suspended
+101,102,131,2025-01-05,POS,Costco,Entertainment,804.52,Credit Card,Declined,Los Angeles,50,Male,Suspended
+102,103,257,2025-01-05,Online,BestBuy,Entertainment,902.27,Credit Card,Approved,New York,55,Female,Inactive
+103,104,5,2025-01-05,POS,Costco,Clothing,207.46,Credit Card,Declined,Los Angeles,27,Other,Suspended
+104,105,218,2025-01-05,Online,Amazon,Electronics,71.64,Credit Card,Declined,Houston,29,Male,Suspended
+105,106,255,2025-01-05,ATM,Expedia,Entertainment,877.96,Credit Card,Declined,New York,41,Male,Active
+106,107,283,2025-01-05,ATM,Costco,Travel,392.46,Credit Card,Approved,Houston,58,Male,Inactive
+107,108,207,2025-01-05,Online,Walmart,Entertainment,544.05,Debit Card,Declined,Los Angeles,44,Other,Active
+108,109,15,2025-01-05,ATM,Walmart,Health,968.23,Debit Card,Approved,Chicago,57,Female,Active
+109,110,42,2025-01-05,POS,Amazon,Health,71.23,Debit Card,Declined,Seattle,18,Female,Suspended
+110,111,179,2025-01-05,Online,BestBuy,Entertainment,650.08,Debit Card,Declined,Los Angeles,38,Female,Suspended
+111,112,63,2025-01-05,ATM,Expedia,Travel,78.73,Credit Card,Pending,Los Angeles,21,Female,Inactive
+112,113,231,2025-01-05,Online,Target,Health,378.59,Debit Card,Pending,Los Angeles,27,Female,Active
+113,114,241,2025-01-05,POS,Amazon,Dining,804.8,Debit Card,Pending,Miami,62,Female,Suspended
+114,115,52,2025-01-05,POS,BestBuy,Entertainment,436.3,Credit Card,Approved,Houston,34,Other,Inactive
+115,116,96,2025-01-05,ATM,Target,Dining,997.2,Credit Card,Approved,Houston,54,Female,Suspended
+116,117,222,2025-01-05,POS,Walmart,Entertainment,561.26,Credit Card,Declined,San Francisco,60,Male,Inactive
+117,118,231,2025-01-05,Online,Walmart,Groceries,324.56,Credit Card,Declined,Houston,27,Female,Active
+118,119,237,2025-01-05,POS,Target,Groceries,224.01,Credit Card,Declined,San Francisco,29,Other,Suspended
+119,120,143,2025-01-05,Online,Amazon,Groceries,353.77,Debit Card,Declined,Miami,37,Other,Inactive
+120,121,171,2025-01-06,Online,Walmart,Health,375.67,Credit Card,Approved,Chicago,42,Male,Inactive
+121,122,29,2025-01-06,POS,Expedia,Dining,73.37,Debit Card,Declined,San Francisco,65,Female,Suspended
+122,123,36,2025-01-06,ATM,eBay,Dining,372.73,Debit Card,Declined,Los Angeles,66,Male,Active
+123,124,13,2025-01-06,POS,Costco,Dining,466.92,Credit Card,Pending,Chicago,54,Other,Active
+124,125,160,2025-01-06,Online,Target,Travel,724.12,Debit Card,Declined,Seattle,42,Other,Suspended
+125,126,187,2025-01-06,Online,Target,Dining,658.45,Debit Card,Declined,Miami,25,Female,Suspended
+126,127,243,2025-01-06,POS,Walmart,Travel,710.22,Credit Card,Declined,Houston,23,Male,Active
+127,128,86,2025-01-06,ATM,Amazon,Groceries,13.32,Debit Card,Approved,San Francisco,28,Female,Inactive
+128,129,284,2025-01-06,ATM,Expedia,Groceries,221.58,Debit Card,Pending,Los Angeles,27,Female,Inactive
+129,130,66,2025-01-06,Online,Amazon,Health,663.38,Debit Card,Declined,New York,30,Female,Inactive
+130,131,170,2025-01-06,Online,BestBuy,Entertainment,486.57,Credit Card,Declined,Seattle,54,Male,Suspended
+131,132,45,2025-01-06,ATM,BestBuy,Groceries,10.29,Credit Card,Pending,New York,38,Female,Suspended
+132,133,62,2025-01-06,POS,eBay,Entertainment,805.47,Credit Card,Declined,Chicago,52,Other,Inactive
+133,134,134,2025-01-06,Online,Walmart,Entertainment,773.95,Debit Card,Approved,Houston,23,Male,Active
+134,135,284,2025-01-06,Online,Walmart,Health,550.68,Credit Card,Declined,New York,27,Female,Inactive
+135,136,28,2025-01-06,ATM,Walmart,Electronics,71.13,Debit Card,Approved,Chicago,25,Other,Active
+136,137,108,2025-01-06,POS,eBay,Electronics,767.68,Credit Card,Approved,Miami,28,Other,Suspended
+137,138,44,2025-01-06,ATM,BestBuy,Clothing,585.8,Debit Card,Declined,Chicago,53,Female,Active
+138,139,286,2025-01-06,POS,Amazon,Health,783.05,Credit Card,Pending,Seattle,55,Other,Active
+139,140,128,2025-01-06,POS,eBay,Clothing,752.99,Credit Card,Approved,Chicago,24,Female,Active
+140,141,231,2025-01-06,POS,eBay,Clothing,803.99,Debit Card,Pending,Seattle,27,Female,Active
+141,142,190,2025-01-06,Online,Amazon,Electronics,520.42,Credit Card,Declined,Chicago,42,Female,Inactive
+142,143,225,2025-01-06,ATM,Walmart,Health,144.62,Debit Card,Approved,Los Angeles,66,Male,Inactive
+143,144,283,2025-01-06,ATM,Expedia,Electronics,672.8,Credit Card,Declined,Chicago,58,Male,Inactive
+144,145,121,2025-01-07,POS,Amazon,Clothing,622.37,Credit Card,Pending,San Francisco,36,Male,Active
+145,146,116,2025-01-07,Online,BestBuy,Health,743.54,Debit Card,Declined,Chicago,60,Female,Inactive
+146,147,233,2025-01-07,Online,Target,Clothing,174.03,Debit Card,Declined,Los Angeles,60,Female,Suspended
+147,148,259,2025-01-07,ATM,Target,Dining,199.0,Debit Card,Approved,Los Angeles,52,Other,Suspended
+148,149,198,2025-01-07,Online,Costco,Entertainment,890.96,Credit Card,Declined,Miami,39,Other,Active
+149,150,137,2025-01-07,Online,Costco,Health,751.23,Debit Card,Declined,Seattle,45,Male,Active
+150,151,165,2025-01-07,POS,eBay,Health,908.69,Credit Card,Declined,Houston,53,Female,Active
+151,152,225,2025-01-07,Online,Target,Entertainment,759.92,Debit Card,Approved,New York,66,Male,Inactive
+152,153,234,2025-01-07,POS,Expedia,Clothing,599.17,Debit Card,Pending,New York,23,Other,Active
+153,154,172,2025-01-07,ATM,Walmart,Dining,655.86,Debit Card,Pending,Chicago,43,Male,Active
+154,155,152,2025-01-07,Online,BestBuy,Travel,889.68,Debit Card,Declined,Miami,34,Other,Inactive
+155,156,160,2025-01-07,ATM,Costco,Entertainment,580.91,Debit Card,Approved,Chicago,42,Other,Suspended
+156,157,96,2025-01-07,ATM,Expedia,Electronics,634.23,Debit Card,Declined,New York,54,Female,Suspended
+157,158,233,2025-01-07,Online,BestBuy,Clothing,160.69,Credit Card,Pending,Seattle,60,Female,Suspended
+158,159,180,2025-01-07,Online,BestBuy,Entertainment,476.55,Debit Card,Approved,Seattle,63,Male,Inactive
+159,160,113,2025-01-07,ATM,Walmart,Entertainment,717.82,Credit Card,Pending,Seattle,56,Male,Suspended
+160,161,52,2025-01-07,Online,eBay,Health,274.59,Debit Card,Pending,Los Angeles,34,Other,Inactive
+161,162,268,2025-01-07,POS,Target,Electronics,206.24,Debit Card,Approved,Houston,59,Female,Inactive
+162,163,295,2025-01-07,POS,Walmart,Electronics,317.26,Debit Card,Approved,Miami,62,Female,Active
+163,164,113,2025-01-07,Online,Expedia,Electronics,245.29,Credit Card,Declined,Los Angeles,56,Male,Suspended
+164,165,101,2025-01-07,ATM,eBay,Entertainment,218.84,Credit Card,Declined,Houston,24,Female,Suspended
+165,166,113,2025-01-07,Online,Expedia,Travel,427.73,Debit Card,Pending,Miami,56,Male,Suspended
+166,167,81,2025-01-07,Online,eBay,Groceries,908.3,Credit Card,Approved,Miami,30,Other,Active
+167,168,187,2025-01-07,ATM,Costco,Clothing,509.52,Debit Card,Approved,New York,25,Female,Suspended
+168,169,113,2025-01-08,ATM,Expedia,Groceries,191.98,Debit Card,Declined,Los Angeles,56,Male,Suspended
+169,170,2,2025-01-08,POS,Walmart,Entertainment,81.59,Credit Card,Pending,Miami,53,Female,Suspended
+170,171,130,2025-01-08,ATM,eBay,Groceries,697.68,Credit Card,Pending,San Francisco,42,Male,Inactive
+171,172,220,2025-01-08,POS,eBay,Entertainment,385.88,Credit Card,Declined,Seattle,61,Male,Inactive
+172,173,54,2025-01-08,ATM,BestBuy,Groceries,822.72,Credit Card,Approved,Miami,47,Male,Inactive
+173,174,224,2025-01-08,Online,BestBuy,Electronics,661.21,Debit Card,Declined,Houston,57,Other,Inactive
+174,175,225,2025-01-08,POS,Amazon,Dining,797.26,Credit Card,Declined,New York,66,Male,Inactive
+175,176,126,2025-01-08,POS,Expedia,Electronics,275.59,Credit Card,Declined,Chicago,45,Other,Inactive
+176,177,130,2025-01-08,POS,BestBuy,Electronics,693.9,Debit Card,Declined,Seattle,42,Male,Inactive
+177,178,53,2025-01-08,Online,Amazon,Health,267.74,Credit Card,Approved,New York,46,Male,Inactive
+178,179,172,2025-01-08,Online,Costco,Health,939.37,Credit Card,Declined,Chicago,43,Male,Active
+179,180,218,2025-01-08,Online,Costco,Groceries,638.19,Credit Card,Approved,Los Angeles,29,Male,Suspended
+180,181,160,2025-01-08,Online,BestBuy,Entertainment,327.89,Credit Card,Declined,Los Angeles,42,Other,Suspended
+181,182,198,2025-01-08,Online,Expedia,Electronics,273.16,Debit Card,Pending,Miami,39,Other,Active
+182,183,247,2025-01-08,POS,eBay,Groceries,194.97,Debit Card,Approved,San Francisco,39,Female,Suspended
+183,184,203,2025-01-08,Online,Target,Health,696.17,Credit Card,Pending,Los Angeles,50,Male,Inactive
+184,185,184,2025-01-08,POS,Expedia,Dining,222.62,Credit Card,Declined,Miami,37,Other,Inactive
+185,186,123,2025-01-08,Online,Walmart,Clothing,597.33,Debit Card,Declined,Seattle,23,Female,Active
+186,187,255,2025-01-08,ATM,Costco,Groceries,268.31,Credit Card,Declined,New York,41,Male,Active
+187,188,294,2025-01-08,POS,BestBuy,Dining,663.66,Credit Card,Approved,Los Angeles,32,Male,Active
+188,189,280,2025-01-08,ATM,BestBuy,Clothing,815.87,Credit Card,Pending,New York,41,Male,Active
+189,190,98,2025-01-08,POS,eBay,Travel,779.14,Credit Card,Approved,New York,38,Other,Active
+190,191,198,2025-01-08,ATM,Walmart,Groceries,762.05,Credit Card,Approved,San Francisco,39,Other,Active
+191,192,240,2025-01-08,Online,eBay,Groceries,191.78,Credit Card,Declined,Los Angeles,44,Male,Active
+192,193,144,2025-01-09,Online,Walmart,Travel,92.94,Credit Card,Pending,New York,18,Male,Active
+193,194,97,2025-01-09,Online,Target,Travel,700.45,Credit Card,Declined,San Francisco,34,Female,Inactive
+194,195,201,2025-01-09,POS,Costco,Groceries,371.51,Credit Card,Approved,San Francisco,44,Other,Suspended
+195,196,124,2025-01-09,ATM,BestBuy,Travel,435.18,Debit Card,Declined,Los Angeles,66,Other,Active
+196,197,187,2025-01-09,Online,BestBuy,Electronics,35.99,Debit Card,Pending,San Francisco,25,Female,Suspended
+197,198,259,2025-01-09,ATM,Target,Clothing,263.28,Debit Card,Declined,Los Angeles,52,Other,Suspended
+198,199,148,2025-01-09,ATM,Amazon,Clothing,38.51,Credit Card,Pending,Los Angeles,58,Male,Suspended
+199,200,252,2025-01-09,Online,Costco,Clothing,879.79,Credit Card,Pending,Chicago,43,Male,Suspended
+200,201,147,2025-01-09,Online,eBay,Electronics,247.18,Debit Card,Declined,New York,35,Female,Active
+201,202,148,2025-01-09,ATM,Target,Entertainment,559.55,Credit Card,Approved,Houston,58,Male,Suspended
+202,203,199,2025-01-09,Online,eBay,Travel,43.78,Debit Card,Declined,Los Angeles,63,Female,Inactive
+203,204,128,2025-01-09,Online,Expedia,Dining,668.51,Credit Card,Approved,New York,24,Female,Active
+204,205,39,2025-01-09,Online,BestBuy,Travel,326.41,Debit Card,Approved,Seattle,27,Other,Inactive
+205,206,129,2025-01-09,POS,eBay,Groceries,898.43,Debit Card,Declined,San Francisco,26,Male,Suspended
+206,207,267,2025-01-09,ATM,Walmart,Health,888.68,Debit Card,Approved,Miami,29,Female,Active
+207,208,151,2025-01-09,ATM,eBay,Clothing,328.66,Credit Card,Approved,Los Angeles,44,Other,Inactive
+208,209,298,2025-01-09,POS,Expedia,Travel,901.46,Debit Card,Declined,San Francisco,27,Female,Inactive
+209,210,99,2025-01-09,ATM,Costco,Dining,996.18,Credit Card,Declined,San Francisco,61,Other,Active
+210,211,263,2025-01-09,Online,BestBuy,Groceries,826.29,Credit Card,Declined,San Francisco,53,Female,Active
+211,212,252,2025-01-09,ATM,Target,Electronics,845.65,Credit Card,Approved,San Francisco,43,Male,Suspended
+212,213,144,2025-01-09,Online,Expedia,Entertainment,252.76,Credit Card,Pending,San Francisco,18,Male,Active
+213,214,112,2025-01-09,POS,BestBuy,Electronics,578.82,Credit Card,Approved,Los Angeles,24,Female,Suspended
+214,215,60,2025-01-09,Online,eBay,Dining,71.92,Credit Card,Pending,Seattle,26,Male,Suspended
+215,216,2,2025-01-09,ATM,Costco,Groceries,99.44,Credit Card,Declined,Houston,53,Female,Suspended
+216,217,254,2025-01-10,ATM,Amazon,Clothing,998.9,Debit Card,Pending,Chicago,68,Male,Inactive
+217,218,140,2025-01-10,ATM,Costco,Travel,330.01,Debit Card,Declined,San Francisco,18,Male,Inactive
+218,219,37,2025-01-10,POS,Amazon,Groceries,749.44,Debit Card,Declined,San Francisco,29,Other,Active
+219,220,160,2025-01-10,POS,Walmart,Entertainment,807.63,Credit Card,Pending,Chicago,42,Other,Suspended
+220,221,9,2025-01-10,ATM,Costco,Electronics,858.73,Credit Card,Declined,Seattle,58,Female,Inactive
+221,222,233,2025-01-10,Online,BestBuy,Entertainment,997.64,Credit Card,Pending,Seattle,60,Female,Suspended
+222,223,99,2025-01-10,POS,Amazon,Entertainment,245.29,Credit Card,Declined,Los Angeles,61,Other,Active
+223,224,147,2025-01-10,ATM,Target,Dining,45.15,Debit Card,Approved,New York,35,Female,Active
+224,225,208,2025-01-10,ATM,BestBuy,Dining,414.14,Credit Card,Approved,Miami,31,Male,Inactive
+225,226,131,2025-01-10,POS,Target,Travel,134.43,Debit Card,Declined,Miami,50,Male,Suspended
+226,227,152,2025-01-10,POS,Costco,Dining,27.31,Credit Card,Declined,New York,34,Other,Inactive
+227,228,54,2025-01-10,POS,Target,Dining,363.62,Debit Card,Pending,Los Angeles,47,Male,Inactive
+228,229,120,2025-01-10,Online,Amazon,Groceries,784.82,Credit Card,Approved,Miami,19,Male,Active
+229,230,161,2025-01-10,Online,BestBuy,Clothing,568.35,Debit Card,Pending,Seattle,19,Other,Active
+230,231,116,2025-01-10,ATM,eBay,Travel,316.21,Credit Card,Declined,Chicago,60,Female,Inactive
+231,232,75,2025-01-10,POS,Expedia,Groceries,656.07,Debit Card,Declined,New York,29,Female,Suspended
+232,233,113,2025-01-10,Online,Amazon,Clothing,235.86,Credit Card,Pending,Seattle,56,Male,Suspended
+233,234,104,2025-01-10,POS,Amazon,Entertainment,19.31,Debit Card,Declined,Houston,30,Other,Inactive
+234,235,254,2025-01-10,ATM,eBay,Groceries,765.53,Debit Card,Approved,Los Angeles,68,Male,Inactive
+235,236,227,2025-01-10,Online,BestBuy,Health,625.62,Credit Card,Pending,New York,40,Male,Active
+236,237,112,2025-01-10,Online,BestBuy,Groceries,763.49,Debit Card,Approved,Miami,24,Female,Suspended
+237,238,99,2025-01-10,Online,Costco,Dining,43.74,Credit Card,Approved,Los Angeles,61,Other,Active
+238,239,153,2025-01-10,ATM,Target,Clothing,837.93,Credit Card,Approved,Chicago,63,Male,Active
+239,240,194,2025-01-10,POS,Costco,Travel,621.43,Credit Card,Pending,Los Angeles,32,Other,Suspended
+240,241,163,2025-01-11,Online,eBay,Travel,565.58,Debit Card,Declined,Los Angeles,22,Other,Suspended
+241,242,208,2025-01-11,ATM,Costco,Clothing,626.49,Debit Card,Approved,Chicago,31,Male,Inactive
+242,243,169,2025-01-11,POS,eBay,Dining,865.11,Credit Card,Approved,San Francisco,30,Male,Active
+243,244,161,2025-01-11,ATM,BestBuy,Electronics,589.0,Credit Card,Approved,Chicago,19,Other,Active
+244,245,68,2025-01-11,POS,Target,Groceries,583.05,Debit Card,Declined,Seattle,36,Female,Active
+245,246,289,2025-01-11,ATM,Costco,Dining,990.73,Debit Card,Declined,Los Angeles,60,Other,Inactive
+246,247,277,2025-01-11,POS,Amazon,Health,757.95,Debit Card,Pending,Chicago,30,Female,Suspended
+247,248,135,2025-01-11,Online,Walmart,Entertainment,445.08,Credit Card,Declined,San Francisco,35,Other,Active
+248,249,195,2025-01-11,POS,Expedia,Clothing,708.86,Credit Card,Pending,Seattle,39,Female,Active
+249,250,128,2025-01-11,ATM,Amazon,Groceries,392.28,Credit Card,Pending,New York,24,Female,Active
+250,251,33,2025-01-11,ATM,BestBuy,Travel,232.73,Credit Card,Pending,Chicago,60,Female,Active
+251,252,176,2025-01-11,POS,Expedia,Entertainment,598.87,Credit Card,Pending,Chicago,31,Other,Inactive
+252,253,22,2025-01-11,Online,Walmart,Electronics,928.54,Debit Card,Pending,Los Angeles,35,Other,Inactive
+253,254,238,2025-01-11,Online,Walmart,Health,929.49,Credit Card,Approved,Seattle,60,Male,Suspended
+254,255,158,2025-01-11,POS,Target,Travel,345.2,Debit Card,Declined,New York,34,Male,Active
+255,256,38,2025-01-11,POS,Expedia,Clothing,530.04,Debit Card,Approved,Houston,62,Other,Inactive
+256,257,230,2025-01-11,ATM,Target,Groceries,215.58,Credit Card,Pending,Houston,51,Male,Inactive
+257,258,51,2025-01-11,Online,Amazon,Clothing,995.65,Debit Card,Declined,Miami,59,Other,Inactive
+258,259,264,2025-01-11,POS,eBay,Entertainment,981.21,Credit Card,Approved,Chicago,29,Female,Active
+259,260,283,2025-01-11,Online,eBay,Groceries,651.26,Debit Card,Approved,Chicago,58,Male,Inactive
+260,261,27,2025-01-11,POS,eBay,Dining,805.39,Credit Card,Pending,New York,33,Male,Inactive
+261,262,226,2025-01-11,POS,Expedia,Electronics,716.52,Credit Card,Approved,San Francisco,38,Other,Suspended
+262,263,277,2025-01-11,Online,eBay,Dining,595.19,Debit Card,Approved,Houston,30,Female,Suspended
+263,264,286,2025-01-11,POS,Amazon,Dining,58.08,Credit Card,Approved,Miami,55,Other,Active
+264,265,97,2025-01-12,POS,Target,Clothing,457.49,Debit Card,Approved,New York,34,Female,Inactive
+265,266,284,2025-01-12,ATM,Expedia,Entertainment,676.41,Credit Card,Approved,Chicago,27,Female,Inactive
+266,267,147,2025-01-12,POS,Target,Electronics,679.14,Credit Card,Pending,Houston,35,Female,Active
+267,268,4,2025-01-12,POS,Expedia,Groceries,376.26,Credit Card,Pending,Seattle,49,Other,Inactive
+268,269,35,2025-01-12,POS,Target,Groceries,941.98,Debit Card,Approved,Miami,66,Female,Suspended
+269,270,192,2025-01-12,ATM,Walmart,Health,171.52,Debit Card,Pending,Los Angeles,50,Male,Active
+270,271,49,2025-01-12,Online,Target,Travel,502.86,Credit Card,Pending,Houston,42,Other,Suspended
+271,272,17,2025-01-12,ATM,eBay,Health,692.43,Debit Card,Declined,Miami,29,Male,Active
+272,273,172,2025-01-12,ATM,Walmart,Health,698.65,Credit Card,Approved,New York,43,Male,Active
+273,274,220,2025-01-12,Online,Target,Groceries,650.4,Debit Card,Pending,Los Angeles,61,Male,Inactive
+274,275,158,2025-01-12,ATM,Expedia,Clothing,278.91,Debit Card,Pending,Miami,34,Male,Active
+275,276,46,2025-01-12,Online,Expedia,Dining,160.43,Credit Card,Approved,Miami,54,Female,Active
+276,277,6,2025-01-12,ATM,Expedia,Entertainment,637.76,Credit Card,Declined,Chicago,28,Female,Active
+277,278,99,2025-01-12,Online,BestBuy,Dining,601.31,Credit Card,Approved,San Francisco,61,Other,Active
+278,279,233,2025-01-12,POS,Amazon,Dining,183.46,Credit Card,Declined,Houston,60,Female,Suspended
+279,280,37,2025-01-12,ATM,Expedia,Electronics,706.61,Credit Card,Approved,Chicago,29,Other,Active
+280,281,280,2025-01-12,ATM,Walmart,Groceries,457.9,Debit Card,Approved,Seattle,41,Male,Active
+281,282,181,2025-01-12,ATM,Expedia,Entertainment,669.42,Debit Card,Approved,Los Angeles,33,Female,Inactive
+282,283,95,2025-01-12,ATM,BestBuy,Clothing,838.18,Credit Card,Approved,San Francisco,30,Female,Suspended
+283,284,99,2025-01-12,POS,eBay,Electronics,173.88,Credit Card,Declined,Miami,61,Other,Active
+284,285,188,2025-01-12,ATM,Walmart,Travel,24.05,Credit Card,Declined,Chicago,41,Female,Inactive
+285,286,116,2025-01-12,POS,BestBuy,Clothing,780.21,Debit Card,Pending,San Francisco,60,Female,Inactive
+286,287,191,2025-01-12,POS,eBay,Health,611.65,Credit Card,Approved,Seattle,36,Female,Inactive
+287,288,253,2025-01-12,POS,Costco,Clothing,701.14,Credit Card,Declined,Houston,25,Female,Active
+288,289,161,2025-01-13,POS,Costco,Clothing,838.96,Debit Card,Declined,Seattle,19,Other,Active
+289,290,256,2025-01-13,Online,Walmart,Dining,803.8,Debit Card,Declined,Los Angeles,65,Female,Suspended
+290,291,128,2025-01-13,Online,Target,Clothing,961.12,Debit Card,Approved,New York,24,Female,Active
+291,292,18,2025-01-13,ATM,Amazon,Health,538.26,Debit Card,Pending,Chicago,38,Other,Inactive
+292,293,281,2025-01-13,Online,Amazon,Health,491.05,Credit Card,Declined,Los Angeles,26,Female,Suspended
+293,294,223,2025-01-13,Online,BestBuy,Groceries,404.88,Debit Card,Approved,New York,34,Other,Inactive
+294,295,54,2025-01-13,ATM,eBay,Clothing,157.92,Debit Card,Declined,Chicago,47,Male,Inactive
+295,296,58,2025-01-13,ATM,Amazon,Dining,574.74,Credit Card,Declined,Los Angeles,41,Other,Active
+296,297,174,2025-01-13,ATM,eBay,Clothing,280.63,Credit Card,Pending,Seattle,37,Female,Suspended
+297,298,280,2025-01-13,Online,eBay,Travel,921.7,Credit Card,Declined,Los Angeles,41,Male,Active
+298,299,114,2025-01-13,Online,BestBuy,Travel,585.27,Debit Card,Declined,San Francisco,36,Male,Inactive
+299,300,288,2025-01-13,ATM,BestBuy,Dining,594.88,Credit Card,Approved,Seattle,20,Other,Inactive
+300,301,151,2025-01-13,POS,BestBuy,Groceries,358.15,Debit Card,Approved,Chicago,44,Other,Inactive
+301,302,127,2025-01-13,ATM,Amazon,Groceries,56.73,Debit Card,Pending,Los Angeles,47,Male,Inactive
+302,303,155,2025-01-13,POS,Costco,Health,36.59,Debit Card,Approved,Miami,53,Male,Suspended
+303,304,273,2025-01-13,POS,BestBuy,Health,426.22,Credit Card,Approved,Chicago,53,Female,Active
+304,305,104,2025-01-13,ATM,Amazon,Electronics,89.14,Debit Card,Pending,Los Angeles,30,Other,Inactive
+305,306,299,2025-01-13,ATM,BestBuy,Dining,608.81,Credit Card,Declined,San Francisco,55,Female,Inactive
+306,307,246,2025-01-13,ATM,Expedia,Clothing,881.57,Credit Card,Pending,New York,67,Male,Suspended
+307,308,176,2025-01-13,Online,eBay,Entertainment,883.5,Credit Card,Approved,New York,31,Other,Inactive
+308,309,39,2025-01-13,POS,BestBuy,Dining,660.75,Debit Card,Pending,Miami,27,Other,Inactive
+309,310,170,2025-01-13,Online,Walmart,Electronics,215.18,Debit Card,Declined,Chicago,54,Male,Suspended
+310,311,247,2025-01-13,Online,eBay,Health,863.68,Debit Card,Pending,San Francisco,39,Female,Suspended
+311,312,26,2025-01-13,ATM,eBay,Dining,886.66,Credit Card,Approved,Los Angeles,23,Other,Inactive
+312,313,13,2025-01-14,Online,BestBuy,Dining,200.67,Debit Card,Approved,Los Angeles,54,Other,Active
+313,314,36,2025-01-14,ATM,Costco,Health,738.74,Debit Card,Pending,New York,66,Male,Active
+314,315,173,2025-01-14,POS,Target,Electronics,290.09,Debit Card,Declined,San Francisco,56,Other,Inactive
+315,316,20,2025-01-14,ATM,Costco,Health,803.63,Debit Card,Pending,Seattle,36,Female,Active
+316,317,264,2025-01-14,Online,BestBuy,Groceries,997.25,Debit Card,Declined,Miami,29,Female,Active
+317,318,142,2025-01-14,Online,eBay,Clothing,34.88,Credit Card,Declined,New York,54,Male,Active
+318,319,143,2025-01-14,ATM,Walmart,Health,897.88,Credit Card,Pending,New York,37,Other,Inactive
+319,320,92,2025-01-14,ATM,eBay,Electronics,624.52,Credit Card,Declined,Miami,19,Male,Suspended
+320,321,288,2025-01-14,Online,Costco,Travel,973.52,Credit Card,Approved,Chicago,20,Other,Inactive
+321,322,215,2025-01-14,POS,Walmart,Groceries,467.68,Debit Card,Pending,Los Angeles,52,Female,Inactive
+322,323,51,2025-01-14,POS,Amazon,Travel,848.15,Credit Card,Declined,Chicago,59,Other,Inactive
+323,324,153,2025-01-14,ATM,Expedia,Entertainment,67.08,Debit Card,Approved,San Francisco,63,Male,Active
+324,325,186,2025-01-14,POS,eBay,Health,338.6,Credit Card,Pending,Seattle,45,Male,Suspended
+325,326,63,2025-01-14,Online,BestBuy,Groceries,71.68,Credit Card,Approved,Houston,21,Female,Inactive
+326,327,190,2025-01-14,ATM,Amazon,Clothing,975.47,Credit Card,Approved,Houston,42,Female,Inactive
+327,328,125,2025-01-14,Online,Expedia,Health,817.89,Debit Card,Approved,Houston,54,Female,Inactive
+328,329,150,2025-01-14,Online,BestBuy,Clothing,853.28,Debit Card,Declined,Miami,48,Other,Active
+329,330,58,2025-01-14,POS,Target,Dining,938.28,Credit Card,Pending,New York,41,Other,Active
+330,331,180,2025-01-14,ATM,BestBuy,Travel,89.68,Debit Card,Pending,Seattle,63,Male,Inactive
+331,332,170,2025-01-14,ATM,Walmart,Groceries,388.67,Credit Card,Declined,Chicago,54,Male,Suspended
+332,333,271,2025-01-14,POS,Walmart,Clothing,75.68,Credit Card,Pending,Los Angeles,24,Female,Suspended
+333,334,54,2025-01-14,Online,Target,Electronics,214.74,Credit Card,Approved,Houston,47,Male,Inactive
+334,335,101,2025-01-14,Online,Amazon,Clothing,233.22,Debit Card,Pending,Chicago,24,Female,Suspended
+335,336,264,2025-01-14,Online,Expedia,Electronics,471.76,Credit Card,Declined,Houston,29,Female,Active
+336,337,53,2025-01-15,Online,BestBuy,Health,272.22,Credit Card,Approved,Seattle,46,Male,Inactive
+337,338,60,2025-01-15,ATM,Walmart,Groceries,105.47,Credit Card,Declined,Houston,26,Male,Suspended
+338,339,108,2025-01-15,ATM,Amazon,Clothing,171.65,Debit Card,Approved,Los Angeles,28,Other,Suspended
+339,340,5,2025-01-15,POS,Target,Entertainment,151.54,Credit Card,Approved,San Francisco,27,Other,Suspended
+340,341,103,2025-01-15,POS,Costco,Clothing,973.21,Debit Card,Pending,San Francisco,25,Female,Inactive
+341,342,196,2025-01-15,ATM,eBay,Entertainment,760.5,Credit Card,Approved,Seattle,27,Female,Suspended
+342,343,262,2025-01-15,ATM,Costco,Groceries,967.92,Debit Card,Declined,San Francisco,63,Other,Active
+343,344,47,2025-01-15,Online,Costco,Clothing,442.54,Credit Card,Pending,Miami,69,Male,Inactive
+344,345,144,2025-01-15,Online,Walmart,Electronics,281.98,Credit Card,Declined,New York,18,Male,Active
+345,346,269,2025-01-15,POS,Target,Clothing,799.3,Debit Card,Approved,Miami,67,Female,Active
+346,347,124,2025-01-15,ATM,BestBuy,Travel,329.62,Debit Card,Declined,Chicago,66,Other,Active
+347,348,106,2025-01-15,POS,Costco,Health,302.89,Credit Card,Declined,Miami,19,Male,Active
+348,349,158,2025-01-15,ATM,Costco,Dining,236.34,Debit Card,Approved,Chicago,34,Male,Active
+349,350,147,2025-01-15,Online,Expedia,Electronics,134.03,Credit Card,Pending,Chicago,35,Female,Active
+350,351,145,2025-01-15,POS,Walmart,Travel,260.18,Credit Card,Declined,New York,69,Female,Active
+351,352,120,2025-01-15,POS,Walmart,Entertainment,358.54,Credit Card,Approved,Los Angeles,19,Male,Active
+352,353,275,2025-01-15,ATM,BestBuy,Health,675.62,Debit Card,Pending,Seattle,48,Male,Suspended
+353,354,92,2025-01-15,Online,eBay,Groceries,67.25,Credit Card,Pending,New York,19,Male,Suspended
+354,355,58,2025-01-15,POS,Amazon,Electronics,214.45,Debit Card,Pending,Seattle,41,Other,Active
+355,356,229,2025-01-15,Online,Expedia,Dining,809.98,Credit Card,Declined,San Francisco,28,Female,Suspended
+356,357,117,2025-01-15,POS,Walmart,Health,151.19,Debit Card,Declined,San Francisco,46,Female,Suspended
+357,358,279,2025-01-15,Online,Expedia,Entertainment,345.93,Debit Card,Declined,Miami,58,Other,Inactive
+358,359,127,2025-01-15,ATM,Walmart,Dining,865.34,Credit Card,Pending,Chicago,47,Male,Inactive
+359,360,129,2025-01-15,POS,Expedia,Groceries,159.15,Debit Card,Declined,Houston,26,Male,Suspended
+360,361,58,2025-01-16,POS,Target,Groceries,87.32,Credit Card,Approved,Houston,41,Other,Active
+361,362,122,2025-01-16,Online,Costco,Entertainment,487.12,Credit Card,Declined,Seattle,21,Female,Active
+362,363,1,2025-01-16,Online,Walmart,Electronics,305.91,Credit Card,Declined,Chicago,66,Male,Inactive
+363,364,239,2025-01-16,POS,Expedia,Entertainment,565.59,Credit Card,Pending,Seattle,40,Other,Active
+364,365,290,2025-01-16,ATM,Amazon,Clothing,804.79,Credit Card,Declined,New York,48,Male,Inactive
+365,366,96,2025-01-16,Online,Target,Groceries,141.46,Debit Card,Approved,Los Angeles,54,Female,Suspended
+366,367,126,2025-01-16,Online,Target,Health,582.8,Credit Card,Pending,New York,45,Other,Inactive
+367,368,118,2025-01-16,Online,Amazon,Clothing,507.98,Debit Card,Approved,Chicago,60,Female,Active
+368,369,48,2025-01-16,POS,Expedia,Travel,148.36,Debit Card,Pending,Chicago,41,Male,Inactive
+369,370,89,2025-01-16,POS,BestBuy,Dining,625.88,Credit Card,Pending,Los Angeles,21,Male,Active
+370,371,237,2025-01-16,POS,Amazon,Clothing,277.27,Debit Card,Declined,Seattle,29,Other,Suspended
+371,372,272,2025-01-16,POS,Expedia,Dining,490.4,Credit Card,Approved,Miami,28,Female,Suspended
+372,373,189,2025-01-16,ATM,Amazon,Entertainment,86.86,Debit Card,Pending,Miami,20,Other,Inactive
+373,374,192,2025-01-16,ATM,Amazon,Clothing,462.29,Debit Card,Declined,Los Angeles,50,Male,Active
+374,375,69,2025-01-16,POS,Walmart,Entertainment,309.93,Debit Card,Pending,Miami,59,Female,Active
+375,376,278,2025-01-16,ATM,Expedia,Travel,823.27,Credit Card,Pending,Houston,35,Male,Suspended
+376,377,247,2025-01-16,Online,BestBuy,Groceries,61.69,Debit Card,Pending,Miami,39,Female,Suspended
+377,378,76,2025-01-16,Online,Costco,Travel,421.51,Credit Card,Pending,Miami,51,Female,Active
+378,379,154,2025-01-16,Online,Walmart,Groceries,461.14,Debit Card,Pending,Miami,46,Male,Inactive
+379,380,144,2025-01-16,POS,Amazon,Entertainment,726.38,Debit Card,Pending,Houston,18,Male,Active
+380,381,86,2025-01-16,Online,Costco,Groceries,576.42,Debit Card,Declined,Seattle,28,Female,Inactive
+381,382,185,2025-01-16,ATM,eBay,Dining,668.88,Debit Card,Pending,Miami,46,Female,Suspended
+382,383,285,2025-01-16,POS,Costco,Health,778.16,Credit Card,Approved,San Francisco,19,Other,Active
+383,384,220,2025-01-16,ATM,Amazon,Travel,862.89,Credit Card,Declined,Houston,61,Male,Inactive
+384,385,69,2025-01-17,Online,Amazon,Clothing,317.31,Debit Card,Approved,Los Angeles,59,Female,Active
+385,386,47,2025-01-17,Online,Expedia,Travel,540.33,Debit Card,Pending,New York,69,Male,Inactive
+386,387,94,2025-01-17,Online,Expedia,Dining,840.91,Credit Card,Approved,Los Angeles,56,Male,Suspended
+387,388,238,2025-01-17,POS,Walmart,Groceries,989.5,Credit Card,Pending,New York,60,Male,Suspended
+388,389,204,2025-01-17,ATM,BestBuy,Dining,890.07,Credit Card,Pending,Los Angeles,22,Other,Active
+389,390,218,2025-01-17,POS,Walmart,Electronics,374.61,Credit Card,Declined,San Francisco,29,Male,Suspended
+390,391,39,2025-01-17,POS,Target,Electronics,199.19,Debit Card,Declined,New York,27,Other,Inactive
+391,392,100,2025-01-17,Online,Amazon,Clothing,491.95,Debit Card,Pending,New York,36,Male,Inactive
+392,393,289,2025-01-17,POS,Costco,Dining,742.93,Credit Card,Declined,Chicago,60,Other,Inactive
+393,394,254,2025-01-17,POS,eBay,Entertainment,495.11,Credit Card,Approved,New York,68,Male,Inactive
+394,395,222,2025-01-17,Online,Amazon,Clothing,485.76,Credit Card,Declined,New York,60,Male,Inactive
+395,396,23,2025-01-17,POS,Amazon,Entertainment,839.04,Credit Card,Declined,Chicago,68,Female,Active
+396,397,250,2025-01-17,Online,Walmart,Clothing,364.6,Credit Card,Approved,Miami,42,Male,Inactive
+397,398,10,2025-01-17,Online,eBay,Electronics,860.5,Credit Card,Declined,Miami,64,Female,Inactive
+398,399,246,2025-01-17,Online,eBay,Clothing,409.77,Debit Card,Pending,Chicago,67,Male,Suspended
+399,400,100,2025-01-17,Online,eBay,Electronics,331.59,Debit Card,Approved,Houston,36,Male,Inactive
+400,401,290,2025-01-17,POS,Walmart,Groceries,456.72,Debit Card,Pending,New York,48,Male,Inactive
+401,402,180,2025-01-17,Online,Amazon,Entertainment,763.63,Credit Card,Approved,New York,63,Male,Inactive
+402,403,223,2025-01-17,Online,Walmart,Dining,130.37,Credit Card,Pending,Chicago,34,Other,Inactive
+403,404,250,2025-01-17,POS,Expedia,Clothing,200.44,Credit Card,Pending,Chicago,42,Male,Inactive
+404,405,147,2025-01-17,POS,Expedia,Electronics,951.69,Debit Card,Declined,Houston,35,Female,Active
+405,406,96,2025-01-17,ATM,Walmart,Travel,179.61,Credit Card,Pending,San Francisco,54,Female,Suspended
+406,407,257,2025-01-17,POS,eBay,Entertainment,569.89,Credit Card,Declined,Miami,55,Female,Inactive
+407,408,4,2025-01-17,POS,Amazon,Clothing,581.42,Debit Card,Approved,Los Angeles,49,Other,Inactive
+408,409,16,2025-01-18,ATM,Walmart,Health,492.18,Credit Card,Pending,San Francisco,57,Female,Suspended
+409,410,280,2025-01-18,POS,Walmart,Groceries,646.52,Debit Card,Pending,Seattle,41,Male,Active
+410,411,247,2025-01-18,POS,Walmart,Groceries,233.68,Debit Card,Approved,Miami,39,Female,Suspended
+411,412,258,2025-01-18,POS,Target,Travel,554.9,Credit Card,Approved,New York,23,Male,Inactive
+412,413,160,2025-01-18,POS,Expedia,Electronics,375.31,Debit Card,Pending,Seattle,42,Other,Suspended
+413,414,152,2025-01-18,ATM,Costco,Clothing,663.36,Credit Card,Approved,San Francisco,34,Other,Inactive
+414,415,178,2025-01-18,POS,eBay,Entertainment,145.52,Debit Card,Declined,Chicago,34,Male,Inactive
+415,416,163,2025-01-18,POS,BestBuy,Electronics,573.02,Credit Card,Approved,Houston,22,Other,Suspended
+416,417,33,2025-01-18,ATM,Costco,Groceries,189.34,Debit Card,Approved,Miami,60,Female,Active
+417,418,179,2025-01-18,Online,eBay,Electronics,282.25,Credit Card,Pending,Houston,38,Female,Suspended
+418,419,101,2025-01-18,ATM,BestBuy,Groceries,222.62,Debit Card,Declined,Seattle,24,Female,Suspended
+419,420,268,2025-01-18,Online,Target,Electronics,186.92,Debit Card,Approved,Miami,59,Female,Inactive
+420,421,65,2025-01-18,ATM,Walmart,Travel,826.58,Debit Card,Declined,San Francisco,45,Female,Suspended
+421,422,168,2025-01-18,ATM,Target,Dining,289.28,Credit Card,Declined,New York,38,Other,Suspended
+422,423,43,2025-01-18,POS,Target,Travel,927.49,Credit Card,Declined,Los Angeles,66,Female,Active
+423,424,44,2025-01-18,Online,Costco,Travel,970.08,Debit Card,Pending,Houston,53,Female,Active
+424,425,285,2025-01-18,POS,Amazon,Dining,573.4,Credit Card,Approved,Houston,19,Other,Active
+425,426,12,2025-01-18,Online,Costco,Dining,147.29,Debit Card,Pending,Los Angeles,53,Female,Suspended
+426,427,95,2025-01-18,ATM,Expedia,Clothing,377.68,Credit Card,Approved,Houston,30,Female,Suspended
+427,428,253,2025-01-18,ATM,BestBuy,Entertainment,798.74,Debit Card,Approved,Houston,25,Female,Active
+428,429,242,2025-01-18,Online,Walmart,Entertainment,370.55,Credit Card,Pending,Miami,54,Male,Suspended
+429,430,35,2025-01-18,POS,Costco,Clothing,91.58,Debit Card,Declined,Miami,66,Female,Suspended
+430,431,215,2025-01-18,POS,BestBuy,Travel,559.0,Debit Card,Declined,Los Angeles,52,Female,Inactive
+431,432,90,2025-01-18,POS,eBay,Travel,845.9,Debit Card,Approved,Seattle,28,Male,Suspended
+432,433,264,2025-01-19,POS,BestBuy,Groceries,796.95,Debit Card,Pending,New York,29,Female,Active
+433,434,93,2025-01-19,ATM,eBay,Groceries,179.25,Credit Card,Declined,San Francisco,33,Male,Suspended
+434,435,90,2025-01-19,ATM,Costco,Entertainment,674.4,Debit Card,Declined,San Francisco,28,Male,Suspended
+435,436,115,2025-01-19,ATM,Expedia,Clothing,224.4,Credit Card,Approved,Seattle,23,Male,Suspended
+436,437,105,2025-01-19,ATM,Costco,Health,222.12,Credit Card,Approved,Houston,54,Other,Active
+437,438,196,2025-01-19,ATM,eBay,Health,874.7,Debit Card,Pending,New York,27,Female,Suspended
+438,439,114,2025-01-19,POS,BestBuy,Clothing,253.42,Credit Card,Approved,Los Angeles,36,Male,Inactive
+439,440,75,2025-01-19,POS,BestBuy,Groceries,266.93,Credit Card,Declined,Seattle,29,Female,Suspended
+440,441,217,2025-01-19,POS,eBay,Entertainment,5.65,Credit Card,Declined,Los Angeles,31,Male,Active
+441,442,277,2025-01-19,POS,Target,Entertainment,871.32,Debit Card,Declined,Miami,30,Female,Suspended
+442,443,249,2025-01-19,ATM,Expedia,Groceries,793.63,Credit Card,Declined,Houston,41,Other,Suspended
+443,444,164,2025-01-19,ATM,Amazon,Health,629.19,Credit Card,Pending,Chicago,21,Male,Active
+444,445,192,2025-01-19,ATM,Walmart,Electronics,751.51,Debit Card,Pending,Los Angeles,50,Male,Active
+445,446,227,2025-01-19,Online,BestBuy,Electronics,156.29,Debit Card,Approved,Seattle,40,Male,Active
+446,447,177,2025-01-19,POS,Walmart,Groceries,461.03,Credit Card,Approved,Houston,53,Female,Suspended
+447,448,99,2025-01-19,POS,Amazon,Electronics,354.46,Debit Card,Approved,New York,61,Other,Active
+448,449,36,2025-01-19,ATM,Costco,Dining,98.31,Credit Card,Pending,Seattle,66,Male,Active
+449,450,96,2025-01-19,POS,Walmart,Clothing,488.7,Credit Card,Declined,Miami,54,Female,Suspended
+450,451,152,2025-01-19,POS,Amazon,Clothing,921.14,Credit Card,Approved,San Francisco,34,Other,Inactive
+451,452,151,2025-01-19,ATM,eBay,Groceries,44.86,Debit Card,Declined,New York,44,Other,Inactive
+452,453,190,2025-01-19,Online,Target,Travel,295.0,Credit Card,Approved,Los Angeles,42,Female,Inactive
+453,454,224,2025-01-19,Online,BestBuy,Health,211.5,Debit Card,Approved,Los Angeles,57,Other,Inactive
+454,455,37,2025-01-19,Online,Amazon,Groceries,241.96,Debit Card,Approved,New York,29,Other,Active
+455,456,268,2025-01-19,ATM,Walmart,Electronics,908.89,Credit Card,Approved,Los Angeles,59,Female,Inactive
+456,457,183,2025-01-20,POS,BestBuy,Health,470.73,Debit Card,Approved,Seattle,33,Male,Active
+457,458,13,2025-01-20,ATM,Target,Travel,468.97,Debit Card,Declined,Houston,54,Other,Active
+458,459,279,2025-01-20,ATM,eBay,Electronics,761.77,Debit Card,Approved,Los Angeles,58,Other,Inactive
+459,460,217,2025-01-20,POS,Costco,Entertainment,158.72,Debit Card,Declined,Miami,31,Male,Active
+460,461,286,2025-01-20,Online,BestBuy,Dining,489.83,Debit Card,Pending,Houston,55,Other,Active
+461,462,273,2025-01-20,Online,Costco,Electronics,432.84,Credit Card,Approved,Seattle,53,Female,Active
+462,463,62,2025-01-20,ATM,Amazon,Dining,598.93,Debit Card,Declined,Chicago,52,Other,Inactive
+463,464,84,2025-01-20,Online,Target,Health,999.56,Credit Card,Pending,Los Angeles,56,Female,Inactive
+464,465,217,2025-01-20,ATM,Walmart,Dining,770.6,Credit Card,Pending,Los Angeles,31,Male,Active
+465,466,187,2025-01-20,ATM,Target,Health,400.88,Credit Card,Pending,Miami,25,Female,Suspended
+466,467,19,2025-01-20,POS,Target,Health,828.42,Credit Card,Declined,Seattle,57,Male,Suspended
+467,468,177,2025-01-20,POS,Expedia,Health,174.85,Credit Card,Approved,Miami,53,Female,Suspended
+468,469,100,2025-01-20,POS,Target,Health,35.31,Credit Card,Approved,San Francisco,36,Male,Inactive
+469,470,233,2025-01-20,ATM,Target,Health,208.43,Debit Card,Declined,Seattle,60,Female,Suspended
+470,471,76,2025-01-20,POS,BestBuy,Electronics,343.71,Debit Card,Approved,New York,51,Female,Active
+471,472,265,2025-01-20,Online,Walmart,Health,513.03,Debit Card,Declined,New York,55,Other,Suspended
+472,473,284,2025-01-20,Online,BestBuy,Electronics,617.05,Credit Card,Approved,New York,27,Female,Inactive
+473,474,206,2025-01-20,ATM,BestBuy,Health,911.05,Debit Card,Pending,Miami,30,Female,Inactive
+474,475,223,2025-01-20,ATM,Amazon,Dining,512.3,Debit Card,Approved,New York,34,Other,Inactive
+475,476,52,2025-01-20,POS,BestBuy,Entertainment,503.77,Debit Card,Declined,Seattle,34,Other,Inactive
+476,477,144,2025-01-20,ATM,Expedia,Health,54.99,Credit Card,Declined,New York,18,Male,Active
+477,478,69,2025-01-20,ATM,Expedia,Travel,39.74,Debit Card,Pending,Chicago,59,Female,Active
+478,479,99,2025-01-20,Online,Costco,Health,553.4,Credit Card,Declined,New York,61,Other,Active
+479,480,25,2025-01-20,Online,Amazon,Health,440.99,Debit Card,Approved,Los Angeles,64,Male,Suspended
+480,481,53,2025-01-21,POS,Costco,Dining,839.98,Credit Card,Approved,San Francisco,46,Male,Inactive
+481,482,151,2025-01-21,ATM,Costco,Clothing,164.88,Credit Card,Pending,Miami,44,Other,Inactive
+482,483,144,2025-01-21,ATM,eBay,Dining,29.85,Credit Card,Declined,Houston,18,Male,Active
+483,484,57,2025-01-21,Online,Walmart,Travel,451.79,Debit Card,Pending,San Francisco,24,Female,Active
+484,485,39,2025-01-21,ATM,Walmart,Clothing,241.29,Debit Card,Approved,Chicago,27,Other,Inactive
+485,486,109,2025-01-21,Online,BestBuy,Groceries,54.37,Credit Card,Pending,Miami,41,Male,Active
+486,487,181,2025-01-21,POS,BestBuy,Groceries,725.98,Debit Card,Declined,Seattle,33,Female,Inactive
+487,488,42,2025-01-21,Online,eBay,Travel,116.04,Credit Card,Pending,Miami,18,Female,Suspended
+488,489,186,2025-01-21,ATM,BestBuy,Dining,610.28,Credit Card,Declined,Los Angeles,45,Male,Suspended
+489,490,223,2025-01-21,POS,Walmart,Electronics,284.64,Debit Card,Declined,Seattle,34,Other,Inactive
+490,491,122,2025-01-21,Online,Costco,Travel,177.63,Debit Card,Approved,San Francisco,21,Female,Active
+491,492,133,2025-01-21,Online,Target,Entertainment,382.85,Debit Card,Approved,San Francisco,68,Female,Active
+492,493,163,2025-01-21,POS,Expedia,Clothing,802.44,Credit Card,Approved,New York,22,Other,Suspended
+493,494,215,2025-01-21,POS,Target,Clothing,395.13,Credit Card,Declined,Seattle,52,Female,Inactive
+494,495,221,2025-01-21,Online,Target,Health,752.02,Debit Card,Pending,Los Angeles,46,Other,Suspended
+495,496,235,2025-01-21,ATM,Walmart,Groceries,129.86,Credit Card,Declined,New York,53,Male,Suspended
+496,497,146,2025-01-21,Online,Target,Clothing,773.91,Debit Card,Approved,New York,20,Male,Inactive
+497,498,239,2025-01-21,POS,eBay,Travel,240.75,Credit Card,Approved,Miami,40,Other,Active
+498,499,76,2025-01-21,Online,Amazon,Clothing,679.01,Debit Card,Pending,San Francisco,51,Female,Active
+499,500,9,2025-01-21,POS,BestBuy,Travel,567.95,Debit Card,Approved,New York,58,Female,Inactive
+500,501,74,2025-01-21,POS,Amazon,Electronics,929.5,Credit Card,Approved,Chicago,50,Male,Active
+501,502,253,2025-01-21,ATM,Costco,Health,390.39,Debit Card,Approved,Chicago,25,Female,Active
+502,503,230,2025-01-21,POS,Expedia,Groceries,70.83,Debit Card,Pending,San Francisco,51,Male,Inactive
+503,504,7,2025-01-21,POS,BestBuy,Clothing,24.06,Credit Card,Declined,Chicago,55,Female,Active
+504,505,174,2025-01-22,ATM,Target,Travel,827.72,Debit Card,Approved,Miami,37,Female,Suspended
+505,506,141,2025-01-22,POS,Expedia,Dining,527.11,Credit Card,Pending,Los Angeles,30,Other,Inactive
+506,507,168,2025-01-22,ATM,BestBuy,Groceries,776.37,Debit Card,Approved,Houston,38,Other,Suspended
+507,508,170,2025-01-22,ATM,eBay,Electronics,238.25,Credit Card,Pending,New York,54,Male,Suspended
+508,509,283,2025-01-22,POS,eBay,Travel,348.36,Debit Card,Approved,Houston,58,Male,Inactive
+509,510,122,2025-01-22,POS,eBay,Entertainment,34.95,Debit Card,Pending,Los Angeles,21,Female,Active
+510,511,194,2025-01-22,Online,eBay,Entertainment,961.68,Debit Card,Approved,Los Angeles,32,Other,Suspended
+511,512,5,2025-01-22,ATM,Target,Health,669.53,Debit Card,Declined,Miami,27,Other,Suspended
+512,513,29,2025-01-22,Online,Amazon,Health,933.54,Credit Card,Approved,Chicago,65,Female,Suspended
+513,514,165,2025-01-22,POS,BestBuy,Electronics,269.17,Credit Card,Pending,Chicago,53,Female,Active
+514,515,136,2025-01-22,Online,Target,Electronics,613.41,Credit Card,Approved,Los Angeles,27,Female,Inactive
+515,516,145,2025-01-22,ATM,eBay,Health,680.11,Credit Card,Declined,Miami,69,Female,Active
+516,517,217,2025-01-22,Online,Costco,Clothing,320.96,Credit Card,Approved,Miami,31,Male,Active
+517,518,132,2025-01-22,ATM,Amazon,Clothing,848.87,Credit Card,Pending,San Francisco,18,Male,Suspended
+518,519,292,2025-01-22,POS,Costco,Travel,947.43,Credit Card,Pending,Seattle,20,Male,Suspended
+519,520,70,2025-01-22,POS,Expedia,Dining,885.43,Debit Card,Declined,New York,54,Female,Suspended
+520,521,252,2025-01-22,ATM,Costco,Travel,740.37,Debit Card,Pending,Seattle,43,Male,Suspended
+521,522,275,2025-01-22,POS,Expedia,Dining,281.08,Debit Card,Approved,Chicago,48,Male,Suspended
+522,523,182,2025-01-22,POS,Expedia,Electronics,285.21,Debit Card,Approved,Los Angeles,63,Female,Active
+523,524,167,2025-01-22,POS,eBay,Groceries,963.54,Credit Card,Approved,San Francisco,69,Female,Inactive
+524,525,91,2025-01-22,POS,Expedia,Travel,15.23,Credit Card,Pending,Houston,46,Other,Active
+525,526,202,2025-01-22,ATM,Walmart,Travel,717.47,Credit Card,Approved,Chicago,30,Male,Inactive
+526,527,19,2025-01-22,Online,BestBuy,Dining,707.71,Debit Card,Approved,New York,57,Male,Suspended
+527,528,39,2025-01-22,Online,BestBuy,Electronics,624.58,Credit Card,Approved,Miami,27,Other,Inactive
+528,529,126,2025-01-23,POS,eBay,Electronics,990.16,Debit Card,Declined,Los Angeles,45,Other,Inactive
+529,530,173,2025-01-23,Online,Walmart,Entertainment,315.32,Credit Card,Pending,Chicago,56,Other,Inactive
+530,531,141,2025-01-23,Online,Costco,Dining,343.27,Credit Card,Pending,Houston,30,Other,Inactive
+531,532,242,2025-01-23,POS,Target,Electronics,83.54,Credit Card,Pending,New York,54,Male,Suspended
+532,533,220,2025-01-23,POS,Costco,Health,445.58,Credit Card,Declined,New York,61,Male,Inactive
+533,534,126,2025-01-23,Online,Target,Clothing,264.74,Debit Card,Pending,San Francisco,45,Other,Inactive
+534,535,58,2025-01-23,ATM,Expedia,Entertainment,346.67,Debit Card,Declined,Chicago,41,Other,Active
+535,536,148,2025-01-23,POS,Amazon,Health,835.4,Credit Card,Declined,Houston,58,Male,Suspended
+536,537,1,2025-01-23,ATM,Target,Groceries,935.81,Debit Card,Pending,New York,66,Male,Inactive
+537,538,190,2025-01-23,Online,Amazon,Travel,189.8,Credit Card,Approved,Los Angeles,42,Female,Inactive
+538,539,191,2025-01-23,POS,BestBuy,Entertainment,375.65,Credit Card,Approved,New York,36,Female,Inactive
+539,540,117,2025-01-23,ATM,Amazon,Groceries,928.99,Credit Card,Pending,Houston,46,Female,Suspended
+540,541,134,2025-01-23,POS,BestBuy,Travel,66.5,Credit Card,Pending,Miami,23,Male,Active
+541,542,58,2025-01-23,Online,Walmart,Clothing,96.9,Debit Card,Declined,Miami,41,Other,Active
+542,543,44,2025-01-23,ATM,Walmart,Electronics,166.98,Credit Card,Pending,San Francisco,53,Female,Active
+543,544,173,2025-01-23,Online,eBay,Health,597.24,Credit Card,Declined,Chicago,56,Other,Inactive
+544,545,160,2025-01-23,Online,eBay,Dining,154.72,Debit Card,Pending,Houston,42,Other,Suspended
+545,546,173,2025-01-23,POS,Expedia,Health,968.24,Credit Card,Approved,San Francisco,56,Other,Inactive
+546,547,149,2025-01-23,ATM,Target,Clothing,449.48,Debit Card,Approved,Seattle,31,Male,Active
+547,548,80,2025-01-23,Online,Expedia,Groceries,504.01,Credit Card,Pending,New York,46,Other,Inactive
+548,549,213,2025-01-23,Online,BestBuy,Dining,250.43,Credit Card,Declined,Seattle,66,Other,Active
+549,550,203,2025-01-23,ATM,Expedia,Electronics,473.61,Credit Card,Approved,New York,50,Male,Inactive
+550,551,252,2025-01-23,Online,Amazon,Clothing,663.6,Credit Card,Declined,Miami,43,Male,Suspended
+551,552,229,2025-01-23,Online,BestBuy,Dining,752.42,Credit Card,Pending,San Francisco,28,Female,Suspended
+552,553,164,2025-01-24,ATM,eBay,Clothing,755.1,Credit Card,Pending,Miami,21,Male,Active
+553,554,227,2025-01-24,ATM,Walmart,Clothing,580.0,Debit Card,Approved,Los Angeles,40,Male,Active
+554,555,147,2025-01-24,ATM,eBay,Electronics,904.84,Credit Card,Pending,Seattle,35,Female,Active
+555,556,20,2025-01-24,ATM,Target,Entertainment,818.32,Debit Card,Approved,Seattle,36,Female,Active
+556,557,47,2025-01-24,POS,BestBuy,Travel,758.26,Debit Card,Declined,Miami,69,Male,Inactive
+557,558,233,2025-01-24,ATM,BestBuy,Dining,60.33,Credit Card,Approved,Los Angeles,60,Female,Suspended
+558,559,14,2025-01-24,POS,Amazon,Electronics,11.84,Debit Card,Approved,New York,34,Female,Suspended
+559,560,143,2025-01-24,POS,Target,Clothing,216.39,Credit Card,Declined,San Francisco,37,Other,Inactive
+560,561,1,2025-01-24,POS,Walmart,Electronics,665.21,Debit Card,Approved,Los Angeles,66,Male,Inactive
+561,562,54,2025-01-24,Online,Costco,Entertainment,414.14,Credit Card,Approved,San Francisco,47,Male,Inactive
+562,563,259,2025-01-24,POS,BestBuy,Travel,405.39,Debit Card,Pending,Seattle,52,Other,Suspended
+563,564,144,2025-01-24,POS,BestBuy,Health,885.16,Debit Card,Declined,San Francisco,18,Male,Active
+564,565,12,2025-01-24,Online,Amazon,Dining,896.09,Credit Card,Approved,Seattle,53,Female,Suspended
+565,566,224,2025-01-24,Online,Expedia,Travel,909.63,Debit Card,Declined,Los Angeles,57,Other,Inactive
+566,567,272,2025-01-24,Online,Walmart,Groceries,317.31,Credit Card,Declined,Seattle,28,Female,Suspended
+567,568,156,2025-01-24,ATM,eBay,Dining,692.6,Credit Card,Approved,Chicago,54,Female,Suspended
+568,569,8,2025-01-24,Online,Target,Travel,275.28,Credit Card,Pending,Seattle,23,Male,Inactive
+569,570,122,2025-01-24,Online,BestBuy,Clothing,194.66,Credit Card,Declined,Miami,21,Female,Active
+570,571,164,2025-01-24,POS,BestBuy,Dining,188.71,Credit Card,Approved,Los Angeles,21,Male,Active
+571,572,90,2025-01-24,Online,eBay,Dining,345.4,Debit Card,Declined,New York,28,Male,Suspended
+572,573,136,2025-01-24,ATM,Walmart,Electronics,432.81,Debit Card,Pending,San Francisco,27,Female,Inactive
+573,574,186,2025-01-24,Online,Expedia,Clothing,831.79,Debit Card,Pending,Houston,45,Male,Suspended
+574,575,178,2025-01-24,ATM,BestBuy,Groceries,124.29,Credit Card,Pending,Los Angeles,34,Male,Inactive
+575,576,28,2025-01-24,Online,Walmart,Health,736.25,Debit Card,Approved,Miami,25,Other,Active
+576,577,220,2025-01-25,Online,eBay,Entertainment,533.8,Debit Card,Approved,Seattle,61,Male,Inactive
+577,578,41,2025-01-25,Online,Amazon,Travel,291.51,Debit Card,Pending,San Francisco,63,Male,Active
+578,579,228,2025-01-25,Online,Expedia,Electronics,495.36,Debit Card,Approved,Chicago,37,Male,Inactive
+579,580,192,2025-01-25,ATM,Target,Travel,303.44,Debit Card,Pending,New York,50,Male,Active
+580,581,145,2025-01-25,ATM,BestBuy,Groceries,598.1,Credit Card,Approved,Chicago,69,Female,Active
+581,582,201,2025-01-25,POS,Walmart,Groceries,436.67,Credit Card,Pending,Houston,44,Other,Suspended
+582,583,212,2025-01-25,ATM,Amazon,Dining,168.58,Debit Card,Declined,Los Angeles,68,Female,Suspended
+583,584,220,2025-01-25,Online,Target,Entertainment,121.0,Credit Card,Pending,San Francisco,61,Male,Inactive
+584,585,240,2025-01-25,POS,Costco,Groceries,548.96,Credit Card,Pending,Los Angeles,44,Male,Active
+585,586,46,2025-01-25,POS,Walmart,Travel,902.9,Debit Card,Approved,Miami,54,Female,Active
+586,587,35,2025-01-25,POS,Walmart,Clothing,347.24,Debit Card,Approved,Los Angeles,66,Female,Suspended
+587,588,253,2025-01-25,Online,Target,Clothing,734.34,Credit Card,Approved,New York,25,Female,Active
+588,589,82,2025-01-25,ATM,Amazon,Dining,660.37,Debit Card,Approved,Houston,48,Other,Inactive
+589,590,256,2025-01-25,Online,Costco,Health,931.9,Credit Card,Approved,Chicago,65,Female,Suspended
+590,591,197,2025-01-25,POS,eBay,Travel,821.88,Credit Card,Approved,Houston,35,Female,Inactive
+591,592,10,2025-01-25,Online,Amazon,Travel,568.77,Debit Card,Declined,San Francisco,64,Female,Inactive
+592,593,286,2025-01-25,Online,Expedia,Groceries,658.75,Credit Card,Pending,Los Angeles,55,Other,Active
+593,594,242,2025-01-25,ATM,BestBuy,Entertainment,898.89,Credit Card,Pending,San Francisco,54,Male,Suspended
+594,595,251,2025-01-25,ATM,Target,Travel,402.52,Credit Card,Pending,Chicago,32,Other,Active
+595,596,5,2025-01-25,POS,eBay,Electronics,330.16,Debit Card,Declined,San Francisco,27,Other,Suspended
+596,597,119,2025-01-25,Online,Costco,Health,15.76,Debit Card,Pending,Miami,56,Male,Suspended
+597,598,289,2025-01-25,Online,Target,Groceries,827.42,Debit Card,Declined,Houston,60,Other,Inactive
+598,599,65,2025-01-25,ATM,Target,Electronics,801.98,Debit Card,Declined,Chicago,45,Female,Suspended
+599,600,146,2025-01-25,Online,Amazon,Dining,108.93,Credit Card,Declined,Chicago,20,Male,Inactive
+600,601,224,2025-01-26,Online,BestBuy,Clothing,578.97,Debit Card,Pending,Seattle,57,Other,Inactive
+601,602,239,2025-01-26,Online,Expedia,Dining,466.66,Debit Card,Declined,Chicago,40,Other,Active
+602,603,177,2025-01-26,ATM,Walmart,Clothing,123.12,Debit Card,Pending,Seattle,53,Female,Suspended
+603,604,267,2025-01-26,POS,Walmart,Dining,980.67,Debit Card,Pending,New York,29,Female,Active
+604,605,282,2025-01-26,POS,Target,Travel,218.62,Credit Card,Approved,Seattle,48,Female,Active
+605,606,63,2025-01-26,Online,BestBuy,Electronics,71.9,Credit Card,Approved,Houston,21,Female,Inactive
+606,607,217,2025-01-26,POS,Costco,Clothing,596.87,Credit Card,Declined,San Francisco,31,Male,Active
+607,608,283,2025-01-26,ATM,Costco,Groceries,740.17,Debit Card,Declined,Seattle,58,Male,Inactive
+608,609,177,2025-01-26,ATM,eBay,Electronics,37.28,Debit Card,Pending,Chicago,53,Female,Suspended
+609,610,98,2025-01-26,POS,Amazon,Groceries,660.42,Credit Card,Declined,Houston,38,Other,Active
+610,611,105,2025-01-26,POS,BestBuy,Electronics,534.63,Debit Card,Declined,Seattle,54,Other,Active
+611,612,99,2025-01-26,Online,BestBuy,Electronics,107.75,Debit Card,Pending,Seattle,61,Other,Active
+612,613,6,2025-01-26,POS,Amazon,Dining,176.66,Credit Card,Declined,Chicago,28,Female,Active
+613,614,197,2025-01-26,Online,Costco,Clothing,570.13,Credit Card,Declined,Miami,35,Female,Inactive
+614,615,133,2025-01-26,Online,Costco,Clothing,299.88,Debit Card,Pending,Miami,68,Female,Active
+615,616,259,2025-01-26,ATM,Costco,Entertainment,938.62,Debit Card,Pending,Seattle,52,Other,Suspended
+616,617,23,2025-01-26,ATM,Target,Electronics,819.65,Debit Card,Approved,Miami,68,Female,Active
+617,618,53,2025-01-26,ATM,BestBuy,Travel,983.65,Credit Card,Pending,Los Angeles,46,Male,Inactive
+618,619,165,2025-01-26,ATM,Walmart,Travel,263.37,Credit Card,Approved,Chicago,53,Female,Active
+619,620,202,2025-01-26,POS,Amazon,Groceries,969.88,Credit Card,Declined,Los Angeles,30,Male,Inactive
+620,621,83,2025-01-26,ATM,Costco,Groceries,434.08,Credit Card,Pending,Houston,19,Male,Suspended
+621,622,145,2025-01-26,POS,eBay,Dining,350.78,Debit Card,Pending,Los Angeles,69,Female,Active
+622,623,85,2025-01-26,ATM,Costco,Electronics,55.1,Credit Card,Pending,Houston,32,Female,Inactive
+623,624,78,2025-01-26,POS,Costco,Groceries,57.5,Credit Card,Declined,Seattle,28,Male,Suspended
+624,625,1,2025-01-27,Online,Expedia,Groceries,693.55,Debit Card,Approved,Houston,66,Male,Inactive
+625,626,51,2025-01-27,POS,Target,Health,460.64,Debit Card,Declined,Houston,59,Other,Inactive
+626,627,173,2025-01-27,POS,Amazon,Electronics,230.39,Debit Card,Declined,San Francisco,56,Other,Inactive
+627,628,205,2025-01-27,ATM,Expedia,Dining,615.9,Credit Card,Pending,Los Angeles,43,Male,Active
+628,629,260,2025-01-27,POS,Expedia,Groceries,256.59,Debit Card,Approved,San Francisco,59,Male,Suspended
+629,630,288,2025-01-27,Online,eBay,Dining,579.74,Debit Card,Declined,Seattle,20,Other,Inactive
+630,631,34,2025-01-27,Online,BestBuy,Clothing,362.41,Credit Card,Pending,Chicago,56,Male,Suspended
+631,632,95,2025-01-27,ATM,eBay,Dining,824.43,Credit Card,Declined,Los Angeles,30,Female,Suspended
+632,633,72,2025-01-27,Online,BestBuy,Travel,821.59,Debit Card,Declined,Chicago,41,Other,Suspended
+633,634,39,2025-01-27,POS,BestBuy,Travel,479.96,Credit Card,Pending,Chicago,27,Other,Inactive
+634,635,154,2025-01-27,Online,Amazon,Dining,354.07,Debit Card,Pending,Houston,46,Male,Inactive
+635,636,250,2025-01-27,ATM,Costco,Travel,365.75,Debit Card,Approved,Los Angeles,42,Male,Inactive
+636,637,162,2025-01-27,POS,Amazon,Clothing,806.69,Credit Card,Declined,Chicago,39,Male,Inactive
+637,638,118,2025-01-27,ATM,Target,Electronics,331.54,Debit Card,Pending,Miami,60,Female,Active
+638,639,259,2025-01-27,POS,BestBuy,Travel,213.01,Credit Card,Pending,Chicago,52,Other,Suspended
+639,640,268,2025-01-27,Online,Expedia,Travel,89.26,Credit Card,Approved,Miami,59,Female,Inactive
+640,641,54,2025-01-27,ATM,Costco,Dining,469.36,Credit Card,Approved,Los Angeles,47,Male,Inactive
+641,642,236,2025-01-27,ATM,Walmart,Clothing,484.72,Debit Card,Pending,Seattle,41,Other,Active
+642,643,222,2025-01-27,POS,Target,Entertainment,841.7,Credit Card,Approved,San Francisco,60,Male,Inactive
+643,644,251,2025-01-27,ATM,Amazon,Entertainment,225.13,Credit Card,Pending,Los Angeles,32,Other,Active
+644,645,112,2025-01-27,POS,eBay,Entertainment,384.09,Debit Card,Declined,San Francisco,24,Female,Suspended
+645,646,255,2025-01-27,POS,Target,Entertainment,809.36,Debit Card,Approved,San Francisco,41,Male,Active
+646,647,207,2025-01-27,POS,Target,Electronics,824.51,Debit Card,Declined,Los Angeles,44,Other,Active
+647,648,229,2025-01-27,POS,Costco,Dining,387.69,Debit Card,Declined,Chicago,28,Female,Suspended
+648,649,66,2025-01-28,Online,Target,Dining,461.83,Credit Card,Declined,New York,30,Female,Inactive
+649,650,75,2025-01-28,POS,Target,Health,306.77,Credit Card,Pending,Chicago,29,Female,Suspended
+650,651,103,2025-01-28,ATM,Walmart,Clothing,932.89,Credit Card,Declined,Chicago,25,Female,Inactive
+651,652,192,2025-01-28,Online,eBay,Entertainment,123.05,Debit Card,Declined,Seattle,50,Male,Active
+652,653,252,2025-01-28,ATM,eBay,Electronics,934.08,Debit Card,Declined,Houston,43,Male,Suspended
+653,654,226,2025-01-28,Online,eBay,Clothing,685.45,Credit Card,Pending,Houston,38,Other,Suspended
+654,655,294,2025-01-28,POS,BestBuy,Entertainment,533.91,Debit Card,Declined,Chicago,32,Male,Active
+655,656,98,2025-01-28,Online,Expedia,Electronics,37.5,Debit Card,Declined,Miami,38,Other,Active
+656,657,286,2025-01-28,Online,eBay,Clothing,478.22,Credit Card,Approved,Seattle,55,Other,Active
+657,658,249,2025-01-28,ATM,Target,Dining,410.71,Credit Card,Pending,San Francisco,41,Other,Suspended
+658,659,166,2025-01-28,ATM,Target,Dining,165.41,Debit Card,Declined,Houston,23,Other,Suspended
+659,660,30,2025-01-28,POS,eBay,Groceries,658.13,Debit Card,Approved,Chicago,35,Female,Suspended
+660,661,247,2025-01-28,Online,Costco,Travel,971.3,Debit Card,Pending,Seattle,39,Female,Suspended
+661,662,106,2025-01-28,Online,eBay,Entertainment,564.38,Credit Card,Pending,New York,19,Male,Active
+662,663,51,2025-01-28,Online,Target,Health,716.18,Credit Card,Pending,Miami,59,Other,Inactive
+663,664,81,2025-01-28,POS,BestBuy,Clothing,73.11,Credit Card,Pending,Los Angeles,30,Other,Active
+664,665,133,2025-01-28,POS,Amazon,Health,420.58,Credit Card,Pending,Chicago,68,Female,Active
+665,666,285,2025-01-28,POS,Amazon,Groceries,120.78,Credit Card,Pending,Seattle,19,Other,Active
+666,667,138,2025-01-28,POS,eBay,Travel,614.73,Debit Card,Declined,Chicago,28,Female,Inactive
+667,668,184,2025-01-28,POS,Walmart,Clothing,938.79,Debit Card,Declined,San Francisco,37,Other,Inactive
+668,669,273,2025-01-28,ATM,eBay,Electronics,663.47,Debit Card,Declined,Miami,53,Female,Active
+669,670,69,2025-01-28,Online,Costco,Entertainment,81.42,Credit Card,Declined,Houston,59,Female,Active
+670,671,34,2025-01-28,Online,eBay,Travel,357.89,Credit Card,Approved,Houston,56,Male,Suspended
+671,672,262,2025-01-28,Online,Amazon,Dining,552.91,Credit Card,Declined,Houston,63,Other,Active
+672,673,53,2025-01-29,Online,Target,Groceries,406.19,Debit Card,Pending,Los Angeles,46,Male,Inactive
+673,674,205,2025-01-29,Online,eBay,Travel,834.48,Credit Card,Declined,Seattle,43,Male,Active
+674,675,126,2025-01-29,Online,Target,Entertainment,815.6,Credit Card,Declined,Miami,45,Other,Inactive
+675,676,235,2025-01-29,Online,Target,Travel,613.77,Debit Card,Pending,Miami,53,Male,Suspended
+676,677,43,2025-01-29,Online,Walmart,Entertainment,376.59,Credit Card,Declined,Houston,66,Female,Active
+677,678,240,2025-01-29,ATM,Target,Dining,259.06,Debit Card,Declined,Houston,44,Male,Active
+678,679,111,2025-01-29,Online,Amazon,Clothing,110.34,Credit Card,Declined,San Francisco,43,Other,Inactive
+679,680,249,2025-01-29,ATM,BestBuy,Electronics,358.12,Credit Card,Approved,New York,41,Other,Suspended
+680,681,151,2025-01-29,POS,BestBuy,Dining,416.11,Debit Card,Declined,New York,44,Other,Inactive
+681,682,183,2025-01-29,Online,Expedia,Electronics,677.44,Debit Card,Pending,Chicago,33,Male,Active
+682,683,95,2025-01-29,POS,Costco,Clothing,659.87,Debit Card,Pending,Chicago,30,Female,Suspended
+683,684,8,2025-01-29,POS,eBay,Travel,74.76,Debit Card,Declined,Miami,23,Male,Inactive
+684,685,184,2025-01-29,POS,Costco,Electronics,398.28,Debit Card,Declined,Miami,37,Other,Inactive
+685,686,281,2025-01-29,ATM,Amazon,Groceries,185.87,Debit Card,Declined,Los Angeles,26,Female,Suspended
+686,687,195,2025-01-29,POS,Target,Groceries,161.03,Credit Card,Pending,Los Angeles,39,Female,Active
+687,688,195,2025-01-29,POS,BestBuy,Entertainment,828.17,Credit Card,Pending,New York,39,Female,Active
+688,689,155,2025-01-29,POS,Costco,Dining,46.71,Debit Card,Approved,Chicago,53,Male,Suspended
+689,690,93,2025-01-29,Online,Amazon,Clothing,422.09,Credit Card,Approved,New York,33,Male,Suspended
+690,691,160,2025-01-29,Online,BestBuy,Entertainment,172.36,Debit Card,Approved,New York,42,Other,Suspended
+691,692,61,2025-01-29,ATM,Target,Dining,879.93,Credit Card,Pending,Chicago,29,Other,Suspended
+692,693,122,2025-01-29,ATM,Costco,Dining,559.26,Debit Card,Approved,Seattle,21,Female,Active
+693,694,51,2025-01-29,Online,BestBuy,Entertainment,235.22,Credit Card,Declined,Los Angeles,59,Other,Inactive
+694,695,277,2025-01-29,ATM,eBay,Health,504.92,Credit Card,Declined,San Francisco,30,Female,Suspended
+695,696,5,2025-01-29,Online,eBay,Dining,732.83,Credit Card,Pending,San Francisco,27,Other,Suspended
+696,697,92,2025-01-30,POS,Expedia,Health,958.33,Credit Card,Approved,San Francisco,19,Male,Suspended
+697,698,170,2025-01-30,POS,Expedia,Groceries,224.34,Credit Card,Declined,Chicago,54,Male,Suspended
+698,699,22,2025-01-30,ATM,BestBuy,Groceries,886.75,Debit Card,Pending,Houston,35,Other,Inactive
+699,700,1,2025-01-30,Online,Amazon,Dining,934.63,Debit Card,Approved,Houston,66,Male,Inactive
+700,701,133,2025-01-30,Online,eBay,Groceries,916.84,Debit Card,Declined,Houston,68,Female,Active
+701,702,233,2025-01-30,ATM,Amazon,Clothing,637.24,Credit Card,Approved,Miami,60,Female,Suspended
+702,703,12,2025-01-30,Online,Amazon,Health,631.67,Debit Card,Pending,Los Angeles,53,Female,Suspended
+703,704,46,2025-01-30,POS,BestBuy,Health,406.19,Credit Card,Approved,Los Angeles,54,Female,Active
+704,705,34,2025-01-30,ATM,Amazon,Dining,753.64,Credit Card,Pending,Seattle,56,Male,Suspended
+705,706,78,2025-01-30,ATM,eBay,Groceries,533.64,Credit Card,Approved,Seattle,28,Male,Suspended
+706,707,218,2025-01-30,Online,Target,Electronics,679.05,Debit Card,Declined,Miami,29,Male,Suspended
+707,708,73,2025-01-30,ATM,Expedia,Entertainment,431.32,Credit Card,Pending,New York,33,Male,Active
+708,709,282,2025-01-30,Online,Target,Entertainment,732.84,Debit Card,Pending,Seattle,48,Female,Active
+709,710,249,2025-01-30,Online,Amazon,Health,825.35,Debit Card,Pending,San Francisco,41,Other,Suspended
+710,711,47,2025-01-30,Online,Target,Dining,150.7,Credit Card,Approved,Houston,69,Male,Inactive
+711,712,121,2025-01-30,Online,eBay,Dining,833.77,Credit Card,Approved,San Francisco,36,Male,Active
+712,713,214,2025-01-30,Online,eBay,Clothing,542.6,Debit Card,Declined,Houston,47,Male,Active
+713,714,239,2025-01-30,ATM,Amazon,Travel,845.44,Debit Card,Pending,San Francisco,40,Other,Active
+714,715,56,2025-01-30,POS,BestBuy,Travel,434.15,Debit Card,Pending,New York,50,Female,Active
+715,716,107,2025-01-30,POS,Target,Health,382.15,Debit Card,Approved,San Francisco,58,Male,Suspended
+716,717,48,2025-01-30,ATM,BestBuy,Entertainment,915.49,Debit Card,Approved,San Francisco,41,Male,Inactive
+717,718,61,2025-01-30,ATM,BestBuy,Clothing,254.91,Debit Card,Declined,Chicago,29,Other,Suspended
+718,719,26,2025-01-30,POS,Walmart,Clothing,844.99,Credit Card,Declined,San Francisco,23,Other,Inactive
+719,720,292,2025-01-30,POS,Amazon,Clothing,486.6,Debit Card,Approved,Chicago,20,Male,Suspended
+720,721,257,2025-01-31,POS,Expedia,Health,516.52,Debit Card,Pending,Los Angeles,55,Female,Inactive
+721,722,8,2025-01-31,POS,eBay,Travel,311.93,Debit Card,Declined,Miami,23,Male,Inactive
+722,723,113,2025-01-31,POS,eBay,Entertainment,575.18,Debit Card,Approved,San Francisco,56,Male,Suspended
+723,724,253,2025-01-31,Online,Amazon,Clothing,328.59,Credit Card,Approved,Los Angeles,25,Female,Active
+724,725,180,2025-01-31,ATM,Costco,Entertainment,44.07,Credit Card,Pending,Seattle,63,Male,Inactive
+725,726,207,2025-01-31,Online,Costco,Groceries,275.64,Debit Card,Approved,Seattle,44,Other,Active
+726,727,127,2025-01-31,POS,Costco,Dining,11.35,Debit Card,Approved,Chicago,47,Male,Inactive
+727,728,56,2025-01-31,POS,Expedia,Dining,978.46,Debit Card,Declined,San Francisco,50,Female,Active
+728,729,214,2025-01-31,POS,eBay,Entertainment,965.92,Credit Card,Approved,San Francisco,47,Male,Active
+729,730,14,2025-01-31,Online,Amazon,Electronics,398.18,Credit Card,Approved,New York,34,Female,Suspended
+730,731,28,2025-01-31,Online,eBay,Electronics,729.73,Credit Card,Declined,Los Angeles,25,Other,Active
+731,732,78,2025-01-31,POS,BestBuy,Health,349.08,Credit Card,Pending,Houston,28,Male,Suspended
+732,733,216,2025-01-31,Online,Target,Health,672.74,Credit Card,Pending,Houston,65,Female,Active
+733,734,154,2025-01-31,Online,Target,Dining,806.4,Credit Card,Declined,New York,46,Male,Inactive
+734,735,14,2025-01-31,POS,eBay,Groceries,947.02,Debit Card,Declined,Chicago,34,Female,Suspended
+735,736,187,2025-01-31,Online,Walmart,Travel,403.21,Credit Card,Pending,Houston,25,Female,Suspended
+736,737,7,2025-01-31,ATM,Expedia,Travel,784.38,Credit Card,Pending,Houston,55,Female,Active
+737,738,3,2025-01-31,ATM,Costco,Health,269.6,Debit Card,Pending,Seattle,40,Female,Suspended
+738,739,111,2025-01-31,ATM,Expedia,Groceries,990.38,Credit Card,Pending,Seattle,43,Other,Inactive
+739,740,238,2025-01-31,ATM,Expedia,Health,30.64,Debit Card,Pending,Miami,60,Male,Suspended
+740,741,239,2025-01-31,POS,BestBuy,Travel,605.51,Credit Card,Declined,Los Angeles,40,Other,Active
+741,742,274,2025-01-31,POS,Expedia,Entertainment,661.21,Debit Card,Approved,Chicago,69,Female,Active
+742,743,294,2025-01-31,POS,Target,Health,689.61,Debit Card,Pending,San Francisco,32,Male,Active
+743,744,227,2025-01-31,ATM,BestBuy,Clothing,124.79,Debit Card,Pending,Los Angeles,40,Male,Active
+744,745,15,2025-02-01,ATM,Amazon,Entertainment,938.84,Debit Card,Approved,Chicago,57,Female,Active
+745,746,192,2025-02-01,Online,Expedia,Health,185.28,Debit Card,Approved,Houston,50,Male,Active
+746,747,119,2025-02-01,Online,Expedia,Dining,624.64,Credit Card,Approved,Miami,56,Male,Suspended
+747,748,28,2025-02-01,ATM,Amazon,Health,226.56,Credit Card,Approved,Los Angeles,25,Other,Active
+748,749,202,2025-02-01,ATM,Expedia,Dining,310.68,Debit Card,Approved,Houston,30,Male,Inactive
+749,750,39,2025-02-01,ATM,Amazon,Groceries,548.73,Debit Card,Approved,Chicago,27,Other,Inactive
+750,751,273,2025-02-01,ATM,BestBuy,Travel,420.11,Debit Card,Declined,Los Angeles,53,Female,Active
+751,752,231,2025-02-01,Online,Target,Entertainment,164.42,Credit Card,Approved,San Francisco,27,Female,Active
+752,753,86,2025-02-01,ATM,Amazon,Entertainment,175.08,Debit Card,Approved,Los Angeles,28,Female,Inactive
+753,754,126,2025-02-01,Online,Walmart,Electronics,421.05,Debit Card,Declined,Houston,45,Other,Inactive
+754,755,300,2025-02-01,ATM,Amazon,Electronics,758.5,Debit Card,Approved,Los Angeles,64,Male,Inactive
+755,756,25,2025-02-01,ATM,Expedia,Travel,898.47,Debit Card,Pending,San Francisco,64,Male,Suspended
+756,757,145,2025-02-01,ATM,Costco,Electronics,88.71,Credit Card,Pending,Miami,69,Female,Active
+757,758,13,2025-02-01,Online,Costco,Entertainment,396.14,Debit Card,Approved,Miami,54,Other,Active
+758,759,212,2025-02-01,Online,BestBuy,Health,104.74,Debit Card,Declined,Houston,68,Female,Suspended
+759,760,25,2025-02-01,POS,eBay,Groceries,21.51,Credit Card,Pending,Chicago,64,Male,Suspended
+760,761,68,2025-02-01,ATM,BestBuy,Groceries,663.41,Debit Card,Declined,Houston,36,Female,Active
+761,762,67,2025-02-01,POS,eBay,Travel,604.44,Debit Card,Pending,Miami,40,Other,Inactive
+762,763,233,2025-02-01,POS,Costco,Electronics,167.2,Credit Card,Approved,New York,60,Female,Suspended
+763,764,109,2025-02-01,Online,Costco,Health,237.64,Credit Card,Declined,New York,41,Male,Active
+764,765,146,2025-02-01,Online,Amazon,Groceries,28.59,Credit Card,Declined,Los Angeles,20,Male,Inactive
+765,766,111,2025-02-01,POS,Target,Groceries,835.77,Debit Card,Declined,San Francisco,43,Other,Inactive
+766,767,228,2025-02-01,ATM,Walmart,Clothing,974.82,Debit Card,Pending,Seattle,37,Male,Inactive
+767,768,111,2025-02-01,Online,BestBuy,Clothing,139.78,Credit Card,Pending,Seattle,43,Other,Inactive
+768,769,34,2025-02-02,ATM,Expedia,Entertainment,235.32,Credit Card,Pending,Seattle,56,Male,Suspended
+769,770,111,2025-02-02,ATM,eBay,Groceries,869.07,Credit Card,Approved,Los Angeles,43,Other,Inactive
+770,771,264,2025-02-02,POS,Expedia,Travel,926.83,Debit Card,Pending,New York,29,Female,Active
+771,772,236,2025-02-02,POS,Target,Dining,422.53,Debit Card,Approved,Miami,41,Other,Active
+772,773,83,2025-02-02,POS,eBay,Dining,55.37,Credit Card,Declined,Los Angeles,19,Male,Suspended
+773,774,42,2025-02-02,POS,BestBuy,Health,44.19,Debit Card,Declined,Seattle,18,Female,Suspended
+774,775,101,2025-02-02,Online,Amazon,Groceries,576.08,Credit Card,Approved,Seattle,24,Female,Suspended
+775,776,6,2025-02-02,Online,Expedia,Groceries,395.93,Debit Card,Pending,Houston,28,Female,Active
+776,777,180,2025-02-02,POS,Target,Entertainment,33.51,Debit Card,Approved,Seattle,63,Male,Inactive
+777,778,282,2025-02-02,Online,BestBuy,Groceries,585.34,Debit Card,Declined,San Francisco,48,Female,Active
+778,779,226,2025-02-02,POS,Costco,Travel,16.25,Debit Card,Declined,Seattle,38,Other,Suspended
+779,780,229,2025-02-02,ATM,Costco,Clothing,788.44,Credit Card,Approved,Houston,28,Female,Suspended
+780,781,289,2025-02-02,ATM,BestBuy,Groceries,309.9,Debit Card,Pending,Seattle,60,Other,Inactive
+781,782,150,2025-02-02,ATM,BestBuy,Groceries,45.06,Debit Card,Pending,San Francisco,48,Other,Active
+782,783,277,2025-02-02,POS,BestBuy,Entertainment,590.41,Credit Card,Approved,Miami,30,Female,Suspended
+783,784,198,2025-02-02,ATM,eBay,Electronics,400.7,Debit Card,Approved,Los Angeles,39,Other,Active
+784,785,70,2025-02-02,Online,BestBuy,Entertainment,973.93,Credit Card,Pending,San Francisco,54,Female,Suspended
+785,786,112,2025-02-02,ATM,Expedia,Entertainment,546.48,Credit Card,Declined,Houston,24,Female,Suspended
+786,787,4,2025-02-02,ATM,Target,Travel,278.86,Debit Card,Approved,Los Angeles,49,Other,Inactive
+787,788,95,2025-02-02,ATM,eBay,Health,710.89,Debit Card,Pending,Los Angeles,30,Female,Suspended
+788,789,152,2025-02-02,Online,BestBuy,Groceries,275.13,Credit Card,Pending,Houston,34,Other,Inactive
+789,790,137,2025-02-02,POS,Walmart,Entertainment,904.72,Credit Card,Declined,New York,45,Male,Active
+790,791,247,2025-02-02,Online,Walmart,Entertainment,377.85,Credit Card,Declined,Seattle,39,Female,Suspended
+791,792,243,2025-02-02,POS,Target,Electronics,552.12,Debit Card,Declined,San Francisco,23,Male,Active
+792,793,31,2025-02-03,POS,Costco,Entertainment,55.32,Credit Card,Declined,Houston,69,Male,Inactive
+793,794,40,2025-02-03,ATM,Amazon,Dining,428.99,Credit Card,Declined,Miami,24,Male,Active
+794,795,229,2025-02-03,POS,Amazon,Health,833.2,Credit Card,Approved,Chicago,28,Female,Suspended
+795,796,36,2025-02-03,Online,Costco,Groceries,806.62,Debit Card,Pending,Houston,66,Male,Active
+796,797,223,2025-02-03,Online,eBay,Groceries,228.2,Credit Card,Approved,Seattle,34,Other,Inactive
+797,798,6,2025-02-03,POS,eBay,Electronics,229.95,Debit Card,Approved,Seattle,28,Female,Active
+798,799,220,2025-02-03,ATM,eBay,Travel,818.22,Debit Card,Approved,Los Angeles,61,Male,Inactive
+799,800,75,2025-02-03,ATM,Amazon,Groceries,930.75,Credit Card,Approved,Los Angeles,29,Female,Suspended
+800,801,4,2025-02-03,Online,Walmart,Dining,99.88,Debit Card,Approved,Houston,49,Other,Inactive
+801,802,134,2025-02-03,ATM,Amazon,Groceries,452.81,Credit Card,Declined,Chicago,23,Male,Active
+802,803,118,2025-02-03,POS,Expedia,Dining,340.77,Debit Card,Declined,Houston,60,Female,Active
+803,804,94,2025-02-03,POS,BestBuy,Health,871.34,Debit Card,Pending,Chicago,56,Male,Suspended
+804,805,62,2025-02-03,Online,eBay,Health,88.11,Credit Card,Approved,Chicago,52,Other,Inactive
+805,806,194,2025-02-03,POS,Walmart,Clothing,215.07,Credit Card,Pending,Seattle,32,Other,Suspended
+806,807,203,2025-02-03,Online,Target,Clothing,753.71,Credit Card,Declined,Seattle,50,Male,Inactive
+807,808,26,2025-02-03,POS,Target,Dining,56.04,Debit Card,Declined,Seattle,23,Other,Inactive
+808,809,173,2025-02-03,Online,BestBuy,Travel,495.07,Debit Card,Declined,Miami,56,Other,Inactive
+809,810,300,2025-02-03,ATM,Walmart,Groceries,444.9,Credit Card,Approved,Seattle,64,Male,Inactive
+810,811,133,2025-02-03,POS,Amazon,Entertainment,337.73,Credit Card,Approved,San Francisco,68,Female,Active
+811,812,118,2025-02-03,POS,Amazon,Groceries,397.6,Debit Card,Declined,Los Angeles,60,Female,Active
+812,813,275,2025-02-03,Online,Expedia,Clothing,532.29,Debit Card,Pending,Los Angeles,48,Male,Suspended
+813,814,212,2025-02-03,Online,Expedia,Entertainment,165.56,Debit Card,Pending,Chicago,68,Female,Suspended
+814,815,225,2025-02-03,POS,Amazon,Dining,574.14,Credit Card,Declined,Los Angeles,66,Male,Inactive
+815,816,20,2025-02-03,Online,Target,Entertainment,806.41,Debit Card,Pending,New York,36,Female,Active
+816,817,113,2025-02-04,POS,eBay,Groceries,761.36,Credit Card,Declined,Chicago,56,Male,Suspended
+817,818,140,2025-02-04,ATM,Target,Groceries,158.13,Debit Card,Pending,Los Angeles,18,Male,Inactive
+818,819,47,2025-02-04,Online,Expedia,Travel,153.5,Debit Card,Declined,New York,69,Male,Inactive
+819,820,1,2025-02-04,POS,BestBuy,Electronics,271.83,Credit Card,Pending,Miami,66,Male,Inactive
+820,821,90,2025-02-04,ATM,Amazon,Entertainment,364.27,Credit Card,Approved,Los Angeles,28,Male,Suspended
+821,822,142,2025-02-04,ATM,Expedia,Clothing,411.41,Credit Card,Declined,New York,54,Male,Active
+822,823,38,2025-02-04,POS,Expedia,Clothing,681.3,Debit Card,Declined,Houston,62,Other,Inactive
+823,824,293,2025-02-04,Online,eBay,Electronics,61.4,Debit Card,Pending,San Francisco,28,Female,Active
+824,825,139,2025-02-04,POS,Amazon,Groceries,39.5,Debit Card,Declined,Houston,50,Other,Inactive
+825,826,259,2025-02-04,ATM,eBay,Travel,394.95,Credit Card,Declined,New York,52,Other,Suspended
+826,827,161,2025-02-04,POS,Amazon,Travel,698.68,Debit Card,Declined,Chicago,19,Other,Active
+827,828,178,2025-02-04,Online,eBay,Clothing,197.47,Credit Card,Approved,Seattle,34,Male,Inactive
+828,829,10,2025-02-04,ATM,Target,Travel,643.3,Credit Card,Approved,Seattle,64,Female,Inactive
+829,830,261,2025-02-04,POS,BestBuy,Health,263.53,Credit Card,Pending,Seattle,18,Female,Suspended
+830,831,138,2025-02-04,Online,BestBuy,Electronics,886.66,Debit Card,Approved,Chicago,28,Female,Inactive
+831,832,172,2025-02-04,ATM,Amazon,Groceries,896.21,Debit Card,Pending,Los Angeles,43,Male,Active
+832,833,13,2025-02-04,Online,Walmart,Health,300.8,Credit Card,Approved,Seattle,54,Other,Active
+833,834,168,2025-02-04,ATM,Costco,Electronics,233.84,Debit Card,Pending,Houston,38,Other,Suspended
+834,835,130,2025-02-04,POS,Expedia,Dining,414.25,Credit Card,Approved,Chicago,42,Male,Inactive
+835,836,84,2025-02-04,Online,Expedia,Entertainment,244.33,Credit Card,Approved,Chicago,56,Female,Inactive
+836,837,101,2025-02-04,ATM,Amazon,Clothing,674.02,Debit Card,Pending,Seattle,24,Female,Suspended
+837,838,273,2025-02-04,Online,eBay,Travel,826.93,Credit Card,Declined,Houston,53,Female,Active
+838,839,265,2025-02-04,Online,Walmart,Dining,674.73,Credit Card,Declined,Miami,55,Other,Suspended
+839,840,38,2025-02-04,POS,Target,Travel,825.23,Debit Card,Approved,Chicago,62,Other,Inactive
+840,841,94,2025-02-05,Online,eBay,Health,400.01,Credit Card,Pending,Seattle,56,Male,Suspended
+841,842,95,2025-02-05,ATM,eBay,Groceries,160.54,Credit Card,Declined,San Francisco,30,Female,Suspended
+842,843,69,2025-02-05,ATM,Amazon,Groceries,739.26,Credit Card,Pending,New York,59,Female,Active
+843,844,236,2025-02-05,ATM,Amazon,Groceries,363.67,Credit Card,Declined,Los Angeles,41,Other,Active
+844,845,137,2025-02-05,ATM,Expedia,Travel,672.91,Credit Card,Pending,Chicago,45,Male,Active
+845,846,76,2025-02-05,POS,Amazon,Dining,274.29,Credit Card,Approved,San Francisco,51,Female,Active
+846,847,35,2025-02-05,Online,Amazon,Groceries,85.82,Credit Card,Pending,San Francisco,66,Female,Suspended
+847,848,1,2025-02-05,POS,Amazon,Dining,992.62,Debit Card,Declined,Chicago,66,Male,Inactive
+848,849,296,2025-02-05,Online,Expedia,Travel,160.42,Debit Card,Approved,Miami,69,Female,Suspended
+849,850,60,2025-02-05,Online,Target,Health,988.48,Credit Card,Pending,New York,26,Male,Suspended
+850,851,267,2025-02-05,Online,Target,Dining,977.39,Credit Card,Declined,Los Angeles,29,Female,Active
+851,852,229,2025-02-05,POS,Costco,Health,794.85,Debit Card,Approved,Chicago,28,Female,Suspended
+852,853,270,2025-02-05,Online,Costco,Travel,661.13,Debit Card,Pending,Los Angeles,56,Female,Inactive
+853,854,286,2025-02-05,POS,Amazon,Travel,579.92,Debit Card,Declined,Houston,55,Other,Active
+854,855,291,2025-02-05,ATM,Costco,Clothing,866.77,Debit Card,Pending,San Francisco,23,Other,Active
+855,856,213,2025-02-05,ATM,Expedia,Travel,292.99,Debit Card,Pending,San Francisco,66,Other,Active
+856,857,165,2025-02-05,Online,Target,Travel,470.34,Credit Card,Approved,Chicago,53,Female,Active
+857,858,5,2025-02-05,POS,eBay,Electronics,621.29,Debit Card,Approved,Chicago,27,Other,Suspended
+858,859,78,2025-02-05,ATM,Target,Groceries,414.13,Debit Card,Declined,Houston,28,Male,Suspended
+859,860,62,2025-02-05,POS,Target,Clothing,430.35,Debit Card,Approved,Miami,52,Other,Inactive
+860,861,132,2025-02-05,POS,Expedia,Entertainment,333.63,Credit Card,Declined,Chicago,18,Male,Suspended
+861,862,89,2025-02-05,Online,Costco,Clothing,566.41,Credit Card,Pending,San Francisco,21,Male,Active
+862,863,237,2025-02-05,ATM,eBay,Clothing,851.32,Credit Card,Pending,Los Angeles,29,Other,Suspended
+863,864,42,2025-02-05,Online,Expedia,Entertainment,205.52,Credit Card,Declined,New York,18,Female,Suspended
+864,865,89,2025-02-06,Online,Amazon,Electronics,934.76,Credit Card,Pending,Seattle,21,Male,Active
+865,866,296,2025-02-06,ATM,BestBuy,Health,690.64,Credit Card,Approved,Los Angeles,69,Female,Suspended
+866,867,295,2025-02-06,ATM,Target,Travel,824.16,Debit Card,Pending,Miami,62,Female,Active
+867,868,104,2025-02-06,POS,BestBuy,Groceries,558.41,Credit Card,Approved,New York,30,Other,Inactive
+868,869,14,2025-02-06,ATM,Expedia,Dining,780.62,Credit Card,Declined,Los Angeles,34,Female,Suspended
+869,870,288,2025-02-06,POS,Expedia,Entertainment,21.12,Debit Card,Declined,Los Angeles,20,Other,Inactive
+870,871,179,2025-02-06,POS,Expedia,Health,819.29,Credit Card,Pending,Houston,38,Female,Suspended
+871,872,125,2025-02-06,POS,BestBuy,Entertainment,44.94,Debit Card,Pending,Seattle,54,Female,Inactive
+872,873,23,2025-02-06,ATM,Expedia,Travel,890.46,Debit Card,Approved,Miami,68,Female,Active
+873,874,63,2025-02-06,Online,Amazon,Electronics,992.0,Credit Card,Approved,San Francisco,21,Female,Inactive
+874,875,143,2025-02-06,POS,Expedia,Entertainment,297.6,Debit Card,Pending,Houston,37,Other,Inactive
+875,876,153,2025-02-06,Online,Walmart,Travel,214.27,Debit Card,Pending,New York,63,Male,Active
+876,877,145,2025-02-06,Online,Costco,Travel,766.54,Debit Card,Declined,Seattle,69,Female,Active
+877,878,225,2025-02-06,ATM,BestBuy,Electronics,256.76,Debit Card,Declined,San Francisco,66,Male,Inactive
+878,879,104,2025-02-06,Online,Walmart,Clothing,866.23,Credit Card,Declined,Houston,30,Other,Inactive
+879,880,104,2025-02-06,Online,Expedia,Clothing,107.33,Debit Card,Pending,Seattle,30,Other,Inactive
+880,881,39,2025-02-06,ATM,Amazon,Groceries,130.33,Credit Card,Pending,Miami,27,Other,Inactive
+881,882,198,2025-02-06,POS,Target,Groceries,979.26,Debit Card,Pending,Chicago,39,Other,Active
+882,883,134,2025-02-06,Online,eBay,Clothing,675.47,Debit Card,Declined,Chicago,23,Male,Active
+883,884,67,2025-02-06,ATM,Costco,Health,847.65,Debit Card,Pending,New York,40,Other,Inactive
+884,885,179,2025-02-06,Online,eBay,Dining,327.71,Credit Card,Approved,Chicago,38,Female,Suspended
+885,886,42,2025-02-06,Online,Expedia,Travel,678.1,Credit Card,Pending,Houston,18,Female,Suspended
+886,887,15,2025-02-06,POS,Costco,Dining,596.27,Credit Card,Pending,New York,57,Female,Active
+887,888,111,2025-02-06,Online,Costco,Travel,605.13,Debit Card,Pending,San Francisco,43,Other,Inactive
+888,889,157,2025-02-07,ATM,Amazon,Clothing,684.12,Debit Card,Pending,Miami,43,Female,Inactive
+889,890,289,2025-02-07,Online,Costco,Groceries,577.48,Debit Card,Pending,New York,60,Other,Inactive
+890,891,231,2025-02-07,POS,BestBuy,Health,431.92,Debit Card,Approved,San Francisco,27,Female,Active
+891,892,157,2025-02-07,POS,Walmart,Groceries,279.54,Credit Card,Approved,New York,43,Female,Inactive
+892,893,38,2025-02-07,ATM,Walmart,Dining,769.74,Debit Card,Pending,Los Angeles,62,Other,Inactive
+893,894,97,2025-02-07,POS,Walmart,Groceries,230.14,Credit Card,Declined,Los Angeles,34,Female,Inactive
+894,895,289,2025-02-07,Online,BestBuy,Clothing,693.89,Debit Card,Pending,New York,60,Other,Inactive
+895,896,254,2025-02-07,POS,eBay,Health,237.17,Credit Card,Pending,Seattle,68,Male,Inactive
+896,897,196,2025-02-07,ATM,Amazon,Dining,627.2,Credit Card,Pending,Chicago,27,Female,Suspended
+897,898,86,2025-02-07,POS,Costco,Health,748.34,Debit Card,Declined,Los Angeles,28,Female,Inactive
+898,899,10,2025-02-07,POS,BestBuy,Travel,222.62,Debit Card,Declined,Seattle,64,Female,Inactive
+899,900,5,2025-02-07,POS,Walmart,Groceries,64.64,Credit Card,Declined,Seattle,27,Other,Suspended
+900,901,123,2025-02-07,ATM,Expedia,Health,135.32,Debit Card,Approved,Miami,23,Female,Active
+901,902,118,2025-02-07,POS,Target,Electronics,607.97,Debit Card,Declined,San Francisco,60,Female,Active
+902,903,294,2025-02-07,POS,Costco,Groceries,850.2,Credit Card,Approved,Houston,32,Male,Active
+903,904,159,2025-02-07,Online,BestBuy,Travel,49.77,Credit Card,Approved,Los Angeles,39,Other,Suspended
+904,905,228,2025-02-07,ATM,BestBuy,Health,735.48,Credit Card,Declined,New York,37,Male,Inactive
+905,906,216,2025-02-07,POS,Amazon,Dining,344.61,Credit Card,Declined,Chicago,65,Female,Active
+906,907,184,2025-02-07,ATM,Amazon,Travel,481.14,Debit Card,Declined,Houston,37,Other,Inactive
+907,908,15,2025-02-07,POS,BestBuy,Electronics,929.22,Credit Card,Approved,San Francisco,57,Female,Active
+908,909,157,2025-02-07,POS,Walmart,Health,335.31,Credit Card,Pending,Seattle,43,Female,Inactive
+909,910,136,2025-02-07,POS,Target,Entertainment,468.01,Credit Card,Declined,San Francisco,27,Female,Inactive
+910,911,261,2025-02-07,Online,Costco,Entertainment,18.61,Debit Card,Declined,Los Angeles,18,Female,Suspended
+911,912,157,2025-02-07,Online,Amazon,Clothing,86.19,Credit Card,Declined,San Francisco,43,Female,Inactive
+912,913,47,2025-02-08,Online,Costco,Groceries,262.3,Debit Card,Approved,San Francisco,69,Male,Inactive
+913,914,173,2025-02-08,ATM,Walmart,Dining,32.71,Credit Card,Approved,Chicago,56,Other,Inactive
+914,915,130,2025-02-08,ATM,Costco,Clothing,633.22,Credit Card,Pending,Seattle,42,Male,Inactive
+915,916,95,2025-02-08,Online,Expedia,Health,429.27,Debit Card,Declined,Chicago,30,Female,Suspended
+916,917,115,2025-02-08,ATM,Amazon,Entertainment,550.4,Credit Card,Approved,Chicago,23,Male,Suspended
+917,918,243,2025-02-08,POS,Walmart,Entertainment,178.77,Credit Card,Pending,New York,23,Male,Active
+918,919,292,2025-02-08,POS,Walmart,Entertainment,299.45,Debit Card,Declined,San Francisco,20,Male,Suspended
+919,920,282,2025-02-08,POS,Target,Health,665.51,Credit Card,Approved,San Francisco,48,Female,Active
+920,921,299,2025-02-08,Online,Target,Entertainment,965.48,Credit Card,Declined,San Francisco,55,Female,Inactive
+921,922,283,2025-02-08,ATM,Expedia,Travel,55.16,Credit Card,Declined,Miami,58,Male,Inactive
+922,923,69,2025-02-08,Online,Walmart,Health,890.93,Credit Card,Approved,Chicago,59,Female,Active
+923,924,148,2025-02-08,ATM,eBay,Dining,579.0,Debit Card,Approved,Houston,58,Male,Suspended
+924,925,11,2025-02-08,POS,Walmart,Clothing,566.1,Credit Card,Approved,Los Angeles,51,Other,Suspended
+925,926,254,2025-02-08,Online,Target,Dining,502.78,Debit Card,Declined,Seattle,68,Male,Inactive
+926,927,38,2025-02-08,ATM,eBay,Electronics,74.05,Credit Card,Declined,Houston,62,Other,Inactive
+927,928,134,2025-02-08,ATM,Amazon,Entertainment,94.43,Debit Card,Pending,Seattle,23,Male,Active
+928,929,200,2025-02-08,POS,Amazon,Electronics,602.91,Credit Card,Declined,New York,66,Male,Active
+929,930,23,2025-02-08,Online,Costco,Groceries,344.25,Debit Card,Approved,New York,68,Female,Active
+930,931,218,2025-02-08,Online,BestBuy,Groceries,917.68,Credit Card,Declined,Seattle,29,Male,Suspended
+931,932,141,2025-02-08,Online,Target,Electronics,409.56,Debit Card,Pending,San Francisco,30,Other,Inactive
+932,933,104,2025-02-08,POS,BestBuy,Health,147.57,Debit Card,Pending,Houston,30,Other,Inactive
+933,934,210,2025-02-08,Online,eBay,Dining,716.15,Credit Card,Approved,San Francisco,20,Female,Suspended
+934,935,111,2025-02-08,POS,Target,Electronics,296.89,Debit Card,Approved,Miami,43,Other,Inactive
+935,936,104,2025-02-08,POS,Expedia,Groceries,527.84,Credit Card,Pending,New York,30,Other,Inactive
+936,937,171,2025-02-09,POS,Walmart,Electronics,699.34,Credit Card,Pending,New York,42,Male,Inactive
+937,938,133,2025-02-09,ATM,Expedia,Health,900.76,Credit Card,Pending,Houston,68,Female,Active
+938,939,293,2025-02-09,Online,eBay,Electronics,793.23,Credit Card,Approved,New York,28,Female,Active
+939,940,127,2025-02-09,Online,Target,Dining,677.98,Credit Card,Pending,Miami,47,Male,Inactive
+940,941,106,2025-02-09,POS,eBay,Clothing,681.24,Debit Card,Pending,Miami,19,Male,Active
+941,942,92,2025-02-09,POS,Walmart,Health,946.2,Credit Card,Approved,Miami,19,Male,Suspended
+942,943,287,2025-02-09,Online,Amazon,Groceries,299.34,Credit Card,Declined,Los Angeles,32,Female,Suspended
+943,944,51,2025-02-09,POS,Amazon,Dining,6.11,Credit Card,Declined,Miami,59,Other,Inactive
+944,945,29,2025-02-09,Online,eBay,Electronics,275.59,Credit Card,Pending,Miami,65,Female,Suspended
+945,946,296,2025-02-09,ATM,BestBuy,Electronics,221.8,Credit Card,Declined,Los Angeles,69,Female,Suspended
+946,947,297,2025-02-09,POS,Target,Clothing,663.53,Credit Card,Declined,San Francisco,45,Female,Active
+947,948,214,2025-02-09,Online,Target,Groceries,635.54,Debit Card,Declined,Chicago,47,Male,Active
+948,949,267,2025-02-09,POS,Amazon,Groceries,595.49,Debit Card,Declined,New York,29,Female,Active
+949,950,257,2025-02-09,Online,Costco,Travel,21.16,Credit Card,Pending,Miami,55,Female,Inactive
+950,951,101,2025-02-09,Online,Expedia,Groceries,730.13,Debit Card,Declined,New York,24,Female,Suspended
+951,952,110,2025-02-09,POS,Costco,Clothing,326.91,Credit Card,Declined,Houston,23,Other,Suspended
+952,953,182,2025-02-09,ATM,Walmart,Entertainment,666.73,Credit Card,Approved,New York,63,Female,Active
+953,954,1,2025-02-09,Online,Expedia,Travel,558.8,Credit Card,Pending,Seattle,66,Male,Inactive
+954,955,55,2025-02-09,Online,Expedia,Travel,346.02,Credit Card,Approved,San Francisco,24,Male,Active
+955,956,149,2025-02-09,Online,eBay,Electronics,138.9,Credit Card,Approved,Los Angeles,31,Male,Active
+956,957,137,2025-02-09,ATM,Amazon,Electronics,98.95,Debit Card,Pending,New York,45,Male,Active
+957,958,202,2025-02-09,ATM,Costco,Groceries,832.36,Debit Card,Declined,New York,30,Male,Inactive
+958,959,117,2025-02-09,POS,Costco,Travel,918.81,Debit Card,Approved,New York,46,Female,Suspended
+959,960,154,2025-02-09,ATM,Amazon,Electronics,651.54,Debit Card,Pending,Chicago,46,Male,Inactive
+960,961,291,2025-02-10,POS,Costco,Clothing,107.92,Credit Card,Declined,Chicago,23,Other,Active
+961,962,63,2025-02-10,POS,Amazon,Electronics,405.02,Debit Card,Pending,Houston,21,Female,Inactive
+962,963,244,2025-02-10,ATM,eBay,Health,730.29,Credit Card,Approved,Los Angeles,18,Other,Active
+963,964,25,2025-02-10,POS,BestBuy,Health,780.92,Debit Card,Declined,New York,64,Male,Suspended
+964,965,90,2025-02-10,ATM,Expedia,Electronics,122.63,Debit Card,Declined,New York,28,Male,Suspended
+965,966,75,2025-02-10,POS,eBay,Travel,5.03,Debit Card,Pending,New York,29,Female,Suspended
+966,967,294,2025-02-10,ATM,Target,Entertainment,713.58,Debit Card,Declined,New York,32,Male,Active
+967,968,210,2025-02-10,ATM,Walmart,Entertainment,359.81,Credit Card,Approved,Chicago,20,Female,Suspended
+968,969,17,2025-02-10,POS,BestBuy,Travel,258.21,Debit Card,Approved,San Francisco,29,Male,Active
+969,970,128,2025-02-10,Online,Target,Dining,17.83,Debit Card,Approved,San Francisco,24,Female,Active
+970,971,251,2025-02-10,POS,Expedia,Entertainment,542.6,Credit Card,Pending,Houston,32,Other,Active
+971,972,179,2025-02-10,ATM,Costco,Health,851.89,Credit Card,Declined,Seattle,38,Female,Suspended
+972,973,182,2025-02-10,Online,Amazon,Clothing,957.84,Debit Card,Declined,Miami,63,Female,Active
+973,974,152,2025-02-10,POS,Expedia,Travel,567.92,Credit Card,Declined,Los Angeles,34,Other,Inactive
+974,975,25,2025-02-10,POS,eBay,Groceries,516.89,Credit Card,Approved,San Francisco,64,Male,Suspended
+975,976,180,2025-02-10,POS,Walmart,Health,89.63,Credit Card,Declined,Seattle,63,Male,Inactive
+976,977,198,2025-02-10,Online,eBay,Clothing,551.13,Debit Card,Approved,New York,39,Other,Active
+977,978,161,2025-02-10,ATM,BestBuy,Clothing,383.08,Credit Card,Declined,San Francisco,19,Other,Active
+978,979,177,2025-02-10,POS,BestBuy,Travel,609.1,Debit Card,Approved,Houston,53,Female,Suspended
+979,980,285,2025-02-10,POS,Walmart,Clothing,391.78,Debit Card,Declined,Miami,19,Other,Active
+980,981,63,2025-02-10,POS,Target,Travel,244.1,Debit Card,Pending,San Francisco,21,Female,Inactive
+981,982,150,2025-02-10,POS,Target,Entertainment,99.49,Debit Card,Pending,Houston,48,Other,Active
+982,983,154,2025-02-10,POS,BestBuy,Electronics,318.34,Credit Card,Approved,Chicago,46,Male,Inactive
+983,984,156,2025-02-10,ATM,BestBuy,Health,101.16,Debit Card,Approved,Miami,54,Female,Suspended
+984,985,49,2025-02-11,ATM,Costco,Dining,181.01,Credit Card,Declined,Houston,42,Other,Suspended
+985,986,84,2025-02-11,POS,Amazon,Electronics,987.4,Debit Card,Declined,Seattle,56,Female,Inactive
+986,987,177,2025-02-11,Online,Costco,Health,446.88,Credit Card,Pending,San Francisco,53,Female,Suspended
+987,988,148,2025-02-11,ATM,Costco,Travel,534.21,Debit Card,Declined,Chicago,58,Male,Suspended
+988,989,118,2025-02-11,Online,Target,Health,874.25,Credit Card,Approved,Seattle,60,Female,Active
+989,990,63,2025-02-11,ATM,Walmart,Entertainment,995.59,Debit Card,Approved,Houston,21,Female,Inactive
+990,991,189,2025-02-11,POS,Target,Travel,584.8,Debit Card,Approved,Houston,20,Other,Inactive
+991,992,49,2025-02-11,ATM,Amazon,Electronics,813.41,Credit Card,Approved,Seattle,42,Other,Suspended
+992,993,257,2025-02-11,POS,eBay,Groceries,330.31,Debit Card,Approved,San Francisco,55,Female,Inactive
+993,994,224,2025-02-11,ATM,BestBuy,Groceries,309.22,Debit Card,Pending,Miami,57,Other,Inactive
+994,995,141,2025-02-11,POS,BestBuy,Health,405.69,Debit Card,Pending,Chicago,30,Other,Inactive
+995,996,215,2025-02-11,POS,Amazon,Groceries,674.14,Credit Card,Approved,New York,52,Female,Inactive
+996,997,211,2025-02-11,POS,Costco,Travel,683.78,Debit Card,Declined,Los Angeles,64,Male,Active
+997,998,32,2025-02-11,POS,Walmart,Clothing,318.66,Debit Card,Approved,Miami,65,Female,Inactive
+998,999,158,2025-02-11,Online,BestBuy,Travel,137.54,Credit Card,Pending,Chicago,34,Male,Active
+999,1000,285,2025-02-11,POS,Expedia,Clothing,634.23,Credit Card,Approved,Seattle,19,Other,Active
+1000,1001,286,2025-02-11,Online,Costco,Electronics,132.68,Credit Card,Pending,Houston,55,Other,Active
+1001,1002,144,2025-02-11,Online,BestBuy,Dining,580.6,Credit Card,Pending,Seattle,18,Male,Active
+1002,1003,19,2025-02-11,POS,Expedia,Clothing,694.96,Credit Card,Approved,Chicago,57,Male,Suspended
+1003,1004,18,2025-02-11,Online,Amazon,Groceries,702.11,Debit Card,Approved,Seattle,38,Other,Inactive
+1004,1005,257,2025-02-11,ATM,Amazon,Travel,754.7,Debit Card,Declined,Seattle,55,Female,Inactive
+1005,1006,78,2025-02-11,POS,Costco,Electronics,873.5,Debit Card,Pending,Los Angeles,28,Male,Suspended
+1006,1007,175,2025-02-11,Online,BestBuy,Groceries,502.46,Credit Card,Declined,San Francisco,50,Male,Suspended
+1007,1008,194,2025-02-11,POS,Target,Electronics,731.6,Debit Card,Approved,Los Angeles,32,Other,Suspended
+1008,1009,113,2025-02-12,POS,Expedia,Dining,621.08,Credit Card,Pending,New York,56,Male,Suspended
+1009,1010,114,2025-02-12,POS,Walmart,Entertainment,190.71,Credit Card,Declined,New York,36,Male,Inactive
+1010,1011,222,2025-02-12,Online,BestBuy,Travel,30.56,Debit Card,Declined,Los Angeles,60,Male,Inactive
+1011,1012,166,2025-02-12,ATM,Walmart,Health,288.12,Credit Card,Declined,Miami,23,Other,Suspended
+1012,1013,132,2025-02-12,ATM,BestBuy,Travel,445.82,Credit Card,Approved,Miami,18,Male,Suspended
+1013,1014,264,2025-02-12,Online,Target,Dining,619.02,Debit Card,Approved,Seattle,29,Female,Active
+1014,1015,55,2025-02-12,POS,Target,Travel,850.71,Credit Card,Approved,Seattle,24,Male,Active
+1015,1016,131,2025-02-12,Online,Costco,Health,200.26,Credit Card,Pending,Houston,50,Male,Suspended
+1016,1017,288,2025-02-12,Online,Costco,Clothing,129.92,Debit Card,Approved,New York,20,Other,Inactive
+1017,1018,266,2025-02-12,Online,Target,Electronics,963.66,Credit Card,Pending,Houston,28,Female,Suspended
+1018,1019,162,2025-02-12,POS,eBay,Health,112.5,Credit Card,Declined,New York,39,Male,Inactive
+1019,1020,87,2025-02-12,Online,Target,Groceries,481.1,Debit Card,Declined,Los Angeles,51,Male,Inactive
+1020,1021,55,2025-02-12,POS,Amazon,Dining,587.64,Debit Card,Approved,Miami,24,Male,Active
+1021,1022,288,2025-02-12,Online,Amazon,Clothing,543.67,Debit Card,Declined,Seattle,20,Other,Inactive
+1022,1023,178,2025-02-12,ATM,eBay,Groceries,90.6,Debit Card,Approved,Miami,34,Male,Inactive
+1023,1024,8,2025-02-12,Online,Expedia,Groceries,61.74,Credit Card,Pending,Los Angeles,23,Male,Inactive
+1024,1025,247,2025-02-12,Online,Walmart,Dining,109.96,Credit Card,Declined,Houston,39,Female,Suspended
+1025,1026,255,2025-02-12,ATM,BestBuy,Clothing,587.66,Debit Card,Approved,Houston,41,Male,Active
+1026,1027,54,2025-02-12,POS,BestBuy,Entertainment,546.62,Credit Card,Declined,Chicago,47,Male,Inactive
+1027,1028,249,2025-02-12,POS,eBay,Groceries,237.57,Credit Card,Declined,Seattle,41,Other,Suspended
+1028,1029,239,2025-02-12,Online,Amazon,Groceries,639.59,Debit Card,Approved,Seattle,40,Other,Active
+1029,1030,229,2025-02-12,ATM,Costco,Clothing,820.97,Debit Card,Declined,Seattle,28,Female,Suspended
+1030,1031,67,2025-02-12,POS,BestBuy,Travel,46.37,Credit Card,Declined,New York,40,Other,Inactive
+1031,1032,51,2025-02-12,Online,Amazon,Groceries,500.64,Debit Card,Declined,Houston,59,Other,Inactive
+1032,1033,97,2025-02-13,ATM,Expedia,Electronics,690.86,Debit Card,Declined,Los Angeles,34,Female,Inactive
+1033,1034,92,2025-02-13,POS,Walmart,Clothing,256.05,Debit Card,Pending,Houston,19,Male,Suspended
+1034,1035,264,2025-02-13,POS,Expedia,Groceries,311.23,Credit Card,Declined,Miami,29,Female,Active
+1035,1036,291,2025-02-13,ATM,eBay,Dining,615.57,Debit Card,Declined,New York,23,Other,Active
+1036,1037,96,2025-02-13,ATM,Target,Health,898.45,Credit Card,Approved,Seattle,54,Female,Suspended
+1037,1038,88,2025-02-13,ATM,Target,Electronics,810.87,Credit Card,Pending,San Francisco,56,Male,Inactive
+1038,1039,78,2025-02-13,ATM,Target,Health,585.21,Credit Card,Approved,Chicago,28,Male,Suspended
+1039,1040,288,2025-02-13,Online,Expedia,Health,731.57,Debit Card,Approved,New York,20,Other,Inactive
+1040,1041,120,2025-02-13,ATM,BestBuy,Groceries,368.0,Debit Card,Approved,Miami,19,Male,Active
+1041,1042,165,2025-02-13,POS,Walmart,Electronics,642.76,Debit Card,Pending,Seattle,53,Female,Active
+1042,1043,182,2025-02-13,POS,Target,Electronics,468.85,Debit Card,Approved,Miami,63,Female,Active
+1043,1044,223,2025-02-13,Online,eBay,Travel,193.99,Debit Card,Approved,Miami,34,Other,Inactive
+1044,1045,7,2025-02-13,POS,eBay,Health,703.23,Credit Card,Approved,Seattle,55,Female,Active
+1045,1046,263,2025-02-13,POS,Target,Electronics,558.68,Credit Card,Declined,Miami,53,Female,Active
+1046,1047,161,2025-02-13,ATM,Target,Travel,361.83,Credit Card,Approved,Los Angeles,19,Other,Active
+1047,1048,151,2025-02-13,POS,Walmart,Clothing,911.78,Debit Card,Pending,Chicago,44,Other,Inactive
+1048,1049,85,2025-02-13,Online,Target,Travel,25.83,Credit Card,Pending,San Francisco,32,Female,Inactive
+1049,1050,147,2025-02-13,ATM,Walmart,Dining,319.19,Credit Card,Declined,Miami,35,Female,Active
+1050,1051,112,2025-02-13,ATM,eBay,Entertainment,61.6,Debit Card,Pending,Miami,24,Female,Suspended
+1051,1052,36,2025-02-13,Online,Target,Groceries,767.69,Debit Card,Pending,Houston,66,Male,Active
+1052,1053,285,2025-02-13,ATM,Expedia,Clothing,703.6,Credit Card,Declined,Chicago,19,Other,Active
+1053,1054,188,2025-02-13,ATM,Costco,Entertainment,334.7,Credit Card,Approved,New York,41,Female,Inactive
+1054,1055,82,2025-02-13,Online,Expedia,Entertainment,677.28,Debit Card,Declined,Chicago,48,Other,Inactive
+1055,1056,2,2025-02-13,ATM,eBay,Clothing,398.96,Debit Card,Approved,Chicago,53,Female,Suspended
+1056,1057,197,2025-02-14,Online,Walmart,Dining,757.47,Debit Card,Approved,Seattle,35,Female,Inactive
+1057,1058,11,2025-02-14,Online,Expedia,Travel,456.91,Debit Card,Pending,Seattle,51,Other,Suspended
+1058,1059,234,2025-02-14,POS,Walmart,Groceries,415.22,Credit Card,Declined,Seattle,23,Other,Active
+1059,1060,195,2025-02-14,POS,Expedia,Travel,935.06,Credit Card,Pending,San Francisco,39,Female,Active
+1060,1061,119,2025-02-14,ATM,Expedia,Electronics,254.62,Debit Card,Pending,Chicago,56,Male,Suspended
+1061,1062,20,2025-02-14,ATM,Walmart,Travel,124.85,Credit Card,Approved,San Francisco,36,Female,Active
+1062,1063,261,2025-02-14,Online,BestBuy,Clothing,586.62,Credit Card,Pending,Miami,18,Female,Suspended
+1063,1064,293,2025-02-14,ATM,Expedia,Groceries,969.48,Debit Card,Declined,Seattle,28,Female,Active
+1064,1065,256,2025-02-14,Online,Target,Travel,380.95,Credit Card,Pending,Miami,65,Female,Suspended
+1065,1066,222,2025-02-14,Online,Costco,Groceries,66.73,Credit Card,Pending,Seattle,60,Male,Inactive
+1066,1067,226,2025-02-14,ATM,eBay,Groceries,342.61,Credit Card,Approved,Los Angeles,38,Other,Suspended
+1067,1068,53,2025-02-14,Online,BestBuy,Electronics,508.4,Debit Card,Declined,San Francisco,46,Male,Inactive
+1068,1069,280,2025-02-14,POS,Walmart,Electronics,166.11,Debit Card,Pending,San Francisco,41,Male,Active
+1069,1070,81,2025-02-14,ATM,BestBuy,Clothing,659.81,Credit Card,Approved,New York,30,Other,Active
+1070,1071,202,2025-02-14,POS,Amazon,Dining,997.76,Debit Card,Pending,Houston,30,Male,Inactive
+1071,1072,158,2025-02-14,ATM,Amazon,Entertainment,454.48,Debit Card,Declined,Chicago,34,Male,Active
+1072,1073,120,2025-02-14,Online,Expedia,Groceries,357.95,Debit Card,Pending,New York,19,Male,Active
+1073,1074,59,2025-02-14,ATM,Expedia,Dining,403.7,Credit Card,Pending,San Francisco,28,Female,Inactive
+1074,1075,215,2025-02-14,POS,Target,Entertainment,119.57,Credit Card,Approved,New York,52,Female,Inactive
+1075,1076,128,2025-02-14,Online,Costco,Entertainment,883.86,Debit Card,Pending,Los Angeles,24,Female,Active
+1076,1077,224,2025-02-14,ATM,eBay,Clothing,417.75,Credit Card,Approved,Houston,57,Other,Inactive
+1077,1078,209,2025-02-14,ATM,BestBuy,Entertainment,390.34,Credit Card,Declined,San Francisco,41,Female,Active
+1078,1079,115,2025-02-14,ATM,Amazon,Entertainment,661.39,Credit Card,Pending,San Francisco,23,Male,Suspended
+1079,1080,209,2025-02-14,POS,Expedia,Groceries,444.82,Credit Card,Declined,Chicago,41,Female,Active
+1080,1081,14,2025-02-15,POS,eBay,Groceries,649.99,Credit Card,Declined,Seattle,34,Female,Suspended
+1081,1082,9,2025-02-15,ATM,BestBuy,Health,66.14,Debit Card,Pending,Houston,58,Female,Inactive
+1082,1083,40,2025-02-15,Online,Expedia,Dining,814.65,Credit Card,Approved,Los Angeles,24,Male,Active
+1083,1084,237,2025-02-15,Online,Expedia,Travel,940.8,Credit Card,Declined,Miami,29,Other,Suspended
+1084,1085,281,2025-02-15,POS,Amazon,Electronics,650.52,Credit Card,Declined,New York,26,Female,Suspended
+1085,1086,201,2025-02-15,Online,Amazon,Travel,954.79,Debit Card,Pending,Chicago,44,Other,Suspended
+1086,1087,246,2025-02-15,POS,Expedia,Dining,155.68,Debit Card,Pending,San Francisco,67,Male,Suspended
+1087,1088,278,2025-02-15,ATM,Walmart,Electronics,480.03,Debit Card,Pending,Miami,35,Male,Suspended
+1088,1089,235,2025-02-15,POS,Expedia,Travel,603.8,Credit Card,Pending,Los Angeles,53,Male,Suspended
+1089,1090,4,2025-02-15,POS,eBay,Health,583.83,Debit Card,Pending,Houston,49,Other,Inactive
+1090,1091,154,2025-02-15,ATM,Expedia,Electronics,404.45,Debit Card,Pending,New York,46,Male,Inactive
+1091,1092,29,2025-02-15,Online,Target,Groceries,341.39,Debit Card,Approved,Chicago,65,Female,Suspended
+1092,1093,109,2025-02-15,POS,Costco,Travel,131.19,Debit Card,Declined,San Francisco,41,Male,Active
+1093,1094,98,2025-02-15,POS,Target,Electronics,394.78,Credit Card,Approved,San Francisco,38,Other,Active
+1094,1095,215,2025-02-15,ATM,Target,Health,166.85,Debit Card,Approved,Miami,52,Female,Inactive
+1095,1096,293,2025-02-15,Online,Walmart,Entertainment,735.69,Debit Card,Pending,Miami,28,Female,Active
+1096,1097,75,2025-02-15,POS,Walmart,Electronics,212.79,Credit Card,Declined,New York,29,Female,Suspended
+1097,1098,146,2025-02-15,ATM,Expedia,Electronics,63.27,Credit Card,Approved,Houston,20,Male,Inactive
+1098,1099,128,2025-02-15,POS,Target,Health,554.6,Debit Card,Pending,Los Angeles,24,Female,Active
+1099,1100,42,2025-02-15,ATM,Walmart,Entertainment,597.25,Credit Card,Pending,Seattle,18,Female,Suspended
+1100,1101,41,2025-02-15,Online,Amazon,Travel,872.55,Debit Card,Declined,Houston,63,Male,Active
+1101,1102,34,2025-02-15,Online,Expedia,Clothing,579.1,Credit Card,Approved,Houston,56,Male,Suspended
+1102,1103,17,2025-02-15,Online,eBay,Travel,348.75,Credit Card,Approved,Houston,29,Male,Active
+1103,1104,165,2025-02-15,Online,Costco,Entertainment,804.0,Debit Card,Approved,Seattle,53,Female,Active
+1104,1105,153,2025-02-16,POS,BestBuy,Dining,542.58,Credit Card,Pending,New York,63,Male,Active
+1105,1106,76,2025-02-16,POS,Expedia,Health,83.88,Debit Card,Declined,Seattle,51,Female,Active
+1106,1107,87,2025-02-16,Online,BestBuy,Travel,568.02,Credit Card,Declined,New York,51,Male,Inactive
+1107,1108,117,2025-02-16,Online,Target,Electronics,908.48,Debit Card,Approved,Seattle,46,Female,Suspended
+1108,1109,27,2025-02-16,Online,Costco,Health,399.33,Credit Card,Pending,Los Angeles,33,Male,Inactive
+1109,1110,287,2025-02-16,POS,BestBuy,Groceries,299.84,Credit Card,Approved,Houston,32,Female,Suspended
+1110,1111,134,2025-02-16,Online,Target,Entertainment,147.75,Credit Card,Declined,New York,23,Male,Active
+1111,1112,219,2025-02-16,Online,Amazon,Travel,155.69,Credit Card,Pending,Seattle,45,Male,Active
+1112,1113,168,2025-02-16,Online,BestBuy,Health,435.61,Credit Card,Approved,Los Angeles,38,Other,Suspended
+1113,1114,98,2025-02-16,ATM,Costco,Travel,597.7,Debit Card,Approved,Seattle,38,Other,Active
+1114,1115,268,2025-02-16,Online,Expedia,Health,85.21,Credit Card,Pending,San Francisco,59,Female,Inactive
+1115,1116,237,2025-02-16,ATM,Target,Electronics,939.87,Debit Card,Declined,Los Angeles,29,Other,Suspended
+1116,1117,173,2025-02-16,ATM,Expedia,Groceries,756.36,Debit Card,Pending,Houston,56,Other,Inactive
+1117,1118,190,2025-02-16,Online,Costco,Groceries,588.69,Debit Card,Approved,Chicago,42,Female,Inactive
+1118,1119,122,2025-02-16,ATM,Walmart,Dining,829.3,Credit Card,Approved,Houston,21,Female,Active
+1119,1120,46,2025-02-16,Online,Target,Health,84.79,Debit Card,Approved,Chicago,54,Female,Active
+1120,1121,64,2025-02-16,POS,BestBuy,Travel,479.45,Credit Card,Approved,Los Angeles,53,Other,Suspended
+1121,1122,130,2025-02-16,POS,Target,Groceries,631.94,Debit Card,Declined,San Francisco,42,Male,Inactive
+1122,1123,193,2025-02-16,POS,Expedia,Entertainment,829.51,Debit Card,Declined,San Francisco,19,Male,Inactive
+1123,1124,181,2025-02-16,POS,Amazon,Groceries,784.55,Debit Card,Approved,New York,33,Female,Inactive
+1124,1125,292,2025-02-16,ATM,Target,Clothing,280.68,Debit Card,Declined,San Francisco,20,Male,Suspended
+1125,1126,282,2025-02-16,Online,BestBuy,Clothing,941.18,Debit Card,Declined,Miami,48,Female,Active
+1126,1127,29,2025-02-16,Online,Walmart,Groceries,128.72,Credit Card,Declined,Los Angeles,65,Female,Suspended
+1127,1128,149,2025-02-16,Online,eBay,Health,875.76,Debit Card,Approved,New York,31,Male,Active
+1128,1129,267,2025-02-17,POS,Amazon,Dining,971.09,Debit Card,Pending,San Francisco,29,Female,Active
+1129,1130,296,2025-02-17,POS,Walmart,Groceries,181.27,Credit Card,Pending,Los Angeles,69,Female,Suspended
+1130,1131,11,2025-02-17,Online,Target,Electronics,723.46,Credit Card,Pending,Houston,51,Other,Suspended
+1131,1132,164,2025-02-17,POS,Expedia,Travel,45.08,Credit Card,Approved,San Francisco,21,Male,Active
+1132,1133,113,2025-02-17,Online,Costco,Dining,408.4,Debit Card,Declined,Seattle,56,Male,Suspended
+1133,1134,187,2025-02-17,Online,Expedia,Electronics,518.7,Debit Card,Declined,Chicago,25,Female,Suspended
+1134,1135,295,2025-02-17,Online,BestBuy,Dining,582.74,Debit Card,Approved,Los Angeles,62,Female,Active
+1135,1136,232,2025-02-17,Online,Expedia,Electronics,936.26,Debit Card,Approved,New York,27,Other,Suspended
+1136,1137,227,2025-02-17,Online,Amazon,Travel,673.89,Debit Card,Pending,Houston,40,Male,Active
+1137,1138,98,2025-02-17,Online,Expedia,Travel,483.87,Debit Card,Pending,Miami,38,Other,Active
+1138,1139,55,2025-02-17,Online,BestBuy,Clothing,810.63,Credit Card,Approved,Houston,24,Male,Active
+1139,1140,111,2025-02-17,POS,eBay,Health,950.78,Credit Card,Pending,San Francisco,43,Other,Inactive
+1140,1141,152,2025-02-17,Online,Target,Electronics,26.96,Debit Card,Declined,Chicago,34,Other,Inactive
+1141,1142,246,2025-02-17,Online,Costco,Clothing,982.61,Debit Card,Approved,Houston,67,Male,Suspended
+1142,1143,69,2025-02-17,POS,Target,Electronics,90.7,Debit Card,Approved,Miami,59,Female,Active
+1143,1144,289,2025-02-17,POS,Expedia,Clothing,815.31,Debit Card,Declined,Seattle,60,Other,Inactive
+1144,1145,250,2025-02-17,POS,Walmart,Travel,283.93,Debit Card,Declined,New York,42,Male,Inactive
+1145,1146,36,2025-02-17,Online,Target,Dining,136.52,Credit Card,Declined,Los Angeles,66,Male,Active
+1146,1147,239,2025-02-17,ATM,eBay,Entertainment,442.66,Credit Card,Pending,Chicago,40,Other,Active
+1147,1148,148,2025-02-17,ATM,Expedia,Clothing,645.74,Debit Card,Approved,Miami,58,Male,Suspended
+1148,1149,227,2025-02-17,POS,Costco,Electronics,384.05,Credit Card,Pending,San Francisco,40,Male,Active
+1149,1150,244,2025-02-17,ATM,BestBuy,Electronics,59.29,Debit Card,Declined,San Francisco,18,Other,Active
+1150,1151,201,2025-02-17,POS,eBay,Entertainment,601.46,Debit Card,Pending,San Francisco,44,Other,Suspended
+1151,1152,154,2025-02-17,Online,Expedia,Health,902.89,Debit Card,Declined,Chicago,46,Male,Inactive
+1152,1153,73,2025-02-18,ATM,eBay,Travel,386.3,Credit Card,Pending,Houston,33,Male,Active
+1153,1154,201,2025-02-18,Online,Target,Electronics,220.25,Credit Card,Pending,Chicago,44,Other,Suspended
+1154,1155,296,2025-02-18,ATM,Costco,Groceries,445.36,Debit Card,Declined,San Francisco,69,Female,Suspended
+1155,1156,17,2025-02-18,Online,BestBuy,Dining,53.12,Credit Card,Pending,Seattle,29,Male,Active
+1156,1157,129,2025-02-18,ATM,Expedia,Clothing,821.39,Credit Card,Approved,Miami,26,Male,Suspended
+1157,1158,217,2025-02-18,Online,Amazon,Health,827.21,Debit Card,Pending,Los Angeles,31,Male,Active
+1158,1159,61,2025-02-18,Online,BestBuy,Entertainment,590.06,Credit Card,Pending,Los Angeles,29,Other,Suspended
+1159,1160,104,2025-02-18,ATM,Amazon,Dining,356.34,Credit Card,Approved,Chicago,30,Other,Inactive
+1160,1161,42,2025-02-18,Online,eBay,Travel,800.78,Debit Card,Declined,San Francisco,18,Female,Suspended
+1161,1162,25,2025-02-18,Online,Walmart,Health,556.91,Debit Card,Approved,New York,64,Male,Suspended
+1162,1163,39,2025-02-18,Online,BestBuy,Clothing,826.8,Credit Card,Pending,Seattle,27,Other,Inactive
+1163,1164,291,2025-02-18,ATM,eBay,Clothing,633.3,Debit Card,Declined,Chicago,23,Other,Active
+1164,1165,131,2025-02-18,ATM,Amazon,Entertainment,785.48,Credit Card,Pending,San Francisco,50,Male,Suspended
+1165,1166,229,2025-02-18,Online,Target,Groceries,600.57,Debit Card,Pending,Houston,28,Female,Suspended
+1166,1167,108,2025-02-18,Online,Target,Entertainment,417.07,Debit Card,Approved,Los Angeles,28,Other,Suspended
+1167,1168,172,2025-02-18,ATM,Walmart,Travel,958.16,Debit Card,Approved,Los Angeles,43,Male,Active
+1168,1169,102,2025-02-18,ATM,BestBuy,Health,543.41,Debit Card,Declined,Seattle,55,Other,Active
+1169,1170,12,2025-02-18,Online,BestBuy,Health,607.06,Credit Card,Declined,Los Angeles,53,Female,Suspended
+1170,1171,275,2025-02-18,Online,BestBuy,Electronics,224.39,Debit Card,Declined,New York,48,Male,Suspended
+1171,1172,101,2025-02-18,Online,eBay,Groceries,627.52,Debit Card,Pending,San Francisco,24,Female,Suspended
+1172,1173,44,2025-02-18,POS,Costco,Groceries,573.75,Debit Card,Approved,San Francisco,53,Female,Active
+1173,1174,17,2025-02-18,ATM,Costco,Health,188.91,Credit Card,Approved,Seattle,29,Male,Active
+1174,1175,57,2025-02-18,POS,Walmart,Health,64.29,Credit Card,Approved,San Francisco,24,Female,Active
+1175,1176,12,2025-02-18,ATM,BestBuy,Dining,606.34,Debit Card,Declined,Seattle,53,Female,Suspended
+1176,1177,80,2025-02-19,ATM,eBay,Dining,764.87,Debit Card,Approved,San Francisco,46,Other,Inactive
+1177,1178,216,2025-02-19,ATM,Target,Dining,525.78,Debit Card,Approved,New York,65,Female,Active
+1178,1179,264,2025-02-19,ATM,Amazon,Groceries,230.64,Debit Card,Approved,Miami,29,Female,Active
+1179,1180,149,2025-02-19,ATM,eBay,Electronics,668.19,Debit Card,Declined,Chicago,31,Male,Active
+1180,1181,81,2025-02-19,ATM,Costco,Clothing,84.71,Debit Card,Approved,Chicago,30,Other,Active
+1181,1182,215,2025-02-19,ATM,Costco,Dining,444.62,Credit Card,Declined,San Francisco,52,Female,Inactive
+1182,1183,198,2025-02-19,POS,Target,Electronics,167.55,Debit Card,Approved,Houston,39,Other,Active
+1183,1184,200,2025-02-19,Online,Target,Entertainment,188.54,Debit Card,Approved,Los Angeles,66,Male,Active
+1184,1185,25,2025-02-19,Online,Amazon,Travel,206.28,Debit Card,Approved,New York,64,Male,Suspended
+1185,1186,89,2025-02-19,POS,Target,Dining,389.77,Debit Card,Declined,Houston,21,Male,Active
+1186,1187,268,2025-02-19,POS,Walmart,Entertainment,55.89,Debit Card,Declined,Houston,59,Female,Inactive
+1187,1188,143,2025-02-19,POS,Amazon,Clothing,400.8,Debit Card,Approved,San Francisco,37,Other,Inactive
+1188,1189,59,2025-02-19,POS,Target,Travel,514.15,Credit Card,Pending,New York,28,Female,Inactive
+1189,1190,26,2025-02-19,ATM,Expedia,Travel,485.88,Credit Card,Declined,Chicago,23,Other,Inactive
+1190,1191,47,2025-02-19,Online,eBay,Clothing,385.87,Credit Card,Declined,Los Angeles,69,Male,Inactive
+1191,1192,288,2025-02-19,ATM,Target,Dining,839.95,Credit Card,Approved,Chicago,20,Other,Inactive
+1192,1193,266,2025-02-19,Online,Walmart,Groceries,149.6,Credit Card,Pending,Houston,28,Female,Suspended
+1193,1194,16,2025-02-19,Online,BestBuy,Clothing,508.17,Credit Card,Approved,Los Angeles,57,Female,Suspended
+1194,1195,199,2025-02-19,POS,Target,Clothing,66.73,Debit Card,Declined,Miami,63,Female,Inactive
+1195,1196,282,2025-02-19,ATM,Costco,Clothing,75.8,Debit Card,Declined,Houston,48,Female,Active
+1196,1197,86,2025-02-19,POS,Costco,Travel,576.0,Debit Card,Approved,Chicago,28,Female,Inactive
+1197,1198,250,2025-02-19,ATM,Costco,Electronics,568.19,Debit Card,Approved,Chicago,42,Male,Inactive
+1198,1199,270,2025-02-19,Online,BestBuy,Entertainment,878.64,Debit Card,Pending,San Francisco,56,Female,Inactive
+1199,1200,117,2025-02-19,POS,Costco,Groceries,560.08,Debit Card,Pending,Chicago,46,Female,Suspended

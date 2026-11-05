@@ -1,0 +1,63 @@
+[
+    {
+      "employee_id": "E001",
+      "name": "Alice Johnson",
+      "age": 30,
+      "gender": "Female",
+      "department": "Human Resources",
+      "designation": "HR Manager",
+      "salary": 75000,
+      "full_time": true,
+      "email": "alice.johnson@example.com",
+      "date_of_joining": "2018-05-21"
+    },
+    {
+      "employee_id": "E002",
+      "name": "Bob Smith",
+      "age": 28,
+      "gender": "Male",
+      "department": "Engineering",
+      "designation": "Software Engineer",
+      "salary": 90000,
+      "full_time": true,
+      "email": "bob.smith@example.com",
+      "date_of_joining": "2020-08-15"
+    },
+    {
+      "employee_id": "E003",
+      "name": "Catherine Lee",
+      "age": 35,
+      "gender": "Female",
+      "department": "Finance",
+      "designation": "Accountant",
+      "salary": 68000,
+      "full_time": false,
+      "email": "catherine.lee@example.com",
+      "date_of_joining": "2017-03-10"
+    },
+    {
+      "employee_id": "E004",
+      "name": "David Brown",
+      "age": 40,
+      "gender": "Male",
+      "department": "Engineering",
+      "designation": "Team Lead",
+      "salary": 105000,
+      "full_time": true,
+      "email": "david.brown@example.com",
+      "date_of_joining": "2015-11-30"
+    },
+    {
+      "employee_id": "E005",
+      "name": "Eva Green",
+      "age": 26,
+      "gender": "Female",
+      "department": "Marketing",
+      "designation": "Content Specialist",
+      "salary": 62000,
+      "full_time": true,
+      "email": "eva.green@example.com",
+      "date_of_joining": "2021-02-05"
+    }
+  ]
+  

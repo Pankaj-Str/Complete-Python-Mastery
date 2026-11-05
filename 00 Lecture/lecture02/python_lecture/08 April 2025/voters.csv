@@ -1,0 +1,1001 @@
+Voter_ID,Age,Income,Education_Level,Gender,Employment_Status,Marital_Status,Children,Own_House,City_Type,Political_Interest,Voting_History,Internet_Usage_Hours,TV_Watch_Hours,News_Following,Preferred_News_Source,Religious,Environmental_Concern,Trust_in_Government,Party_Vote
+1,69,124575,No Formal Education,Female,Unemployed,Divorced,5,Yes,Suburban,High,Rarely,7,9,Regularly,Social Media,Yes,Medium,High,NO
+2,32,125904,High School,Male,Student,Single,3,Yes,Urban,High,Always,1,3,Never,Social Media,Yes,Medium,Medium,NO
+3,89,45678,PhD,Female,Unemployed,Divorced,0,Yes,Rural,Low,Rarely,7,3,Never,Social Media,Yes,Low,Medium,YES
+4,78,91218,PhD,Female,Retired,Widowed,4,Yes,Urban,High,Often,3,7,Regularly,Newspaper,Yes,Low,High,NO
+5,38,78230,Bachelor,Other,Retired,Widowed,0,No,Rural,Medium,Rarely,9,0,Occasionally,Social Media,Yes,Low,High,YES
+6,41,89055,Bachelor,Male,Self-employed,Widowed,1,Yes,Urban,High,Never,9,7,Never,Internet,Yes,Medium,High,NO
+7,20,87258,Bachelor,Other,Self-employed,Single,5,No,Rural,High,Often,0,4,Regularly,Newspaper,Yes,Medium,Medium,NO
+8,39,54986,PhD,Other,Employed,Widowed,3,Yes,Urban,Low,Always,4,0,Regularly,TV,Yes,High,Low,YES
+9,70,100595,High School,Female,Retired,Single,5,Yes,Rural,Medium,Never,0,3,Occasionally,Newspaper,No,High,Medium,YES
+10,19,116358,High School,Male,Self-employed,Divorced,0,Yes,Rural,Low,Often,6,1,Regularly,Internet,Yes,High,High,YES
+11,47,79929,Bachelor,Female,Unemployed,Widowed,4,Yes,Rural,High,Never,7,3,Never,Social Media,Yes,Medium,Low,NO
+12,55,88506,No Formal Education,Male,Student,Divorced,1,No,Rural,Low,Often,2,7,Never,Newspaper,No,Low,Medium,YES
+13,19,49911,High School,Other,Unemployed,Married,1,No,Rural,Low,Never,2,4,Regularly,Social Media,No,Low,High,NO
+14,81,102127,PhD,Male,Student,Divorced,5,Yes,Suburban,Low,Never,6,0,Never,Newspaper,No,Low,Medium,NO
+15,77,128453,Master,Female,Self-employed,Married,4,No,Rural,Low,Often,3,6,Regularly,Internet,No,Medium,Low,YES
+16,38,99458,Master,Female,Employed,Divorced,4,No,Suburban,High,Always,2,0,Never,Newspaper,No,Low,High,NO
+17,50,27175,Master,Female,Unemployed,Single,0,Yes,Rural,High,Always,7,8,Occasionally,Social Media,No,High,Medium,NO
+18,75,134235,No Formal Education,Male,Unemployed,Divorced,5,Yes,Suburban,Medium,Never,2,2,Never,Social Media,Yes,High,Low,YES
+19,39,69771,Bachelor,Other,Unemployed,Single,5,No,Suburban,Low,Never,6,2,Occasionally,Internet,No,Low,Low,NO
+20,66,142157,PhD,Other,Student,Single,2,No,Urban,Low,Always,1,5,Occasionally,Newspaper,No,High,Medium,NO
+21,76,136300,No Formal Education,Male,Self-employed,Widowed,5,No,Rural,Medium,Always,0,9,Regularly,TV,No,Low,Low,YES
+22,59,101925,PhD,Female,Unemployed,Single,1,No,Urban,Low,Rarely,5,5,Occasionally,Newspaper,Yes,Low,High,YES
+23,77,81358,PhD,Other,Unemployed,Married,0,Yes,Urban,Medium,Always,7,5,Never,Internet,No,High,Low,NO
+24,32,62057,Bachelor,Female,Employed,Widowed,4,Yes,Rural,High,Never,0,0,Never,TV,Yes,High,Medium,NO
+25,79,21150,Master,Male,Employed,Widowed,5,No,Urban,Medium,Often,9,4,Occasionally,Internet,No,High,High,NO
+26,79,19425,Bachelor,Female,Self-employed,Divorced,0,Yes,Rural,Low,Always,8,5,Regularly,Newspaper,No,High,Low,NO
+27,64,31032,No Formal Education,Other,Self-employed,Single,5,No,Urban,Medium,Rarely,2,7,Occasionally,TV,Yes,Low,Low,YES
+28,79,17198,No Formal Education,Other,Retired,Single,4,No,Rural,High,Rarely,2,0,Never,Internet,Yes,High,High,NO
+29,68,133865,No Formal Education,Female,Employed,Married,3,Yes,Rural,Low,Rarely,3,4,Never,Social Media,No,High,High,NO
+30,72,38236,Bachelor,Male,Retired,Divorced,4,No,Rural,High,Often,0,2,Occasionally,TV,Yes,Medium,Low,NO
+31,81,102955,PhD,Female,Student,Divorced,4,No,Suburban,High,Always,8,1,Occasionally,TV,Yes,High,High,NO
+32,20,118145,PhD,Male,Retired,Widowed,4,Yes,Urban,Medium,Always,2,7,Occasionally,Internet,No,High,Medium,YES
+33,68,109914,High School,Female,Unemployed,Widowed,5,Yes,Suburban,High,Always,9,6,Never,Social Media,No,Low,Low,NO
+34,24,117870,No Formal Education,Other,Retired,Widowed,2,No,Urban,Low,Often,3,9,Never,TV,No,Low,Medium,YES
+35,38,131243,PhD,Male,Self-employed,Married,4,No,Urban,High,Often,0,6,Never,Internet,Yes,Medium,Low,YES
+36,56,29596,High School,Male,Student,Married,1,Yes,Urban,High,Never,3,4,Regularly,TV,No,High,Medium,YES
+37,35,147351,PhD,Male,Unemployed,Widowed,1,No,Suburban,Medium,Rarely,0,8,Never,TV,No,High,Medium,YES
+38,21,126496,No Formal Education,Other,Retired,Divorced,0,No,Urban,High,Rarely,4,4,Never,TV,Yes,High,High,YES
+39,77,145273,Master,Female,Student,Married,2,Yes,Suburban,Medium,Always,4,1,Regularly,Social Media,Yes,High,Low,NO
+40,31,135674,No Formal Education,Other,Student,Divorced,0,Yes,Rural,Medium,Often,6,2,Regularly,Newspaper,No,High,High,YES
+41,26,135307,Bachelor,Male,Unemployed,Divorced,1,Yes,Urban,Low,Often,7,3,Regularly,Newspaper,Yes,High,High,YES
+42,70,34063,PhD,Female,Retired,Single,1,Yes,Urban,Low,Always,3,4,Regularly,Social Media,No,Medium,Low,YES
+43,19,82642,PhD,Other,Student,Widowed,3,Yes,Rural,Low,Always,6,2,Regularly,Social Media,Yes,High,Medium,NO
+44,77,105093,Bachelor,Male,Student,Single,4,Yes,Rural,Low,Never,3,6,Regularly,Internet,No,High,Low,YES
+45,88,50954,Bachelor,Male,Employed,Widowed,1,No,Urban,Medium,Rarely,2,4,Occasionally,TV,Yes,High,Low,NO
+46,61,42856,Master,Other,Student,Widowed,5,No,Rural,High,Rarely,5,4,Occasionally,Social Media,Yes,Medium,Low,YES
+47,25,17573,PhD,Other,Employed,Divorced,5,Yes,Suburban,Low,Rarely,3,5,Occasionally,Internet,Yes,High,High,YES
+48,64,50367,PhD,Other,Retired,Widowed,0,Yes,Suburban,Low,Never,2,6,Occasionally,Newspaper,Yes,Medium,Low,NO
+49,52,114608,Master,Male,Retired,Divorced,0,No,Urban,Low,Always,8,9,Never,Newspaper,No,Low,Low,NO
+50,53,75774,High School,Other,Retired,Divorced,4,No,Suburban,High,Always,4,9,Regularly,Newspaper,Yes,High,Low,NO
+51,67,38752,Master,Male,Self-employed,Widowed,4,No,Suburban,Low,Rarely,6,7,Never,Newspaper,No,Medium,Medium,YES
+52,21,70029,No Formal Education,Other,Retired,Divorced,3,Yes,Urban,High,Rarely,5,8,Regularly,Internet,Yes,Low,Medium,NO
+53,19,145282,PhD,Male,Student,Divorced,2,Yes,Rural,Medium,Never,9,3,Regularly,TV,Yes,Medium,Medium,NO
+54,23,66693,Bachelor,Male,Unemployed,Divorced,0,No,Urban,Medium,Often,4,4,Never,Internet,No,Medium,Medium,NO
+55,71,131739,No Formal Education,Female,Employed,Married,4,Yes,Suburban,Medium,Often,6,4,Occasionally,TV,Yes,Low,High,NO
+56,21,70961,PhD,Other,Self-employed,Divorced,0,Yes,Urban,High,Rarely,5,7,Never,Newspaper,Yes,High,High,NO
+57,71,141678,Master,Other,Retired,Married,4,Yes,Urban,Low,Never,9,8,Never,Social Media,No,High,Low,YES
+58,80,89532,No Formal Education,Male,Retired,Married,1,No,Suburban,Low,Rarely,1,6,Regularly,Social Media,Yes,Medium,High,NO
+59,35,96994,PhD,Male,Unemployed,Divorced,0,No,Suburban,Low,Often,2,4,Regularly,Social Media,No,Low,Medium,YES
+60,61,71133,High School,Male,Unemployed,Divorced,1,Yes,Urban,Low,Rarely,1,2,Regularly,TV,Yes,High,Low,NO
+61,51,76268,High School,Female,Self-employed,Married,0,Yes,Suburban,Low,Often,2,0,Occasionally,Newspaper,Yes,Medium,Low,NO
+62,79,46653,Bachelor,Female,Employed,Married,2,Yes,Suburban,High,Often,0,8,Never,Internet,Yes,Low,Medium,YES
+63,31,136829,PhD,Male,Retired,Divorced,3,Yes,Suburban,Medium,Often,7,4,Never,Social Media,No,Medium,Medium,YES
+64,65,143377,High School,Other,Self-employed,Divorced,5,Yes,Suburban,Low,Always,5,8,Occasionally,TV,Yes,Low,Medium,YES
+65,32,16622,Master,Other,Student,Widowed,5,No,Suburban,Medium,Always,1,9,Never,Social Media,Yes,High,High,YES
+66,89,63756,PhD,Female,Student,Married,5,Yes,Suburban,High,Rarely,7,3,Never,Internet,Yes,High,Low,NO
+67,79,55809,Master,Female,Self-employed,Married,1,Yes,Rural,High,Often,5,4,Regularly,Newspaper,Yes,Medium,Medium,YES
+68,57,31725,Master,Male,Retired,Widowed,4,Yes,Urban,Low,Always,6,3,Occasionally,Internet,Yes,High,Low,NO
+69,70,66226,High School,Other,Self-employed,Married,5,No,Suburban,High,Rarely,0,1,Regularly,Newspaper,Yes,High,Low,NO
+70,41,96182,PhD,Male,Retired,Single,2,No,Urban,Medium,Rarely,6,0,Occasionally,Newspaper,Yes,Low,High,NO
+71,43,44402,No Formal Education,Female,Unemployed,Married,5,Yes,Rural,Low,Rarely,2,7,Regularly,Newspaper,Yes,High,Low,YES
+72,77,19263,High School,Other,Self-employed,Widowed,0,No,Suburban,Low,Rarely,7,3,Never,Social Media,Yes,Low,Medium,YES
+73,58,62924,High School,Other,Retired,Single,1,No,Urban,Medium,Rarely,5,4,Occasionally,Internet,No,Low,Medium,YES
+74,46,89182,PhD,Female,Self-employed,Divorced,0,No,Suburban,Low,Never,3,5,Occasionally,Social Media,Yes,Medium,Low,NO
+75,32,50737,PhD,Male,Self-employed,Widowed,0,No,Suburban,Low,Often,7,7,Regularly,Internet,No,Low,Low,YES
+76,62,116332,Master,Male,Retired,Widowed,0,No,Suburban,Medium,Rarely,8,7,Occasionally,TV,No,High,High,YES
+77,82,104563,PhD,Other,Retired,Divorced,3,No,Suburban,Low,Never,9,6,Never,TV,No,Low,Medium,NO
+78,88,143575,Master,Female,Employed,Widowed,3,Yes,Suburban,Low,Often,1,3,Never,Internet,Yes,Low,Medium,YES
+79,26,116371,High School,Other,Self-employed,Married,4,No,Suburban,Medium,Always,5,5,Never,Internet,No,Medium,Low,NO
+80,18,53709,Bachelor,Female,Student,Divorced,1,No,Suburban,High,Rarely,4,3,Regularly,Internet,No,High,Low,YES
+81,25,36172,No Formal Education,Male,Self-employed,Widowed,2,Yes,Rural,Medium,Never,4,6,Occasionally,Internet,No,High,Low,YES
+82,80,26555,High School,Female,Self-employed,Divorced,2,Yes,Rural,Low,Always,9,0,Regularly,Newspaper,Yes,High,Medium,YES
+83,28,68276,PhD,Male,Retired,Divorced,2,Yes,Suburban,Medium,Never,2,4,Never,Social Media,No,Low,Low,YES
+84,25,72492,No Formal Education,Female,Self-employed,Divorced,0,Yes,Suburban,Low,Often,7,9,Occasionally,Newspaper,Yes,High,High,YES
+85,52,104599,Bachelor,Other,Self-employed,Single,3,No,Rural,Low,Often,7,9,Never,Social Media,No,High,High,NO
+86,52,26046,Bachelor,Male,Student,Widowed,1,No,Rural,Medium,Always,4,3,Occasionally,Social Media,No,Low,Low,YES
+87,50,131021,Master,Other,Retired,Single,0,No,Rural,Low,Never,7,6,Occasionally,Social Media,Yes,Medium,High,YES
+88,22,19853,No Formal Education,Other,Self-employed,Widowed,3,No,Suburban,High,Rarely,9,8,Regularly,Newspaper,Yes,Medium,High,YES
+89,58,135900,Master,Male,Unemployed,Married,3,Yes,Urban,Low,Rarely,7,4,Occasionally,Internet,No,Low,High,YES
+90,45,74129,High School,Male,Employed,Married,5,No,Urban,Medium,Always,2,3,Never,Newspaper,No,Medium,High,YES
+91,24,129130,No Formal Education,Other,Student,Married,5,No,Urban,High,Always,1,8,Occasionally,Newspaper,No,Medium,High,YES
+92,89,136789,High School,Other,Self-employed,Widowed,1,Yes,Urban,High,Always,8,4,Never,Social Media,Yes,Medium,Medium,YES
+93,29,53890,Master,Other,Unemployed,Divorced,1,No,Suburban,Low,Never,1,8,Regularly,TV,Yes,High,Low,NO
+94,51,81017,No Formal Education,Other,Self-employed,Divorced,1,No,Urban,Medium,Rarely,8,7,Never,TV,No,Medium,High,NO
+95,50,147596,Master,Male,Self-employed,Single,0,No,Rural,Low,Rarely,3,3,Occasionally,Newspaper,No,High,Low,YES
+96,65,115424,No Formal Education,Male,Retired,Single,4,No,Rural,Low,Rarely,1,6,Never,Social Media,Yes,Medium,High,NO
+97,40,30048,Master,Other,Retired,Married,1,Yes,Urban,Medium,Always,9,4,Never,Newspaper,Yes,High,Medium,YES
+98,79,69912,Bachelor,Female,Retired,Single,5,Yes,Rural,Medium,Rarely,0,9,Occasionally,Newspaper,No,Low,Medium,NO
+99,54,49008,Master,Female,Unemployed,Widowed,4,Yes,Suburban,Low,Often,3,3,Never,Internet,Yes,Low,High,YES
+100,61,146132,Bachelor,Male,Self-employed,Widowed,0,Yes,Urban,High,Always,8,4,Occasionally,Social Media,No,Medium,High,YES
+101,52,98559,Master,Other,Employed,Single,4,Yes,Urban,Low,Rarely,8,4,Regularly,TV,Yes,High,High,NO
+102,82,70337,No Formal Education,Other,Student,Single,2,No,Suburban,High,Never,3,8,Never,TV,No,Low,Medium,YES
+103,64,125616,No Formal Education,Male,Retired,Single,4,No,Rural,Low,Always,8,8,Regularly,TV,No,Low,Medium,NO
+104,20,28350,No Formal Education,Female,Retired,Single,1,Yes,Suburban,Medium,Often,5,5,Never,Newspaper,No,Low,Low,YES
+105,18,39354,PhD,Female,Self-employed,Married,0,Yes,Suburban,High,Often,0,3,Never,Social Media,Yes,Low,Medium,YES
+106,22,60186,High School,Female,Self-employed,Married,1,Yes,Rural,Medium,Never,9,1,Regularly,Internet,No,Medium,High,YES
+107,31,43145,No Formal Education,Male,Unemployed,Single,5,No,Suburban,Medium,Never,5,2,Never,TV,No,High,Low,YES
+108,44,101123,Bachelor,Female,Unemployed,Widowed,2,Yes,Rural,Medium,Always,8,1,Never,Social Media,Yes,Low,Medium,NO
+109,26,35581,No Formal Education,Male,Retired,Married,5,No,Rural,Medium,Always,1,4,Regularly,TV,No,Medium,Medium,YES
+110,32,103929,PhD,Male,Self-employed,Widowed,1,No,Suburban,Medium,Often,5,5,Never,Internet,No,Low,High,NO
+111,59,38051,Bachelor,Other,Employed,Divorced,1,No,Rural,Low,Never,1,4,Occasionally,Social Media,No,Low,Low,NO
+112,68,66474,PhD,Female,Student,Widowed,1,No,Suburban,High,Always,3,1,Never,Newspaper,Yes,Low,Medium,YES
+113,80,106748,Bachelor,Male,Self-employed,Single,3,Yes,Rural,Low,Often,7,4,Never,Newspaper,Yes,Low,Medium,YES
+114,69,140995,Master,Female,Self-employed,Divorced,2,No,Urban,Low,Never,6,8,Never,TV,Yes,Medium,High,NO
+115,21,84626,High School,Female,Unemployed,Married,1,No,Rural,Low,Often,8,3,Regularly,TV,Yes,High,Low,NO
+116,40,21960,High School,Other,Student,Married,1,Yes,Rural,Medium,Rarely,6,9,Occasionally,Social Media,No,Medium,Low,YES
+117,32,51408,PhD,Female,Retired,Divorced,5,No,Suburban,Low,Never,0,1,Occasionally,Internet,Yes,Medium,Low,NO
+118,60,109006,High School,Other,Self-employed,Widowed,5,No,Rural,High,Always,1,2,Never,TV,Yes,Medium,Low,NO
+119,46,72134,PhD,Male,Retired,Married,1,No,Urban,Low,Always,5,2,Regularly,Social Media,Yes,Low,High,NO
+120,53,147413,PhD,Female,Self-employed,Single,0,Yes,Urban,Medium,Rarely,6,8,Regularly,Internet,No,High,Medium,YES
+121,30,105327,PhD,Male,Retired,Divorced,3,No,Rural,High,Never,2,3,Occasionally,TV,No,Low,Medium,NO
+122,49,146410,High School,Female,Student,Single,5,No,Rural,High,Often,8,0,Regularly,TV,No,Medium,Low,NO
+123,88,26344,PhD,Male,Unemployed,Divorced,0,Yes,Urban,High,Always,6,0,Never,Social Media,Yes,Low,Low,NO
+124,76,147822,High School,Female,Student,Married,3,Yes,Suburban,High,Rarely,5,6,Never,TV,No,High,Low,NO
+125,45,82957,PhD,Female,Employed,Widowed,1,No,Urban,Low,Rarely,5,6,Regularly,Newspaper,No,High,Medium,YES
+126,83,120423,No Formal Education,Female,Unemployed,Divorced,2,No,Urban,Medium,Never,0,1,Never,Internet,Yes,Low,Medium,YES
+127,59,73053,PhD,Female,Student,Divorced,4,Yes,Rural,High,Never,4,8,Occasionally,Internet,No,Medium,Low,NO
+128,62,92454,Bachelor,Female,Employed,Single,4,No,Rural,High,Always,9,8,Never,Newspaper,Yes,Low,High,NO
+129,79,105600,PhD,Female,Self-employed,Married,1,Yes,Urban,Medium,Rarely,2,4,Regularly,Social Media,Yes,Medium,Medium,NO
+130,74,137732,Master,Female,Self-employed,Single,5,No,Suburban,Low,Often,6,2,Occasionally,Newspaper,No,High,Medium,YES
+131,23,52641,PhD,Female,Retired,Married,0,Yes,Urban,High,Rarely,9,2,Never,Newspaper,Yes,Low,Low,YES
+132,45,44711,Bachelor,Female,Unemployed,Single,2,No,Urban,Low,Often,2,2,Occasionally,Internet,Yes,High,High,NO
+133,45,85342,Bachelor,Male,Self-employed,Divorced,3,Yes,Suburban,Low,Often,4,5,Regularly,Social Media,Yes,Medium,Low,NO
+134,61,121896,High School,Other,Unemployed,Single,1,Yes,Urban,Low,Always,6,3,Never,TV,Yes,Medium,Low,YES
+135,47,102833,No Formal Education,Female,Self-employed,Widowed,2,Yes,Urban,Low,Rarely,2,7,Never,Newspaper,Yes,Low,High,NO
+136,79,71276,PhD,Other,Retired,Married,2,Yes,Rural,High,Often,9,4,Occasionally,Newspaper,Yes,Low,High,NO
+137,79,34541,High School,Female,Student,Married,5,Yes,Suburban,High,Never,1,0,Never,Social Media,No,Low,High,YES
+138,18,109457,No Formal Education,Female,Retired,Divorced,3,No,Rural,Low,Often,5,8,Never,Newspaper,Yes,High,Medium,YES
+139,44,59813,PhD,Male,Employed,Married,2,No,Rural,Low,Never,7,0,Never,Social Media,Yes,Medium,Low,YES
+140,79,39070,Master,Male,Self-employed,Widowed,5,Yes,Suburban,Medium,Never,3,5,Never,TV,Yes,Medium,Medium,YES
+141,20,95559,PhD,Other,Employed,Single,0,No,Suburban,Medium,Rarely,8,0,Regularly,Social Media,Yes,High,High,YES
+142,87,56786,Bachelor,Male,Employed,Divorced,5,No,Urban,Medium,Never,7,2,Never,TV,No,Low,Medium,NO
+143,89,51062,Bachelor,Male,Unemployed,Widowed,0,No,Rural,High,Often,6,9,Occasionally,Social Media,No,Low,High,YES
+144,44,66571,Master,Other,Self-employed,Married,0,No,Suburban,Medium,Never,6,4,Regularly,Newspaper,Yes,High,High,YES
+145,26,40510,High School,Male,Employed,Married,2,No,Rural,High,Rarely,2,9,Occasionally,TV,No,Medium,Low,YES
+146,79,34426,No Formal Education,Female,Student,Widowed,5,No,Rural,High,Always,5,6,Occasionally,Newspaper,Yes,Medium,Low,YES
+147,54,52265,PhD,Other,Employed,Single,0,Yes,Suburban,High,Often,4,9,Occasionally,TV,Yes,Medium,Low,YES
+148,68,81150,Bachelor,Other,Student,Single,3,No,Urban,High,Often,0,7,Regularly,Social Media,Yes,Medium,Medium,YES
+149,61,102312,High School,Female,Unemployed,Divorced,2,No,Rural,Medium,Rarely,2,8,Regularly,Social Media,Yes,High,Low,NO
+150,41,104613,Master,Male,Employed,Married,5,No,Suburban,Low,Rarely,0,5,Regularly,Social Media,No,Medium,High,YES
+151,76,89910,Bachelor,Other,Retired,Widowed,5,Yes,Urban,Low,Rarely,3,8,Never,Internet,No,High,Low,NO
+152,49,67375,Master,Other,Unemployed,Single,4,No,Rural,Low,Rarely,9,7,Occasionally,Internet,Yes,Low,Medium,NO
+153,69,136826,PhD,Female,Student,Divorced,5,No,Suburban,Medium,Often,2,8,Regularly,TV,Yes,High,Low,YES
+154,79,50435,No Formal Education,Female,Unemployed,Married,2,No,Rural,Low,Always,3,9,Occasionally,Internet,No,Medium,Low,YES
+155,75,111443,Bachelor,Male,Employed,Married,3,Yes,Suburban,Medium,Never,8,3,Regularly,Social Media,No,Low,Low,NO
+156,69,149055,Bachelor,Other,Self-employed,Divorced,5,No,Suburban,Medium,Never,2,8,Regularly,Internet,Yes,High,Medium,NO
+157,29,38510,PhD,Male,Self-employed,Divorced,4,Yes,Rural,Medium,Always,5,6,Regularly,Internet,No,High,High,NO
+158,56,109071,High School,Male,Student,Single,2,No,Rural,Low,Always,5,4,Occasionally,Newspaper,Yes,High,High,YES
+159,19,21640,No Formal Education,Female,Student,Widowed,0,Yes,Suburban,Low,Always,6,4,Never,TV,No,Low,High,NO
+160,20,59547,Bachelor,Other,Self-employed,Married,1,Yes,Urban,Low,Rarely,8,0,Regularly,TV,No,High,Low,YES
+161,73,69620,No Formal Education,Other,Student,Widowed,1,Yes,Rural,High,Often,6,1,Regularly,TV,No,Medium,Low,YES
+162,76,130608,Bachelor,Other,Unemployed,Married,0,No,Suburban,Medium,Often,0,9,Regularly,Internet,No,Low,Medium,NO
+163,19,22564,No Formal Education,Female,Retired,Married,5,Yes,Suburban,High,Often,7,2,Never,Social Media,Yes,Low,High,YES
+164,19,128824,Master,Female,Retired,Widowed,1,Yes,Urban,Medium,Rarely,4,7,Occasionally,Newspaper,Yes,High,Low,YES
+165,71,94273,Bachelor,Female,Unemployed,Divorced,1,Yes,Urban,Low,Often,8,5,Occasionally,TV,No,Medium,Low,NO
+166,18,89859,No Formal Education,Female,Retired,Single,0,Yes,Urban,Medium,Rarely,9,9,Occasionally,Internet,Yes,Low,Low,NO
+167,36,125017,High School,Female,Employed,Married,5,No,Rural,Medium,Often,4,4,Occasionally,Social Media,No,High,Medium,YES
+168,19,138618,Master,Other,Unemployed,Divorced,5,No,Suburban,High,Always,4,0,Regularly,Newspaper,No,Medium,High,NO
+169,70,140341,Master,Male,Student,Married,0,No,Suburban,Medium,Never,1,8,Never,Newspaper,Yes,High,Medium,YES
+170,61,44430,High School,Other,Unemployed,Single,5,No,Suburban,Low,Never,2,2,Regularly,TV,Yes,High,High,NO
+171,49,42788,No Formal Education,Male,Self-employed,Married,5,Yes,Urban,Medium,Rarely,9,2,Never,TV,Yes,Low,High,NO
+172,87,84346,PhD,Female,Student,Single,2,No,Suburban,Medium,Often,8,1,Occasionally,Social Media,No,Low,Low,NO
+173,49,111122,High School,Male,Self-employed,Single,2,Yes,Rural,Medium,Never,6,3,Never,Internet,Yes,High,Low,NO
+174,85,54974,No Formal Education,Other,Student,Married,0,No,Urban,High,Always,0,1,Regularly,Social Media,Yes,Low,Low,YES
+175,72,122309,High School,Other,Retired,Married,3,No,Urban,Medium,Always,2,8,Regularly,TV,Yes,Low,Low,NO
+176,73,31371,High School,Male,Unemployed,Single,1,No,Urban,Medium,Always,1,9,Occasionally,Social Media,Yes,Medium,Low,YES
+177,34,60084,Bachelor,Female,Employed,Divorced,2,Yes,Urban,High,Rarely,0,6,Regularly,Internet,No,Medium,High,YES
+178,55,76916,No Formal Education,Female,Student,Widowed,1,No,Rural,High,Rarely,8,7,Regularly,Newspaper,No,High,Low,NO
+179,41,88972,PhD,Other,Student,Single,4,No,Suburban,High,Often,7,2,Never,Newspaper,No,High,Low,NO
+180,86,27984,Bachelor,Male,Self-employed,Married,0,No,Rural,High,Always,4,5,Regularly,Newspaper,No,High,Medium,NO
+181,87,48039,High School,Female,Retired,Married,3,Yes,Suburban,Low,Often,1,9,Occasionally,Newspaper,No,High,Medium,NO
+182,28,100431,High School,Female,Self-employed,Divorced,4,No,Rural,Low,Often,0,5,Occasionally,TV,No,Medium,High,NO
+183,33,98691,High School,Other,Self-employed,Widowed,4,No,Urban,Medium,Always,6,0,Regularly,TV,No,Low,High,YES
+184,76,73606,No Formal Education,Female,Retired,Single,5,Yes,Urban,Low,Often,1,5,Occasionally,Internet,Yes,Medium,Medium,NO
+185,87,117665,No Formal Education,Male,Employed,Single,4,Yes,Rural,Medium,Never,0,2,Never,Internet,No,High,Medium,YES
+186,20,120373,Bachelor,Other,Self-employed,Widowed,0,No,Rural,Low,Rarely,1,2,Never,Internet,No,High,Low,YES
+187,37,39574,PhD,Other,Self-employed,Single,2,No,Suburban,High,Often,6,2,Regularly,Internet,No,Medium,Low,YES
+188,76,149502,Bachelor,Male,Student,Widowed,0,No,Rural,High,Always,6,9,Regularly,Social Media,No,Medium,High,YES
+189,53,47733,Master,Other,Retired,Married,2,Yes,Rural,Low,Rarely,9,9,Never,Internet,Yes,High,Medium,NO
+190,36,17050,High School,Female,Unemployed,Widowed,4,Yes,Suburban,Low,Rarely,5,7,Occasionally,Newspaper,No,Low,High,NO
+191,84,124996,High School,Female,Employed,Single,4,Yes,Suburban,Medium,Often,4,4,Regularly,Newspaper,No,High,Low,YES
+192,36,48933,High School,Male,Employed,Widowed,3,No,Suburban,Medium,Never,2,3,Regularly,Newspaper,Yes,Medium,High,YES
+193,37,39951,Bachelor,Female,Retired,Divorced,2,Yes,Rural,Medium,Often,2,8,Occasionally,Social Media,No,High,High,NO
+194,88,47413,Bachelor,Male,Student,Married,4,No,Suburban,High,Never,8,8,Regularly,Internet,No,High,High,YES
+195,69,127573,High School,Male,Student,Married,5,Yes,Urban,High,Rarely,3,0,Occasionally,Newspaper,No,Low,Low,NO
+196,50,137744,Bachelor,Female,Retired,Widowed,1,Yes,Urban,High,Often,8,1,Occasionally,Newspaper,No,High,High,YES
+197,57,104431,No Formal Education,Male,Student,Single,3,Yes,Urban,High,Always,3,7,Occasionally,Newspaper,No,High,Low,NO
+198,56,58001,No Formal Education,Female,Employed,Divorced,0,No,Rural,Medium,Often,1,4,Occasionally,Newspaper,No,High,Medium,YES
+199,18,82364,Bachelor,Other,Employed,Married,3,No,Urban,High,Never,3,6,Occasionally,TV,No,Medium,High,YES
+200,28,139988,High School,Other,Unemployed,Married,1,No,Rural,High,Never,5,0,Never,Internet,Yes,Medium,High,YES
+201,74,60028,Bachelor,Male,Retired,Single,2,No,Rural,High,Often,5,9,Occasionally,Internet,Yes,Low,Low,NO
+202,67,146878,Bachelor,Female,Self-employed,Single,0,Yes,Urban,High,Never,4,4,Never,Social Media,No,High,High,NO
+203,40,139343,Bachelor,Female,Self-employed,Divorced,0,No,Suburban,Low,Rarely,0,2,Occasionally,TV,Yes,Medium,Low,NO
+204,48,143301,Master,Other,Unemployed,Widowed,2,Yes,Rural,Medium,Often,2,9,Regularly,Social Media,No,Low,High,YES
+205,59,141295,No Formal Education,Other,Unemployed,Single,3,No,Urban,Medium,Never,4,1,Never,Newspaper,Yes,High,Medium,YES
+206,24,49636,PhD,Female,Student,Widowed,4,No,Rural,High,Often,5,1,Regularly,Social Media,No,Low,Medium,YES
+207,33,39262,PhD,Male,Unemployed,Divorced,3,Yes,Suburban,Low,Often,0,8,Occasionally,Newspaper,Yes,Low,Medium,YES
+208,77,95435,Master,Other,Unemployed,Widowed,1,Yes,Suburban,Medium,Always,8,3,Occasionally,Newspaper,No,Low,High,YES
+209,19,143583,Bachelor,Male,Self-employed,Married,5,No,Urban,Medium,Often,2,3,Regularly,Internet,Yes,Low,High,YES
+210,18,56844,Master,Male,Student,Widowed,4,No,Rural,High,Always,9,6,Occasionally,Internet,Yes,Low,Medium,NO
+211,65,79754,Master,Other,Unemployed,Divorced,3,Yes,Rural,High,Never,2,9,Regularly,Internet,No,Low,Medium,NO
+212,29,92129,High School,Male,Unemployed,Divorced,5,Yes,Rural,Medium,Always,1,9,Occasionally,Internet,No,Low,Low,NO
+213,86,55042,No Formal Education,Male,Student,Divorced,5,Yes,Rural,Medium,Always,7,1,Occasionally,Internet,Yes,High,Low,YES
+214,54,76665,PhD,Female,Retired,Widowed,2,Yes,Urban,Low,Always,2,2,Never,TV,Yes,High,Medium,NO
+215,49,131953,Bachelor,Male,Student,Married,1,Yes,Suburban,Medium,Rarely,5,2,Regularly,Internet,No,Low,Medium,YES
+216,26,133533,PhD,Female,Self-employed,Single,1,No,Urban,Medium,Always,1,5,Occasionally,Social Media,Yes,High,High,YES
+217,36,88781,PhD,Other,Retired,Married,1,No,Rural,High,Often,6,2,Regularly,Newspaper,No,Low,Medium,NO
+218,65,81262,No Formal Education,Other,Employed,Widowed,4,No,Rural,Medium,Always,3,4,Never,Internet,Yes,High,Low,YES
+219,20,61600,PhD,Female,Student,Widowed,0,No,Suburban,High,Often,8,3,Regularly,TV,Yes,Medium,Low,YES
+220,37,91898,PhD,Other,Self-employed,Single,4,Yes,Rural,Medium,Always,9,2,Never,Social Media,No,Low,Low,YES
+221,41,45448,Master,Male,Retired,Widowed,3,Yes,Urban,Medium,Rarely,8,7,Regularly,Social Media,No,Medium,Low,YES
+222,71,41172,No Formal Education,Male,Student,Divorced,5,Yes,Urban,Medium,Never,6,9,Regularly,Newspaper,No,Low,Low,YES
+223,50,22657,High School,Male,Unemployed,Divorced,5,No,Suburban,Low,Always,7,2,Never,Social Media,Yes,Low,Low,NO
+224,41,127855,Bachelor,Other,Student,Divorced,0,Yes,Urban,High,Always,2,5,Occasionally,Social Media,Yes,Medium,Medium,NO
+225,89,22906,PhD,Male,Employed,Divorced,3,Yes,Urban,Low,Rarely,4,6,Occasionally,Social Media,Yes,Medium,Low,YES
+226,53,76413,Bachelor,Other,Student,Divorced,0,No,Urban,Medium,Always,1,6,Occasionally,Social Media,No,Medium,Low,YES
+227,55,69028,High School,Male,Retired,Widowed,5,No,Urban,Low,Often,9,1,Regularly,TV,Yes,Low,Low,NO
+228,42,22287,Bachelor,Female,Retired,Single,4,No,Rural,High,Always,6,2,Regularly,Newspaper,Yes,Medium,Low,NO
+229,35,48660,High School,Other,Student,Single,1,Yes,Urban,Medium,Always,7,9,Occasionally,Internet,No,Medium,Medium,NO
+230,83,75504,Master,Other,Retired,Divorced,5,Yes,Suburban,Low,Never,8,9,Regularly,Social Media,Yes,High,High,YES
+231,71,117979,PhD,Male,Unemployed,Widowed,2,No,Suburban,Low,Never,6,3,Regularly,TV,Yes,High,High,NO
+232,52,49701,High School,Other,Student,Married,1,No,Urban,High,Always,9,6,Occasionally,Newspaper,No,Medium,High,NO
+233,78,98300,Bachelor,Other,Unemployed,Married,5,Yes,Suburban,Low,Rarely,9,1,Never,Internet,No,Medium,High,YES
+234,58,98560,PhD,Female,Unemployed,Widowed,4,No,Urban,High,Never,7,2,Regularly,Newspaper,No,Medium,Low,YES
+235,50,58642,Master,Female,Self-employed,Divorced,0,Yes,Suburban,Medium,Always,8,6,Regularly,TV,No,Medium,High,NO
+236,85,80160,PhD,Male,Student,Single,1,No,Suburban,Medium,Never,5,6,Regularly,TV,No,High,High,YES
+237,50,32602,High School,Female,Retired,Widowed,4,No,Urban,Low,Always,9,9,Regularly,TV,No,Low,Medium,NO
+238,31,118320,Master,Male,Unemployed,Married,3,No,Urban,Medium,Never,1,2,Never,Social Media,No,Medium,Medium,NO
+239,38,103801,Bachelor,Male,Self-employed,Married,2,Yes,Rural,Medium,Never,1,0,Occasionally,TV,No,Medium,Medium,YES
+240,65,40931,Master,Male,Student,Married,1,Yes,Urban,Low,Often,3,2,Regularly,Internet,No,High,Low,YES
+241,37,109377,Master,Other,Student,Divorced,0,No,Urban,Medium,Always,8,4,Occasionally,Social Media,Yes,Medium,Low,NO
+242,25,44192,No Formal Education,Female,Employed,Married,3,Yes,Rural,Low,Always,6,6,Regularly,Newspaper,No,Medium,Low,YES
+243,24,61542,Master,Male,Employed,Widowed,4,No,Urban,High,Always,1,3,Never,Internet,No,High,Medium,YES
+244,84,142015,Master,Female,Unemployed,Widowed,2,No,Urban,High,Always,7,0,Occasionally,Social Media,Yes,Medium,High,YES
+245,34,57520,PhD,Male,Employed,Married,0,Yes,Rural,High,Never,6,5,Never,TV,No,Medium,Medium,YES
+246,50,79772,Bachelor,Female,Unemployed,Widowed,4,Yes,Urban,Low,Often,8,1,Regularly,Newspaper,Yes,High,Low,YES
+247,65,65106,PhD,Female,Retired,Married,4,Yes,Urban,Low,Often,7,2,Never,TV,Yes,Low,Medium,YES
+248,76,96121,PhD,Male,Unemployed,Married,1,Yes,Rural,Medium,Rarely,2,3,Never,Internet,No,Medium,High,YES
+249,39,40559,High School,Other,Employed,Single,1,No,Rural,Medium,Always,0,5,Regularly,Internet,Yes,Medium,Low,NO
+250,47,120595,PhD,Female,Retired,Divorced,0,Yes,Suburban,Medium,Rarely,1,5,Regularly,Social Media,No,Low,High,YES
+251,55,48742,No Formal Education,Other,Employed,Divorced,5,Yes,Urban,Medium,Never,1,6,Occasionally,Internet,No,High,High,NO
+252,68,84669,No Formal Education,Other,Unemployed,Single,5,No,Suburban,Medium,Rarely,3,4,Regularly,Newspaper,Yes,Low,Low,YES
+253,71,85831,High School,Male,Self-employed,Single,4,No,Suburban,Low,Always,5,6,Occasionally,Social Media,Yes,Medium,High,NO
+254,25,127217,Bachelor,Male,Student,Divorced,1,No,Rural,Low,Often,3,1,Never,Newspaper,Yes,Low,Medium,YES
+255,44,56873,Bachelor,Male,Employed,Married,2,No,Urban,High,Often,8,0,Never,TV,No,High,High,NO
+256,44,121532,PhD,Female,Unemployed,Married,2,Yes,Urban,High,Always,3,9,Occasionally,Newspaper,No,Medium,High,YES
+257,38,141267,PhD,Male,Retired,Divorced,4,Yes,Rural,High,Never,5,7,Regularly,Newspaper,Yes,High,High,NO
+258,47,149092,PhD,Male,Employed,Married,1,No,Suburban,High,Always,5,0,Regularly,Internet,No,High,Medium,YES
+259,45,56755,Bachelor,Female,Employed,Single,0,No,Rural,Low,Never,9,1,Never,TV,No,Low,High,YES
+260,81,100956,Master,Female,Student,Married,0,Yes,Urban,Low,Often,9,9,Occasionally,Internet,Yes,Low,High,NO
+261,86,101988,No Formal Education,Male,Unemployed,Married,0,Yes,Rural,Low,Never,0,5,Never,TV,Yes,High,Medium,NO
+262,78,60648,Master,Male,Self-employed,Widowed,2,Yes,Urban,Medium,Always,7,0,Never,TV,Yes,High,Low,YES
+263,65,140991,Master,Male,Retired,Widowed,1,Yes,Suburban,Medium,Always,2,9,Regularly,Newspaper,Yes,Medium,Low,NO
+264,36,130005,Bachelor,Male,Unemployed,Widowed,1,Yes,Urban,High,Always,5,2,Occasionally,Internet,Yes,High,Low,NO
+265,21,17396,Master,Other,Retired,Married,2,No,Suburban,Medium,Never,2,6,Never,Newspaper,Yes,High,High,YES
+266,52,99082,High School,Other,Employed,Divorced,0,No,Suburban,Low,Never,1,7,Regularly,Newspaper,Yes,Low,Low,NO
+267,81,143322,PhD,Male,Student,Single,0,No,Urban,High,Never,4,3,Never,Newspaper,Yes,High,Medium,YES
+268,66,147663,High School,Other,Student,Married,4,No,Urban,High,Often,0,2,Never,TV,Yes,High,High,NO
+269,34,26303,No Formal Education,Female,Self-employed,Divorced,5,Yes,Suburban,Medium,Rarely,8,0,Regularly,Internet,Yes,Low,High,YES
+270,61,86719,PhD,Other,Student,Married,3,No,Rural,High,Rarely,6,8,Regularly,Internet,No,Medium,High,NO
+271,47,114616,Master,Other,Employed,Single,5,Yes,Urban,Medium,Always,2,9,Occasionally,Newspaper,No,Low,Low,YES
+272,63,139165,No Formal Education,Male,Self-employed,Married,1,Yes,Suburban,Medium,Often,3,5,Never,TV,Yes,Low,Low,YES
+273,23,101231,PhD,Other,Unemployed,Single,1,Yes,Suburban,High,Never,5,5,Occasionally,Internet,No,High,Low,NO
+274,54,22314,Master,Other,Student,Married,1,Yes,Rural,Medium,Always,2,8,Regularly,Social Media,No,High,High,NO
+275,41,34623,High School,Other,Self-employed,Single,5,Yes,Urban,Medium,Often,6,0,Regularly,Internet,No,Medium,Medium,YES
+276,63,120228,PhD,Other,Employed,Married,3,Yes,Suburban,Medium,Always,5,5,Never,Newspaper,No,High,High,YES
+277,70,112624,Master,Female,Retired,Single,4,Yes,Rural,Medium,Often,8,4,Occasionally,Social Media,No,Medium,Medium,NO
+278,77,126785,High School,Male,Retired,Widowed,5,No,Suburban,High,Often,4,5,Occasionally,TV,No,Medium,High,NO
+279,80,101206,No Formal Education,Male,Employed,Married,3,Yes,Urban,Low,Rarely,3,7,Never,Social Media,Yes,Medium,Medium,NO
+280,49,84274,No Formal Education,Female,Employed,Married,0,No,Rural,Low,Always,2,4,Never,Social Media,Yes,Medium,High,NO
+281,50,148541,No Formal Education,Other,Retired,Divorced,0,No,Suburban,Medium,Never,9,1,Occasionally,Newspaper,No,High,High,NO
+282,84,68947,No Formal Education,Female,Self-employed,Divorced,1,Yes,Rural,Medium,Rarely,0,1,Regularly,Internet,No,Low,Medium,NO
+283,35,63874,Bachelor,Other,Retired,Single,2,Yes,Urban,Medium,Rarely,2,9,Regularly,TV,Yes,Low,Medium,YES
+284,42,64708,PhD,Female,Employed,Married,1,No,Rural,Low,Never,2,4,Never,Social Media,No,High,Medium,NO
+285,71,89553,PhD,Male,Student,Single,2,No,Urban,Medium,Often,6,2,Occasionally,Newspaper,No,High,Medium,NO
+286,75,83344,Bachelor,Male,Unemployed,Widowed,3,No,Suburban,High,Never,6,9,Occasionally,Internet,No,Medium,Medium,NO
+287,84,64138,Master,Male,Student,Divorced,0,No,Urban,High,Always,0,2,Occasionally,Social Media,No,High,Medium,NO
+288,63,62638,Master,Other,Student,Single,5,Yes,Suburban,High,Never,2,7,Regularly,Newspaper,No,Low,Medium,YES
+289,41,93249,No Formal Education,Other,Employed,Single,2,Yes,Suburban,Low,Often,7,6,Regularly,Newspaper,Yes,High,Medium,YES
+290,49,120865,High School,Female,Retired,Divorced,3,Yes,Urban,Medium,Never,8,0,Occasionally,Newspaper,Yes,High,High,YES
+291,64,17719,Master,Female,Self-employed,Married,0,No,Suburban,Medium,Often,6,4,Occasionally,TV,No,Medium,Medium,YES
+292,40,57534,High School,Male,Student,Single,5,Yes,Rural,Medium,Often,6,8,Never,Internet,Yes,Medium,Medium,NO
+293,83,107241,PhD,Other,Retired,Divorced,2,No,Suburban,Low,Always,7,3,Never,Social Media,No,Medium,High,YES
+294,44,141209,High School,Female,Self-employed,Married,1,Yes,Urban,Low,Never,5,0,Occasionally,Internet,No,Medium,High,NO
+295,19,107124,PhD,Other,Student,Widowed,1,No,Rural,Low,Never,2,7,Occasionally,Internet,No,Low,Low,NO
+296,34,106659,Bachelor,Other,Self-employed,Divorced,1,Yes,Rural,Low,Always,0,4,Regularly,Social Media,No,High,Low,YES
+297,50,90713,Bachelor,Male,Retired,Single,3,Yes,Suburban,High,Often,6,1,Occasionally,Internet,No,High,Medium,YES
+298,26,90418,No Formal Education,Male,Unemployed,Widowed,1,No,Suburban,Low,Never,0,0,Never,TV,No,Medium,Medium,NO
+299,60,143232,Master,Other,Retired,Married,4,No,Urban,Low,Always,0,2,Regularly,Social Media,No,Low,Low,YES
+300,65,46575,No Formal Education,Other,Employed,Married,0,No,Rural,Low,Often,8,8,Never,Social Media,No,Low,Low,YES
+301,56,78852,PhD,Other,Self-employed,Divorced,3,No,Urban,Medium,Always,9,0,Never,Newspaper,No,High,Medium,NO
+302,59,147079,No Formal Education,Other,Unemployed,Divorced,5,No,Suburban,Medium,Never,6,3,Regularly,Internet,Yes,Medium,Low,NO
+303,43,91242,High School,Male,Self-employed,Divorced,1,Yes,Rural,Medium,Always,3,7,Never,Social Media,No,High,Medium,NO
+304,67,44257,PhD,Female,Self-employed,Married,0,No,Urban,High,Rarely,5,7,Occasionally,Social Media,Yes,High,High,NO
+305,42,76246,Bachelor,Male,Student,Widowed,2,Yes,Urban,High,Often,0,9,Never,TV,Yes,Low,High,NO
+306,41,16435,Master,Female,Employed,Married,1,Yes,Urban,Low,Rarely,6,7,Regularly,Newspaper,No,Low,Low,YES
+307,30,106357,PhD,Other,Self-employed,Single,0,Yes,Urban,Medium,Rarely,5,9,Regularly,Social Media,Yes,High,High,NO
+308,77,98807,PhD,Female,Retired,Married,4,Yes,Urban,High,Often,3,7,Regularly,TV,No,Medium,High,NO
+309,24,130953,High School,Male,Retired,Single,2,Yes,Rural,Medium,Often,6,3,Never,Social Media,No,Medium,High,NO
+310,74,138797,Master,Male,Student,Widowed,4,No,Urban,High,Always,2,7,Occasionally,Social Media,No,High,High,YES
+311,53,78888,Bachelor,Other,Employed,Divorced,5,No,Rural,High,Often,0,8,Regularly,Social Media,No,High,Medium,NO
+312,62,88609,PhD,Male,Employed,Divorced,0,Yes,Urban,Low,Rarely,3,6,Occasionally,TV,Yes,Medium,Medium,NO
+313,37,24077,PhD,Other,Retired,Married,4,Yes,Suburban,Low,Rarely,2,1,Regularly,Internet,Yes,Medium,Low,YES
+314,82,35953,High School,Male,Unemployed,Divorced,5,No,Suburban,High,Never,0,8,Occasionally,Social Media,No,Medium,High,NO
+315,25,129682,No Formal Education,Male,Student,Widowed,0,No,Urban,Low,Often,1,7,Occasionally,Social Media,Yes,High,High,NO
+316,33,82889,Bachelor,Other,Student,Divorced,0,Yes,Suburban,High,Rarely,4,4,Occasionally,Internet,Yes,Low,High,NO
+317,31,130374,Master,Female,Retired,Married,4,No,Rural,High,Never,7,2,Regularly,Social Media,Yes,Medium,Low,YES
+318,32,39860,PhD,Male,Retired,Widowed,0,No,Urban,Medium,Never,0,6,Never,Newspaper,No,Medium,Medium,YES
+319,83,92475,PhD,Female,Unemployed,Single,1,No,Rural,Low,Always,3,1,Never,Social Media,Yes,Medium,High,NO
+320,49,102266,Bachelor,Male,Unemployed,Married,0,Yes,Urban,Low,Rarely,3,2,Never,Newspaper,Yes,High,Medium,NO
+321,80,115732,No Formal Education,Male,Employed,Single,3,No,Suburban,Low,Always,4,8,Occasionally,Internet,Yes,Low,Low,NO
+322,68,42083,PhD,Male,Student,Widowed,5,Yes,Rural,Medium,Rarely,6,3,Regularly,TV,No,Low,Medium,YES
+323,42,72372,Bachelor,Male,Student,Married,0,Yes,Suburban,Medium,Always,7,3,Occasionally,Internet,Yes,Medium,High,YES
+324,75,138786,High School,Female,Retired,Married,3,Yes,Suburban,Medium,Always,5,2,Regularly,Social Media,Yes,High,Medium,YES
+325,80,22813,No Formal Education,Female,Employed,Widowed,0,Yes,Urban,Low,Often,0,4,Occasionally,Newspaper,No,Low,Medium,YES
+326,79,46598,Master,Male,Student,Divorced,0,Yes,Rural,Low,Always,6,2,Regularly,TV,Yes,High,Low,YES
+327,39,108106,PhD,Male,Employed,Married,4,No,Suburban,Low,Often,2,8,Regularly,Social Media,No,Low,Low,YES
+328,75,42082,Bachelor,Female,Employed,Married,1,Yes,Urban,Medium,Never,5,2,Regularly,TV,No,Medium,Low,NO
+329,75,44241,High School,Other,Retired,Single,5,Yes,Urban,Medium,Rarely,7,1,Occasionally,TV,No,High,Low,YES
+330,66,26745,Master,Other,Employed,Divorced,1,Yes,Urban,High,Never,6,4,Never,Social Media,No,Medium,Medium,NO
+331,69,41029,Bachelor,Female,Unemployed,Single,2,No,Suburban,Medium,Rarely,9,5,Occasionally,Internet,No,Low,Medium,YES
+332,59,138395,Bachelor,Male,Unemployed,Single,4,No,Urban,High,Never,5,0,Occasionally,Social Media,No,Low,Low,NO
+333,87,104186,Master,Male,Self-employed,Divorced,4,No,Rural,Low,Rarely,8,5,Regularly,Social Media,Yes,Medium,Low,YES
+334,32,112768,High School,Other,Retired,Divorced,1,No,Rural,Medium,Always,8,9,Regularly,Internet,No,Low,High,NO
+335,71,56846,High School,Other,Self-employed,Widowed,4,No,Suburban,Low,Rarely,0,2,Never,Newspaper,Yes,Medium,High,NO
+336,77,90932,No Formal Education,Female,Unemployed,Divorced,1,No,Rural,Low,Rarely,0,3,Never,Social Media,Yes,Medium,Low,NO
+337,25,38411,PhD,Other,Self-employed,Married,4,No,Urban,Low,Never,0,5,Regularly,TV,No,Medium,Medium,YES
+338,70,93797,Master,Female,Retired,Divorced,0,Yes,Suburban,Low,Never,7,7,Never,Social Media,Yes,Low,Low,YES
+339,77,67307,Master,Other,Retired,Widowed,1,Yes,Urban,Medium,Never,9,8,Never,Social Media,Yes,High,Medium,YES
+340,22,149165,Master,Other,Employed,Widowed,1,No,Suburban,Low,Often,6,5,Regularly,TV,Yes,Medium,Medium,NO
+341,85,37042,High School,Other,Student,Widowed,3,Yes,Suburban,High,Often,2,6,Occasionally,Internet,No,High,High,NO
+342,23,67930,PhD,Male,Employed,Divorced,4,Yes,Urban,Medium,Rarely,1,4,Never,Newspaper,Yes,Low,Low,NO
+343,64,112883,No Formal Education,Male,Retired,Divorced,4,No,Rural,Low,Rarely,3,8,Regularly,Newspaper,Yes,Low,Low,YES
+344,72,48756,Bachelor,Male,Unemployed,Single,1,Yes,Rural,Medium,Always,2,3,Never,TV,No,High,Medium,YES
+345,57,68268,Bachelor,Other,Unemployed,Single,0,Yes,Suburban,High,Always,6,9,Never,Internet,Yes,Medium,Low,NO
+346,69,63901,Master,Female,Employed,Married,0,No,Urban,Low,Rarely,9,5,Regularly,Social Media,Yes,Low,High,YES
+347,33,114986,PhD,Female,Retired,Single,5,Yes,Urban,High,Often,7,4,Never,Social Media,Yes,Medium,High,YES
+348,30,143386,High School,Female,Unemployed,Married,0,No,Suburban,Low,Rarely,5,0,Never,Social Media,No,Medium,Low,YES
+349,47,20626,PhD,Female,Retired,Widowed,4,No,Rural,High,Always,2,4,Never,Social Media,Yes,High,Low,YES
+350,36,27857,PhD,Male,Unemployed,Single,3,Yes,Urban,Low,Often,5,4,Occasionally,Social Media,Yes,Low,High,NO
+351,34,148052,High School,Male,Retired,Divorced,1,Yes,Rural,Medium,Often,1,8,Occasionally,TV,No,High,Low,YES
+352,80,41431,Master,Other,Self-employed,Single,2,Yes,Rural,Low,Always,6,0,Never,Social Media,No,Low,Medium,YES
+353,36,99976,PhD,Other,Retired,Married,3,No,Suburban,Medium,Rarely,9,4,Regularly,Social Media,No,High,Low,NO
+354,75,97711,Bachelor,Female,Retired,Single,2,No,Suburban,Low,Never,6,6,Never,Internet,Yes,Low,Medium,NO
+355,72,41385,High School,Male,Employed,Widowed,3,No,Rural,Low,Rarely,3,5,Never,Social Media,No,Low,Low,YES
+356,79,33639,No Formal Education,Female,Self-employed,Divorced,0,Yes,Urban,High,Rarely,7,5,Occasionally,Newspaper,No,Low,Low,YES
+357,40,100530,Master,Other,Student,Married,4,Yes,Urban,High,Always,3,6,Occasionally,TV,No,Medium,High,YES
+358,26,36563,High School,Other,Employed,Divorced,2,No,Suburban,High,Often,6,5,Occasionally,TV,Yes,Medium,Medium,YES
+359,29,130672,No Formal Education,Female,Student,Divorced,3,Yes,Rural,Low,Always,3,4,Never,TV,No,High,High,NO
+360,18,97970,No Formal Education,Other,Unemployed,Married,4,Yes,Urban,Low,Rarely,4,9,Never,Newspaper,No,High,Low,NO
+361,75,100553,PhD,Female,Student,Divorced,2,No,Urban,Low,Never,6,4,Regularly,Social Media,No,Low,High,NO
+362,18,97879,PhD,Male,Retired,Divorced,1,No,Suburban,Medium,Never,9,8,Never,TV,No,Low,Low,YES
+363,51,59859,PhD,Female,Student,Single,3,Yes,Rural,Medium,Never,2,7,Never,Newspaper,No,Medium,Low,YES
+364,65,67098,High School,Male,Employed,Divorced,1,No,Urban,Low,Always,9,9,Occasionally,Internet,Yes,Medium,Low,NO
+365,18,137413,High School,Male,Employed,Divorced,0,Yes,Suburban,High,Often,4,3,Occasionally,Social Media,Yes,Medium,Medium,YES
+366,33,15526,Master,Other,Student,Divorced,1,No,Urban,High,Always,2,3,Occasionally,Newspaper,No,High,Medium,NO
+367,78,83760,PhD,Other,Employed,Divorced,1,No,Urban,High,Never,4,9,Occasionally,Social Media,No,Medium,Medium,NO
+368,81,62837,No Formal Education,Other,Employed,Married,5,No,Urban,Low,Rarely,2,4,Occasionally,Internet,No,High,High,NO
+369,80,26536,Bachelor,Female,Student,Widowed,3,Yes,Suburban,High,Often,9,2,Regularly,Newspaper,Yes,Medium,Low,NO
+370,86,43541,Master,Female,Self-employed,Single,0,Yes,Rural,Low,Always,6,7,Regularly,Social Media,Yes,Medium,High,NO
+371,39,94083,High School,Other,Self-employed,Divorced,1,No,Suburban,Medium,Always,0,6,Regularly,Newspaper,Yes,Low,High,NO
+372,84,49531,Master,Female,Unemployed,Divorced,4,No,Rural,High,Often,8,4,Occasionally,TV,Yes,High,Low,NO
+373,43,23712,Master,Other,Employed,Married,2,No,Urban,Medium,Often,8,9,Occasionally,Social Media,No,Medium,High,YES
+374,33,119101,Master,Female,Student,Widowed,1,Yes,Rural,High,Rarely,4,2,Occasionally,Newspaper,No,Low,Low,NO
+375,68,80455,Master,Male,Employed,Divorced,0,No,Urban,Low,Often,8,4,Regularly,TV,No,High,Low,NO
+376,74,89744,Bachelor,Male,Retired,Married,1,No,Urban,Low,Rarely,9,2,Occasionally,Internet,No,High,Low,YES
+377,46,144749,PhD,Other,Employed,Single,2,No,Suburban,Low,Never,5,9,Regularly,Social Media,Yes,Medium,Low,NO
+378,86,20109,No Formal Education,Female,Employed,Single,0,No,Urban,Low,Never,4,4,Occasionally,Social Media,No,High,High,YES
+379,64,64268,Master,Female,Self-employed,Divorced,3,Yes,Suburban,High,Always,2,0,Never,Internet,Yes,Low,High,NO
+380,79,69615,Master,Male,Student,Divorced,0,Yes,Rural,Medium,Never,7,5,Regularly,TV,Yes,Low,High,YES
+381,86,97503,Master,Male,Employed,Widowed,3,No,Rural,Low,Never,3,9,Never,Internet,No,High,Medium,YES
+382,33,100708,PhD,Other,Self-employed,Widowed,0,Yes,Urban,High,Rarely,9,3,Regularly,Social Media,Yes,Low,High,YES
+383,65,117471,High School,Male,Unemployed,Divorced,2,Yes,Suburban,Medium,Always,2,3,Occasionally,Newspaper,Yes,High,High,NO
+384,56,98309,High School,Other,Self-employed,Married,2,Yes,Urban,Low,Often,5,7,Occasionally,TV,No,Low,Medium,YES
+385,50,141446,Bachelor,Male,Self-employed,Widowed,0,No,Suburban,Medium,Always,7,1,Never,TV,Yes,High,Low,NO
+386,40,121661,High School,Male,Self-employed,Divorced,1,Yes,Suburban,Low,Never,8,3,Occasionally,TV,Yes,High,Low,NO
+387,27,21154,Master,Female,Employed,Widowed,2,Yes,Suburban,Medium,Often,5,1,Regularly,Internet,No,High,Low,NO
+388,86,79288,Master,Male,Employed,Divorced,3,Yes,Rural,Medium,Always,4,0,Occasionally,Internet,Yes,Low,Medium,NO
+389,51,66195,Master,Male,Unemployed,Single,3,No,Suburban,Low,Always,1,9,Occasionally,Newspaper,Yes,High,High,NO
+390,69,35581,Bachelor,Other,Retired,Divorced,4,No,Rural,High,Always,1,2,Regularly,Newspaper,No,High,High,NO
+391,27,45087,Master,Male,Retired,Single,5,Yes,Suburban,Medium,Always,8,7,Never,TV,Yes,Medium,High,NO
+392,36,84298,High School,Other,Retired,Widowed,5,Yes,Rural,Low,Rarely,1,5,Never,Newspaper,No,Medium,High,YES
+393,75,61167,PhD,Male,Unemployed,Divorced,5,No,Rural,Medium,Always,1,6,Occasionally,Internet,Yes,High,Medium,NO
+394,18,54499,PhD,Male,Retired,Widowed,3,No,Rural,Medium,Never,2,1,Regularly,Newspaper,Yes,Medium,High,NO
+395,86,140816,No Formal Education,Other,Retired,Single,4,Yes,Urban,High,Never,2,5,Never,Internet,No,High,Low,YES
+396,21,111347,High School,Female,Self-employed,Divorced,5,Yes,Suburban,Medium,Rarely,3,7,Never,Newspaper,No,Medium,Medium,NO
+397,33,63787,Master,Other,Employed,Widowed,5,No,Urban,Medium,Often,6,7,Occasionally,Social Media,Yes,Low,Medium,YES
+398,41,50488,PhD,Other,Employed,Single,0,No,Suburban,Low,Often,8,3,Regularly,Internet,No,Low,Low,YES
+399,19,89441,High School,Other,Self-employed,Widowed,0,Yes,Suburban,Low,Never,1,5,Never,Social Media,Yes,High,Low,NO
+400,49,37431,PhD,Female,Self-employed,Married,0,No,Urban,High,Never,3,4,Occasionally,Internet,No,High,High,NO
+401,41,76681,Master,Male,Self-employed,Single,1,Yes,Rural,Medium,Rarely,8,8,Occasionally,Newspaper,Yes,Low,Low,YES
+402,29,137720,PhD,Other,Employed,Single,5,Yes,Suburban,Medium,Often,1,7,Occasionally,Social Media,Yes,Low,Medium,NO
+403,67,64153,No Formal Education,Other,Retired,Single,1,Yes,Rural,Medium,Often,9,1,Occasionally,Newspaper,Yes,Medium,Medium,YES
+404,52,21368,No Formal Education,Female,Self-employed,Divorced,4,No,Urban,High,Always,0,6,Never,Internet,Yes,High,Medium,YES
+405,50,127360,PhD,Other,Unemployed,Divorced,3,Yes,Rural,Medium,Always,9,6,Regularly,Social Media,Yes,Low,High,NO
+406,50,127755,High School,Male,Self-employed,Divorced,5,Yes,Suburban,Low,Always,7,0,Occasionally,TV,No,Low,High,YES
+407,78,71985,High School,Female,Student,Married,3,No,Suburban,High,Rarely,8,0,Occasionally,Newspaper,No,High,Low,NO
+408,68,65069,High School,Male,Self-employed,Married,0,No,Suburban,Low,Never,6,3,Never,Internet,Yes,Medium,High,NO
+409,60,67326,PhD,Male,Employed,Single,5,Yes,Urban,Low,Rarely,7,4,Occasionally,Social Media,Yes,Medium,High,YES
+410,29,123737,High School,Female,Self-employed,Married,2,Yes,Suburban,High,Often,3,3,Occasionally,Newspaper,No,Medium,Medium,YES
+411,84,65861,Master,Other,Student,Widowed,1,No,Urban,Low,Never,3,6,Regularly,Social Media,No,Medium,Medium,NO
+412,82,90897,No Formal Education,Male,Unemployed,Single,1,No,Rural,Medium,Always,1,2,Occasionally,Newspaper,No,Low,Low,NO
+413,50,142118,Master,Male,Retired,Single,5,No,Suburban,High,Rarely,7,6,Never,Newspaper,No,High,Medium,NO
+414,57,83577,High School,Male,Self-employed,Widowed,0,Yes,Suburban,Low,Rarely,1,7,Regularly,Newspaper,No,High,High,YES
+415,60,24078,Master,Male,Student,Single,1,Yes,Suburban,Medium,Always,8,5,Never,Social Media,Yes,Low,Low,NO
+416,61,77768,High School,Female,Student,Married,0,Yes,Rural,Medium,Rarely,3,5,Regularly,Social Media,Yes,Low,Low,YES
+417,46,66047,PhD,Female,Unemployed,Divorced,4,No,Suburban,Low,Always,0,7,Regularly,Newspaper,No,Low,Medium,YES
+418,30,86626,Master,Male,Employed,Widowed,3,Yes,Urban,Medium,Often,3,7,Occasionally,TV,No,High,Medium,YES
+419,29,72660,PhD,Other,Self-employed,Married,2,No,Rural,High,Never,2,6,Occasionally,TV,No,High,Medium,NO
+420,63,147997,PhD,Male,Student,Widowed,3,Yes,Rural,Low,Often,5,5,Occasionally,TV,No,High,Low,YES
+421,19,132832,Bachelor,Other,Unemployed,Widowed,3,No,Rural,Medium,Often,6,5,Never,Internet,No,Medium,Medium,NO
+422,52,145406,High School,Male,Retired,Single,4,Yes,Rural,Medium,Always,7,9,Occasionally,TV,No,Low,High,YES
+423,25,140150,No Formal Education,Other,Student,Single,1,Yes,Rural,Low,Rarely,1,5,Occasionally,Social Media,No,Low,Low,NO
+424,43,48320,High School,Male,Unemployed,Married,2,No,Urban,Low,Often,5,7,Regularly,TV,No,Low,Medium,NO
+425,51,79881,No Formal Education,Other,Employed,Widowed,1,No,Rural,Low,Often,5,0,Occasionally,Social Media,No,High,High,YES
+426,24,105827,High School,Male,Employed,Single,5,Yes,Suburban,Low,Often,9,4,Occasionally,Internet,Yes,Low,High,NO
+427,85,117215,PhD,Male,Student,Single,3,No,Rural,High,Rarely,4,2,Occasionally,Social Media,No,Low,Medium,YES
+428,75,149461,Master,Other,Student,Widowed,5,No,Rural,Low,Rarely,9,7,Occasionally,Social Media,No,Medium,High,YES
+429,46,76550,Master,Female,Self-employed,Married,0,Yes,Rural,High,Always,9,5,Regularly,Social Media,Yes,High,Low,YES
+430,53,39826,Bachelor,Other,Unemployed,Married,3,No,Rural,High,Often,6,1,Occasionally,TV,Yes,Low,Low,YES
+431,38,115734,No Formal Education,Female,Student,Widowed,1,Yes,Rural,Low,Never,2,6,Regularly,Newspaper,Yes,High,High,YES
+432,53,113511,No Formal Education,Male,Self-employed,Married,3,Yes,Urban,High,Rarely,3,6,Never,Social Media,No,High,Low,YES
+433,27,26653,No Formal Education,Other,Self-employed,Single,0,No,Urban,Low,Always,9,4,Occasionally,TV,No,High,Medium,YES
+434,41,96941,PhD,Other,Student,Widowed,4,No,Rural,Low,Often,8,7,Occasionally,TV,No,Medium,High,NO
+435,81,48662,No Formal Education,Other,Employed,Single,5,Yes,Urban,Medium,Never,3,4,Occasionally,TV,No,High,Low,YES
+436,66,113818,Master,Female,Unemployed,Divorced,5,Yes,Suburban,Low,Rarely,2,0,Regularly,Newspaper,Yes,High,Medium,YES
+437,53,110081,PhD,Female,Unemployed,Divorced,1,Yes,Rural,Medium,Never,1,8,Occasionally,Newspaper,No,High,Medium,NO
+438,41,51877,High School,Male,Employed,Married,3,Yes,Suburban,High,Rarely,4,3,Occasionally,Newspaper,No,Low,Low,NO
+439,40,126562,No Formal Education,Female,Student,Divorced,1,Yes,Suburban,Medium,Always,3,1,Never,Newspaper,Yes,Medium,High,YES
+440,79,87715,No Formal Education,Female,Unemployed,Single,4,Yes,Rural,High,Never,7,3,Regularly,Internet,No,Low,Medium,YES
+441,54,125091,High School,Male,Student,Divorced,3,No,Suburban,Low,Often,6,8,Regularly,Newspaper,No,Medium,Medium,YES
+442,29,147632,No Formal Education,Other,Student,Single,3,No,Suburban,High,Often,5,1,Never,Newspaper,No,Medium,Medium,NO
+443,72,94148,High School,Other,Self-employed,Married,1,No,Suburban,High,Rarely,1,3,Regularly,Newspaper,No,High,Medium,YES
+444,30,98186,PhD,Male,Employed,Married,1,Yes,Rural,Low,Often,2,1,Occasionally,Social Media,Yes,High,High,NO
+445,40,138629,Master,Other,Student,Single,0,No,Rural,High,Never,9,4,Occasionally,Social Media,Yes,Low,Low,YES
+446,47,85316,High School,Female,Retired,Divorced,4,Yes,Suburban,Low,Always,8,2,Never,Newspaper,Yes,Medium,Low,YES
+447,34,43380,Bachelor,Male,Employed,Married,0,Yes,Rural,Medium,Rarely,8,9,Regularly,Internet,Yes,High,Low,NO
+448,79,125198,High School,Male,Unemployed,Widowed,5,No,Rural,Low,Never,4,1,Regularly,Social Media,No,High,Medium,YES
+449,30,17356,No Formal Education,Male,Self-employed,Married,3,Yes,Suburban,Low,Rarely,2,8,Regularly,TV,No,High,High,YES
+450,76,85326,PhD,Other,Unemployed,Divorced,1,Yes,Rural,High,Always,1,4,Never,Social Media,No,High,Low,YES
+451,36,107447,PhD,Male,Unemployed,Widowed,3,Yes,Urban,Medium,Rarely,7,9,Occasionally,TV,Yes,Low,High,NO
+452,66,129994,High School,Male,Employed,Divorced,3,Yes,Rural,Low,Often,5,4,Never,Social Media,Yes,Low,Low,YES
+453,29,35049,Master,Male,Unemployed,Single,2,Yes,Urban,Medium,Often,9,0,Occasionally,Newspaper,Yes,High,Medium,YES
+454,78,120361,Bachelor,Other,Student,Widowed,5,Yes,Suburban,Medium,Rarely,6,5,Never,Social Media,No,High,Low,NO
+455,36,31082,PhD,Female,Unemployed,Divorced,2,No,Rural,High,Always,0,6,Occasionally,Newspaper,No,High,Medium,NO
+456,26,15661,No Formal Education,Male,Self-employed,Widowed,3,Yes,Suburban,Low,Always,0,0,Regularly,Newspaper,Yes,High,Medium,YES
+457,88,17920,No Formal Education,Female,Self-employed,Divorced,1,Yes,Suburban,High,Often,9,8,Regularly,Social Media,Yes,High,Low,YES
+458,45,94561,Master,Other,Retired,Widowed,3,Yes,Suburban,Low,Always,1,7,Regularly,TV,No,Medium,High,NO
+459,69,23946,PhD,Other,Self-employed,Divorced,5,Yes,Suburban,Medium,Rarely,9,7,Never,TV,No,Medium,Medium,YES
+460,33,31309,High School,Other,Unemployed,Single,2,No,Suburban,Low,Never,2,6,Never,Social Media,No,Medium,High,YES
+461,86,70230,No Formal Education,Other,Self-employed,Widowed,1,No,Rural,Low,Rarely,0,4,Never,Newspaper,Yes,Medium,Low,NO
+462,29,126822,Master,Female,Employed,Widowed,3,Yes,Urban,Medium,Often,4,2,Regularly,TV,Yes,High,Medium,YES
+463,42,127340,PhD,Male,Self-employed,Widowed,4,Yes,Rural,Medium,Often,2,8,Occasionally,Internet,Yes,Medium,High,YES
+464,69,74321,PhD,Other,Student,Widowed,5,Yes,Rural,Low,Often,0,6,Regularly,Newspaper,Yes,Medium,Medium,NO
+465,70,147028,PhD,Other,Employed,Single,5,No,Rural,High,Always,7,9,Regularly,Social Media,No,Low,Low,YES
+466,40,89131,PhD,Female,Retired,Widowed,4,No,Rural,Low,Rarely,5,9,Occasionally,Newspaper,No,Medium,Medium,YES
+467,33,40963,PhD,Female,Student,Married,3,No,Urban,Medium,Never,8,7,Occasionally,Internet,No,Medium,Low,YES
+468,74,116757,No Formal Education,Other,Unemployed,Single,5,No,Rural,High,Rarely,2,5,Occasionally,Internet,Yes,High,High,NO
+469,56,114259,Master,Male,Unemployed,Married,1,Yes,Suburban,Medium,Never,8,4,Occasionally,TV,No,Medium,Medium,YES
+470,70,54063,PhD,Male,Unemployed,Widowed,3,No,Rural,Medium,Rarely,8,7,Regularly,Internet,No,Medium,High,NO
+471,59,129225,Bachelor,Other,Student,Divorced,3,No,Rural,High,Often,0,2,Never,Newspaper,No,High,Low,NO
+472,75,131400,Bachelor,Female,Student,Married,2,Yes,Urban,Medium,Never,2,6,Regularly,TV,No,Medium,Low,YES
+473,56,95818,Master,Other,Student,Widowed,5,Yes,Urban,Medium,Rarely,5,1,Occasionally,Internet,No,High,High,NO
+474,31,19703,High School,Other,Employed,Married,5,No,Suburban,Medium,Always,7,2,Never,TV,Yes,Medium,High,YES
+475,22,87099,High School,Female,Employed,Widowed,4,No,Rural,Medium,Always,3,1,Never,TV,No,Low,Low,YES
+476,52,46585,High School,Other,Unemployed,Widowed,2,No,Rural,Medium,Rarely,4,4,Regularly,Social Media,No,Low,High,YES
+477,35,58585,Bachelor,Other,Self-employed,Widowed,2,No,Rural,Medium,Often,8,6,Regularly,TV,Yes,Medium,Low,NO
+478,26,41958,High School,Other,Unemployed,Divorced,5,Yes,Suburban,Medium,Never,5,9,Regularly,TV,Yes,Low,High,YES
+479,75,41017,No Formal Education,Female,Retired,Married,3,Yes,Urban,Medium,Rarely,6,9,Never,Internet,No,High,Low,YES
+480,34,139677,PhD,Male,Employed,Single,2,No,Suburban,Medium,Always,6,0,Never,Newspaper,No,Medium,Low,YES
+481,24,44426,Bachelor,Male,Student,Single,4,No,Rural,Low,Never,3,9,Never,Newspaper,No,High,Medium,NO
+482,63,32778,Master,Female,Employed,Single,2,No,Urban,Low,Always,3,8,Occasionally,Internet,No,Low,Low,NO
+483,30,57229,Master,Male,Student,Single,4,No,Urban,Medium,Always,3,0,Occasionally,Newspaper,Yes,High,Low,YES
+484,57,101652,PhD,Other,Retired,Widowed,2,No,Suburban,Low,Rarely,4,0,Regularly,TV,No,Low,Medium,YES
+485,59,143267,Bachelor,Male,Retired,Married,4,Yes,Urban,High,Always,4,9,Never,Social Media,Yes,Low,Medium,YES
+486,26,141503,High School,Other,Employed,Married,2,Yes,Urban,Low,Never,7,7,Regularly,TV,No,Low,High,YES
+487,67,99878,High School,Male,Student,Divorced,2,Yes,Rural,Medium,Often,8,5,Never,TV,No,High,High,NO
+488,44,72056,No Formal Education,Female,Retired,Married,1,No,Rural,Medium,Rarely,1,5,Regularly,Social Media,No,Low,Low,NO
+489,83,34975,No Formal Education,Male,Unemployed,Married,4,No,Urban,Low,Never,6,8,Occasionally,Internet,Yes,Medium,High,NO
+490,22,103397,High School,Male,Unemployed,Married,4,Yes,Urban,Medium,Rarely,0,3,Never,TV,No,Low,High,NO
+491,46,48142,Master,Male,Student,Divorced,4,Yes,Suburban,High,Always,0,7,Occasionally,TV,No,Medium,Low,NO
+492,54,41916,Master,Female,Employed,Single,0,No,Suburban,High,Always,3,3,Never,Internet,Yes,Medium,Medium,NO
+493,55,79324,No Formal Education,Male,Retired,Married,2,Yes,Urban,Medium,Never,9,1,Regularly,TV,No,Medium,Medium,NO
+494,25,140932,PhD,Female,Employed,Divorced,4,No,Rural,High,Never,6,7,Never,TV,Yes,Medium,Low,YES
+495,82,111059,High School,Other,Unemployed,Divorced,5,No,Urban,High,Often,1,6,Occasionally,Newspaper,No,High,Low,YES
+496,34,113317,No Formal Education,Male,Retired,Widowed,0,Yes,Urban,Low,Never,1,3,Never,Internet,Yes,Medium,Low,YES
+497,88,50046,No Formal Education,Female,Employed,Divorced,1,Yes,Rural,High,Never,0,8,Regularly,TV,Yes,Low,Low,YES
+498,62,116459,High School,Female,Self-employed,Single,4,Yes,Rural,Low,Rarely,9,8,Never,TV,Yes,Medium,Low,YES
+499,21,60893,High School,Male,Student,Married,4,No,Suburban,Medium,Always,1,7,Occasionally,Social Media,No,Low,Low,YES
+500,53,116520,Master,Other,Student,Divorced,0,No,Suburban,Low,Never,6,0,Regularly,Social Media,Yes,High,High,NO
+501,87,140818,PhD,Female,Self-employed,Single,2,Yes,Suburban,Medium,Often,8,6,Occasionally,Social Media,Yes,Medium,High,YES
+502,48,76272,PhD,Male,Unemployed,Divorced,5,No,Suburban,Medium,Never,5,4,Never,TV,No,Low,High,NO
+503,36,82649,High School,Other,Retired,Divorced,1,No,Rural,Medium,Always,9,6,Occasionally,TV,Yes,High,Medium,YES
+504,78,79674,Bachelor,Female,Student,Divorced,4,No,Urban,Medium,Never,1,8,Never,Social Media,No,High,Low,NO
+505,71,101475,No Formal Education,Female,Self-employed,Divorced,2,Yes,Suburban,Medium,Rarely,9,1,Regularly,Newspaper,No,Low,Low,NO
+506,56,76367,No Formal Education,Other,Self-employed,Divorced,5,No,Suburban,Low,Always,9,3,Occasionally,Newspaper,Yes,Medium,High,YES
+507,36,136750,High School,Other,Unemployed,Single,5,Yes,Rural,Medium,Never,8,3,Occasionally,Newspaper,Yes,High,Medium,YES
+508,56,133154,Bachelor,Male,Unemployed,Married,1,Yes,Rural,High,Rarely,6,1,Never,Newspaper,No,Low,High,YES
+509,84,59738,Master,Male,Employed,Married,3,No,Urban,High,Always,0,2,Occasionally,Internet,Yes,Medium,Low,YES
+510,62,48397,High School,Female,Student,Married,5,Yes,Urban,Medium,Never,8,7,Occasionally,Social Media,Yes,High,Low,YES
+511,30,97189,High School,Other,Employed,Married,3,No,Rural,High,Rarely,1,8,Regularly,TV,Yes,Low,High,NO
+512,75,91367,No Formal Education,Other,Self-employed,Single,5,Yes,Suburban,Low,Often,3,5,Never,Social Media,Yes,High,High,YES
+513,37,135585,High School,Other,Retired,Widowed,1,Yes,Suburban,Low,Rarely,8,9,Never,Newspaper,No,High,Low,NO
+514,89,91619,High School,Female,Retired,Widowed,0,No,Suburban,Medium,Often,3,1,Regularly,TV,No,Low,High,NO
+515,78,126453,High School,Other,Unemployed,Single,1,Yes,Urban,Medium,Never,2,1,Regularly,Internet,Yes,High,Low,NO
+516,56,34816,No Formal Education,Other,Retired,Single,1,Yes,Suburban,Medium,Rarely,0,6,Never,Social Media,No,Low,High,YES
+517,18,94530,Master,Female,Retired,Divorced,0,Yes,Suburban,High,Often,6,7,Regularly,TV,Yes,Medium,Medium,YES
+518,20,123856,Master,Male,Retired,Divorced,0,No,Rural,High,Always,5,7,Regularly,TV,Yes,Low,Low,YES
+519,79,86635,High School,Male,Self-employed,Divorced,2,No,Suburban,Low,Rarely,9,5,Regularly,Newspaper,Yes,Medium,Medium,YES
+520,80,122803,No Formal Education,Female,Retired,Married,5,Yes,Rural,High,Never,3,9,Never,Newspaper,Yes,High,High,YES
+521,42,50946,Master,Other,Retired,Divorced,2,Yes,Suburban,Low,Always,5,7,Regularly,Social Media,No,Low,Medium,YES
+522,73,70204,Master,Female,Retired,Widowed,0,Yes,Urban,High,Often,5,0,Occasionally,Internet,Yes,Low,High,NO
+523,50,30563,Master,Male,Employed,Married,3,No,Suburban,Low,Rarely,3,8,Occasionally,TV,No,Low,Medium,YES
+524,55,107324,No Formal Education,Male,Self-employed,Divorced,3,No,Suburban,Medium,Rarely,5,0,Never,Newspaper,Yes,Low,Medium,NO
+525,23,24847,No Formal Education,Female,Unemployed,Married,1,Yes,Rural,High,Never,9,2,Regularly,Social Media,No,Medium,Medium,NO
+526,75,41155,High School,Female,Employed,Widowed,4,No,Rural,Low,Always,7,8,Occasionally,Newspaper,No,Medium,Low,YES
+527,61,94671,PhD,Male,Student,Divorced,1,No,Rural,High,Rarely,2,4,Never,Social Media,No,High,Medium,YES
+528,62,131891,Master,Female,Self-employed,Widowed,1,No,Suburban,Medium,Rarely,3,8,Occasionally,Newspaper,No,High,High,YES
+529,49,98310,PhD,Male,Self-employed,Widowed,4,No,Suburban,Low,Always,9,8,Regularly,Internet,Yes,High,High,YES
+530,62,146691,No Formal Education,Female,Student,Widowed,5,Yes,Urban,High,Rarely,0,5,Never,TV,No,High,Low,YES
+531,78,49707,No Formal Education,Female,Student,Divorced,0,No,Suburban,High,Always,3,0,Occasionally,Newspaper,Yes,Low,Low,YES
+532,64,96537,No Formal Education,Female,Student,Single,3,No,Urban,Medium,Always,9,9,Never,TV,No,Medium,High,NO
+533,38,106155,PhD,Male,Unemployed,Divorced,1,Yes,Rural,Medium,Always,9,6,Occasionally,Social Media,No,Medium,Medium,NO
+534,53,15281,No Formal Education,Female,Retired,Widowed,4,Yes,Rural,Low,Never,8,5,Occasionally,Internet,No,Medium,High,NO
+535,36,147130,High School,Male,Self-employed,Divorced,2,No,Rural,High,Always,7,8,Regularly,TV,Yes,Medium,Low,NO
+536,37,91260,No Formal Education,Male,Retired,Widowed,1,No,Urban,High,Always,3,6,Regularly,Newspaper,No,High,Low,NO
+537,74,79178,Bachelor,Female,Retired,Single,3,Yes,Suburban,Medium,Often,6,3,Occasionally,TV,Yes,Low,High,NO
+538,35,48997,PhD,Female,Student,Married,0,Yes,Rural,Medium,Often,9,6,Never,TV,Yes,Medium,Medium,YES
+539,64,134273,Bachelor,Male,Unemployed,Single,1,Yes,Suburban,Low,Never,2,1,Never,Social Media,Yes,Low,Medium,YES
+540,66,147311,No Formal Education,Male,Employed,Single,1,No,Suburban,High,Always,8,5,Regularly,Internet,No,Low,Low,YES
+541,31,141945,High School,Other,Unemployed,Married,5,No,Rural,High,Often,9,5,Occasionally,Internet,No,Low,High,NO
+542,32,60272,Master,Male,Retired,Divorced,4,Yes,Urban,Low,Often,3,1,Regularly,TV,No,Low,High,NO
+543,48,104393,No Formal Education,Other,Unemployed,Married,2,No,Suburban,Low,Rarely,1,3,Occasionally,TV,No,Medium,Low,NO
+544,18,76212,High School,Other,Student,Divorced,2,Yes,Rural,Medium,Always,9,7,Occasionally,Social Media,No,Medium,High,YES
+545,71,135030,PhD,Other,Employed,Divorced,0,No,Suburban,Medium,Often,4,7,Regularly,TV,No,Medium,Low,YES
+546,20,71503,Bachelor,Female,Student,Widowed,3,Yes,Suburban,Low,Never,1,7,Never,Social Media,No,High,Medium,YES
+547,33,21570,Bachelor,Female,Employed,Widowed,0,Yes,Suburban,Low,Rarely,9,7,Regularly,Internet,Yes,Medium,Medium,NO
+548,74,83785,Bachelor,Male,Retired,Married,1,No,Suburban,High,Rarely,5,0,Occasionally,Internet,No,High,High,NO
+549,29,24110,PhD,Other,Employed,Single,1,No,Suburban,Low,Always,9,1,Regularly,Social Media,Yes,High,Medium,NO
+550,33,94141,High School,Female,Employed,Married,2,No,Urban,Low,Always,0,3,Never,TV,Yes,High,Medium,YES
+551,89,27115,PhD,Female,Employed,Divorced,3,No,Urban,High,Rarely,5,8,Never,Internet,No,Medium,Low,NO
+552,41,54062,Bachelor,Female,Unemployed,Widowed,4,No,Rural,Low,Never,3,2,Occasionally,Newspaper,No,Medium,Low,YES
+553,45,37911,No Formal Education,Female,Unemployed,Married,3,No,Urban,Medium,Always,2,5,Regularly,Social Media,Yes,Medium,High,YES
+554,25,119061,Master,Female,Retired,Married,1,Yes,Urban,Medium,Always,1,6,Never,Internet,Yes,High,Low,YES
+555,53,47556,PhD,Other,Employed,Widowed,4,No,Urban,High,Rarely,6,7,Regularly,Internet,No,High,High,YES
+556,25,143335,PhD,Other,Self-employed,Widowed,3,Yes,Suburban,Low,Rarely,8,6,Never,Internet,Yes,Low,High,YES
+557,75,16969,High School,Other,Retired,Widowed,3,Yes,Suburban,Medium,Always,2,2,Occasionally,Newspaper,Yes,High,Low,YES
+558,77,58753,High School,Other,Employed,Divorced,4,No,Rural,Medium,Often,5,5,Occasionally,Newspaper,Yes,High,Medium,YES
+559,67,136863,PhD,Male,Employed,Widowed,1,Yes,Rural,Medium,Always,8,4,Regularly,Newspaper,Yes,Medium,Medium,NO
+560,45,25225,Bachelor,Other,Unemployed,Single,3,Yes,Rural,Medium,Often,1,9,Occasionally,TV,No,Low,Medium,YES
+561,58,138008,Master,Female,Retired,Married,4,No,Suburban,Low,Rarely,6,3,Never,Social Media,No,Low,Medium,NO
+562,81,120823,High School,Other,Employed,Widowed,5,No,Urban,Low,Often,4,0,Occasionally,TV,Yes,Low,High,YES
+563,44,28669,Bachelor,Male,Employed,Widowed,5,No,Urban,Low,Never,4,6,Never,Newspaper,Yes,Medium,Medium,YES
+564,80,139398,No Formal Education,Female,Retired,Divorced,1,Yes,Suburban,Low,Rarely,6,7,Never,Social Media,Yes,Low,High,YES
+565,34,125677,High School,Other,Self-employed,Divorced,4,No,Rural,Medium,Always,8,1,Occasionally,TV,No,Low,Low,NO
+566,50,63320,Bachelor,Other,Retired,Married,5,No,Rural,High,Always,3,6,Never,TV,No,Medium,Low,YES
+567,46,140354,Bachelor,Other,Retired,Single,4,No,Rural,High,Rarely,8,5,Never,TV,Yes,Low,High,YES
+568,30,103009,Master,Female,Self-employed,Married,3,No,Suburban,Medium,Rarely,9,4,Regularly,Newspaper,Yes,High,Medium,NO
+569,63,43625,Master,Female,Retired,Widowed,1,Yes,Rural,Medium,Never,8,3,Regularly,Internet,Yes,High,High,NO
+570,52,39089,No Formal Education,Male,Employed,Single,5,No,Rural,High,Rarely,3,1,Regularly,Social Media,No,High,Medium,NO
+571,23,51487,Bachelor,Female,Retired,Single,3,Yes,Suburban,High,Always,2,9,Occasionally,Newspaper,Yes,High,Medium,NO
+572,86,125448,Bachelor,Female,Self-employed,Single,0,No,Urban,Medium,Never,1,5,Regularly,Social Media,Yes,High,High,YES
+573,64,65138,Master,Other,Student,Single,0,Yes,Suburban,Medium,Always,8,4,Never,Newspaper,Yes,High,High,YES
+574,42,69061,High School,Female,Retired,Married,1,Yes,Suburban,Low,Often,1,1,Occasionally,TV,Yes,High,Medium,NO
+575,83,116376,High School,Other,Unemployed,Divorced,5,Yes,Suburban,Low,Rarely,5,9,Occasionally,TV,Yes,High,High,YES
+576,27,94134,PhD,Other,Employed,Divorced,5,No,Suburban,High,Often,4,6,Occasionally,Internet,No,High,Medium,NO
+577,73,62055,Master,Female,Employed,Widowed,5,Yes,Urban,Medium,Always,4,5,Occasionally,Internet,No,Medium,High,NO
+578,47,34508,PhD,Male,Unemployed,Divorced,4,No,Rural,High,Often,3,8,Never,Social Media,No,Medium,Low,NO
+579,22,125169,Master,Male,Unemployed,Divorced,3,No,Suburban,Low,Often,5,9,Never,Internet,Yes,High,Medium,YES
+580,50,23125,No Formal Education,Female,Retired,Divorced,5,No,Urban,Low,Always,4,4,Regularly,Internet,No,Medium,Low,NO
+581,82,51059,Bachelor,Male,Unemployed,Divorced,3,No,Rural,High,Always,3,8,Occasionally,Social Media,Yes,Medium,High,YES
+582,35,118409,No Formal Education,Other,Student,Widowed,1,No,Rural,Low,Rarely,8,8,Regularly,Newspaper,No,High,Low,YES
+583,66,20704,Master,Other,Self-employed,Married,5,Yes,Rural,Medium,Often,5,0,Never,Internet,No,High,High,YES
+584,28,126279,Bachelor,Female,Unemployed,Single,1,No,Suburban,High,Never,9,4,Occasionally,Newspaper,Yes,Medium,Medium,NO
+585,43,133516,High School,Male,Unemployed,Divorced,5,Yes,Suburban,Medium,Never,9,8,Never,TV,Yes,High,High,YES
+586,80,129044,High School,Male,Student,Married,0,Yes,Rural,Medium,Always,9,6,Regularly,Internet,Yes,High,High,NO
+587,76,44165,PhD,Other,Employed,Divorced,2,Yes,Rural,Low,Always,2,5,Never,TV,No,High,Medium,YES
+588,44,82203,Master,Female,Employed,Divorced,1,Yes,Rural,Medium,Often,9,5,Occasionally,TV,Yes,High,High,YES
+589,66,19114,Master,Male,Retired,Single,5,Yes,Rural,High,Always,5,6,Occasionally,Newspaper,No,Medium,Medium,YES
+590,50,51321,High School,Female,Student,Single,2,Yes,Rural,Medium,Never,0,0,Regularly,Social Media,No,Low,High,NO
+591,18,88297,No Formal Education,Male,Self-employed,Single,1,Yes,Rural,Medium,Rarely,4,3,Occasionally,Internet,No,Medium,Medium,NO
+592,38,111652,Bachelor,Other,Self-employed,Divorced,4,No,Urban,Medium,Rarely,9,0,Never,Newspaper,Yes,Low,Low,NO
+593,72,114304,No Formal Education,Other,Student,Divorced,5,Yes,Rural,Medium,Often,5,5,Never,Social Media,Yes,Low,High,NO
+594,23,32772,No Formal Education,Female,Self-employed,Divorced,4,No,Suburban,Medium,Rarely,7,3,Never,TV,Yes,Low,High,YES
+595,86,118754,High School,Other,Employed,Single,0,Yes,Suburban,Low,Always,8,0,Never,Internet,No,Medium,High,YES
+596,22,18712,High School,Male,Self-employed,Widowed,5,Yes,Suburban,High,Always,2,8,Regularly,TV,No,Medium,Medium,NO
+597,20,147439,High School,Other,Self-employed,Married,0,Yes,Rural,Low,Always,1,3,Never,TV,Yes,Medium,High,NO
+598,70,130142,PhD,Female,Student,Widowed,2,Yes,Suburban,High,Always,3,5,Regularly,Internet,No,Medium,Medium,NO
+599,40,106736,No Formal Education,Female,Student,Divorced,1,No,Urban,High,Often,7,6,Never,Social Media,No,Medium,High,NO
+600,70,66924,Master,Female,Self-employed,Divorced,3,No,Rural,High,Rarely,7,7,Regularly,Social Media,No,Low,Low,YES
+601,54,18726,Bachelor,Male,Unemployed,Widowed,0,No,Suburban,High,Never,2,8,Never,Internet,Yes,Medium,High,NO
+602,34,104152,PhD,Male,Student,Divorced,3,Yes,Urban,High,Rarely,3,8,Never,Internet,No,Low,Low,NO
+603,18,42723,Master,Male,Retired,Married,3,Yes,Urban,Medium,Always,2,7,Regularly,Newspaper,No,Medium,Medium,YES
+604,68,141969,No Formal Education,Male,Retired,Divorced,1,Yes,Suburban,Low,Never,9,9,Occasionally,Newspaper,Yes,Medium,Low,NO
+605,62,115494,High School,Male,Employed,Married,2,No,Urban,Low,Often,1,2,Occasionally,TV,Yes,High,High,YES
+606,21,50643,No Formal Education,Other,Self-employed,Widowed,1,Yes,Suburban,Medium,Always,3,1,Occasionally,Internet,Yes,Low,High,NO
+607,79,118896,Bachelor,Male,Unemployed,Widowed,5,No,Urban,High,Always,5,4,Regularly,Social Media,Yes,Medium,Medium,YES
+608,82,108680,PhD,Male,Employed,Divorced,0,No,Rural,Low,Never,4,0,Occasionally,TV,Yes,Medium,High,NO
+609,49,111546,PhD,Other,Self-employed,Married,3,Yes,Rural,Medium,Often,2,2,Occasionally,TV,Yes,Medium,High,NO
+610,51,94973,Bachelor,Male,Student,Divorced,1,Yes,Rural,Medium,Never,1,0,Regularly,TV,No,High,Medium,NO
+611,89,78449,Master,Female,Retired,Single,1,No,Rural,Low,Often,8,2,Occasionally,TV,No,Low,Medium,NO
+612,56,124834,Master,Male,Unemployed,Single,1,No,Rural,Low,Always,0,3,Occasionally,Social Media,No,Medium,Low,NO
+613,43,40537,PhD,Male,Retired,Single,0,No,Suburban,High,Rarely,8,6,Occasionally,TV,No,Medium,Medium,YES
+614,51,92576,PhD,Female,Student,Single,2,Yes,Rural,High,Always,0,4,Regularly,Internet,Yes,Medium,High,NO
+615,71,122522,High School,Female,Self-employed,Divorced,1,Yes,Rural,Low,Rarely,6,4,Regularly,Newspaper,No,High,Medium,YES
+616,20,37612,Master,Female,Student,Single,0,Yes,Rural,High,Rarely,5,0,Occasionally,Social Media,Yes,Medium,High,YES
+617,67,21471,Bachelor,Female,Student,Married,3,Yes,Rural,Medium,Often,6,7,Occasionally,Internet,Yes,Low,Low,YES
+618,29,46348,Master,Male,Retired,Widowed,5,Yes,Urban,High,Never,2,3,Regularly,Internet,No,Low,Medium,YES
+619,82,16177,High School,Female,Unemployed,Widowed,4,Yes,Rural,High,Often,2,9,Occasionally,Internet,No,Low,High,NO
+620,71,47779,PhD,Female,Student,Single,0,No,Rural,Medium,Always,0,4,Regularly,Newspaper,Yes,Low,Medium,NO
+621,22,36636,PhD,Other,Retired,Single,4,No,Suburban,High,Never,3,1,Occasionally,Newspaper,Yes,Medium,Medium,NO
+622,74,96889,High School,Female,Unemployed,Single,1,No,Urban,Medium,Rarely,1,0,Regularly,Newspaper,Yes,High,Medium,NO
+623,34,68551,Bachelor,Female,Self-employed,Divorced,1,Yes,Suburban,High,Rarely,9,8,Never,Internet,Yes,High,Medium,YES
+624,64,61819,PhD,Other,Self-employed,Widowed,0,No,Rural,Low,Always,7,1,Never,Newspaper,No,High,Low,YES
+625,40,88770,No Formal Education,Other,Employed,Single,4,Yes,Suburban,High,Never,2,5,Regularly,TV,Yes,Medium,High,YES
+626,31,93714,PhD,Male,Retired,Married,1,Yes,Suburban,Low,Always,6,0,Never,Newspaper,No,High,Medium,NO
+627,83,39596,No Formal Education,Other,Unemployed,Single,3,No,Rural,Low,Always,6,0,Occasionally,Social Media,Yes,Low,High,NO
+628,68,79106,High School,Male,Student,Widowed,2,Yes,Urban,Low,Often,8,8,Regularly,Internet,Yes,Medium,Low,NO
+629,55,74182,High School,Other,Self-employed,Single,2,No,Urban,Low,Always,5,3,Regularly,Internet,Yes,High,High,NO
+630,81,102163,PhD,Other,Unemployed,Widowed,1,No,Suburban,Low,Never,0,8,Occasionally,TV,No,Low,High,YES
+631,55,54310,Master,Male,Retired,Single,4,Yes,Rural,Medium,Always,7,4,Occasionally,Newspaper,Yes,Low,Low,NO
+632,67,71088,No Formal Education,Other,Employed,Married,5,No,Suburban,Medium,Never,0,6,Regularly,Newspaper,No,Medium,Medium,NO
+633,47,143803,Bachelor,Male,Self-employed,Single,1,No,Suburban,Medium,Rarely,2,0,Occasionally,Social Media,No,Medium,High,YES
+634,68,51914,PhD,Other,Unemployed,Married,5,No,Suburban,Low,Always,4,5,Regularly,TV,No,High,High,YES
+635,80,125350,Bachelor,Female,Unemployed,Married,5,No,Rural,High,Never,7,7,Occasionally,Social Media,Yes,High,Medium,NO
+636,69,60379,PhD,Other,Unemployed,Single,4,Yes,Rural,Medium,Rarely,8,0,Regularly,Social Media,No,High,Medium,NO
+637,55,61413,Master,Male,Retired,Married,5,No,Urban,High,Never,6,8,Occasionally,Internet,No,Medium,High,YES
+638,47,22151,Master,Other,Retired,Divorced,3,No,Rural,High,Rarely,8,2,Occasionally,Internet,Yes,High,Low,NO
+639,68,72716,Master,Male,Retired,Single,4,No,Suburban,Low,Often,2,0,Never,Newspaper,Yes,High,Medium,YES
+640,22,108747,Master,Male,Student,Single,1,Yes,Suburban,Low,Always,4,0,Never,Newspaper,No,Low,Medium,YES
+641,46,136999,High School,Female,Unemployed,Married,3,No,Urban,Low,Always,9,5,Never,Social Media,No,Low,Low,NO
+642,21,129793,High School,Female,Self-employed,Married,0,Yes,Rural,Medium,Rarely,7,5,Occasionally,Newspaper,Yes,Low,High,YES
+643,27,123177,No Formal Education,Male,Retired,Single,2,No,Suburban,Low,Often,0,0,Regularly,Social Media,No,High,Medium,NO
+644,73,27289,Bachelor,Other,Retired,Divorced,1,No,Urban,Medium,Never,7,2,Occasionally,Newspaper,No,Medium,High,NO
+645,34,101365,PhD,Male,Unemployed,Married,1,No,Urban,Medium,Often,6,6,Never,Newspaper,No,Low,High,NO
+646,34,129014,PhD,Male,Retired,Married,1,Yes,Suburban,Medium,Never,0,9,Occasionally,Internet,Yes,Medium,High,NO
+647,86,87588,High School,Other,Student,Widowed,3,Yes,Suburban,Medium,Never,9,2,Never,Internet,No,High,Low,YES
+648,51,78646,PhD,Other,Student,Divorced,0,Yes,Rural,Low,Always,9,2,Never,Internet,Yes,High,High,NO
+649,23,18654,High School,Other,Retired,Divorced,4,Yes,Urban,Medium,Rarely,5,2,Regularly,Internet,Yes,Low,High,NO
+650,70,33743,No Formal Education,Other,Unemployed,Single,0,Yes,Suburban,Low,Always,0,6,Regularly,TV,Yes,Medium,Medium,YES
+651,83,63368,Bachelor,Male,Unemployed,Divorced,3,Yes,Urban,Low,Always,1,3,Never,Internet,No,Low,Medium,NO
+652,60,134735,No Formal Education,Male,Unemployed,Single,1,No,Rural,Medium,Always,4,3,Never,TV,Yes,High,Low,NO
+653,40,134891,Master,Female,Employed,Widowed,2,Yes,Suburban,Low,Never,1,2,Occasionally,Internet,No,Medium,Low,NO
+654,72,122971,Master,Male,Retired,Divorced,1,No,Rural,High,Always,9,9,Never,Newspaper,Yes,Low,Medium,NO
+655,33,27149,Master,Other,Unemployed,Married,4,Yes,Urban,Low,Never,0,8,Occasionally,Social Media,No,High,Medium,YES
+656,25,115102,No Formal Education,Female,Student,Widowed,5,Yes,Rural,Low,Rarely,5,1,Never,Newspaper,No,Low,Low,YES
+657,21,74189,PhD,Other,Self-employed,Single,2,Yes,Rural,Medium,Never,7,3,Regularly,Newspaper,No,Medium,High,NO
+658,21,86031,Bachelor,Male,Self-employed,Widowed,1,No,Urban,Medium,Never,7,7,Regularly,TV,Yes,Medium,Low,YES
+659,73,57668,Master,Female,Unemployed,Single,2,Yes,Rural,Low,Often,7,5,Never,Internet,No,Medium,High,YES
+660,42,103204,Master,Other,Self-employed,Widowed,5,Yes,Urban,Medium,Always,5,6,Occasionally,Social Media,No,Medium,Medium,YES
+661,84,52384,Master,Female,Self-employed,Single,0,No,Suburban,High,Always,2,6,Occasionally,Social Media,Yes,Medium,Medium,YES
+662,84,96929,Bachelor,Female,Employed,Divorced,3,No,Urban,High,Always,0,1,Occasionally,Internet,Yes,Low,Medium,NO
+663,44,142959,Master,Male,Student,Married,1,No,Urban,Medium,Always,1,3,Never,TV,No,Low,High,YES
+664,49,91153,Bachelor,Other,Student,Single,4,No,Suburban,Low,Often,4,9,Never,TV,Yes,Low,Low,NO
+665,67,90388,Master,Female,Employed,Widowed,0,Yes,Urban,High,Often,9,9,Regularly,TV,Yes,Low,High,NO
+666,78,46401,No Formal Education,Female,Employed,Single,1,No,Suburban,High,Often,4,5,Regularly,Social Media,Yes,High,Low,YES
+667,68,134503,No Formal Education,Other,Self-employed,Single,0,Yes,Suburban,Low,Often,9,2,Never,TV,No,High,Low,NO
+668,36,142834,Bachelor,Female,Retired,Single,4,Yes,Urban,Medium,Always,0,8,Regularly,TV,Yes,Low,Low,YES
+669,38,49084,No Formal Education,Female,Self-employed,Widowed,1,No,Rural,High,Never,0,3,Occasionally,Social Media,No,High,Medium,NO
+670,22,125641,Bachelor,Female,Employed,Married,5,Yes,Rural,Low,Rarely,8,9,Occasionally,Social Media,Yes,High,Low,NO
+671,59,120111,No Formal Education,Other,Student,Divorced,5,No,Suburban,Low,Often,1,1,Never,Newspaper,Yes,Medium,Medium,YES
+672,78,51041,No Formal Education,Other,Self-employed,Married,4,Yes,Rural,High,Never,6,5,Occasionally,Social Media,No,Low,Low,NO
+673,39,103920,Bachelor,Other,Retired,Single,2,No,Rural,Medium,Often,9,0,Never,Internet,Yes,High,Low,YES
+674,38,80681,PhD,Other,Self-employed,Widowed,4,No,Urban,High,Always,3,5,Occasionally,Social Media,Yes,High,Medium,NO
+675,87,96571,No Formal Education,Male,Unemployed,Married,2,No,Suburban,Low,Always,6,9,Never,Social Media,Yes,Low,Medium,NO
+676,18,142556,Master,Female,Self-employed,Single,1,No,Suburban,High,Never,7,0,Occasionally,TV,Yes,Medium,High,YES
+677,22,41160,PhD,Other,Employed,Divorced,2,No,Urban,Medium,Never,4,7,Occasionally,Newspaper,No,Low,Low,YES
+678,29,32633,Bachelor,Female,Student,Divorced,1,No,Rural,Low,Never,0,4,Regularly,TV,No,Medium,Medium,YES
+679,63,32014,PhD,Female,Student,Divorced,1,Yes,Suburban,Medium,Always,3,5,Regularly,Newspaper,No,High,High,NO
+680,51,95532,High School,Male,Employed,Single,3,Yes,Rural,High,Always,9,1,Regularly,TV,No,Medium,High,YES
+681,66,64104,High School,Other,Unemployed,Widowed,1,Yes,Suburban,High,Rarely,2,1,Regularly,Internet,No,Medium,Medium,YES
+682,62,92231,No Formal Education,Other,Employed,Married,2,No,Suburban,Medium,Never,9,8,Regularly,TV,No,Low,Low,YES
+683,44,83388,No Formal Education,Female,Self-employed,Divorced,3,Yes,Suburban,High,Rarely,4,2,Regularly,TV,No,High,High,YES
+684,43,31014,Master,Other,Employed,Single,3,No,Suburban,Medium,Often,9,5,Never,Internet,Yes,Low,Low,NO
+685,64,107578,PhD,Female,Employed,Single,1,Yes,Rural,High,Rarely,9,9,Never,Internet,No,Low,Low,NO
+686,73,55390,High School,Female,Unemployed,Married,4,Yes,Rural,Medium,Often,5,4,Regularly,Social Media,No,High,High,NO
+687,80,38711,No Formal Education,Male,Self-employed,Divorced,4,No,Rural,Medium,Often,1,3,Never,TV,No,Low,Medium,NO
+688,65,106658,PhD,Male,Retired,Single,5,Yes,Rural,Low,Rarely,6,9,Regularly,Internet,Yes,Low,Low,NO
+689,78,72993,No Formal Education,Male,Retired,Married,3,Yes,Urban,Low,Never,2,1,Never,Internet,No,Medium,Medium,NO
+690,43,22421,No Formal Education,Female,Student,Widowed,1,Yes,Suburban,Medium,Often,0,7,Occasionally,Social Media,No,Low,High,YES
+691,53,32727,High School,Other,Employed,Widowed,4,No,Suburban,High,Never,9,9,Never,Newspaper,No,High,Low,NO
+692,18,127418,High School,Male,Student,Widowed,1,Yes,Suburban,High,Always,2,6,Never,Internet,Yes,Low,Medium,YES
+693,25,19358,No Formal Education,Other,Unemployed,Divorced,1,No,Urban,High,Often,8,1,Never,Internet,No,Medium,Medium,YES
+694,69,80108,Bachelor,Male,Retired,Married,3,Yes,Rural,Medium,Always,9,5,Occasionally,TV,Yes,Low,Low,YES
+695,64,109018,No Formal Education,Male,Employed,Married,5,Yes,Suburban,Medium,Rarely,5,7,Regularly,Social Media,Yes,Low,Medium,YES
+696,73,139457,No Formal Education,Female,Unemployed,Single,3,Yes,Rural,Medium,Never,5,6,Never,TV,Yes,Low,Medium,NO
+697,31,46910,Master,Male,Unemployed,Single,0,Yes,Rural,Medium,Rarely,3,0,Never,Newspaper,Yes,Medium,High,NO
+698,45,141888,Master,Male,Employed,Single,4,No,Urban,Low,Often,7,4,Occasionally,Social Media,No,High,High,NO
+699,19,70754,Master,Female,Unemployed,Married,4,Yes,Urban,Medium,Always,4,1,Regularly,TV,Yes,High,Medium,YES
+700,43,124847,Bachelor,Other,Employed,Single,4,No,Rural,High,Often,6,5,Never,Internet,Yes,Medium,Medium,NO
+701,31,53467,Bachelor,Male,Employed,Married,2,No,Suburban,Low,Rarely,8,6,Occasionally,Internet,No,Medium,Low,NO
+702,76,48893,No Formal Education,Female,Self-employed,Married,1,Yes,Suburban,High,Never,4,6,Regularly,Social Media,Yes,Low,High,NO
+703,73,91329,Master,Male,Student,Widowed,3,Yes,Urban,Medium,Never,4,2,Regularly,Internet,Yes,High,Low,NO
+704,24,46007,Bachelor,Female,Unemployed,Single,4,No,Urban,Low,Often,3,6,Never,TV,Yes,Medium,Medium,NO
+705,20,69253,High School,Other,Unemployed,Widowed,0,No,Urban,Medium,Often,5,4,Never,Social Media,Yes,High,Low,NO
+706,40,27323,No Formal Education,Other,Self-employed,Divorced,4,Yes,Urban,Low,Always,1,7,Never,Internet,Yes,Low,Medium,YES
+707,35,126335,PhD,Female,Self-employed,Divorced,5,Yes,Urban,High,Rarely,2,7,Never,Internet,Yes,Medium,High,YES
+708,55,127356,No Formal Education,Female,Self-employed,Divorced,1,Yes,Urban,Medium,Often,0,6,Occasionally,Newspaper,No,High,High,NO
+709,32,125944,PhD,Female,Retired,Married,1,Yes,Urban,Medium,Always,1,5,Occasionally,Newspaper,No,High,Medium,YES
+710,81,31456,Master,Other,Retired,Married,3,Yes,Suburban,Low,Often,1,1,Never,Social Media,No,Low,High,YES
+711,45,46367,PhD,Male,Retired,Married,2,No,Urban,Low,Never,7,5,Regularly,Newspaper,No,Medium,Medium,NO
+712,56,69624,Master,Other,Employed,Single,3,Yes,Urban,Medium,Always,7,8,Never,TV,Yes,High,Low,YES
+713,74,83008,High School,Female,Unemployed,Widowed,4,Yes,Suburban,Low,Always,1,1,Regularly,Internet,Yes,Low,Medium,NO
+714,34,140926,PhD,Female,Student,Married,5,No,Suburban,Medium,Often,5,0,Regularly,Internet,Yes,High,Low,YES
+715,61,130395,No Formal Education,Other,Employed,Widowed,0,Yes,Rural,Low,Rarely,4,4,Regularly,Internet,No,Low,Medium,NO
+716,42,131492,Master,Female,Unemployed,Widowed,3,Yes,Urban,High,Never,2,5,Occasionally,Social Media,No,High,High,YES
+717,34,87240,No Formal Education,Other,Unemployed,Widowed,2,No,Urban,Low,Rarely,4,2,Regularly,Social Media,Yes,High,Medium,YES
+718,30,79315,Bachelor,Female,Self-employed,Single,3,Yes,Urban,High,Always,4,7,Regularly,Newspaper,Yes,Low,Medium,YES
+719,42,25756,Master,Male,Self-employed,Single,1,No,Urban,Low,Rarely,4,6,Occasionally,Internet,No,Medium,Medium,YES
+720,85,51378,PhD,Male,Employed,Divorced,4,Yes,Rural,Low,Always,2,1,Regularly,Internet,No,Low,High,NO
+721,27,140703,Master,Female,Self-employed,Divorced,4,Yes,Suburban,Medium,Rarely,2,6,Regularly,Internet,No,Medium,Medium,YES
+722,84,71549,No Formal Education,Other,Unemployed,Widowed,4,Yes,Suburban,Low,Often,3,0,Never,Internet,No,High,High,NO
+723,35,88794,High School,Male,Self-employed,Divorced,4,No,Urban,Low,Rarely,6,8,Regularly,Internet,Yes,High,Medium,NO
+724,51,60113,Master,Other,Retired,Widowed,4,No,Urban,High,Always,1,6,Regularly,TV,No,Low,Low,YES
+725,25,89069,PhD,Female,Self-employed,Single,4,No,Urban,Low,Never,9,5,Regularly,Internet,No,Low,Medium,YES
+726,57,140541,Bachelor,Other,Unemployed,Single,0,No,Rural,Medium,Never,3,1,Regularly,TV,Yes,Medium,Low,NO
+727,59,24686,High School,Male,Employed,Single,2,Yes,Rural,High,Never,3,2,Regularly,Internet,Yes,Medium,High,YES
+728,58,68363,Bachelor,Other,Student,Married,4,No,Suburban,Medium,Always,0,0,Occasionally,Social Media,Yes,Medium,High,NO
+729,23,112543,Master,Other,Self-employed,Widowed,2,No,Urban,Medium,Rarely,9,9,Regularly,Social Media,No,Low,Medium,YES
+730,69,146733,No Formal Education,Female,Unemployed,Single,5,No,Urban,Medium,Never,7,4,Regularly,TV,No,High,High,NO
+731,43,110673,No Formal Education,Female,Student,Widowed,4,Yes,Urban,Medium,Never,0,8,Occasionally,Internet,No,Low,Medium,YES
+732,81,57828,PhD,Female,Student,Divorced,3,Yes,Urban,High,Never,7,5,Occasionally,Social Media,No,High,High,YES
+733,76,63604,No Formal Education,Male,Retired,Divorced,4,No,Rural,Low,Often,6,4,Regularly,Social Media,Yes,Low,Low,NO
+734,73,25526,High School,Male,Student,Single,1,No,Suburban,Medium,Always,8,2,Regularly,Internet,Yes,Low,High,NO
+735,76,83910,No Formal Education,Female,Unemployed,Widowed,0,Yes,Suburban,High,Always,7,4,Regularly,Internet,No,Medium,Low,NO
+736,87,40592,PhD,Female,Unemployed,Single,3,No,Rural,Medium,Always,4,7,Never,Social Media,No,High,Medium,YES
+737,50,43982,Master,Male,Self-employed,Divorced,3,No,Urban,Low,Always,7,1,Never,Internet,No,Low,Medium,YES
+738,70,15207,Master,Male,Self-employed,Single,1,No,Suburban,High,Always,9,4,Regularly,Newspaper,Yes,Low,Medium,YES
+739,39,103733,No Formal Education,Male,Self-employed,Widowed,4,No,Suburban,High,Often,2,5,Occasionally,Internet,No,High,Low,YES
+740,38,139982,Bachelor,Male,Student,Divorced,0,Yes,Rural,Low,Rarely,9,9,Regularly,Social Media,Yes,Low,Medium,NO
+741,87,83619,Master,Female,Student,Married,3,Yes,Urban,High,Often,6,7,Occasionally,Social Media,No,High,Medium,NO
+742,87,61479,No Formal Education,Male,Retired,Divorced,0,Yes,Suburban,Low,Never,3,7,Occasionally,TV,Yes,Medium,Low,YES
+743,21,96437,PhD,Female,Self-employed,Married,3,No,Urban,High,Often,4,4,Occasionally,Newspaper,Yes,Medium,High,YES
+744,79,113540,No Formal Education,Other,Employed,Single,4,No,Suburban,High,Always,8,8,Regularly,Social Media,No,High,Medium,YES
+745,79,87982,Master,Other,Retired,Single,5,Yes,Rural,Low,Often,6,3,Regularly,Newspaper,Yes,Medium,High,NO
+746,41,117747,PhD,Male,Employed,Widowed,3,Yes,Urban,Low,Always,3,8,Occasionally,Internet,Yes,High,High,NO
+747,72,63231,No Formal Education,Other,Student,Married,5,Yes,Rural,High,Often,5,6,Never,Social Media,No,Low,Medium,YES
+748,26,44301,High School,Other,Retired,Single,3,No,Suburban,High,Always,9,5,Never,TV,Yes,Low,Medium,NO
+749,20,33752,PhD,Other,Retired,Married,2,Yes,Rural,Low,Never,6,3,Never,Social Media,No,High,Low,YES
+750,48,113452,High School,Male,Unemployed,Single,4,No,Rural,Low,Always,9,1,Occasionally,TV,Yes,Low,Low,YES
+751,57,136237,Bachelor,Male,Student,Divorced,1,No,Rural,High,Often,8,7,Regularly,Newspaper,Yes,Medium,Medium,NO
+752,53,71273,PhD,Other,Student,Single,5,Yes,Suburban,High,Never,3,5,Occasionally,TV,Yes,Low,High,NO
+753,41,106878,High School,Female,Retired,Widowed,1,Yes,Urban,High,Often,9,2,Never,Internet,Yes,Low,Low,NO
+754,23,19895,Master,Other,Student,Divorced,4,No,Rural,Low,Never,2,6,Regularly,Internet,No,High,Low,NO
+755,83,134968,Master,Male,Retired,Widowed,1,Yes,Urban,High,Rarely,7,9,Occasionally,Internet,No,Medium,Medium,YES
+756,21,130700,Bachelor,Male,Unemployed,Divorced,4,Yes,Suburban,Medium,Rarely,0,6,Occasionally,Social Media,No,Low,Medium,NO
+757,23,91559,PhD,Male,Retired,Married,1,No,Urban,Low,Rarely,8,5,Never,Internet,Yes,Low,Medium,NO
+758,68,25699,PhD,Other,Student,Widowed,5,No,Rural,High,Often,0,1,Occasionally,Internet,Yes,High,Medium,NO
+759,79,24715,PhD,Female,Student,Single,2,No,Rural,Low,Often,1,7,Regularly,Social Media,No,High,Low,NO
+760,74,34169,Bachelor,Male,Retired,Married,1,No,Rural,Medium,Never,7,0,Never,Newspaper,No,Medium,Low,YES
+761,83,133413,PhD,Male,Retired,Single,5,No,Rural,Low,Never,8,0,Never,Internet,No,Low,Low,YES
+762,25,134264,Master,Other,Retired,Divorced,3,Yes,Rural,High,Never,6,5,Regularly,Internet,No,High,High,NO
+763,43,20782,High School,Female,Self-employed,Divorced,4,No,Rural,Medium,Never,2,4,Never,Social Media,Yes,High,Low,NO
+764,68,139481,Master,Other,Student,Single,0,No,Suburban,Medium,Always,6,8,Occasionally,Newspaper,No,High,Low,YES
+765,62,50585,Master,Male,Student,Single,0,No,Suburban,High,Rarely,5,6,Occasionally,Newspaper,Yes,Medium,Medium,YES
+766,61,45682,High School,Female,Self-employed,Married,4,Yes,Suburban,High,Always,1,1,Never,Newspaper,No,High,Low,NO
+767,22,144992,Master,Female,Retired,Single,2,No,Urban,High,Always,2,6,Regularly,Social Media,Yes,Medium,Low,YES
+768,87,99416,Bachelor,Male,Unemployed,Widowed,1,No,Urban,Low,Always,9,2,Occasionally,TV,No,Medium,Low,YES
+769,43,142810,High School,Female,Retired,Widowed,2,No,Suburban,Low,Always,9,0,Regularly,TV,No,Low,Medium,YES
+770,85,53067,Master,Female,Retired,Single,0,Yes,Urban,Low,Rarely,4,7,Occasionally,Internet,Yes,Low,Low,YES
+771,36,33073,No Formal Education,Other,Self-employed,Widowed,5,No,Urban,High,Always,9,2,Occasionally,Internet,Yes,Medium,Low,NO
+772,37,51035,Master,Male,Student,Single,4,No,Rural,High,Never,3,7,Never,Internet,No,Low,High,YES
+773,29,105373,Bachelor,Male,Retired,Married,4,No,Rural,Low,Often,1,6,Never,TV,Yes,Low,High,YES
+774,64,98362,PhD,Male,Student,Widowed,2,Yes,Urban,Medium,Never,3,1,Regularly,Social Media,No,High,High,NO
+775,18,105517,Master,Male,Employed,Widowed,5,Yes,Urban,Low,Often,7,0,Never,Internet,Yes,Low,High,NO
+776,31,80450,PhD,Male,Student,Single,2,Yes,Suburban,Medium,Never,4,6,Occasionally,Social Media,No,Medium,Medium,NO
+777,81,25382,No Formal Education,Female,Unemployed,Widowed,1,Yes,Urban,High,Never,4,0,Occasionally,Internet,No,Low,High,YES
+778,55,76929,Master,Other,Unemployed,Divorced,3,No,Rural,High,Often,9,5,Regularly,Social Media,No,High,Low,NO
+779,54,113864,High School,Male,Retired,Married,5,No,Urban,Low,Rarely,2,9,Regularly,Social Media,No,Medium,High,YES
+780,28,40169,PhD,Other,Student,Married,3,Yes,Suburban,Low,Always,7,9,Occasionally,TV,No,Low,Medium,NO
+781,20,102468,No Formal Education,Other,Retired,Widowed,1,Yes,Rural,High,Never,5,7,Never,Social Media,No,Medium,High,YES
+782,50,49594,High School,Female,Self-employed,Widowed,3,No,Rural,Low,Rarely,1,6,Never,Newspaper,No,Low,High,NO
+783,23,60033,High School,Male,Unemployed,Divorced,0,No,Rural,High,Always,1,3,Regularly,TV,No,High,Medium,NO
+784,67,78133,High School,Female,Retired,Divorced,3,Yes,Rural,High,Rarely,8,0,Regularly,Internet,Yes,Low,Medium,YES
+785,27,88861,High School,Male,Self-employed,Widowed,1,Yes,Urban,Medium,Rarely,6,0,Occasionally,TV,Yes,Medium,Medium,NO
+786,22,46750,Master,Female,Retired,Widowed,3,Yes,Suburban,Low,Always,9,3,Occasionally,Newspaper,Yes,Medium,Medium,NO
+787,40,55461,Master,Other,Student,Divorced,4,Yes,Urban,High,Never,8,4,Regularly,Newspaper,No,Medium,Medium,NO
+788,27,93222,Master,Male,Student,Single,2,No,Urban,Low,Rarely,5,6,Occasionally,Social Media,No,Low,Medium,NO
+789,61,127020,No Formal Education,Other,Student,Divorced,0,Yes,Rural,Medium,Never,4,3,Regularly,Newspaper,No,Low,Low,NO
+790,19,39226,No Formal Education,Other,Student,Single,4,Yes,Suburban,Medium,Never,0,9,Regularly,Newspaper,Yes,Low,High,YES
+791,30,21721,No Formal Education,Female,Employed,Married,4,No,Rural,Low,Never,5,0,Never,Newspaper,Yes,High,High,YES
+792,57,35609,Bachelor,Male,Self-employed,Married,1,No,Urban,Low,Always,5,9,Regularly,Newspaper,Yes,High,Medium,NO
+793,19,145513,No Formal Education,Other,Self-employed,Divorced,2,No,Urban,High,Often,2,6,Occasionally,Internet,Yes,High,Medium,NO
+794,82,119211,Master,Female,Student,Single,2,No,Rural,Medium,Never,2,1,Never,Internet,Yes,Medium,Low,YES
+795,80,139865,Master,Male,Employed,Divorced,5,No,Urban,Medium,Often,2,1,Never,TV,No,Medium,Low,YES
+796,34,89520,Bachelor,Male,Student,Divorced,0,Yes,Urban,Medium,Often,2,7,Occasionally,Social Media,Yes,Medium,Medium,NO
+797,26,79309,Bachelor,Other,Employed,Single,1,Yes,Rural,Low,Rarely,6,9,Occasionally,Internet,No,Medium,Low,YES
+798,32,44984,No Formal Education,Male,Student,Divorced,0,Yes,Urban,High,Never,9,9,Occasionally,Newspaper,No,Medium,Low,NO
+799,41,133947,PhD,Other,Unemployed,Married,5,No,Suburban,Low,Never,1,9,Regularly,Social Media,No,Low,Medium,NO
+800,55,20901,Bachelor,Male,Unemployed,Widowed,3,Yes,Rural,Low,Never,9,4,Never,Internet,Yes,Medium,Medium,NO
+801,52,46055,High School,Female,Retired,Widowed,4,No,Suburban,Low,Often,9,9,Regularly,TV,Yes,Low,Medium,NO
+802,66,129099,Master,Other,Student,Divorced,0,Yes,Urban,High,Always,1,1,Regularly,Newspaper,No,High,Medium,YES
+803,86,26138,High School,Other,Self-employed,Single,4,Yes,Urban,Low,Often,2,4,Regularly,Social Media,Yes,High,High,YES
+804,79,38429,Master,Male,Retired,Single,1,No,Rural,Medium,Never,9,7,Regularly,Internet,Yes,High,High,YES
+805,77,65200,Master,Male,Unemployed,Married,3,No,Urban,Medium,Never,6,5,Never,Social Media,No,High,Medium,NO
+806,67,116268,Bachelor,Other,Student,Single,1,Yes,Rural,Medium,Never,2,2,Never,Internet,No,High,Low,YES
+807,26,32347,Bachelor,Male,Retired,Single,3,Yes,Rural,High,Often,6,7,Regularly,TV,No,Medium,Medium,NO
+808,51,46822,High School,Female,Student,Married,3,Yes,Rural,Low,Never,8,8,Occasionally,Newspaper,No,Medium,High,NO
+809,52,55108,Master,Male,Unemployed,Divorced,4,Yes,Rural,High,Rarely,9,4,Never,TV,No,Medium,Low,YES
+810,18,143955,High School,Female,Retired,Widowed,1,Yes,Rural,Low,Never,3,1,Regularly,Newspaper,Yes,High,High,NO
+811,57,22967,PhD,Female,Unemployed,Married,1,No,Suburban,Medium,Always,6,1,Occasionally,Newspaper,No,High,Medium,NO
+812,81,125719,High School,Female,Employed,Divorced,0,No,Rural,Low,Rarely,8,6,Occasionally,Social Media,Yes,Low,High,NO
+813,39,26871,No Formal Education,Female,Unemployed,Married,1,No,Suburban,Low,Never,7,0,Regularly,Internet,Yes,Medium,High,YES
+814,77,43179,High School,Female,Student,Divorced,0,No,Urban,Low,Rarely,7,9,Never,TV,No,High,High,NO
+815,81,70099,No Formal Education,Male,Self-employed,Married,2,Yes,Rural,High,Never,8,1,Occasionally,TV,No,High,Low,YES
+816,89,50262,No Formal Education,Female,Unemployed,Divorced,2,Yes,Urban,Low,Always,4,9,Never,TV,Yes,High,High,NO
+817,28,93213,No Formal Education,Male,Self-employed,Married,2,No,Rural,Low,Never,4,3,Never,Social Media,No,Low,Low,YES
+818,31,132407,PhD,Female,Employed,Divorced,5,Yes,Suburban,Low,Rarely,2,0,Occasionally,Social Media,Yes,High,Medium,NO
+819,77,101269,High School,Other,Retired,Married,1,No,Suburban,High,Always,4,3,Regularly,Social Media,No,Low,Medium,YES
+820,47,75545,High School,Female,Retired,Widowed,5,Yes,Suburban,High,Often,7,9,Occasionally,Newspaper,No,Low,High,YES
+821,52,54922,PhD,Other,Self-employed,Widowed,1,Yes,Urban,High,Always,4,4,Occasionally,TV,Yes,Medium,Low,NO
+822,54,57913,Master,Female,Retired,Single,0,Yes,Rural,Low,Always,3,8,Never,Newspaper,Yes,High,Medium,NO
+823,22,112033,Bachelor,Female,Unemployed,Divorced,5,No,Urban,Medium,Always,7,0,Regularly,TV,No,Low,Low,NO
+824,43,119792,High School,Female,Self-employed,Married,5,No,Suburban,Medium,Rarely,6,4,Never,TV,No,High,Low,NO
+825,79,134863,Bachelor,Other,Student,Divorced,5,No,Urban,Medium,Always,5,1,Occasionally,Internet,No,Medium,High,YES
+826,21,59936,PhD,Other,Unemployed,Widowed,3,No,Suburban,Low,Never,4,8,Regularly,TV,Yes,Medium,High,NO
+827,59,43141,Master,Female,Unemployed,Divorced,0,Yes,Suburban,Medium,Always,4,5,Regularly,Social Media,No,Low,Low,YES
+828,35,112359,Master,Male,Unemployed,Married,2,Yes,Suburban,Medium,Always,9,1,Regularly,Social Media,No,Medium,Low,NO
+829,57,138279,Master,Female,Student,Divorced,0,Yes,Rural,Medium,Never,1,2,Regularly,Social Media,No,Medium,High,YES
+830,89,56568,PhD,Other,Employed,Married,3,Yes,Rural,Low,Never,3,7,Regularly,Internet,No,Medium,Low,YES
+831,56,112539,No Formal Education,Female,Retired,Widowed,1,No,Suburban,Medium,Often,7,0,Occasionally,Internet,Yes,High,High,YES
+832,31,61851,No Formal Education,Other,Self-employed,Widowed,0,Yes,Urban,Medium,Always,7,2,Occasionally,Newspaper,Yes,High,Low,NO
+833,49,69823,Bachelor,Other,Employed,Widowed,5,Yes,Urban,Low,Rarely,0,9,Occasionally,TV,Yes,Low,High,NO
+834,68,38312,No Formal Education,Other,Self-employed,Single,2,Yes,Rural,High,Always,1,0,Never,TV,No,Low,Low,YES
+835,55,113723,No Formal Education,Female,Retired,Widowed,2,No,Suburban,Medium,Always,4,7,Regularly,Social Media,No,Medium,High,YES
+836,40,27411,Master,Other,Student,Divorced,1,No,Urban,High,Never,8,0,Regularly,Social Media,No,Medium,Low,YES
+837,80,72009,Master,Other,Unemployed,Single,0,No,Suburban,Medium,Often,9,4,Occasionally,Social Media,Yes,Low,Medium,YES
+838,32,47371,Bachelor,Female,Unemployed,Widowed,3,Yes,Urban,Low,Always,6,3,Regularly,Social Media,Yes,Medium,Medium,YES
+839,42,72022,High School,Other,Student,Divorced,1,No,Rural,High,Rarely,9,6,Never,Social Media,Yes,Low,Low,NO
+840,34,86229,Bachelor,Female,Employed,Divorced,0,Yes,Suburban,High,Always,4,4,Regularly,Social Media,Yes,High,Medium,YES
+841,83,114071,Bachelor,Other,Employed,Divorced,4,Yes,Suburban,High,Rarely,0,7,Regularly,TV,No,Medium,Low,NO
+842,70,111774,PhD,Male,Self-employed,Married,2,Yes,Urban,High,Never,5,0,Never,Internet,Yes,Medium,Low,NO
+843,68,41715,PhD,Male,Student,Single,3,No,Urban,Medium,Often,7,4,Occasionally,Social Media,Yes,Medium,Medium,NO
+844,56,42605,Bachelor,Other,Employed,Divorced,5,No,Urban,Medium,Always,6,3,Occasionally,TV,No,High,Low,YES
+845,68,114853,Bachelor,Male,Student,Married,3,Yes,Suburban,High,Often,1,2,Regularly,Social Media,Yes,High,High,YES
+846,87,46174,Bachelor,Female,Retired,Widowed,5,Yes,Rural,Medium,Always,4,4,Never,Newspaper,No,Medium,Low,YES
+847,23,91373,No Formal Education,Male,Unemployed,Divorced,3,No,Rural,High,Rarely,3,9,Occasionally,Newspaper,No,Low,Low,YES
+848,84,84252,PhD,Other,Unemployed,Married,2,No,Urban,High,Often,8,2,Occasionally,TV,No,High,Medium,NO
+849,24,85017,Bachelor,Other,Unemployed,Divorced,5,No,Rural,Low,Always,9,7,Occasionally,Internet,No,Medium,High,NO
+850,68,78037,Master,Female,Student,Single,0,Yes,Urban,High,Never,0,2,Regularly,Newspaper,No,Medium,Low,NO
+851,89,104818,Master,Other,Student,Single,5,Yes,Rural,Medium,Rarely,5,0,Never,Newspaper,Yes,High,Low,YES
+852,59,21548,No Formal Education,Female,Self-employed,Widowed,1,Yes,Suburban,High,Often,2,8,Regularly,Internet,Yes,Low,Low,YES
+853,81,131981,No Formal Education,Male,Unemployed,Divorced,0,No,Urban,Low,Always,8,8,Occasionally,Newspaper,No,Medium,Low,YES
+854,32,39022,High School,Male,Self-employed,Married,1,No,Rural,Medium,Often,4,5,Never,Social Media,Yes,Low,Low,YES
+855,46,121297,High School,Female,Unemployed,Widowed,3,No,Suburban,Low,Always,5,9,Regularly,Internet,No,Low,Low,YES
+856,50,75428,High School,Female,Self-employed,Divorced,0,Yes,Rural,Low,Rarely,8,0,Occasionally,Newspaper,Yes,High,High,YES
+857,44,74353,No Formal Education,Other,Self-employed,Widowed,3,Yes,Suburban,High,Never,8,7,Occasionally,Internet,Yes,Medium,High,NO
+858,53,128132,No Formal Education,Male,Retired,Married,4,No,Suburban,Low,Rarely,7,1,Regularly,Social Media,Yes,Medium,Low,NO
+859,46,31052,No Formal Education,Female,Self-employed,Widowed,3,Yes,Rural,Low,Often,8,8,Occasionally,Newspaper,Yes,Low,Low,YES
+860,55,115689,Master,Male,Student,Widowed,3,No,Rural,Medium,Often,3,7,Occasionally,TV,Yes,High,Medium,NO
+861,74,146743,No Formal Education,Female,Self-employed,Widowed,1,Yes,Suburban,Low,Always,5,2,Never,Newspaper,Yes,High,High,NO
+862,44,15163,Master,Male,Unemployed,Divorced,5,No,Suburban,High,Rarely,4,4,Occasionally,Newspaper,Yes,High,High,NO
+863,72,56424,High School,Other,Self-employed,Married,4,Yes,Suburban,High,Always,4,8,Regularly,Social Media,No,Low,Low,NO
+864,50,37420,High School,Male,Employed,Single,3,Yes,Urban,High,Rarely,3,0,Never,TV,No,Low,High,YES
+865,85,135575,High School,Male,Unemployed,Divorced,3,No,Suburban,Low,Often,1,8,Regularly,TV,No,Medium,High,NO
+866,83,44300,Bachelor,Male,Employed,Single,4,No,Urban,Medium,Always,5,3,Occasionally,TV,Yes,High,Medium,YES
+867,27,104881,Bachelor,Male,Unemployed,Single,4,No,Suburban,High,Always,8,3,Never,Social Media,Yes,Low,Medium,YES
+868,22,25749,PhD,Male,Student,Divorced,0,No,Urban,Low,Rarely,0,3,Never,Social Media,No,High,High,NO
+869,55,119131,PhD,Other,Student,Divorced,1,No,Suburban,High,Never,6,9,Never,Social Media,No,Low,High,YES
+870,30,143563,PhD,Female,Student,Married,4,Yes,Suburban,High,Rarely,5,8,Never,Social Media,Yes,Medium,High,NO
+871,48,52487,Bachelor,Male,Employed,Married,4,No,Suburban,Medium,Never,2,5,Regularly,Social Media,No,High,Low,YES
+872,64,36223,Bachelor,Other,Retired,Widowed,2,No,Rural,High,Rarely,0,7,Occasionally,TV,No,Low,Medium,YES
+873,69,87930,PhD,Male,Unemployed,Single,5,No,Rural,Medium,Often,3,3,Occasionally,Internet,No,High,Low,NO
+874,73,43380,PhD,Male,Student,Married,4,Yes,Suburban,Low,Always,8,2,Never,Social Media,No,Low,Medium,NO
+875,32,41035,No Formal Education,Female,Unemployed,Widowed,1,No,Urban,High,Rarely,1,0,Occasionally,Internet,Yes,Low,Medium,YES
+876,46,45620,PhD,Male,Employed,Married,5,No,Urban,Low,Often,2,9,Regularly,Newspaper,No,Low,Medium,NO
+877,25,132360,No Formal Education,Other,Retired,Divorced,5,No,Suburban,Low,Rarely,1,6,Occasionally,Newspaper,No,High,High,YES
+878,22,68352,Master,Other,Employed,Married,3,Yes,Rural,Low,Always,1,3,Regularly,Social Media,No,Low,Medium,NO
+879,46,18191,Bachelor,Female,Unemployed,Single,3,Yes,Urban,High,Rarely,9,7,Regularly,Newspaper,No,Medium,Low,YES
+880,64,105536,PhD,Male,Retired,Married,3,No,Rural,Medium,Never,7,2,Occasionally,Internet,Yes,High,Medium,YES
+881,85,119576,Bachelor,Other,Retired,Single,3,Yes,Urban,High,Always,2,0,Regularly,Newspaper,No,Medium,Low,YES
+882,62,18631,Bachelor,Male,Employed,Divorced,2,No,Suburban,Low,Never,6,4,Regularly,Newspaper,No,Medium,Medium,YES
+883,19,57080,Bachelor,Male,Student,Single,4,Yes,Rural,Medium,Often,7,1,Regularly,Internet,No,High,Medium,YES
+884,44,105353,Master,Male,Unemployed,Married,3,No,Urban,Low,Often,2,2,Regularly,Newspaper,No,Low,High,NO
+885,53,43671,High School,Female,Self-employed,Widowed,0,Yes,Suburban,Medium,Rarely,1,5,Never,Social Media,No,Medium,Low,YES
+886,53,137811,PhD,Male,Self-employed,Divorced,3,No,Suburban,High,Never,7,2,Occasionally,Internet,Yes,High,Medium,NO
+887,43,142734,High School,Other,Employed,Married,4,No,Suburban,Medium,Never,2,2,Never,Internet,No,Low,Medium,NO
+888,60,66399,High School,Male,Unemployed,Divorced,3,Yes,Rural,High,Always,6,5,Regularly,TV,No,High,Low,YES
+889,44,22099,High School,Other,Unemployed,Divorced,2,No,Rural,Low,Never,0,4,Occasionally,TV,Yes,High,Medium,YES
+890,86,71492,Bachelor,Male,Employed,Married,1,No,Suburban,Medium,Never,5,9,Regularly,Internet,No,High,High,NO
+891,37,111722,No Formal Education,Other,Unemployed,Married,1,No,Rural,Low,Always,8,8,Occasionally,Internet,Yes,Low,Low,YES
+892,28,45111,Bachelor,Other,Student,Widowed,4,No,Urban,Medium,Always,2,0,Never,TV,No,Medium,High,YES
+893,55,78936,Bachelor,Male,Employed,Divorced,1,Yes,Suburban,High,Never,6,2,Occasionally,Social Media,Yes,Medium,Low,NO
+894,23,75920,High School,Male,Student,Divorced,1,No,Suburban,Medium,Rarely,5,2,Regularly,Newspaper,Yes,High,Low,NO
+895,89,78530,Bachelor,Other,Unemployed,Married,0,Yes,Rural,Medium,Always,7,5,Occasionally,Newspaper,No,High,Low,NO
+896,40,22788,High School,Female,Employed,Single,4,Yes,Suburban,High,Always,2,7,Occasionally,Newspaper,Yes,Low,Medium,NO
+897,64,43082,No Formal Education,Male,Unemployed,Married,4,Yes,Urban,High,Never,2,2,Never,Internet,No,High,Low,NO
+898,63,138287,PhD,Female,Employed,Divorced,1,Yes,Rural,High,Never,3,2,Regularly,Social Media,Yes,High,Low,NO
+899,29,104570,High School,Male,Unemployed,Married,1,No,Rural,Medium,Always,2,5,Occasionally,TV,Yes,High,Low,YES
+900,30,116015,No Formal Education,Male,Student,Widowed,1,No,Suburban,Low,Never,8,7,Never,Social Media,No,Medium,High,NO
+901,79,98588,PhD,Male,Student,Single,5,Yes,Suburban,Medium,Always,3,5,Occasionally,Social Media,Yes,High,Low,NO
+902,77,103340,Master,Male,Unemployed,Married,2,No,Suburban,Medium,Rarely,5,9,Regularly,Newspaper,No,Medium,Medium,YES
+903,60,109439,High School,Female,Employed,Widowed,3,Yes,Rural,Low,Rarely,7,2,Occasionally,TV,Yes,Low,Low,YES
+904,85,130053,High School,Male,Self-employed,Divorced,2,No,Suburban,High,Always,7,3,Occasionally,Social Media,Yes,Low,Low,YES
+905,22,63355,Master,Other,Student,Married,4,No,Urban,Medium,Always,4,0,Occasionally,TV,No,Medium,High,YES
+906,54,140426,Master,Other,Student,Divorced,0,No,Suburban,Low,Often,4,7,Occasionally,Internet,No,Medium,Medium,YES
+907,89,79027,High School,Female,Self-employed,Widowed,3,Yes,Suburban,High,Often,5,3,Regularly,Newspaper,Yes,Medium,Medium,YES
+908,48,107601,Master,Male,Unemployed,Divorced,0,Yes,Rural,High,Never,9,5,Never,TV,No,Medium,Medium,NO
+909,26,44956,Bachelor,Other,Employed,Widowed,5,No,Suburban,Medium,Never,6,2,Never,Internet,No,High,Low,YES
+910,68,119797,PhD,Female,Unemployed,Widowed,4,Yes,Rural,High,Always,9,5,Occasionally,Internet,Yes,Medium,Low,YES
+911,46,139917,PhD,Male,Retired,Widowed,5,Yes,Suburban,High,Always,6,8,Regularly,Internet,Yes,Medium,Medium,YES
+912,57,141303,PhD,Other,Student,Married,4,No,Urban,Low,Often,3,8,Regularly,Social Media,No,Medium,Medium,YES
+913,58,57533,Bachelor,Other,Retired,Divorced,0,Yes,Urban,Low,Often,5,9,Regularly,Social Media,Yes,High,High,NO
+914,28,93815,Master,Female,Student,Divorced,0,No,Rural,High,Always,6,2,Regularly,Newspaper,No,High,Medium,YES
+915,40,54279,No Formal Education,Male,Student,Single,0,No,Rural,Low,Rarely,4,2,Regularly,Newspaper,No,High,Low,YES
+916,18,124787,Master,Male,Retired,Single,4,No,Suburban,High,Rarely,4,3,Regularly,Internet,No,Low,Low,NO
+917,63,76063,High School,Other,Retired,Single,1,Yes,Suburban,Medium,Never,1,6,Occasionally,Newspaper,No,High,Low,NO
+918,38,142896,PhD,Other,Unemployed,Single,0,No,Urban,Low,Always,6,2,Never,Social Media,No,Medium,High,NO
+919,53,112661,Master,Other,Retired,Divorced,5,No,Suburban,High,Always,5,9,Never,Newspaper,No,High,Medium,YES
+920,71,138257,No Formal Education,Male,Unemployed,Widowed,3,Yes,Urban,High,Never,0,7,Occasionally,TV,Yes,High,Low,NO
+921,74,101205,High School,Female,Unemployed,Widowed,4,Yes,Rural,Low,Often,3,7,Never,Social Media,No,Medium,High,NO
+922,18,21910,Bachelor,Female,Unemployed,Married,5,Yes,Suburban,Low,Often,2,5,Regularly,Internet,Yes,High,High,NO
+923,80,61857,Bachelor,Male,Student,Widowed,2,Yes,Rural,Medium,Rarely,2,3,Regularly,Internet,No,Low,Low,YES
+924,71,49964,No Formal Education,Female,Student,Divorced,2,No,Suburban,High,Always,6,4,Never,Newspaper,Yes,High,High,YES
+925,72,32153,High School,Other,Retired,Divorced,3,Yes,Urban,Medium,Often,9,1,Regularly,Social Media,Yes,Low,High,NO
+926,57,74765,PhD,Female,Student,Divorced,1,Yes,Rural,Medium,Rarely,3,5,Regularly,Internet,Yes,Low,Low,YES
+927,32,123212,Master,Female,Retired,Married,0,Yes,Rural,Medium,Rarely,7,2,Never,Internet,No,Low,High,YES
+928,38,54071,High School,Female,Student,Single,4,Yes,Suburban,Low,Rarely,8,5,Occasionally,Social Media,Yes,Medium,Low,YES
+929,64,127990,Bachelor,Other,Employed,Widowed,5,No,Rural,Medium,Often,2,4,Never,Social Media,Yes,High,Low,YES
+930,70,84519,No Formal Education,Male,Employed,Divorced,0,Yes,Urban,Low,Often,4,1,Never,Internet,No,Low,High,YES
+931,26,24503,No Formal Education,Other,Retired,Divorced,5,No,Rural,Low,Always,3,4,Never,Newspaper,Yes,Low,Low,NO
+932,69,110457,Master,Male,Student,Single,4,Yes,Rural,Medium,Always,9,4,Never,Newspaper,Yes,High,Low,NO
+933,74,60838,No Formal Education,Male,Student,Divorced,2,No,Suburban,Medium,Rarely,5,8,Occasionally,Newspaper,No,Medium,Medium,NO
+934,43,140200,No Formal Education,Male,Unemployed,Widowed,0,No,Rural,High,Rarely,9,7,Occasionally,TV,Yes,Medium,Low,NO
+935,58,104489,High School,Female,Self-employed,Married,3,Yes,Suburban,Medium,Often,3,6,Regularly,Social Media,Yes,Low,Medium,YES
+936,52,41806,PhD,Female,Retired,Divorced,1,No,Suburban,High,Often,7,2,Regularly,Internet,No,Medium,Medium,NO
+937,80,85119,Master,Male,Self-employed,Widowed,3,Yes,Rural,Medium,Always,2,9,Never,TV,Yes,High,Medium,NO
+938,42,53714,High School,Male,Self-employed,Divorced,1,No,Urban,Medium,Always,4,3,Regularly,Newspaper,Yes,Medium,Medium,YES
+939,55,70419,PhD,Female,Retired,Single,5,No,Suburban,Medium,Never,0,5,Occasionally,TV,Yes,High,High,YES
+940,19,120432,High School,Other,Student,Divorced,0,No,Rural,Medium,Always,5,2,Regularly,Internet,Yes,Low,High,YES
+941,24,107949,High School,Male,Retired,Divorced,0,Yes,Suburban,High,Often,4,8,Regularly,Internet,No,High,Low,YES
+942,51,148533,No Formal Education,Other,Self-employed,Married,1,No,Urban,High,Rarely,7,7,Regularly,Social Media,No,Low,Low,NO
+943,34,91971,PhD,Female,Student,Single,2,Yes,Urban,Medium,Never,8,5,Never,Newspaper,No,High,Low,YES
+944,60,108471,Master,Male,Employed,Single,4,No,Suburban,Medium,Always,7,3,Regularly,Newspaper,No,High,High,YES
+945,76,79946,Master,Other,Retired,Married,3,No,Urban,High,Always,7,6,Occasionally,TV,Yes,Medium,Medium,YES
+946,68,113989,PhD,Other,Retired,Divorced,5,No,Rural,Low,Often,2,2,Occasionally,Newspaper,No,High,High,YES
+947,71,99080,No Formal Education,Other,Student,Widowed,3,No,Rural,Low,Never,3,9,Occasionally,TV,No,Low,High,YES
+948,41,92794,Bachelor,Female,Employed,Single,3,No,Suburban,Low,Always,3,7,Occasionally,Internet,Yes,High,Low,YES
+949,42,45841,High School,Female,Employed,Single,5,No,Urban,High,Rarely,4,0,Regularly,Internet,Yes,Low,Low,NO
+950,88,139447,No Formal Education,Other,Student,Divorced,5,Yes,Rural,High,Often,8,2,Never,Internet,Yes,Low,Low,NO
+951,69,135029,PhD,Other,Unemployed,Divorced,0,Yes,Rural,Low,Never,8,4,Occasionally,Internet,No,High,Medium,NO
+952,87,91272,High School,Female,Retired,Single,3,Yes,Rural,Low,Always,9,4,Occasionally,Internet,Yes,Medium,Medium,YES
+953,50,52643,Master,Other,Retired,Divorced,4,No,Suburban,Medium,Always,0,9,Never,TV,Yes,High,High,YES
+954,66,58950,Bachelor,Other,Self-employed,Widowed,4,Yes,Suburban,High,Never,7,1,Never,Internet,Yes,High,Medium,NO
+955,46,115500,Master,Female,Student,Single,1,No,Rural,High,Often,0,9,Occasionally,TV,No,Medium,Low,NO
+956,80,140588,PhD,Other,Self-employed,Widowed,5,Yes,Rural,Low,Never,1,7,Occasionally,Internet,No,Low,Medium,NO
+957,39,30997,High School,Other,Self-employed,Widowed,0,Yes,Urban,Low,Never,6,4,Never,TV,No,High,Medium,NO
+958,43,94751,PhD,Other,Employed,Divorced,4,No,Urban,High,Often,7,6,Occasionally,TV,No,Medium,Medium,YES
+959,45,113605,High School,Female,Retired,Widowed,2,No,Urban,Medium,Always,0,6,Occasionally,TV,No,Medium,Medium,NO
+960,66,70533,No Formal Education,Other,Self-employed,Divorced,0,Yes,Suburban,Low,Rarely,2,4,Regularly,Newspaper,No,Low,Low,YES
+961,88,97566,Bachelor,Female,Employed,Married,0,Yes,Rural,High,Often,6,7,Never,TV,No,Medium,Low,YES
+962,66,123255,No Formal Education,Female,Student,Divorced,4,Yes,Suburban,High,Rarely,8,8,Regularly,TV,Yes,Low,High,YES
+963,37,73005,No Formal Education,Male,Self-employed,Widowed,2,Yes,Rural,Medium,Always,7,3,Regularly,Internet,Yes,High,High,NO
+964,80,58541,PhD,Male,Retired,Married,1,No,Urban,Medium,Never,7,3,Never,TV,Yes,Medium,High,NO
+965,78,38387,Bachelor,Other,Self-employed,Divorced,4,Yes,Urban,Low,Rarely,8,7,Regularly,TV,No,High,Medium,NO
+966,66,108980,High School,Female,Student,Widowed,2,No,Urban,Low,Always,9,0,Occasionally,Social Media,No,Medium,Medium,YES
+967,88,100457,High School,Male,Self-employed,Single,0,No,Urban,Low,Always,2,3,Regularly,Newspaper,Yes,Medium,Low,YES
+968,18,79028,Master,Other,Retired,Single,2,Yes,Rural,High,Never,7,5,Never,Social Media,Yes,High,High,NO
+969,30,134246,High School,Male,Employed,Divorced,0,No,Urban,Low,Never,0,3,Occasionally,Internet,No,Medium,Low,YES
+970,68,70731,PhD,Male,Retired,Divorced,4,Yes,Rural,High,Always,7,5,Occasionally,Newspaper,No,High,High,NO
+971,73,59638,No Formal Education,Female,Employed,Single,5,No,Rural,Low,Always,6,4,Occasionally,Newspaper,No,High,High,YES
+972,79,35567,No Formal Education,Female,Unemployed,Widowed,4,No,Suburban,Medium,Rarely,7,8,Occasionally,Social Media,No,Low,High,YES
+973,49,72804,No Formal Education,Male,Retired,Widowed,3,Yes,Urban,Medium,Always,0,9,Regularly,Newspaper,No,High,Medium,YES
+974,47,123821,Bachelor,Male,Retired,Widowed,3,No,Urban,High,Always,5,8,Regularly,Social Media,No,Low,High,YES
+975,46,18754,High School,Female,Student,Divorced,3,No,Suburban,Medium,Rarely,6,3,Occasionally,TV,No,High,High,YES
+976,66,42044,PhD,Other,Self-employed,Married,4,Yes,Rural,High,Often,4,3,Never,Social Media,No,Medium,Medium,YES
+977,62,82260,Bachelor,Female,Employed,Married,1,No,Urban,High,Rarely,4,7,Occasionally,Newspaper,Yes,High,High,YES
+978,47,81912,Master,Male,Employed,Married,4,No,Rural,Medium,Rarely,6,9,Regularly,Newspaper,No,Medium,Medium,NO
+979,33,23706,PhD,Other,Student,Married,5,Yes,Suburban,High,Never,2,3,Occasionally,Internet,No,Low,Medium,YES
+980,57,23894,PhD,Male,Student,Married,2,Yes,Rural,Medium,Rarely,5,1,Regularly,Internet,No,Medium,Low,YES
+981,36,98986,PhD,Other,Self-employed,Divorced,4,No,Urban,Low,Always,6,1,Occasionally,Internet,Yes,High,Medium,NO
+982,35,96942,No Formal Education,Male,Self-employed,Divorced,4,No,Rural,Low,Always,0,0,Never,Internet,Yes,Medium,Medium,NO
+983,18,44725,PhD,Other,Retired,Married,0,No,Rural,Medium,Always,1,4,Occasionally,Newspaper,No,Low,Medium,NO
+984,64,119555,High School,Other,Unemployed,Divorced,0,Yes,Urban,Medium,Often,3,5,Never,Internet,Yes,Medium,High,NO
+985,83,24496,PhD,Male,Self-employed,Divorced,0,No,Urban,Medium,Always,7,8,Never,Social Media,Yes,Medium,Low,YES
+986,55,71447,No Formal Education,Other,Student,Married,4,No,Rural,Medium,Often,9,4,Occasionally,TV,Yes,High,High,YES
+987,68,116604,PhD,Female,Self-employed,Widowed,1,No,Rural,Low,Always,5,5,Never,Newspaper,No,High,Medium,NO
+988,80,103199,Master,Male,Employed,Divorced,2,No,Suburban,High,Rarely,0,5,Never,Internet,No,Medium,Medium,YES
+989,21,56321,Master,Female,Unemployed,Widowed,2,No,Urban,High,Never,9,2,Regularly,Newspaper,No,Low,Low,NO
+990,18,70147,No Formal Education,Male,Retired,Divorced,5,No,Rural,Low,Always,4,3,Regularly,Internet,No,Medium,Low,YES
+991,25,106396,High School,Other,Employed,Divorced,1,Yes,Urban,High,Often,6,0,Never,Newspaper,No,Low,Medium,YES
+992,46,53787,High School,Other,Employed,Married,1,Yes,Suburban,Low,Often,5,3,Occasionally,Internet,No,Low,Medium,YES
+993,72,36727,Bachelor,Other,Unemployed,Divorced,2,No,Rural,High,Never,8,0,Never,TV,No,Low,High,YES
+994,20,110081,No Formal Education,Male,Retired,Single,3,No,Rural,Medium,Always,7,4,Occasionally,Internet,Yes,Medium,Medium,YES
+995,49,137721,PhD,Female,Student,Single,0,Yes,Rural,Medium,Rarely,3,7,Regularly,Social Media,No,Low,High,NO
+996,27,83056,No Formal Education,Female,Retired,Married,0,Yes,Urban,Medium,Always,4,7,Occasionally,Newspaper,No,Medium,Low,YES
+997,51,149153,Bachelor,Male,Self-employed,Widowed,2,Yes,Suburban,Low,Always,6,4,Never,Newspaper,No,Low,High,YES
+998,72,95102,No Formal Education,Male,Employed,Widowed,1,No,Urban,Low,Never,7,9,Never,Social Media,No,Low,Medium,YES
+999,49,91865,No Formal Education,Female,Self-employed,Widowed,5,No,Rural,High,Always,4,1,Never,Social Media,No,Medium,High,YES
+1000,67,82695,Bachelor,Female,Student,Single,3,No,Suburban,High,Rarely,8,5,Never,TV,No,High,High,YES

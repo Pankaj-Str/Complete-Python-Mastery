@@ -1,0 +1,41 @@
+#,Employee Name,Salary,City,Department Name,State,Mobile Number,Job ID
+1,Alice Johnson,60000.0,New York,HR,NY,9175551234.0,HR101
+2,Bob Smith,75000.0,Los Angeles,IT,CA,2135554567.0,IT202
+3,Carol Taylor,82000.0,Chicago,Finance,IL,3125557890.0,FN303
+4,David Brown,71000.0,Houston,Marketing,TX,8325552345.0,MK404
+5,Emily Davis,92000.0,Phoenix,IT,AZ,6025553456.0,IT205
+6,Frank Wilson,67000.0,Philadelphia,HR,PA,2155556789.0,HR102
+7,Grace Martinez,85000.0,San Antonio,Finance,TX,2105557890.0,FN306
+8,Henry Lee,73000.0,San Diego,IT,CA,6195558901.0,IT208
+9,Irene Walker,68000.0,Dallas,Marketing,TX,9725559012.0,MK405
+10,Jack Hall,91000.0,San Jose,IT,CA,4085550123.0,IT209
+11,Karen Allen,64000.0,Austin,HR,TX,7375551234.0,HR103
+12,Leo Young,80000.0,Jacksonville,Finance,FL,9045552345.0,FN307
+13,Maria King,76000.0,Fort Worth,IT,TX,8175553456.0,IT210
+14,Nathan Wright,87000.0,Columbus,Marketing,OH,6145554567.0,MK406
+15,Unknown,95000.0,Charlotte,IT,NC,7045555678.0,IT211
+16,Paul Green,66000.0,Indianapolis,HR,IN,3175556789.0,HR104
+17,Queen Adams,78513.51351351352,Seattle,Finance,WA,2065557890.0,FN308
+18,Ray Nelson,78000.0,Denver,IT,CO,3035558901.0,IT212
+19,Sarah Carter,72000.0,Washington,Marketing,DC,2025559012.0,MK407
+20,Tom Mitchell,94000.0,Boston,IT,,,IT213
+21,Uma Turner,66000.0,El Paso,,TX,9155551234.0,HR105
+22,Victor Collins,87000.0,Detroit,Finance,MI,3135552345.0,FN309
+23,Wendy Stewart,78513.51351351352,Nashville,,TN,6155553456.0,IT214
+24,Xavier Morris,81000.0,Memphis,Marketing,TN,9015554567.0,MK408
+25,Unknown,96000.0,Portland,IT,OR,5035555678.0,IT215
+26,Zack Perez,68000.0,Oklahoma City,HR,OK,4055556789.0,HR106
+27,Amy Richardson,85000.0,Las Vegas,Finance,NV,7025557890.0,FN310
+28,Brian Cox,73000.0,Louisville,IT,KY,5025558901.0,
+29,Clara Ward,71000.0,Milwaukee,Marketing,WI,4145559012.0,MK409
+30,Derek Bailey,93000.0,Albuquerque,IT,NM,5055550123.0,IT217
+31,Eva Jenkins,66000.0,Tucson,HR,,5205551234.0,HR107
+32,Unknown,78513.51351351352,,Finance,CA,5595552345.0,FN311
+33,Gina Howard,76000.0,Sacramento,IT,CA,9165553456.0,IT218
+34,Hugo Ramirez,79000.0,Kansas City,Marketing,MO,8165554567.0,MK410
+35,Isla Bryant,97000.0,Mesa,IT,AZ,4805555678.0,IT219
+36,Jason Simmons,68000.0,Atlanta,HR,GA,4045556789.0,HR108
+37,Katie Foster,86000.0,Omaha,,NE,4025557890.0,FN312
+38,Liam Barnes,75000.0,Raleigh,IT,NC,9195558901.0,IT220
+39,Monica Black,70000.0,Miami,Marketing,FL,3055559012.0,MK411
+40,Noah Henderson,92000.0,Tulsa,IT,OK,9185550123.0,IT221

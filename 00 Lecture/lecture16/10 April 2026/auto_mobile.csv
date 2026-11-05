@@ -1,0 +1,11 @@
+,symboling,normalized-losses,make,fuel-type,aspiration,num-of-doors,body-style,drive-wheels,engine-location,wheel-base,length,width,height,curb-weight,engine-type,num-of-cylinders,engine-size,fuel-system,bore,stroke,compression-ratio,horsepower,peak-rpm,city-mpg,highway-mpg,price
+0,3,,alfa-romero,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9.0,111,5000,21,27,13495.0
+1,3,164.0,alfa-romero,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9.0,111,5000,21,27,16500.0
+2,1,158.0,alfa-romero,gas,std,two,hatchback,rwd,front,94.5,171.2,65.5,52.4,2823,ohcv,six,152,mpfi,2.68,3.47,9.0,154,5000,19,26,16500.0
+3,2,,audi,gas,std,four,sedan,fwd,front,99.8,176.6,66.2,54.3,2337,ohc,four,109,mpfi,3.19,3.4,10.0,102,5500,24,30,13950.0
+4,2,158.0,audi,gas,std,four,sedan,4wd,front,99.4,176.6,66.4,54.3,2824,ohc,five,136,mpfi,3.19,3.4,8.0,115,5500,18,22,17450.0
+5,1,,audi,gas,turbo,two,sedan,fwd,front,99.8,177.3,66.3,53.1,2507,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,25,15250.0
+6,0,91.0,bmw,gas,std,two,sedan,rwd,front,101.2,176.8,64.8,54.3,2844,ohc,six,152,mpfi,2.68,3.47,8.8,140,4800,23,29,17710.0
+7,0,93.0,bmw,gas,std,four,sedan,rwd,front,101.2,176.8,64.8,54.3,2954,ohc,six,164,mpfi,3.31,3.19,9.0,160,5500,23,31,18920.0
+8,-1,104.0,bmw,gas,std,two,sedan,rwd,front,103.5,183.1,66.9,53.1,3086,ohc,six,164,mpfi,3.31,3.19,9.0,300,5500,21,29,23875.0
+9,-1,103.0,bmw,gas,std,four,sedan,rwd,front,110.0,188.8,67.3,54.1,3086,ohc,six,164,mpfi,3.31,3.19,9.0,158,5500,21,28,

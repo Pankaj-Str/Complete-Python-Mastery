@@ -1,0 +1,501 @@
+Date,Store,City,Revenue,Product Category,Quantity,Employees,Transactions,Payment Method,Discount,Customer_Age,Customer_Gender
+2023-04-13,Store_2,Phoenix,321,Toys,2,28,17,Online Payment,13.82,27,Non-binary
+2024-03-11,Store_10,Houston,1513,Groceries,8,6,36,Online Payment,21.6,56,Non-binary
+2023-12-15,Store_2,Los Angeles,1821,Furniture,9,26,19,Debit Card,49.02,45,Non-binary
+2023-09-28,Store_10,Los Angeles,1312,Clothing,7,7,64,Credit Card,3.38,66,Female
+2023-04-17,Store_1,Chicago,426,Clothing,3,16,91,Online Payment,25.94,53,Male
+2023-03-13,Store_8,Chicago,315,Groceries,9,20,98,Online Payment,8.97,30,Male
+2023-07-08,Store_1,Phoenix,975,Toys,3,25,11,Cash,48.53,49,Male
+2023-01-21,Store_9,Phoenix,970,Electronics,5,28,54,Online Payment,5.67,53,Non-binary
+2023-04-13,Store_6,New York,1432,Groceries,9,5,45,Online Payment,20.18,54,Non-binary
+2023-05-02,Store_7,New York,389,Groceries,3,25,47,Online Payment,36.89,43,Female
+2024-04-11,Store_10,Phoenix,438,Furniture,7,7,12,Online Payment,35.23,39,Male
+2023-08-03,Store_7,Phoenix,626,Clothing,1,24,21,Cash,21.14,21,Non-binary
+2023-11-27,Store_10,Houston,1762,Groceries,4,6,11,Debit Card,17.33,48,Male
+2024-04-03,Store_3,Chicago,52,Groceries,4,13,92,Debit Card,19.88,35,Female
+2023-03-29,Store_2,New York,1502,Toys,7,23,5,Credit Card,13.21,55,Female
+2024-01-08,Store_9,Chicago,1215,Toys,8,19,81,Online Payment,10.27,41,Female
+2023-04-10,Store_8,Chicago,425,Electronics,1,22,56,Cash,24.15,40,Male
+2023-12-26,Store_10,Phoenix,1743,Furniture,5,15,20,Credit Card,13.43,39,Non-binary
+2023-06-01,Store_7,Houston,373,Electronics,7,29,41,Credit Card,14.37,19,Non-binary
+2023-05-11,Store_9,Los Angeles,195,Toys,4,27,46,Debit Card,32.84,48,Female
+2023-05-30,Store_4,Houston,342,Clothing,4,20,12,Cash,48.43,28,Non-binary
+2023-11-05,Store_4,Houston,1738,Toys,4,26,70,Cash,30.18,45,Female
+2023-09-15,Store_1,Chicago,481,Furniture,6,21,17,Cash,3.85,63,Male
+2023-12-10,Store_8,Houston,754,Toys,7,9,19,Debit Card,3.78,49,Female
+2024-05-06,Store_3,New York,998,Furniture,2,16,26,Debit Card,47.57,22,Male
+2024-02-18,Store_7,Chicago,634,Furniture,5,15,48,Debit Card,14.86,55,Female
+2023-10-21,Store_2,New York,448,Furniture,4,19,52,Debit Card,4.6,27,Non-binary
+2024-01-21,Store_2,Los Angeles,866,Furniture,3,7,96,Debit Card,29.95,57,Non-binary
+2023-07-11,Store_7,Chicago,1962,Furniture,7,5,70,Online Payment,31.18,63,Female
+2024-03-19,Store_6,Los Angeles,1417,Clothing,6,24,55,Online Payment,32.43,41,Non-binary
+2023-10-04,Store_3,Chicago,1013,Electronics,7,20,75,Cash,13.37,52,Non-binary
+2023-06-10,Store_9,Phoenix,1213,Groceries,5,6,33,Credit Card,0.76,61,Non-binary
+2024-04-04,Store_10,Houston,236,Electronics,6,6,62,Cash,48.25,65,Male
+2023-11-10,Store_6,Phoenix,1878,Furniture,5,7,88,Credit Card,12.54,40,Non-binary
+2023-01-22,Store_10,Los Angeles,110,Clothing,7,12,23,Debit Card,33.8,34,Male
+2023-09-10,Store_10,Houston,988,Toys,2,28,15,Credit Card,35.33,18,Female
+2023-08-24,Store_6,Chicago,1453,Clothing,5,19,27,Cash,30.5,48,Non-binary
+2023-12-11,Store_1,Houston,759,Furniture,6,11,75,Cash,15.65,48,Non-binary
+2023-02-18,Store_4,New York,856,Clothing,6,10,64,Credit Card,13.55,59,Non-binary
+2024-04-19,Store_10,Houston,1513,Clothing,5,13,81,Online Payment,29.88,59,Female
+2023-02-28,Store_6,New York,1392,Furniture,7,24,51,Debit Card,43.3,51,Male
+2023-06-19,Store_6,Houston,1375,Clothing,8,5,53,Debit Card,47.34,26,Male
+2024-04-20,Store_5,New York,1417,Groceries,7,12,78,Cash,5.3,39,Non-binary
+2023-07-07,Store_1,Los Angeles,60,Groceries,5,27,91,Online Payment,7.74,30,Female
+2024-04-08,Store_8,Phoenix,1135,Clothing,1,27,82,Credit Card,47.24,42,Female
+2023-09-28,Store_5,Chicago,1918,Toys,5,7,92,Debit Card,36.83,65,Female
+2023-07-09,Store_5,Houston,275,Furniture,2,8,51,Online Payment,44.15,35,Female
+2024-03-21,Store_7,Phoenix,1226,Groceries,5,29,47,Debit Card,10.13,68,Female
+2023-06-24,Store_4,Chicago,1784,Toys,5,19,4,Online Payment,29.38,29,Male
+2024-03-21,Store_6,Chicago,613,Clothing,2,10,7,Online Payment,35.06,57,Male
+2023-02-20,Store_4,New York,821,Toys,5,19,35,Cash,34.01,34,Male
+2023-12-30,Store_3,Los Angeles,1644,Electronics,4,25,48,Debit Card,20.41,32,Non-binary
+2023-02-24,Store_7,Los Angeles,1657,Groceries,1,7,73,Credit Card,0.77,59,Female
+2023-09-01,Store_8,Phoenix,1733,Clothing,3,29,72,Cash,29.15,32,Non-binary
+2023-11-16,Store_4,Los Angeles,1934,Furniture,1,25,45,Cash,12.66,32,Female
+2023-05-11,Store_2,Houston,1648,Clothing,5,25,81,Credit Card,22.51,56,Male
+2024-04-29,Store_10,Los Angeles,1383,Furniture,4,18,81,Cash,47.88,30,Non-binary
+2023-11-03,Store_3,Phoenix,934,Clothing,7,24,97,Online Payment,19.95,34,Male
+2023-05-15,Store_1,Los Angeles,1316,Toys,5,18,96,Online Payment,41.99,49,Female
+2023-01-21,Store_8,Houston,1566,Toys,4,8,72,Debit Card,9.43,26,Female
+2023-11-25,Store_3,New York,1439,Toys,2,16,19,Debit Card,33.62,57,Female
+2023-06-16,Store_10,Phoenix,1403,Electronics,4,21,63,Credit Card,48.85,37,Male
+2023-10-01,Store_7,New York,1180,Furniture,2,11,38,Debit Card,5.09,43,Female
+2024-01-23,Store_10,New York,275,Toys,8,13,67,Online Payment,0.42,44,Male
+2023-03-30,Store_5,New York,874,Electronics,3,7,59,Credit Card,21.68,38,Non-binary
+2023-11-12,Store_10,Chicago,267,Furniture,9,17,69,Credit Card,4.63,35,Female
+2023-01-14,Store_5,Chicago,986,Clothing,4,19,13,Debit Card,37.42,30,Female
+2023-08-30,Store_7,New York,802,Electronics,6,22,47,Online Payment,45.73,33,Female
+2023-09-22,Store_9,Phoenix,555,Groceries,5,23,61,Credit Card,21.7,26,Non-binary
+2023-12-12,Store_5,Houston,308,Electronics,1,5,31,Online Payment,12.94,29,Female
+2023-02-22,Store_1,Houston,1961,Electronics,9,10,80,Online Payment,21.72,61,Male
+2024-01-21,Store_10,Los Angeles,1847,Furniture,1,27,96,Online Payment,36.17,55,Male
+2023-12-06,Store_10,Phoenix,1590,Clothing,8,6,22,Debit Card,0.45,36,Female
+2023-04-02,Store_1,Chicago,1846,Groceries,9,28,93,Cash,29.47,24,Female
+2024-01-02,Store_2,New York,103,Toys,9,18,86,Cash,30.66,52,Non-binary
+2024-03-19,Store_6,Los Angeles,1120,Toys,1,10,43,Credit Card,31.88,65,Non-binary
+2024-03-30,Store_9,Houston,776,Electronics,2,18,67,Online Payment,12.1,35,Non-binary
+2024-03-03,Store_8,Chicago,738,Furniture,1,8,54,Debit Card,35.7,33,Female
+2023-09-21,Store_5,Chicago,1594,Furniture,2,25,10,Online Payment,4.57,56,Non-binary
+2024-03-06,Store_1,New York,1172,Toys,8,12,42,Online Payment,9.96,21,Non-binary
+2023-02-04,Store_7,Houston,1093,Groceries,5,7,64,Debit Card,43.87,42,Male
+2023-07-25,Store_5,Phoenix,1963,Clothing,7,23,21,Cash,36.94,49,Non-binary
+2023-03-22,Store_6,Chicago,1826,Groceries,2,18,80,Online Payment,0.69,57,Male
+2024-02-24,Store_7,New York,1646,Clothing,8,24,76,Online Payment,12.42,30,Male
+2023-02-19,Store_3,Phoenix,1964,Toys,6,21,66,Cash,10.72,62,Non-binary
+2023-12-26,Store_10,Houston,1563,Clothing,8,29,41,Debit Card,13.54,34,Male
+2024-01-23,Store_3,Chicago,468,Furniture,1,12,24,Credit Card,12.38,66,Female
+2023-01-02,Store_5,Phoenix,739,Electronics,1,28,35,Cash,3.13,54,Female
+2024-01-25,Store_6,Phoenix,899,Electronics,7,18,56,Credit Card,22.95,23,Non-binary
+2023-02-23,Store_9,Phoenix,111,Toys,8,10,30,Credit Card,36.64,36,Female
+2023-04-16,Store_5,Chicago,1218,Furniture,3,27,57,Cash,30.34,30,Male
+2023-09-17,Store_1,Chicago,265,Groceries,5,26,94,Online Payment,33.64,43,Female
+2023-11-06,Store_4,Los Angeles,52,Furniture,1,20,47,Credit Card,4.06,31,Non-binary
+2024-04-21,Store_5,Houston,209,Electronics,7,29,35,Credit Card,47.57,48,Non-binary
+2023-07-10,Store_10,New York,1812,Electronics,5,23,19,Debit Card,41.92,21,Male
+2024-02-06,Store_10,Phoenix,830,Furniture,8,18,8,Online Payment,40.25,56,Non-binary
+2023-08-06,Store_5,Los Angeles,1193,Furniture,8,23,26,Credit Card,41.15,25,Female
+2023-02-13,Store_7,New York,942,Electronics,9,7,71,Debit Card,46.64,42,Non-binary
+2023-06-11,Store_4,Los Angeles,1162,Groceries,7,14,30,Online Payment,27.21,30,Male
+2023-07-21,Store_1,Chicago,378,Toys,1,23,7,Cash,10.01,49,Non-binary
+2024-03-21,Store_5,Phoenix,629,Toys,3,13,67,Cash,30.84,55,Female
+2024-04-28,Store_7,New York,1983,Furniture,8,24,65,Debit Card,37.14,55,Male
+2023-09-27,Store_10,New York,1430,Toys,3,17,36,Cash,36.9,45,Female
+2023-12-17,Store_10,New York,1683,Electronics,8,11,25,Credit Card,26.07,47,Male
+2023-10-31,Store_6,New York,1340,Electronics,1,18,37,Online Payment,3.42,20,Non-binary
+2023-09-28,Store_5,New York,1690,Furniture,5,13,1,Credit Card,18.56,45,Male
+2024-03-31,Store_4,Los Angeles,1001,Furniture,4,27,15,Credit Card,46.04,20,Male
+2024-04-06,Store_2,Phoenix,1396,Furniture,5,29,37,Cash,29.22,62,Non-binary
+2023-08-03,Store_4,Chicago,684,Groceries,8,23,13,Credit Card,26.92,51,Female
+2023-09-09,Store_10,Chicago,1037,Toys,4,19,8,Cash,13.44,33,Non-binary
+2023-07-09,Store_10,Chicago,1614,Furniture,4,24,5,Online Payment,18.42,39,Male
+2023-10-23,Store_3,Chicago,1722,Clothing,3,18,60,Online Payment,44.77,49,Non-binary
+2023-08-01,Store_10,Los Angeles,1268,Clothing,7,28,73,Credit Card,33.32,55,Male
+2023-07-27,Store_1,Houston,970,Electronics,3,10,1,Debit Card,39.37,25,Non-binary
+2023-08-25,Store_8,Phoenix,787,Toys,3,25,36,Cash,22.72,25,Non-binary
+2023-12-04,Store_5,New York,1405,Furniture,5,8,35,Cash,31.51,23,Female
+2024-01-02,Store_4,Houston,219,Clothing,5,12,66,Credit Card,12.42,31,Male
+2023-02-22,Store_8,Chicago,570,Toys,6,21,63,Cash,35.27,49,Female
+2023-10-07,Store_7,Houston,1536,Electronics,8,13,23,Cash,21.38,52,Male
+2024-02-14,Store_2,Phoenix,89,Groceries,6,5,9,Debit Card,22.13,27,Non-binary
+2023-08-05,Store_1,New York,1610,Toys,1,28,34,Debit Card,32.47,20,Male
+2023-09-09,Store_4,New York,1334,Toys,8,24,46,Credit Card,46.81,29,Female
+2023-07-07,Store_8,Phoenix,1468,Groceries,8,29,78,Debit Card,3.2,66,Female
+2024-01-15,Store_2,Phoenix,1004,Toys,9,18,4,Credit Card,41.24,48,Female
+2024-05-07,Store_3,Chicago,1299,Electronics,9,15,30,Online Payment,14.62,46,Male
+2023-02-10,Store_1,New York,1033,Electronics,2,25,95,Credit Card,22.2,22,Female
+2023-06-06,Store_1,Houston,1197,Groceries,2,7,75,Online Payment,1.1,69,Female
+2023-01-15,Store_3,Los Angeles,1024,Furniture,3,13,99,Credit Card,15.05,42,Female
+2023-10-28,Store_5,Los Angeles,87,Clothing,1,18,72,Cash,25.13,58,Non-binary
+2023-03-06,Store_3,Phoenix,377,Furniture,4,13,3,Debit Card,2.81,48,Non-binary
+2023-12-11,Store_1,Chicago,1324,Toys,4,8,14,Online Payment,24.55,38,Male
+2023-11-23,Store_1,Los Angeles,1974,Clothing,9,8,60,Credit Card,46.36,37,Male
+2023-01-09,Store_8,New York,1249,Groceries,9,12,77,Debit Card,5.27,56,Female
+2023-12-10,Store_10,Phoenix,1675,Groceries,9,6,45,Credit Card,38.22,39,Non-binary
+2023-05-09,Store_2,Houston,963,Clothing,7,13,96,Debit Card,20.48,21,Female
+2024-05-06,Store_3,Phoenix,503,Electronics,2,18,34,Debit Card,32.76,30,Female
+2023-05-16,Store_2,Houston,86,Clothing,5,26,45,Credit Card,13.01,62,Non-binary
+2024-04-16,Store_3,Phoenix,1389,Toys,4,13,61,Online Payment,7.97,59,Non-binary
+2023-03-04,Store_7,Phoenix,1761,Electronics,8,28,83,Online Payment,8.02,67,Non-binary
+2023-05-19,Store_1,Phoenix,1022,Groceries,2,27,16,Cash,3.52,66,Male
+2024-05-13,Store_10,Houston,845,Clothing,6,20,66,Debit Card,9.28,37,Male
+2023-03-22,Store_8,Houston,1022,Furniture,5,21,40,Cash,33.21,69,Female
+2024-01-27,Store_10,Phoenix,642,Furniture,2,20,17,Cash,44.08,30,Male
+2023-06-12,Store_10,Los Angeles,1187,Toys,1,16,34,Credit Card,40.71,34,Non-binary
+2024-02-23,Store_10,Chicago,1113,Furniture,8,7,16,Credit Card,34.26,53,Non-binary
+2023-10-16,Store_2,Chicago,1374,Clothing,2,15,60,Credit Card,5.52,50,Male
+2024-01-14,Store_3,Chicago,273,Clothing,7,18,66,Debit Card,14.46,18,Female
+2023-09-18,Store_9,Houston,367,Furniture,9,22,66,Credit Card,15.49,32,Female
+2024-05-04,Store_7,Houston,398,Clothing,9,25,90,Credit Card,12.5,30,Male
+2023-08-19,Store_4,Los Angeles,164,Toys,8,25,13,Debit Card,25.75,34,Female
+2023-02-10,Store_10,Chicago,747,Electronics,9,9,56,Debit Card,26.78,41,Female
+2023-01-28,Store_5,Chicago,1396,Toys,2,20,31,Online Payment,17.84,25,Female
+2023-05-15,Store_2,Phoenix,1641,Toys,6,24,34,Credit Card,17.69,67,Non-binary
+2023-07-20,Store_8,Houston,1113,Clothing,4,9,39,Credit Card,41.43,44,Non-binary
+2023-11-24,Store_4,Chicago,1939,Electronics,4,7,67,Credit Card,39.46,62,Male
+2023-09-25,Store_9,Los Angeles,89,Clothing,5,16,8,Online Payment,15.39,40,Non-binary
+2024-02-22,Store_5,Los Angeles,1932,Groceries,3,5,87,Credit Card,45.69,63,Female
+2023-02-02,Store_9,Chicago,1822,Clothing,1,25,78,Online Payment,47.64,25,Non-binary
+2023-02-17,Store_4,Houston,1362,Clothing,8,13,55,Cash,16.34,25,Male
+2024-02-11,Store_10,Los Angeles,1335,Clothing,5,13,27,Online Payment,17.72,43,Non-binary
+2023-03-03,Store_5,Phoenix,265,Electronics,3,8,93,Cash,25.28,64,Female
+2023-08-04,Store_9,Los Angeles,1220,Clothing,7,7,53,Credit Card,47.06,30,Female
+2023-10-20,Store_8,New York,385,Electronics,7,21,39,Cash,43.82,56,Male
+2023-04-09,Store_3,New York,1241,Furniture,1,6,65,Online Payment,5.13,54,Non-binary
+2023-06-21,Store_1,Houston,141,Groceries,9,28,17,Debit Card,19.64,66,Non-binary
+2023-12-26,Store_3,Chicago,402,Electronics,2,5,30,Cash,27.67,45,Non-binary
+2023-08-02,Store_4,Houston,620,Furniture,5,12,53,Cash,25.16,42,Female
+2024-04-19,Store_2,Houston,1644,Electronics,5,17,13,Credit Card,9.69,33,Male
+2023-02-04,Store_1,Houston,865,Electronics,8,27,21,Online Payment,42.94,19,Non-binary
+2024-03-24,Store_7,Houston,1754,Groceries,8,19,19,Cash,33.85,35,Female
+2023-08-15,Store_8,Phoenix,830,Toys,7,12,53,Cash,41.9,34,Female
+2023-04-11,Store_7,Phoenix,412,Toys,7,16,19,Cash,42.94,47,Female
+2024-03-06,Store_5,Los Angeles,606,Electronics,6,26,57,Cash,37.42,56,Non-binary
+2024-04-06,Store_1,New York,1418,Clothing,6,16,25,Debit Card,21.96,30,Non-binary
+2023-05-11,Store_7,Houston,1766,Furniture,9,18,86,Online Payment,30.53,49,Non-binary
+2023-09-14,Store_7,Los Angeles,1243,Clothing,6,19,31,Credit Card,8.02,67,Non-binary
+2023-01-05,Store_9,New York,405,Clothing,2,19,81,Credit Card,33.68,46,Non-binary
+2023-08-06,Store_3,Chicago,240,Electronics,2,13,55,Debit Card,8.96,63,Non-binary
+2023-09-12,Store_9,Phoenix,1740,Electronics,5,23,23,Online Payment,34.7,47,Non-binary
+2024-02-02,Store_1,New York,471,Electronics,4,24,32,Cash,11.48,35,Non-binary
+2023-12-25,Store_1,Chicago,749,Electronics,2,26,62,Debit Card,5.88,30,Non-binary
+2023-10-10,Store_4,New York,56,Toys,3,12,74,Online Payment,8.26,60,Female
+2024-01-28,Store_9,Phoenix,182,Electronics,7,25,10,Cash,0.1,38,Non-binary
+2023-07-26,Store_6,Phoenix,1820,Toys,8,23,72,Debit Card,35.94,47,Male
+2023-01-15,Store_3,Los Angeles,606,Toys,6,10,54,Online Payment,36.62,38,Female
+2023-12-12,Store_1,Houston,875,Electronics,5,24,52,Credit Card,25.75,65,Non-binary
+2023-02-11,Store_4,New York,810,Groceries,1,29,20,Credit Card,8.07,34,Male
+2024-01-15,Store_9,New York,1104,Furniture,8,23,32,Online Payment,4.18,57,Non-binary
+2024-04-05,Store_3,Chicago,584,Clothing,3,8,14,Credit Card,0.96,36,Male
+2023-06-28,Store_9,Phoenix,475,Toys,6,27,50,Online Payment,8.29,69,Male
+2023-03-04,Store_7,New York,1467,Furniture,3,11,28,Cash,44.54,32,Male
+2023-12-18,Store_4,Phoenix,721,Groceries,7,8,53,Online Payment,12.08,26,Male
+2023-08-19,Store_3,New York,412,Clothing,7,26,24,Cash,17.71,69,Female
+2023-08-29,Store_10,Los Angeles,1510,Clothing,9,16,79,Debit Card,5.27,27,Female
+2023-02-21,Store_5,Houston,1743,Toys,5,17,22,Online Payment,11.12,61,Male
+2023-04-06,Store_5,New York,1624,Electronics,8,7,30,Debit Card,25.96,48,Non-binary
+2024-01-23,Store_3,Phoenix,131,Groceries,8,26,63,Credit Card,30.39,40,Male
+2023-08-10,Store_9,Los Angeles,405,Toys,1,16,4,Cash,12.27,69,Female
+2024-04-29,Store_4,New York,1331,Groceries,5,6,77,Online Payment,2.89,47,Non-binary
+2024-02-11,Store_5,Chicago,1791,Electronics,3,28,59,Debit Card,19.55,50,Female
+2023-08-19,Store_4,Houston,638,Electronics,1,6,87,Cash,11.71,69,Female
+2023-08-25,Store_5,New York,1597,Toys,4,27,8,Cash,10.98,26,Non-binary
+2023-05-23,Store_7,Los Angeles,344,Electronics,8,13,82,Credit Card,47.99,64,Male
+2023-06-20,Store_9,Chicago,1297,Furniture,3,5,12,Credit Card,30.82,18,Male
+2023-01-29,Store_7,Los Angeles,1598,Clothing,2,12,31,Cash,27.84,61,Male
+2023-02-05,Store_5,Los Angeles,1119,Toys,9,27,78,Cash,20.79,52,Male
+2023-01-13,Store_10,Chicago,1740,Groceries,5,10,34,Online Payment,21.45,28,Non-binary
+2023-06-09,Store_10,Los Angeles,1186,Furniture,7,10,82,Cash,27.05,51,Non-binary
+2023-11-23,Store_7,Chicago,1306,Toys,2,26,98,Online Payment,34.82,33,Non-binary
+2023-07-06,Store_10,New York,66,Electronics,9,29,75,Cash,35.11,26,Female
+2023-08-31,Store_5,Chicago,409,Electronics,9,22,76,Credit Card,8.58,49,Non-binary
+2023-03-27,Store_3,Chicago,1296,Electronics,4,21,49,Online Payment,25.01,32,Male
+2023-10-11,Store_7,Houston,915,Electronics,4,16,79,Debit Card,20.6,29,Female
+2023-03-07,Store_2,Chicago,749,Groceries,6,10,57,Credit Card,43.53,50,Male
+2023-06-19,Store_9,Chicago,497,Furniture,6,12,95,Online Payment,31.57,62,Male
+2023-02-14,Store_10,New York,905,Clothing,1,23,93,Online Payment,26.63,31,Non-binary
+2023-03-03,Store_10,Houston,414,Groceries,9,14,26,Debit Card,5.77,25,Non-binary
+2024-03-16,Store_1,Phoenix,724,Groceries,2,5,18,Online Payment,30.28,25,Male
+2023-05-14,Store_6,New York,1057,Clothing,5,29,96,Cash,5.86,44,Male
+2023-10-11,Store_7,New York,1399,Clothing,9,17,86,Debit Card,16.86,29,Female
+2023-01-28,Store_8,Phoenix,516,Electronics,4,21,38,Credit Card,7.14,18,Non-binary
+2023-04-18,Store_10,Chicago,463,Groceries,3,7,81,Credit Card,34.6,60,Female
+2023-02-13,Store_9,Los Angeles,1528,Toys,7,12,87,Cash,10.31,57,Female
+2023-12-06,Store_2,Houston,635,Clothing,6,18,88,Credit Card,19.59,59,Female
+2023-10-13,Store_10,Los Angeles,1306,Clothing,8,7,50,Online Payment,44.78,68,Male
+2024-03-21,Store_2,Phoenix,1297,Furniture,3,20,8,Online Payment,10.22,28,Female
+2023-11-27,Store_5,New York,1043,Toys,5,17,41,Cash,25.39,56,Female
+2023-05-08,Store_5,New York,1904,Toys,4,24,6,Credit Card,20.96,60,Male
+2023-12-14,Store_6,Houston,1485,Clothing,4,28,69,Credit Card,0.91,48,Non-binary
+2024-04-17,Store_3,New York,621,Electronics,4,21,44,Cash,39.64,34,Non-binary
+2023-08-19,Store_8,New York,384,Furniture,8,17,64,Debit Card,3.45,50,Female
+2023-07-09,Store_1,Houston,1295,Toys,6,10,29,Credit Card,23.71,49,Male
+2023-08-13,Store_6,Houston,86,Clothing,3,21,28,Debit Card,28.03,46,Non-binary
+2024-01-20,Store_4,Phoenix,1038,Toys,5,18,11,Credit Card,31.42,38,Female
+2024-01-12,Store_1,New York,327,Furniture,6,21,65,Credit Card,34.43,38,Female
+2023-10-10,Store_7,New York,1269,Furniture,5,12,19,Credit Card,12.66,57,Male
+2024-03-21,Store_9,Phoenix,965,Groceries,6,15,9,Credit Card,0.5,40,Female
+2023-05-01,Store_4,Chicago,1937,Clothing,8,24,27,Online Payment,36.17,23,Non-binary
+2023-04-26,Store_4,Chicago,533,Furniture,7,5,34,Debit Card,26.78,39,Male
+2024-04-05,Store_6,Chicago,1315,Groceries,5,11,44,Debit Card,41.81,67,Non-binary
+2023-08-21,Store_3,Phoenix,1397,Groceries,6,25,68,Credit Card,41.07,55,Non-binary
+2023-09-16,Store_6,New York,780,Toys,4,25,82,Credit Card,42.17,54,Non-binary
+2023-12-25,Store_7,Phoenix,241,Toys,9,21,15,Debit Card,24.25,62,Female
+2023-07-17,Store_10,Phoenix,1090,Groceries,4,14,51,Online Payment,16.68,68,Female
+2024-03-31,Store_10,Chicago,573,Toys,1,15,13,Cash,39.58,25,Non-binary
+2024-02-15,Store_3,Los Angeles,967,Furniture,7,26,83,Cash,22.56,58,Non-binary
+2023-05-17,Store_7,New York,450,Electronics,7,13,49,Debit Card,9.17,66,Male
+2023-11-14,Store_3,Chicago,1979,Furniture,4,13,70,Credit Card,42.75,52,Male
+2023-06-14,Store_2,Los Angeles,935,Groceries,3,28,56,Credit Card,44.13,68,Female
+2023-08-13,Store_10,Los Angeles,754,Groceries,8,9,76,Online Payment,23.32,28,Female
+2023-11-03,Store_4,Houston,71,Furniture,5,21,51,Cash,3.78,41,Male
+2023-08-22,Store_8,New York,523,Toys,7,13,37,Online Payment,19.39,66,Non-binary
+2023-06-21,Store_9,Los Angeles,1193,Toys,4,21,17,Cash,40.18,38,Female
+2023-06-01,Store_7,Chicago,259,Groceries,4,28,58,Debit Card,45.09,68,Non-binary
+2024-04-07,Store_1,Houston,355,Clothing,8,25,87,Cash,10.17,19,Male
+2023-11-11,Store_3,New York,1343,Toys,8,23,90,Online Payment,3.35,57,Female
+2024-01-09,Store_9,Phoenix,753,Furniture,2,11,29,Online Payment,43.87,36,Female
+2023-06-09,Store_1,Chicago,736,Toys,2,27,33,Online Payment,19.47,56,Male
+2023-04-06,Store_9,Los Angeles,334,Furniture,3,13,60,Debit Card,27.09,45,Female
+2024-04-16,Store_8,Los Angeles,765,Groceries,3,11,91,Cash,48.4,34,Male
+2023-08-21,Store_1,Chicago,1749,Toys,1,17,89,Cash,3.33,23,Female
+2023-06-29,Store_6,Los Angeles,812,Furniture,3,15,55,Online Payment,32.42,36,Male
+2023-04-23,Store_5,Houston,1300,Groceries,6,18,10,Cash,3.71,55,Female
+2023-11-14,Store_6,New York,997,Clothing,8,23,47,Credit Card,18.77,45,Non-binary
+2024-05-11,Store_10,Houston,430,Furniture,6,15,23,Credit Card,40.19,19,Non-binary
+2024-03-17,Store_5,Los Angeles,509,Clothing,5,17,85,Credit Card,21.67,55,Non-binary
+2023-02-21,Store_6,Phoenix,1080,Clothing,4,18,21,Cash,49.86,54,Female
+2023-09-25,Store_5,New York,78,Electronics,3,17,13,Debit Card,27.95,68,Female
+2023-10-22,Store_5,New York,956,Toys,4,5,33,Debit Card,16.06,69,Non-binary
+2024-01-21,Store_4,Chicago,1106,Furniture,7,12,24,Debit Card,11.01,21,Non-binary
+2024-01-22,Store_3,Chicago,1719,Clothing,1,16,11,Debit Card,17.53,39,Male
+2023-04-23,Store_3,Phoenix,928,Electronics,7,23,17,Credit Card,18.63,43,Male
+2023-04-11,Store_4,New York,128,Groceries,1,16,68,Credit Card,3.44,66,Male
+2023-04-23,Store_9,Phoenix,996,Furniture,2,12,47,Online Payment,18.48,60,Non-binary
+2024-03-15,Store_2,Chicago,508,Clothing,4,12,25,Cash,23.21,53,Non-binary
+2023-03-22,Store_9,Chicago,619,Toys,1,25,94,Cash,36.14,30,Non-binary
+2023-07-06,Store_1,New York,1611,Electronics,9,17,73,Debit Card,32.84,69,Male
+2023-04-23,Store_1,Houston,1555,Clothing,6,16,21,Credit Card,35.44,49,Female
+2023-01-02,Store_5,Los Angeles,1503,Toys,1,20,84,Debit Card,0.42,34,Non-binary
+2023-05-10,Store_6,Chicago,787,Clothing,1,5,83,Online Payment,10.88,58,Female
+2023-08-08,Store_6,Chicago,1358,Furniture,6,17,83,Cash,33.08,53,Female
+2023-02-23,Store_3,Houston,565,Furniture,4,11,12,Cash,24.2,63,Female
+2023-12-09,Store_7,Houston,1172,Furniture,4,9,37,Debit Card,0.27,36,Male
+2024-04-29,Store_9,Phoenix,446,Electronics,6,12,42,Online Payment,40.22,52,Female
+2023-08-12,Store_10,Phoenix,1562,Furniture,7,29,17,Cash,38.64,63,Non-binary
+2023-08-13,Store_8,Los Angeles,88,Toys,9,18,48,Online Payment,27.42,57,Male
+2024-01-20,Store_6,Los Angeles,1344,Clothing,5,27,28,Online Payment,3.32,45,Non-binary
+2024-02-07,Store_8,New York,936,Groceries,9,17,41,Debit Card,38.33,18,Non-binary
+2023-05-06,Store_5,Phoenix,846,Toys,4,19,99,Credit Card,29.19,59,Male
+2023-05-10,Store_8,Chicago,206,Toys,2,27,47,Debit Card,39.1,35,Non-binary
+2023-02-22,Store_10,Phoenix,1148,Furniture,3,21,18,Credit Card,37.59,65,Non-binary
+2023-06-21,Store_4,Chicago,933,Electronics,1,19,78,Online Payment,40.15,57,Male
+2023-08-06,Store_10,Houston,1873,Clothing,6,24,99,Credit Card,25.9,50,Non-binary
+2023-06-09,Store_8,Phoenix,1203,Electronics,6,22,71,Online Payment,7.02,29,Female
+2023-07-17,Store_10,Houston,1760,Clothing,1,22,13,Cash,33.56,25,Non-binary
+2024-02-20,Store_2,Los Angeles,1023,Clothing,3,6,82,Cash,31.02,41,Female
+2023-09-04,Store_5,Los Angeles,1157,Electronics,5,8,13,Cash,37.11,33,Non-binary
+2023-11-20,Store_9,New York,1095,Toys,3,5,31,Debit Card,8.49,67,Male
+2024-03-14,Store_4,Phoenix,1532,Clothing,3,8,2,Debit Card,9.75,21,Male
+2023-07-22,Store_6,Houston,1612,Electronics,3,22,16,Online Payment,44.52,55,Non-binary
+2023-07-03,Store_1,Chicago,1780,Clothing,5,9,9,Cash,37.5,61,Male
+2023-05-03,Store_9,Los Angeles,898,Groceries,5,23,73,Debit Card,45.41,44,Non-binary
+2024-02-05,Store_1,Los Angeles,1455,Toys,4,19,38,Cash,37.94,26,Male
+2023-09-12,Store_5,Chicago,797,Furniture,1,12,75,Debit Card,29.86,64,Female
+2023-10-21,Store_4,Houston,1513,Clothing,5,24,54,Credit Card,32.71,33,Non-binary
+2023-10-07,Store_3,Houston,1677,Groceries,5,21,56,Credit Card,44.46,29,Female
+2023-11-21,Store_6,Phoenix,1038,Furniture,4,5,86,Cash,28.94,48,Female
+2024-01-07,Store_2,Phoenix,70,Furniture,6,16,97,Online Payment,31.62,41,Non-binary
+2023-04-08,Store_3,New York,352,Clothing,4,23,87,Debit Card,7.82,31,Female
+2023-07-17,Store_5,Los Angeles,918,Electronics,7,19,45,Debit Card,23.7,62,Non-binary
+2024-04-14,Store_9,Phoenix,133,Clothing,7,13,34,Credit Card,35.82,42,Female
+2024-01-30,Store_2,Houston,1847,Groceries,2,11,9,Credit Card,13.55,51,Non-binary
+2023-08-28,Store_10,Chicago,1732,Furniture,3,6,88,Online Payment,10.11,20,Non-binary
+2023-05-24,Store_8,Houston,1526,Clothing,1,13,8,Online Payment,15.69,41,Male
+2023-04-07,Store_2,Los Angeles,1460,Electronics,8,14,7,Online Payment,12.08,59,Non-binary
+2023-07-20,Store_5,Houston,1580,Clothing,9,6,36,Cash,10.75,26,Non-binary
+2023-05-04,Store_7,New York,1330,Toys,4,23,18,Credit Card,21.24,43,Female
+2023-07-06,Store_8,Los Angeles,619,Electronics,6,15,3,Cash,45.39,37,Non-binary
+2023-11-22,Store_1,Chicago,1965,Groceries,9,17,28,Credit Card,25.35,57,Male
+2024-04-08,Store_6,New York,983,Furniture,6,14,70,Credit Card,9.4,27,Female
+2023-12-15,Store_1,Los Angeles,1600,Clothing,9,18,44,Debit Card,3.85,36,Female
+2023-09-16,Store_2,Chicago,1235,Electronics,4,22,21,Credit Card,34.81,20,Male
+2023-05-28,Store_1,New York,1236,Toys,8,23,28,Credit Card,19.14,41,Female
+2023-09-09,Store_5,New York,1905,Electronics,9,26,54,Cash,41.09,22,Female
+2024-03-18,Store_10,Los Angeles,1058,Toys,4,13,54,Credit Card,32.98,20,Female
+2024-02-24,Store_9,Phoenix,842,Groceries,5,29,65,Cash,39.81,44,Female
+2024-02-07,Store_6,New York,841,Furniture,8,11,21,Online Payment,13.6,33,Male
+2023-12-12,Store_1,New York,1597,Groceries,6,7,99,Credit Card,34.62,66,Male
+2024-03-26,Store_1,Chicago,1859,Clothing,7,24,13,Credit Card,13.2,32,Female
+2023-05-27,Store_2,Houston,1344,Electronics,3,10,57,Cash,46.95,52,Female
+2023-05-28,Store_9,Los Angeles,541,Toys,7,25,49,Online Payment,31.82,29,Male
+2023-12-18,Store_3,Los Angeles,257,Toys,8,6,54,Debit Card,16.23,58,Male
+2023-07-18,Store_1,Phoenix,1612,Electronics,6,10,10,Online Payment,13.48,61,Male
+2023-11-04,Store_5,Phoenix,1657,Electronics,9,7,53,Cash,9.55,43,Female
+2024-05-03,Store_7,Los Angeles,1133,Clothing,6,20,44,Online Payment,34.73,64,Female
+2024-02-21,Store_6,Phoenix,479,Groceries,9,12,47,Cash,10.94,51,Non-binary
+2024-02-28,Store_1,Chicago,1034,Toys,4,6,53,Cash,29.77,40,Male
+2023-05-08,Store_5,Los Angeles,1730,Clothing,8,21,74,Debit Card,13.23,48,Female
+2023-02-08,Store_5,Phoenix,1678,Groceries,4,13,46,Credit Card,33.1,67,Male
+2023-12-04,Store_6,Los Angeles,1382,Clothing,2,16,13,Cash,40.75,37,Female
+2023-12-26,Store_3,Houston,569,Toys,9,7,37,Cash,38.9,29,Male
+2023-05-09,Store_5,New York,640,Electronics,5,15,24,Debit Card,38.04,40,Female
+2023-09-24,Store_7,Los Angeles,1100,Electronics,4,5,2,Cash,9.39,21,Non-binary
+2024-04-20,Store_5,New York,1759,Groceries,2,27,86,Credit Card,4.42,40,Non-binary
+2024-03-16,Store_5,Phoenix,1635,Furniture,1,17,81,Debit Card,34.95,65,Male
+2024-04-17,Store_5,New York,248,Groceries,7,19,14,Credit Card,18.42,65,Female
+2024-03-09,Store_10,Los Angeles,436,Furniture,6,9,10,Credit Card,21.62,18,Female
+2023-05-31,Store_10,Houston,398,Clothing,2,25,35,Debit Card,1.56,42,Male
+2024-02-19,Store_3,Phoenix,1009,Clothing,8,21,25,Cash,12.98,19,Female
+2024-04-22,Store_1,Los Angeles,742,Toys,4,29,3,Credit Card,1.68,47,Male
+2023-10-25,Store_5,Phoenix,1609,Furniture,8,27,17,Credit Card,43.96,20,Female
+2023-04-09,Store_9,Chicago,1901,Toys,7,28,12,Credit Card,12.17,38,Male
+2023-09-20,Store_1,New York,427,Electronics,5,29,54,Credit Card,27.87,42,Female
+2023-09-09,Store_3,Chicago,948,Furniture,8,10,24,Debit Card,1.95,37,Male
+2023-05-24,Store_4,Los Angeles,965,Groceries,9,25,29,Debit Card,33.34,66,Female
+2023-12-12,Store_1,Houston,1631,Electronics,5,26,43,Online Payment,16.15,69,Non-binary
+2023-04-22,Store_1,Phoenix,576,Electronics,5,15,25,Online Payment,44.9,39,Female
+2024-05-14,Store_8,New York,1226,Groceries,2,22,60,Credit Card,44.41,38,Male
+2023-03-01,Store_2,Phoenix,783,Electronics,5,8,90,Cash,16.26,50,Non-binary
+2024-01-04,Store_8,Los Angeles,255,Furniture,3,7,65,Credit Card,45.05,69,Female
+2023-01-02,Store_7,Phoenix,504,Toys,7,17,84,Cash,49.81,55,Non-binary
+2024-01-20,Store_10,New York,1346,Electronics,5,27,28,Credit Card,41.27,32,Female
+2023-10-31,Store_10,Los Angeles,1967,Furniture,8,13,16,Online Payment,42.24,63,Non-binary
+2023-09-11,Store_2,Phoenix,1309,Clothing,1,25,47,Online Payment,12.45,69,Male
+2023-05-20,Store_6,Houston,1925,Furniture,3,10,81,Cash,28.84,32,Female
+2024-03-28,Store_6,Los Angeles,1813,Toys,3,16,92,Credit Card,3.36,63,Female
+2023-02-06,Store_3,Los Angeles,570,Furniture,9,6,58,Cash,4.75,42,Male
+2023-06-09,Store_2,Houston,1751,Groceries,5,7,76,Online Payment,49.94,38,Non-binary
+2023-01-09,Store_1,Chicago,1066,Toys,9,7,27,Credit Card,16.33,41,Male
+2023-08-21,Store_6,New York,1005,Clothing,9,16,53,Credit Card,37.41,22,Male
+2023-04-09,Store_5,Chicago,1904,Groceries,1,19,42,Cash,40.33,23,Non-binary
+2023-05-27,Store_9,Phoenix,775,Furniture,2,13,59,Debit Card,42.9,66,Male
+2023-10-31,Store_1,Houston,1063,Toys,5,27,47,Cash,49.88,60,Female
+2023-07-27,Store_7,Chicago,550,Clothing,4,12,94,Online Payment,12.07,65,Female
+2023-05-11,Store_5,Los Angeles,166,Groceries,9,15,34,Online Payment,2.02,61,Female
+2024-02-08,Store_5,Phoenix,435,Clothing,7,20,37,Online Payment,20.56,64,Male
+2023-06-01,Store_2,Phoenix,1417,Furniture,6,29,6,Online Payment,6.5,40,Female
+2023-02-23,Store_3,Chicago,633,Clothing,7,26,7,Online Payment,1.12,21,Female
+2023-04-30,Store_7,Chicago,444,Electronics,1,8,96,Debit Card,18.02,44,Female
+2023-06-10,Store_6,Houston,1137,Groceries,1,5,96,Credit Card,39.19,35,Female
+2024-02-12,Store_2,New York,1790,Clothing,8,28,25,Cash,28.31,38,Female
+2023-04-26,Store_6,Chicago,770,Furniture,2,11,33,Cash,15.64,45,Female
+2023-03-16,Store_2,Chicago,121,Furniture,9,6,55,Online Payment,32.72,52,Male
+2023-04-23,Store_2,Los Angeles,1862,Clothing,7,28,58,Cash,11.6,39,Female
+2024-03-31,Store_2,Phoenix,323,Furniture,6,9,7,Online Payment,0.72,57,Female
+2024-02-24,Store_3,New York,1393,Toys,1,11,57,Debit Card,38.22,40,Non-binary
+2024-02-26,Store_2,Los Angeles,387,Toys,1,8,12,Debit Card,31.19,20,Male
+2023-04-14,Store_4,Houston,1439,Toys,2,9,16,Credit Card,38.12,57,Male
+2023-12-06,Store_9,Houston,1568,Electronics,6,28,80,Debit Card,1.95,67,Male
+2023-09-11,Store_6,Chicago,656,Clothing,6,5,43,Debit Card,41.86,27,Male
+2023-08-15,Store_1,Chicago,215,Electronics,2,5,77,Credit Card,30.98,42,Female
+2023-04-22,Store_8,Houston,1617,Furniture,1,19,7,Cash,28.17,69,Female
+2024-04-17,Store_7,Chicago,60,Electronics,5,24,51,Online Payment,31.23,66,Non-binary
+2023-04-09,Store_10,New York,1374,Furniture,5,23,73,Online Payment,43.22,25,Non-binary
+2023-06-02,Store_3,Chicago,778,Furniture,2,14,32,Cash,29.35,28,Male
+2023-12-15,Store_1,Phoenix,850,Groceries,6,22,75,Credit Card,29.05,22,Non-binary
+2024-02-06,Store_5,Chicago,151,Toys,9,7,8,Cash,49.53,62,Non-binary
+2024-01-19,Store_4,Los Angeles,1498,Furniture,2,15,97,Debit Card,37.84,54,Male
+2024-01-01,Store_10,New York,1465,Groceries,2,19,87,Credit Card,22.11,62,Male
+2023-12-04,Store_8,Los Angeles,828,Toys,3,15,89,Credit Card,35.37,55,Non-binary
+2023-07-13,Store_1,Los Angeles,263,Furniture,7,21,72,Credit Card,19.46,46,Female
+2023-11-06,Store_10,Phoenix,1764,Furniture,6,21,45,Online Payment,11.44,22,Non-binary
+2023-06-12,Store_1,New York,1161,Electronics,8,10,86,Cash,29.84,26,Non-binary
+2023-07-27,Store_4,New York,1626,Electronics,8,9,59,Credit Card,46.41,65,Female
+2024-03-20,Store_8,New York,450,Toys,6,12,4,Credit Card,46.46,19,Female
+2023-06-18,Store_5,New York,637,Furniture,3,6,67,Credit Card,17.1,18,Male
+2024-04-28,Store_2,New York,938,Clothing,3,20,29,Cash,26.38,57,Male
+2023-06-10,Store_6,Phoenix,1119,Electronics,1,24,29,Online Payment,10.58,68,Non-binary
+2023-03-09,Store_5,Chicago,1745,Toys,7,28,98,Debit Card,49.78,47,Female
+2023-10-16,Store_2,Los Angeles,1536,Furniture,5,16,98,Online Payment,49.06,28,Male
+2024-02-02,Store_3,New York,641,Furniture,4,10,28,Credit Card,32.48,45,Non-binary
+2023-10-04,Store_9,Chicago,1383,Clothing,4,5,77,Online Payment,40.22,61,Female
+2023-10-31,Store_7,Chicago,1159,Toys,4,8,79,Online Payment,35.76,29,Non-binary
+2024-02-08,Store_7,Los Angeles,141,Furniture,6,21,87,Debit Card,29.66,56,Male
+2024-01-19,Store_6,Phoenix,1733,Electronics,8,17,44,Cash,2.67,43,Male
+2024-01-27,Store_8,Houston,722,Clothing,8,22,90,Cash,22.74,30,Female
+2023-05-15,Store_4,Houston,763,Toys,5,9,4,Online Payment,33.74,25,Non-binary
+2023-07-14,Store_8,Chicago,985,Clothing,6,28,90,Online Payment,33.88,45,Female
+2024-02-05,Store_4,Los Angeles,291,Electronics,4,28,9,Cash,18.66,47,Male
+2023-05-08,Store_8,Houston,1938,Toys,9,7,5,Cash,47.08,26,Male
+2023-02-02,Store_9,Chicago,51,Clothing,8,15,56,Debit Card,8.37,56,Non-binary
+2023-06-25,Store_3,Phoenix,274,Groceries,1,17,96,Credit Card,25.02,48,Non-binary
+2024-04-04,Store_3,Houston,850,Electronics,2,8,84,Online Payment,34.54,38,Non-binary
+2024-03-18,Store_2,Chicago,1818,Electronics,9,18,50,Cash,34.86,64,Female
+2024-01-06,Store_10,Chicago,1999,Electronics,8,26,75,Online Payment,32.43,51,Non-binary
+2024-04-14,Store_3,New York,638,Groceries,3,15,15,Online Payment,13.76,48,Non-binary
+2024-01-10,Store_3,Phoenix,165,Groceries,8,14,32,Cash,7.81,69,Male
+2023-01-22,Store_5,New York,1739,Furniture,1,23,28,Debit Card,31.8,42,Male
+2023-08-26,Store_5,Los Angeles,967,Clothing,4,22,22,Online Payment,29.97,29,Non-binary
+2023-06-07,Store_2,New York,1176,Furniture,3,10,17,Debit Card,8.97,18,Non-binary
+2023-02-07,Store_10,New York,243,Clothing,6,19,59,Cash,35.26,39,Male
+2023-08-18,Store_6,Houston,1239,Groceries,7,25,90,Credit Card,22.76,57,Non-binary
+2023-12-31,Store_5,Chicago,920,Groceries,4,14,71,Credit Card,33.39,54,Female
+2023-02-20,Store_6,Phoenix,139,Furniture,7,9,57,Online Payment,41.87,64,Female
+2024-03-13,Store_1,New York,1759,Toys,9,9,26,Cash,8.49,18,Female
+2023-09-21,Store_5,Phoenix,171,Furniture,2,14,25,Debit Card,0.96,18,Non-binary
+2023-10-10,Store_9,New York,192,Clothing,3,9,10,Online Payment,38.96,59,Male
+2023-01-27,Store_10,Los Angeles,1043,Furniture,5,7,45,Cash,30.48,59,Non-binary
+2023-08-14,Store_2,New York,155,Electronics,3,27,83,Cash,34.98,38,Non-binary
+2023-10-04,Store_1,Houston,936,Clothing,8,10,11,Debit Card,41.91,32,Male
+2023-10-13,Store_10,Chicago,477,Clothing,8,8,77,Online Payment,40.14,34,Male
+2023-04-07,Store_9,Los Angeles,1378,Toys,8,22,53,Cash,48.05,39,Male
+2023-10-11,Store_10,New York,1945,Groceries,9,13,72,Cash,26.8,55,Female
+2024-01-02,Store_9,Phoenix,366,Clothing,4,21,68,Cash,24.42,52,Non-binary
+2024-03-23,Store_9,Los Angeles,684,Groceries,5,17,95,Debit Card,20.09,62,Male
+2024-04-25,Store_6,Los Angeles,1975,Furniture,5,19,28,Online Payment,7.68,33,Non-binary
+2024-03-28,Store_8,New York,58,Electronics,8,24,75,Online Payment,28.63,25,Female
+2023-11-13,Store_1,Los Angeles,823,Toys,7,21,65,Online Payment,13.85,64,Female
+2023-10-31,Store_10,Phoenix,1146,Groceries,9,17,49,Online Payment,46.07,34,Male
+2023-05-27,Store_4,Los Angeles,1432,Clothing,8,20,47,Credit Card,29.16,34,Male
+2023-01-04,Store_1,Phoenix,272,Groceries,2,26,52,Credit Card,29.64,43,Non-binary
+2023-02-04,Store_8,New York,1489,Clothing,4,8,88,Online Payment,17.75,30,Male
+2023-07-11,Store_1,Chicago,602,Groceries,6,9,54,Debit Card,2.6,34,Non-binary
+2023-02-18,Store_3,Los Angeles,1443,Clothing,2,9,60,Credit Card,1.59,55,Male
+2023-01-17,Store_4,Chicago,765,Furniture,7,13,57,Cash,21.17,34,Non-binary
+2023-06-21,Store_8,Phoenix,1337,Clothing,3,21,47,Credit Card,4.23,65,Non-binary
+2023-08-08,Store_6,Los Angeles,1913,Clothing,3,17,31,Cash,30.34,31,Non-binary
+2023-06-07,Store_10,Houston,1763,Electronics,2,6,46,Online Payment,44.05,62,Non-binary
+2024-04-21,Store_7,Chicago,1933,Clothing,8,17,26,Credit Card,44.15,23,Female
+2023-02-15,Store_8,Los Angeles,1391,Electronics,6,26,5,Debit Card,32.95,52,Non-binary
+2024-01-08,Store_2,Chicago,1157,Toys,1,25,84,Credit Card,10.56,63,Male
+2023-01-06,Store_10,Los Angeles,1391,Electronics,1,27,52,Credit Card,43.15,31,Female
+2023-04-09,Store_8,New York,160,Furniture,7,23,75,Credit Card,44.3,64,Female
+2024-01-15,Store_3,Chicago,300,Electronics,8,7,54,Online Payment,9.83,25,Non-binary
+2023-08-21,Store_7,Houston,432,Toys,5,14,33,Debit Card,36.87,32,Female
+2023-02-06,Store_3,Houston,56,Furniture,5,6,50,Credit Card,14.33,44,Non-binary
+2023-10-07,Store_7,Phoenix,508,Groceries,4,17,38,Debit Card,40.13,30,Male
+2023-12-15,Store_2,Los Angeles,1157,Groceries,6,23,27,Online Payment,49.86,66,Non-binary
+2024-05-11,Store_10,Chicago,257,Electronics,6,21,98,Cash,1.5,48,Female
+2023-10-29,Store_6,Phoenix,949,Electronics,3,25,15,Credit Card,44.87,52,Male
+2023-06-30,Store_3,Chicago,1463,Toys,9,18,96,Debit Card,31.13,23,Non-binary
+2023-04-05,Store_3,Los Angeles,1387,Toys,7,16,61,Debit Card,48.67,22,Male
+2023-04-09,Store_9,Houston,71,Clothing,1,25,21,Online Payment,23.25,39,Male
+2023-07-07,Store_7,New York,459,Toys,7,16,46,Credit Card,42.37,66,Female
+2024-04-25,Store_5,Houston,944,Clothing,5,15,69,Cash,3.12,40,Male
+2023-04-26,Store_10,Phoenix,564,Furniture,5,11,6,Debit Card,16.76,42,Female
+2023-07-10,Store_7,New York,1200,Electronics,2,8,38,Credit Card,3.35,51,Male
+2023-09-10,Store_9,Phoenix,858,Furniture,4,23,62,Cash,48.77,43,Non-binary
+2024-04-13,Store_1,Los Angeles,1773,Toys,6,5,86,Debit Card,40.85,64,Male
+2024-02-20,Store_7,New York,923,Furniture,7,28,62,Debit Card,42.63,22,Non-binary
+2024-04-15,Store_6,Phoenix,63,Furniture,5,7,82,Cash,46.9,43,Non-binary
+2023-06-10,Store_10,Los Angeles,1020,Furniture,9,17,78,Cash,4.26,37,Male
+2023-09-13,Store_9,Houston,1027,Toys,3,19,74,Online Payment,19.28,23,Non-binary
+2023-11-19,Store_1,Los Angeles,1063,Furniture,1,6,46,Credit Card,3.55,23,Male
+2023-05-08,Store_4,Chicago,1085,Clothing,4,15,13,Credit Card,10.54,67,Male
+2023-01-18,Store_9,Los Angeles,136,Toys,9,8,95,Online Payment,11.47,35,Non-binary
+2023-10-08,Store_4,Los Angeles,1597,Furniture,4,23,94,Debit Card,23.46,21,Non-binary
+2024-05-04,Store_10,Chicago,958,Toys,2,21,3,Cash,13.43,34,Female
+2023-08-11,Store_3,Phoenix,1610,Groceries,5,7,94,Cash,5.05,31,Non-binary
+2023-02-23,Store_9,Phoenix,1374,Clothing,3,22,6,Cash,8.37,31,Female
+2023-02-27,Store_2,Los Angeles,1316,Furniture,9,12,93,Debit Card,7.36,30,Non-binary
+2023-11-19,Store_4,Chicago,171,Groceries,4,26,8,Cash,48.65,24,Male
+2023-12-26,Store_6,Chicago,1220,Groceries,6,29,44,Cash,37.96,61,Non-binary
+2023-06-23,Store_2,Houston,1640,Toys,2,28,33,Online Payment,48.39,32,Male
+2023-10-07,Store_8,Phoenix,799,Groceries,6,23,81,Debit Card,21.99,36,Male
+2023-04-24,Store_8,New York,1429,Clothing,3,9,75,Credit Card,13.92,60,Male
+2023-10-15,Store_1,Phoenix,734,Clothing,9,11,77,Online Payment,39.91,64,Female
+2024-03-06,Store_3,Phoenix,1977,Electronics,2,25,50,Online Payment,16.31,61,Non-binary
+2023-12-08,Store_10,Houston,1806,Clothing,9,12,11,Credit Card,14.97,52,Male
+2023-05-31,Store_9,New York,1704,Groceries,5,9,95,Online Payment,11.63,34,Male

@@ -1,0 +1,24 @@
+-> Input
+Enter Product List Size = 4
+Enter Product 1 = Samosa
+Enter Product 2 = vadapav
+Enter Product 3 = jalebi
+Enter Product 4 = fafda
+
+--------------------
+Enter Samosa Price = 300
+Enter VadaPav Price = 300
+Enter Jalebi Price = 300
+Enter Fafda Price = 300
+
+---------------------
+
+SN. Price | Product Name 
+1.  300   = Samosa 
+2.  300   = VadaPav
+3.  300   = Jalebi
+4.  300   = Fafda
+---------------------
+Total = 1200/-
+
+
