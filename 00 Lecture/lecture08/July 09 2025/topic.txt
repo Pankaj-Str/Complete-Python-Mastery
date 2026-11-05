@@ -1,6 +1,0 @@
-What are the feature of OOPs
-What is Class, Attributes & Methods
-What is Constructor?
-What is Inheritance
-Data Abstraction
-What is Polymorphism
