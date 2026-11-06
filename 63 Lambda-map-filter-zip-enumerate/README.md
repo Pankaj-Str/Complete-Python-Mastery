@@ -1,6 +1,6 @@
 # Python Functional Programming
 
-# Lambda Functions, map(), filter(), zip(), enumerate(), and real-world data processing with practical examples.
+## Lambda Functions, map(), filter(), zip(), enumerate(), and real-world data processing with practical examples.
 
 ---
 
