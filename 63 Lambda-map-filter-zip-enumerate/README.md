@@ -1,197 +1,291 @@
-# Python Functional Programming - Lambda, map(), filter(), zip(), enumerate() and Data Processing
+# Python Functional Programming
 
-## 1. Introduction
+# Lambda Functions, map(), filter(), zip(), enumerate(), and real-world data processing with practical examples.
 
-Python provides several built-in functions that make data processing easier, faster, and more readable.
+---
 
-In this tutorial, we will learn:
+## Table of Contents
 
-1. Lambda Function
-2. `map()` Function
-3. `filter()` Function
-4. `zip()` Function
-5. `enumerate()` Function
-6. Processing Data Using `map()` and `filter()`
-7. Real-world practical projects
-8. Practice exercises with solutions
+1. Introduction to Functional Programming
+2. Lambda Function
+3. map() Function
+4. filter() Function
+5. zip() Function
+6. enumerate() Function
+7. Process Data Using map() and filter()
+8. Real-World Practical Examples
+9. Understanding Python Iterators
+10. map() vs filter() vs List Comprehension
+11. Common Mistakes
+12. Practice Exercises
+13. Exercise Solutions
+14. Mini Projects
+15. Interview Questions
+16. Conclusion
 
-Real-world scenario:
+---
 
-Imagine you are working as a Junior Data Analyst in a company. You receive employee records, student marks, product prices, and sales data.
+# 1. Introduction to Functional Programming
 
-You need to:
+Functional programming is a programming approach in which functions are used to process and transform data.
 
-- Calculate employee salaries.
-- Filter students who passed an examination.
-- Combine employee names with their salaries.
-- Display records with serial numbers.
-- Process thousands of records efficiently.
+Python supports functional programming through several built-in functions.
 
-These Python functions help you perform these operations.
+The important functions covered in this tutorial are:
 
-# PART 1: Lambda Function
+| Function | Description |
+|---|---|
+| lambda | Creates anonymous functions |
+| map() | Transforms every element |
+| filter() | Filters elements based on conditions |
+| zip() | Combines multiple iterables |
+| enumerate() | Adds an index to iterable elements |
 
-## 2. What is a Lambda Function?
+### Why Do We Need These Functions?
 
-A lambda function is a small, anonymous function in Python.
+Consider a business scenario.
 
-Unlike a regular function, a lambda function does not require the `def` keyword or an explicit function name.
+You are working as a Junior Data Analyst in an IT company.
 
-It is mainly used when you need a small function for a short period.
+You receive the following employee salary data:
 
-Syntax:
-
+```python
+salaries = [25000, 30000, 45000, 55000, 65000]
 ```
+
+Your requirements are:
+
+1. Increase employee salaries by 10%.
+2. Filter salaries greater than ₹40,000.
+3. Combine employee names with salaries.
+4. Display records with serial numbers.
+
+Python provides these functions to make such operations easier.
+
+---
+
+# 2. Lambda Function
+
+## 2.1 What is a Lambda Function?
+
+A lambda function is an anonymous function in Python.
+
+It is created using the `lambda` keyword instead of `def`.
+
+Lambda functions are useful when we need a small function for a short operation.
+
+### Syntax
+
+```python
 lambda arguments: expression
 ```
 
-Where:
+### Example 1: Normal Function
 
-| Component  | Description                              |
-| ---------- | ---------------------------------------- |
-| `lambda`   | Keyword used to create a lambda function |
-| arguments  | Input parameters                         |
-| expression | Single expression that returns a result  |
+```python
+def square(num):
+    return num * num
 
-### Step 1: Create a Normal Function
+result = square(5)
 
-First, let's create a regular function that calculates the square of a number.
-
-```
-def square(num):    return num * numresult = square(5)print(result)
+print(result)
 ```
 
 Output:
 
-```
+```text
 25
 ```
 
-Explanation:
+### Example 2: Lambda Function
 
-1. `def` creates a function.
-2. `square` is the function name.
-3. `num` is the parameter.
-4. `return` sends the calculated result back.
-5. `square(5)` calls the function.
+```python
+square = lambda num: num * num
 
-### Step 2: Convert Normal Function into Lambda
-
-Now, perform the same operation using lambda.
-
-```
-square = lambda num: num * numresult = square(5)print(result)
+print(square(5))
 ```
 
 Output:
 
-```
+```text
 25
 ```
 
-Both functions produce the same result.
+### Explanation
 
-### Step 3: Lambda with Multiple Arguments
+- `lambda` creates an anonymous function.
+- `num` is the parameter.
+- `num * num` is the expression.
+- The expression result is returned automatically.
 
-A lambda function can accept multiple arguments.
+## 2.2 Lambda with One Argument
 
-Example 1: Addition
+```python
+double = lambda x: x * 2
 
-```
-add = lambda a, b: a + bprint(add(10, 20))print(add(50, 30))
+print(double(10))
+print(double(20))
+print(double(30))
 ```
 
 Output:
 
+```text
+20
+40
+60
 ```
+
+## 2.3 Lambda with Multiple Arguments
+
+```python
+add = lambda a, b: a + b
+
+print(add(10, 20))
+print(add(50, 30))
+```
+
+Output:
+
+```text
 30
 80
 ```
 
-Example 2: Multiplication
+### Multiplication
 
-```
-multiply = lambda a, b: a * bprint(multiply(5, 4))
+```python
+multiply = lambda a, b: a * b
+
+print(multiply(5, 4))
 ```
 
 Output:
 
-```
+```text
 20
 ```
 
-Example 3: Find Maximum Number
+### Division
 
-```
-maximum = lambda a, b: a if a > b else bprint(maximum(10, 20))
-```
+```python
+divide = lambda a, b: a / b
 
-Output:
-
-```
-20
-```
-
-### Step 4: Lambda with Conditional Statements
-
-We can use conditional expressions inside lambda functions.
-
-Example: Check Even or Odd
-
-```
-check = lambda num: "Even" if num % 2 == 0 else "Odd"print(check(10))print(check(7))print(check(25))
+print(divide(20, 5))
 ```
 
 Output:
 
+```text
+4.0
 ```
+
+## 2.4 Lambda with Conditional Expressions
+
+Lambda functions support conditional expressions.
+
+### Example: Even or Odd
+
+```python
+check = lambda x: "Even" if x % 2 == 0 else "Odd"
+
+print(check(10))
+print(check(15))
+```
+
+Output:
+
+```text
 Even
 Odd
-Odd
 ```
 
-Explanation:
+### Example: Positive or Negative
 
-- `%` is the modulus operator.
-- If the remainder is `0`, the number is even.
-- Otherwise, the number is odd.
+```python
+check = lambda x: "Positive" if x > 0 else "Negative or Zero"
 
-### Step 5: Lambda with Strings
-
-```
-get_length = lambda name: len(name)print(get_length("Pankaj"))print(get_length("Python"))
+print(check(10))
+print(check(-5))
+print(check(0))
 ```
 
 Output:
 
-```
-6
-6
+```text
+Positive
+Negative or Zero
+Negative or Zero
 ```
 
-### Step 6: Lambda with Lists
+## 2.5 Lambda with Strings
 
-```
-numbers = [1, 2, 3, 4, 5]square = lambda x: x * xresult = [square(x) for x in numbers]print(result)
+```python
+name_length = lambda name: len(name)
+
+print(name_length("Pankaj"))
+print(name_length("Python"))
 ```
 
 Output:
 
+```text
+6
+6
 ```
+
+### Convert String into Uppercase
+
+```python
+convert = lambda name: name.upper()
+
+print(convert("python programming"))
+```
+
+Output:
+
+```text
+PYTHON PROGRAMMING
+```
+
+## 2.6 Lambda with Lists
+
+```python
+numbers = [1, 2, 3, 4, 5]
+
+square = lambda x: x ** 2
+
+result = [square(x) for x in numbers]
+
+print(result)
+```
+
+Output:
+
+```text
 [1, 4, 9, 16, 25]
 ```
 
-### Step 7: Lambda with Sorting
+## 2.7 Lambda with Sorting
 
-One of the most useful applications of lambda is sorting complex data.
+Lambda functions are frequently used with the `sort()` and `sorted()` functions.
 
-```
-students = [    ("Amit", 85),    ("Rahul", 65),    ("Priya", 92),    ("Sneha", 75)]students.sort(key=lambda x: x[1])print(students)
+```python
+students = [
+    ("Amit", 85),
+    ("Rahul", 65),
+    ("Priya", 92),
+    ("Sneha", 75)
+]
+
+students.sort(key=lambda x: x[1])
+
+print(students)
 ```
 
 Output:
 
-```
+```text
 [
     ('Rahul', 65),
     ('Sneha', 75),
@@ -200,352 +294,480 @@ Output:
 ]
 ```
 
-Explanation:
+### Descending Order
 
-- `students` contains tuples.
-- `x` represents each tuple.
-- `x[0]` represents the student name.
-- `x[1]` represents the student marks.
-- `key=lambda x: x[1]` sorts students based on marks.
+```python
+students.sort(key=lambda x: x[1], reverse=True)
 
-For descending order:
-
-```
-students.sort(key=lambda x: x[1], reverse=True)print(students)
+print(students)
 ```
 
-### Lambda vs Normal Function
+## 2.8 Lambda with Dictionary
 
-| Normal Function                 | Lambda Function                         |
-| ------------------------------- | --------------------------------------- |
-| Uses `def`                      | Uses `lambda`                           |
-| Has a function name             | Usually anonymous                       |
-| Can contain multiple statements | Contains one expression                 |
-| Uses explicit `return`          | Returns expression result automatically |
-| Suitable for complex logic      | Suitable for short operations           |
+```python
+employees = [
+    {"name": "Amit", "salary": 30000},
+    {"name": "Rahul", "salary": 50000},
+    {"name": "Priya", "salary": 40000}
+]
 
-When should you use lambda?
+result = sorted(
+    employees,
+    key=lambda emp: emp["salary"]
+)
 
-- Simple mathematical calculations.
-- Sorting data.
-- Short conditional operations.
-- With `map()`, `filter()` and other functions.
-
-# PART 2: map() Function
-
-## 3. What is map()?
-
-The `map()` function applies a given function to every element of an iterable, such as a list or tuple.
-
-It returns a map iterator, which can be converted into a list, tuple, etc.
-
-Syntax:
-
+print(result)
 ```
+
+Output:
+
+```text
+[
+    {'name': 'Amit', 'salary': 30000},
+    {'name': 'Priya', 'salary': 40000},
+    {'name': 'Rahul', 'salary': 50000}
+]
+```
+
+### Important Points
+
+- Lambda functions can accept multiple arguments.
+- Lambda functions contain one expression.
+- Lambda functions return their expression result automatically.
+- They are useful with map(), filter(), and sorted().
+
+---
+
+# 3. map() Function
+
+## 3.1 What is map()?
+
+The `map()` function applies a given function to every element of an iterable.
+
+It returns a map iterator.
+
+### Syntax
+
+```python
 map(function, iterable)
 ```
 
-| Parameter | Description                      |
-| --------- | -------------------------------- |
-| function  | Function to execute              |
-| iterable  | List, tuple, or another iterable |
+Parameters:
 
-### Step 1: Without Using map()
+| Parameter | Description |
+|---|---|
+| function | Function to apply |
+| iterable | List, tuple, or another iterable |
 
-Suppose we have a list of numbers and want to calculate the square of every number.
+## 3.2 Without Using map()
 
-```
-numbers = [1, 2, 3, 4, 5]result = []for num in numbers:    result.append(num * num)print(result)
+Calculate the square of every number.
+
+```python
+numbers = [1, 2, 3, 4, 5]
+
+result = []
+
+for num in numbers:
+    result.append(num * num)
+
+print(result)
 ```
 
 Output:
 
-```
+```text
 [1, 4, 9, 16, 25]
 ```
 
-Here, we use a `for` loop to process each element.
+## 3.3 Using map() with a Normal Function
 
-### Step 2: Using map()
+```python
+numbers = [1, 2, 3, 4, 5]
 
-Now let's perform the same operation using `map()`.
+def square(num):
+    return num * num
 
-```
-numbers = [1, 2, 3, 4, 5]def square(num):    return num * numresult = map(square, numbers)print(list(result))
+result = map(square, numbers)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [1, 4, 9, 16, 25]
 ```
 
-Explanation:
+## 3.4 Using map() with Lambda
 
-1. `numbers` contains five elements.
-2. `square()` calculates the square.
-3. `map()` applies `square()` to every element.
-4. `list()` converts the map iterator into a list.
+```python
+numbers = [1, 2, 3, 4, 5]
 
-### Step 3: Using map() with Lambda
+result = map(lambda x: x * x, numbers)
 
-We can simplify the previous example.
-
-```
-numbers = [1, 2, 3, 4, 5]result = map(lambda x: x * x, numbers)print(list(result))
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [1, 4, 9, 16, 25]
 ```
 
-### Step 4: Convert Strings into Uppercase
+## 3.5 Multiply Every Number by 2
 
-```
-names = ["pankaj", "amit", "rahul", "priya"]result = map(lambda name: name.upper(), names)print(list(result))
+```python
+numbers = [10, 20, 30, 40, 50]
+
+result = map(lambda x: x * 2, numbers)
+
+print(list(result))
 ```
 
 Output:
 
+```text
+[20, 40, 60, 80, 100]
 ```
+
+## 3.6 Convert Strings into Uppercase
+
+```python
+names = ["pankaj", "amit", "rahul", "priya"]
+
+result = map(lambda name: name.upper(), names)
+
+print(list(result))
+```
+
+Output:
+
+```text
 ['PANKAJ', 'AMIT', 'RAHUL', 'PRIYA']
 ```
 
-### Step 5: Convert Celsius into Fahrenheit
+## 3.7 Convert Celsius into Fahrenheit
 
 Formula:
 
-\\[ F = \frac{9}{5}C + 32 \\]
+F = (C × 9/5) + 32
 
-```
-celsius = [0, 10, 20, 30, 40]fahrenheit = map(    lambda c: (c * 9/5) + 32,    celsius)print(list(fahrenheit))
+```python
+celsius = [0, 10, 20, 30, 40]
+
+fahrenheit = map(
+    lambda c: (c * 9/5) + 32,
+    celsius
+)
+
+print(list(fahrenheit))
 ```
 
 Output:
 
-```
+```text
 [32.0, 50.0, 68.0, 86.0, 104.0]
 ```
 
-### Step 6: map() with Multiple Iterables
+## 3.8 map() with Multiple Iterables
 
-The `map()` function can also accept multiple iterables when the supplied function accepts multiple arguments.
+The map() function supports multiple iterables.
 
-Example: Addition of Two Lists
+### Example: Addition of Two Lists
 
-```
-list1 = [10, 20, 30, 40]list2 = [1, 2, 3, 4]result = map(lambda a, b: a + b, list1, list2)print(list(result))
+```python
+list1 = [10, 20, 30, 40]
+
+list2 = [1, 2, 3, 4]
+
+result = map(lambda a, b: a + b, list1, list2)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [11, 22, 33, 44]
 ```
 
-Explanation:
+### Example: Multiplication of Two Lists
 
-| List 1 | List 2 | Addition |
-| ------ | ------ | -------- |
-| 10     | 1      | 11       |
-| 20     | 2      | 22       |
-| 30     | 3      | 33       |
-| 40     | 4      | 44       |
+```python
+list1 = [2, 3, 4, 5]
 
-Important: When multiple iterables have different lengths, `map()` stops when the shortest iterable is exhausted.
+list2 = [10, 20, 30, 40]
 
-### Step 7: Real-World Example – Calculate Employee Salary
+result = map(lambda a, b: a * b, list1, list2)
 
-Suppose we have employee basic salaries and need to calculate their salaries after adding a 10% increment.
-
-```
-salaries = [30000, 40000, 50000, 60000, 70000]updated_salaries = map(    lambda salary: salary + (salary * 0.10),    salaries)print(list(updated_salaries))
+print(list(result))
 ```
 
 Output:
 
-```
-[33000.0, 44000.0, 55000.0, 66000.0, 77000.0]
+```text
+[20, 60, 120, 200]
 ```
 
-Use cases of map():
+## 3.9 Employee Salary Increment Using map()
+
+```python
+salaries = [30000, 40000, 50000, 60000]
+
+updated_salaries = map(
+    lambda salary: salary + (salary * 0.10),
+    salaries
+)
+
+print(list(updated_salaries))
+```
+
+Output:
+
+```text
+[33000.0, 44000.0, 55000.0, 66000.0]
+```
+
+### Use Cases of map()
 
 - Data transformation.
-- Salary calculations.
+- Mathematical calculations.
+- Salary processing.
+- String conversion.
+- Data cleaning.
 - Temperature conversion.
-- String formatting.
-- Mathematical operations.
-- Processing records.
 
-# PART 3: filter() Function
+---
 
-## 4. What is filter()?
+# 4. filter() Function
 
-The `filter()` function is used to filter elements from an iterable based on a condition.
+## 4.1 What is filter()?
 
-It returns only those elements for which the given function evaluates to `True`.
+The `filter()` function selects elements from an iterable based on a given condition.
 
-Syntax:
+It returns only the elements for which the condition evaluates to True.
 
-```
+### Syntax
+
+```python
 filter(function, iterable)
 ```
 
-| Parameter | Description                      |
-| --------- | -------------------------------- |
-| function  | Function containing a condition  |
-| iterable  | List, tuple, or another iterable |
+## 4.2 Without Using filter()
 
-### Step 1: Without Using filter()
+Extract even numbers from a list.
 
-Suppose we want to extract even numbers from a list.
+```python
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-```
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]result = []for num in numbers:    if num % 2 == 0:        result.append(num)print(result)
+result = []
+
+for num in numbers:
+
+    if num % 2 == 0:
+        result.append(num)
+
+print(result)
 ```
 
 Output:
 
-```
+```text
 [2, 4, 6, 8, 10]
 ```
 
-### Step 2: Using filter()
+## 4.3 Using filter() with Normal Function
 
-```
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]def is_even(num):    return num % 2 == 0result = filter(is_even, numbers)print(list(result))
+```python
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+def is_even(num):
+    return num % 2 == 0
+
+result = filter(is_even, numbers)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [2, 4, 6, 8, 10]
 ```
 
-### Step 3: Using filter() with Lambda
+## 4.4 Using filter() with Lambda
 
-```
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]result = filter(lambda x: x % 2 == 0, numbers)print(list(result))
+```python
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+result = filter(lambda x: x % 2 == 0, numbers)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [2, 4, 6, 8, 10]
 ```
 
-### Step 4: Filter Odd Numbers
+## 4.5 Filter Odd Numbers
 
-```
-numbers = [10, 15, 20, 25, 30, 35, 40]result = filter(lambda x: x % 2 != 0, numbers)print(list(result))
+```python
+numbers = [10, 15, 20, 25, 30, 35, 40]
+
+result = filter(lambda x: x % 2 != 0, numbers)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [15, 25, 35]
 ```
 
-### Step 5: Filter Numbers Greater Than 50
+## 4.6 Filter Numbers Greater Than 50
 
-```
-numbers = [10, 25, 45, 55, 65, 75, 85, 95]result = filter(lambda x: x > 50, numbers)print(list(result))
+```python
+numbers = [10, 25, 45, 55, 65, 75, 85, 95]
+
+result = filter(lambda x: x > 50, numbers)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [55, 65, 75, 85, 95]
 ```
 
-### Step 6: Filter Names Based on Length
+## 4.7 Filter Names Based on Length
 
-```
-names = [    "Amit",    "Pankaj",    "Rahul",    "Priya",    "Christopher"]result = filter(lambda name: len(name) > 5, names)print(list(result))
+```python
+names = [
+    "Amit",
+    "Pankaj",
+    "Rahul",
+    "Priya",
+    "Christopher"
+]
+
+result = filter(lambda name: len(name) > 5, names)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 ['Pankaj', 'Christopher']
 ```
 
-### Step 7: Filter Students Who Passed
+## 4.8 Filter Students Who Passed
 
-Suppose the passing marks are 40.
+```python
+marks = [35, 85, 45, 25, 90, 30, 65, 55]
 
-```
-marks = [35, 85, 45, 25, 90, 30, 65, 55]result = filter(lambda x: x >= 40, marks)print(list(result))
+result = filter(lambda x: x >= 40, marks)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [85, 45, 90, 65, 55]
 ```
 
-### Step 8: Filter Employees Based on Salary
+## 4.9 Filter Employee Records
 
-```
-employees = [    {"name": "Amit", "salary": 25000},    {"name": "Rahul", "salary": 45000},    {"name": "Priya", "salary": 65000},    {"name": "Sneha", "salary": 35000}]result = filter(    lambda emp: emp["salary"] > 40000,    employees)for emp in result:    print(emp)
+```python
+employees = [
+    {"name": "Amit", "salary": 25000},
+    {"name": "Rahul", "salary": 45000},
+    {"name": "Priya", "salary": 65000},
+    {"name": "Sneha", "salary": 35000}
+]
+
+result = filter(
+    lambda emp: emp["salary"] > 40000,
+    employees
+)
+
+for emp in result:
+    print(emp)
 ```
 
 Output:
 
-```
+```text
 {'name': 'Rahul', 'salary': 45000}
 {'name': 'Priya', 'salary': 65000}
 ```
 
-Important: `filter()` selects existing elements. It does not modify the values of those elements.
+### Use Cases of filter()
 
-# PART 4: zip() Function
+- Extracting passed students.
+- Filtering employees.
+- Selecting products by price.
+- Extracting even and odd numbers.
+- Filtering customer records.
+- Data analysis.
 
-## 5. What is zip()?
+---
 
-The `zip()` function combines two or more iterables element by element.
+# 5. zip() Function
 
-It creates pairs or groups of corresponding elements.
+## 5.1 What is zip()?
 
-Syntax:
+The zip() function combines corresponding elements from two or more iterables.
 
-```
+It returns an iterator containing tuples.
+
+### Syntax
+
+```python
 zip(iterable1, iterable2, ...)
 ```
 
-### Step 1: Create Two Lists
+## 5.2 Combine Two Lists
 
-```
-names = ["Amit", "Rahul", "Priya"]marks = [85, 90, 95]result = zip(names, marks)print(list(result))
-```
+```python
+names = ["Amit", "Rahul", "Priya"]
 
-Output:
+marks = [85, 90, 95]
 
-```
-[
-    ('Amit', 85),
-    ('Rahul', 90),
-    ('Priya', 95)
-]
-```
+result = zip(names, marks)
 
-Explanation:
-
-- First element of each list is combined.
-- Second element of each list is combined.
-- Third element of each list is combined.
-
-### Step 2: Using zip() with Three Lists
-
-```
-names = ["Amit", "Rahul", "Priya"]marks = [85, 90, 95]subjects = ["Python", "Java", "SQL"]result = zip(names, marks, subjects)print(list(result))
+print(list(result))
 ```
 
 Output:
 
+```text
+[('Amit', 85), ('Rahul', 90), ('Priya', 95)]
 ```
+
+## 5.3 Combine Three Lists
+
+```python
+names = ["Amit", "Rahul", "Priya"]
+
+marks = [85, 90, 95]
+
+subjects = ["Python", "Java", "SQL"]
+
+result = zip(names, marks, subjects)
+
+print(list(result))
+```
+
+Output:
+
+```text
 [
     ('Amit', 85, 'Python'),
     ('Rahul', 90, 'Java'),
@@ -553,49 +775,61 @@ Output:
 ]
 ```
 
-### Step 3: Using zip() with a for Loop
+## 5.4 Using zip() with a for Loop
 
-```
-names = ["Amit", "Rahul", "Priya"]marks = [85, 90, 95]for name, mark in zip(names, marks):    print(name, mark)
+```python
+names = ["Amit", "Rahul", "Priya"]
+
+marks = [85, 90, 95]
+
+for name, mark in zip(names, marks):
+
+    print(name, mark)
 ```
 
 Output:
 
-```
+```text
 Amit 85
 Rahul 90
 Priya 95
 ```
 
-### Step 4: Create a Dictionary Using zip()
+## 5.5 Create a Dictionary Using zip()
 
-This is one of the most useful applications of `zip()`.
+```python
+keys = ["name", "age", "city"]
 
-```
-keys = ["name", "age", "city"]values = ["Pankaj", 30, "Mumbai"]student = dict(zip(keys, values))print(student)
-```
+values = ["Pankaj", 30, "Mumbai"]
 
-Output:
+student = dict(zip(keys, values))
 
-```
-{
-    'name': 'Pankaj',
-    'age': 30,
-    'city': 'Mumbai'
-}
-```
-
-### Step 5: zip() with Different Lengths
-
-By default, `zip()` stops when the shortest iterable is exhausted.
-
-```
-names = ["Amit", "Rahul", "Priya", "Sneha"]marks = [85, 90, 95]result = zip(names, marks)print(list(result))
+print(student)
 ```
 
 Output:
 
+```text
+{'name': 'Pankaj', 'age': 30, 'city': 'Mumbai'}
 ```
+
+## 5.6 zip() with Different Lengths
+
+By default, zip() stops when the shortest iterable is exhausted.
+
+```python
+names = ["Amit", "Rahul", "Priya", "Sneha"]
+
+marks = [85, 90, 95]
+
+result = zip(names, marks)
+
+print(list(result))
+```
+
+Output:
+
+```text
 [
     ('Amit', 85),
     ('Rahul', 90),
@@ -603,19 +837,29 @@ Output:
 ]
 ```
 
-Notice that `Sneha` is not included because there is no corresponding mark.
+## 5.7 zip_longest()
 
-### Step 6: Using zip_longest()
+To include all elements, use zip_longest() from itertools.
 
-If you want to include all elements, use `zip_longest()` from the `itertools` module.
+```python
+from itertools import zip_longest
 
-```
-from itertools import zip_longestnames = ["Amit", "Rahul", "Priya", "Sneha"]marks = [85, 90, 95]result = zip_longest(names, marks, fillvalue="Not Available")print(list(result))
+names = ["Amit", "Rahul", "Priya", "Sneha"]
+
+marks = [85, 90, 95]
+
+result = zip_longest(
+    names,
+    marks,
+    fillvalue="Not Available"
+)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [
     ('Amit', 85),
     ('Rahul', 90),
@@ -624,62 +868,71 @@ Output:
 ]
 ```
 
-Use cases of zip():
+### Use Cases of zip()
 
 - Combining student names and marks.
 - Combining employee names and salaries.
 - Creating dictionaries.
 - Combining product names and prices.
-- Processing multiple datasets together.
+- Combining multiple datasets.
 
-# PART 5: enumerate() Function
+---
 
-## 6. What is enumerate()?
+# 6. enumerate() Function
 
-The `enumerate()` function adds a counter to an iterable.
+## 6.1 What is enumerate()?
 
-It returns an iterator containing pairs of:
+The enumerate() function adds a counter to an iterable.
 
-1. Index (counter).
-2. Corresponding element.
+It returns index-element pairs.
 
-Syntax:
+### Syntax
 
-```
+```python
 enumerate(iterable, start=0)
 ```
 
-| Parameter | Description                   |
-| --------- | ----------------------------- |
-| iterable  | List, tuple, string, etc.     |
-| start     | Starting index (default is 0) |
+| Parameter | Description |
+|---|---|
+| iterable | List, tuple, string, etc. |
+| start | Starting index, default 0 |
 
-### Step 1: Without enumerate()
+## 6.2 Without Using enumerate()
 
-Suppose we want to display student names with serial numbers.
+```python
+students = ["Amit", "Rahul", "Priya", "Sneha"]
 
-```
-students = ["Amit", "Rahul", "Priya", "Sneha"]count = 0for student in students:    print(count, student)    count += 1
+count = 0
+
+for student in students:
+
+    print(count, student)
+
+    count += 1
 ```
 
 Output:
 
-```
+```text
 0 Amit
 1 Rahul
 2 Priya
 3 Sneha
 ```
 
-### Step 2: Using enumerate()
+## 6.3 Using enumerate()
 
-```
-students = ["Amit", "Rahul", "Priya", "Sneha"]result = enumerate(students)print(list(result))
+```python
+students = ["Amit", "Rahul", "Priya", "Sneha"]
+
+result = enumerate(students)
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [
     (0, 'Amit'),
     (1, 'Rahul'),
@@ -688,49 +941,48 @@ Output:
 ]
 ```
 
-### Step 3: Using enumerate() with a for Loop
+## 6.4 enumerate() with a for Loop
 
-```
-students = ["Amit", "Rahul", "Priya", "Sneha"]for index, student in enumerate(students):    print(index, student)
-```
+```python
+students = ["Amit", "Rahul", "Priya", "Sneha"]
 
-Output:
+for index, student in enumerate(students):
 
-```
-0 Amit
-1 Rahul
-2 Priya
-3 Sneha
+    print(index, student)
 ```
 
-### Step 4: Change the Starting Index
+## 6.5 Change the Starting Index
 
-By default, the index starts from 0.
+```python
+students = ["Amit", "Rahul", "Priya", "Sneha"]
 
-But we can change it using the `start` parameter.
+for index, student in enumerate(students, start=1):
 
-```
-students = ["Amit", "Rahul", "Priya", "Sneha"]for index, student in enumerate(students, start=1):    print(index, student)
+    print(index, student)
 ```
 
 Output:
 
-```
+```text
 1 Amit
 2 Rahul
 3 Priya
 4 Sneha
 ```
 
-### Step 5: enumerate() with Strings
+## 6.6 enumerate() with Strings
 
-```
-name = "Python"for index, char in enumerate(name):    print(index, char)
+```python
+name = "Python"
+
+for index, char in enumerate(name):
+
+    print(index, char)
 ```
 
 Output:
 
-```
+```text
 0 P
 1 y
 2 t
@@ -739,83 +991,111 @@ Output:
 5 n
 ```
 
-### Step 6: enumerate() with a List of Dictionaries
+## 6.7 enumerate() with Dictionary Records
 
-```
-employees = [    {"name": "Amit", "salary": 30000},    {"name": "Rahul", "salary": 45000},    {"name": "Priya", "salary": 55000}]for sr_no, employee in enumerate(employees, start=1):    print(        sr_no,        employee["name"],        employee["salary"]    )
+```python
+employees = [
+    {"name": "Amit", "salary": 30000},
+    {"name": "Rahul", "salary": 45000},
+    {"name": "Priya", "salary": 55000}
+]
+
+for sr_no, employee in enumerate(employees, start=1):
+
+    print(
+        sr_no,
+        employee["name"],
+        employee["salary"]
+    )
 ```
 
 Output:
 
-```
+```text
 1 Amit 30000
 2 Rahul 45000
 3 Priya 55000
 ```
 
-Use cases of enumerate():
+### Use Cases of enumerate()
 
-- Displaying serial numbers.
+- Generating serial numbers.
+- Displaying student lists.
+- Processing employee records.
 - Generating numbered reports.
-- Tracking records.
-- Processing CSV data.
-- Displaying student or employee lists.
+- Tracking iterable elements.
 
-# PART 6: Process Data Using map() and filter()
+---
 
-## 7. What is Data Processing?
+# 7. Process Data Using map() and filter()
 
-Data processing means collecting, transforming, filtering, and organizing data to obtain meaningful information.
+## 7.1 What is Data Processing?
 
-In Python, `map()` and `filter()` are frequently used together to process datasets.
+Data processing is the process of transforming, filtering, organizing, and analyzing raw data to obtain meaningful information.
 
-Let's understand this using a real-world business scenario.
+Python provides map() and filter() to simplify data processing.
 
 ## Business Scenario: Student Result Management System
 
-Imagine you are working as a Data Analyst in an educational institute.
+An educational institute wants to process student records.
 
-You have received student marks and need to:
+Requirements:
 
 1. Store student records.
-2. Calculate grades.
+2. Extract student marks.
 3. Filter students who passed.
-4. Calculate bonus marks.
-5. Generate a final report.
+4. Add bonus marks.
+5. Calculate grades.
+6. Generate a final result report.
 
-### Step 1: Create Student Data
+## Step 1: Create Student Dataset
 
+```python
+students = [
+    {"name": "Amit", "marks": 85},
+    {"name": "Rahul", "marks": 35},
+    {"name": "Priya", "marks": 92},
+    {"name": "Sneha", "marks": 45},
+    {"name": "Vikas", "marks": 28},
+    {"name": "Neha", "marks": 75}
+]
+
+print(students)
 ```
-students = [    {"name": "Amit", "marks": 85},    {"name": "Rahul", "marks": 35},    {"name": "Priya", "marks": 92},    {"name": "Sneha", "marks": 45},    {"name": "Vikas", "marks": 28},    {"name": "Neha", "marks": 75}]print(students)
-```
 
-Our dataset contains six students.
+## Step 2: Extract Student Marks Using map()
 
-### Step 2: Extract Student Marks Using map()
+```python
+marks = map(
+    lambda student: student["marks"],
+    students
+)
 
-We want to extract only the marks from the student records.
-
-```
-marks = map(    lambda student: student["marks"],    students)print(list(marks))
+print(list(marks))
 ```
 
 Output:
 
-```
+```text
 [85, 35, 92, 45, 28, 75]
 ```
 
-### Step 3: Filter Students Who Passed
+## Step 3: Filter Passed Students
 
-Assume the passing marks are 40.
+Passing marks are 40.
 
-```
-passed_students = filter(    lambda student: student["marks"] >= 40,    students)print(list(passed_students))
+```python
+passed_students = filter(
+    lambda student: student["marks"] >= 40,
+    students
+)
+
+print(list(passed_students))
 ```
 
 Output:
 
-```
+```text
 [
     {'name': 'Amit', 'marks': 85},
     {'name': 'Priya', 'marks': 92},
@@ -824,66 +1104,144 @@ Output:
 ]
 ```
 
-### Step 4: Calculate Bonus Marks Using map()
+## Step 4: Add Bonus Marks Using map()
 
-Suppose the institute gives five bonus marks to every student who passes.
+```python
+passed_students = list(
+    filter(
+        lambda student: student["marks"] >= 40,
+        students
+    )
+)
 
+updated_students = map(
+    lambda student: {
+        "name": student["name"],
+        "marks": student["marks"],
+        "bonus_marks": student["marks"] + 5
+    },
+    passed_students
+)
+
+print(list(updated_students))
 ```
-passed_students = list(filter(    lambda student: student["marks"] >= 40,    students))updated_students = map(    lambda student: {        "name": student["name"],        "marks": student["marks"],        "bonus_marks": student["marks"] + 5    },    passed_students)print(list(updated_students))
+
+## Step 5: Calculate Grades
+
+Grade criteria:
+
+| Marks | Grade |
+|---|---|
+| 90 and above | A+ |
+| 80–89 | A |
+| 70–79 | B |
+| 60–69 | C |
+| 40–59 | D |
+| Below 40 | Fail |
+
+```python
+def calculate_grade(marks):
+
+    if marks >= 90:
+        return "A+"
+
+    elif marks >= 80:
+        return "A"
+
+    elif marks >= 70:
+        return "B"
+
+    elif marks >= 60:
+        return "C"
+
+    elif marks >= 40:
+        return "D"
+
+    else:
+        return "Fail"
 ```
 
-Output:
+## Step 6: Complete Data Processing Program
 
-```
-[
-    {'name': 'Amit', 'marks': 85, 'bonus_marks': 90},
-    {'name': 'Priya', 'marks': 92, 'bonus_marks': 97},
-    {'name': 'Sneha', 'marks': 45, 'bonus_marks': 50},
-    {'name': 'Neha', 'marks': 75, 'bonus_marks': 80}
+```python
+students = [
+    {"name": "Amit", "marks": 85},
+    {"name": "Rahul", "marks": 35},
+    {"name": "Priya", "marks": 92},
+    {"name": "Sneha", "marks": 45},
+    {"name": "Vikas", "marks": 28},
+    {"name": "Neha", "marks": 75}
 ]
-```
 
-### Step 5: Calculate Grades Using map()
 
-Let's assign grades based on the final marks.
+# Function to calculate grade
+def calculate_grade(marks):
 
-| Marks        | Grade |
-| ------------ | ----- |
-| 90 and above | A+    |
-| 80–89        | A     |
-| 70–79        | B     |
-| 60–69        | C     |
-| 40–59        | D     |
-| Below 40     | Fail  |
+    if marks >= 90:
+        return "A+"
 
-```
-def calculate_grade(marks):    if marks >= 90:        return "A+"    elif marks >= 80:        return "A"    elif marks >= 70:        return "B"    elif marks >= 60:        return "C"    elif marks >= 40:        return "D"    else:        return "Fail"grades = map(    lambda student: calculate_grade(student["marks"]),    students)print(list(grades))
+    elif marks >= 80:
+        return "A"
+
+    elif marks >= 70:
+        return "B"
+
+    elif marks >= 60:
+        return "C"
+
+    elif marks >= 40:
+        return "D"
+
+    else:
+        return "Fail"
+
+
+# Step 1: Filter passed students
+passed_students = filter(
+    lambda student: student["marks"] >= 40,
+    students
+)
+
+
+# Step 2: Add bonus marks
+updated_students = map(
+    lambda student: {
+        "name": student["name"],
+        "original_marks": student["marks"],
+        "final_marks": student["marks"] + 5
+    },
+    passed_students
+)
+
+
+# Step 3: Calculate grades
+final_result = map(
+    lambda student: {
+        **student,
+        "grade": calculate_grade(student["final_marks"])
+    },
+    updated_students
+)
+
+
+# Step 4: Display final report
+print("STUDENT RESULT REPORT")
+print("-" * 65)
+
+for index, student in enumerate(final_result, start=1):
+
+    print(
+        index,
+        student["name"],
+        student["original_marks"],
+        student["final_marks"],
+        student["grade"]
+    )
 ```
 
 Output:
 
-```
-['A', 'Fail', 'A+', 'D', 'Fail', 'B']
-```
-
-### Step 6: Complete Data Processing Pipeline
-
-Now let's combine `filter()` and `map()` in a single program.
-
-Business requirement:
-
-- Select students who scored at least 40 marks.
-- Add five bonus marks.
-- Calculate the final grade.
-- Display the final student report.
-
-```
-students = [    {"name": "Amit", "marks": 85},    {"name": "Rahul", "marks": 35},    {"name": "Priya", "marks": 92},    {"name": "Sneha", "marks": 45},    {"name": "Vikas", "marks": 28},    {"name": "Neha", "marks": 75}]# Function to calculate gradedef calculate_grade(marks):    if marks >= 90:        return "A+"    elif marks >= 80:        return "A"    elif marks >= 70:        return "B"    elif marks >= 60:        return "C"    elif marks >= 40:        return "D"    else:        return "Fail"# Step 1: Filter passed studentspassed_students = filter(    lambda student: student["marks"] >= 40,    students
-```
-
-Output:
-
-```
+```text
 STUDENT RESULT REPORT
 -----------------------------------------------------------------
 1 Amit 85 90 A+
@@ -892,250 +1250,331 @@ STUDENT RESULT REPORT
 4 Neha 75 80 A
 ```
 
-Understanding the complete pipeline:
+### Understanding the Data Processing Pipeline
 
+```text
 Original Student Dataset
-
-6 student records
-
-filter()
-
-Select students with marks >= 40
-
-map()
-
-Add 5 bonus marks
-
-map()
-
-Calculate final grades
-
-Final Result Report
-
-4 processed student records
-
-# PART 7: Real-World Practical Examples
-
-## 8. Practical Example 1 – Employee Salary Processing
-
-Problem statement:
-
-A company wants to increase employee salaries by 15% and display only employees whose updated salaries are greater than ₹40,000.
-
-### Complete Code
-
-```
-employees = [    {"name": "Amit", "salary": 25000},    {"name": "Rahul", "salary": 35000},    {"name": "Priya", "salary": 45000},    {"name": "Sneha", "salary": 55000},    {"name": "Vikas", "salary": 30000}]# Increase salary by 15%updated_employees = map(    lambda emp: {        "name": emp["name"],        "salary": emp["salary"] * 1.15    },    employees)# Filter salary greater than 40000filtered_employees = filter(    lambda emp: emp["salary"] > 40000,    updated_employees)# Display reportfor emp in filtered_employees:    print(emp)
+          |
+          v
+       filter()
+          |
+          v
+   Passed Students
+          |
+          v
+        map()
+          |
+          v
+     Add Bonus Marks
+          |
+          v
+        map()
+          |
+          v
+    Calculate Grades
+          |
+          v
+     enumerate()
+          |
+          v
+     Final Report
 ```
 
-Output:
+---
 
-```
-{'name': 'Priya', 'salary': 51750.0}
-{'name': 'Sneha', 'salary': 63250.0}
-```
+# 8. Real-World Practical Examples
 
-## 9. Practical Example 2 – Product Price Management
+## Practical 1: Employee Salary Processing
 
-Problem statement:
+Business Requirement:
 
-An online shopping company wants to:
+- Increase salary by 15%.
+- Filter employees with salaries above ₹40,000.
+- Display updated salary details.
 
-- Store product names and prices.
-- Increase product prices by 10%.
-- Filter products with updated prices above ₹1,000.
-- Display the final product report.
+```python
+employees = [
+    {"name": "Amit", "salary": 25000},
+    {"name": "Rahul", "salary": 35000},
+    {"name": "Priya", "salary": 45000},
+    {"name": "Sneha", "salary": 55000},
+    {"name": "Vikas", "salary": 30000}
+]
 
-```
-products = [    ("Laptop", 50000),    ("Mouse", 500),    ("Keyboard", 1500),    ("Monitor", 12000),    ("USB Cable", 200)]# Update product pricesupdated_products = map(    lambda p: (p[0], p[1] * 1.10),    products)# Filter products above 1000filtered_products = filter(    lambda p: p[1] > 1000,    updated_products)# Display resultfor product, price in filtered_products:    print(        f"Product: {product}, Updated Price: ₹{price:.2f}"    )
-```
 
-Output:
+# Increase salary by 15%
+updated_employees = map(
+    lambda emp: {
+        "name": emp["name"],
+        "salary": emp["salary"] * 1.15
+    },
+    employees
+)
 
-```
-Product: Laptop, Updated Price: ₹55000.00
-Product: Keyboard, Updated Price: ₹1650.00
-Product: Monitor, Updated Price: ₹13200.00
-```
 
-## 10. Practical Example 3 – Sales Data Analysis
+# Filter employees
+filtered_employees = filter(
+    lambda emp: emp["salary"] > 40000,
+    updated_employees
+)
 
-Problem statement:
 
-A company has recorded its daily sales. You need to:
+# Display result
+for emp in filtered_employees:
 
-- Increase each sales amount by 10%.
-- Filter sales greater than ₹5,000.
-- Display the sales with serial numbers.
-
-```
-sales = [2000, 4500, 6000, 8000, 3000, 10000, 12000]# Increase sales by 10%updated_sales = map(    lambda x: x * 1.10,    sales)# Filter sales above 5000filtered_sales = filter(    lambda x: x > 5000,    updated_sales)# Display reportfor index, amount in enumerate(filtered_sales, start=1):    print(f"Sale {index}: ₹{amount:.2f}")
-```
-
-Output:
-
-```
-Sale 1: ₹6600.00
-Sale 2: ₹8800.00
-Sale 3: ₹11000.00
-Sale 4: ₹13200.00
+    print(emp)
 ```
 
-# PART 8: Difference Between map(), filter(), zip() and enumerate()
+## Practical 2: Product Price Management
 
-## 11. Comparison Table
+```python
+products = [
+    ("Laptop", 50000),
+    ("Mouse", 500),
+    ("Keyboard", 1500),
+    ("Monitor", 12000),
+    ("USB Cable", 200)
+]
 
-| Function      | Purpose                           | Example        |
-| ------------- | --------------------------------- | -------------- |
-| `map()`       | Transform every element           | Square numbers |
-| `filter()`    | Select elements using a condition | Even numbers   |
-| `zip()`       | Combine multiple iterables        | Names + marks  |
-| `enumerate()` | Add index to elements             | Serial numbers |
-| `lambda`      | Create a short anonymous function | Addition       |
 
-### Quick Example
+# Increase prices by 10%
+updated_products = map(
+    lambda p: (p[0], p[1] * 1.10),
+    products
+)
 
+
+# Filter products above 1000
+filtered_products = filter(
+    lambda p: p[1] > 1000,
+    updated_products
+)
+
+
+# Display report
+for product, price in filtered_products:
+
+    print(
+        f"Product: {product}, Updated Price: ₹{price:.2f}"
+    )
 ```
-numbers = [1, 2, 3, 4, 5]# map()print(list(map(lambda x: x * 2, numbers)))# filter()print(list(filter(lambda x: x > 2, numbers)))# enumerate()print(list(enumerate(numbers)))# zip()names = ["Amit", "Rahul", "Priya"]marks = [85, 90, 95]print(list(zip(names, marks)))
+
+## Practical 3: Sales Data Analysis
+
+```python
+sales = [2000, 4500, 6000, 8000, 3000, 10000, 12000]
+
+
+# Increase sales by 10%
+updated_sales = map(
+    lambda x: x * 1.10,
+    sales
+)
+
+
+# Filter sales above 5000
+filtered_sales = filter(
+    lambda x: x > 5000,
+    updated_sales
+)
+
+
+# Display report
+for index, amount in enumerate(filtered_sales, start=1):
+
+    print(f"Sale {index}: ₹{amount:.2f}")
 ```
 
-Output:
+---
 
-```
-[2, 4, 6, 8, 10]
+# 9. Understanding Python Iterators
 
-[3, 4, 5]
+## 9.1 What is an Iterator?
 
-[(0, 1), (1, 2), (2, 3), (3, 4), (4, 5)]
+An iterator is an object that allows us to access elements one at a time.
 
-[('Amit', 85), ('Rahul', 90), ('Priya', 95)]
-```
-
-# PART 9: Important Concepts and Common Mistakes
-
-## 12. Understanding Iterators
-
-The `map()`, `filter()`, `zip()` and `enumerate()` functions return iterators.
-
-An iterator provides elements one at a time when requested.
+The map(), filter(), zip(), and enumerate() functions return iterators.
 
 Example:
 
-```
-numbers = [1, 2, 3, 4, 5]result = map(lambda x: x * 2, numbers)print(result)
+```python
+numbers = [1, 2, 3, 4, 5]
+
+result = map(lambda x: x * 2, numbers)
+
+print(result)
 ```
 
-Output (representation may vary):
+Output:
 
-```
+```text
 <map object at 0x...>
 ```
 
-Why don't we see the actual values?
+To display the actual values:
 
-Because `map()` returns an iterator rather than a list.
-
-To see the values:
-
-```
+```python
 print(list(result))
 ```
 
 Output:
 
-```
+```text
 [2, 4, 6, 8, 10]
 ```
 
-## 13. Important: Iterators Can Be Exhausted
+## 9.2 Iterator Exhaustion
 
-Once you consume an iterator, you cannot reuse it to retrieve the same values.
+Once an iterator is consumed, it cannot be reused to retrieve the same elements.
 
-```
-numbers = [1, 2, 3, 4]result = map(lambda x: x * 2, numbers)print(list(result))print(list(result))
+```python
+numbers = [1, 2, 3, 4]
+
+result = map(lambda x: x * 2, numbers)
+
+print(list(result))
+
+print(list(result))
 ```
 
 Output:
 
-```
+```text
 [2, 4, 6, 8]
 
 []
 ```
 
-The second result is empty because the iterator has already been consumed.
+The second output is empty because the iterator has already been consumed.
 
-Solution: Create a new iterator whenever you need to process the original data again, or store the results in a list.
+---
 
-## 14. map() vs List Comprehension
+# 10. map() vs filter() vs List Comprehension
 
-Both can transform data.
+### Using map()
 
-Using map():
+```python
+numbers = [1, 2, 3, 4, 5]
 
+result = list(map(lambda x: x * 2, numbers))
+
+print(result)
 ```
-numbers = [1, 2, 3, 4, 5]result = list(map(lambda x: x * 2, numbers))print(result)
-```
 
-Using list comprehension:
+### Using List Comprehension
 
-```
-numbers = [1, 2, 3, 4, 5]result = [x * 2 for x in numbers]print(result)
+```python
+numbers = [1, 2, 3, 4, 5]
+
+result = [x * 2 for x in numbers]
+
+print(result)
 ```
 
 Both produce:
 
-```
+```text
 [2, 4, 6, 8, 10]
 ```
 
-Which one should you use?
+### Comparison
 
-- Use `map()` when applying an existing function to every element.
-- Use list comprehension when transformation and filtering are easier to understand together.
-- Choose readability rather than assuming one is always faster.
+| Feature | map() | filter() | List Comprehension |
+|---|---|---|---|
+| Main purpose | Transform data | Filter data | Transform/filter data |
+| Returns | Iterator | Iterator | List |
+| Lambda support | Yes | Yes | Optional |
+| Condition support | Possible in function | Yes | Yes |
+| Best use | Applying a function | Selecting records | Readable transformations |
 
-# PART 10: Practice Exercises for Students
+---
 
-Hands-on Practice
+# 11. Common Mistakes
 
-Try solving these exercises yourself before checking the solutions.
+### Mistake 1: Forgetting list()
+
+```python
+numbers = [1, 2, 3]
+
+result = map(lambda x: x * 2, numbers)
+
+print(result)
+```
+
+This displays a map object, not the actual values.
+
+Correct:
+
+```python
+print(list(result))
+```
+
+### Mistake 2: Using Assignment Instead of Comparison
+
+Incorrect:
+
+```python
+filter(lambda x: x = 10, numbers)
+```
+
+Correct:
+
+```python
+filter(lambda x: x == 10, numbers)
+```
+
+### Mistake 3: Reusing an Exhausted Iterator
+
+Create a new iterator or store the results in a list before reusing the data.
+
+### Mistake 4: Using map() When filter() Is Required
+
+Use map() to transform values and filter() to select values.
+
+### Mistake 5: Different Lengths in zip()
+
+Remember that zip() stops at the shortest iterable unless you use zip_longest().
+
+---
+
+# 12. Practice Exercises
 
 ## Exercise 1: Lambda Function
 
-Create a lambda function to calculate:
-
-1. Square of a number.
-2. Cube of a number.
-3. Addition of two numbers.
-4. Check whether a number is positive or negative.
-5. Find the largest of two numbers.
+1. Create a lambda function to calculate the square of a number.
+2. Create a lambda function to calculate the cube of a number.
+3. Create a lambda function to add two numbers.
+4. Check whether a number is even or odd.
+5. Find the maximum of two numbers.
+6. Convert a string into uppercase.
+7. Calculate the length of a string.
 
 ## Exercise 2: map() Function
 
-Given the following list:
+Given:
 
-```
+```python
 numbers = [10, 20, 30, 40, 50]
 ```
 
-Perform these operations:
+Perform:
 
 1. Multiply every number by 2.
 2. Calculate the square of every number.
-3. Convert all numbers into strings.
+3. Convert every number into a string.
 4. Add 100 to every number.
-5. Calculate 18% GST on every price.
+5. Calculate 18% GST on each price.
+6. Convert Celsius into Fahrenheit.
 
 ## Exercise 3: filter() Function
 
-Given the following list:
+Given:
 
-```
+```python
 numbers = [12, 15, 20, 25, 30, 35, 40, 45, 50]
 ```
 
-Perform these operations:
+Perform:
 
 1. Extract even numbers.
 2. Extract odd numbers.
@@ -1145,171 +1584,335 @@ Perform these operations:
 
 ## Exercise 4: zip() Function
 
-Create three lists:
+Create:
 
-```
-names = ["Amit", "Rahul", "Priya", "Sneha"]marks = [85, 90, 75, 95]subjects = ["Python", "Java", "SQL", "MongoDB"]
+```python
+names = ["Amit", "Rahul", "Priya", "Sneha"]
+
+marks = [85, 90, 75, 95]
+
+subjects = ["Python", "Java", "SQL", "MongoDB"]
 ```
 
-Perform these operations:
+Perform:
 
 1. Combine names and marks.
 2. Combine all three lists.
 3. Create a dictionary using names and marks.
 4. Display each student's name and subject.
+5. Handle lists with different lengths.
 
 ## Exercise 5: enumerate() Function
 
 Given:
 
-```
-courses = [    "Python",    "Java",    "Machine Learning",    "Data Science",    "SQL"]
+```python
+courses = [
+    "Python",
+    "Java",
+    "Machine Learning",
+    "Data Science",
+    "SQL"
+]
 ```
 
-Perform these operations:
+Perform:
 
-1. Display each course with an index.
+1. Display courses with indexes.
 2. Start indexing from 1.
-3. Display only courses at even indexes.
+3. Display courses at even indexes.
 4. Generate a numbered course list.
 
-## Exercise 6: Data Processing Project
+## Exercise 6: Combined Data Processing
 
-Student Performance Analysis
-
-Create a Python program that:
+Create a student management program that:
 
 1. Stores 10 student records.
-2. Extracts student marks using `map()`.
-3. Filters students who scored 50 or above using `filter()`.
-4. Adds 5 bonus marks to passed students using `map()`.
+2. Extracts marks using map().
+3. Filters students who scored at least 50.
+4. Adds 5 bonus marks using map().
 5. Calculates grades.
-6. Displays the final result using `enumerate()`.
-7. Combines student names and grades using `zip()`.
+6. Displays the report using enumerate().
+7. Combines student names and grades using zip().
 
-# PART 11: Solutions to Selected Exercises
+---
 
-## Solution 1: Lambda Functions
+# 13. Exercise Solutions
 
-```
-# Squaresquare = lambda x: x ** 2# Cubecube = lambda x: x ** 3# Additionadd = lambda a, b: a + b# Positive or Negativecheck = lambda x: "Positive" if x >= 0 else "Negative"# Largest numbermaximum = lambda a, b: a if a > b else bprint(square(5))print(cube(3))print(add(10, 20))print(check(-5))print(maximum(10, 20))
-```
+## Solution 1: Lambda
 
-Output:
+```python
+square = lambda x: x ** 2
 
-```
-25
-27
-30
-Negative
-20
+cube = lambda x: x ** 3
+
+add = lambda a, b: a + b
+
+check = lambda x: "Even" if x % 2 == 0 else "Odd"
+
+maximum = lambda a, b: a if a > b else b
+
+uppercase = lambda name: name.upper()
+
+length = lambda name: len(name)
+
+
+print(square(5))
+print(cube(3))
+print(add(10, 20))
+print(check(10))
+print(maximum(10, 20))
+print(uppercase("python"))
+print(length("Pankaj"))
 ```
 
 ## Solution 2: map()
 
-```
-numbers = [10, 20, 30, 40, 50]# Multiply by 2print(list(map(lambda x: x * 2, numbers)))# Squareprint(list(map(lambda x: x ** 2, numbers)))# Convert into stringsprint(list(map(str, numbers)))# Add 100print(list(map(lambda x: x + 100, numbers)))# Calculate GSTprint(list(map(lambda x: x * 0.18, numbers)))
+```python
+numbers = [10, 20, 30, 40, 50]
+
+# Multiply by 2
+print(list(map(lambda x: x * 2, numbers)))
+
+# Square
+print(list(map(lambda x: x ** 2, numbers)))
+
+# Convert to string
+print(list(map(str, numbers)))
+
+# Add 100
+print(list(map(lambda x: x + 100, numbers)))
+
+# GST calculation
+print(list(map(lambda x: x * 0.18, numbers)))
 ```
 
 ## Solution 3: filter()
 
-```
-numbers = [12, 15, 20, 25, 30, 35, 40, 45, 50]# Even numbersprint(list(filter(lambda x: x % 2 == 0, numbers)))# Odd numbersprint(list(filter(lambda x: x % 2 != 0, numbers)))# Greater than 25print(list(filter(lambda x: x > 25, numbers)))# Divisible by 5print(list(filter(lambda x: x % 5 == 0, numbers)))# Between 20 and 40print(list(filter(lambda x: 20 <= x <= 40, numbers)))
+```python
+numbers = [12, 15, 20, 25, 30, 35, 40, 45, 50]
+
+# Even numbers
+print(list(filter(lambda x: x % 2 == 0, numbers)))
+
+# Odd numbers
+print(list(filter(lambda x: x % 2 != 0, numbers)))
+
+# Greater than 25
+print(list(filter(lambda x: x > 25, numbers)))
+
+# Divisible by 5
+print(list(filter(lambda x: x % 5 == 0, numbers)))
+
+# Between 20 and 40
+print(list(filter(lambda x: 20 <= x <= 40, numbers)))
 ```
 
 ## Solution 4: zip()
 
-```
-names = ["Amit", "Rahul", "Priya", "Sneha"]marks = [85, 90, 75, 95]subjects = ["Python", "Java", "SQL", "MongoDB"]# Combine names and marksprint(list(zip(names, marks)))# Combine three listsprint(list(zip(names, marks, subjects)))# Create dictionaryprint(dict(zip(names, marks)))# Display name and subjectfor name, subject in zip(names, subjects):    print(name, subject)
+```python
+names = ["Amit", "Rahul", "Priya", "Sneha"]
+
+marks = [85, 90, 75, 95]
+
+subjects = ["Python", "Java", "SQL", "MongoDB"]
+
+# Combine names and marks
+print(list(zip(names, marks)))
+
+# Combine three lists
+print(list(zip(names, marks, subjects)))
+
+# Dictionary
+print(dict(zip(names, marks)))
+
+# Display student and subject
+for name, subject in zip(names, subjects):
+    print(name, subject)
 ```
 
 ## Solution 5: enumerate()
 
+```python
+courses = [
+    "Python",
+    "Java",
+    "Machine Learning",
+    "Data Science",
+    "SQL"
+]
+
+# Start from 0
+for index, course in enumerate(courses):
+    print(index, course)
+
+# Start from 1
+for index, course in enumerate(courses, start=1):
+    print(index, course)
+
+# Even indexes
+for index, course in enumerate(courses):
+    if index % 2 == 0:
+        print(course)
 ```
-courses = [    "Python",    "Java",    "Machine Learning",    "Data Science",    "SQL"]# Index from 0for index, course in enumerate(courses):    print(index, course)# Index from 1for index, course in enumerate(courses, start=1):    print(index, course)# Courses at even indexesfor index, course in enumerate(courses):    if index % 2 == 0:        print(course)
-```
 
-# PART 12: Final Interview Questions
+---
 
-## 15. Frequently Asked Questions
+# 14. Mini Projects
 
-Q1. What is a lambda function in Python?
+## Project 1: Student Performance Management System
 
-A lambda function is an anonymous function created using the `lambda` keyword. It supports a single expression and returns its evaluated result.
+Requirements:
 
-Q2. What is the difference between lambda and def?
+- Store student names and marks.
+- Filter passed students.
+- Calculate grades.
+- Add bonus marks.
+- Generate a final result report.
 
-`def` creates a regular named function that can contain multiple statements, whereas `lambda` creates a small anonymous function with one expression.
+Concepts:
 
-Q3. What is the purpose of map()?
+- Lambda
+- map()
+- filter()
+- enumerate()
+- zip()
 
-`map()` applies a given function to every element of an iterable and returns an iterator.
+## Project 2: Employee Salary Management System
 
-Q4. What is the purpose of filter()?
+Requirements:
 
-`filter()` selects elements from an iterable based on a condition.
+- Store employee names and salaries.
+- Increase salary by 10%.
+- Filter employees earning above ₹40,000.
+- Sort employees by salary.
+- Generate an employee report.
 
-Q5. What is the difference between map() and filter()?
+Concepts:
 
-`map()` transforms elements, whereas `filter()` selects elements based on a condition.
+- Lambda
+- map()
+- filter()
+- zip()
+- enumerate()
 
-Q6. What does zip() do?
+## Project 3: E-Commerce Product Management
 
-`zip()` combines corresponding elements from multiple iterables into tuples.
+Requirements:
 
-Q7. What is enumerate()?
+- Store product names and prices.
+- Calculate GST.
+- Apply discounts.
+- Filter products based on price.
+- Generate a product report.
 
-`enumerate()` adds a counter to an iterable and returns index-element pairs.
+Concepts:
 
-Q8. What is the default starting index of enumerate()?
+- Lambda
+- map()
+- filter()
+- zip()
 
-The default starting index is 0.
+## Project 4: Sales Analysis System
 
-Q9. Can map() work with multiple lists?
+Requirements:
 
-Yes. `map()` accepts multiple iterables if the supplied function accepts the corresponding number of arguments.
+- Store daily sales.
+- Increase sales values by 10%.
+- Filter sales above ₹5,000.
+- Generate serial numbers.
+- Calculate total filtered sales.
 
-Q10. What happens when two lists have different lengths in zip()?
+Concepts:
 
-By default, `zip()` stops when the shortest iterable is exhausted.
+- Lambda
+- map()
+- filter()
+- enumerate()
 
-Q11. Can we use lambda with filter()?
+---
 
-Yes. Lambda functions are frequently used with `filter()` to write short filtering conditions.
+# 15. Interview Questions
 
-Q12. What is lazy evaluation in map() and filter()?
+1. What is a lambda function in Python?
+2. What is the difference between lambda and def?
+3. What is the purpose of map()?
+4. What is the purpose of filter()?
+5. What is the difference between map() and filter()?
+6. What does zip() do?
+7. What is enumerate()?
+8. What is the default starting index of enumerate()?
+9. Can map() accept multiple iterables?
+10. What happens when iterables have different lengths in zip()?
+11. What is zip_longest()?
+12. What is an iterator?
+13. What is lazy evaluation?
+14. Can lambda functions contain multiple statements?
+15. Can we use lambda with sorted()?
+16. What is the difference between map() and list comprehension?
+17. Why does map() return an iterator?
+18. Can filter() work without a lambda function?
+19. What happens when an iterator is exhausted?
+20. How can map() and filter() be combined?
 
-They produce iterators, so their elements are calculated when requested rather than all being stored immediately in a list.
+---
 
-# PART 13: Summary – Complete Revision
+# 16. Quick Revision
 
-| Topic           | Main Purpose                  | Example                             |
-| --------------- | ----------------------------- | ----------------------------------- |
-| Lambda          | Anonymous function            | `lambda x: x * 2`                   |
-| map()           | Transform data                | `map(str, numbers)`                 |
-| filter()        | Filter data                   | `filter(lambda x: x > 10, numbers)` |
-| zip()           | Combine data                  | `zip(names, marks)`                 |
-| enumerate()     | Add index                     | `enumerate(names, start=1)`         |
-| Data Processing | Transform and filter datasets | `map()` + `filter()`                |
+| Topic | Purpose | Example |
+|---|---|---|
+| Lambda | Anonymous function | `lambda x: x * 2` |
+| map() | Transform data | `map(str, numbers)` |
+| filter() | Select data | `filter(lambda x: x > 10, numbers)` |
+| zip() | Combine iterables | `zip(names, marks)` |
+| enumerate() | Generate indexes | `enumerate(names, start=1)` |
 
 ## Recommended Learning Order
 
 1. Lambda Function
-
-   Learn anonymous functions and expressions.
 2. map() Function
-
-   Learn how to transform every element.
 3. filter() Function
-
-   Learn how to select records based on conditions.
 4. zip() Function
-
-   Learn how to combine multiple datasets.
 5. enumerate() Function
+6. Python Iterators
+7. Data Processing Using map() and filter()
+8. Real-World Projects
 
-   Learn how to generate indexes and serial numbers.
-6. Real-World Data Processing
+---
 
-   Combine all concepts in practical projects.
+# 17. Conclusion
 
+In this tutorial, we learned how to use Python's functional programming features to transform, filter, combine, and process data.
+
+These functions are especially useful in:
+
+- Python Development
+- Data Analytics
+- Data Science
+- Machine Learning
+- Automation
+- Data Cleaning
+- Real-World Business Applications
+
+Practice each example and complete the mini projects to strengthen your Python programming skills.
+
+---
+
+## Author
+
+**Pankaj Chouhan**
+
+Senior IT Trainer | Python Developer | Data Science & Machine Learning Mentor
+
+**Website:** https://www.codeswithpankaj.com
+
+**YouTube:** https://www.youtube.com/@CodesWithPankaj.official
+
+**Instagram:** https://www.instagram.com/codeswithpankaj/
+
+---
+
+
+**Happy Learning & Keep Coding!**
+
+⭐ Don't forget to Star the Repository!
