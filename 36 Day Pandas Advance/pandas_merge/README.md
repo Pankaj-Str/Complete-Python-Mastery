@@ -24,4 +24,3 @@
 22. Real-world customer and sales analysis project
 23. Common mistakes and best practices with `pandas.merge()`
 
-Practical outcome: Students will learn how to combine customer and order datasets, identify unmatched records, analyze sales, calculate customer order totals, and generate reports using Pandas.
