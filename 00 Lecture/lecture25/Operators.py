@@ -1,66 +1,137 @@
-# Arithmetic Operators
+# Python Operators
 
-x = 123
-y = 9
-print(x + y)
-print(x - y)
-print(x * y)
-print(x / y)
-print(x // y)
-print(x % y)
-print(x ** 5)
+a = 10
+b = 3
 
+# 1. Arithmetic Operators
 
-# Comparison Operators (Checking Things)
+print("Arithmetic Operators")
 
-print(23 == 34)
-print(23 != 45)
-print(45 < 67)
-print(34 > 16)
-print(30 <= 67)
-print(34 >= 15)
+print(a + b)    # Addition
+print(a - b)    # Subtraction
+print(a * b)    # Multiplication
+print(a / b)    # Division
+print(a // b)   # Floor Division
+print(a % b)    # Modulus
+print(a ** b)   # Exponentiation
 
 
-# Logical Operators
-# and
-print(45 < 90 and 67 != 67)
-# or
-print(45 < 90 or 67 != 67)
-# not
-print(not 34 == 34)
+# 2. Assignment Operators
 
-# Membership Operators
-# in
-data = "CWPC"
-print('C' in data)
-# not in
-print('z' not in data)
+print("\nAssignment Operators")
 
-x1 = "CWPC"
-x2 = "CWP"
-# is
-print(x1 is x2)
-# is not
-print(x1 is not x2)
+x = 10
 
+x += 5
+print(x)
 
+x -= 2
+print(x)
 
+x *= 2
+print(x)
 
+x /= 2
+print(x)
 
+x //= 2
+print(x)
 
+x %= 3
+print(x)
 
+x **= 2
+print(x)
 
 
+# 3. Comparison Operators
+
+print("\nComparison Operators")
+
+a = 10
+b = 5
+
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
 
 
+# 4. Logical Operators
+
+print("\nLogical Operators")
+
+age = 25
+salary = 50000
+
+print(age >= 18 and salary >= 30000)
+print(age >= 18 or salary >= 60000)
+print(not(age >= 18))
 
 
+# 5. Bitwise Operators
+
+print("\nBitwise Operators")
+
+a = 10
+b = 3
+
+print(a & b)    # AND
+print(a | b)    # OR
+print(a ^ b)    # XOR
+print(~a)       # NOT
+print(a << 1)   # Left Shift
+print(a >> 1)   # Right Shift
 
 
+# 6. Membership Operators
+
+print("\nMembership Operators")
+
+languages = ["Python", "Java", "C++"]
+
+print("Python" in languages)
+print("PHP" not in languages)
 
 
+# 7. Identity Operators
+
+print("\nIdentity Operators")
+
+list1 = [10, 20, 30]
+list2 = [10, 20, 30]
+list3 = list1
+
+print(list1 is list2)
+print(list1 is list3)
+
+print(list1 == list2)
+print(list1 is not list2)
 
 
+# 8. Assignment Bitwise Operators
 
+print("\nBitwise Assignment Operators")
 
+x = 10
 
+x &= 3
+print(x)
+
+x = 10
+x |= 3
+print(x)
+
+x = 10
+x ^= 3
+print(x)
+
+x = 10
+x <<= 1
+print(x)
+
+x = 10
+x >>= 1
+print(x)
